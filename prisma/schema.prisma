@@ -1,0 +1,13 @@
+// EduVerse Prisma schema.
+// The full data model (Phase 2 + 2.5B) is applied via SQL migrations in
+// database/. Models are introduced module-by-module in later batches; this
+// file establishes the generator and datasource the application connects with.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}

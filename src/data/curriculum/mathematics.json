@@ -1,0 +1,900 @@
+{
+  "subject": "mathematics",
+  "node_types": ["category", "chapter", "topic"],
+  "notes": "Subject-agnostic shape: any future subject (chemistry, biology, cs...) uses this exact structure. Keys: level = category level tag; d = lesson difficulty 1-5; min = estimated study minutes; sub = lesson subtopics (become the lesson's section outline); prereq = chapter-level prerequisite chapters. Slugs are derived from titles by the build script.",
+  "categories": [
+    {
+      "title": "Number Foundations",
+      "level": "beginner",
+      "chapters": [
+        {
+          "title": "Whole Numbers and Arithmetic",
+          "prereq": [],
+          "topics": [
+            {"title": "Place Value and Number Systems", "lessons": [
+              {"title": "Understanding Place Value", "d": 1, "min": 30, "sub": ["Digits and positions", "Expanded form", "Comparing and ordering numbers", "Rounding"]},
+              {"title": "Roman Numerals and Historical Number Systems", "d": 1, "min": 30, "sub": ["Roman numerals", "Babylonian and Egyptian systems", "Why positional notation won"]}
+            ]},
+            {"title": "The Four Operations", "lessons": [
+              {"title": "Addition and Subtraction", "d": 1, "min": 35, "sub": ["Column methods", "Borrowing and carrying", "Mental strategies", "Word problems"]},
+              {"title": "Multiplication and Division", "d": 1, "min": 40, "sub": ["Times tables", "Long multiplication", "Long division", "Remainders"]},
+              {"title": "Order of Operations", "d": 1, "min": 30, "sub": ["BODMAS/PEMDAS", "Brackets and nesting", "Common mistakes"]}
+            ]},
+            {"title": "Estimation and Number Sense", "lessons": [
+              {"title": "Estimation and Approximation", "d": 1, "min": 30, "sub": ["Rounding strategies", "Front-end estimation", "Checking reasonableness"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Fractions and Decimals",
+          "prereq": ["Whole Numbers and Arithmetic"],
+          "topics": [
+            {"title": "Understanding Fractions", "lessons": [
+              {"title": "Fractions as Parts of a Whole", "d": 1, "min": 35, "sub": ["Numerator and denominator", "Equivalent fractions", "Simplifying", "Comparing fractions"]},
+              {"title": "Mixed Numbers and Improper Fractions", "d": 1, "min": 30, "sub": ["Conversion both ways", "Fractions on the number line"]}
+            ]},
+            {"title": "Operations with Fractions", "lessons": [
+              {"title": "Adding and Subtracting Fractions", "d": 2, "min": 40, "sub": ["Common denominators", "LCD method", "Mixed number arithmetic"]},
+              {"title": "Multiplying and Dividing Fractions", "d": 2, "min": 40, "sub": ["Multiplication rule", "Reciprocals", "Division as multiply-by-reciprocal", "Fraction of a quantity"]}
+            ]},
+            {"title": "Decimals", "lessons": [
+              {"title": "Decimal Notation and Operations", "d": 1, "min": 40, "sub": ["Decimal place value", "Four operations with decimals", "Rounding decimals"]},
+              {"title": "Fractions, Decimals and Recurring Decimals", "d": 2, "min": 35, "sub": ["Converting fractions to decimals", "Terminating vs recurring", "Converting recurring decimals to fractions"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Percentages, Ratio and Proportion",
+          "prereq": ["Fractions and Decimals"],
+          "topics": [
+            {"title": "Percentages", "lessons": [
+              {"title": "Understanding Percentages", "d": 1, "min": 35, "sub": ["Percent as per-hundred", "Fraction-decimal-percent triangle", "Percentage of a quantity"]},
+              {"title": "Percentage Change and Applications", "d": 2, "min": 40, "sub": ["Increase and decrease", "Reverse percentages", "Simple interest", "Discounts and tax"]}
+            ]},
+            {"title": "Ratio and Proportion", "lessons": [
+              {"title": "Ratios", "d": 2, "min": 35, "sub": ["Writing and simplifying ratios", "Dividing in a ratio", "Scale and maps"]},
+              {"title": "Direct and Inverse Proportion", "d": 2, "min": 40, "sub": ["Unitary method", "Direct proportion", "Inverse proportion", "Proportional reasoning problems"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Exponents, Roots and Scientific Notation",
+          "prereq": ["Whole Numbers and Arithmetic"],
+          "topics": [
+            {"title": "Powers and Roots", "lessons": [
+              {"title": "Exponents and the Laws of Indices", "d": 2, "min": 40, "sub": ["Repeated multiplication", "Product/quotient/power rules", "Zero and negative exponents"]},
+              {"title": "Square Roots and Cube Roots", "d": 2, "min": 35, "sub": ["Perfect squares and cubes", "Estimating roots", "Irrational numbers preview"]}
+            ]},
+            {"title": "Scientific Notation", "lessons": [
+              {"title": "Standard Form", "d": 2, "min": 30, "sub": ["Large and small numbers", "Operations in standard form", "Significant figures"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Measurement and Units",
+          "prereq": ["Fractions and Decimals"],
+          "topics": [
+            {"title": "Units and Conversion", "lessons": [
+              {"title": "Metric and Imperial Units", "d": 1, "min": 30, "sub": ["Length, mass, volume, time", "Unit conversion", "Compound units (speed, density)"]}
+            ]},
+            {"title": "Perimeter, Area and Volume Basics", "lessons": [
+              {"title": "Perimeter and Area of Basic Shapes", "d": 1, "min": 40, "sub": ["Rectangles and triangles", "Composite shapes", "Units of area"]},
+              {"title": "Volume and Surface Area Basics", "d": 2, "min": 40, "sub": ["Cuboids", "Prisms", "Units of volume and capacity"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pre-Algebra",
+      "level": "beginner",
+      "chapters": [
+        {
+          "title": "Integers and Rational Numbers",
+          "prereq": ["Whole Numbers and Arithmetic"],
+          "topics": [
+            {"title": "Negative Numbers", "lessons": [
+              {"title": "Integers and the Number Line", "d": 1, "min": 35, "sub": ["Ordering integers", "Absolute value", "Adding and subtracting integers"]},
+              {"title": "Multiplying and Dividing Integers", "d": 2, "min": 30, "sub": ["Sign rules", "Powers of negative numbers", "Real-life contexts (temperature, debt)"]}
+            ]},
+            {"title": "The Rational Number System", "lessons": [
+              {"title": "Rational and Irrational Numbers", "d": 2, "min": 35, "sub": ["Classifying real numbers", "Density of rationals", "Famous irrationals: root 2, pi"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Factors, Multiples and Primes",
+          "prereq": ["Whole Numbers and Arithmetic"],
+          "topics": [
+            {"title": "Divisibility and Primes", "lessons": [
+              {"title": "Factors, Multiples and Divisibility Rules", "d": 1, "min": 35, "sub": ["Listing factors", "Divisibility tests", "Common factors and multiples"]},
+              {"title": "Prime Numbers and Prime Factorization", "d": 2, "min": 40, "sub": ["Sieve of Eratosthenes", "Factor trees", "Fundamental theorem of arithmetic (informal)"]}
+            ]},
+            {"title": "HCF and LCM", "lessons": [
+              {"title": "Highest Common Factor and Lowest Common Multiple", "d": 2, "min": 35, "sub": ["Prime factor method", "Venn diagram method", "Word problems"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Introduction to Algebraic Thinking",
+          "prereq": ["Integers and Rational Numbers"],
+          "topics": [
+            {"title": "Variables and Expressions", "lessons": [
+              {"title": "From Arithmetic to Algebra", "d": 2, "min": 40, "sub": ["Letters as numbers", "Writing expressions", "Substitution", "Like terms"]},
+              {"title": "Simplifying Expressions", "d": 2, "min": 35, "sub": ["Collecting like terms", "Expanding single brackets", "Simple factorizing"]}
+            ]},
+            {"title": "Simple Equations", "lessons": [
+              {"title": "Solving One-Step and Two-Step Equations", "d": 2, "min": 40, "sub": ["Balance model", "Inverse operations", "Checking solutions", "Forming equations from words"]}
+            ]}
+          ]
+        },
+        {
+          "title": "The Coordinate Plane and Data Basics",
+          "prereq": ["Integers and Rational Numbers"],
+          "topics": [
+            {"title": "Coordinates", "lessons": [
+              {"title": "The Cartesian Plane", "d": 1, "min": 30, "sub": ["Axes and quadrants", "Plotting points", "Simple straight-line patterns"]}
+            ]},
+            {"title": "Reading and Drawing Graphs", "lessons": [
+              {"title": "Charts, Tables and Graphs", "d": 1, "min": 35, "sub": ["Bar charts and pictograms", "Line graphs", "Reading pie charts", "Misleading graphs"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Algebra",
+      "level": "intermediate",
+      "chapters": [
+        {
+          "title": "Linear Equations and Inequalities",
+          "prereq": ["Introduction to Algebraic Thinking"],
+          "topics": [
+            {"title": "Linear Equations", "lessons": [
+              {"title": "Solving Linear Equations", "d": 2, "min": 45, "sub": ["Variables on both sides", "Brackets and fractions in equations", "Literal equations"]},
+              {"title": "Word Problems with Linear Equations", "d": 3, "min": 45, "sub": ["Translation strategies", "Age, money and mixture problems", "Consecutive number problems"]}
+            ]},
+            {"title": "Inequalities", "lessons": [
+              {"title": "Linear Inequalities", "d": 2, "min": 40, "sub": ["Inequality notation", "Solving and sign flips", "Number line and interval notation", "Compound inequalities"]}
+            ]},
+            {"title": "Simultaneous Equations", "lessons": [
+              {"title": "Systems of Linear Equations", "d": 3, "min": 50, "sub": ["Substitution", "Elimination", "Graphical interpretation", "Word problems with two unknowns"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Polynomials and Factoring",
+          "prereq": ["Linear Equations and Inequalities"],
+          "topics": [
+            {"title": "Polynomial Arithmetic", "lessons": [
+              {"title": "Polynomials: Add, Subtract, Multiply", "d": 2, "min": 40, "sub": ["Degree and terms", "Expanding double brackets", "Special products"]},
+              {"title": "Polynomial Division", "d": 3, "min": 45, "sub": ["Long division", "Synthetic division", "Remainder and factor theorems"]}
+            ]},
+            {"title": "Factoring", "lessons": [
+              {"title": "Factoring Techniques", "d": 3, "min": 50, "sub": ["Common factors", "Trinomials", "Difference of squares", "Grouping", "Sum/difference of cubes"]}
+            ]},
+            {"title": "Algebraic Fractions", "lessons": [
+              {"title": "Rational Expressions", "d": 3, "min": 45, "sub": ["Simplifying", "Four operations", "Restrictions on the domain"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Quadratic Equations",
+          "prereq": ["Polynomials and Factoring"],
+          "topics": [
+            {"title": "Solving Quadratics", "lessons": [
+              {"title": "Solving by Factoring and Square Roots", "d": 3, "min": 45, "sub": ["Zero product property", "Square root method", "Simple quadratic word problems"]},
+              {"title": "Completing the Square and the Quadratic Formula", "d": 3, "min": 55, "sub": ["Completing the square", "Deriving the quadratic formula", "The discriminant", "Nature of roots"]}
+            ]},
+            {"title": "Quadratic Functions and Graphs", "lessons": [
+              {"title": "Parabolas", "d": 3, "min": 50, "sub": ["Vertex form", "Axis of symmetry", "Roots and intercepts", "Max/min applications"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Functions and Graphs",
+          "prereq": ["Quadratic Equations"],
+          "topics": [
+            {"title": "The Function Concept", "lessons": [
+              {"title": "What Is a Function?", "d": 3, "min": 45, "sub": ["Mappings and machines", "Domain and range", "Function notation", "Vertical line test"]},
+              {"title": "Composite and Inverse Functions", "d": 3, "min": 50, "sub": ["Composition", "Invertibility", "Finding inverses", "Graphs of inverses"]}
+            ]},
+            {"title": "Graphing and Transformations", "lessons": [
+              {"title": "Families of Graphs", "d": 3, "min": 45, "sub": ["Linear, quadratic, cubic, reciprocal", "Piecewise functions", "Absolute value graphs"]},
+              {"title": "Graph Transformations", "d": 3, "min": 45, "sub": ["Translations", "Stretches", "Reflections", "Combining transformations"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Exponentials and Logarithms",
+          "prereq": ["Functions and Graphs"],
+          "topics": [
+            {"title": "Exponential Functions", "lessons": [
+              {"title": "Exponential Growth and Decay", "d": 3, "min": 45, "sub": ["Exponential functions", "Growth vs decay", "Compound interest", "The number e"]}
+            ]},
+            {"title": "Logarithms", "lessons": [
+              {"title": "Logarithms and Their Laws", "d": 3, "min": 50, "sub": ["Definition as inverse of exponentiation", "Log laws", "Change of base", "Natural logarithm"]},
+              {"title": "Exponential and Logarithmic Equations", "d": 4, "min": 50, "sub": ["Solving exponential equations", "Solving log equations", "Modeling applications", "Log scales (pH, decibels, Richter)"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Sequences and Series",
+          "prereq": ["Exponentials and Logarithms"],
+          "topics": [
+            {"title": "Arithmetic and Geometric Sequences", "lessons": [
+              {"title": "Arithmetic Sequences and Series", "d": 3, "min": 45, "sub": ["nth term", "Sum formulas", "Gauss's trick", "Applications"]},
+              {"title": "Geometric Sequences and Series", "d": 3, "min": 45, "sub": ["Common ratio", "Sum of n terms", "Infinite geometric series", "Recurring decimals revisited"]}
+            ]},
+            {"title": "Other Sequences", "lessons": [
+              {"title": "Recursive and Special Sequences", "d": 3, "min": 40, "sub": ["Recurrence relations", "Fibonacci and the golden ratio", "Sigma notation"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Geometry",
+      "level": "intermediate",
+      "chapters": [
+        {
+          "title": "Foundations, Lines and Angles",
+          "prereq": ["Measurement and Units"],
+          "topics": [
+            {"title": "Geometric Foundations", "lessons": [
+              {"title": "Points, Lines, Planes and Angles", "d": 1, "min": 35, "sub": ["Basic objects and notation", "Angle types", "Measuring angles", "Euclid and axiomatic thinking"]},
+              {"title": "Angle Relationships", "d": 2, "min": 40, "sub": ["Angles at a point and on a line", "Vertically opposite angles", "Parallel lines: alternate, corresponding, co-interior"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Triangles and Congruence",
+          "prereq": ["Foundations, Lines and Angles"],
+          "topics": [
+            {"title": "Triangle Properties", "lessons": [
+              {"title": "Triangles and Their Angles", "d": 2, "min": 40, "sub": ["Classification", "Angle sum proof", "Exterior angle theorem", "Triangle inequality"]},
+              {"title": "The Pythagorean Theorem", "d": 2, "min": 45, "sub": ["Statement and proofs", "Pythagorean triples", "Converse", "Distance applications"]}
+            ]},
+            {"title": "Congruence and Similarity", "lessons": [
+              {"title": "Congruent Triangles", "d": 3, "min": 45, "sub": ["SSS, SAS, ASA, RHS", "Proof writing", "Using congruence"]},
+              {"title": "Similar Triangles and Scale", "d": 3, "min": 45, "sub": ["AA similarity", "Ratios of sides, areas, volumes", "Indirect measurement"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Quadrilaterals and Polygons",
+          "prereq": ["Triangles and Congruence"],
+          "topics": [
+            {"title": "Quadrilaterals", "lessons": [
+              {"title": "The Quadrilateral Family", "d": 2, "min": 40, "sub": ["Parallelogram, rectangle, rhombus, square, trapezium, kite", "Properties and hierarchy", "Diagonal properties"]}
+            ]},
+            {"title": "Polygons", "lessons": [
+              {"title": "Interior and Exterior Angles of Polygons", "d": 2, "min": 35, "sub": ["Angle sum formulas", "Regular polygons", "Tessellations"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Circles",
+          "prereq": ["Triangles and Congruence"],
+          "topics": [
+            {"title": "Circle Basics", "lessons": [
+              {"title": "Parts of a Circle, Circumference and Area", "d": 2, "min": 40, "sub": ["Radius, diameter, chord, arc, sector", "Pi and its history", "Arc length and sector area"]}
+            ]},
+            {"title": "Circle Theorems", "lessons": [
+              {"title": "Circle Theorems and Proofs", "d": 4, "min": 55, "sub": ["Angle at center", "Angles in same segment", "Cyclic quadrilaterals", "Tangent properties", "Alternate segment theorem"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Mensuration",
+          "prereq": ["Circles"],
+          "topics": [
+            {"title": "Area and Volume of Solids", "lessons": [
+              {"title": "Prisms, Cylinders, Pyramids, Cones and Spheres", "d": 3, "min": 50, "sub": ["Surface area formulas", "Volume formulas", "Composite solids", "Derivation ideas (Cavalieri, Archimedes)"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Transformations and Symmetry",
+          "prereq": ["Foundations, Lines and Angles"],
+          "topics": [
+            {"title": "Transformations", "lessons": [
+              {"title": "Translation, Rotation, Reflection and Enlargement", "d": 2, "min": 45, "sub": ["Describing transformations", "Combined transformations", "Invariance"]},
+              {"title": "Symmetry", "d": 1, "min": 30, "sub": ["Line symmetry", "Rotational symmetry", "Symmetry in nature and art"]}
+            ]},
+            {"title": "Constructions and Loci", "lessons": [
+              {"title": "Ruler and Compass Constructions", "d": 2, "min": 40, "sub": ["Bisectors", "Standard constructions", "Loci problems", "Impossible constructions (history)"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Trigonometry",
+      "level": "intermediate",
+      "chapters": [
+        {
+          "title": "Right-Triangle Trigonometry",
+          "prereq": ["Triangles and Congruence"],
+          "topics": [
+            {"title": "Trigonometric Ratios", "lessons": [
+              {"title": "Sine, Cosine and Tangent", "d": 3, "min": 45, "sub": ["SOHCAHTOA", "Finding sides and angles", "Exact values for special angles"]},
+              {"title": "Angles of Elevation and Depression", "d": 3, "min": 40, "sub": ["Modeling with right triangles", "Bearings", "Multi-step problems"]}
+            ]}
+          ]
+        },
+        {
+          "title": "The Unit Circle and Identities",
+          "prereq": ["Right-Triangle Trigonometry"],
+          "topics": [
+            {"title": "The Unit Circle", "lessons": [
+              {"title": "Radians and the Unit Circle", "d": 3, "min": 50, "sub": ["Radian measure", "Extending trig to all angles", "CAST/quadrant signs", "Graphs of sin, cos, tan"]}
+            ]},
+            {"title": "Trigonometric Identities", "lessons": [
+              {"title": "Fundamental Identities", "d": 4, "min": 50, "sub": ["Pythagorean identities", "Reciprocal and quotient identities", "Proving identities"]},
+              {"title": "Compound and Double Angle Formulas", "d": 4, "min": 55, "sub": ["Addition formulas", "Double and half angle", "Product-to-sum", "R-form a sin x + b cos x"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Trigonometric Equations and Applications",
+          "prereq": ["The Unit Circle and Identities"],
+          "topics": [
+            {"title": "Solving Trig Equations", "lessons": [
+              {"title": "Trigonometric Equations", "d": 4, "min": 50, "sub": ["Principal values", "General solutions", "Equations requiring identities", "Inverse trig functions"]}
+            ]},
+            {"title": "Non-Right Triangles", "lessons": [
+              {"title": "Law of Sines and Law of Cosines", "d": 3, "min": 50, "sub": ["Sine rule and the ambiguous case", "Cosine rule", "Area formula", "Surveying applications"]}
+            ]},
+            {"title": "Periodic Modeling", "lessons": [
+              {"title": "Modeling with Trigonometric Functions", "d": 4, "min": 45, "sub": ["Amplitude, period, phase shift", "Tides, sound, seasons", "Fitting sinusoidal models"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Coordinate and Analytic Geometry",
+      "level": "intermediate",
+      "chapters": [
+        {
+          "title": "Straight Lines",
+          "prereq": ["The Coordinate Plane and Data Basics", "Linear Equations and Inequalities"],
+          "topics": [
+            {"title": "Equations of Lines", "lessons": [
+              {"title": "Gradient and Equation of a Line", "d": 2, "min": 45, "sub": ["Slope", "y = mx + c and general form", "Parallel and perpendicular lines", "Distance and midpoint"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Conic Sections",
+          "prereq": ["Straight Lines", "Quadratic Equations"],
+          "topics": [
+            {"title": "Circles and Parabolas", "lessons": [
+              {"title": "Equation of a Circle", "d": 3, "min": 45, "sub": ["Center-radius form", "Tangents to circles", "Intersections with lines"]},
+              {"title": "The Parabola as a Conic", "d": 4, "min": 45, "sub": ["Focus and directrix", "Standard forms", "Reflective property"]}
+            ]},
+            {"title": "Ellipses and Hyperbolas", "lessons": [
+              {"title": "Ellipse and Hyperbola", "d": 4, "min": 55, "sub": ["Foci and eccentricity", "Standard equations", "Asymptotes", "Orbits and applications"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Vectors",
+          "prereq": ["Straight Lines"],
+          "topics": [
+            {"title": "Vectors in Two and Three Dimensions", "lessons": [
+              {"title": "Vector Basics", "d": 3, "min": 45, "sub": ["Magnitude and direction", "Addition and scalar multiplication", "Position vectors", "Unit vectors"]},
+              {"title": "The Dot Product and Cross Product", "d": 4, "min": 50, "sub": ["Dot product and angles", "Projections", "Cross product and areas", "Geometric applications"]}
+            ]},
+            {"title": "Lines and Planes in 3D", "lessons": [
+              {"title": "Vector Equations of Lines and Planes", "d": 4, "min": 55, "sub": ["Parametric and vector forms", "Plane equations", "Intersections and angles", "Distances"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pre-Calculus",
+      "level": "advanced",
+      "chapters": [
+        {
+          "title": "Advanced Functions",
+          "prereq": ["Functions and Graphs", "Exponentials and Logarithms"],
+          "topics": [
+            {"title": "Polynomial and Rational Functions", "lessons": [
+              {"title": "Polynomial Functions and Their Graphs", "d": 4, "min": 50, "sub": ["End behavior", "Roots and multiplicity", "Fundamental theorem of algebra (statement)"]},
+              {"title": "Rational Functions and Asymptotes", "d": 4, "min": 50, "sub": ["Vertical/horizontal/oblique asymptotes", "Holes", "Sketching rational functions"]}
+            ]},
+            {"title": "Partial Fractions", "lessons": [
+              {"title": "Partial Fraction Decomposition", "d": 4, "min": 45, "sub": ["Distinct linear factors", "Repeated factors", "Irreducible quadratic factors"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Complex Numbers",
+          "prereq": ["Quadratic Equations"],
+          "topics": [
+            {"title": "Introduction to Complex Numbers", "lessons": [
+              {"title": "The Imaginary Unit and Complex Arithmetic", "d": 4, "min": 50, "sub": ["Why i exists", "Arithmetic and conjugates", "The Argand diagram", "History: Cardano to Gauss"]},
+              {"title": "Polar Form and De Moivre's Theorem", "d": 4, "min": 55, "sub": ["Modulus and argument", "Polar/exponential form", "De Moivre's theorem", "Roots of unity"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Matrices and Determinants",
+          "prereq": ["Linear Equations and Inequalities"],
+          "topics": [
+            {"title": "Matrix Algebra", "lessons": [
+              {"title": "Matrices: Operations and Inverses", "d": 3, "min": 50, "sub": ["Matrix arithmetic", "Identity and inverse", "2x2 determinants", "Solving systems with matrices"]},
+              {"title": "Matrices as Transformations", "d": 4, "min": 45, "sub": ["Linear transformations of the plane", "Rotation/reflection/scaling matrices", "Composition as multiplication"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Proof, Induction and the Binomial Theorem",
+          "prereq": ["Sequences and Series"],
+          "topics": [
+            {"title": "Mathematical Proof", "lessons": [
+              {"title": "Introduction to Proof", "d": 4, "min": 50, "sub": ["Direct proof", "Proof by contradiction", "Counterexamples", "Proof that root 2 is irrational"]},
+              {"title": "Mathematical Induction", "d": 4, "min": 55, "sub": ["The induction principle", "Sum formulas by induction", "Divisibility proofs", "Strong induction"]}
+            ]},
+            {"title": "The Binomial Theorem", "lessons": [
+              {"title": "Binomial Expansion", "d": 3, "min": 45, "sub": ["Pascal's triangle", "Binomial coefficients", "General term", "Approximations"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Calculus",
+      "level": "advanced",
+      "chapters": [
+        {
+          "title": "Limits and Continuity",
+          "prereq": ["Advanced Functions"],
+          "topics": [
+            {"title": "Limits", "lessons": [
+              {"title": "The Idea of a Limit", "d": 4, "min": 50, "sub": ["Intuitive limits", "One-sided limits", "Limit laws", "Limits at infinity"]},
+              {"title": "Evaluating Limits", "d": 4, "min": 50, "sub": ["Algebraic techniques", "Squeeze theorem", "Standard limits sin x / x", "Indeterminate forms"]}
+            ]},
+            {"title": "Continuity", "lessons": [
+              {"title": "Continuous Functions", "d": 4, "min": 45, "sub": ["Definition of continuity", "Types of discontinuity", "Intermediate value theorem"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Differentiation",
+          "prereq": ["Limits and Continuity"],
+          "topics": [
+            {"title": "The Derivative", "lessons": [
+              {"title": "Derivative from First Principles", "d": 4, "min": 55, "sub": ["Rate of change and tangents", "The difference quotient", "Differentiability vs continuity", "Newton vs Leibniz (history)"]},
+              {"title": "Differentiation Rules", "d": 4, "min": 55, "sub": ["Power, product, quotient rules", "Chain rule", "Trig, exponential, log derivatives", "Implicit differentiation"]}
+            ]},
+            {"title": "Higher Derivatives and Special Techniques", "lessons": [
+              {"title": "Higher Order and Special Derivatives", "d": 4, "min": 45, "sub": ["Second derivatives", "Logarithmic differentiation", "Parametric differentiation", "Related rates"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Applications of Derivatives",
+          "prereq": ["Differentiation"],
+          "topics": [
+            {"title": "Curve Analysis", "lessons": [
+              {"title": "Increasing, Decreasing and Extrema", "d": 4, "min": 50, "sub": ["Critical points", "First and second derivative tests", "Concavity and inflection", "Curve sketching"]}
+            ]},
+            {"title": "Optimization and Motion", "lessons": [
+              {"title": "Optimization Problems", "d": 4, "min": 55, "sub": ["Modeling strategy", "Geometric optimization", "Economic applications"]},
+              {"title": "Kinematics and Rates", "d": 4, "min": 45, "sub": ["Position, velocity, acceleration", "Related rates problems", "Linear approximation and differentials"]}
+            ]},
+            {"title": "Mean Value Theorems", "lessons": [
+              {"title": "Rolle's and the Mean Value Theorem", "d": 4, "min": 45, "sub": ["Statements and proofs", "Geometric meaning", "L'Hopital's rule"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Integration",
+          "prereq": ["Applications of Derivatives"],
+          "topics": [
+            {"title": "The Integral", "lessons": [
+              {"title": "Antiderivatives and the Indefinite Integral", "d": 4, "min": 50, "sub": ["Reverse differentiation", "Basic integral rules", "Initial value problems"]},
+              {"title": "The Definite Integral and the Fundamental Theorem", "d": 4, "min": 55, "sub": ["Riemann sums", "Area under curves", "FTC parts 1 and 2", "History of integration"]}
+            ]},
+            {"title": "Integration Techniques", "lessons": [
+              {"title": "Substitution and Integration by Parts", "d": 4, "min": 55, "sub": ["u-substitution", "Integration by parts", "Choosing techniques"]},
+              {"title": "Advanced Techniques", "d": 5, "min": 55, "sub": ["Trig integrals and substitutions", "Partial fractions in integration", "Improper integrals", "Reduction formulas"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Applications of Integration",
+          "prereq": ["Integration"],
+          "topics": [
+            {"title": "Geometric Applications", "lessons": [
+              {"title": "Areas and Volumes", "d": 4, "min": 55, "sub": ["Area between curves", "Volumes of revolution (disks, shells)", "Arc length", "Surface area"]}
+            ]},
+            {"title": "Physical and Other Applications", "lessons": [
+              {"title": "Integrals in Science and Beyond", "d": 4, "min": 45, "sub": ["Average value", "Work and center of mass", "Probability density preview", "Differential equations preview"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Infinite Series",
+          "prereq": ["Integration"],
+          "topics": [
+            {"title": "Convergence", "lessons": [
+              {"title": "Sequences and Series Convergence", "d": 5, "min": 55, "sub": ["Convergence of sequences", "Partial sums", "Divergence test", "Integral, comparison, ratio, root tests", "Alternating series"]}
+            ]},
+            {"title": "Power Series", "lessons": [
+              {"title": "Taylor and Maclaurin Series", "d": 5, "min": 60, "sub": ["Power series and radius of convergence", "Taylor's theorem", "Standard expansions", "Error bounds", "Euler's formula"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Multivariable and Vector Calculus",
+      "level": "university",
+      "chapters": [
+        {
+          "title": "Functions of Several Variables",
+          "prereq": ["Infinite Series", "Vectors"],
+          "topics": [
+            {"title": "Partial Derivatives", "lessons": [
+              {"title": "Surfaces, Limits and Partial Derivatives", "d": 5, "min": 60, "sub": ["Functions of two variables", "Level curves", "Partial derivatives", "The gradient", "Tangent planes"]},
+              {"title": "Optimization in Several Variables", "d": 5, "min": 60, "sub": ["Critical points and the Hessian", "Second derivative test", "Lagrange multipliers", "Applied optimization"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Multiple Integrals",
+          "prereq": ["Functions of Several Variables"],
+          "topics": [
+            {"title": "Double and Triple Integrals", "lessons": [
+              {"title": "Double Integrals", "d": 5, "min": 60, "sub": ["Iterated integrals", "Regions and order of integration", "Polar coordinates", "Applications: area, mass"]},
+              {"title": "Triple Integrals and Coordinate Systems", "d": 5, "min": 60, "sub": ["Triple integrals", "Cylindrical and spherical coordinates", "Change of variables and the Jacobian"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Vector Calculus",
+          "prereq": ["Multiple Integrals"],
+          "topics": [
+            {"title": "Vector Fields and Line Integrals", "lessons": [
+              {"title": "Vector Fields, Divergence and Curl", "d": 5, "min": 55, "sub": ["Visualizing vector fields", "Div and curl", "Conservative fields and potentials"]},
+              {"title": "Line and Surface Integrals", "d": 5, "min": 60, "sub": ["Line integrals of scalar and vector fields", "Work", "Parametrized surfaces", "Flux"]}
+            ]},
+            {"title": "The Big Theorems", "lessons": [
+              {"title": "Green's, Stokes' and the Divergence Theorem", "d": 5, "min": 65, "sub": ["Green's theorem", "Stokes' theorem", "Divergence theorem", "Unified view and physics applications"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Linear Algebra",
+      "level": "university",
+      "chapters": [
+        {
+          "title": "Systems, Matrices and Determinants",
+          "prereq": ["Matrices and Determinants"],
+          "topics": [
+            {"title": "Gaussian Elimination", "lessons": [
+              {"title": "Solving Linear Systems", "d": 4, "min": 55, "sub": ["Row reduction and echelon forms", "Rank", "Consistency and free variables", "LU idea"]}
+            ]},
+            {"title": "Determinants", "lessons": [
+              {"title": "Determinants in Depth", "d": 4, "min": 50, "sub": ["Cofactor expansion", "Properties", "Cramer's rule", "Geometric meaning: volume"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Vector Spaces",
+          "prereq": ["Systems, Matrices and Determinants"],
+          "topics": [
+            {"title": "Abstract Vector Spaces", "lessons": [
+              {"title": "Vector Spaces and Subspaces", "d": 5, "min": 55, "sub": ["Axioms", "Span and linear independence", "Basis and dimension", "Null space and column space"]},
+              {"title": "Linear Transformations", "d": 5, "min": 55, "sub": ["Definition and matrix representation", "Kernel and image", "Rank-nullity theorem", "Change of basis"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Eigenvalues and Eigenvectors",
+          "prereq": ["Vector Spaces"],
+          "topics": [
+            {"title": "Eigentheory", "lessons": [
+              {"title": "Eigenvalues, Eigenvectors and Diagonalization", "d": 5, "min": 60, "sub": ["Characteristic polynomial", "Eigenspaces", "Diagonalization", "Powers of matrices", "Markov chains"]},
+              {"title": "Symmetric Matrices and the Spectral Theorem", "d": 5, "min": 55, "sub": ["Orthogonal diagonalization", "Quadratic forms", "Positive definiteness", "SVD preview"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Inner Products and Applications",
+          "prereq": ["Eigenvalues and Eigenvectors"],
+          "topics": [
+            {"title": "Orthogonality", "lessons": [
+              {"title": "Inner Products and Orthogonality", "d": 5, "min": 55, "sub": ["Inner product spaces", "Gram-Schmidt", "Orthogonal projections", "Least squares"]}
+            ]},
+            {"title": "Applications of Linear Algebra", "lessons": [
+              {"title": "Linear Algebra in the Real World", "d": 4, "min": 45, "sub": ["Computer graphics", "PageRank", "Data and PCA idea", "Machine learning connections"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Differential Equations",
+      "level": "university",
+      "chapters": [
+        {
+          "title": "First Order Equations",
+          "prereq": ["Integration"],
+          "topics": [
+            {"title": "First Order ODEs", "lessons": [
+              {"title": "Separable and Linear First Order Equations", "d": 5, "min": 55, "sub": ["Modeling with ODEs", "Separation of variables", "Integrating factors", "Exact equations"]},
+              {"title": "Applications of First Order ODEs", "d": 4, "min": 50, "sub": ["Population growth and logistics", "Newton's cooling", "Mixing problems", "Direction fields"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Higher Order Linear Equations",
+          "prereq": ["First Order Equations"],
+          "topics": [
+            {"title": "Second Order Linear ODEs", "lessons": [
+              {"title": "Homogeneous Equations with Constant Coefficients", "d": 5, "min": 55, "sub": ["Characteristic equation", "Real, repeated, complex roots", "Oscillations and damping"]},
+              {"title": "Nonhomogeneous Equations", "d": 5, "min": 55, "sub": ["Undetermined coefficients", "Variation of parameters", "Forced oscillations and resonance"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Transforms and Systems",
+          "prereq": ["Higher Order Linear Equations"],
+          "topics": [
+            {"title": "Laplace Transforms", "lessons": [
+              {"title": "The Laplace Transform Method", "d": 5, "min": 60, "sub": ["Definition and standard transforms", "Inverse transforms", "Solving IVPs", "Step and impulse inputs"]}
+            ]},
+            {"title": "Systems and Qualitative Theory", "lessons": [
+              {"title": "Systems of ODEs and Phase Planes", "d": 5, "min": 60, "sub": ["Matrix methods", "Eigenvalue analysis", "Equilibria and stability", "Predator-prey models"]}
+            ]},
+            {"title": "Introduction to PDEs", "lessons": [
+              {"title": "Partial Differential Equations Preview", "d": 5, "min": 55, "sub": ["Heat, wave and Laplace equations", "Separation of variables", "Fourier series idea"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Probability and Combinatorics",
+      "level": "advanced",
+      "chapters": [
+        {
+          "title": "Counting Principles",
+          "prereq": ["Proof, Induction and the Binomial Theorem"],
+          "topics": [
+            {"title": "Combinatorics Basics", "lessons": [
+              {"title": "Permutations and Combinations", "d": 3, "min": 50, "sub": ["Multiplication principle", "Factorials", "Arrangements with restrictions", "Selections"]},
+              {"title": "Advanced Counting", "d": 4, "min": 50, "sub": ["Inclusion-exclusion", "Pigeonhole principle", "Stars and bars", "Derangements"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Probability Foundations",
+          "prereq": ["Counting Principles"],
+          "topics": [
+            {"title": "Basic Probability", "lessons": [
+              {"title": "Probability Rules and Sample Spaces", "d": 3, "min": 50, "sub": ["Outcomes and events", "Addition rule", "Complementary events", "Tree diagrams and tables"]},
+              {"title": "Conditional Probability and Bayes' Theorem", "d": 4, "min": 55, "sub": ["Conditional probability", "Independence", "Law of total probability", "Bayes' theorem and applications"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Random Variables and Distributions",
+          "prereq": ["Probability Foundations"],
+          "topics": [
+            {"title": "Discrete Random Variables", "lessons": [
+              {"title": "Discrete Distributions", "d": 4, "min": 55, "sub": ["PMFs, expectation, variance", "Binomial distribution", "Poisson distribution", "Geometric distribution"]}
+            ]},
+            {"title": "Continuous Random Variables", "lessons": [
+              {"title": "Continuous Distributions and the Normal Curve", "d": 4, "min": 55, "sub": ["PDFs and CDFs", "Uniform and exponential", "Normal distribution", "Central limit theorem (statement)"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Discrete Mathematics",
+      "level": "university",
+      "chapters": [
+        {
+          "title": "Logic and Proof",
+          "prereq": ["Proof, Induction and the Binomial Theorem"],
+          "topics": [
+            {"title": "Propositional and Predicate Logic", "lessons": [
+              {"title": "Logic Foundations", "d": 4, "min": 55, "sub": ["Propositions and connectives", "Truth tables", "Logical equivalence", "Quantifiers", "Arguments and validity"]}
+            ]},
+            {"title": "Set Theory and Relations", "lessons": [
+              {"title": "Sets, Relations and Functions", "d": 4, "min": 55, "sub": ["Set operations and Venn diagrams", "Cartesian products", "Equivalence relations", "Partial orders", "Countability and Cantor"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Graph Theory",
+          "prereq": ["Logic and Proof"],
+          "topics": [
+            {"title": "Graphs and Their Properties", "lessons": [
+              {"title": "Introduction to Graph Theory", "d": 4, "min": 55, "sub": ["Graphs, degrees, paths", "Eulerian and Hamiltonian paths", "Konigsberg bridges (history)", "Trees and spanning trees"]},
+              {"title": "Graph Algorithms and Coloring", "d": 4, "min": 50, "sub": ["Shortest paths idea", "Graph coloring", "Planarity and Euler's formula", "Four color theorem (story)"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Recurrences and Generating Functions",
+          "prereq": ["Graph Theory"],
+          "topics": [
+            {"title": "Recurrence Relations", "lessons": [
+              {"title": "Solving Recurrences", "d": 5, "min": 55, "sub": ["Linear recurrences", "Characteristic equation method", "Fibonacci closed form", "Generating functions intro"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Number Theory",
+      "level": "university",
+      "chapters": [
+        {
+          "title": "Divisibility and Congruences",
+          "prereq": ["Factors, Multiples and Primes", "Proof, Induction and the Binomial Theorem"],
+          "topics": [
+            {"title": "The Euclidean Algorithm", "lessons": [
+              {"title": "GCD and the Euclidean Algorithm", "d": 4, "min": 50, "sub": ["Division algorithm", "Euclidean and extended Euclidean algorithm", "Bezout's identity", "Linear Diophantine equations"]}
+            ]},
+            {"title": "Modular Arithmetic", "lessons": [
+              {"title": "Congruences", "d": 4, "min": 55, "sub": ["Modular arithmetic rules", "Modular inverses", "Chinese remainder theorem", "Divisibility tests explained"]},
+              {"title": "Fermat, Euler and Wilson", "d": 5, "min": 55, "sub": ["Fermat's little theorem", "Euler's totient and theorem", "Wilson's theorem", "Applications"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Primes and Cryptography",
+          "prereq": ["Divisibility and Congruences"],
+          "topics": [
+            {"title": "The Theory of Primes", "lessons": [
+              {"title": "Primes: Distribution and Mysteries", "d": 5, "min": 50, "sub": ["Infinitude of primes (Euclid's proof)", "Prime counting and PNT (statement)", "Twin primes and Goldbach (open problems)", "Mersenne and Fermat primes"]}
+            ]},
+            {"title": "Cryptographic Applications", "lessons": [
+              {"title": "Number Theory in Cryptography", "d": 5, "min": 55, "sub": ["Modular exponentiation", "Diffie-Hellman idea", "RSA step by step", "Why factoring is hard"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Real Analysis",
+      "level": "university",
+      "chapters": [
+        {
+          "title": "The Real Numbers and Sequences",
+          "prereq": ["Infinite Series", "Logic and Proof"],
+          "topics": [
+            {"title": "Construction of the Reals", "lessons": [
+              {"title": "The Real Number System", "d": 5, "min": 60, "sub": ["Field and order axioms", "Completeness and suprema", "Archimedean property", "Density of the rationals"]}
+            ]},
+            {"title": "Rigorous Sequences", "lessons": [
+              {"title": "Sequences: Epsilon Definitions", "d": 5, "min": 65, "sub": ["Epsilon-N convergence", "Monotone convergence theorem", "Bolzano-Weierstrass", "Cauchy sequences"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Continuity and Differentiation, Rigorously",
+          "prereq": ["The Real Numbers and Sequences"],
+          "topics": [
+            {"title": "Rigorous Continuity", "lessons": [
+              {"title": "Epsilon-Delta Continuity", "d": 5, "min": 65, "sub": ["Epsilon-delta definition", "Continuity theorems", "Extreme and intermediate value theorems (proofs)", "Uniform continuity"]}
+            ]},
+            {"title": "Rigorous Differentiation and Integration", "lessons": [
+              {"title": "The Derivative and the Riemann Integral, Formally", "d": 5, "min": 65, "sub": ["Differentiability proofs", "MVT proof", "Riemann integrability", "FTC proof"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Metric Spaces",
+          "prereq": ["Continuity and Differentiation, Rigorously"],
+          "topics": [
+            {"title": "Introduction to Metric Spaces", "lessons": [
+              {"title": "Metric Spaces and Topology of the Line", "d": 5, "min": 60, "sub": ["Metrics and examples", "Open and closed sets", "Compactness", "Completeness", "Toward general topology"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Abstract Algebra",
+      "level": "university",
+      "chapters": [
+        {
+          "title": "Group Theory",
+          "prereq": ["Logic and Proof", "Divisibility and Congruences"],
+          "topics": [
+            {"title": "Groups", "lessons": [
+              {"title": "Groups: Definition and Examples", "d": 5, "min": 60, "sub": ["Axioms", "Symmetry groups", "Cyclic groups", "Cayley tables", "Order of elements"]},
+              {"title": "Subgroups, Cosets and Lagrange's Theorem", "d": 5, "min": 60, "sub": ["Subgroup criteria", "Cosets", "Lagrange's theorem and proof", "Normal subgroups and quotients"]},
+              {"title": "Homomorphisms and Isomorphisms", "d": 5, "min": 55, "sub": ["Structure-preserving maps", "Kernels", "First isomorphism theorem", "Classification glimpses"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Rings and Fields",
+          "prereq": ["Group Theory"],
+          "topics": [
+            {"title": "Rings", "lessons": [
+              {"title": "Rings, Integral Domains and Ideals", "d": 5, "min": 60, "sub": ["Ring axioms and examples", "Zero divisors", "Ideals and quotient rings", "Polynomial rings"]}
+            ]},
+            {"title": "Fields", "lessons": [
+              {"title": "Fields and a Glimpse of Galois Theory", "d": 5, "min": 60, "sub": ["Field examples and finite fields", "Field extensions", "Impossibility of angle trisection", "Galois and the quintic (story)"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Complex Analysis",
+      "level": "university",
+      "chapters": [
+        {
+          "title": "Complex Functions",
+          "prereq": ["Complex Numbers", "Infinite Series"],
+          "topics": [
+            {"title": "Analytic Functions", "lessons": [
+              {"title": "Complex Differentiability and the Cauchy-Riemann Equations", "d": 5, "min": 60, "sub": ["Functions of a complex variable", "Complex derivative", "Cauchy-Riemann equations", "Harmonic functions"]},
+              {"title": "Elementary Complex Functions", "d": 5, "min": 55, "sub": ["Complex exponential and logarithm", "Branches", "Complex trig functions", "Mapping properties"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Complex Integration and Residues",
+          "prereq": ["Complex Functions"],
+          "topics": [
+            {"title": "Contour Integration", "lessons": [
+              {"title": "Cauchy's Theorem and Integral Formula", "d": 5, "min": 65, "sub": ["Contour integrals", "Cauchy-Goursat theorem", "Cauchy's integral formula", "Liouville and the fundamental theorem of algebra"]}
+            ]},
+            {"title": "Series and Residues", "lessons": [
+              {"title": "Laurent Series and the Residue Theorem", "d": 5, "min": 65, "sub": ["Taylor and Laurent series", "Poles and singularities", "Residue theorem", "Evaluating real integrals"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Numerical and Applied Methods",
+      "level": "university",
+      "chapters": [
+        {
+          "title": "Numerical Methods",
+          "prereq": ["Differentiation", "Systems, Matrices and Determinants"],
+          "topics": [
+            {"title": "Roots and Interpolation", "lessons": [
+              {"title": "Root Finding: Bisection to Newton-Raphson", "d": 4, "min": 55, "sub": ["Bisection method", "Newton-Raphson", "Fixed point iteration", "Convergence and error"]},
+              {"title": "Interpolation and Curve Fitting", "d": 4, "min": 50, "sub": ["Lagrange interpolation", "Newton's divided differences", "Least squares fitting"]}
+            ]},
+            {"title": "Numerical Calculus and Linear Systems", "lessons": [
+              {"title": "Numerical Integration and Differentiation", "d": 4, "min": 55, "sub": ["Trapezoidal rule", "Simpson's rule", "Error analysis", "Euler's method for ODEs"]},
+              {"title": "Numerical Linear Algebra", "d": 5, "min": 55, "sub": ["Gaussian elimination with pivoting", "Iterative methods (Jacobi, Gauss-Seidel)", "Conditioning and stability"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Optimization and Modeling",
+          "prereq": ["Numerical Methods"],
+          "topics": [
+            {"title": "Linear Programming", "lessons": [
+              {"title": "Linear Programming and the Simplex Idea", "d": 4, "min": 55, "sub": ["Formulating LPs", "Graphical method", "Simplex method overview", "Duality idea", "Applications"]}
+            ]},
+            {"title": "Mathematical Modeling", "lessons": [
+              {"title": "The Modeling Cycle", "d": 4, "min": 45, "sub": ["From problem to model", "Assumptions and validation", "Dimensional analysis", "Case studies"]}
+            ]}
+          ]
+        }
+      ]
+    }
+  ]
+}

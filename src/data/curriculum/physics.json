@@ -1,0 +1,576 @@
+{
+  "subject": "physics",
+  "node_types": ["category", "chapter", "topic"],
+  "notes": "Identical shape to mathematics-curriculum.json. Keys: level = category level tag; d = lesson difficulty 1-5; min = estimated study minutes; sub = lesson subtopics (the lesson's section outline); prereq = chapter-level prerequisite chapters (may reference Mathematics chapters with the 'math:' prefix for cross-subject prerequisites).",
+  "categories": [
+    {
+      "title": "Foundations of Physics",
+      "level": "beginner",
+      "chapters": [
+        {
+          "title": "Measurement and Units",
+          "prereq": [],
+          "topics": [
+            {"title": "Physical Quantities and SI Units", "lessons": [
+              {"title": "What Physics Measures", "d": 1, "min": 35, "sub": ["Physical quantities", "The SI base units", "Derived units", "Prefixes from nano to giga"]},
+              {"title": "Dimensional Analysis", "d": 2, "min": 40, "sub": ["Dimensional formulas", "Checking equations", "Deriving relations", "Limitations of dimensional analysis"]}
+            ]},
+            {"title": "Measurement and Error", "lessons": [
+              {"title": "Measurement, Uncertainty and Significant Figures", "d": 2, "min": 40, "sub": ["Instruments: vernier, screw gauge", "Least count", "Random vs systematic errors", "Significant figures and error propagation"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Motion Basics",
+          "prereq": ["Measurement and Units"],
+          "topics": [
+            {"title": "Describing Motion", "lessons": [
+              {"title": "Distance, Displacement, Speed and Velocity", "d": 1, "min": 40, "sub": ["Scalars vs vectors", "Average and instantaneous speed", "Velocity", "Position-time graphs"]},
+              {"title": "Acceleration and Motion Graphs", "d": 2, "min": 40, "sub": ["Acceleration", "Velocity-time graphs", "Area under graphs", "Free fall introduction"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Forces Basics",
+          "prereq": ["Motion Basics"],
+          "topics": [
+            {"title": "Forces Around Us", "lessons": [
+              {"title": "Types of Forces", "d": 1, "min": 35, "sub": ["Contact and non-contact forces", "Friction", "Weight vs mass", "Balanced and unbalanced forces"]},
+              {"title": "Pressure", "d": 2, "min": 35, "sub": ["Pressure and area", "Pressure in liquids", "Atmospheric pressure", "Simple applications"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Energy Basics",
+          "prereq": ["Forces Basics"],
+          "topics": [
+            {"title": "Energy and Its Forms", "lessons": [
+              {"title": "Forms of Energy and Conservation", "d": 1, "min": 40, "sub": ["Kinetic and potential energy", "Energy transfers", "Conservation of energy", "Energy resources"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Matter and Density",
+          "prereq": ["Measurement and Units"],
+          "topics": [
+            {"title": "States of Matter", "lessons": [
+              {"title": "Solids, Liquids, Gases and Density", "d": 1, "min": 35, "sub": ["Particle model", "Density and measuring it", "Floating and sinking", "Changes of state"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mechanics",
+      "level": "intermediate",
+      "chapters": [
+        {
+          "title": "Kinematics",
+          "prereq": ["Motion Basics", "math:Straight Lines"],
+          "topics": [
+            {"title": "Motion in One Dimension", "lessons": [
+              {"title": "Equations of Motion", "d": 3, "min": 50, "sub": ["The SUVAT equations", "Graphical and calculus derivations", "Free fall problems", "Reaction time and stopping distance"]}
+            ]},
+            {"title": "Motion in Two Dimensions", "lessons": [
+              {"title": "Vectors in Kinematics", "d": 3, "min": 45, "sub": ["Vector components", "Resultants", "Relative velocity", "River-boat problems"]},
+              {"title": "Projectile Motion", "d": 3, "min": 55, "sub": ["Independence of components", "Range, height, time of flight", "Projectiles at angles", "Projectile on inclined plane"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Newton's Laws of Motion",
+          "prereq": ["Kinematics"],
+          "topics": [
+            {"title": "The Three Laws", "lessons": [
+              {"title": "Newton's First and Second Laws", "d": 3, "min": 50, "sub": ["Inertia", "Force and acceleration", "Free body diagrams", "Weight, normal force, tension"]},
+              {"title": "Newton's Third Law and Applications", "d": 3, "min": 50, "sub": ["Action-reaction pairs", "Connected bodies and pulleys", "Apparent weight in lifts", "Inclined planes"]}
+            ]},
+            {"title": "Friction", "lessons": [
+              {"title": "Static and Kinetic Friction", "d": 3, "min": 50, "sub": ["Laws of friction", "Coefficients", "Angle of repose", "Friction problems and banking preview"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Work, Energy and Power",
+          "prereq": ["Newton's Laws of Motion"],
+          "topics": [
+            {"title": "Work and Energy", "lessons": [
+              {"title": "Work and the Work-Energy Theorem", "d": 3, "min": 50, "sub": ["Work by constant and variable forces", "Kinetic energy", "Work-energy theorem derivation", "Potential energy and conservative forces"]},
+              {"title": "Conservation of Mechanical Energy and Power", "d": 3, "min": 45, "sub": ["Energy conservation problems", "Springs and elastic PE", "Power", "Efficiency"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Momentum and Collisions",
+          "prereq": ["Work, Energy and Power"],
+          "topics": [
+            {"title": "Linear Momentum", "lessons": [
+              {"title": "Momentum, Impulse and Conservation", "d": 3, "min": 50, "sub": ["Momentum and impulse", "Impulse-momentum theorem", "Conservation derivation from Newton's laws", "Recoil and rockets"]},
+              {"title": "Collisions", "d": 4, "min": 50, "sub": ["Elastic and inelastic collisions", "1D collision analysis", "2D collisions", "Center of mass motion"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Circular Motion",
+          "prereq": ["Newton's Laws of Motion"],
+          "topics": [
+            {"title": "Uniform Circular Motion", "lessons": [
+              {"title": "Centripetal Acceleration and Force", "d": 4, "min": 50, "sub": ["Angular quantities", "Centripetal acceleration derivation", "Banking of roads", "Vertical circles"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Gravitation",
+          "prereq": ["Circular Motion"],
+          "topics": [
+            {"title": "Universal Gravitation", "lessons": [
+              {"title": "Newton's Law of Gravitation", "d": 3, "min": 50, "sub": ["Inverse square law", "g and its variation", "Gravitational field", "Cavendish experiment (history)"]},
+              {"title": "Orbits, Satellites and Kepler's Laws", "d": 4, "min": 55, "sub": ["Orbital velocity", "Escape velocity derivation", "Kepler's three laws", "Geostationary satellites", "Weightlessness"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Rotational Motion",
+          "prereq": ["Momentum and Collisions", "Circular Motion"],
+          "topics": [
+            {"title": "Rigid Body Rotation", "lessons": [
+              {"title": "Torque and Moment of Inertia", "d": 4, "min": 55, "sub": ["Torque", "Moment of inertia and standard bodies", "Parallel and perpendicular axis theorems", "Rotational kinetic energy"]},
+              {"title": "Angular Momentum and Rolling", "d": 4, "min": 55, "sub": ["Angular momentum conservation", "Rolling without slipping", "Rolling on inclines", "Gyroscopic effects (qualitative)"]}
+            ]},
+            {"title": "Statics", "lessons": [
+              {"title": "Equilibrium of Rigid Bodies", "d": 3, "min": 45, "sub": ["Conditions for equilibrium", "Center of gravity", "Levers and stability", "Ladder and beam problems"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Properties of Matter",
+      "level": "intermediate",
+      "chapters": [
+        {
+          "title": "Elasticity",
+          "prereq": ["Newton's Laws of Motion"],
+          "topics": [
+            {"title": "Stress and Strain", "lessons": [
+              {"title": "Hooke's Law and Elastic Moduli", "d": 3, "min": 50, "sub": ["Stress, strain, Hooke's law", "Young's, bulk and shear moduli", "Stress-strain curves", "Elastic energy"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Fluids",
+          "prereq": ["Forces Basics"],
+          "topics": [
+            {"title": "Fluid Statics", "lessons": [
+              {"title": "Pressure, Pascal and Archimedes", "d": 3, "min": 50, "sub": ["Pressure with depth derivation", "Pascal's law and hydraulics", "Archimedes' principle and buoyancy", "Barometers and manometers"]}
+            ]},
+            {"title": "Fluid Dynamics", "lessons": [
+              {"title": "Continuity and Bernoulli", "d": 4, "min": 55, "sub": ["Equation of continuity", "Bernoulli's equation derivation", "Venturi and airfoil applications", "Torricelli's theorem"]},
+              {"title": "Viscosity and Surface Tension", "d": 4, "min": 50, "sub": ["Viscosity and Stokes' law", "Terminal velocity", "Surface tension and capillarity", "Reynolds number and turbulence (qualitative)"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Heat and Thermodynamics",
+      "level": "intermediate",
+      "chapters": [
+        {
+          "title": "Temperature and Heat",
+          "prereq": ["Energy Basics"],
+          "topics": [
+            {"title": "Thermal Basics", "lessons": [
+              {"title": "Temperature Scales and Thermal Expansion", "d": 2, "min": 45, "sub": ["Temperature vs heat", "Scales and thermometry", "Linear, area, volume expansion", "Anomalous expansion of water"]},
+              {"title": "Calorimetry and Change of State", "d": 3, "min": 50, "sub": ["Specific heat capacity", "Calorimetry problems", "Latent heat", "Heating and cooling curves"]}
+            ]},
+            {"title": "Heat Transfer", "lessons": [
+              {"title": "Conduction, Convection and Radiation", "d": 3, "min": 50, "sub": ["Thermal conductivity", "Convection currents", "Blackbody radiation and Stefan's law", "Newton's law of cooling"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Kinetic Theory of Gases",
+          "prereq": ["Temperature and Heat"],
+          "topics": [
+            {"title": "The Gas Laws and Kinetic Theory", "lessons": [
+              {"title": "Ideal Gas Laws", "d": 3, "min": 45, "sub": ["Boyle, Charles, Gay-Lussac", "Ideal gas equation", "Real vs ideal gases"]},
+              {"title": "Kinetic Theory and Pressure Derivation", "d": 4, "min": 55, "sub": ["Postulates", "Pressure from molecular motion (derivation)", "Temperature and mean KE", "RMS speed", "Degrees of freedom and equipartition"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Laws of Thermodynamics",
+          "prereq": ["Kinetic Theory of Gases"],
+          "topics": [
+            {"title": "First Law", "lessons": [
+              {"title": "Internal Energy and the First Law", "d": 4, "min": 55, "sub": ["Heat, work, internal energy", "Thermodynamic processes: isothermal, adiabatic, isobaric, isochoric", "Work done derivations", "Specific heats of gases"]}
+            ]},
+            {"title": "Second Law and Engines", "lessons": [
+              {"title": "Entropy, Engines and the Second Law", "d": 4, "min": 55, "sub": ["Heat engines and efficiency", "Carnot cycle derivation", "Refrigerators and COP", "Entropy and the arrow of time"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Oscillations and Waves",
+      "level": "intermediate",
+      "chapters": [
+        {
+          "title": "Simple Harmonic Motion",
+          "prereq": ["Work, Energy and Power", "math:The Unit Circle and Identities"],
+          "topics": [
+            {"title": "SHM Fundamentals", "lessons": [
+              {"title": "Simple Harmonic Motion", "d": 4, "min": 55, "sub": ["Defining equation and solution", "Displacement, velocity, acceleration relations", "Energy in SHM", "Phase and circular motion connection"]},
+              {"title": "Pendulums and Springs", "d": 4, "min": 50, "sub": ["Spring-mass period derivation", "Simple pendulum derivation", "Physical pendulum", "Combinations of springs"]}
+            ]},
+            {"title": "Damped and Forced Oscillations", "lessons": [
+              {"title": "Damping and Resonance", "d": 4, "min": 45, "sub": ["Damped oscillations", "Forced oscillations", "Resonance and examples", "Quality factor (qualitative)"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Wave Motion",
+          "prereq": ["Simple Harmonic Motion"],
+          "topics": [
+            {"title": "Wave Properties", "lessons": [
+              {"title": "Describing Waves", "d": 3, "min": 50, "sub": ["Transverse and longitudinal waves", "Wavelength, frequency, wave speed", "The wave equation y(x,t)", "Speed on a string derivation"]},
+              {"title": "Superposition and Standing Waves", "d": 4, "min": 55, "sub": ["Principle of superposition", "Interference", "Standing waves on strings", "Harmonics and overtones"]}
+            ]},
+            {"title": "Sound", "lessons": [
+              {"title": "Sound Waves", "d": 3, "min": 50, "sub": ["Nature of sound", "Speed in media", "Intensity and the decibel scale", "Organ pipes and resonance columns", "Beats"]},
+              {"title": "The Doppler Effect", "d": 4, "min": 45, "sub": ["Moving source and observer derivations", "Applications: radar, medical, astronomy", "Shock waves and sonic booms"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Optics",
+      "level": "intermediate",
+      "chapters": [
+        {
+          "title": "Geometrical Optics",
+          "prereq": ["Wave Motion"],
+          "topics": [
+            {"title": "Reflection and Mirrors", "lessons": [
+              {"title": "Reflection and Spherical Mirrors", "d": 3, "min": 50, "sub": ["Laws of reflection", "Plane mirror images", "Concave and convex mirrors", "Mirror formula derivation and magnification"]}
+            ]},
+            {"title": "Refraction and Lenses", "lessons": [
+              {"title": "Refraction and Total Internal Reflection", "d": 3, "min": 55, "sub": ["Snell's law", "Refractive index", "Total internal reflection and optical fibers", "Prisms and dispersion"]},
+              {"title": "Thin Lenses", "d": 4, "min": 55, "sub": ["Converging and diverging lenses", "Lens formula and lensmaker's equation derivation", "Ray diagrams", "Power and combinations of lenses"]}
+            ]},
+            {"title": "Optical Instruments", "lessons": [
+              {"title": "The Eye, Microscopes and Telescopes", "d": 3, "min": 45, "sub": ["The human eye and defects", "Magnifying glass", "Compound microscope", "Telescopes and resolving power"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Wave Optics",
+          "prereq": ["Geometrical Optics"],
+          "topics": [
+            {"title": "Interference and Diffraction", "lessons": [
+              {"title": "Young's Double Slit Experiment", "d": 4, "min": 55, "sub": ["Huygens' principle", "Coherence", "Fringe width derivation", "Thin film interference"]},
+              {"title": "Diffraction and Polarization", "d": 4, "min": 50, "sub": ["Single slit diffraction", "Diffraction gratings", "Polarization and Malus's law", "Brewster's angle"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Electrostatics",
+      "level": "intermediate",
+      "chapters": [
+        {
+          "title": "Electric Charge and Field",
+          "prereq": ["Forces Basics", "math:Vectors"],
+          "topics": [
+            {"title": "Charge and Coulomb's Law", "lessons": [
+              {"title": "Electric Charge and Coulomb's Law", "d": 3, "min": 50, "sub": ["Charge and quantization", "Conductors and insulators", "Charging methods", "Coulomb's law and superposition"]}
+            ]},
+            {"title": "The Electric Field", "lessons": [
+              {"title": "Electric Field and Field Lines", "d": 3, "min": 50, "sub": ["Field concept", "Field of point charges", "Field lines", "Dipoles and dipole moment"]},
+              {"title": "Gauss's Law", "d": 4, "min": 55, "sub": ["Electric flux", "Gauss's law statement", "Sphere, line, plane derivations", "Conductors and shielding"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Potential and Capacitance",
+          "prereq": ["Electric Charge and Field"],
+          "topics": [
+            {"title": "Electric Potential", "lessons": [
+              {"title": "Potential and Potential Energy", "d": 4, "min": 55, "sub": ["Work and potential difference", "Potential of point charges", "Equipotential surfaces", "Relation between field and potential"]}
+            ]},
+            {"title": "Capacitance", "lessons": [
+              {"title": "Capacitors and Dielectrics", "d": 4, "min": 55, "sub": ["Capacitance and parallel plate derivation", "Series and parallel combinations", "Energy stored", "Dielectrics"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Current Electricity",
+      "level": "intermediate",
+      "chapters": [
+        {
+          "title": "Current and Resistance",
+          "prereq": ["Potential and Capacitance"],
+          "topics": [
+            {"title": "Electric Current", "lessons": [
+              {"title": "Current, Drift Velocity and Ohm's Law", "d": 3, "min": 50, "sub": ["Current and drift velocity derivation", "Ohm's law and resistivity", "Temperature dependence", "Ohmic and non-ohmic conductors"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Circuits",
+          "prereq": ["Current and Resistance"],
+          "topics": [
+            {"title": "Circuit Analysis", "lessons": [
+              {"title": "Series, Parallel and Kirchhoff's Laws", "d": 3, "min": 55, "sub": ["Resistor combinations", "EMF and internal resistance", "Kirchhoff's junction and loop rules", "Wheatstone bridge"]},
+              {"title": "Electrical Energy, Power and Measuring Instruments", "d": 3, "min": 50, "sub": ["Joule heating derivation", "Power ratings and household circuits", "Ammeters, voltmeters, potentiometer", "RC circuits (charging and discharging)"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Magnetism and Electromagnetic Induction",
+      "level": "intermediate",
+      "chapters": [
+        {
+          "title": "Magnetic Fields and Forces",
+          "prereq": ["Circuits"],
+          "topics": [
+            {"title": "Magnetic Fields", "lessons": [
+              {"title": "Magnetic Force on Charges and Currents", "d": 4, "min": 55, "sub": ["Magnetic field and Lorentz force", "Motion of charges in fields", "Force on current-carrying wires", "Torque on loops and motors"]},
+              {"title": "Sources of Magnetic Field", "d": 4, "min": 55, "sub": ["Biot-Savart law", "Field of wire, loop, solenoid derivations", "Ampere's law", "Force between parallel wires"]}
+            ]},
+            {"title": "Magnetic Materials", "lessons": [
+              {"title": "Magnetism in Matter and Earth's Magnetism", "d": 3, "min": 40, "sub": ["Dia-, para-, ferromagnetism", "Hysteresis", "Earth's magnetic field", "Magnetic dipoles"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Electromagnetic Induction",
+          "prereq": ["Magnetic Fields and Forces"],
+          "topics": [
+            {"title": "Induction Laws", "lessons": [
+              {"title": "Faraday's and Lenz's Laws", "d": 4, "min": 55, "sub": ["Magnetic flux", "Faraday's law", "Lenz's law and conservation of energy", "Motional EMF derivation", "Eddy currents"]},
+              {"title": "Inductance", "d": 4, "min": 50, "sub": ["Self and mutual inductance", "Solenoid inductance derivation", "Energy in inductors", "LR circuits"]}
+            ]},
+            {"title": "Alternating Current", "lessons": [
+              {"title": "AC Circuits and Transformers", "d": 4, "min": 60, "sub": ["AC generation and RMS values", "R, L, C in AC circuits and phasors", "LCR resonance", "Power factor", "Transformers and power transmission"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Electromagnetic Waves",
+          "prereq": ["Electromagnetic Induction"],
+          "topics": [
+            {"title": "Maxwell and the EM Spectrum", "lessons": [
+              {"title": "Maxwell's Equations and Electromagnetic Waves", "d": 4, "min": 50, "sub": ["Displacement current", "Maxwell's equations (integral form, qualitative)", "Properties of EM waves", "The electromagnetic spectrum and uses"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Modern Physics",
+      "level": "advanced",
+      "chapters": [
+        {
+          "title": "Special Relativity",
+          "prereq": ["Kinematics", "Electromagnetic Waves"],
+          "topics": [
+            {"title": "Einstein's Postulates and Consequences", "lessons": [
+              {"title": "Time Dilation and Length Contraction", "d": 4, "min": 60, "sub": ["Michelson-Morley background", "The two postulates", "Time dilation derivation", "Length contraction", "Muon evidence"]},
+              {"title": "Relativistic Momentum and E = mc^2", "d": 5, "min": 55, "sub": ["Relativistic momentum", "Mass-energy equivalence derivation sketch", "Lorentz transformations", "Velocity addition"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Quantum Origins",
+          "prereq": ["Wave Optics"],
+          "topics": [
+            {"title": "The Photon", "lessons": [
+              {"title": "Blackbody Radiation and the Photoelectric Effect", "d": 4, "min": 60, "sub": ["Ultraviolet catastrophe", "Planck's quantum", "Photoelectric experiments and Einstein's equation", "Compton scattering"]},
+              {"title": "Matter Waves", "d": 4, "min": 50, "sub": ["de Broglie hypothesis", "Davisson-Germer experiment", "Wave-particle duality", "Heisenberg uncertainty principle"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Atomic Physics",
+          "prereq": ["Quantum Origins"],
+          "topics": [
+            {"title": "Atomic Models", "lessons": [
+              {"title": "From Thomson to Bohr", "d": 4, "min": 55, "sub": ["Rutherford scattering", "Bohr model derivations", "Hydrogen spectral series", "Limitations of Bohr", "Franck-Hertz experiment"]},
+              {"title": "X-rays and Lasers", "d": 4, "min": 45, "sub": ["X-ray production and Moseley's law", "Spontaneous and stimulated emission", "How lasers work", "Applications"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Nuclear Physics",
+          "prereq": ["Atomic Physics"],
+          "topics": [
+            {"title": "The Nucleus", "lessons": [
+              {"title": "Nuclear Structure and Binding Energy", "d": 4, "min": 55, "sub": ["Nuclear composition and size", "Mass defect and binding energy", "Binding energy curve", "Nuclear forces"]},
+              {"title": "Radioactivity", "d": 4, "min": 55, "sub": ["Alpha, beta, gamma decay", "Decay law derivation and half-life", "Carbon dating", "Radiation safety"]},
+              {"title": "Fission, Fusion and Nuclear Power", "d": 4, "min": 50, "sub": ["Fission chain reactions", "Reactors", "Fusion and stars", "Energy debates and applications"]}
+            ]},
+            {"title": "Particle Physics", "lessons": [
+              {"title": "The Standard Model (Introduction)", "d": 4, "min": 50, "sub": ["Leptons, quarks, bosons", "Fundamental interactions", "Antimatter", "Accelerators and detectors", "Open questions"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Semiconductors and Electronics",
+          "prereq": ["Atomic Physics", "Circuits"],
+          "topics": [
+            {"title": "Semiconductor Devices", "lessons": [
+              {"title": "Semiconductors, Diodes and Transistors", "d": 4, "min": 60, "sub": ["Energy bands", "Intrinsic and doped semiconductors", "p-n junction and diode characteristics", "Rectifiers, LEDs, solar cells", "Transistor basics and logic gates"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Classical Mechanics (University)",
+      "level": "university",
+      "chapters": [
+        {
+          "title": "Lagrangian Mechanics",
+          "prereq": ["Rotational Motion", "math:Functions of Several Variables"],
+          "topics": [
+            {"title": "The Lagrangian Formulation", "lessons": [
+              {"title": "Generalized Coordinates and the Euler-Lagrange Equations", "d": 5, "min": 65, "sub": ["Constraints and degrees of freedom", "Principle of least action", "Euler-Lagrange derivation", "Worked systems: pendulum, Atwood machine"]},
+              {"title": "Symmetries and Conservation Laws", "d": 5, "min": 55, "sub": ["Cyclic coordinates", "Noether's theorem (statement and meaning)", "Energy, momentum, angular momentum conservation"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Hamiltonian Mechanics and Central Forces",
+          "prereq": ["Lagrangian Mechanics"],
+          "topics": [
+            {"title": "Hamiltonian Formulation", "lessons": [
+              {"title": "Hamilton's Equations and Phase Space", "d": 5, "min": 60, "sub": ["Legendre transform", "Hamilton's equations", "Phase space portraits", "Poisson brackets and the bridge to quantum mechanics"]}
+            ]},
+            {"title": "Central Force Motion", "lessons": [
+              {"title": "The Kepler Problem", "d": 5, "min": 60, "sub": ["Effective potential", "Orbit equation derivation", "Kepler's laws derived", "Scattering basics"]}
+            ]},
+            {"title": "Oscillating Systems", "lessons": [
+              {"title": "Coupled Oscillators and Normal Modes", "d": 5, "min": 60, "sub": ["Coupled pendulums", "Normal mode analysis with matrices", "Beats revisited", "Toward continuous systems and waves"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Electrodynamics (University)",
+      "level": "university",
+      "chapters": [
+        {
+          "title": "Electrostatics in Depth",
+          "prereq": ["Potential and Capacitance", "math:Vector Calculus"],
+          "topics": [
+            {"title": "Boundary Value Problems", "lessons": [
+              {"title": "Laplace's Equation and the Method of Images", "d": 5, "min": 65, "sub": ["Poisson and Laplace equations", "Uniqueness theorems", "Method of images", "Multipole expansion introduction"]},
+              {"title": "Electric Fields in Matter", "d": 5, "min": 55, "sub": ["Polarization", "Bound charges", "Displacement field D", "Linear dielectrics"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Magnetostatics and Maxwell",
+          "prereq": ["Electrostatics in Depth"],
+          "topics": [
+            {"title": "Magnetostatics in Depth", "lessons": [
+              {"title": "Vector Potential and Magnetic Fields in Matter", "d": 5, "min": 60, "sub": ["The vector potential", "Ampere's law applications", "Magnetization and the H field", "Boundary conditions"]}
+            ]},
+            {"title": "Maxwell's Equations and Waves", "lessons": [
+              {"title": "The Full Maxwell Equations and EM Waves", "d": 5, "min": 65, "sub": ["Differential form of Maxwell's equations", "Wave equation derivation", "Energy and the Poynting vector", "Waves in media, reflection and transmission"]},
+              {"title": "Radiation (Introduction)", "d": 5, "min": 55, "sub": ["Retarded potentials (idea)", "Dipole radiation", "Why the sky is blue", "Antenna basics"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Quantum Mechanics (University)",
+      "level": "university",
+      "chapters": [
+        {
+          "title": "The Schrodinger Equation",
+          "prereq": ["Quantum Origins", "math:Higher Order Linear Equations"],
+          "topics": [
+            {"title": "Wave Functions", "lessons": [
+              {"title": "The Wave Function and the Schrodinger Equation", "d": 5, "min": 65, "sub": ["Probability interpretation", "Normalization", "Time-dependent and time-independent equations", "Expectation values and operators"]}
+            ]},
+            {"title": "One-Dimensional Problems", "lessons": [
+              {"title": "Infinite and Finite Wells", "d": 5, "min": 60, "sub": ["Particle in a box derivation", "Energy quantization", "Finite well", "Correspondence principle"]},
+              {"title": "The Harmonic Oscillator and Tunneling", "d": 5, "min": 65, "sub": ["Quantum harmonic oscillator (ladder operator sketch)", "Zero-point energy", "Potential barriers and tunneling", "Scanning tunneling microscope and alpha decay"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Formalism and the Hydrogen Atom",
+          "prereq": ["The Schrodinger Equation", "math:Eigenvalues and Eigenvectors"],
+          "topics": [
+            {"title": "Quantum Formalism", "lessons": [
+              {"title": "Hilbert Space, Operators and Measurement", "d": 5, "min": 65, "sub": ["States as vectors, Dirac notation", "Hermitian operators and observables", "Commutators and uncertainty", "Measurement postulates"]}
+            ]},
+            {"title": "Angular Momentum and Hydrogen", "lessons": [
+              {"title": "The Hydrogen Atom Solved", "d": 5, "min": 70, "sub": ["Separation in spherical coordinates", "Quantum numbers n, l, m", "Orbitals and degeneracy", "Spin and the Stern-Gerlach experiment", "Pauli exclusion and the periodic table"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thermal and Statistical Physics (University)",
+      "level": "university",
+      "chapters": [
+        {
+          "title": "Statistical Foundations",
+          "prereq": ["Laws of Thermodynamics", "math:Random Variables and Distributions"],
+          "topics": [
+            {"title": "Statistical Mechanics Basics", "lessons": [
+              {"title": "Microstates, Entropy and the Boltzmann Distribution", "d": 5, "min": 65, "sub": ["Microstates and macrostates", "Statistical entropy S = k ln W", "The Boltzmann factor derivation", "Partition function introduction"]},
+              {"title": "Applications of the Partition Function", "d": 5, "min": 60, "sub": ["Ideal gas from statistics", "Equipartition revisited", "Heat capacities of solids (Einstein model)", "Maxwell-Boltzmann speed distribution"]}
+            ]},
+            {"title": "Quantum Statistics", "lessons": [
+              {"title": "Fermi-Dirac and Bose-Einstein Statistics", "d": 5, "min": 60, "sub": ["Identical particles", "Fermions vs bosons", "Electron gas and Fermi energy", "Blackbody radiation derived", "Bose-Einstein condensation"]}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Condensed Matter, Astrophysics and Frontiers",
+      "level": "university",
+      "chapters": [
+        {
+          "title": "Solid State Physics",
+          "prereq": ["Formalism and the Hydrogen Atom", "Statistical Foundations"],
+          "topics": [
+            {"title": "Crystals and Bands", "lessons": [
+              {"title": "Crystal Structure and Band Theory", "d": 5, "min": 60, "sub": ["Lattices and unit cells", "X-ray diffraction and Bragg's law", "Origin of energy bands", "Metals, insulators, semiconductors explained", "Superconductivity (qualitative)"]}
+            ]}
+          ]
+        },
+        {
+          "title": "Astrophysics and Cosmology",
+          "prereq": ["Gravitation", "Nuclear Physics"],
+          "topics": [
+            {"title": "Stars", "lessons": [
+              {"title": "Stellar Physics and Evolution", "d": 4, "min": 60, "sub": ["Stellar magnitudes and spectra", "Hertzsprung-Russell diagram", "Nuclear fusion in stars", "White dwarfs, neutron stars, black holes"]}
+            ]},
+            {"title": "The Universe", "lessons": [
+              {"title": "Cosmology: The Expanding Universe", "d": 5, "min": 60, "sub": ["Hubble's law", "The Big Bang and CMB", "Dark matter and dark energy evidence", "Fate of the universe"]},
+              {"title": "General Relativity (Conceptual Introduction)", "d": 5, "min": 55, "sub": ["Equivalence principle", "Curved spacetime", "Gravitational lensing and time dilation", "Gravitational waves and LIGO", "GPS corrections"]}
+            ]}
+          ]
+        }
+      ]
+    }
+  ]
+}

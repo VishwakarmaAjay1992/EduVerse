@@ -1,0 +1,103 @@
+import type { LessonContent } from "@/lib/lesson-content-types";
+
+export const pressure: LessonContent = {
+  subjectSlug: "physics",
+  chapterSlug: "forces-basics",
+  lessonSlug: "pressure",
+  title: "Pressure",
+  objectives: [
+    "Define pressure and state its SI unit",
+    "Calculate pressure, force or area using p = F/A",
+    "Explain how changing contact area changes pressure",
+    "Describe pressure in liquids",
+    "Explain atmospheric pressure at an introductory level",
+    "Apply pressure ideas to everyday situations",
+  ],
+  sections: [
+    { kind: "overview", paragraphs: [
+      "A drawing pin enters a noticeboard easily because the force is concentrated onto a tiny area. Snowshoes prevent a person sinking deeply because the same weight is spread over a larger area.",
+      "Pressure connects force with the area over which that force acts. The same force can produce very different effects when the contact area changes.",
+    ]},
+    { kind: "callout", variant: "definition", title: "Pressure", body: "Pressure is the perpendicular force acting per unit area. Its SI unit is the pascal (Pa), where 1 Pa = 1 N/m²." },
+    { kind: "formula", latex: "p=\frac{F}{A}", caption: "$p$ = pressure in Pa, $F$ = perpendicular force in N, $A$ = area in m²" },
+    { kind: "theory", heading: "How force and area affect pressure", paragraphs: [
+      "For a fixed area, increasing the perpendicular force increases pressure. For a fixed force, increasing the contact area decreases pressure because the force is spread out.",
+      "The area must be measured in square metres when pressure is required in pascals. Convert square centimetres carefully: $1\text{ m}^2=10{,}000\text{ cm}^2$.",
+    ], list: ["Larger force on the same area → larger pressure", "Same force on a smaller area → larger pressure", "Same force on a larger area → smaller pressure"] },
+    { kind: "pressureExplorer", heading: "Interactive activity — Force, area and pressure" },
+    { kind: "example", prompt: "A force of 300 N acts normally on an area of 0.60 m². Find the pressure.", steps: ["Write $p=F/A$.", "Substitute $F=300$ N and $A=0.60$ m².", "Calculate $p=300/0.60=500$ Pa."], answer: "Pressure = 500 Pa." },
+    { kind: "example", prompt: "A box produces a pressure of 2,000 Pa on the floor over an area of 0.25 m². Find the force.", steps: ["Start with $p=F/A$.", "Rearrange to $F=pA$.", "Substitute: $F=2000\times0.25$.", "Calculate $F=500$ N."], answer: "Perpendicular force = 500 N." },
+    { kind: "example", prompt: "A force of 900 N produces a pressure of 3,000 Pa. Find the contact area.", steps: ["Start with $p=F/A$.", "Rearrange to $A=F/p$.", "Substitute: $A=900/3000$.", "Calculate $A=0.30$ m²."], answer: "Contact area = 0.30 m²." },
+    { kind: "realWorld", heading: "Pressure in everyday design", items: [
+      { area: "Sharp knives", text: "A small edge area creates high pressure, making cutting easier." },
+      { area: "Building foundations", text: "Wide foundations spread force and reduce pressure on soil." },
+      { area: "Tractor tyres", text: "Wide tyres reduce ground pressure and help prevent sinking." },
+      { area: "High heels", text: "A small heel area produces much greater floor pressure than a flat shoe." },
+      { area: "Snowshoes", text: "A large area spreads body weight and reduces pressure on snow." },
+      { area: "Needles and pins", text: "A very small tip area creates enough pressure to pierce material." },
+    ]},
+    { kind: "theory", heading: "Pressure in liquids", paragraphs: [
+      "A liquid at rest exerts pressure in every direction. Liquid pressure increases with depth because deeper points support the weight of more liquid above them.",
+      "For the same depth, a denser liquid produces greater pressure. The shape of the container does not determine pressure at a point; depth and liquid density are the important factors.",
+    ], list: ["Pressure increases with depth", "Denser liquids produce greater pressure at the same depth", "At a given depth in the same connected liquid, pressure is the same", "Liquid pressure acts normal to surfaces"] },
+    { kind: "callout", variant: "didyouknow", title: "Why dams are thicker at the bottom", body: "Water pressure is greatest at greater depth, so the lower part of a dam must withstand a larger force." },
+    { kind: "table", heading: "Comparing positions in a liquid", headers: ["Situation", "Pressure comparison", "Reason"], rows: [
+      ["Two points at the same depth in the same liquid", "Equal", "Same depth and density"],
+      ["A deeper point and a shallower point", "Deeper point has greater pressure", "More liquid above"],
+      ["Water and a denser liquid at the same depth", "Denser liquid has greater pressure", "Greater density"],
+    ]},
+    { kind: "theory", heading: "Atmospheric pressure", paragraphs: [
+      "Earth is surrounded by air. Air has mass and is pulled by gravity, so it exerts atmospheric pressure on surfaces in all directions.",
+      "Atmospheric pressure decreases as altitude increases because there is less air above. Everyday effects include drinking through a straw, suction cups and the operation of barometers.",
+    ]},
+    { kind: "callout", variant: "remember", title: "A common misconception", body: "A straw does not pull liquid upward by itself. Lower pressure inside the straw allows atmospheric pressure on the drink's surface to push liquid upward." },
+    { kind: "theory", heading: "Hydraulic systems", paragraphs: [
+      "In a confined liquid, an applied pressure is transmitted through the liquid. Hydraulic brakes, lifts and presses use this principle to transfer force.",
+      "A larger output piston can produce a larger output force because the same pressure acts over a larger area. Energy is still conserved: the larger piston moves a smaller distance.",
+    ]},
+    { kind: "classifyActivity", heading: "Activity — High or low pressure?", categories: ["Higher pressure", "Lower pressure"], items: [
+      { term: "A sharp knife compared with a blunt knife using the same force", category: "Higher pressure" },
+      { term: "Snowshoes compared with ordinary shoes", category: "Lower pressure" },
+      { term: "A narrow high heel compared with a flat shoe", category: "Higher pressure" },
+      { term: "A wider building foundation with the same load", category: "Lower pressure" },
+      { term: "A point deeper in a swimming pool", category: "Higher pressure" },
+    ]},
+    { kind: "mistakes", items: [
+      { wrong: "Using the total surface area when only one face touches the ground.", right: "Use the actual contact area over which the perpendicular force acts." },
+      { wrong: "Using cm² directly and reporting pascals.", right: "Convert area to m² before using SI units." },
+      { wrong: "Thinking a wider container always gives greater pressure at the same depth.", right: "For the same liquid, pressure at a point depends on depth, not container width." },
+      { wrong: "Saying suction pulls objects together without mentioning pressure difference.", right: "Greater outside atmospheric pressure pushes toward the lower-pressure region." },
+    ]},
+    { kind: "practice", heading: "Practice (not graded)", questions: [
+      { prompt: "A 100 N force acts over 0.5 m². What is the pressure?", options: ["50 Pa", "200 Pa", "500 Pa"], answer: 1, explanation: "$p=100/0.5=200$ Pa." },
+      { prompt: "For the same force, which produces greater pressure?", options: ["Larger area", "Smaller area", "Both are equal"], answer: 1, explanation: "Pressure increases when the same force is concentrated on a smaller area." },
+      { prompt: "Where is liquid pressure greatest in a swimming pool?", options: ["Near the surface", "At the bottom", "It is equal everywhere"], answer: 1, explanation: "Liquid pressure increases with depth." },
+      { prompt: "What is one pascal?", options: ["1 N/m²", "1 kg/m³", "1 J/s"], answer: 0, explanation: "The pascal is one newton per square metre." },
+      { prompt: "Why do wide tyres reduce sinking on soft ground?", options: ["They increase weight", "They reduce contact area", "They reduce pressure by increasing contact area"], answer: 2, explanation: "The same force is spread over a larger area." },
+    ]},
+    { kind: "summary", points: [
+      "Pressure is perpendicular force divided by area.",
+      "The SI unit is the pascal, equal to N/m².",
+      "Increasing force increases pressure when area is fixed.",
+      "Increasing area reduces pressure when force is fixed.",
+      "Liquid pressure increases with depth and liquid density.",
+      "Atmospheric pressure is caused by the weight of air and decreases with altitude.",
+      "Hydraulic systems transmit pressure through confined liquids.",
+    ]},
+    { kind: "gradedQuiz", heading: "Lesson Quiz: Pressure", passMark: 60, questions: [
+      { type: "mc", marks: 1, prompt: "Which formula defines pressure?", options: ["$p=FA$", "$p=F/A$", "$p=A/F$", "$p=mg$"], answer: 1, explanation: "Pressure is perpendicular force divided by area." },
+      { type: "mc", marks: 1, prompt: "What is the SI unit of pressure?", options: ["newton", "joule", "pascal", "watt"], answer: 2, explanation: "Pressure is measured in pascals, Pa." },
+      { type: "mc", marks: 2, prompt: "A force of 240 N acts over 0.80 m². Find the pressure.", options: ["192 Pa", "300 Pa", "240.8 Pa", "30 Pa"], answer: 1, explanation: "$p=240/0.80=300$ Pa." },
+      { type: "mc", marks: 2, prompt: "A pressure of 1,500 Pa acts over 0.40 m². Find the force.", options: ["375 N", "600 N", "1,100 N", "3,750 N"], answer: 1, explanation: "$F=pA=1500\times0.40=600$ N." },
+      { type: "tf", marks: 1, prompt: "In the same liquid, pressure is greater at greater depth.", answer: true, explanation: "A deeper point has more liquid above it, so the pressure is greater." },
+      { type: "mc", marks: 1, prompt: "Why is a dam wall commonly thicker near the bottom?", options: ["Water is colder there", "Pressure is greater at greater depth", "Water has no pressure at the surface", "The dam is wider at the top"], answer: 1, explanation: "Liquid pressure increases with depth, so the bottom experiences greater force." },
+      { type: "matching", marks: 2, prompt: "Match each design with its pressure effect.", left: ["Sharp needle", "Snowshoe", "Wide foundation", "High heel"], options: ["High pressure from tiny area", "Low pressure from large area", "Spreads a building load", "High floor pressure from small contact area"], answer: [0,1,2,3], explanation: "Pressure depends on how a force is distributed over contact area." },
+      { type: "multi", marks: 2, prompt: "Select all correct statements.", options: ["Pressure in a liquid increases with depth", "Atmospheric pressure generally increases with altitude", "The same force gives less pressure on a larger area", "A pascal is one newton per square metre", "Container shape alone determines liquid pressure at a point"], answers: [0,2,3], explanation: "Depth, density, force and area govern these pressure effects; atmospheric pressure normally decreases with altitude." },
+    ]},
+    { kind: "completion", steps: [
+      { key: "pressureExplorer", label: "Used the pressure explorer" },
+      { key: "classify", label: "Completed the high/low pressure activity" },
+      { key: "practice", label: "Completed the practice questions" },
+    ], requireQuizPass: true },
+  ],
+};
