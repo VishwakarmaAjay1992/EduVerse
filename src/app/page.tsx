@@ -1,7 +1,11 @@
 import Link from "next/link";
+import { ArrowRight, Microscope, Sparkles } from "lucide-react";
+import { ScientistImage } from "@/components/scientists/scientist-image";
 import { SiteHeader } from "@/components/site-header";
 import { SubjectCard } from "@/components/subject-card";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { SCIENTISTS } from "@/data/scientists";
 import { listSubjects } from "@/lib/curriculum";
 
 export default function HomePage() {
@@ -22,9 +26,14 @@ export default function HomePage() {
               A subject-agnostic knowledge platform. Every formula, theorem and scientist is a
               reusable object, connected in one graph — starting with Mathematics and Physics.
             </p>
-            <div className="flex gap-3">
+            <div className="flex flex-wrap justify-center gap-3">
               <Button asChild size="lg">
                 <Link href="/subjects">Explore subjects</Link>
+              </Button>
+              <Button asChild size="lg" variant="outline">
+                <Link href="/scientists">
+                  Meet the scientists <ArrowRight aria-hidden="true" />
+                </Link>
               </Button>
             </div>
             <p className="text-sm text-muted-foreground">
@@ -40,6 +49,60 @@ export default function HomePage() {
             {subjects.map((subject) => (
               <SubjectCard key={subject.slug} subject={subject} />
             ))}
+          </div>
+        </section>
+
+        <section className="border-y bg-muted/35">
+          <div className="container grid gap-10 py-16 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+            <div>
+              <div className="inline-flex items-center gap-2 rounded-full border bg-background px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.17em] shadow-sm">
+                <Sparkles className="size-3.5" aria-hidden="true" /> New collection
+              </div>
+              <h2 className="mt-5 text-balance text-3xl font-bold tracking-tight sm:text-4xl">
+                The people behind the principles
+              </h2>
+              <p className="mt-4 max-w-xl leading-7 text-muted-foreground">
+                Read high-quality profiles of ten influential scientists, including their defining
+                work, major contributions and photographs of original documents, instruments or
+                historical prototypes.
+              </p>
+              <div className="mt-6 flex items-center gap-4">
+                <Button asChild>
+                  <Link href="/scientists">
+                    <Microscope aria-hidden="true" /> Explore the founding ten
+                  </Link>
+                </Button>
+                <span className="text-sm text-muted-foreground">Designed to grow</span>
+              </div>
+            </div>
+
+            <Card className="overflow-hidden shadow-lg">
+              <CardContent className="p-0">
+                <div className="grid grid-cols-2 sm:grid-cols-4">
+                  {SCIENTISTS.slice(0, 4).map((scientist) => (
+                    <Link
+                      key={scientist.slug}
+                      href={`/scientists/${scientist.slug}`}
+                      className="group relative aspect-[3/4] overflow-hidden border-r last:border-r-0"
+                      aria-label={`Read about ${scientist.fullName}`}
+                    >
+                      <ScientistImage
+                        image={scientist.portrait}
+                        width={700}
+                        className="h-full rounded-none border-0"
+                        imageClassName="grayscale transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
+                        showCredit={false}
+                      />
+                      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 via-black/45 to-transparent p-3 pt-12 text-white">
+                        <p className="scientist-signature text-xl leading-tight">
+                          {scientist.fullName}
+                        </p>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </section>
       </main>

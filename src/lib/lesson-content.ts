@@ -18,6 +18,8 @@ import { trigonometricEquations } from "@/content/mathematics/trigonometric-equa
 import { lawOfSinesAndCosines } from "@/content/mathematics/law-of-sines-and-law-of-cosines";
 import { modelingWithTrigonometricFunctions } from "@/content/mathematics/modeling-with-trigonometric-functions";
 import { introductionToPhysicalQuantities } from "@/content/physics/introduction-to-physical-quantities";
+import { dimensionalAnalysis } from "@/content/physics/dimensional-analysis";
+import { measurementUncertaintyAndSignificantFigures } from "@/content/physics/measurement-uncertainty-and-significant-figures";
 import { distanceDisplacementSpeedVelocity } from "@/content/physics/distance-displacement-speed-and-velocity";
 import { accelerationAndMotionGraphs } from "@/content/physics/acceleration-and-motion-graphs";
 import { typesOfForces } from "@/content/physics/types-of-forces";
@@ -62,6 +64,8 @@ const REGISTRY: LessonContent[] = [
   lawOfSinesAndCosines,
   modelingWithTrigonometricFunctions,
   introductionToPhysicalQuantities,
+  dimensionalAnalysis,
+  measurementUncertaintyAndSignificantFigures,
   distanceDisplacementSpeedVelocity,
   accelerationAndMotionGraphs,
   typesOfForces,
@@ -126,6 +130,12 @@ export function lessonOutline(content: LessonContent): OutlineItem[] {
         break;
       case "pressureExplorer":
         items.push({ id, label: "Interactive pressure explorer" });
+        break;
+      case "dimensionalAnalysisExplorer":
+        items.push({ id, label: "Interactive dimensional analysis lab" });
+        break;
+      case "measurementUncertaintyExplorer":
+        items.push({ id, label: "Interactive measurement laboratory" });
         break;
       case "energyExplorer":
         items.push({ id, label: "Interactive energy explorer" });

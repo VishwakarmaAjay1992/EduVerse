@@ -25,6 +25,8 @@ import { MotionExplorer } from "@/components/interactive/motion-explorer";
 import { MotionGraphExplorer } from "@/components/interactive/motion-graph-explorer";
 import { ForceExplorer } from "@/components/interactive/force-explorer";
 import { PressureExplorer } from "@/components/interactive/pressure-explorer";
+import { DimensionalAnalysisExplorer } from "@/components/interactive/dimensional-analysis-explorer";
+import { MeasurementUncertaintyExplorer } from "@/components/interactive/measurement-uncertainty-explorer";
 import { EnergyExplorer } from "@/components/interactive/energy-explorer";
 import { DensityExplorer } from "@/components/interactive/density-explorer";
 import { KinematicsExplorer } from "@/components/interactive/kinematics-explorer";
@@ -336,6 +338,20 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
         <div className="space-y-3">
           <h3 className="text-lg font-semibold">{section.heading ?? "Pressure explorer"}</h3>
           <PressureExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "dimensionalAnalysisExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">{section.heading ?? "Dimensional analysis explorer"}</h3>
+          <DimensionalAnalysisExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "measurementUncertaintyExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">{section.heading ?? "Measurement and uncertainty explorer"}</h3>
+          <MeasurementUncertaintyExplorer lessonId={lessonId} />
         </div>
       );
     case "energyExplorer":

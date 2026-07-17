@@ -109,6 +109,8 @@ export type LessonSection =
   | { kind: "motionGraphExplorer"; heading?: string }
   | { kind: "forceExplorer"; heading?: string }
   | { kind: "pressureExplorer"; heading?: string }
+  | { kind: "dimensionalAnalysisExplorer"; heading?: string }
+  | { kind: "measurementUncertaintyExplorer"; heading?: string }
   | { kind: "energyExplorer"; heading?: string }
   | { kind: "densityExplorer"; heading?: string }
   | { kind: "kinematicsExplorer"; heading?: string; mode: "suvat" | "vector" | "projectile" }
