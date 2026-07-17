@@ -27,6 +27,14 @@ import { ForceExplorer } from "@/components/interactive/force-explorer";
 import { PressureExplorer } from "@/components/interactive/pressure-explorer";
 import { DimensionalAnalysisExplorer } from "@/components/interactive/dimensional-analysis-explorer";
 import { MeasurementUncertaintyExplorer } from "@/components/interactive/measurement-uncertainty-explorer";
+import { IntegerNumberLineExplorer } from "@/components/interactive/integer-number-line-explorer";
+import { IntegerRulesExplorer } from "@/components/interactive/integer-rules-explorer";
+import { RationalNumberExplorer } from "@/components/interactive/rational-number-explorer";
+import { AlgebraExpressionExplorer } from "@/components/interactive/algebra-expression-explorer";
+import { SimplifyingExpressionsExplorer } from "@/components/interactive/simplifying-expressions-explorer";
+import { EquationBalanceExplorer } from "@/components/interactive/equation-balance-explorer";
+import { FactorPrimeExplorer } from "@/components/interactive/factor-prime-explorer";
+import { CoordinateDataExplorer } from "@/components/interactive/coordinate-data-explorer";
 import { EnergyExplorer } from "@/components/interactive/energy-explorer";
 import { DensityExplorer } from "@/components/interactive/density-explorer";
 import { KinematicsExplorer } from "@/components/interactive/kinematics-explorer";
@@ -343,15 +351,89 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
     case "dimensionalAnalysisExplorer":
       return (
         <div className="space-y-3">
-          <h3 className="text-lg font-semibold">{section.heading ?? "Dimensional analysis explorer"}</h3>
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Dimensional analysis explorer"}
+          </h3>
           <DimensionalAnalysisExplorer lessonId={lessonId} />
         </div>
       );
     case "measurementUncertaintyExplorer":
       return (
         <div className="space-y-3">
-          <h3 className="text-lg font-semibold">{section.heading ?? "Measurement and uncertainty explorer"}</h3>
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Measurement and uncertainty explorer"}
+          </h3>
           <MeasurementUncertaintyExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "integerNumberLineExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Integer number-line explorer"}
+          </h3>
+          <IntegerNumberLineExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "integerRulesExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Integer sign-rule explorer"}
+          </h3>
+          <IntegerRulesExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "rationalNumberExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">{section.heading ?? "Real-number explorer"}</h3>
+          <RationalNumberExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "algebraExpressionExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Algebra expression laboratory"}
+          </h3>
+          <AlgebraExpressionExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "simplifyingExpressionsExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Simplifying expressions laboratory"}
+          </h3>
+          <SimplifyingExpressionsExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "equationBalanceExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Equation balance laboratory"}
+          </h3>
+          <EquationBalanceExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "factorPrimeExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Factors and primes laboratory"}
+          </h3>
+          <FactorPrimeExplorer lessonId={lessonId} mode={section.mode} />
+        </div>
+      );
+    case "coordinateDataExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Coordinate and data laboratory"}
+          </h3>
+          <CoordinateDataExplorer lessonId={lessonId} mode={section.mode} />
         </div>
       );
     case "energyExplorer":

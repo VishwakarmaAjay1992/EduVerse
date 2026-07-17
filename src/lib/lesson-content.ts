@@ -35,6 +35,17 @@ import { multiplyingAndDividingFractions } from "@/content/mathematics/multiplyi
 import { orderOfOperations } from "@/content/mathematics/order-of-operations";
 import { romanNumerals } from "@/content/mathematics/roman-numerals";
 import { understandingPlaceValue } from "@/content/mathematics/understanding-place-value";
+import { integersAndTheNumberLine } from "@/content/mathematics/integers-and-the-number-line";
+import { multiplyingAndDividingIntegers } from "@/content/mathematics/multiplying-and-dividing-integers";
+import { rationalAndIrrationalNumbers } from "@/content/mathematics/rational-and-irrational-numbers";
+import { fromArithmeticToAlgebra } from "@/content/mathematics/from-arithmetic-to-algebra";
+import { simplifyingExpressions } from "@/content/mathematics/simplifying-expressions";
+import { solvingOneStepAndTwoStepEquations } from "@/content/mathematics/solving-one-step-and-two-step-equations";
+import { factorsMultiplesAndDivisibilityRules } from "@/content/mathematics/factors-multiples-and-divisibility-rules";
+import { primeNumbersAndPrimeFactorization } from "@/content/mathematics/prime-numbers-and-prime-factorization";
+import { highestCommonFactorAndLowestCommonMultiple } from "@/content/mathematics/highest-common-factor-and-lowest-common-multiple";
+import { theCartesianPlane } from "@/content/mathematics/the-cartesian-plane";
+import { chartsTablesAndGraphs } from "@/content/mathematics/charts-tables-and-graphs";
 import type { LessonContent } from "./lesson-content-types";
 
 const REGISTRY: LessonContent[] = [
@@ -50,6 +61,17 @@ const REGISTRY: LessonContent[] = [
   multiplyingAndDividingFractions,
   decimalNotationAndOperations,
   fractionsDecimalsAndRecurringDecimals,
+  integersAndTheNumberLine,
+  multiplyingAndDividingIntegers,
+  rationalAndIrrationalNumbers,
+  factorsMultiplesAndDivisibilityRules,
+  primeNumbersAndPrimeFactorization,
+  highestCommonFactorAndLowestCommonMultiple,
+  theCartesianPlane,
+  chartsTablesAndGraphs,
+  fromArithmeticToAlgebra,
+  simplifyingExpressions,
+  solvingOneStepAndTwoStepEquations,
   sineCosineAndTangent,
   anglesOfElevationAndDepression,
   equationOfACircle,
@@ -136,6 +158,44 @@ export function lessonOutline(content: LessonContent): OutlineItem[] {
         break;
       case "measurementUncertaintyExplorer":
         items.push({ id, label: "Interactive measurement laboratory" });
+        break;
+      case "integerNumberLineExplorer":
+        items.push({ id, label: "Interactive integer number line" });
+        break;
+      case "integerRulesExplorer":
+        items.push({ id, label: "Interactive integer sign rules" });
+        break;
+      case "rationalNumberExplorer":
+        items.push({ id, label: "Interactive real-number laboratory" });
+        break;
+      case "algebraExpressionExplorer":
+        items.push({ id, label: "Interactive expression laboratory" });
+        break;
+      case "simplifyingExpressionsExplorer":
+        items.push({ id, label: "Interactive simplification laboratory" });
+        break;
+      case "equationBalanceExplorer":
+        items.push({ id, label: "Interactive equation balance" });
+        break;
+      case "factorPrimeExplorer":
+        items.push({
+          id,
+          label:
+            section.mode === "hcfLcm"
+              ? "Interactive HCF and LCM laboratory"
+              : section.mode === "primes"
+                ? "Interactive prime laboratory"
+                : "Interactive factors laboratory",
+        });
+        break;
+      case "coordinateDataExplorer":
+        items.push({
+          id,
+          label:
+            section.mode === "coordinates"
+              ? "Interactive Cartesian-plane laboratory"
+              : "Interactive data-display laboratory",
+        });
         break;
       case "energyExplorer":
         items.push({ id, label: "Interactive energy explorer" });

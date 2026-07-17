@@ -9,6 +9,12 @@ import {
   Weight,
   Move,
   Boxes,
+  ArrowDown,
+  ArrowUp,
+  CircleDot,
+  SquareRadical,
+  Circle,
+  TrendingUp,
   type LucideIcon,
 } from "lucide-react";
 
@@ -29,6 +35,12 @@ const ICONS: Record<string, LucideIcon> = {
   cylinder: TestTube,
   volume: Boxes,
   vector: Move,
+  ArrowDown,
+  ArrowUp,
+  CircleDot,
+  SquareRadical,
+  Circle,
+  TrendingUp,
 };
 
 export function LessonIcon({ name, className }: { name: string; className?: string }) {

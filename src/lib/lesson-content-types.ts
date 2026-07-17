@@ -111,6 +111,14 @@ export type LessonSection =
   | { kind: "pressureExplorer"; heading?: string }
   | { kind: "dimensionalAnalysisExplorer"; heading?: string }
   | { kind: "measurementUncertaintyExplorer"; heading?: string }
+  | { kind: "integerNumberLineExplorer"; heading?: string }
+  | { kind: "integerRulesExplorer"; heading?: string }
+  | { kind: "rationalNumberExplorer"; heading?: string }
+  | { kind: "algebraExpressionExplorer"; heading?: string }
+  | { kind: "simplifyingExpressionsExplorer"; heading?: string }
+  | { kind: "equationBalanceExplorer"; heading?: string }
+  | { kind: "factorPrimeExplorer"; heading?: string; mode: "factors" | "primes" | "hcfLcm" }
+  | { kind: "coordinateDataExplorer"; heading?: string; mode: "coordinates" | "data" }
   | { kind: "energyExplorer"; heading?: string }
   | { kind: "densityExplorer"; heading?: string }
   | { kind: "kinematicsExplorer"; heading?: string; mode: "suvat" | "vector" | "projectile" }
