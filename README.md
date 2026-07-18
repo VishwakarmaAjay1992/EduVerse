@@ -2,6 +2,8 @@
 
 A subject-agnostic education knowledge platform. This repository is the application foundation (Batch 1): configuration, tooling, and the production folder structure that every feature module builds on.
 
+Current public collections include structured Mathematics and Physics lessons, influential scientists, 25 physics phenomena and a 25-experience interactive Learning Hub.
+
 ## Tech stack
 
 - **Next.js 15** (App Router) · **React 19** · **TypeScript**
@@ -58,6 +60,10 @@ Supporting services when running via Docker Compose:
 | `npm run typecheck`       | Type-check with `tsc`         |
 | `npm run prisma:generate` | Generate the Prisma client    |
 | `npm run prisma:migrate`  | Run database migrations (dev) |
+
+## Learning Hub
+
+Open `/learning-hub` for the organized Learn, Explore, Tools, Practice and Resources collections. See `documentation/LEARNING-HUB.md` for the extension guide.
 
 ## Project structure
 

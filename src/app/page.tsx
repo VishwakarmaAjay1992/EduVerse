@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Microscope, Sparkles, Telescope } from "lucide-react";
+import { ArrowRight, Compass, Microscope, Sparkles, Telescope } from "lucide-react";
 import { ScientistImage } from "@/components/scientists/scientist-image";
 import { SiteHeader } from "@/components/site-header";
 import { SubjectCard } from "@/components/subject-card";
@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { SCIENTISTS } from "@/data/scientists";
 import { listSubjects } from "@/lib/curriculum";
+import { HUB_FEATURES, HUB_GROUPS, HUB_GROUP_COPY } from "@/data/learning-hub";
 
 export default function HomePage() {
   const subjects = listSubjects();
@@ -52,10 +53,74 @@ export default function HomePage() {
           </div>
         </section>
 
+        <section className="border-y bg-muted/30">
+          <div className="container py-16">
+            <div className="grid gap-7 lg:grid-cols-[1fr_auto] lg:items-end">
+              <div>
+                <div className="inline-flex items-center gap-2 text-sm font-semibold text-primary">
+                  <Compass className="size-4" /> New learning platform
+                </div>
+                <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
+                  One hub. Twenty-five ways to discover.
+                </h2>
+                <p className="mt-4 max-w-2xl leading-7 text-muted-foreground">
+                  Move beyond reading with virtual experiments, formula tools, calculators, quizzes,
+                  invention stories, space exploration and study resources.
+                </p>
+              </div>
+              <Button asChild size="lg">
+                <Link href="/learning-hub">
+                  Open Learning Hub <ArrowRight />
+                </Link>
+              </Button>
+            </div>
+            <div className="mt-9 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+              {HUB_GROUPS.map((group) => {
+                const details = HUB_GROUP_COPY[group];
+                const count = HUB_FEATURES.filter((feature) => feature.group === group).length;
+                return (
+                  <Link
+                    key={group}
+                    href="/learning-hub"
+                    className="rounded-xl border bg-background p-5 transition hover:-translate-y-0.5 hover:shadow-md"
+                  >
+                    <span
+                      className="text-xs font-bold uppercase tracking-widest"
+                      style={{ color: details.accent }}
+                    >
+                      {group}
+                    </span>
+                    <strong className="mt-2 block text-lg">{count} experiences</strong>
+                    <span className="mt-2 block text-sm leading-5 text-muted-foreground">
+                      {details.description}
+                    </span>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+
         <section className="border-y bg-slate-950 text-white">
           <div className="container grid gap-8 py-16 lg:grid-cols-[1fr_auto] lg:items-center">
-            <div><div className="inline-flex items-center gap-2 rounded-full border border-white/20 px-3 py-1 text-xs font-semibold uppercase tracking-widest"><Telescope className="size-4"/>New science collection</div><h2 className="mt-5 text-3xl font-bold sm:text-4xl">25 Fascinating Physics Phenomena</h2><p className="mt-4 max-w-2xl leading-7 text-white/70">Discover why skies change colour, stars twinkle, clouds float, tides rise, echoes return and supercooled water can freeze in an instant.</p></div>
-            <Button asChild size="lg" variant="secondary"><Link href="/phenomena">Explore all 25 <ArrowRight/></Link></Button>
+            <div>
+              <div className="inline-flex items-center gap-2 rounded-full border border-white/20 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+                <Telescope className="size-4" />
+                New science collection
+              </div>
+              <h2 className="mt-5 text-3xl font-bold sm:text-4xl">
+                25 Fascinating Physics Phenomena
+              </h2>
+              <p className="mt-4 max-w-2xl leading-7 text-white/70">
+                Discover why skies change colour, stars twinkle, clouds float, tides rise, echoes
+                return and supercooled water can freeze in an instant.
+              </p>
+            </div>
+            <Button asChild size="lg" variant="secondary">
+              <Link href="/phenomena">
+                Explore all 25 <ArrowRight />
+              </Link>
+            </Button>
           </div>
         </section>
 

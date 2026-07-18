@@ -1,0 +1,61 @@
+import {
+  Award,
+  BookOpen,
+  Calculator,
+  CalendarDays,
+  ChartNoAxesCombined,
+  CircleHelp,
+  Download,
+  Eye,
+  FlaskConical,
+  History,
+  Languages,
+  Lightbulb,
+  Microscope,
+  Orbit,
+  Puzzle,
+  Rocket,
+  Route,
+  Ruler,
+  SearchCheck,
+  ShieldCheck,
+  Sigma,
+  Sun,
+  TableProperties,
+  Trophy,
+  Wrench,
+} from "lucide-react";
+import { cn } from "@/lib/utils";
+
+const ICONS = {
+  award: Award,
+  book: BookOpen,
+  calculator: Calculator,
+  calendar: CalendarDays,
+  chart: ChartNoAxesCombined,
+  "circle-help": CircleHelp,
+  download: Download,
+  eye: Eye,
+  flask: FlaskConical,
+  history: History,
+  languages: Languages,
+  lightbulb: Lightbulb,
+  microscope: Microscope,
+  orbit: Orbit,
+  puzzle: Puzzle,
+  rocket: Rocket,
+  route: Route,
+  ruler: Ruler,
+  "search-check": SearchCheck,
+  shield: ShieldCheck,
+  sigma: Sigma,
+  sun: Sun,
+  table: TableProperties,
+  trophy: Trophy,
+  wrench: Wrench,
+};
+
+export function HubIcon({ name, className }: { name: string; className?: string }) {
+  const Icon = ICONS[name as keyof typeof ICONS] ?? Lightbulb;
+  return <Icon className={cn("size-5", className)} aria-hidden="true" />;
+}

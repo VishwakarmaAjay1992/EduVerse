@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | EduVerse",
   },
   description:
-    "A structured education platform for Mathematics, Physics and research-based profiles of influential scientists.",
+    "A structured education platform for Mathematics, Physics, scientific phenomena, interactive tools and research-based discovery.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
