@@ -46,6 +46,11 @@ import { primeNumbersAndPrimeFactorization } from "@/content/mathematics/prime-n
 import { highestCommonFactorAndLowestCommonMultiple } from "@/content/mathematics/highest-common-factor-and-lowest-common-multiple";
 import { theCartesianPlane } from "@/content/mathematics/the-cartesian-plane";
 import { chartsTablesAndGraphs } from "@/content/mathematics/charts-tables-and-graphs";
+import { understandingPercentages } from "@/content/mathematics/understanding-percentages";
+import { percentageChangeAndApplications } from "@/content/mathematics/percentage-change-and-applications";
+import { ratios } from "@/content/mathematics/ratios";
+import { directAndInverseProportion } from "@/content/mathematics/direct-and-inverse-proportion";
+import { exponentsAndTheLawsOfIndices } from "@/content/mathematics/exponents-and-the-laws-of-indices";
 import type { LessonContent } from "./lesson-content-types";
 
 const REGISTRY: LessonContent[] = [
@@ -69,6 +74,11 @@ const REGISTRY: LessonContent[] = [
   highestCommonFactorAndLowestCommonMultiple,
   theCartesianPlane,
   chartsTablesAndGraphs,
+  understandingPercentages,
+  percentageChangeAndApplications,
+  ratios,
+  directAndInverseProportion,
+  exponentsAndTheLawsOfIndices,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
   solvingOneStepAndTwoStepEquations,
