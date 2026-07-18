@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Microscope, Sparkles } from "lucide-react";
+import { ArrowRight, Microscope, Sparkles, Telescope } from "lucide-react";
 import { ScientistImage } from "@/components/scientists/scientist-image";
 import { SiteHeader } from "@/components/site-header";
 import { SubjectCard } from "@/components/subject-card";
@@ -49,6 +49,13 @@ export default function HomePage() {
             {subjects.map((subject) => (
               <SubjectCard key={subject.slug} subject={subject} />
             ))}
+          </div>
+        </section>
+
+        <section className="border-y bg-slate-950 text-white">
+          <div className="container grid gap-8 py-16 lg:grid-cols-[1fr_auto] lg:items-center">
+            <div><div className="inline-flex items-center gap-2 rounded-full border border-white/20 px-3 py-1 text-xs font-semibold uppercase tracking-widest"><Telescope className="size-4"/>New science collection</div><h2 className="mt-5 text-3xl font-bold sm:text-4xl">25 Fascinating Physics Phenomena</h2><p className="mt-4 max-w-2xl leading-7 text-white/70">Discover why skies change colour, stars twinkle, clouds float, tides rise, echoes return and supercooled water can freeze in an instant.</p></div>
+            <Button asChild size="lg" variant="secondary"><Link href="/phenomena">Explore all 25 <ArrowRight/></Link></Button>
           </div>
         </section>
 

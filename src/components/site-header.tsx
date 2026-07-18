@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GraduationCap, Microscope } from "lucide-react";
+import { GraduationCap, Microscope, Sparkles } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 export function SiteHeader() {
@@ -24,6 +24,14 @@ export function SiteHeader() {
             <Microscope className="size-4 sm:hidden" aria-hidden="true" />
             <span className="hidden sm:inline">Scientists</span>
             <span className="sr-only sm:hidden">Scientists</span>
+          </Link>
+          <Link
+            href="/phenomena"
+            className="inline-flex items-center gap-1.5 rounded-md px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+          >
+            <Sparkles className="size-4 sm:hidden" aria-hidden="true" />
+            <span className="hidden sm:inline">Phenomena</span>
+            <span className="sr-only sm:hidden">Phenomena</span>
           </Link>
           <ThemeToggle />
         </nav>
