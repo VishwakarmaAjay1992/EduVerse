@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Compass, GraduationCap, Microscope, Sparkles } from "lucide-react";
+import { Compass, GraduationCap, HelpCircle, Microscope, Sparkles } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 export function SiteHeader() {
@@ -32,6 +32,14 @@ export function SiteHeader() {
             <Sparkles className="size-4 sm:hidden" aria-hidden="true" />
             <span className="hidden sm:inline">Phenomena</span>
             <span className="sr-only sm:hidden">Phenomena</span>
+          </Link>
+          <Link
+            href="/science-qa"
+            className="inline-flex items-center gap-1.5 rounded-md px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+          >
+            <HelpCircle className="size-4 sm:hidden" aria-hidden="true" />
+            <span className="hidden sm:inline">Science Q&amp;A</span>
+            <span className="sr-only sm:hidden">Science Q&amp;A</span>
           </Link>
           <Link
             href="/learning-hub"
