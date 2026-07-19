@@ -50,6 +50,9 @@ import { PolynomialMultiplyExplorer } from "@/components/interactive/polynomial-
 import { PolynomialDivisionExplorer } from "@/components/interactive/polynomial-division-explorer";
 import { FactoringExplorer } from "@/components/interactive/factoring-explorer";
 import { RationalExpressionExplorer } from "@/components/interactive/rational-expression-explorer";
+import { QuadraticSolverExplorer } from "@/components/interactive/quadratic-solver-explorer";
+import { QuadraticFormulaExplorer } from "@/components/interactive/quadratic-formula-explorer";
+import { ParabolaGraphExplorer } from "@/components/interactive/parabola-graph-explorer";
 import { Flashcards } from "@/components/interactive/flashcards";
 import { Quiz } from "@/components/interactive/quiz";
 import { BlockMath, richText } from "@/components/math";
@@ -640,6 +643,31 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
             {rich(section.heading ?? "Rational expressions laboratory")}
           </h3>
           <RationalExpressionExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "quadraticSolverExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {rich(section.heading ?? "Quadratic solving laboratory")}
+          </h3>
+          <QuadraticSolverExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "quadraticFormulaExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {rich(section.heading ?? "Discriminant and quadratic formula laboratory")}
+          </h3>
+          <QuadraticFormulaExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "parabolaGraphExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">{rich(section.heading ?? "Parabola grapher")}</h3>
+          <ParabolaGraphExplorer lessonId={lessonId} />
         </div>
       );
     case "unitCircleExplorer":

@@ -151,6 +151,9 @@ export type LessonSection =
   | { kind: "polynomialDivisionExplorer"; heading?: string }
   | { kind: "factoringExplorer"; heading?: string }
   | { kind: "rationalExpressionExplorer"; heading?: string }
+  | { kind: "quadraticSolverExplorer"; heading?: string }
+  | { kind: "quadraticFormulaExplorer"; heading?: string }
+  | { kind: "parabolaGraphExplorer"; heading?: string }
   | { kind: "history"; paragraphs: string[] };
 
 export interface LessonContent {

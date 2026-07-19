@@ -65,6 +65,9 @@ import { polynomialsAddSubtractMultiply } from "@/content/mathematics/polynomial
 import { polynomialDivision } from "@/content/mathematics/polynomial-division";
 import { factoringTechniques } from "@/content/mathematics/factoring-techniques";
 import { rationalExpressions } from "@/content/mathematics/rational-expressions";
+import { solvingByFactoringAndSquareRoots } from "@/content/mathematics/solving-by-factoring-and-square-roots";
+import { completingTheSquareAndTheQuadraticFormula } from "@/content/mathematics/completing-the-square-and-the-quadratic-formula";
+import { parabolas } from "@/content/mathematics/parabolas";
 import type { LessonContent } from "./lesson-content-types";
 
 const REGISTRY: LessonContent[] = [
@@ -106,6 +109,9 @@ const REGISTRY: LessonContent[] = [
   polynomialDivision,
   factoringTechniques,
   rationalExpressions,
+  solvingByFactoringAndSquareRoots,
+  completingTheSquareAndTheQuadraticFormula,
+  parabolas,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
   solvingOneStepAndTwoStepEquations,
@@ -278,6 +284,15 @@ export function lessonOutline(content: LessonContent): OutlineItem[] {
         break;
       case "rationalExpressionExplorer":
         items.push({ id, label: "Interactive rational expressions laboratory" });
+        break;
+      case "quadraticSolverExplorer":
+        items.push({ id, label: "Interactive quadratic-solving laboratory" });
+        break;
+      case "quadraticFormulaExplorer":
+        items.push({ id, label: "Interactive discriminant and formula laboratory" });
+        break;
+      case "parabolaGraphExplorer":
+        items.push({ id, label: "Interactive parabola grapher" });
         break;
       case "unitCircleExplorer":
         items.push({ id, label: "Interactive unit circle" });
