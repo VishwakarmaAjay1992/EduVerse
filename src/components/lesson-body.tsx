@@ -60,6 +60,9 @@ import { GraphTransformationExplorer } from "@/components/interactive/graph-tran
 import { ExponentialGrowthExplorer } from "@/components/interactive/exponential-growth-explorer";
 import { LogarithmExplorer } from "@/components/interactive/logarithm-explorer";
 import { ExpLogEquationExplorer } from "@/components/interactive/exp-log-equation-explorer";
+import { ArithmeticSequenceExplorer } from "@/components/interactive/arithmetic-sequence-explorer";
+import { GeometricSequenceExplorer } from "@/components/interactive/geometric-sequence-explorer";
+import { RecursiveSequenceExplorer } from "@/components/interactive/recursive-sequence-explorer";
 import { Flashcards } from "@/components/interactive/flashcards";
 import { Quiz } from "@/components/interactive/quiz";
 import { BlockMath, richText } from "@/components/math";
@@ -736,6 +739,33 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
             {rich(section.heading ?? "Exponential and logarithmic equation solver")}
           </h3>
           <ExpLogEquationExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "arithmeticSequenceExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {rich(section.heading ?? "Arithmetic sequence and series laboratory")}
+          </h3>
+          <ArithmeticSequenceExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "geometricSequenceExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {rich(section.heading ?? "Geometric sequence and series laboratory")}
+          </h3>
+          <GeometricSequenceExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "recursiveSequenceExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {rich(section.heading ?? "Fibonacci and sigma notation laboratory")}
+          </h3>
+          <RecursiveSequenceExplorer lessonId={lessonId} />
         </div>
       );
     case "unitCircleExplorer":

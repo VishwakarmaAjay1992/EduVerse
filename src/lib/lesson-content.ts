@@ -75,6 +75,9 @@ import { graphTransformations } from "@/content/mathematics/graph-transformation
 import { exponentialGrowthAndDecay } from "@/content/mathematics/exponential-growth-and-decay";
 import { logarithmsAndTheirLaws } from "@/content/mathematics/logarithms-and-their-laws";
 import { exponentialAndLogarithmicEquations } from "@/content/mathematics/exponential-and-logarithmic-equations";
+import { arithmeticSequencesAndSeries } from "@/content/mathematics/arithmetic-sequences-and-series";
+import { geometricSequencesAndSeries } from "@/content/mathematics/geometric-sequences-and-series";
+import { recursiveAndSpecialSequences } from "@/content/mathematics/recursive-and-special-sequences";
 import type { LessonContent } from "./lesson-content-types";
 
 const REGISTRY: LessonContent[] = [
@@ -126,6 +129,9 @@ const REGISTRY: LessonContent[] = [
   exponentialGrowthAndDecay,
   logarithmsAndTheirLaws,
   exponentialAndLogarithmicEquations,
+  arithmeticSequencesAndSeries,
+  geometricSequencesAndSeries,
+  recursiveAndSpecialSequences,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
   solvingOneStepAndTwoStepEquations,
@@ -328,6 +334,15 @@ export function lessonOutline(content: LessonContent): OutlineItem[] {
         break;
       case "expLogEquationExplorer":
         items.push({ id, label: "Interactive exponential and log equation solver" });
+        break;
+      case "arithmeticSequenceExplorer":
+        items.push({ id, label: "Interactive arithmetic sequence laboratory" });
+        break;
+      case "geometricSequenceExplorer":
+        items.push({ id, label: "Interactive geometric sequence laboratory" });
+        break;
+      case "recursiveSequenceExplorer":
+        items.push({ id, label: "Interactive Fibonacci and sigma notation laboratory" });
         break;
       case "unitCircleExplorer":
         items.push({ id, label: "Interactive unit circle" });

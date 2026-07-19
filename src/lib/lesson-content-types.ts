@@ -161,6 +161,9 @@ export type LessonSection =
   | { kind: "exponentialGrowthExplorer"; heading?: string }
   | { kind: "logarithmExplorer"; heading?: string }
   | { kind: "expLogEquationExplorer"; heading?: string }
+  | { kind: "arithmeticSequenceExplorer"; heading?: string }
+  | { kind: "geometricSequenceExplorer"; heading?: string }
+  | { kind: "recursiveSequenceExplorer"; heading?: string }
   | { kind: "history"; paragraphs: string[] };
 
 export interface LessonContent {
