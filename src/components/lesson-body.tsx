@@ -38,6 +38,11 @@ import { CoordinateDataExplorer } from "@/components/interactive/coordinate-data
 import { EnergyExplorer } from "@/components/interactive/energy-explorer";
 import { DensityExplorer } from "@/components/interactive/density-explorer";
 import { KinematicsExplorer } from "@/components/interactive/kinematics-explorer";
+import { RootsExplorer } from "@/components/interactive/roots-explorer";
+import { StandardFormExplorer } from "@/components/interactive/standard-form-explorer";
+import { UnitConverterExplorer } from "@/components/interactive/unit-converter-explorer";
+import { PerimeterAreaExplorer } from "@/components/interactive/perimeter-area-explorer";
+import { VolumeSurfaceExplorer } from "@/components/interactive/volume-surface-explorer";
 import { Flashcards } from "@/components/interactive/flashcards";
 import { Quiz } from "@/components/interactive/quiz";
 import { BlockMath, InlineMath } from "@/components/math";
@@ -509,6 +514,49 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
           steps={section.steps}
           requireQuizPass={section.requireQuizPass}
         />
+      );
+    case "rootsExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Square and cube root laboratory"}
+          </h3>
+          <RootsExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "standardFormExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">{section.heading ?? "Standard form laboratory"}</h3>
+          <StandardFormExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "unitConverterExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Unit conversion laboratory"}
+          </h3>
+          <UnitConverterExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "perimeterAreaExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Perimeter and area laboratory"}
+          </h3>
+          <PerimeterAreaExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "volumeSurfaceExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Volume and surface-area laboratory"}
+          </h3>
+          <VolumeSurfaceExplorer lessonId={lessonId} />
+        </div>
       );
     case "unitCircleExplorer":
       return (

@@ -138,6 +138,11 @@ export type LessonSection =
   | { kind: "completion"; steps: { key: string; label: string }[]; requireQuizPass?: boolean }
   | { kind: "unitCircleExplorer"; heading?: string }
   | { kind: "trigGraphExplorer"; heading?: string }
+  | { kind: "rootsExplorer"; heading?: string }
+  | { kind: "standardFormExplorer"; heading?: string }
+  | { kind: "unitConverterExplorer"; heading?: string }
+  | { kind: "perimeterAreaExplorer"; heading?: string }
+  | { kind: "volumeSurfaceExplorer"; heading?: string }
   | { kind: "history"; paragraphs: string[] };
 
 export interface LessonContent {

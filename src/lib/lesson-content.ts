@@ -51,6 +51,11 @@ import { percentageChangeAndApplications } from "@/content/mathematics/percentag
 import { ratios } from "@/content/mathematics/ratios";
 import { directAndInverseProportion } from "@/content/mathematics/direct-and-inverse-proportion";
 import { exponentsAndTheLawsOfIndices } from "@/content/mathematics/exponents-and-the-laws-of-indices";
+import { squareRootsAndCubeRoots } from "@/content/mathematics/square-roots-and-cube-roots";
+import { standardForm } from "@/content/mathematics/standard-form";
+import { metricAndImperialUnits } from "@/content/mathematics/metric-and-imperial-units";
+import { perimeterAndAreaOfBasicShapes } from "@/content/mathematics/perimeter-and-area-of-basic-shapes";
+import { volumeAndSurfaceAreaBasics } from "@/content/mathematics/volume-and-surface-area-basics";
 import type { LessonContent } from "./lesson-content-types";
 
 const REGISTRY: LessonContent[] = [
@@ -79,6 +84,11 @@ const REGISTRY: LessonContent[] = [
   ratios,
   directAndInverseProportion,
   exponentsAndTheLawsOfIndices,
+  squareRootsAndCubeRoots,
+  standardForm,
+  metricAndImperialUnits,
+  perimeterAndAreaOfBasicShapes,
+  volumeAndSurfaceAreaBasics,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
   solvingOneStepAndTwoStepEquations,
@@ -212,6 +222,21 @@ export function lessonOutline(content: LessonContent): OutlineItem[] {
         break;
       case "densityExplorer":
         items.push({ id, label: "Interactive matter and density explorer" });
+        break;
+      case "rootsExplorer":
+        items.push({ id, label: "Interactive roots laboratory" });
+        break;
+      case "standardFormExplorer":
+        items.push({ id, label: "Interactive standard-form laboratory" });
+        break;
+      case "unitConverterExplorer":
+        items.push({ id, label: "Interactive unit converter" });
+        break;
+      case "perimeterAreaExplorer":
+        items.push({ id, label: "Interactive perimeter and area laboratory" });
+        break;
+      case "volumeSurfaceExplorer":
+        items.push({ id, label: "Interactive volume and surface-area laboratory" });
         break;
       case "unitCircleExplorer":
         items.push({ id, label: "Interactive unit circle" });
