@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { richText } from "@/components/math";
 
 export function Flashcards({ cards }: { cards: { front: string; back: string }[] }) {
   const [flipped, setFlipped] = useState<Set<number>>(new Set());
@@ -26,7 +27,7 @@ export function Flashcards({ cards }: { cards: { front: string; back: string }[]
             <span className="mb-1 block text-xs uppercase tracking-wide text-muted-foreground">
               {show ? "Answer" : "Tap to reveal"}
             </span>
-            <span className="text-sm">{show ? card.back : card.front}</span>
+            <span className="text-sm">{richText(show ? card.back : card.front)}</span>
           </button>
         );
       })}

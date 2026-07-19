@@ -1,3 +1,4 @@
+import { plainMath } from "@/lib/rich-text";
 import { addingAndSubtractingFractions } from "@/content/mathematics/adding-and-subtracting-fractions";
 import { additionAndSubtraction } from "@/content/mathematics/addition-and-subtraction";
 import { decimalNotationAndOperations } from "@/content/mathematics/decimal-notation-and-operations";
@@ -172,7 +173,7 @@ export function lessonOutline(content: LessonContent): OutlineItem[] {
         items.push({ id, label: "Overview" });
         break;
       case "theory":
-        items.push({ id, label: section.heading });
+        items.push({ id, label: plainMath(section.heading) });
         break;
       case "realWorld":
         items.push({ id, label: "Real-world uses" });

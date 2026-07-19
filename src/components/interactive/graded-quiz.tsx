@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { saveQuiz, useLessonProgress } from "@/lib/progress-store";
 import { cn } from "@/lib/utils";
+import { richText, plainMath } from "@/components/math";
 import type { GradedQuestion } from "@/lib/lesson-content-types";
 
 type Answer =
@@ -124,7 +125,7 @@ export function GradedQuiz({
             <div key={i} className="rounded-lg border p-4">
               <div className="flex items-start justify-between gap-3">
                 <p className="text-sm font-medium">
-                  {i + 1}. {qq.prompt}
+                  {i + 1}. {richText(qq.prompt)}
                 </p>
                 <span
                   className={cn(
@@ -138,7 +139,7 @@ export function GradedQuiz({
                   {st} · {Math.round(earnedQ * 100) / 100}/{qq.marks}
                 </span>
               </div>
-              <p className="mt-2 text-sm text-muted-foreground">{qq.explanation}</p>
+              <p className="mt-2 text-sm text-muted-foreground">{richText(qq.explanation)}</p>
             </div>
           );
         })}
@@ -175,7 +176,7 @@ export function GradedQuiz({
         </div>
       </div>
 
-      <p className="mb-3 font-medium">{q.prompt}</p>
+      <p className="mb-3 font-medium">{richText(q.prompt)}</p>
 
       {/* inputs by type */}
       {(q.type === "mc" || q.type === "tf") && (
@@ -192,7 +193,7 @@ export function GradedQuiz({
                   selected ? "border-primary bg-primary/5" : "hover:border-primary/40"
                 )}
               >
-                {opt}
+                {richText(opt)}
               </button>
             );
           })}
@@ -200,34 +201,40 @@ export function GradedQuiz({
       )}
 
       {q.type === "matching" && (
-        <div className="space-y-2">
+        <div className="space-y-3">
           {q.left.map((l, li) => {
-            const cur = (answers[current]?.value as number[] | undefined)?.[li];
+            const arr = (answers[current]?.value as number[] | undefined) ?? q.left.map(() => -1);
+            const cur = arr[li];
             return (
-              <div key={li} className="flex flex-wrap items-center gap-2">
-                <span className="min-w-40 flex-1 text-sm">{l}</span>
-                <select
-                  aria-label={`Match for ${l}`}
-                  value={cur ?? ""}
-                  onChange={(e) => {
-                    const arr = [
-                      ...((answers[current]?.value as number[] | undefined) ??
-                        q.left.map(() => -1)),
-                    ];
-                    arr[li] = Number(e.target.value);
-                    setAnswer({ type: "matching", value: arr });
-                  }}
-                  className="rounded-md border bg-background px-2 py-1.5 text-sm"
+              <div key={li} className="rounded-md border p-3">
+                <p className="mb-2 text-sm font-medium">{richText(l)}</p>
+                <div
+                  className="flex flex-wrap gap-2"
+                  role="group"
+                  aria-label={`Match for ${plainMath(l)}`}
                 >
-                  <option value="" disabled>
-                    Choose…
-                  </option>
-                  {q.options.map((o, oi) => (
-                    <option key={oi} value={oi}>
-                      {o}
-                    </option>
-                  ))}
-                </select>
+                  {q.options.map((o, oi) => {
+                    const selected = cur === oi;
+                    return (
+                      <button
+                        key={oi}
+                        type="button"
+                        aria-pressed={selected}
+                        onClick={() => {
+                          const next = [...arr];
+                          next[li] = oi;
+                          setAnswer({ type: "matching", value: next });
+                        }}
+                        className={cn(
+                          "rounded-md border px-2.5 py-1.5 text-sm transition-colors",
+                          selected ? "border-primary bg-primary/10" : "hover:border-primary/40"
+                        )}
+                      >
+                        {richText(o)}
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
             );
           })}
@@ -256,7 +263,7 @@ export function GradedQuiz({
                   }}
                   className="accent-primary"
                 />
-                {opt}
+                {richText(opt)}
               </label>
             );
           })}

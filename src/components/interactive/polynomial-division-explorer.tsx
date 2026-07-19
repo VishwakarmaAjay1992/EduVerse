@@ -134,8 +134,7 @@ export function PolynomialDivisionExplorer({ lessonId }: { lessonId: string }) {
       {tab === "synthetic" && (
         <div className="space-y-4">
           <p className="text-sm text-muted-foreground">
-            Synthetic division divides by $x - r$ using only the coefficients. Here $r =${" "}
-            {preset.root}.
+            Synthetic division divides by x − r using only the coefficients. Here r = {preset.root}.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full min-w-[320px] border-collapse text-center font-mono text-sm">
@@ -205,8 +204,8 @@ export function PolynomialDivisionExplorer({ lessonId }: { lessonId: string }) {
       {tab === "remainder" && (
         <div className="space-y-3">
           <p className="text-sm text-muted-foreground">
-            The remainder theorem says dividing a polynomial $p(x)$ by $(x - r)$ leaves a remainder
-            equal to $p(r)$ — no division required.
+            The remainder theorem says dividing a polynomial p(x) by (x − r) leaves a remainder
+            equal to p(r) — no division required.
           </p>
           <div className="grid gap-3 sm:grid-cols-2">
             <div className="rounded-lg border p-3">

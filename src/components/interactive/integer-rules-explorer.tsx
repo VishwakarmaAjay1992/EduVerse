@@ -222,11 +222,11 @@ export function IntegerRulesExplorer({ lessonId }: { lessonId: string }) {
           <div className="grid gap-3 sm:grid-cols-2">
             <div className="rounded-lg border p-4">
               <p className="font-semibold">With parentheses</p>
-              <p className="mt-1 text-sm text-muted-foreground">$(-3)^2 = (-3)(-3) = 9$</p>
+              <p className="mt-1 text-sm text-muted-foreground">(-3)\u00b2 = (-3)(-3) = 9</p>
             </div>
             <div className="rounded-lg border p-4">
               <p className="font-semibold">Without parentheses</p>
-              <p className="mt-1 text-sm text-muted-foreground">$-3^2 = -(3^2) = -9$</p>
+              <p className="mt-1 text-sm text-muted-foreground">-3\u00b2 = -(3\u00b2) = -9</p>
             </div>
           </div>
 

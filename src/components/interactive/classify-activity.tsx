@@ -4,6 +4,7 @@ import { useState } from "react";
 import { RotateCcw } from "lucide-react";
 import { markStep } from "@/lib/progress-store";
 import { cn } from "@/lib/utils";
+import { richText } from "@/components/math";
 import type { ClassifyItem } from "@/lib/lesson-content-types";
 
 export function ClassifyActivity({
@@ -46,7 +47,7 @@ export function ClassifyActivity({
           const correct = chosen === it.category;
           return (
             <li key={i} className="flex flex-wrap items-center gap-2 rounded-lg border p-2">
-              <span className="min-w-24 flex-1 text-sm font-medium">{it.term}</span>
+              <span className="min-w-24 flex-1 text-sm font-medium">{richText(it.term)}</span>
               {categories.map((cat) => (
                 <button
                   key={cat}
@@ -68,7 +69,7 @@ export function ClassifyActivity({
               ))}
               {answered && !correct && (
                 <span className="w-full text-xs text-muted-foreground">
-                  {it.term} is a {it.category.toLowerCase()} quantity.
+                  {richText(it.term)} is a {it.category.toLowerCase()} quantity.
                 </span>
               )}
             </li>

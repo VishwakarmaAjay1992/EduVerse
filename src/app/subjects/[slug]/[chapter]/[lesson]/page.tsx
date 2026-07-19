@@ -7,6 +7,7 @@ import { LessonBody } from "@/components/lesson-body";
 import { LessonSidebarNav } from "@/components/lesson-sidebar-nav";
 import { OnThisPage } from "@/components/on-this-page";
 import { SiteHeader } from "@/components/site-header";
+import { richText } from "@/components/math";
 import { Badge } from "@/components/ui/badge";
 import { findLesson, flattenChapterLessons, getChapter, lessonParams } from "@/lib/curriculum";
 import { getLessonContent, lessonOutline } from "@/lib/lesson-content";
@@ -84,7 +85,7 @@ export default async function LessonPage({
                   </h2>
                   <ul className="ml-5 list-disc space-y-1 text-sm">
                     {content.objectives.map((o, i) => (
-                      <li key={i}>{o}</li>
+                      <li key={i}>{richText(o)}</li>
                     ))}
                   </ul>
                 </div>

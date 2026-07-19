@@ -44,7 +44,7 @@ const PRESETS: FactorPreset[] = [
     original: "x\u00b2 \u2212 25",
     steps: [
       "Recognise both terms as perfect squares: x\u00b2 = (x)\u00b2 and 25 = (5)\u00b2.",
-      "Apply the pattern $a^2 - b^2 = (a+b)(a-b)$ with $a = x$, $b = 5$: (x + 5)(x \u2212 5).",
+      "Apply the pattern a\u00b2 \u2212 b\u00b2 = (a+b)(a-b) with a = x, b = 5: (x + 5)(x \u2212 5).",
     ],
     factored: "(x + 5)(x \u2212 5)",
     checkExpansion:
@@ -69,7 +69,7 @@ const PRESETS: FactorPreset[] = [
     original: "x\u00b3 + 8",
     steps: [
       "Recognise both terms as perfect cubes: x\u00b3 = (x)\u00b3 and 8 = (2)\u00b3.",
-      "Apply the pattern $a^3+b^3=(a+b)(a^2-ab+b^2)$ with $a=x$, $b=2$: (x + 2)(x\u00b2 \u2212 2x + 4).",
+      "Apply the pattern a\u00b3+b\u00b3=(a+b)(a\u00b2-ab+b\u00b2) with a=x, b=2: (x + 2)(x\u00b2 \u2212 2x + 4).",
     ],
     factored: "(x + 2)(x\u00b2 \u2212 2x + 4)",
     checkExpansion:

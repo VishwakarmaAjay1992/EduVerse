@@ -4,6 +4,7 @@ import { useState } from "react";
 import { CheckCircle2, XCircle } from "lucide-react";
 import { markStep } from "@/lib/progress-store";
 import { cn } from "@/lib/utils";
+import { richText } from "@/components/math";
 import type { PracticeQuestion } from "@/lib/lesson-content-types";
 
 export function PracticeQuestions({
@@ -32,7 +33,7 @@ export function PracticeQuestions({
         const correct = chosen === q.answer;
         return (
           <div key={qi} className="rounded-lg border p-4">
-            <p className="mb-2 text-sm font-medium">{q.prompt}</p>
+            <p className="mb-2 text-sm font-medium">{richText(q.prompt)}</p>
             <div className="flex flex-wrap gap-2">
               {q.options.map((opt, oi) => (
                 <button
@@ -46,7 +47,7 @@ export function PracticeQuestions({
                     answered && chosen === oi && !correct && "border-destructive bg-destructive/10"
                   )}
                 >
-                  {opt}
+                  {richText(opt)}
                 </button>
               ))}
             </div>
@@ -58,7 +59,7 @@ export function PracticeQuestions({
                 )}
               >
                 {correct ? <CheckCircle2 className="size-4" /> : <XCircle className="size-4" />}
-                {q.explanation}
+                {richText(q.explanation)}
               </p>
             )}
           </div>

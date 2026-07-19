@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { richText } from "@/components/math";
 
 export interface QuizQuestion {
   prompt: string;
@@ -20,7 +21,7 @@ export function Quiz({ questions }: { questions: QuizQuestion[] }) {
         const answered = chosen !== undefined;
         return (
           <div key={qi} className="rounded-lg border p-4">
-            <p className="mb-3 font-medium">{q.prompt}</p>
+            <p className="mb-3 font-medium">{richText(q.prompt)}</p>
             <div className="grid gap-2">
               {q.options.map((opt, oi) => {
                 const isAnswer = oi === q.answer;
@@ -38,13 +39,13 @@ export function Quiz({ questions }: { questions: QuizQuestion[] }) {
                       answered && !isAnswer && !isChosen && "opacity-60"
                     )}
                   >
-                    {opt}
+                    {richText(opt)}
                   </button>
                 );
               })}
             </div>
             {answered && q.explanation && (
-              <p className="mt-3 text-sm text-muted-foreground">{q.explanation}</p>
+              <p className="mt-3 text-sm text-muted-foreground">{richText(q.explanation)}</p>
             )}
           </div>
         );
