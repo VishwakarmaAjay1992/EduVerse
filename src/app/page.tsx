@@ -134,14 +134,14 @@ export default function HomePage() {
                 The people behind the principles
               </h2>
               <p className="mt-4 max-w-xl leading-7 text-muted-foreground">
-                Read high-quality profiles of ten influential scientists, including their defining
+                Read high-quality profiles of 25 influential scientists, including their defining
                 work, major contributions and photographs of original documents, instruments or
                 historical prototypes.
               </p>
               <div className="mt-6 flex items-center gap-4">
                 <Button asChild>
                   <Link href="/scientists">
-                    <Microscope aria-hidden="true" /> Explore the founding ten
+                    <Microscope aria-hidden="true" /> Explore the scientist profiles
                   </Link>
                 </Button>
                 <span className="text-sm text-muted-foreground">Designed to grow</span>

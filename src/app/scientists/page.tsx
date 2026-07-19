@@ -26,20 +26,20 @@ export default function ScientistsPage() {
             <div className="mx-auto max-w-4xl text-center">
               <div className="mb-5 inline-flex items-center gap-2 rounded-full border bg-background/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] shadow-sm backdrop-blur">
                 <Sparkles className="size-4" aria-hidden="true" />
-                The founding ten
+                Expanded collection
               </div>
               <h1 className="text-balance text-4xl font-bold tracking-tight sm:text-6xl">
-                World&apos;s Top 10 Scientists
+                World&apos;s Top 25 Scientists
               </h1>
               <p className="mx-auto mt-6 max-w-3xl text-balance text-lg leading-8 text-muted-foreground">
-                Explore the ideas, experiments, instruments and original records behind ten of
+                Explore the ideas, experiments, instruments and original records behind 25 of
                 history&apos;s most influential scientific lives. Every profile is built from
                 museum, archive, university and prize-institution sources.
               </p>
               <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-muted-foreground">
                 “Top” is used as a curated introduction rather than an absolute ranking. Scientific
                 progress is collaborative, crosses cultures and includes many more people than a
-                list of ten can represent. This collection is designed to expand.
+                list of 25 can represent. This collection is designed to expand.
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-3">
                 <Button asChild size="lg">

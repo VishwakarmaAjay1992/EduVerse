@@ -45,7 +45,7 @@ export function ScientistDirectory({ scientists }: { scientists: readonly Scient
             Curated collection
           </p>
           <h2 id="scientist-directory-heading" className="mt-2 text-3xl font-bold tracking-tight">
-            Meet the founding ten
+            Meet the expanded collection
           </h2>
           <p className="mt-2 max-w-2xl text-sm leading-6 text-muted-foreground">
             Search by a scientist, field or discovery. The collection is data-driven and designed to
