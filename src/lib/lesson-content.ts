@@ -68,6 +68,10 @@ import { rationalExpressions } from "@/content/mathematics/rational-expressions"
 import { solvingByFactoringAndSquareRoots } from "@/content/mathematics/solving-by-factoring-and-square-roots";
 import { completingTheSquareAndTheQuadraticFormula } from "@/content/mathematics/completing-the-square-and-the-quadratic-formula";
 import { parabolas } from "@/content/mathematics/parabolas";
+import { whatIsAFunction } from "@/content/mathematics/what-is-a-function";
+import { compositeAndInverseFunctions } from "@/content/mathematics/composite-and-inverse-functions";
+import { familiesOfGraphs } from "@/content/mathematics/families-of-graphs";
+import { graphTransformations } from "@/content/mathematics/graph-transformations";
 import type { LessonContent } from "./lesson-content-types";
 
 const REGISTRY: LessonContent[] = [
@@ -112,6 +116,10 @@ const REGISTRY: LessonContent[] = [
   solvingByFactoringAndSquareRoots,
   completingTheSquareAndTheQuadraticFormula,
   parabolas,
+  whatIsAFunction,
+  compositeAndInverseFunctions,
+  familiesOfGraphs,
+  graphTransformations,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
   solvingOneStepAndTwoStepEquations,
@@ -293,6 +301,18 @@ export function lessonOutline(content: LessonContent): OutlineItem[] {
         break;
       case "parabolaGraphExplorer":
         items.push({ id, label: "Interactive parabola grapher" });
+        break;
+      case "functionMachineExplorer":
+        items.push({ id, label: "Interactive function machine" });
+        break;
+      case "compositeInverseExplorer":
+        items.push({ id, label: "Interactive composition and inverse laboratory" });
+        break;
+      case "functionFamiliesExplorer":
+        items.push({ id, label: "Interactive families of graphs" });
+        break;
+      case "graphTransformationExplorer":
+        items.push({ id, label: "Interactive graph transformation laboratory" });
         break;
       case "unitCircleExplorer":
         items.push({ id, label: "Interactive unit circle" });

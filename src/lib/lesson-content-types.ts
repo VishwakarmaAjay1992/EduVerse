@@ -154,6 +154,10 @@ export type LessonSection =
   | { kind: "quadraticSolverExplorer"; heading?: string }
   | { kind: "quadraticFormulaExplorer"; heading?: string }
   | { kind: "parabolaGraphExplorer"; heading?: string }
+  | { kind: "functionMachineExplorer"; heading?: string }
+  | { kind: "compositeInverseExplorer"; heading?: string }
+  | { kind: "functionFamiliesExplorer"; heading?: string }
+  | { kind: "graphTransformationExplorer"; heading?: string }
   | { kind: "history"; paragraphs: string[] };
 
 export interface LessonContent {

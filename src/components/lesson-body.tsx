@@ -53,6 +53,10 @@ import { RationalExpressionExplorer } from "@/components/interactive/rational-ex
 import { QuadraticSolverExplorer } from "@/components/interactive/quadratic-solver-explorer";
 import { QuadraticFormulaExplorer } from "@/components/interactive/quadratic-formula-explorer";
 import { ParabolaGraphExplorer } from "@/components/interactive/parabola-graph-explorer";
+import { FunctionMachineExplorer } from "@/components/interactive/function-machine-explorer";
+import { CompositeInverseExplorer } from "@/components/interactive/composite-inverse-explorer";
+import { FunctionFamiliesExplorer } from "@/components/interactive/function-families-explorer";
+import { GraphTransformationExplorer } from "@/components/interactive/graph-transformation-explorer";
 import { Flashcards } from "@/components/interactive/flashcards";
 import { Quiz } from "@/components/interactive/quiz";
 import { BlockMath, richText } from "@/components/math";
@@ -668,6 +672,40 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
         <div className="space-y-3">
           <h3 className="text-lg font-semibold">{rich(section.heading ?? "Parabola grapher")}</h3>
           <ParabolaGraphExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "functionMachineExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {rich(section.heading ?? "Function machine and vertical line test")}
+          </h3>
+          <FunctionMachineExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "compositeInverseExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {rich(section.heading ?? "Composition and inverse laboratory")}
+          </h3>
+          <CompositeInverseExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "functionFamiliesExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">{rich(section.heading ?? "Families of graphs")}</h3>
+          <FunctionFamiliesExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "graphTransformationExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {rich(section.heading ?? "Graph transformation laboratory")}
+          </h3>
+          <GraphTransformationExplorer lessonId={lessonId} />
         </div>
       );
     case "unitCircleExplorer":
