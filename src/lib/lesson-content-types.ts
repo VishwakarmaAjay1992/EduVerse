@@ -147,6 +147,10 @@ export type LessonSection =
   | { kind: "wordProblemTranslatorExplorer"; heading?: string }
   | { kind: "inequalityExplorer"; heading?: string }
   | { kind: "simultaneousEquationsExplorer"; heading?: string }
+  | { kind: "polynomialMultiplyExplorer"; heading?: string }
+  | { kind: "polynomialDivisionExplorer"; heading?: string }
+  | { kind: "factoringExplorer"; heading?: string }
+  | { kind: "rationalExpressionExplorer"; heading?: string }
   | { kind: "history"; paragraphs: string[] };
 
 export interface LessonContent {

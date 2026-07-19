@@ -47,6 +47,10 @@ import { LinearEquationSolverExplorer } from "@/components/interactive/linear-eq
 import { WordProblemTranslatorExplorer } from "@/components/interactive/word-problem-translator-explorer";
 import { InequalityExplorer } from "@/components/interactive/inequality-explorer";
 import { SimultaneousEquationsExplorer } from "@/components/interactive/simultaneous-equations-explorer";
+import { PolynomialMultiplyExplorer } from "@/components/interactive/polynomial-multiply-explorer";
+import { PolynomialDivisionExplorer } from "@/components/interactive/polynomial-division-explorer";
+import { FactoringExplorer } from "@/components/interactive/factoring-explorer";
+import { RationalExpressionExplorer } from "@/components/interactive/rational-expression-explorer";
 import { Flashcards } from "@/components/interactive/flashcards";
 import { Quiz } from "@/components/interactive/quiz";
 import { BlockMath, InlineMath } from "@/components/math";
@@ -596,6 +600,40 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
             {section.heading ?? "Simultaneous equations laboratory"}
           </h3>
           <SimultaneousEquationsExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "polynomialMultiplyExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Polynomial multiplication laboratory"}
+          </h3>
+          <PolynomialMultiplyExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "polynomialDivisionExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Polynomial division laboratory"}
+          </h3>
+          <PolynomialDivisionExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "factoringExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">{section.heading ?? "Factoring laboratory"}</h3>
+          <FactoringExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "rationalExpressionExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Rational expressions laboratory"}
+          </h3>
+          <RationalExpressionExplorer lessonId={lessonId} />
         </div>
       );
     case "unitCircleExplorer":

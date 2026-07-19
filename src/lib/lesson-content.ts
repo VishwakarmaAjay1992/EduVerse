@@ -60,6 +60,10 @@ import { solvingLinearEquations } from "@/content/mathematics/solving-linear-equ
 import { wordProblemsWithLinearEquations } from "@/content/mathematics/word-problems-with-linear-equations";
 import { linearInequalities } from "@/content/mathematics/linear-inequalities";
 import { systemsOfLinearEquations } from "@/content/mathematics/systems-of-linear-equations";
+import { polynomialsAddSubtractMultiply } from "@/content/mathematics/polynomials-add-subtract-multiply";
+import { polynomialDivision } from "@/content/mathematics/polynomial-division";
+import { factoringTechniques } from "@/content/mathematics/factoring-techniques";
+import { rationalExpressions } from "@/content/mathematics/rational-expressions";
 import type { LessonContent } from "./lesson-content-types";
 
 const REGISTRY: LessonContent[] = [
@@ -97,6 +101,10 @@ const REGISTRY: LessonContent[] = [
   wordProblemsWithLinearEquations,
   linearInequalities,
   systemsOfLinearEquations,
+  polynomialsAddSubtractMultiply,
+  polynomialDivision,
+  factoringTechniques,
+  rationalExpressions,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
   solvingOneStepAndTwoStepEquations,
@@ -257,6 +265,18 @@ export function lessonOutline(content: LessonContent): OutlineItem[] {
         break;
       case "simultaneousEquationsExplorer":
         items.push({ id, label: "Interactive simultaneous-equations laboratory" });
+        break;
+      case "polynomialMultiplyExplorer":
+        items.push({ id, label: "Interactive polynomial multiplication laboratory" });
+        break;
+      case "polynomialDivisionExplorer":
+        items.push({ id, label: "Interactive polynomial division laboratory" });
+        break;
+      case "factoringExplorer":
+        items.push({ id, label: "Interactive factoring laboratory" });
+        break;
+      case "rationalExpressionExplorer":
+        items.push({ id, label: "Interactive rational expressions laboratory" });
         break;
       case "unitCircleExplorer":
         items.push({ id, label: "Interactive unit circle" });
