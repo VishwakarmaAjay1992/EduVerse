@@ -72,6 +72,9 @@ import { whatIsAFunction } from "@/content/mathematics/what-is-a-function";
 import { compositeAndInverseFunctions } from "@/content/mathematics/composite-and-inverse-functions";
 import { familiesOfGraphs } from "@/content/mathematics/families-of-graphs";
 import { graphTransformations } from "@/content/mathematics/graph-transformations";
+import { exponentialGrowthAndDecay } from "@/content/mathematics/exponential-growth-and-decay";
+import { logarithmsAndTheirLaws } from "@/content/mathematics/logarithms-and-their-laws";
+import { exponentialAndLogarithmicEquations } from "@/content/mathematics/exponential-and-logarithmic-equations";
 import type { LessonContent } from "./lesson-content-types";
 
 const REGISTRY: LessonContent[] = [
@@ -120,6 +123,9 @@ const REGISTRY: LessonContent[] = [
   compositeAndInverseFunctions,
   familiesOfGraphs,
   graphTransformations,
+  exponentialGrowthAndDecay,
+  logarithmsAndTheirLaws,
+  exponentialAndLogarithmicEquations,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
   solvingOneStepAndTwoStepEquations,
@@ -313,6 +319,15 @@ export function lessonOutline(content: LessonContent): OutlineItem[] {
         break;
       case "graphTransformationExplorer":
         items.push({ id, label: "Interactive graph transformation laboratory" });
+        break;
+      case "exponentialGrowthExplorer":
+        items.push({ id, label: "Interactive exponential growth laboratory" });
+        break;
+      case "logarithmExplorer":
+        items.push({ id, label: "Interactive logarithm laws laboratory" });
+        break;
+      case "expLogEquationExplorer":
+        items.push({ id, label: "Interactive exponential and log equation solver" });
         break;
       case "unitCircleExplorer":
         items.push({ id, label: "Interactive unit circle" });

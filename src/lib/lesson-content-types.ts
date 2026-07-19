@@ -158,6 +158,9 @@ export type LessonSection =
   | { kind: "compositeInverseExplorer"; heading?: string }
   | { kind: "functionFamiliesExplorer"; heading?: string }
   | { kind: "graphTransformationExplorer"; heading?: string }
+  | { kind: "exponentialGrowthExplorer"; heading?: string }
+  | { kind: "logarithmExplorer"; heading?: string }
+  | { kind: "expLogEquationExplorer"; heading?: string }
   | { kind: "history"; paragraphs: string[] };
 
 export interface LessonContent {

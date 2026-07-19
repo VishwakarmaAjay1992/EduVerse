@@ -57,6 +57,9 @@ import { FunctionMachineExplorer } from "@/components/interactive/function-machi
 import { CompositeInverseExplorer } from "@/components/interactive/composite-inverse-explorer";
 import { FunctionFamiliesExplorer } from "@/components/interactive/function-families-explorer";
 import { GraphTransformationExplorer } from "@/components/interactive/graph-transformation-explorer";
+import { ExponentialGrowthExplorer } from "@/components/interactive/exponential-growth-explorer";
+import { LogarithmExplorer } from "@/components/interactive/logarithm-explorer";
+import { ExpLogEquationExplorer } from "@/components/interactive/exp-log-equation-explorer";
 import { Flashcards } from "@/components/interactive/flashcards";
 import { Quiz } from "@/components/interactive/quiz";
 import { BlockMath, richText } from "@/components/math";
@@ -706,6 +709,33 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
             {rich(section.heading ?? "Graph transformation laboratory")}
           </h3>
           <GraphTransformationExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "exponentialGrowthExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {rich(section.heading ?? "Exponential growth and compound interest laboratory")}
+          </h3>
+          <ExponentialGrowthExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "logarithmExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {rich(section.heading ?? "Logarithm laws laboratory")}
+          </h3>
+          <LogarithmExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "expLogEquationExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {rich(section.heading ?? "Exponential and logarithmic equation solver")}
+          </h3>
+          <ExpLogEquationExplorer lessonId={lessonId} />
         </div>
       );
     case "unitCircleExplorer":
