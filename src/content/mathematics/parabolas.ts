@@ -131,14 +131,14 @@ export const parabolas: LessonContent = {
     {
       kind: "example",
       prompt:
-        "A shop's weekly profit in riyals from selling shirts at $x$ riyals each is modelled by $P(x) = -10x^2+400x-2000$. Find the price that maximises profit, and the maximum profit.",
+        "A shop's weekly profit in rupees from selling shirts at $x$ rupees each is modelled by $P(x) = -10x^2+400x-2000$. Find the price that maximises profit, and the maximum profit.",
       steps: [
         "Identify coefficients: $a=-10$, $b=400$, $c=-2000$.",
         "Find the vertex's x-coordinate: $x = -\\dfrac{400}{2(-10)} = 20$.",
         "Find the maximum profit: $P(20) = -10(20)^2+400(20)-2000 = -4000+8000-2000=2000$.",
       ],
       answer:
-        "A price of 20 riyals maximises profit, giving a maximum weekly profit of 2,000 riyals.",
+        "A price of ₹20 maximises profit, giving a maximum weekly profit of ₹2,000.",
     },
     {
       kind: "callout",

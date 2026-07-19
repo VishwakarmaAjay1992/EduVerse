@@ -32,7 +32,7 @@ export const directAndInverseProportion: LessonContent = {
       heading: "Direct proportion",
       paragraphs: [
         "In direct proportion, if you double one quantity you double the other; if you halve one, you halve the other. The ratio $\\dfrac{y}{x}$ stays constant.",
-        "You will see direct proportion when a cost is per unit (5 riyals per kilogram) or a rate is fixed (60 km per hour). The graph of a directly proportional relationship is a straight line passing through the origin, with equation $y = kx$.",
+        "You will see direct proportion when a cost is per unit (₹5 per kilogram) or a rate is fixed (60 km per hour). The graph of a directly proportional relationship is a straight line passing through the origin, with equation $y = kx$.",
       ],
       list: [
         "Symbol: $y \\propto x$, read 'y is proportional to x'.",
@@ -123,12 +123,12 @@ export const directAndInverseProportion: LessonContent = {
     {
       kind: "example",
       prompt:
-        "If 8 pens cost 60 riyals, how much do 14 pens cost, assuming the cost is directly proportional to the number of pens?",
+        "If 8 pens cost ₹60, how much do 14 pens cost, assuming the cost is directly proportional to the number of pens?",
       steps: [
-        "Find the cost of one pen: $60 \\div 8 = 7.50$ riyals.",
-        "Multiply by 14: $7.50 \\times 14 = 105$ riyals.",
+        "Find the cost of one pen: $60 \\div 8 = 7.50$ rupees.",
+        "Multiply by 14: $7.50 \\times 14 = 105$ rupees.",
       ],
-      answer: "14 pens cost 105 riyals.",
+      answer: "14 pens cost ₹105.",
     },
     {
       kind: "example",
@@ -248,7 +248,7 @@ export const directAndInverseProportion: LessonContent = {
         },
         {
           area: "Currency",
-          text: "The number of riyals you receive from a bank is directly proportional to the number of dollars you exchange at a fixed rate.",
+          text: "The number of rupees you receive from a bank is directly proportional to the number of dollars you exchange at a fixed rate.",
         },
       ],
     },
@@ -313,10 +313,10 @@ export const directAndInverseProportion: LessonContent = {
       questions: [
         {
           prompt:
-            "If 5 kg of flour costs 40 riyals, how much do 12 kg cost at the same price per kilogram?",
-          options: ["48 riyals", "72 riyals", "80 riyals", "96 riyals"],
+            "If 5 kg of flour costs ₹40, how much do 12 kg cost at the same price per kilogram?",
+          options: ["₹48", "₹72", "₹80", "₹96"],
           answer: 3,
-          explanation: "$40 \\div 5 = 8$ riyals per kg; $8 \\times 12 = 96$.",
+          explanation: "$40 \\div 5 = 8$ rupees per kg; $8 \\times 12 = 96$.",
         },
         {
           prompt:

@@ -60,14 +60,14 @@ export const exponentialGrowthAndDecay: LessonContent = {
     {
       kind: "example",
       prompt:
-        "A car worth 20,000 riyals depreciates by 15% per year. Write a function for its value after $t$ years, and find its value after 5 years.",
+        "A car worth ₹20,000 depreciates by 15% per year. Write a function for its value after $t$ years, and find its value after 5 years.",
       steps: [
         "Starting value $a=20{,}000$; decay rate 15% means $b = 1 - 0.15 = 0.85$.",
         "Function: $V(t) = 20{,}000 \\cdot 0.85^t$.",
         "Substitute $t=5$: $V(5) = 20{,}000 \\cdot 0.85^5 \\approx 20{,}000 \\times 0.4437 \\approx 8{,}874$.",
       ],
       answer:
-        "$V(t) = 20{,}000 \\cdot 0.85^t$; after 5 years, the car is worth approximately 8,874 riyals.",
+        "$V(t) = 20{,}000 \\cdot 0.85^t$; after 5 years, the car is worth approximately ₹8,874.",
     },
     {
       kind: "theory",
@@ -85,13 +85,13 @@ export const exponentialGrowthAndDecay: LessonContent = {
     {
       kind: "example",
       prompt:
-        "1,000 riyals is invested at 6% annual interest, compounded monthly, for 3 years. Find the final amount.",
+        "₹1,000 is invested at 6% annual interest, compounded monthly, for 3 years. Find the final amount.",
       steps: [
         "Identify values: $P=1000$, $r=0.06$, $n=12$, $t=3$.",
         "Substitute: $A = 1000\\left(1+\\dfrac{0.06}{12}\\right)^{12 \\times 3} = 1000(1.005)^{36}$.",
         "Evaluate: $A \\approx 1000 \\times 1.1967 \\approx 1{,}196.68$.",
       ],
-      answer: "The investment grows to approximately 1,196.68 riyals.",
+      answer: "The investment grows to approximately ₹1,196.68.",
     },
     {
       kind: "theory",
@@ -108,13 +108,13 @@ export const exponentialGrowthAndDecay: LessonContent = {
     {
       kind: "example",
       prompt:
-        "1,000 riyals is invested at 6% annual interest, compounded continuously, for 3 years. Compare this to the monthly compounding result above.",
+        "₹1,000 is invested at 6% annual interest, compounded continuously, for 3 years. Compare this to the monthly compounding result above.",
       steps: [
         "Substitute into the continuous formula: $A = 1000 \\cdot e^{0.06 \\times 3} = 1000 \\cdot e^{0.18}$.",
         "Evaluate: $A \\approx 1000 \\times 1.1972 \\approx 1{,}197.22$.",
       ],
       answer:
-        "Continuous compounding gives approximately 1,197.22 riyals — only slightly more than the 1,196.68 riyals from monthly compounding, showing that more frequent compounding has diminishing extra benefit.",
+        "Continuous compounding gives approximately ₹1,197.22 — only slightly more than the ₹1,196.68 from monthly compounding, showing that more frequent compounding has diminishing extra benefit.",
     },
     {
       kind: "callout",
@@ -193,7 +193,7 @@ export const exponentialGrowthAndDecay: LessonContent = {
         },
         {
           prompt:
-            "800 riyals is invested at 5% annual interest, compounded annually, for 2 years. Find the amount (to the nearest riyal).",
+            "₹800 is invested at 5% annual interest, compounded annually, for 2 years. Find the amount (to the nearest rupee).",
           options: ["882", "840", "800", "900"],
           answer: 0,
           explanation: "$A=800(1.05)^2 \\approx 882$.",
@@ -305,7 +305,7 @@ export const exponentialGrowthAndDecay: LessonContent = {
         {
           type: "mc",
           prompt:
-            "600 riyals is invested at 4% annual interest, compounded annually, for 3 years. Find the amount (nearest riyal).",
+            "₹600 is invested at 4% annual interest, compounded annually, for 3 years. Find the amount (nearest rupee).",
           options: ["675", "672", "600", "700"],
           answer: 0,
           marks: 2,
@@ -323,7 +323,7 @@ export const exponentialGrowthAndDecay: LessonContent = {
         {
           type: "mc",
           prompt:
-            "1,500 riyals is invested at 5% annual interest, compounded monthly, for 2 years. Find the amount (nearest riyal).",
+            "₹1,500 is invested at 5% annual interest, compounded monthly, for 2 years. Find the amount (nearest rupee).",
           options: ["1657", "1650", "1575", "1700"],
           answer: 0,
           marks: 2,

@@ -284,8 +284,8 @@ export const ratios: LessonContent = {
         },
         {
           prompt:
-            "Divide 720 riyals between three friends in the ratio $2 : 3 : 4$. How much does the friend with the smallest share receive?",
-          options: ["120 riyals", "160 riyals", "180 riyals", "240 riyals"],
+            "Divide ₹720 between three friends in the ratio $2 : 3 : 4$. How much does the friend with the smallest share receive?",
+          options: ["₹120", "₹160", "₹180", "₹240"],
           answer: 1,
           explanation: "Total parts $= 9$; one part $= 80$; smallest share $= 2 \\times 80 = 160$.",
         },

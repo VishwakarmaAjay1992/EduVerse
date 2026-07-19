@@ -22,14 +22,14 @@ const EQUATIONS: EquationPreset[] = [
 
 const WORD_PROBLEMS = [
   {
-    prompt: "A cinema ticket costs x riyals. A 4-riyal booking fee makes the total 29 riyals.",
+    prompt: "A cinema ticket costs x rupees. A ₹4 booking fee makes the total ₹29.",
     options: ["4x = 29", "x + 4 = 29", "x − 4 = 29"],
     answer: 1,
     solution: "x = 25",
     explanation: "The booking fee is added once, so the equation is x + 4 = 29.",
   },
   {
-    prompt: "Three identical notebooks cost 24 riyals in total.",
+    prompt: "Three identical notebooks cost ₹24 in total.",
     options: ["x + 3 = 24", "3x = 24", "x/3 = 24"],
     answer: 1,
     solution: "x = 8",

@@ -200,7 +200,7 @@ export const solvingOneStepAndTwoStepEquations: LessonContent = {
     {
       kind: "example",
       prompt:
-        "A taxi charges a fixed fee of 8 riyals plus 3 riyals per kilometre. A trip costs 29 riyals. Find the distance.",
+        "A taxi charges a fixed fee of ₹8 plus ₹3 per kilometre. A trip costs ₹29. Find the distance.",
       steps: [
         "Let $d$ be the distance in kilometres.",
         "Fixed fee plus distance charge equals total: $8+3d=29$.",
@@ -212,14 +212,14 @@ export const solvingOneStepAndTwoStepEquations: LessonContent = {
     {
       kind: "example",
       prompt:
-        "Three identical notebooks and a 2-riyal bag cost 26 riyals. Find the cost of one notebook.",
+        "Three identical notebooks and a ₹2 bag cost ₹26. Find the cost of one notebook.",
       steps: [
         "Let $n$ be the price of one notebook.",
         "The equation is $3n+2=26$.",
         "Subtract 2: $3n=24$.",
         "Divide by 3: $n=8$.",
       ],
-      answer: "Each notebook costs 8 riyals.",
+      answer: "Each notebook costs ₹8.",
     },
     {
       kind: "realWorld",
@@ -429,7 +429,7 @@ export const solvingOneStepAndTwoStepEquations: LessonContent = {
         {
           type: "mc",
           prompt:
-            "Which equation models: ‘Four identical pens and a 3-riyal folder cost 27 riyals’?",
+            "Which equation models: ‘Four identical pens and a ₹3 folder cost ₹27’?",
           options: ["4(p+3)=27", "4p+3=27", "p+12=27", "3p+4=27"],
           answer: 1,
           marks: 2,
@@ -459,7 +459,7 @@ export const solvingOneStepAndTwoStepEquations: LessonContent = {
         {
           type: "mc",
           prompt:
-            "A gym charges 15 riyals entry plus 5 riyals per activity. A visit costs 40 riyals. How many activities were completed?",
+            "A gym charges ₹15 entry plus ₹5 per activity. A visit costs ₹40. How many activities were completed?",
           options: ["3", "5", "8", "11"],
           answer: 1,
           marks: 3,

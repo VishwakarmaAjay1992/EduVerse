@@ -183,7 +183,7 @@ export const solvingLinearEquations: LessonContent = {
     {
       kind: "example",
       prompt:
-        "A café charges 4 riyals for delivery plus 12 riyals per meal. A customer's total bill was 64 riyals. How many meals did they order?",
+        "A café charges ₹4 for delivery plus ₹12 per meal. A customer's total bill was ₹64. How many meals did they order?",
       steps: [
         "Let $x$ be the number of meals. The total is $12x + 4$.",
         "Set up the equation: $12x + 4 = 64$.",
@@ -306,7 +306,7 @@ export const solvingLinearEquations: LessonContent = {
         },
         {
           prompt:
-            "A phone plan costs 15 riyals plus 2 riyals per gigabyte used. A bill was 33 riyals. How many gigabytes were used?",
+            "A phone plan costs ₹15 plus ₹2 per gigabyte used. A bill was ₹33. How many gigabytes were used?",
           options: ["6", "9", "18", "24"],
           answer: 1,
           explanation: "$2x + 15 = 33 \\Rightarrow 2x = 18 \\Rightarrow x = 9$.",
@@ -432,7 +432,7 @@ export const solvingLinearEquations: LessonContent = {
         {
           type: "mc",
           prompt:
-            "A market stall charges a fixed 5 riyal stall fee plus 3 riyals per kilogram of fruit. A customer paid 32 riyals. How many kilograms did they buy?",
+            "A market stall charges a fixed ₹5 stall fee plus ₹3 per kilogram of fruit. A customer paid ₹32. How many kilograms did they buy?",
           options: ["7", "9", "11", "12"],
           answer: 1,
           marks: 2,

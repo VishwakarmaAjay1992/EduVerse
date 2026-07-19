@@ -403,11 +403,11 @@ export const integersAndTheNumberLine: LessonContent = {
         },
         {
           type: "mc",
-          prompt: "A bank balance changes from QAR 25 to QAR −10. What is the change?",
-          options: ["A gain of QAR 15", "A loss of QAR 15", "A loss of QAR 35", "A gain of QAR 35"],
+          prompt: "A bank balance changes from ₹25 to −₹10. What is the change?",
+          options: ["A gain of ₹15", "A loss of ₹15", "A loss of ₹35", "A gain of ₹35"],
           answer: 2,
           marks: 1,
-          explanation: "$-10-25=-35$, so the balance decreased by QAR 35.",
+          explanation: "$-10-25=-35$, so the balance decreased by ₹35.",
         },
         {
           type: "mc",

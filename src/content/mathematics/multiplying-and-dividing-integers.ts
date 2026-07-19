@@ -222,7 +222,7 @@ export const multiplyingAndDividingIntegers: LessonContent = {
       items: [
         {
           area: "Repeated financial changes",
-          text: "A fee of QAR 12 charged for 6 months can be modelled as $6\times(-12)=-72$ QAR.",
+          text: "A fee of ₹12 charged for 6 months can be modelled as $6\times(-12)=-72$ rupees.",
         },
         {
           area: "Temperature",

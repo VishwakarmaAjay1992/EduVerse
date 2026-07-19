@@ -51,22 +51,22 @@ export const percentageChangeAndApplications: LessonContent = {
     },
     {
       kind: "example",
-      prompt: "A monthly salary of 4,000 riyals is increased by $8\\%$. Find the new salary.",
+      prompt: "A monthly salary of ₹4,000 is increased by $8\\%$. Find the new salary.",
       steps: [
         "Write the multiplier for an $8\\%$ increase: $1 + 0.08 = 1.08$.",
         "Multiply the original salary by the multiplier: $4000 \\times 1.08 = 4320$.",
       ],
-      answer: "The new salary is 4,320 riyals.",
+      answer: "The new salary is ₹4,320.",
     },
     {
       kind: "example",
       prompt:
-        "A television costs 2,500 riyals. In a sale it is reduced by $15\\%$. Find the sale price.",
+        "A television costs ₹2,500. In a sale it is reduced by $15\\%$. Find the sale price.",
       steps: [
         "Write the multiplier for a $15\\%$ decrease: $1 - 0.15 = 0.85$.",
         "Multiply the original price by the multiplier: $2500 \\times 0.85 = 2125$.",
       ],
-      answer: "The sale price is 2,125 riyals.",
+      answer: "The sale price is ₹2,125.",
     },
     {
       kind: "theory",
@@ -79,9 +79,9 @@ export const percentageChangeAndApplications: LessonContent = {
     {
       kind: "example",
       prompt:
-        "A shop bought a jacket for 200 riyals and sold it for 250 riyals. Find the percentage profit.",
+        "A shop bought a jacket for ₹200 and sold it for ₹250. Find the percentage profit.",
       steps: [
-        "Find the change: $250 - 200 = 50$ riyals of profit.",
+        "Find the change: $250 - 200 = 50$ rupees of profit.",
         "Divide by the original value: $\\tfrac{50}{200} = 0.25$.",
         "Multiply by 100 to convert to a percentage.",
       ],
@@ -90,9 +90,9 @@ export const percentageChangeAndApplications: LessonContent = {
     {
       kind: "example",
       prompt:
-        "A car worth 60,000 riyals is now worth 51,000 riyals a year later. Find the percentage loss.",
+        "A car worth ₹60,000 is now worth ₹51,000 a year later. Find the percentage loss.",
       steps: [
-        "Find the change: $51{,}000 - 60{,}000 = -9{,}000$ riyals.",
+        "Find the change: $51{,}000 - 60{,}000 = -9{,}000$ rupees.",
         "Divide by the original value: $\\tfrac{-9000}{60000} = -0.15$.",
         "The negative sign indicates a decrease.",
       ],
@@ -130,23 +130,23 @@ export const percentageChangeAndApplications: LessonContent = {
     {
       kind: "example",
       prompt:
-        "A book has a list price of 80 riyals. The shop offers a $10\\%$ discount, but VAT at $5\\%$ is then added to the discounted price. How much does the customer pay?",
+        "A book has a list price of ₹80. The shop offers a $10\\%$ discount, but VAT at $5\\%$ is then added to the discounted price. How much does the customer pay?",
       steps: [
-        "Apply the discount: multiplier is $0.90$, so the discounted price is $80 \\times 0.9 = 72$ riyals.",
-        "Apply VAT to the discounted price: multiplier is $1.05$, so the final price is $72 \\times 1.05 = 75.60$ riyals.",
+        "Apply the discount: multiplier is $0.90$, so the discounted price is $80 \\times 0.9 = 72$ rupees.",
+        "Apply VAT to the discounted price: multiplier is $1.05$, so the final price is $72 \\times 1.05 = 75.60$ rupees.",
       ],
-      answer: "The customer pays 75.60 riyals.",
+      answer: "The customer pays ₹75.60.",
     },
     {
       kind: "example",
       prompt:
-        "Sara deposits 5,000 riyals in a savings account paying $4\\%$ simple interest per year. How much interest does she earn after 3 years, and what is her balance?",
+        "Sara deposits ₹5,000 in a savings account paying $4\\%$ simple interest per year. How much interest does she earn after 3 years, and what is her balance?",
       steps: [
         "Use the formula $I = \\dfrac{P \\, r \\, t}{100}$ with $P = 5000$, $r = 4$ and $t = 3$.",
         "Substitute: $I = \\dfrac{5000 \\times 4 \\times 3}{100} = \\dfrac{60000}{100} = 600$.",
         "Balance is principal plus interest: $5000 + 600 = 5600$.",
       ],
-      answer: "She earns 600 riyals in interest and has 5,600 riyals in the account.",
+      answer: "She earns ₹600 in interest and has ₹5,600 in the account.",
     },
     {
       kind: "theory",
@@ -165,23 +165,23 @@ export const percentageChangeAndApplications: LessonContent = {
     {
       kind: "example",
       prompt:
-        "After a $20\\%$ pay rise, an employee earns 6,000 riyals per month. What was the salary before the rise?",
+        "After a $20\\%$ pay rise, an employee earns ₹6,000 per month. What was the salary before the rise?",
       steps: [
         "A $20\\%$ increase corresponds to a multiplier of $1.20$.",
         "The original salary satisfies $\\text{original} \\times 1.20 = 6000$.",
         "Divide the final salary by the multiplier: $\\text{original} = \\tfrac{6000}{1.20} = 5000$.",
       ],
-      answer: "The salary before the rise was 5,000 riyals.",
+      answer: "The salary before the rise was ₹5,000.",
     },
     {
       kind: "example",
-      prompt: "In a $25\\%$ off sale, a coat costs 300 riyals. What was the original price?",
+      prompt: "In a $25\\%$ off sale, a coat costs ₹300. What was the original price?",
       steps: [
         "A $25\\%$ decrease corresponds to a multiplier of $0.75$.",
         "Set up the equation $\\text{original} \\times 0.75 = 300$.",
         "Solve for the original: $\\text{original} = \\tfrac{300}{0.75} = 400$.",
       ],
-      answer: "The original price was 400 riyals.",
+      answer: "The original price was ₹400.",
     },
     {
       kind: "theory",
@@ -287,14 +287,14 @@ export const percentageChangeAndApplications: LessonContent = {
           explanation: "$100\\% - 12\\% = 88\\% = 0.88$.",
         },
         {
-          prompt: "A price of 60 riyals is increased by $25\\%$. Find the new price.",
-          options: ["15 riyals", "45 riyals", "75 riyals", "85 riyals"],
+          prompt: "A price of ₹60 is increased by $25\\%$. Find the new price.",
+          options: ["₹15", "₹45", "₹75", "₹85"],
           answer: 2,
           explanation: "$60 \\times 1.25 = 75$.",
         },
         {
-          prompt: "A price of 200 riyals is reduced by $30\\%$. Find the new price.",
-          options: ["60 riyals", "140 riyals", "170 riyals", "260 riyals"],
+          prompt: "A price of ₹200 is reduced by $30\\%$. Find the new price.",
+          options: ["₹60", "₹140", "₹170", "₹260"],
           answer: 1,
           explanation: "Multiplier is $0.70$; $200 \\times 0.70 = 140$.",
         },
@@ -305,22 +305,22 @@ export const percentageChangeAndApplications: LessonContent = {
           explanation: "Change is 20; $\\tfrac{20}{80} = 0.25 = 25\\%$ increase.",
         },
         {
-          prompt: "After a $20\\%$ increase, a bill is 96 riyals. What was the original bill?",
-          options: ["76.80 riyals", "80 riyals", "115.20 riyals", "120 riyals"],
+          prompt: "After a $20\\%$ increase, a bill is ₹96. What was the original bill?",
+          options: ["₹76.80", "₹80", "₹115.20", "₹120"],
           answer: 1,
           explanation: "Divide by the multiplier: $\\tfrac{96}{1.20} = 80$.",
         },
         {
           prompt:
-            "A trader buys goods for 500 riyals and sells them for 620 riyals. What is the percentage profit?",
+            "A trader buys goods for ₹500 and sells them for ₹620. What is the percentage profit?",
           options: ["12%", "20%", "24%", "80%"],
           answer: 2,
           explanation: "Profit is 120; $\\tfrac{120}{500} = 0.24 = 24\\%$.",
         },
         {
           prompt:
-            "5,000 riyals is invested at $6\\%$ simple interest per year. How much interest is earned after 4 years?",
-          options: ["120 riyals", "240 riyals", "600 riyals", "1,200 riyals"],
+            "₹5,000 is invested at $6\\%$ simple interest per year. How much interest is earned after 4 years?",
+          options: ["₹120", "₹240", "₹600", "₹1,200"],
           answer: 3,
           explanation: "$I = \\tfrac{5000 \\times 6 \\times 4}{100} = 1200$.",
         },
@@ -410,8 +410,8 @@ export const percentageChangeAndApplications: LessonContent = {
         },
         {
           type: "mc",
-          prompt: "A watch is on sale at $30\\%$ off for 315 riyals. What was the original price?",
-          options: ["345 riyals", "409.50 riyals", "450 riyals", "1,050 riyals"],
+          prompt: "A watch is on sale at $30\\%$ off for ₹315. What was the original price?",
+          options: ["₹345", "₹409.50", "₹450", "₹1,050"],
           answer: 2,
           marks: 2,
           explanation: "The multiplier is $0.70$; divide: $\\tfrac{315}{0.70} = 450$.",
@@ -419,7 +419,7 @@ export const percentageChangeAndApplications: LessonContent = {
         {
           type: "mc",
           prompt:
-            "A shopkeeper buys apples for 40 riyals per kilogram and sells them for 34 riyals per kilogram. What is the percentage loss?",
+            "A shopkeeper buys apples for ₹40 per kilogram and sells them for ₹34 per kilogram. What is the percentage loss?",
           options: ["6%", "10%", "15%", "17.6%"],
           answer: 2,
           marks: 2,
@@ -428,8 +428,8 @@ export const percentageChangeAndApplications: LessonContent = {
         {
           type: "mc",
           prompt:
-            "A loan of 8,000 riyals is charged at $5\\%$ simple interest per year for 2 years. How much interest is owed?",
-          options: ["200 riyals", "400 riyals", "800 riyals", "1,600 riyals"],
+            "A loan of ₹8,000 is charged at $5\\%$ simple interest per year for 2 years. How much interest is owed?",
+          options: ["₹200", "₹400", "₹800", "₹1,600"],
           answer: 2,
           marks: 2,
           explanation: "$I = \\tfrac{8000 \\times 5 \\times 2}{100} = 800$.",
@@ -450,8 +450,8 @@ export const percentageChangeAndApplications: LessonContent = {
         {
           type: "mc",
           prompt:
-            "The pre-tax price of a laptop is 2,400 riyals. VAT is charged at $5\\%$ and then a $10\\%$ loyalty discount is applied to the tax-inclusive price. What is the final price?",
-          options: ["2,268 riyals", "2,280 riyals", "2,376 riyals", "2,400 riyals"],
+            "The pre-tax price of a laptop is ₹2,400. VAT is charged at $5\\%$ and then a $10\\%$ loyalty discount is applied to the tax-inclusive price. What is the final price?",
+          options: ["₹2,268", "₹2,280", "₹2,376", "₹2,400"],
           answer: 0,
           marks: 3,
           explanation: "$2400 \\times 1.05 = 2520$, then $2520 \\times 0.90 = 2268$.",

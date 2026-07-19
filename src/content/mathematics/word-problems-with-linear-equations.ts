@@ -62,7 +62,7 @@ export const wordProblemsWithLinearEquations: LessonContent = {
         ["five less than a number", "subtract 5 (from the number)", "$x - 5$"],
         ["the difference between $x$ and 4", "subtract in the stated order", "$x - 4$"],
         ["the total of $x$ and $y$", "add them", "$x + y$"],
-        ["per (rate)", "multiply by the rate", "e.g. $3x$ for 3 riyals per item"],
+        ["per (rate)", "multiply by the rate", "e.g. $3x$ for ₹3 per item"],
       ],
       note: "'Five less than a number' reverses the order you might expect: it's $x - 5$, not $5 - x$, because the number comes first and 5 is taken away from it.",
     },
@@ -87,9 +87,9 @@ export const wordProblemsWithLinearEquations: LessonContent = {
     {
       kind: "example",
       prompt:
-        "A book costs 8 riyals more than a magazine. Together they cost 26 riyals. Find the price of the magazine.",
+        "A book costs ₹8 more than a magazine. Together they cost ₹26. Find the price of the magazine.",
       steps: [
-        "Let $x$ = the price of the magazine, in riyals.",
+        "Let $x$ = the price of the magazine, in rupees.",
         "The book costs 8 more, so the book's price is $x + 8$.",
         "Together they cost 26: $x + (x + 8) = 26$.",
         "Combine like terms: $2x + 8 = 26$.",
@@ -97,7 +97,7 @@ export const wordProblemsWithLinearEquations: LessonContent = {
         "Divide both sides by 2: $x = 9$.",
       ],
       answer:
-        "The magazine costs 9 riyals (and the book costs 17 riyals). Check: $9 + 17 = 26$ ✓, and $17$ is indeed $8$ more than $9$ ✓",
+        "The magazine costs ₹9 (and the book costs ₹17). Check: $9 + 17 = 26$ ✓, and $17$ is indeed $8$ more than $9$ ✓",
     },
     {
       kind: "example",
@@ -132,7 +132,7 @@ export const wordProblemsWithLinearEquations: LessonContent = {
     {
       kind: "example",
       prompt:
-        "A train ticket costs a fixed 3 riyal booking fee plus 0.50 riyals per kilometre travelled. A ticket cost 18 riyals. How far did the passenger travel?",
+        "A train ticket costs a fixed ₹3 booking fee plus ₹0.50 per kilometre travelled. A ticket cost ₹18. How far did the passenger travel?",
       steps: [
         "Let $x$ = the distance travelled, in kilometres.",
         "Total cost: $0.5x + 3 = 18$.",
@@ -144,7 +144,7 @@ export const wordProblemsWithLinearEquations: LessonContent = {
     {
       kind: "example",
       prompt:
-        "A plumber charges a 25 riyal call-out fee plus 30 riyals per hour worked. A repair cost 145 riyals. How many hours did the job take?",
+        "A plumber charges a ₹25 call-out fee plus ₹30 per hour worked. A repair cost ₹145. How many hours did the job take?",
       steps: [
         "Let $x$ = the number of hours worked.",
         "Total cost: $30x + 25 = 145$.",
@@ -241,7 +241,7 @@ export const wordProblemsWithLinearEquations: LessonContent = {
         },
         {
           prompt:
-            "A pen costs 3 riyals less than a notebook. Together they cost 17 riyals. Find the price of the notebook.",
+            "A pen costs ₹3 less than a notebook. Together they cost ₹17. Find the price of the notebook.",
           options: ["7", "10", "14", "20"],
           answer: 1,
           explanation:
@@ -265,7 +265,7 @@ export const wordProblemsWithLinearEquations: LessonContent = {
         },
         {
           prompt:
-            "A taxi charges a fixed 5 riyal fee plus 2.5 riyals per kilometre. A ride cost 27.5 riyals. Find the distance travelled.",
+            "A taxi charges a fixed ₹5 fee plus ₹2.5 per kilometre. A ride cost ₹27.5. Find the distance travelled.",
           options: ["8 km", "9 km", "10 km", "11 km"],
           answer: 1,
           explanation: "$2.5x + 5 = 27.5 \\Rightarrow 2.5x = 22.5 \\Rightarrow x = 9$.",
@@ -279,7 +279,7 @@ export const wordProblemsWithLinearEquations: LessonContent = {
         },
         {
           prompt:
-            "A worker earns a fixed 40 riyals plus 15 riyals per item assembled. She earned 205 riyals. How many items did she assemble?",
+            "A worker earns a fixed ₹40 plus ₹15 per item assembled. She earned ₹205. How many items did she assemble?",
           options: ["9", "10", "11", "12"],
           answer: 2,
           explanation: "$15x + 40 = 205 \\Rightarrow 15x = 165 \\Rightarrow x = 11$.",
@@ -370,7 +370,7 @@ export const wordProblemsWithLinearEquations: LessonContent = {
         {
           type: "mc",
           prompt:
-            "A shirt costs 12 riyals less than a jacket. Together they cost 68 riyals. Find the jacket's price.",
+            "A shirt costs ₹12 less than a jacket. Together they cost ₹68. Find the jacket's price.",
           options: ["28", "34", "40", "56"],
           answer: 2,
           marks: 2,
@@ -404,7 +404,7 @@ export const wordProblemsWithLinearEquations: LessonContent = {
         {
           type: "mc",
           prompt:
-            "A delivery service charges a fixed 8 riyal fee plus 1.5 riyals per kilometre. A delivery cost 26 riyals. Find the distance.",
+            "A delivery service charges a fixed ₹8 fee plus ₹1.5 per kilometre. A delivery cost ₹26. Find the distance.",
           options: ["10 km", "12 km", "14 km", "18 km"],
           answer: 1,
           marks: 2,
@@ -427,7 +427,7 @@ export const wordProblemsWithLinearEquations: LessonContent = {
         {
           type: "mc",
           prompt:
-            "A repair technician charges 20 riyals plus 15 riyals per hour. The bill was 95 riyals. How many hours did the repair take?",
+            "A repair technician charges ₹20 plus ₹15 per hour. The bill was ₹95. How many hours did the repair take?",
           options: ["4", "5", "6", "7"],
           answer: 1,
           marks: 2,

@@ -34,7 +34,7 @@ export const fromArithmeticToAlgebra: LessonContent = {
       heading: "Why move from arithmetic to algebra?",
       paragraphs: [
         "A calculation such as $4\times6=24$ answers one particular question. The algebraic statement $4n$ describes four times any number $n$. When $n=6$ it gives 24; when $n=10$ it gives 40.",
-        "Algebra is useful because the same rule can be reused. A taxi fare, for example, might be a fixed 8-riyal fee plus 2 riyals for every kilometre. If $d$ is the distance, the total fare can be represented by $8+2d$.",
+        "Algebra is useful because the same rule can be reused. A taxi fare, for example, might be a fixed ₹8 fee plus ₹2 for every kilometre. If $d$ is the distance, the total fare can be represented by $8+2d$.",
       ],
       list: [
         "A letter can stand for a number that is not yet known.",
@@ -230,7 +230,7 @@ export const fromArithmeticToAlgebra: LessonContent = {
       items: [
         {
           area: "Shopping",
-          text: "The price of n identical items costing 12 riyals each is $12n$.",
+          text: "The price of n identical items costing ₹12 each is $12n$.",
         },
         { area: "Travel", text: "Distance at speed v for time t is represented by $vt$." },
         {
@@ -323,7 +323,7 @@ export const fromArithmeticToAlgebra: LessonContent = {
         },
         {
           prompt:
-            "A phone plan costs 20 riyals plus 3 riyals per gigabyte g. Which expression gives the total?",
+            "A phone plan costs ₹20 plus ₹3 per gigabyte g. Which expression gives the total?",
           options: ["23g", "20g + 3", "20 + 3g", "3(20 + g)"],
           answer: 2,
           explanation: "20 is the fixed charge and 3g is the usage charge.",

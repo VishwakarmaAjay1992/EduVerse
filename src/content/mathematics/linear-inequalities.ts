@@ -402,7 +402,7 @@ export const linearInequalities: LessonContent = {
         {
           type: "mc",
           prompt:
-            "A monthly budget allows spending of at most 1,200 riyals. If rent is a fixed 700 riyals and the rest ($x$ riyals) covers everything else, which inequality describes valid values of $x$?",
+            "A monthly budget allows spending of at most ₹1,200. If rent is a fixed ₹700 and the rest ($x$ rupees) covers everything else, which inequality describes valid values of $x$?",
           options: ["$x \\le 500$", "$x \\ge 500$", "$x \\le 1{,}200$", "$x \\le 1{,}900$"],
           answer: 0,
           marks: 2,

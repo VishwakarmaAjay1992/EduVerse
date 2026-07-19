@@ -113,13 +113,13 @@ export const understandingPercentages: LessonContent = {
     {
       kind: "example",
       prompt:
-        "A jacket costs 320 riyals. A shop offers a $25\\%$ discount. How much is taken off, and what is the sale price?",
+        "A jacket costs ₹320. A shop offers a $25\\%$ discount. How much is taken off, and what is the sale price?",
       steps: [
         "Find $25\\%$ of 320. Because $25\\% = \\tfrac{1}{4}$, divide 320 by 4: $320 \\div 4 = 80$.",
-        "The discount is 80 riyals.",
+        "The discount is ₹80.",
         "Subtract the discount from the original price to find the sale price: $320 - 80 = 240$.",
       ],
-      answer: "The discount is 80 riyals and the sale price is 240 riyals.",
+      answer: "The discount is ₹80 and the sale price is ₹240.",
     },
     {
       kind: "theory",
@@ -331,8 +331,8 @@ export const understandingPercentages: LessonContent = {
         {
           type: "mc",
           prompt:
-            "A shirt originally costs 180 riyals and is reduced by $20\\%$. What is the sale price?",
-          options: ["36 riyals", "144 riyals", "150 riyals", "160 riyals"],
+            "A shirt originally costs ₹180 and is reduced by $20\\%$. What is the sale price?",
+          options: ["₹36", "₹144", "₹150", "₹160"],
           answer: 1,
           marks: 2,
           explanation: "$20\\%$ of 180 is 36, and $180 - 36 = 144$.",

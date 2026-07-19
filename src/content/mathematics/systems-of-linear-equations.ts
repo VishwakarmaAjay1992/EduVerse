@@ -158,7 +158,7 @@ export const systemsOfLinearEquations: LessonContent = {
     {
       kind: "example",
       prompt:
-        "A cinema sells adult tickets for 25 riyals and child tickets for 15 riyals. One group bought 8 tickets in total for 170 riyals. How many of each ticket type did they buy?",
+        "A cinema sells adult tickets for ₹25 and child tickets for ₹15. One group bought 8 tickets in total for ₹170. How many of each ticket type did they buy?",
       steps: [
         "Let $a$ = number of adult tickets and $c$ = number of child tickets.",
         "Total tickets: $a + c = 8$.",
@@ -281,11 +281,11 @@ export const systemsOfLinearEquations: LessonContent = {
         },
         {
           prompt:
-            "A vending machine sells only 2-riyal and 3-riyal snacks. A customer bought 6 snacks for 16 riyals. How many 2-riyal snacks did they buy?",
+            "A vending machine sells only ₹2 and ₹3 snacks. A customer bought 6 snacks for ₹16. How many ₹2 snacks did they buy?",
           options: ["2", "3", "4", "5"],
           answer: 0,
           explanation:
-            "Let $a$ = 2-riyal count, $b$ = 3-riyal count. $a+b=6$, $2a+3b=16$. From the first, $a=6-b$. Substitute: $2(6-b)+3b=16 \\Rightarrow 12+b=16 \\Rightarrow b=4$, so $a=2$.",
+            "Let $a$ = ₹2 count, $b$ = ₹3 count. $a+b=6$, $2a+3b=16$. From the first, $a=6-b$. Substitute: $2(6-b)+3b=16 \\Rightarrow 12+b=16 \\Rightarrow b=4$, so $a=2$.",
         },
         {
           prompt: "Solve $y = 3x - 1$ and $y = -2x + 9$ by substitution (finding x).",
