@@ -43,6 +43,10 @@ import { StandardFormExplorer } from "@/components/interactive/standard-form-exp
 import { UnitConverterExplorer } from "@/components/interactive/unit-converter-explorer";
 import { PerimeterAreaExplorer } from "@/components/interactive/perimeter-area-explorer";
 import { VolumeSurfaceExplorer } from "@/components/interactive/volume-surface-explorer";
+import { LinearEquationSolverExplorer } from "@/components/interactive/linear-equation-solver-explorer";
+import { WordProblemTranslatorExplorer } from "@/components/interactive/word-problem-translator-explorer";
+import { InequalityExplorer } from "@/components/interactive/inequality-explorer";
+import { SimultaneousEquationsExplorer } from "@/components/interactive/simultaneous-equations-explorer";
 import { Flashcards } from "@/components/interactive/flashcards";
 import { Quiz } from "@/components/interactive/quiz";
 import { BlockMath, InlineMath } from "@/components/math";
@@ -556,6 +560,42 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
             {section.heading ?? "Volume and surface-area laboratory"}
           </h3>
           <VolumeSurfaceExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "linearEquationSolverExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Linear equation solving laboratory"}
+          </h3>
+          <LinearEquationSolverExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "wordProblemTranslatorExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Translate a word problem into algebra"}
+          </h3>
+          <WordProblemTranslatorExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "inequalityExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Inequality solving laboratory"}
+          </h3>
+          <InequalityExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "simultaneousEquationsExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {section.heading ?? "Simultaneous equations laboratory"}
+          </h3>
+          <SimultaneousEquationsExplorer lessonId={lessonId} />
         </div>
       );
     case "unitCircleExplorer":

@@ -143,6 +143,10 @@ export type LessonSection =
   | { kind: "unitConverterExplorer"; heading?: string }
   | { kind: "perimeterAreaExplorer"; heading?: string }
   | { kind: "volumeSurfaceExplorer"; heading?: string }
+  | { kind: "linearEquationSolverExplorer"; heading?: string }
+  | { kind: "wordProblemTranslatorExplorer"; heading?: string }
+  | { kind: "inequalityExplorer"; heading?: string }
+  | { kind: "simultaneousEquationsExplorer"; heading?: string }
   | { kind: "history"; paragraphs: string[] };
 
 export interface LessonContent {

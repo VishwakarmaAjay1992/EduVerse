@@ -56,6 +56,10 @@ import { standardForm } from "@/content/mathematics/standard-form";
 import { metricAndImperialUnits } from "@/content/mathematics/metric-and-imperial-units";
 import { perimeterAndAreaOfBasicShapes } from "@/content/mathematics/perimeter-and-area-of-basic-shapes";
 import { volumeAndSurfaceAreaBasics } from "@/content/mathematics/volume-and-surface-area-basics";
+import { solvingLinearEquations } from "@/content/mathematics/solving-linear-equations";
+import { wordProblemsWithLinearEquations } from "@/content/mathematics/word-problems-with-linear-equations";
+import { linearInequalities } from "@/content/mathematics/linear-inequalities";
+import { systemsOfLinearEquations } from "@/content/mathematics/systems-of-linear-equations";
 import type { LessonContent } from "./lesson-content-types";
 
 const REGISTRY: LessonContent[] = [
@@ -89,6 +93,10 @@ const REGISTRY: LessonContent[] = [
   metricAndImperialUnits,
   perimeterAndAreaOfBasicShapes,
   volumeAndSurfaceAreaBasics,
+  solvingLinearEquations,
+  wordProblemsWithLinearEquations,
+  linearInequalities,
+  systemsOfLinearEquations,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
   solvingOneStepAndTwoStepEquations,
@@ -237,6 +245,18 @@ export function lessonOutline(content: LessonContent): OutlineItem[] {
         break;
       case "volumeSurfaceExplorer":
         items.push({ id, label: "Interactive volume and surface-area laboratory" });
+        break;
+      case "linearEquationSolverExplorer":
+        items.push({ id, label: "Interactive equation-solving laboratory" });
+        break;
+      case "wordProblemTranslatorExplorer":
+        items.push({ id, label: "Interactive word-problem translator" });
+        break;
+      case "inequalityExplorer":
+        items.push({ id, label: "Interactive inequality laboratory" });
+        break;
+      case "simultaneousEquationsExplorer":
+        items.push({ id, label: "Interactive simultaneous-equations laboratory" });
         break;
       case "unitCircleExplorer":
         items.push({ id, label: "Interactive unit circle" });
