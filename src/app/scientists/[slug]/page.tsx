@@ -126,6 +126,85 @@ export default async function ScientistProfilePage({
                 </div>
               </section>
 
+              <section aria-labelledby="deeper-story-heading">
+                <div className="mb-6 flex items-center gap-3">
+                  <div className="rounded-lg bg-secondary p-2.5">
+                    <Lightbulb className="size-5" aria-hidden="true" />
+                  </div>
+                  <h2 id="deeper-story-heading" className="text-2xl font-bold tracking-tight">
+                    Early life, inspiration and historical challenges
+                  </h2>
+                </div>
+                <div className="grid gap-5 md:grid-cols-2">
+                  <Card className="shadow-sm">
+                    <CardHeader className="pb-3">
+                      <p className="text-xs font-semibold uppercase tracking-[0.15em] text-muted-foreground">
+                        Background
+                      </p>
+                      <CardTitle className="text-xl leading-7">Early life</CardTitle>
+                    </CardHeader>
+                    <CardContent className="space-y-3">
+                      {scientist.earlyLife.map((item) => (
+                        <p key={item} className="text-sm leading-6 text-muted-foreground">
+                          {item}
+                        </p>
+                      ))}
+                    </CardContent>
+                  </Card>
+
+                  <Card className="shadow-sm">
+                    <CardHeader className="pb-3">
+                      <p className="text-xs font-semibold uppercase tracking-[0.15em] text-muted-foreground">
+                        Motivation
+                      </p>
+                      <CardTitle className="text-xl leading-7">What inspired the work</CardTitle>
+                    </CardHeader>
+                    <CardContent className="space-y-3">
+                      {scientist.inspiration.map((item) => (
+                        <p key={item} className="text-sm leading-6 text-muted-foreground">
+                          {item}
+                        </p>
+                      ))}
+                    </CardContent>
+                  </Card>
+
+                  <Card className="shadow-sm">
+                    <CardHeader className="pb-3">
+                      <p className="text-xs font-semibold uppercase tracking-[0.15em] text-muted-foreground">
+                        Context
+                      </p>
+                      <CardTitle className="text-xl leading-7">Challenges, politics and backlash</CardTitle>
+                    </CardHeader>
+                    <CardContent className="space-y-3">
+                      {scientist.challenges.map((item) => (
+                        <p key={item} className="text-sm leading-6 text-muted-foreground">
+                          {item}
+                        </p>
+                      ))}
+                    </CardContent>
+                  </Card>
+
+                  <Card className="shadow-sm">
+                    <CardHeader className="pb-3">
+                      <p className="text-xs font-semibold uppercase tracking-[0.15em] text-muted-foreground">
+                        Learn
+                      </p>
+                      <CardTitle className="text-xl leading-7">Key laws, theories and ideas</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <ul className="space-y-3">
+                        {scientist.lawsAndIdeas.map((item) => (
+                          <li key={item} className="flex gap-3 text-sm leading-6 text-muted-foreground">
+                            <span className="mt-2 size-1.5 shrink-0 rounded-full bg-primary" />
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </CardContent>
+                  </Card>
+                </div>
+              </section>
+
               <section aria-labelledby="contributions-heading">
                 <div className="mb-6 flex items-center gap-3">
                   <div className="rounded-lg bg-secondary p-2.5">

@@ -29,6 +29,10 @@ export type Scientist = {
   headline: string;
   overview: string[];
   knownFor: string[];
+  earlyLife: string[];
+  inspiration: string[];
+  challenges: string[];
+  lawsAndIdeas: string[];
   contributions: ScientistContribution[];
   definingWork: {
     title: string;
@@ -72,6 +76,24 @@ export const SCIENTISTS: readonly Scientist[] = [
       "Development of calculus",
       "Experimental optics and the colour spectrum",
       "Newtonian reflecting telescope",
+    ],
+    earlyLife: [
+      "Newton was born prematurely at Woolsthorpe during the English Civil War, after his father had died. His childhood was unsettled: his mother remarried and left him for several years with his grandmother, a separation that later biographers often connect with his intense independence and guarded personality. At school in Grantham he showed skill with mechanical models, sundials and notebooks before entering Trinity College, Cambridge.",
+      "When plague closed Cambridge in 1665–1666, Newton returned to Woolsthorpe. This period, often called his annus mirabilis, gave him quiet time to think about motion, light, infinite series and gravity without the normal university routine.",
+    ],
+    inspiration: [
+      "Newton was inspired by the mathematical astronomy of Kepler, Galileo's work on motion, Descartes' analytical geometry and debates with contemporaries such as Robert Hooke and Edmond Halley. Halley's encouragement was especially important: after discussing planetary motion with Newton, Halley persuaded him to write and publish the Principia.",
+      "His approach was to search for universal rules. Instead of treating falling apples, thrown stones and orbiting planets as separate mysteries, he asked whether one mathematical law could connect them.",
+    ],
+    challenges: [
+      "Newton worked in a politically and religiously tense England shaped by civil war, restoration politics and university orthodoxy. He also guarded many results for years, partly because scientific priority disputes were common and sometimes bitter.",
+      "He faced major conflicts over credit, especially with Hooke regarding gravitation and with Leibniz over calculus. These disputes did not stop his work, but they shaped how carefully and sometimes aggressively he defended his discoveries.",
+    ],
+    lawsAndIdeas: [
+      "Newton's First Law: a body remains at rest or continues in uniform straight-line motion unless acted on by a net external force. This is the law of inertia.",
+      "Newton's Second Law: the net force on a body equals the rate of change of its momentum; for constant mass this is written F = ma.",
+      "Newton's Third Law: for every action there is an equal and opposite reaction, meaning interacting bodies exert forces on each other in pairs.",
+      "Law of Universal Gravitation: every mass attracts every other mass with a force proportional to the product of their masses and inversely proportional to the square of the distance between their centres: F = Gm1m2/r².",
     ],
     contributions: [
       {
@@ -167,6 +189,24 @@ export const SCIENTISTS: readonly Scientist[] = [
       "Light quanta and the photoelectric effect",
       "Explanation of Brownian motion",
     ],
+    earlyLife: [
+      "Einstein grew up in a secular Jewish family in the German Empire and later Switzerland. He was curious about invisible forces from a young age; he later recalled being fascinated by a compass because something unseen made the needle move. He disliked rigid schooling but loved independent reading in mathematics and physics.",
+      "Before becoming famous he worked at the Swiss patent office in Bern. The job exposed him to practical questions about clocks, signals and electrical devices, while giving him time outside work to think deeply about light, time and motion.",
+    ],
+    inspiration: [
+      "Einstein was inspired by Maxwell's electromagnetism, thought experiments about chasing a beam of light, and the problem of making mechanics consistent with the constant speed of light. His work shows how imagination and strict logic can work together.",
+      "His motivation was not only to calculate but to remove contradictions. When existing physics gave conflicting answers, he looked for simpler principles beneath them.",
+    ],
+    challenges: [
+      "Einstein faced anti-Semitism, exile from Nazi Germany and political pressure because of his public views. He left Europe permanently after the Nazis came to power and later warned about the danger of nuclear weapons even though his own equation helped reveal the energy stored in mass.",
+      "Scientifically, relativity initially seemed strange because it challenged everyday ideas of absolute time and space. Acceptance required careful experiments and astronomical observations.",
+    ],
+    lawsAndIdeas: [
+      "Special relativity: the laws of physics are the same in all inertial frames and the speed of light in vacuum is constant for all observers.",
+      "Mass-energy equivalence: E = mc² shows that mass and energy are two forms of the same physical quantity.",
+      "General relativity: gravity is described by the curvature of spacetime caused by matter and energy, not merely by an invisible pulling force.",
+      "Photoelectric effect: light can behave as packets of energy, later called photons, explaining why electrons are emitted only above a threshold frequency.",
+    ],
     contributions: [
       {
         title: "Light quanta",
@@ -260,6 +300,24 @@ export const SCIENTISTS: readonly Scientist[] = [
       "Electric power distribution",
       "Motion-picture technology",
       "Industrial research laboratory model",
+    ],
+    earlyLife: [
+      "Edison grew up in Ohio and Michigan and had limited formal schooling. His mother encouraged his reading and experiments after teachers judged him difficult to teach. As a teenager he sold newspapers and worked as a telegraph operator, learning electricity through practical work rather than university training.",
+      "His early deafness changed the way he worked; he later said it helped him concentrate in noisy environments, although it also isolated him socially.",
+    ],
+    inspiration: [
+      "Edison was driven by useful invention and mass production. He wanted discoveries to become practical systems that people could buy, install and maintain, not just laboratory demonstrations.",
+      "Telegraphy inspired much of his early thinking because it combined electricity, communication, business demand and fast technical improvement.",
+    ],
+    challenges: [
+      "Edison worked in the intense industrial competition of the late nineteenth century. The 'war of currents' placed his direct-current system against alternating-current systems promoted by Westinghouse and Tesla, creating technical and public-relations battles.",
+      "Many Edison inventions were team efforts in his laboratories. His fame sometimes hides the work of assistants, machinists and engineers, which is an important lesson about industrial science.",
+    ],
+    lawsAndIdeas: [
+      "Edison is best understood through invention systems rather than a single scientific law: a practical lamp, generator, wiring network, switches, meters and business model had to function together.",
+      "Key idea: an invention becomes powerful when it is reliable, affordable and connected to infrastructure.",
+      "Phonograph principle: sound vibrations can be mechanically recorded and reproduced.",
+      "Electric-lighting principle: a high-resistance filament in a controlled bulb can convert electrical energy into useful light for long periods.",
     ],
     contributions: [
       {
@@ -356,6 +414,24 @@ export const SCIENTISTS: readonly Scientist[] = [
       "Tesla coil",
       "Early radio-control demonstrations",
     ],
+    earlyLife: [
+      "Tesla was born in Smiljan in the Austrian Empire, in a Serbian family. His father was a priest and his mother was known for mechanical ingenuity in household tools, which Tesla later credited as an influence. He studied engineering and developed an extraordinary ability to visualise machines mentally before building them.",
+      "Illness, financial pressure and interrupted studies marked his early adulthood. He worked in telegraphy and electrical engineering in Europe before moving to the United States in 1884.",
+    ],
+    inspiration: [
+      "Tesla was inspired by the rotating magnetic field and the possibility of transmitting power efficiently over long distances. He disliked inefficient commutator motors and imagined a smoother alternating-current system.",
+      "His working style relied heavily on mental simulation: he claimed he could run a machine in his imagination, observe wear and correct the design before making a prototype.",
+    ],
+    challenges: [
+      "Tesla faced business setbacks, patent conflicts and rivalry in the electrical industry. His partnership with Westinghouse helped AC power succeed, but later projects such as wireless power at Wardenclyffe lost funding.",
+      "Public fascination with Tesla sometimes exaggerates his achievements, but the real historical Tesla was already remarkable: he combined brilliant engineering with poor business luck and periods of isolation.",
+    ],
+    lawsAndIdeas: [
+      "Rotating magnetic field: properly phased alternating currents can create a magnetic field that rotates and drives an induction motor.",
+      "AC power transmission: alternating voltage can be stepped up or down with transformers, making long-distance power distribution practical.",
+      "Induction motor principle: current induced in a rotor by a changing magnetic field produces torque without direct electrical contact.",
+      "Tesla coil: resonant transformers can generate very high voltages and high-frequency currents for experiments in lighting, radio and electrical discharge.",
+    ],
     contributions: [
       {
         title: "Induction motor",
@@ -449,6 +525,24 @@ export const SCIENTISTS: readonly Scientist[] = [
       "Isolation and measurement of radioactive materials",
       "Nobel Prizes in Physics and Chemistry",
       "Mobile wartime radiography units",
+    ],
+    earlyLife: [
+      "Maria Skłodowska grew up in Warsaw under Russian imperial rule, where Polish language and higher education were restricted. Her family valued learning, but women had limited access to universities, so she studied in informal underground classes before moving to Paris.",
+      "In Paris she lived frugally while studying physics and mathematics at the Sorbonne. Her early hardship shaped her discipline and commitment to research.",
+    ],
+    inspiration: [
+      "Curie was inspired by Henri Becquerel's discovery that uranium emitted mysterious rays. She asked whether the radiation was a property of atoms themselves, a question that opened a new field.",
+      "Working with Pierre Curie, she pursued measurements patiently, treating tiny electrical effects as clues to hidden substances.",
+    ],
+    challenges: [
+      "Curie faced sexism in education, science and public life. As a Polish woman in France, she had to earn recognition in institutions that were not designed to welcome her.",
+      "The political situation in partitioned Poland shaped her identity; she named polonium after Poland. She also worked before the dangers of radiation were fully understood, suffering long-term exposure.",
+    ],
+    lawsAndIdeas: [
+      "Radioactivity: Curie helped establish that radiation could come from atomic structure rather than chemical reactions.",
+      "Isolation of polonium and radium: she showed that pitchblende contained unknown highly radioactive elements.",
+      "Quantitative measurement: careful electrometer measurements allowed radioactivity to be compared scientifically.",
+      "Medical radiology: during World War I she helped organise mobile X-ray units for battlefield medicine.",
     ],
     contributions: [
       {
@@ -544,6 +638,24 @@ export const SCIENTISTS: readonly Scientist[] = [
       "Phases of Venus",
       "Studies of falling bodies and acceleration",
       "Mathematical experimental method",
+    ],
+    earlyLife: [
+      "Galileo was born in Pisa into a musical and intellectual family. He initially studied medicine but became drawn to mathematics after hearing a geometry lecture. He taught mathematics and investigated motion, instruments and astronomy.",
+      "His skill was not only observation but also persuasion: he wrote in Italian as well as Latin, making scientific arguments accessible to educated readers beyond universities.",
+    ],
+    inspiration: [
+      "Galileo was inspired by mathematical descriptions of nature and by the newly improved telescope. When he turned the telescope to the sky, he treated what he saw as evidence that could test old cosmological beliefs.",
+      "He wanted to replace authority-based explanations with measurement, experiment and geometry.",
+    ],
+    challenges: [
+      "Galileo's support for heliocentrism brought him into conflict with Church authorities in the Counter-Reformation era. In 1633 the Roman Inquisition tried him, found him 'vehemently suspected of heresy' and placed him under house arrest.",
+      "The backlash was not simply a science-versus-religion cartoon; it involved theology, politics, patronage, interpretation of scripture and Galileo's own sharp public style.",
+    ],
+    lawsAndIdeas: [
+      "Law of falling bodies: in ideal conditions, bodies accelerate uniformly under gravity regardless of mass.",
+      "Inertia concept: moving bodies tend to continue moving unless something changes their motion, a key step toward Newton's first law.",
+      "Telescopic evidence: mountains on the Moon, moons of Jupiter, phases of Venus and countless stars challenged the perfect-heavens and Earth-centred models.",
+      "Mathematical experimentation: controlled measurement should decide between competing explanations of motion.",
     ],
     contributions: [
       {
@@ -642,6 +754,24 @@ export const SCIENTISTS: readonly Scientist[] = [
       "Evidence from domestication and variation",
       "Research from the HMS Beagle voyage",
     ],
+    earlyLife: [
+      "Darwin was born into a wealthy English family of doctors and reformers. He disliked medical training and later studied at Cambridge, where natural history, collecting and geology became his real passions.",
+      "The voyage of HMS Beagle gave him five years of observation across South America, islands and oceans. He collected fossils, plants, animals and geological notes that later became evidence for evolutionary change.",
+    ],
+    inspiration: [
+      "Darwin was inspired by Lyell's geology, which showed that small changes over long time could reshape Earth. He also studied artificial selection by breeders and asked whether nature could select in a similar way.",
+      "The diversity of island species, fossil mammals and geographic patterns pushed him toward the idea that species were not fixed.",
+    ],
+    challenges: [
+      "Victorian Britain connected natural history with religious and social beliefs, so Darwin delayed publishing for many years because he knew evolution would be controversial. Alfred Russel Wallace independently developed a similar idea, prompting joint presentation and then Darwin's book.",
+      "Darwin also lived with chronic illness, which limited travel and public debate. Much of his mature work was done quietly from Down House.",
+    ],
+    lawsAndIdeas: [
+      "Natural selection: individuals vary, some variations are heritable, and traits that improve survival or reproduction become more common over generations.",
+      "Common descent: species share ancestors and diverge over long periods.",
+      "Sexual selection: some traits spread because they improve mating success, even if they are costly for survival.",
+      "Tree of life: biodiversity is best understood as branching history rather than a ladder of progress.",
+    ],
     contributions: [
       {
         title: "Natural selection",
@@ -736,6 +866,24 @@ export const SCIENTISTS: readonly Scientist[] = [
       "Early transformer and generator",
       "Faraday effect",
       "Electrolysis laws and field concepts",
+    ],
+    earlyLife: [
+      "Faraday was born into a poor family in London and received little formal schooling. Apprenticed to a bookbinder, he read the books he bound, especially science texts, and attended public lectures by Humphry Davy.",
+      "His careful notes from Davy's lectures helped him obtain work at the Royal Institution, where practical laboratory skill became his route into science.",
+    ],
+    inspiration: [
+      "Faraday was inspired by experiments more than equations. He wanted to see how electricity, magnetism and chemical action were connected through observable effects.",
+      "His religious seriousness and belief in the unity of nature encouraged him to look for deep connections between forces.",
+    ],
+    challenges: [
+      "Faraday faced class barriers in British science because he lacked elite university training and came from a tradesman's background. He also had to move from assistant status to independent authority through exceptional experimental results.",
+      "He was not a strong mathematician, so later physicists such as Maxwell translated Faraday's field ideas into equations.",
+    ],
+    lawsAndIdeas: [
+      "Electromagnetic induction: a changing magnetic environment can induce an electric current in a conductor.",
+      "Faraday's laws of electrolysis: the amount of chemical change in electrolysis is proportional to the quantity of electricity passed.",
+      "Field concept: electric and magnetic effects can be represented as lines of force filling space.",
+      "Faraday effect: magnetism can influence the polarization of light, linking electromagnetism and optics.",
     ],
     contributions: [
       {
@@ -832,6 +980,24 @@ export const SCIENTISTS: readonly Scientist[] = [
       "Vaccines for anthrax and rabies",
       "Foundations of microbiology and immunology",
     ],
+    earlyLife: [
+      "Pasteur was born in Dole, France, the son of a tanner. He was not a childhood prodigy in science, but he became a disciplined student and trained in chemistry and crystallography.",
+      "His early work on molecular asymmetry prepared him to think carefully about invisible structure, which later helped in fermentation and disease research.",
+    ],
+    inspiration: [
+      "Pasteur was inspired by practical problems: why wine spoiled, why silk-worm disease ruined industry and why infections spread. He moved between laboratory science and public health needs.",
+      "He believed that careful experiments could defeat vague explanations such as spontaneous generation.",
+    ],
+    challenges: [
+      "Pasteur worked in nineteenth-century France amid industrial competition, war and public-health crises. His germ theory challenged older medical habits and required doctors and industries to change practice.",
+      "His vaccine work also raised ethical questions because some trials involved urgent human risk, most famously the rabies treatment of Joseph Meister.",
+    ],
+    lawsAndIdeas: [
+      "Germ theory: many diseases and spoilage processes are caused by microorganisms.",
+      "Pasteurization: controlled heating can kill harmful microbes without fully destroying food quality.",
+      "Vaccination by attenuation: weakened forms of microbes can train the body to resist disease.",
+      "Disproof of spontaneous generation: sterilized broth remains free of life unless exposed to microbes from the environment.",
+    ],
     contributions: [
       {
         title: "Fermentation and microorganisms",
@@ -927,6 +1093,24 @@ export const SCIENTISTS: readonly Scientist[] = [
       "Research in bacteriology and wound infection",
       "Early warning about antibiotic resistance",
     ],
+    earlyLife: [
+      "Fleming was born on a farm in Ayrshire, Scotland, and later moved to London. His rural childhood, military service and medical training all shaped his practical attitude to infection and wound treatment.",
+      "He became a bacteriologist at St Mary's Hospital, where he studied antiseptics, immunity and bacterial cultures.",
+    ],
+    inspiration: [
+      "Fleming was inspired by the problem of infected wounds, especially after seeing soldiers suffer in World War I. He noticed that strong antiseptics could damage tissue as well as kill microbes.",
+      "His famous discovery came because he paid attention to an unexpected mould contaminating a bacterial plate instead of simply throwing it away.",
+    ],
+    challenges: [
+      "Fleming discovered penicillin in 1928, but turning it into a reliable medicine required later purification and mass production by Florey, Chain and others. Scientific discovery alone was not enough; chemistry, funding and wartime urgency mattered.",
+      "He also warned that careless use of antibiotics could encourage resistant bacteria, a challenge that remains serious today.",
+    ],
+    lawsAndIdeas: [
+      "Penicillin principle: substances produced by some microorganisms can kill or inhibit other microorganisms.",
+      "Selective toxicity: an antimicrobial medicine is most useful when it harms bacteria more than the patient.",
+      "Antibiotic resistance warning: under-dosing or misuse can allow resistant microbes to survive and spread.",
+      "Lysozyme discovery: natural body fluids contain enzymes that can attack bacterial cell walls.",
+    ],
     contributions: [
       {
         title: "Lysozyme",
@@ -1006,130 +1190,232 @@ export const SCIENTISTS: readonly Scientist[] = [
 
   {
     rank: 11,
-    slug: "marie-curie",
-    fullName: "Marie Curie",
-    life: "1867–1934",
-    birthplace: "Warsaw, Congress Poland",
-    primaryFields: ["Physics", "Chemistry", "Radioactivity"],
-    headline: "She pioneered the science of radioactivity and became the first person to win two Nobel Prizes.",
+    slug: "cv-raman",
+    fullName: "Sir Chandrasekhara Venkata Raman",
+    life: "1888–1970",
+    birthplace: "Tiruchirappalli, British India",
+    primaryFields: ["Physics", "Optics", "Acoustics"],
+    headline: "He discovered the Raman effect, showing how light changes when it scatters from molecules.",
     overview: [
-      "Marie Curie developed methods for measuring radioactivity and used them to discover the elements polonium and radium with Pierre Curie.",
-      "Her work connected invisible atomic processes with measurable physical effects, helping open the path toward nuclear physics, radiochemistry and medical uses of radiation.",
+      "C. V. Raman used careful optical experiments to study how light interacts with matter.",
+      "His discovery of inelastic light scattering gave scientists a new way to identify molecular structure and earned him the 1930 Nobel Prize in Physics.",
     ],
-    knownFor: ["Radioactivity research", "Discovery of polonium", "Discovery of radium", "Mobile X-ray units", "Two Nobel Prizes"],
+    knownFor: ["Raman effect", "Molecular spectroscopy", "Light scattering", "Acoustics research", "Indian science leadership"],
+    earlyLife: [
+      "C. V. Raman grew up in South India in a family that valued learning and music. He showed early brilliance in mathematics and physics, but took a government finance job because scientific research careers in colonial India were limited.",
+      "He conducted experiments in his spare time at the Indian Association for the Cultivation of Science in Calcutta, often before and after office hours.",
+    ],
+    inspiration: [
+      "Raman was inspired by light, colour, sound and Indian musical instruments. A sea voyage to Europe made him wonder why the Mediterranean looked intensely blue, deepening his interest in light scattering.",
+      "He wanted to prove that high-quality physics could be done in India with resourceful apparatus and sharp questions.",
+    ],
+    challenges: [
+      "Raman worked under colonial conditions where Indian scientists had fewer institutional resources and less international recognition. Building a research culture in India was part of his achievement.",
+      "He faced skepticism because the Raman effect required precise observation of weak scattered light, but the result quickly became a powerful tool for identifying molecules.",
+    ],
+    lawsAndIdeas: [
+      "Raman effect: light scattered by molecules can change wavelength because energy is exchanged with molecular vibrations or rotations.",
+      "Molecular fingerprinting: the shifted light pattern reveals information about the structure of a substance.",
+      "Light scattering: colour in transparent media can arise from how small particles or molecules scatter different wavelengths.",
+      "Experimental minimalism: careful optics can reveal atomic-scale information without huge equipment.",
+    ],
     contributions: [
-      { title: "Radioactivity measurements", period: "1890s", description: "Curie used precise electrical measurements to compare radioactive minerals and identify activity stronger than uranium alone could explain." },
-      { title: "New elements", period: "1898", description: "She and Pierre Curie announced polonium and radium after painstaking chemical separation of pitchblende residues." },
-      { title: "Wartime radiology", period: "1914–1918", description: "Curie helped organize mobile X-ray units that allowed doctors to locate bullets and fractures near the battlefield." },
+      { title: "Raman effect", period: "1928", description: "Raman showed that a small part of scattered light changes wavelength after interacting with molecules." },
+      { title: "Spectroscopy method", period: "1930s onward", description: "The effect became a powerful tool for identifying chemical bonds and molecular vibrations." },
+      { title: "Scientific institutions", period: "1930s–1950s", description: "Raman helped develop research culture and institutions for physics in India." },
     ],
-    definingWork: { title: "Research on Radioactive Substances", date: "1903", description: "Curie's doctoral work presented systematic evidence for radioactivity as an atomic property rather than a chemical effect.", significance: "It helped establish radioactivity as a new field and earned Curie a share of the 1903 Nobel Prize in Physics." },
-    artifact: { title: "Radium standard and laboratory notebooks", date: "Early 1900s", kind: "Historic apparatus", description: "Curie's laboratory work depended on carefully prepared radioactive samples, balances and electroscopes for measurement.", significance: "These tools show how delicate measurement turned a mysterious radiation effect into a quantitative science.", image: { fileName: "Marie Curie c1920.jpg", alt: "Portrait of Marie Curie", credit: "Henri Manuel", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Marie_Curie_c1920.jpg", objectPosition: "50% 18%" } },
-    legacy: ["Curie's work helped launch nuclear science and radiochemistry.", "Her career became a landmark for women in science and higher education.", "Radiation medicine and safety practices both grew from the field she helped create."],
-    portrait: { fileName: "Marie Curie c1920.jpg", alt: "Portrait of Marie Curie", credit: "Henri Manuel", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Marie_Curie_c1920.jpg", objectPosition: "50% 18%" },
+    definingWork: { title: "A New Radiation", date: "1928", description: "Raman and K. S. Krishnan reported a new scattering phenomenon observed in liquids.", significance: "It opened the field of Raman spectroscopy, now used in chemistry, physics, medicine and materials science." },
+    artifact: { title: "Raman spectroscope", date: "1920s", kind: "Historic apparatus", description: "Optical filters, lenses and a spectrograph were used to observe faint shifted light from samples.", significance: "The apparatus shows how a precise tabletop experiment revealed molecular information hidden in light.", image: { fileName: "Chandrasekhara Venkata Raman 1930.jpg", alt: "Portrait of C. V. Raman", credit: "Nobel Foundation", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Chandrasekhara_Venkata_Raman_1930.jpg", objectPosition: "50% 18%" } },
+    legacy: ["Raman spectroscopy is widely used to study molecules and materials.", "Raman became the first Asian Nobel laureate in science.", "India celebrates National Science Day on the date of his discovery."],
+    portrait: { fileName: "Chandrasekhara Venkata Raman 1930.jpg", alt: "Portrait of C. V. Raman", credit: "Nobel Foundation", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Chandrasekhara_Venkata_Raman_1930.jpg", objectPosition: "50% 18%" },
     sources: [
-      { label: "Marie Curie — facts", url: "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/", publisher: "Nobel Prize" },
-      { label: "Marie Curie — chemistry prize", url: "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/facts/", publisher: "Nobel Prize" },
-      { label: "Marie Curie and radium", url: "https://www.britannica.com/biography/Marie-Curie", publisher: "Encyclopaedia Britannica" },
+      { label: "C. V. Raman — facts", url: "https://www.nobelprize.org/prizes/physics/1930/raman/facts/", publisher: "Nobel Prize" },
+      { label: "C. V. Raman", url: "https://www.britannica.com/biography/C-V-Raman", publisher: "Encyclopaedia Britannica" },
+      { label: "Raman effect", url: "https://www.britannica.com/science/Raman-effect", publisher: "Encyclopaedia Britannica" },
     ],
   },
   {
     rank: 12,
-    slug: "charles-darwin",
-    fullName: "Charles Darwin",
-    life: "1809–1882",
-    birthplace: "Shrewsbury, England",
-    primaryFields: ["Biology", "Evolution", "Natural History"],
-    headline: "He explained biological diversity through evolution by natural selection.",
-    overview: ["Charles Darwin gathered evidence from fossils, geography, breeding and living organisms to argue that species change over time.", "His theory of natural selection showed how heritable variation and differential survival can produce adaptation without requiring a fixed ladder of life."],
-    knownFor: ["Evolution by natural selection", "The Voyage of the Beagle", "Origin of Species", "Common descent", "Sexual selection"],
-    contributions: [
-      { title: "Beagle observations", period: "1831–1836", description: "Darwin's voyage supplied evidence from island species, fossils and geological change that later shaped his evolutionary thinking." },
-      { title: "Natural selection", period: "Developed 1830s–1850s", description: "He proposed that organisms with advantageous inherited traits tend to leave more offspring, gradually changing populations." },
-      { title: "Human evolution and sexual selection", period: "1871", description: "Darwin extended evolutionary reasoning to humans and explored traits shaped by mate choice and competition." },
+    slug: "jagadish-chandra-bose",
+    fullName: "Jagadish Chandra Bose",
+    life: "1858–1937",
+    birthplace: "Mymensingh, Bengal Presidency",
+    primaryFields: ["Physics", "Biology", "Botany", "Radio Science"],
+    headline: "He made early contributions to wireless science and studied electrical responses in plants.",
+    overview: [
+      "Jagadish Chandra Bose worked across physics and biology, designing sensitive instruments for studying waves and living tissues.",
+      "His experiments with millimetre waves and plant response helped connect laboratory physics with questions about life processes.",
     ],
-    definingWork: { title: "On the Origin of Species", date: "1859", description: "The book presented evidence for descent with modification and natural selection as a mechanism for adaptation.", significance: "It became a foundation of modern biology and changed how scientists understand life's history." },
-    artifact: { title: "First edition of On the Origin of Species", date: "1859", kind: "Historic document", description: "The first edition introduced Darwin's argument to a wide scientific and public audience.", significance: "It transformed natural history into a historical science of branching descent and testable mechanisms.", image: { fileName: "Origin of Species title page.jpg", alt: "Title page of On the Origin of Species", credit: "Charles Darwin", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Origin_of_Species_title_page.jpg" } },
-    legacy: ["Evolution is the organizing framework of modern biology.", "Darwin's ideas guide research in genetics, ecology, medicine and conservation.", "Modern evolutionary theory has expanded his work using genetics and population biology."],
-    portrait: { fileName: "Charles Darwin seated crop.jpg", alt: "Portrait of Charles Darwin", credit: "Elliott & Fry", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Charles_Darwin_seated_crop.jpg", objectPosition: "50% 20%" },
+    knownFor: ["Millimetre-wave experiments", "Plant physiology", "Crescograph", "Bose Institute", "Interdisciplinary research"],
+    earlyLife: [
+      "Bose was born in Bengal and first studied in a vernacular school because his father wanted him to know his own language and culture before English education. He later studied at Calcutta and in Britain, where he encountered physics and natural science.",
+      "Returning to India, he taught at Presidency College and built instruments despite racial discrimination and unequal pay under colonial rule.",
+    ],
+    inspiration: [
+      "Bose was inspired by the continuity of nature. He explored whether plants and inorganic materials could show responses analogous to living systems, while also pioneering wireless experiments.",
+      "His work combined physics, biology and instrument-making, showing that boundaries between disciplines can be crossed productively.",
+    ],
+    challenges: [
+      "Bose faced colonial prejudice, limited laboratory support and delayed salary equality. He often had to build his own sensitive instruments rather than rely on imported equipment.",
+      "Some of his wireless work was not commercialised aggressively because he was reluctant to patent early discoveries, which affected later recognition.",
+    ],
+    lawsAndIdeas: [
+      "Millimetre-wave research: Bose generated and detected very short radio waves and studied their reflection, refraction and polarization.",
+      "Crescograph: his instrument magnified tiny plant movements, allowing quantitative study of plant responses.",
+      "Plant response theory: plants show measurable reactions to stimuli such as light, chemicals, heat and injury.",
+      "Semiconductor detector work: Bose used crystal detectors in radio experiments before modern semiconductor electronics matured.",
+    ],
+    contributions: [
+      { title: "Wireless wave experiments", period: "1890s", description: "Bose demonstrated transmission and detection of short radio waves and explored their reflection, refraction and polarization." },
+      { title: "Plant response studies", period: "1900s", description: "He measured how plants respond to stimuli using highly sensitive recording instruments." },
+      { title: "Crescograph", period: "Early 1900s", description: "Bose developed instruments that magnified tiny plant movements for experimental study." },
+    ],
+    definingWork: { title: "Response in the Living and Non-Living", date: "1902", description: "Bose compared electrical responses in metals and living tissues.", significance: "The work reflected his effort to study continuity between physical and biological systems." },
+    artifact: { title: "Crescograph", date: "Early 1900s", kind: "Historic apparatus", description: "An instrument designed to record very small movements and growth changes in plants.", significance: "It made plant behaviour measurable and visible for students and researchers.", image: { fileName: "Jagadish Chandra Bose 1926.jpg", alt: "Portrait of Jagadish Chandra Bose", credit: "Wikimedia Commons", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Jagadish_Chandra_Bose_1926.jpg", objectPosition: "50% 18%" } },
+    legacy: ["Bose is remembered as a pioneer of radio science and biophysics.", "The Bose Institute became an important Indian research institution.", "His interdisciplinary style remains inspiring for learners."],
+    portrait: { fileName: "Jagadish Chandra Bose 1926.jpg", alt: "Portrait of Jagadish Chandra Bose", credit: "Wikimedia Commons", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Jagadish_Chandra_Bose_1926.jpg", objectPosition: "50% 18%" },
     sources: [
-      { label: "Charles Darwin", url: "https://www.nhm.ac.uk/discover/charles-darwin-most-famous-biologist.html", publisher: "Natural History Museum" },
-      { label: "Darwin Online", url: "https://darwin-online.org.uk/", publisher: "University of Cambridge" },
-      { label: "On the Origin of Species", url: "https://www.biodiversitylibrary.org/item/122307", publisher: "Biodiversity Heritage Library" },
+      { label: "Jagadish Chandra Bose", url: "https://www.britannica.com/biography/Jagadish-Chandra-Bose", publisher: "Encyclopaedia Britannica" },
+      { label: "Bose Institute", url: "https://www.jcbose.ac.in/", publisher: "Bose Institute" },
+      { label: "J. C. Bose", url: "https://www.encyclopedia.com/people/science-and-technology/physics-biographies/jagadish-chandra-bose", publisher: "Encyclopedia.com" },
     ],
   },
   {
     rank: 13,
-    slug: "galileo-galilei",
-    fullName: "Galileo Galilei",
-    life: "1564–1642",
-    birthplace: "Pisa, Duchy of Florence",
-    primaryFields: ["Physics", "Astronomy", "Mathematics"],
-    headline: "He joined experiment, mathematics and telescopic observation in the birth of modern science.",
-    overview: ["Galileo investigated motion with experiments and mathematical reasoning, challenging older views of falling bodies and projectiles.", "With an improved telescope he observed mountains on the Moon, moons of Jupiter, the phases of Venus and countless stars, strengthening the case for heliocentric astronomy."],
-    knownFor: ["Telescopic astronomy", "Kinematics", "Jupiter's moons", "Phases of Venus", "Experimental method"],
-    contributions: [
-      { title: "Motion studies", period: "Late 1500s–1630s", description: "Galileo explored acceleration and inertia-like ideas using inclined planes, pendulums and mathematical descriptions." },
-      { title: "Astronomical discoveries", period: "1609–1610", description: "His telescope revealed celestial features that contradicted a perfect, Earth-centred cosmos." },
-      { title: "Dialogue on world systems", period: "1632", description: "Galileo compared geocentric and heliocentric models in a work that became central to debates about astronomy and authority." },
+    slug: "katherine-johnson",
+    fullName: "Katherine Johnson",
+    life: "1918–2020",
+    birthplace: "White Sulphur Springs, West Virginia, United States",
+    primaryFields: ["Mathematics", "Space Science", "Computing"],
+    headline: "Her precise calculations helped guide early human spaceflight.",
+    overview: [
+      "Katherine Johnson worked as a mathematician at NACA and NASA, calculating flight paths for crewed missions.",
+      "Her work combined geometry, orbital mechanics and careful checking at a time when electronic computers were still new.",
     ],
-    definingWork: { title: "Sidereus Nuncius", date: "1610", description: "The Starry Messenger reported Galileo's first telescopic discoveries, including Jupiter's satellites and the rough surface of the Moon.", significance: "It showed that instruments could reveal new evidence beyond unaided human senses." },
-    artifact: { title: "Galileo's telescope", date: "c. 1609–1610", kind: "Historic apparatus", description: "Galileo's refracting telescope used lenses to magnify distant objects and transform astronomical observation.", significance: "The instrument made observation a powerful challenge to inherited cosmology.", image: { fileName: "Galileo's telescope.JPG", alt: "Galileo's telescope", credit: "Museo Galileo", license: "CC BY-SA 3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Galileo%27s_telescope.JPG" } },
-    legacy: ["Galileo's work helped establish mathematical experiment as a scientific ideal.", "His observations accelerated the acceptance of heliocentric astronomy.", "His conflict with authorities remains a symbol of tension between evidence and established doctrine."],
-    portrait: { fileName: "Justus Sustermans - Portrait of Galileo Galilei, 1636.jpg", alt: "Portrait of Galileo Galilei", credit: "Justus Sustermans", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Justus_Sustermans_-_Portrait_of_Galileo_Galilei,_1636.jpg", objectPosition: "50% 18%" },
+    knownFor: ["NASA trajectory calculations", "Mercury missions", "Apollo 11 support", "Orbital mechanics", "Hidden Figures legacy"],
+    earlyLife: [
+      "Katherine Johnson grew up in West Virginia and showed extraordinary mathematical ability as a child. Because local schools for Black students did not continue to higher grades, her family moved so she and her siblings could continue education.",
+      "She graduated from college at a young age and later joined NACA, the predecessor of NASA, as a human computer in a segregated workplace.",
+    ],
+    inspiration: [
+      "Johnson loved counting and patterns from childhood. At NASA she was inspired by the practical challenge of making spaceflight safe: every trajectory had to be calculated correctly because astronauts' lives depended on it.",
+      "She also pushed to attend technical briefings, turning a computing role into a mathematical research role.",
+    ],
+    challenges: [
+      "Johnson worked through racial segregation and gender discrimination in mid-twentieth-century America. Black women mathematicians often received less credit despite doing mission-critical work.",
+      "Her calculations had to be trusted in a high-pressure Cold War space race. John Glenn famously asked for her to verify computer calculations before his orbital flight.",
+    ],
+    lawsAndIdeas: [
+      "Orbital mechanics: spacecraft paths are calculated using gravity, velocity, acceleration and coordinate geometry.",
+      "Trajectory calculation: launch angle, speed and timing determine whether a capsule reaches orbit and returns safely.",
+      "Re-entry mathematics: the landing point depends on Earth's rotation, capsule speed, drag and descent timing.",
+      "Verification principle: human mathematical checking was essential before digital computers were fully trusted.",
+    ],
+    contributions: [
+      { title: "Mercury mission calculations", period: "1960s", description: "Johnson calculated trajectories and launch windows for early American human spaceflight." },
+      { title: "John Glenn orbit verification", period: "1962", description: "Glenn requested that Johnson check computer calculations before his orbital flight." },
+      { title: "Apollo support", period: "1960s", description: "Her mathematical work contributed to mission planning for lunar exploration." },
+    ],
+    definingWork: { title: "Trajectory analysis for spaceflight", date: "1950s–1960s", description: "Johnson applied analytic geometry and orbital mechanics to predict spacecraft paths.", significance: "Her calculations helped make crewed missions safer and more reliable." },
+    artifact: { title: "NASA trajectory worksheets", date: "1960s", kind: "Historic document", description: "Hand calculations and computer-checked tables were used to plan spacecraft movement.", significance: "They show the importance of mathematical accuracy in space exploration.", image: { fileName: "Katherine Johnson 1983.jpg", alt: "Portrait of Katherine Johnson", credit: "NASA", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_1983.jpg", objectPosition: "50% 18%" } },
+    legacy: ["Johnson became a symbol of excellence in mathematics and space science.", "Her story highlighted the contributions of Black women at NASA.", "She received the Presidential Medal of Freedom in 2015."],
+    portrait: { fileName: "Katherine Johnson 1983.jpg", alt: "Portrait of Katherine Johnson", credit: "NASA", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_1983.jpg", objectPosition: "50% 18%" },
     sources: [
-      { label: "Galileo Galilei", url: "https://galileo.rice.edu/", publisher: "Rice University" },
-      { label: "Museo Galileo", url: "https://www.museogalileo.it/en/", publisher: "Museo Galileo" },
-      { label: "Sidereus Nuncius", url: "https://www.loc.gov/item/2021667396/", publisher: "Library of Congress" },
+      { label: "Katherine Johnson", url: "https://www.nasa.gov/people/katherine-johnson/", publisher: "NASA" },
+      { label: "Katherine Johnson biography", url: "https://www.britannica.com/biography/Katherine-Johnson-mathematician", publisher: "Encyclopaedia Britannica" },
+      { label: "NASA Hidden Figures", url: "https://www.nasa.gov/modernfigures/", publisher: "NASA" },
     ],
   },
   {
     rank: 14,
-    slug: "nikola-tesla",
-    fullName: "Nikola Tesla",
-    life: "1856–1943",
-    birthplace: "Smiljan, Austrian Empire",
-    primaryFields: ["Electrical Engineering", "Physics", "Invention"],
-    headline: "He helped make alternating-current power practical and imagined wireless electrical technologies.",
-    overview: ["Nikola Tesla developed motors, transformers and power-system ideas that supported the spread of alternating current.", "His inventions and demonstrations influenced electrical engineering, radio technology and the public image of scientific invention."],
-    knownFor: ["AC induction motor", "Polyphase power systems", "Tesla coil", "High-voltage experiments", "Wireless transmission ideas"],
-    contributions: [
-      { title: "Induction motor", period: "1880s", description: "Tesla designed motors using rotating magnetic fields, allowing efficient AC operation without commutators." },
-      { title: "Polyphase AC power", period: "1880s–1890s", description: "His patents contributed to systems for generating, transmitting and using alternating current at large scale." },
-      { title: "High-frequency research", period: "1890s", description: "Tesla coils and demonstrations explored high voltage, resonance and wireless effects." },
+    slug: "dorothy-hodgkin",
+    fullName: "Dorothy Crowfoot Hodgkin",
+    life: "1910–1994",
+    birthplace: "Cairo, Egypt",
+    primaryFields: ["Chemistry", "Crystallography", "Biochemistry"],
+    headline: "She used X-ray crystallography to reveal the structures of important biological molecules.",
+    overview: [
+      "Dorothy Hodgkin developed and applied X-ray crystallography to solve complex molecular structures.",
+      "Her work on penicillin, vitamin B12 and insulin connected chemistry with medicine and helped scientists understand how molecules work in the body.",
     ],
-    definingWork: { title: "Polyphase alternating-current patents", date: "1887–1888", description: "Tesla's patents described motors and power systems based on multiphase currents and rotating magnetic fields.", significance: "They became part of the technical foundation for practical AC power distribution." },
-    artifact: { title: "Tesla coil", date: "1891", kind: "Historic apparatus", description: "A resonant transformer that produces high-voltage, high-frequency electricity for experiments and demonstrations.", significance: "It became an iconic instrument for studying resonance and high-voltage electrical phenomena.", image: { fileName: "Tesla coil 4.svg", alt: "Diagram of a Tesla coil", credit: "Wikimedia Commons contributors", license: "CC BY-SA", sourceUrl: "https://commons.wikimedia.org/wiki/File:Tesla_coil_4.svg" } },
-    legacy: ["Modern AC power systems reflect principles that Tesla helped develop.", "His name remains attached to magnetic-field units, coils and electrical engineering culture.", "Tesla's mixture of practical patents and speculative visions continues to fascinate students."],
-    portrait: { fileName: "Tesla circa 1890.jpeg", alt: "Portrait of Nikola Tesla", credit: "Napoleon Sarony", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg", objectPosition: "50% 18%" },
+    knownFor: ["X-ray crystallography", "Penicillin structure", "Vitamin B12 structure", "Insulin structure", "Nobel Prize in Chemistry"],
+    earlyLife: [
+      "Dorothy Crowfoot Hodgkin spent parts of her childhood in Britain and the Middle East, where her parents worked in education and archaeology. She became interested in crystals and chemistry as a schoolgirl and studied at Oxford and Cambridge.",
+      "She entered X-ray crystallography when it was still a demanding young field requiring mathematics, chemistry, careful crystals and interpretation of diffraction patterns.",
+    ],
+    inspiration: [
+      "Hodgkin was inspired by the possibility of seeing the architecture of life at molecular scale. She wanted to know not just what substances did but how their atoms were arranged.",
+      "Her work was driven by medically important molecules such as penicillin, vitamin B12 and insulin.",
+    ],
+    challenges: [
+      "Hodgkin built a major scientific career while dealing with rheumatoid arthritis, which affected her hands and mobility. She also worked in a period when women scientists often had to fight for recognition and positions.",
+      "The molecules she studied were complex, and early computers were limited, so solving structures required patience, teamwork and mathematical ingenuity.",
+    ],
+    lawsAndIdeas: [
+      "X-ray crystallography: X-rays scattered by a crystal produce diffraction patterns that can be used to reconstruct atomic structure.",
+      "Penicillin structure: knowing the beta-lactam ring helped chemists understand and improve antibiotics.",
+      "Vitamin B12 structure: one of the most complex molecular structures solved at the time.",
+      "Insulin structure: her long-term work clarified the shape of a hormone central to diabetes treatment.",
+    ],
+    contributions: [
+      { title: "Penicillin structure", period: "1940s", description: "Hodgkin determined the molecular structure of penicillin, helping explain its chemical behaviour." },
+      { title: "Vitamin B12", period: "1950s", description: "She solved the structure of vitamin B12, one of the most complex molecules studied at the time." },
+      { title: "Insulin research", period: "1930s–1960s", description: "Hodgkin's team worked for decades to determine the structure of insulin." },
+    ],
+    definingWork: { title: "Vitamin B12 structure", date: "1956", description: "Hodgkin used crystallographic data and computation to determine the architecture of vitamin B12.", significance: "It proved that X-ray crystallography could solve very complex biological molecules." },
+    artifact: { title: "X-ray diffraction photograph", date: "Mid-1900s", kind: "Historic document", description: "Diffraction patterns from crystals were interpreted mathematically to locate atoms in molecules.", significance: "The method transformed biology and medicine by making molecular structures visible.", image: { fileName: "Dorothy Crowfoot Hodgkin.jpg", alt: "Portrait of Dorothy Hodgkin", credit: "Nobel Foundation", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Dorothy_Crowfoot_Hodgkin.jpg", objectPosition: "50% 18%" } },
+    legacy: ["Hodgkin's work advanced structural biology and drug chemistry.", "She remains one of the most important crystallographers in science history.", "Her career inspired generations of chemists and women scientists."],
+    portrait: { fileName: "Dorothy Crowfoot Hodgkin.jpg", alt: "Portrait of Dorothy Hodgkin", credit: "Nobel Foundation", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Dorothy_Crowfoot_Hodgkin.jpg", objectPosition: "50% 18%" },
     sources: [
-      { label: "Nikola Tesla", url: "https://www.britannica.com/biography/Nikola-Tesla", publisher: "Encyclopaedia Britannica" },
-      { label: "Tesla patents", url: "https://patents.google.com/?inventor=Nikola+Tesla", publisher: "Google Patents" },
-      { label: "Tesla Memorial Society", url: "https://teslasociety.com/", publisher: "Tesla Memorial Society" },
+      { label: "Dorothy Hodgkin — facts", url: "https://www.nobelprize.org/prizes/chemistry/1964/hodgkin/facts/", publisher: "Nobel Prize" },
+      { label: "Dorothy Hodgkin", url: "https://www.britannica.com/biography/Dorothy-Hodgkin", publisher: "Encyclopaedia Britannica" },
+      { label: "Royal Society biography", url: "https://royalsocietypublishing.org/doi/10.1098/rsbm.1997.0020", publisher: "Royal Society" },
     ],
   },
   {
     rank: 15,
-    slug: "michael-faraday",
-    fullName: "Michael Faraday",
-    life: "1791–1867",
-    birthplace: "Newington Butts, England",
-    primaryFields: ["Physics", "Chemistry", "Electromagnetism"],
-    headline: "His experiments revealed electromagnetic induction and the field view of electricity and magnetism.",
-    overview: ["Michael Faraday rose from bookbinder's apprentice to one of the most influential experimental scientists of the nineteenth century.", "He discovered electromagnetic induction, studied electrolysis and introduced powerful field concepts that later inspired Maxwell's equations."],
-    knownFor: ["Electromagnetic induction", "Faraday cage", "Electrolysis laws", "Diamagnetism", "Lines of force"],
-    contributions: [
-      { title: "Electromagnetic rotation", period: "1821", description: "Faraday demonstrated continuous motion produced by electricity and magnetism, an early principle behind electric motors." },
-      { title: "Electromagnetic induction", period: "1831", description: "He showed that changing magnetic conditions can produce electric current, enabling generators and transformers." },
-      { title: "Electrochemistry", period: "1830s", description: "Faraday formulated quantitative laws of electrolysis and helped standardize terms such as electrode, anode and ion." },
+    slug: "homi-bhabha",
+    fullName: "Homi Jehangir Bhabha",
+    life: "1909–1966",
+    birthplace: "Bombay, British India",
+    primaryFields: ["Nuclear Physics", "Cosmic Rays", "Theoretical Physics"],
+    headline: "He helped build India's modern nuclear science programme and studied cosmic-ray particle showers.",
+    overview: [
+      "Homi Bhabha was a theoretical physicist whose work on cosmic rays contributed to particle physics.",
+      "He also founded and guided major Indian scientific institutions, linking advanced research with national development.",
     ],
-    definingWork: { title: "Experimental Researches in Electricity", date: "1831 onward", description: "A long series of papers recorded Faraday's experiments on electricity, magnetism and electrochemistry.", significance: "The work supplied much of the experimental basis for modern electromagnetism." },
-    artifact: { title: "Faraday disk generator", date: "1831", kind: "Historic apparatus", description: "A conducting disk rotating in a magnetic field produced electric current, demonstrating electromagnetic induction.", significance: "It was an early electrical generator and a direct link between mechanical motion and electricity." , image: { fileName: "Faraday disk generator.svg", alt: "Diagram of Faraday disk generator", credit: "Wikimedia Commons contributors", license: "CC BY-SA", sourceUrl: "https://commons.wikimedia.org/wiki/File:Faraday_disk_generator.svg" } },
-    legacy: ["Electric generators and transformers depend on induction principles Faraday discovered.", "His field ideas prepared the ground for Maxwell's mathematical theory.", "Faraday remains a model of experimental clarity and public science communication."],
-    portrait: { fileName: "Michael Faraday - Project Gutenberg eText 13103.jpg", alt: "Portrait of Michael Faraday", credit: "Project Gutenberg", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Michael_Faraday_-_Project_Gutenberg_eText_13103.jpg", objectPosition: "50% 18%" },
+    knownFor: ["Bhabha scattering", "Cosmic-ray showers", "Tata Institute of Fundamental Research", "Indian nuclear programme", "Theoretical physics"],
+    earlyLife: [
+      "Homi Bhabha was born into a prominent Parsi family in Bombay and studied engineering at Cambridge, but his real interest was theoretical physics. The rise of quantum mechanics and cosmic-ray research shaped his early scientific career.",
+      "World War II kept him in India, where he began building institutions rather than returning immediately to Europe.",
+    ],
+    inspiration: [
+      "Bhabha was inspired by modern physics and by the idea that independent India needed strong scientific institutions. He believed advanced research, nuclear science and national development were linked.",
+      "His vision combined pure science with institution-building, from cosmic rays to atomic energy.",
+    ],
+    challenges: [
+      "Bhabha worked during the transition from colonial rule to independent India, when resources were limited but ambitions were high. Nuclear science also carried political and ethical weight after World War II.",
+      "He had to convince political leaders to fund long-term research institutions in a newly independent country with many urgent needs.",
+    ],
+    lawsAndIdeas: [
+      "Bhabha scattering: electron-positron scattering helped test quantum electrodynamics.",
+      "Cosmic-ray showers: high-energy particles from space create cascades of secondary particles in the atmosphere.",
+      "Institution building: Tata Institute of Fundamental Research and India's atomic energy programme were designed to support advanced science.",
+      "Three-stage nuclear vision: India could use its resources, including thorium, for long-term nuclear energy development.",
+    ],
+    contributions: [
+      { title: "Bhabha scattering", period: "1930s", description: "Bhabha studied electron-positron scattering, a process important in quantum electrodynamics." },
+      { title: "Cosmic-ray cascade theory", period: "1930s", description: "With Walter Heitler, he described how high-energy particles create showers in matter." },
+      { title: "Institution building", period: "1940s–1960s", description: "Bhabha founded TIFR and led India's atomic energy programme." },
+    ],
+    definingWork: { title: "The Passage of Fast Electrons and the Theory of Cosmic Showers", date: "1937", description: "Bhabha and Heitler explained the multiplication of energetic particles in cosmic-ray showers.", significance: "The work helped connect cosmic-ray observations with high-energy particle physics." },
+    artifact: { title: "Cosmic-ray shower diagram", date: "1930s", kind: "Historic document", description: "Cascade diagrams showed how energetic particles could produce secondary particles in matter.", significance: "They helped students visualize invisible high-energy processes in the atmosphere and detectors.", image: { fileName: "Homi Jehangir Bhabha 1960s.jpg", alt: "Portrait of Homi J. Bhabha", credit: "Wikimedia Commons", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Homi_Jehangir_Bhabha_1960s.jpg", objectPosition: "50% 18%" } },
+    legacy: ["Bhabha is often called the father of India's nuclear programme.", "TIFR became a major centre for fundamental science.", "His work connected cosmic rays, quantum theory and institution building."],
+    portrait: { fileName: "Homi Jehangir Bhabha 1960s.jpg", alt: "Portrait of Homi J. Bhabha", credit: "Wikimedia Commons", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Homi_Jehangir_Bhabha_1960s.jpg", objectPosition: "50% 18%" },
     sources: [
-      { label: "Michael Faraday", url: "https://www.rigb.org/explore-science/explore/person/michael-faraday", publisher: "Royal Institution" },
-      { label: "Faraday papers", url: "https://royalsociety.org/collections/", publisher: "The Royal Society" },
-      { label: "Experimental Researches", url: "https://www.biodiversitylibrary.org/bibliography/152899", publisher: "Biodiversity Heritage Library" },
+      { label: "Homi Bhabha", url: "https://www.britannica.com/biography/Homi-Bhabha", publisher: "Encyclopaedia Britannica" },
+      { label: "TIFR history", url: "https://www.tifr.res.in/", publisher: "Tata Institute of Fundamental Research" },
+      { label: "Atomic Energy Commission", url: "https://dae.gov.in/", publisher: "Department of Atomic Energy, India" },
     ],
   },
   {
@@ -1142,6 +1428,24 @@ export const SCIENTISTS: readonly Scientist[] = [
     headline: "He founded key ideas of computation and helped break wartime codes.",
     overview: ["Alan Turing gave a precise mathematical model of computation and proved limits on what machines can decide.", "During the Second World War, his work at Bletchley Park contributed to methods for decrypting Enigma messages. He later explored machine intelligence and mathematical biology."],
     knownFor: ["Turing machine", "Computability", "Enigma codebreaking", "Turing test", "Morphogenesis"],
+    earlyLife: [
+      "Turing grew up in Britain and showed early fascination with numbers, puzzles and science. At Cambridge he studied mathematics and logic, then worked on the foundations of computation.",
+      "His 1936 paper imagined an abstract machine that could follow instructions step by step, creating a foundation for computer science before electronic computers existed.",
+    ],
+    inspiration: [
+      "Turing was inspired by Hilbert's decision problem and by the question of what it means for a calculation to be mechanical. During World War II, that abstract thinking became urgently practical in codebreaking.",
+      "He was also interested in biology, asking how simple rules could produce patterns in living organisms.",
+    ],
+    challenges: [
+      "Turing's wartime codebreaking at Bletchley Park was secret for decades, delaying public recognition. After the war he faced persecution because he was gay; in 1952 he was convicted under British laws against homosexual acts and subjected to chemical treatment.",
+      "His death in 1954 is one of the major tragedies in scientific history, showing how social prejudice can destroy brilliant lives.",
+    ],
+    lawsAndIdeas: [
+      "Turing machine: an abstract model of computation that defines what can be computed by a mechanical procedure.",
+      "Computability: some problems cannot be solved by any algorithm, no matter how much time is allowed.",
+      "Turing test: a proposed way to discuss machine intelligence through conversation and behaviour.",
+      "Reaction-diffusion patterns: interacting chemicals diffusing at different rates can create biological patterns such as spots and stripes.",
+    ],
     contributions: [
       { title: "Computable numbers", period: "1936", description: "Turing introduced an abstract machine model and used it to analyze which problems can be solved by mechanical procedures." },
       { title: "Bletchley Park codebreaking", period: "1939–1945", description: "He helped design cryptanalytic methods and machines that accelerated the reading of encrypted communications." },
@@ -1167,6 +1471,24 @@ export const SCIENTISTS: readonly Scientist[] = [
     headline: "His extraordinary formulas reshaped number theory, partitions and infinite series.",
     overview: ["Srinivasa Ramanujan developed thousands of mathematical results, many recorded in notebooks before he received formal academic recognition.", "His collaboration with G. H. Hardy in Cambridge brought deep work on partitions, modular forms, series and highly composite numbers to wider attention."],
     knownFor: ["Ramanujan notebooks", "Partition function", "Mock theta functions", "Infinite series", "Highly composite numbers"],
+    earlyLife: [
+      "Ramanujan was born in Erode and grew up in Kumbakonam, South India. He was largely self-taught in advanced mathematics after encountering a book of formulas that became a gateway into number theory and infinite series.",
+      "Because he focused intensely on mathematics, he struggled with formal college requirements in other subjects and lost scholarships. Poverty and lack of institutional support made his path extremely difficult.",
+    ],
+    inspiration: [
+      "Ramanujan was inspired by patterns in numbers, partitions, series and continued fractions. He often wrote results first and supplied proofs later, guided by a powerful intuition.",
+      "His correspondence with G. H. Hardy at Cambridge changed his life because Hardy recognised that the notebooks contained original mathematics, not ordinary exercises.",
+    ],
+    challenges: [
+      "Ramanujan faced colonial distance, poverty, illness and cultural adjustment when he moved to England during World War I. Food restrictions, cold weather and isolation likely worsened his health.",
+      "Some contemporaries struggled to understand his methods because many results appeared without conventional proofs, yet later mathematicians confirmed and extended much of his work.",
+    ],
+    lawsAndIdeas: [
+      "Partition function: Ramanujan found deep congruences and asymptotic formulas describing ways to write numbers as sums.",
+      "Mock theta functions: mysterious q-series that later became important in modern number theory and modular forms.",
+      "Infinite series for pi: some of his formulas converge extremely rapidly and influenced later computational mathematics.",
+      "Ramanujan-Hardy number 1729: the smallest number expressible as the sum of two positive cubes in two different ways.",
+    ],
     contributions: [
       { title: "Partition formulas", period: "1910s", description: "Ramanujan discovered congruences and asymptotic ideas for the number of ways integers can be partitioned." },
       { title: "Infinite series", period: "1910s", description: "He produced striking rapidly converging series, including formulas later useful in high-precision computation." },
@@ -1192,6 +1514,24 @@ export const SCIENTISTS: readonly Scientist[] = [
     headline: "She saw that a calculating machine could manipulate symbols, not only numbers.",
     overview: ["Ada Lovelace wrote extensive notes on Charles Babbage's proposed Analytical Engine.", "Her notes included an algorithmic procedure for Bernoulli numbers and a broader vision that machines might operate on symbols according to rules."],
     knownFor: ["Analytical Engine notes", "Early computer algorithm", "Symbolic computing vision", "Bernoulli-number procedure"],
+    earlyLife: [
+      "Ada Lovelace was the daughter of poet Lord Byron and Annabella Milbanke. Her mother encouraged mathematics and logic partly to steer Ada away from what she saw as Byron's instability.",
+      "She received unusual scientific tutoring for a woman of her class and era, including instruction from Mary Somerville and Augustus De Morgan.",
+    ],
+    inspiration: [
+      "Lovelace was inspired by Charles Babbage's Analytical Engine, but she saw more than a calculating machine. She imagined that a machine manipulating symbols could one day work with music, text or other forms if they were represented logically.",
+      "Her imagination joined mathematics with creativity, which is why her story is important for computing.",
+    ],
+    challenges: [
+      "Victorian society limited women's formal scientific roles, so Lovelace worked through correspondence, translation and notes rather than a university post. Her health was also fragile.",
+      "Babbage's machine was never completed in their lifetimes, so her program and vision remained theoretical for many years.",
+    ],
+    lawsAndIdeas: [
+      "Algorithmic thinking: Lovelace described a step-by-step method for the Analytical Engine to compute Bernoulli numbers.",
+      "General-purpose computing: she understood that a programmable machine could manipulate symbols, not only arithmetic quantities.",
+      "Separation of machine and program: instructions could guide hardware to perform different tasks.",
+      "Limits of machines: she argued that machines follow operations we know how to order, raising early questions about creativity and intelligence.",
+    ],
     contributions: [
       { title: "Translation and notes", period: "1843", description: "Lovelace translated an article on Babbage's engine and added notes far longer than the original text." },
       { title: "Algorithmic table", period: "1843", description: "Her notes described steps the Analytical Engine could use to calculate Bernoulli numbers." },
@@ -1217,6 +1557,24 @@ export const SCIENTISTS: readonly Scientist[] = [
     headline: "Her X-ray diffraction work supplied crucial evidence for the structure of DNA.",
     overview: ["Rosalind Franklin used X-ray crystallography to study carbon structures, DNA and viruses.", "At King's College London, her high-quality DNA diffraction images and analysis helped reveal the helical structure and dimensions of DNA."],
     knownFor: ["DNA X-ray diffraction", "Photo 51", "Coal and carbon research", "Virus structure studies", "Crystallography"],
+    earlyLife: [
+      "Franklin grew up in London in a family that valued public service and education. She studied chemistry at Cambridge and became highly skilled in X-ray diffraction through work on coal and carbon structures.",
+      "Her technical discipline made her especially strong at extracting reliable information from difficult diffraction images.",
+    ],
+    inspiration: [
+      "Franklin was inspired by molecular structure: understanding the physical arrangement of atoms could explain biological function. At King's College London she applied X-ray diffraction to DNA fibres.",
+      "She insisted on careful evidence, distinguishing between different forms of DNA rather than rushing to a model.",
+    ],
+    challenges: [
+      "Franklin worked in a male-dominated environment with difficult relationships at King's College. Data from her work, including Photo 51, influenced Watson and Crick's model, but she did not receive equal public credit during her lifetime.",
+      "She died of ovarian cancer at 37, before the Nobel Prize for the DNA structure was awarded; Nobel Prizes are not awarded posthumously.",
+    ],
+    lawsAndIdeas: [
+      "X-ray diffraction of DNA: the cross-shaped pattern indicated a helical structure.",
+      "DNA forms: Franklin distinguished hydrated B-DNA from drier A-DNA, avoiding misleading conclusions.",
+      "Structural biology principle: biological function can depend on precise molecular shape.",
+      "Virus structure work: after DNA, she made important contributions to the study of tobacco mosaic virus.",
+    ],
     contributions: [
       { title: "Carbon research", period: "1940s", description: "Franklin analyzed coal and carbon microstructures, improving understanding of their physical properties." },
       { title: "DNA diffraction", period: "1951–1953", description: "Her images and measurements showed features consistent with a helical molecule and informed DNA models." },
@@ -1242,6 +1600,24 @@ export const SCIENTISTS: readonly Scientist[] = [
     headline: "Her chimpanzee research changed how scientists understand animal behavior and conservation.",
     overview: ["Jane Goodall began long-term field observations of chimpanzees at Gombe Stream in Tanzania.", "She documented tool use, social bonds, hunting, conflict and individual personalities, challenging assumptions about a sharp divide between humans and other animals."],
     knownFor: ["Gombe chimpanzee research", "Chimpanzee tool use", "Animal behavior", "Conservation advocacy", "Roots & Shoots"],
+    earlyLife: [
+      "Jane Goodall grew up in England with a strong love of animals and Africa. She did not begin with a university science degree; instead, her patience and observational talent led Louis Leakey to support her fieldwork at Gombe Stream in Tanzania.",
+      "Her early life shows that scientific ability can also come from curiosity, discipline and direct observation, not only formal credentials.",
+    ],
+    inspiration: [
+      "Goodall was inspired by animal behaviour and the possibility of understanding chimpanzees as individuals with social lives, emotions and cultures.",
+      "She named chimpanzees rather than numbering them, a choice criticised by some scientists but important to her observational approach.",
+    ],
+    challenges: [
+      "Goodall worked during colonial and post-colonial transitions in East Africa and faced skepticism as a young woman without a conventional academic path. Some objected to her methods because they seemed too personal.",
+      "Habitat loss, hunting and disease later shifted her work from observation to conservation and activism.",
+    ],
+    lawsAndIdeas: [
+      "Tool use in chimpanzees: Goodall observed chimpanzees making and using tools to fish for termites, challenging the idea that humans alone used tools.",
+      "Primate social behaviour: long-term observation revealed dominance, bonding, hunting, conflict and care among chimpanzees.",
+      "Animal culture: behaviours can be learned and passed through groups.",
+      "Conservation science: protecting species requires protecting habitats and working with local communities.",
+    ],
     contributions: [
       { title: "Tool use observations", period: "1960", description: "Goodall observed chimpanzees modifying and using sticks to fish for termites, altering definitions of human uniqueness." },
       { title: "Long-term field study", period: "1960 onward", description: "Her research program followed individuals and communities across generations." },
@@ -1267,6 +1643,24 @@ export const SCIENTISTS: readonly Scientist[] = [
     headline: "She helped launch modern environmental awareness through science writing.",
     overview: ["Rachel Carson trained as a marine biologist and became an influential writer about oceans and ecology.", "Silent Spring connected pesticide use with ecological harm and public health concerns, encouraging environmental regulation and public debate."],
     knownFor: ["Silent Spring", "Marine biology writing", "Pesticide awareness", "Environmental movement", "Ecological interdependence"],
+    earlyLife: [
+      "Rachel Carson grew up in Pennsylvania and loved both writing and the natural world. She studied biology and worked for the U.S. Fish and Wildlife Service, where she learned to communicate science clearly to the public.",
+      "Her early books on the sea made her a respected nature writer before Silent Spring made her a central environmental figure.",
+    ],
+    inspiration: [
+      "Carson was inspired by ecology: the idea that living systems are connected and that chemicals released into one part of nature can move through food webs and affect many species.",
+      "She investigated pesticides after evidence accumulated that chemicals such as DDT harmed birds, fish and possibly humans.",
+    ],
+    challenges: [
+      "Chemical companies attacked Carson personally and professionally, sometimes portraying her as emotional or anti-progress. She was also seriously ill with cancer while completing Silent Spring.",
+      "Her work appeared during the Cold War era, when technological optimism was strong and criticism of industry could be treated as suspicious.",
+    ],
+    lawsAndIdeas: [
+      "Bioaccumulation: persistent chemicals can build up in organisms over time.",
+      "Biomagnification: toxins can become more concentrated higher in the food chain.",
+      "Ecological interdependence: harming insects, birds, soil or water can affect whole systems.",
+      "Precautionary environmental thinking: new technologies should be judged by long-term ecological consequences, not only short-term benefits.",
+    ],
     contributions: [
       { title: "Ocean science writing", period: "1940s–1950s", description: "Carson explained marine ecosystems in books that combined scientific accuracy with literary clarity." },
       { title: "Pesticide critique", period: "1962", description: "Silent Spring presented evidence that persistent chemicals could move through food webs and harm wildlife." },
@@ -1292,6 +1686,24 @@ export const SCIENTISTS: readonly Scientist[] = [
     headline: "He transformed optics with experiments on vision, light and the camera obscura.",
     overview: ["Ibn al-Haytham, also known as Alhazen, wrote a major Book of Optics that rejected emission theories of vision and argued that sight depends on light entering the eye.", "His work combined geometry, observation and controlled experiment, making him a central figure in medieval science."],
     knownFor: ["Book of Optics", "Vision theory", "Camera obscura", "Experimental optics", "Geometrical optics"],
+    earlyLife: [
+      "Ibn al-Haytham was born in Basra during the Islamic Golden Age, when scholarship in mathematics, medicine, astronomy and philosophy flourished across major cities. He later worked in Cairo and spent time under restricted conditions after a failed Nile engineering proposal.",
+      "That period of confinement is traditionally linked to intense study and writing, including his major work on optics.",
+    ],
+    inspiration: [
+      "He was inspired by problems in vision: do eyes send out rays, or does light enter the eye? He tested explanations using geometry, observation and experiment.",
+      "His work combined Greek mathematical traditions with new experimental methods.",
+    ],
+    challenges: [
+      "Ibn al-Haytham lived under powerful rulers, and stories about his failed promise to regulate the Nile show how dangerous court patronage could be. Scholars often depended on political protection but could suffer when expectations were not met.",
+      "His conclusions challenged older emission theories of vision associated with authorities such as Euclid and Ptolemy.",
+    ],
+    lawsAndIdeas: [
+      "Intromission theory of vision: sight occurs when light reflected from objects enters the eye.",
+      "Camera obscura: light passing through a small opening projects an inverted image, demonstrating straight-line travel of light.",
+      "Experimental method: hypotheses about light should be tested with controlled observations.",
+      "Reflection and refraction studies: geometry can describe how light changes direction at surfaces and through media.",
+    ],
     contributions: [
       { title: "Theory of vision", period: "11th century", description: "He argued that vision occurs when light from objects enters the eye, not because rays leave the eye." },
       { title: "Camera obscura", period: "11th century", description: "He analyzed image formation through small apertures, explaining why images appear inverted." },
@@ -1317,6 +1729,24 @@ export const SCIENTISTS: readonly Scientist[] = [
     headline: "He joined geometry, mechanics and invention with extraordinary originality.",
     overview: ["Archimedes developed powerful results in geometry, hydrostatics and mechanics.", "His methods anticipated integral reasoning, and his work on levers, centres of gravity and buoyancy became foundational for mathematical physics."],
     knownFor: ["Archimedes' principle", "Law of the lever", "Approximation of pi", "Method of exhaustion", "Screw pump"],
+    earlyLife: [
+      "Archimedes lived in Syracuse, a Greek city in Sicily, and probably studied or communicated with scholars connected to Alexandria. His world combined mathematics, engineering, warfare and royal patronage.",
+      "He became famous both for abstract geometry and for practical machines, a rare combination even in antiquity.",
+    ],
+    inspiration: [
+      "Archimedes was inspired by exact reasoning. He wanted to prove results about areas, volumes, centres of gravity and mechanical advantage with unmatched rigour.",
+      "Practical problems from Syracuse, including defence and measurement, also stimulated his engineering work.",
+    ],
+    challenges: [
+      "Archimedes lived during the Punic Wars, when Syracuse became caught between Rome and Carthage. Ancient accounts say he designed defensive machines during the Roman siege and was killed after the city fell.",
+      "His death symbolises how war can destroy knowledge even when rulers admire it.",
+    ],
+    lawsAndIdeas: [
+      "Archimedes' principle: a body immersed in fluid experiences an upward buoyant force equal to the weight of the fluid it displaces.",
+      "Law of the lever: magnitudes balance at distances inversely proportional to their weights.",
+      "Method of exhaustion: areas and volumes can be found by bounding shapes with increasingly fine approximations, anticipating integral ideas.",
+      "Approximation of pi: he bounded pi using polygons inscribed and circumscribed around a circle.",
+    ],
     contributions: [
       { title: "Buoyancy", period: "3rd century BCE", description: "Archimedes explained that an immersed body experiences an upward force related to displaced fluid." },
       { title: "Geometry of circles and spheres", period: "3rd century BCE", description: "He calculated areas and volumes with methods close to later integral ideas." },
@@ -1342,6 +1772,24 @@ export const SCIENTISTS: readonly Scientist[] = [
     headline: "She became one of late antiquity's most famous teachers of mathematics and philosophy.",
     overview: ["Hypatia taught mathematics, astronomy and philosophy in Alexandria during a period of religious and political tension.", "Although her own writings survive only indirectly, ancient sources associate her with commentaries, teaching and instruments such as the astrolabe."],
     knownFor: ["Teaching in Alexandria", "Mathematical commentaries", "Astronomy", "Philosophy", "Symbol of learning"],
+    earlyLife: [
+      "Hypatia was born in Alexandria, one of the ancient world's great centres of learning. Her father Theon was a mathematician and astronomer, and she became a teacher of philosophy, mathematics and astronomy.",
+      "Because few writings under her own name survive, much of what is known comes through students, letters and later historical accounts.",
+    ],
+    inspiration: [
+      "Hypatia was inspired by the mathematical and philosophical traditions of Alexandria. She taught difficult works by authors such as Euclid, Ptolemy and Diophantus, preserving and explaining them for students.",
+      "Her role shows that teaching and commentary can be as important to science as discovery, because knowledge survives through transmission.",
+    ],
+    challenges: [
+      "Hypatia lived during intense religious and political conflict in late Roman Alexandria. Her association with civic leaders placed her in the middle of factional struggles between political and church authorities.",
+      "She was murdered by a mob in 415 CE, an unfortunate and violent incident that became a lasting symbol of attacks on learning and intellectual freedom.",
+    ],
+    lawsAndIdeas: [
+      "Mathematical commentary: explaining and editing advanced texts helped preserve Greek mathematics.",
+      "Astronomical instruments: accounts connect her circle with astrolabes and devices used to model the heavens.",
+      "Neoplatonic teaching: mathematics was treated as part of a broader philosophical education.",
+      "Scientific preservation: Hypatia's importance lies in sustaining a scholarly tradition during a period of institutional change.",
+    ],
     contributions: [
       { title: "Mathematical teaching", period: "Late 4th–early 5th century", description: "Hypatia led an influential school where students studied mathematics, astronomy and philosophy." },
       { title: "Commentary tradition", period: "Late antiquity", description: "She is associated with preserving and explaining mathematical texts by authors such as Diophantus and Apollonius." },
@@ -1367,6 +1815,24 @@ export const SCIENTISTS: readonly Scientist[] = [
     headline: "He showed how quantum physics sets a mass limit for white dwarf stars.",
     overview: ["Subrahmanyan Chandrasekhar applied relativity and quantum statistics to the structure of stars.", "His work on white dwarfs led to the Chandrasekhar limit, a mass threshold with deep consequences for supernovae, neutron stars and black holes."],
     knownFor: ["Chandrasekhar limit", "Stellar structure", "Radiative transfer", "Black-hole mathematics", "Nobel Prize in Physics"],
+    earlyLife: [
+      "Chandrasekhar was born in Lahore in British India into a highly educated family; C. V. Raman was his uncle. He studied physics in Madras and, while travelling by ship to Cambridge, began calculations about white dwarf stars.",
+      "That early voyage became scientifically important because it gave him time to combine relativity with quantum statistics.",
+    ],
+    inspiration: [
+      "He was inspired by the new physics of the twentieth century: quantum mechanics, relativity and astrophysics. He wanted to understand the life cycle of stars with precise mathematics.",
+      "His career shows a pattern of mastering a field deeply, writing a major book, then moving to another difficult problem.",
+    ],
+    challenges: [
+      "Chandrasekhar faced strong public criticism from Arthur Eddington, who rejected the white-dwarf mass limit at a major scientific meeting. The criticism was a painful professional setback, especially for a young Indian scientist in Britain.",
+      "He continued the work despite resistance, and later generations recognised the Chandrasekhar limit as fundamental to stellar evolution.",
+    ],
+    lawsAndIdeas: [
+      "Chandrasekhar limit: a white dwarf cannot be supported by electron degeneracy pressure above about 1.4 solar masses.",
+      "Stellar evolution: stars above the limit must collapse further, leading toward neutron stars, black holes or supernova events.",
+      "Radiative transfer: mathematical rules describe how radiation moves through and interacts with stellar matter.",
+      "Black-hole mathematics: his later work clarified the stability and structure of black-hole solutions in general relativity.",
+    ],
     contributions: [
       { title: "White dwarf theory", period: "1930s", description: "Chandrasekhar calculated that electron degeneracy pressure cannot support a white dwarf above a critical mass." },
       { title: "Radiative transfer", period: "1940s–1950s", description: "He developed mathematical treatments of how radiation moves through stellar atmospheres." },

@@ -32,9 +32,9 @@ export default function ScientistsPage() {
                 World&apos;s Top 25 Scientists
               </h1>
               <p className="mx-auto mt-6 max-w-3xl text-balance text-lg leading-8 text-muted-foreground">
-                Explore the ideas, experiments, instruments and original records behind 25 of
-                history&apos;s most influential scientific lives. Every profile is built from
-                museum, archive, university and prize-institution sources.
+                Explore the ideas, experiments, early-life struggles, inspirations, political pressures,
+                scientific backlashes and original records behind 25 of history&apos;s most
+                influential scientific lives.
               </p>
               <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-muted-foreground">
                 “Top” is used as a curated introduction rather than an absolute ranking. Scientific
@@ -82,7 +82,7 @@ export default function ScientistsPage() {
                     <BookOpenCheck className="size-5" aria-hidden="true" />
                   </div>
                   <div>
-                    <p className="text-2xl font-bold">30+</p>
+                    <p className="text-2xl font-bold">75+</p>
                     <p className="text-xs text-muted-foreground">Research references</p>
                   </div>
                 </CardContent>
@@ -104,8 +104,9 @@ export default function ScientistsPage() {
               <h2 className="mt-2 text-3xl font-bold tracking-tight">Research before mythology</h2>
               <p className="mt-4 max-w-xl leading-7 text-muted-foreground">
                 Popular science stories often compress decades of shared work into a single heroic
-                moment. These profiles distinguish discoveries, practical engineering, later
-                development and collaboration wherever the historical record requires it.
+                moment. These profiles now include early life, inspiration, historical challenges,
+                political pressure, backlash, core laws and later collaboration wherever the
+                historical record requires it.
               </p>
             </div>
             <div className="grid gap-4 sm:grid-cols-3">
