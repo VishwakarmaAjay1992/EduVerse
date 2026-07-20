@@ -8,14 +8,14 @@ export const geometryVisualProofsAndFormulaGuide: LessonContent = {
   objectives: [
     "Use diagrams as mathematical arguments, not only decorations.",
     "Study clean colour recreations of important visual proofs.",
-    "Connect visual reasoning to algebra, triangles, circles and trigonometry.",
-    "Use the quick-reference pages for revision while keeping the earlier Geometry lessons intact."
+    "Revise core Geometry facts in typed, textbook-style notes.",
+    "Connect visual reasoning to angles, triangles, quadrilaterals, circles and trigonometry."
   ],
   sections: [
     {
       kind: "overview",
       paragraphs: [
-        "This lesson is a visual companion to your existing Geometry section. It keeps the earlier textbook-style content, then adds carefully organised proof cards and quick-reference pages for revision.",
+        "This lesson is a visual companion to your existing Geometry section. It keeps the earlier textbook-style lessons and adds clean proof cards together with typed revision notes drawn from your uploaded Geometry material.",
         "A visual proof is not just a picture. Read the labels, notice the equal lengths, angle marks, colour blocks and rearrangements, then explain the result in your own words."
       ]
     },
@@ -24,35 +24,6 @@ export const geometryVisualProofsAndFormulaGuide: LessonContent = {
       variant: "definition",
       title: "What is a visual proof?",
       body: "A visual proof shows why a statement is true by using area, length, symmetry, angle relationships, dissection or rearrangement. The learner should be able to translate the picture into a full mathematical explanation."
-    },
-    {
-      kind: "theory",
-      heading: "How to use this lesson",
-      paragraphs: [
-        "Use the colour proof cards when you want to understand why an identity or theorem works. Use the quick-reference pages when you need a fast reminder of definitions, properties and standard results.",
-        "Most of these visuals also connect directly to your other Geometry lessons such as angles, triangles, congruency, similarity, quadrilaterals, circles and the Pythagorean theorem."
-      ],
-      list: [
-        "Study one proof card at a time and rewrite the proof in words.",
-        "Match each visual to the correct Geometry chapter.",
-        "Use the quick-reference pages only after understanding the full lesson notes.",
-        "Redraw the diagrams during self-study so that the result stays in memory."
-      ]
-    },
-    {
-      kind: "table",
-      heading: "Topic connections",
-      headers: ["Visual topic", "Best lesson to revise with it", "Main idea"],
-      rows: [
-        ["Points, lines, rays and angles", "Points, Lines, Planes and Angles", "Foundation vocabulary and angle facts"],
-        ["Parallel lines and transversals", "Angle Relationships", "Corresponding, alternate and co-interior angles"],
-        ["Triangles and centres", "Triangles and Their Angles", "Classification, centres and important properties"],
-        ["Congruency and similarity", "Congruent Triangles / Similar Triangles and Scale", "Proof conditions and ratio reasoning"],
-        ["Quadrilaterals and polygons", "The Quadrilateral Family / Interior and Exterior Angles of Polygons", "Properties, classification and angle sums"],
-        ["Circle area and circle theorems", "Parts of a Circle / Circle Theorems and Proofs", "Area, arc, sector and theorem intuition"],
-        ["Pythagorean and triangle identities", "The Pythagorean Theorem", "Rearrangement and area reasoning"],
-        ["Trigonometric visual proofs", "Trigonometry lessons", "Identity proofs by geometry"]
-      ]
     },
     {
       kind: "imageGallery",
@@ -78,25 +49,72 @@ export const geometryVisualProofsAndFormulaGuide: LessonContent = {
       ]
     },
     {
-      kind: "imageGallery",
-      heading: "Geometry quick-reference pages",
-      note: "Use these pages as revision support while working through the full Geometry lessons.",
-      images: [
-        { src: "/geometry-pdf/formula-guide/geometry-guide-01.webp", alt: "Geometry reference page 1", caption: "Point, line, line segment, ray and angle definitions, with key reminders about how lines and points behave." },
-        { src: "/geometry-pdf/formula-guide/geometry-guide-02.webp", alt: "Geometry reference page 2", caption: "Angles on a line and around a point, vertically opposite angles, and angle relationships formed by a transversal across parallel lines." },
-        { src: "/geometry-pdf/formula-guide/geometry-guide-03.webp", alt: "Geometry reference page 3", caption: "Triangle definitions and classification: acute, obtuse, scalene, isosceles, equilateral and right-angled triangles." },
-        { src: "/geometry-pdf/formula-guide/geometry-guide-04.webp", alt: "Geometry reference page 4", caption: "Important triangle properties and a circumcentre diagram." },
-        { src: "/geometry-pdf/formula-guide/geometry-guide-05.webp", alt: "Geometry reference page 5", caption: "Incentre, orthocentre, centroid and related construction diagrams." },
-        { src: "/geometry-pdf/formula-guide/geometry-guide-06.webp", alt: "Geometry reference page 6", caption: "Important facts about triangle centres and the congruency criteria SSS, SAS, ASA/AAS and RHS." },
-        { src: "/geometry-pdf/formula-guide/geometry-guide-07.webp", alt: "Geometry reference page 7", caption: "Similarity of triangles and core theorems such as Pythagoras, the angle bisector theorem and the midpoint theorem." },
-        { src: "/geometry-pdf/formula-guide/geometry-guide-08.webp", alt: "Geometry reference page 8", caption: "Further triangle theorems, area ratios of similar triangles, and quadrilateral basics including cyclic quadrilateral facts." },
-        { src: "/geometry-pdf/formula-guide/geometry-guide-09.webp", alt: "Geometry reference page 9", caption: "Definitions and properties of parallelograms, rhombuses and rectangles." },
-        { src: "/geometry-pdf/formula-guide/geometry-guide-10.webp", alt: "Geometry reference page 10", caption: "Square and trapezium properties, plus key area facts for figures on the same base and between the same parallels." },
-        { src: "/geometry-pdf/formula-guide/geometry-guide-11.webp", alt: "Geometry reference page 11", caption: "Polygon facts, including convex and concave polygons and the exterior-angle result." },
-        { src: "/geometry-pdf/formula-guide/geometry-guide-12.webp", alt: "Geometry reference page 12", caption: "Circle terminology and theorems about chords, tangents and radii." },
-        { src: "/geometry-pdf/formula-guide/geometry-guide-13.webp", alt: "Geometry reference page 13", caption: "More circle theorems, including same-segment angles and cyclic quadrilateral properties." },
-        { src: "/geometry-pdf/formula-guide/geometry-guide-14.webp", alt: "Geometry reference page 14", caption: "Arc and sector formulas with key diagram support." },
-        { src: "/geometry-pdf/formula-guide/geometry-guide-15.webp", alt: "Geometry reference page 15", caption: "Important remembered results about circles, tangents, arcs and cyclic quadrilaterals." }
+      kind: "theory",
+      heading: "Foundational geometry notes",
+      paragraphs: [
+        "A point shows an exact position and has no length, breadth or thickness. A line is a straight path extending infinitely in both directions. A line segment is a finite part of a line with two endpoints, while a ray starts at one endpoint and extends endlessly in one direction.",
+        "An angle is formed by two rays from a common initial point. Acute angles are less than $90^\circ$, right angles equal $90^\circ$, obtuse angles lie between $90^\circ$ and $180^\circ$, straight angles equal $180^\circ$ and reflex angles lie between $180^\circ$ and $360^\circ$."
+      ],
+      list: [
+        "Angles on a straight line sum to $180^\circ$.",
+        "Angles around a point sum to $360^\circ$.",
+        "Vertically opposite angles are equal.",
+        "For parallel lines cut by a transversal: corresponding angles are equal, alternate angles are equal, and co-interior angles sum to $180^\circ$."
+      ]
+    },
+    {
+      kind: "table",
+      heading: "Triangle quick-reference notes",
+      headers: ["Topic", "Key fact"],
+      rows: [
+        ["Triangle types", "Triangles may be acute, obtuse, scalene, isosceles, equilateral or right-angled."],
+        ["Angle sum", "The three interior angles of a triangle sum to $180^\circ$."],
+        ["Exterior angle theorem", "An exterior angle equals the sum of the two opposite interior angles."],
+        ["Side-angle relation", "The longest side lies opposite the greatest angle, and the shortest side lies opposite the smallest angle."],
+        ["Centres", "Circumcentre is formed by perpendicular bisectors, incentre by angle bisectors, orthocentre by altitudes, and centroid by medians."],
+        ["Centroid ratio", "The centroid divides each median in the ratio $2:1$ from vertex to side."]
+      ]
+    },
+    {
+      kind: "table",
+      heading: "Congruency and similarity toolkit",
+      headers: ["Idea", "Typed note"],
+      rows: [
+        ["Congruent triangles", "Congruent triangles are identical in shape and size. Use SSS, SAS, ASA/AAS and RHS."],
+        ["Similar triangles", "Similar triangles have the same shape but not necessarily the same size. Use AA/AAA, SAS proportionality and SSS proportionality."],
+        ["Pythagoras", "For a right triangle, $c^2=a^2+b^2$ where $c$ is the hypotenuse."],
+        ["Midpoint theorem", "The segment joining the midpoints of two sides of a triangle is parallel to the third side and half its length."],
+        ["Basic proportionality theorem", "A line parallel to one side of a triangle divides the other two sides proportionally."],
+        ["Area ratio", "The areas of similar triangles are in the ratio of the squares of corresponding sides."]
+      ]
+    },
+    {
+      kind: "table",
+      heading: "Quadrilateral and polygon notes",
+      headers: ["Figure", "Property summary"],
+      rows: [
+        ["Quadrilateral", "A quadrilateral has four sides, and its interior angles sum to $360^\circ$."],
+        ["Cyclic quadrilateral", "If all four vertices lie on a circle, opposite angles are supplementary."],
+        ["Parallelogram", "Opposite sides are parallel and equal, opposite angles are equal, and diagonals bisect each other."],
+        ["Rhombus", "A rhombus is a parallelogram with all sides equal. Its diagonals are perpendicular bisectors."],
+        ["Rectangle", "A rectangle is a parallelogram with four right angles. Its diagonals are equal."],
+        ["Square", "A square is both a rectangle and a rhombus. Its diagonals are equal, perpendicular and bisect each other."],
+        ["Trapezium", "A trapezium has one pair of parallel sides."],
+        ["Polygon", "The sum of exterior angles of any polygon is $360^\circ$. The sum of interior angles of an $n$-gon is $(n-2)\times180^\circ$." ]
+      ]
+    },
+    {
+      kind: "table",
+      heading: "Circle notes",
+      headers: ["Circle idea", "Key fact"],
+      rows: [
+        ["Chord and radius", "The perpendicular from the centre to a chord bisects the chord."],
+        ["Equal chords", "Equal chords are equidistant from the centre, and equal chords subtend equal angles at the centre."],
+        ["Angles in the same segment", "Angles subtended by the same chord in the same segment are equal."],
+        ["Cyclic quadrilateral", "Opposite angles in a cyclic quadrilateral sum to $180^\circ$."],
+        ["Tangents", "A tangent is perpendicular to the radius at the point of contact, and tangents from the same external point are equal."],
+        ["Arc length", "Arc length = $\dfrac{\theta}{360^\circ} \times 2\pi r$."],
+        ["Sector area", "Sector area = $\dfrac{\theta}{360^\circ} \times \pi r^2$." ]
       ]
     },
     {
@@ -104,26 +122,26 @@ export const geometryVisualProofsAndFormulaGuide: LessonContent = {
       heading: "Self-study practice",
       questions: [
         { prompt: "In the visual proof of $(a+b+c)^2$, how many rectangles of area $ab$ appear?", options: ["1", "2", "3", "4"], answer: 1, explanation: "There are two separate $ab$ rectangles, so together they contribute $2ab$." },
-        { prompt: "When circle sectors are rearranged into a near-rectangle, what is the approximate width?", options: ["$r$", "$2r$", "$\\pi r$", "$\\pi r^2$"], answer: 2, explanation: "The rearranged sectors form a strip whose width is about half the circumference, which is $\\pi r$." },
+        { prompt: "When circle sectors are rearranged into a near-rectangle, what is the approximate width?", options: ["$r$", "$2r$", "$\pi r$", "$\pi r^2$"], answer: 2, explanation: "The rearranged sectors form a strip whose width is about half the circumference, which is $\pi r$." },
         { prompt: "Which theorem is shown by the rearrangement with four right triangles and the central squares?", options: ["Midpoint theorem", "Pythagorean theorem", "Tangent theorem", "Exterior angle theorem"], answer: 1, explanation: "It is the classic rearrangement proof of $c^2=a^2+b^2$." },
         { prompt: "In Viviani’s theorem, the sum of the three perpendicular distances from an interior point equals the:", options: ["perimeter", "base", "altitude", "semiperimeter"], answer: 2, explanation: "For an equilateral triangle, the sum of those three distances is exactly the altitude." },
-        { prompt: "The identity $1^3+2^3+\cdots+n^3=(1+2+\cdots+n)^2$ links the sum of cubes to a:", options: ["circle area", "square pattern", "triangle angle sum", "chord theorem"], answer: 1, explanation: "The visual proof turns the sum of cubes into a square pattern." }
+        { prompt: "The sum of the exterior angles of any polygon is:", options: ["$180^\circ$", "$270^\circ$", "$360^\circ$", "depends on the number of sides"], answer: 2, explanation: "No matter how many sides the polygon has, one full turn is $360^\circ$." }
       ]
     },
     {
       kind: "summary",
       points: [
-        "Your earlier Geometry content is still present; this lesson adds a visual layer rather than replacing it.",
+        "Your earlier Geometry content is still present; this lesson adds typed revision notes and recreated visuals rather than scanned pages.",
         "The colour proof cards are recreated assets, not direct page screenshots.",
         "Visual proofs help students remember both the formula and the reason behind it.",
-        "The quick-reference pages are best used alongside the deeper textbook-style lessons."
+        "The typed quick-reference notes are best used alongside the deeper textbook-style lessons."
       ]
     },
     {
       kind: "completion",
       steps: [
         { key: "visuals", label: "Study the visual proof cards" },
-        { key: "reference", label: "Review the quick-reference pages" },
+        { key: "notes", label: "Revise the quick-reference notes" },
         { key: "practice", label: "Complete the self-study practice" }
       ],
       requireQuizPass: false

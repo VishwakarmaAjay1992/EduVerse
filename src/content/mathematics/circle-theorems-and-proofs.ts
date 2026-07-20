@@ -419,13 +419,18 @@ export const circleTheoremsAndProofs: LessonContent = {
       ]
     },
     {
-      "kind": "imageGallery",
-      "heading": "Visual connection: circle theorems",
-      "note": "These pages support the circle theorem lesson with chord, tangent, arc, sector, segment and cyclic-quadrilateral results.",
-      "images": [
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-12.webp", "alt": "Circle theorem reference page 12", "caption": "Chord, arc and tangent facts from the uploaded Geometry formula guide." },
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-13.webp", "alt": "Circle theorem reference page 13", "caption": "Equal chords, angles in the same segment and cyclic quadrilateral facts." },
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-15.webp", "alt": "Circle theorem remembered results", "caption": "Important remembered results for tangents, arcs and cyclic quadrilaterals." }
+      "kind": "table",
+      "heading": "Quick reference notes: circle theorems",
+      "headers": ["Theorem", "Typed note"],
+      "rows": [
+        ["Chord bisector theorem", "The perpendicular from the centre to a chord bisects the chord."],
+        ["Equal chords", "Equal chords are equidistant from the centre and subtend equal angles at the centre."],
+        ["Angle at the centre", "The angle at the centre is twice the angle at the circumference standing on the same arc."],
+        ["Same segment theorem", "Angles in the same segment of a circle are equal."],
+        ["Semicircle theorem", "The angle in a semicircle is a right angle."],
+        ["Cyclic quadrilateral", "Opposite angles of a cyclic quadrilateral are supplementary."],
+        ["Tangent-radius theorem", "A tangent is perpendicular to the radius at the point of contact."],
+        ["Equal tangents", "Tangents drawn from the same external point are equal in length." ]
       ]
     },
     {

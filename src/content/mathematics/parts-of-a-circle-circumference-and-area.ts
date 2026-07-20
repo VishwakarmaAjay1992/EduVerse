@@ -426,13 +426,26 @@ export const partsOfACircleCircumferenceAndArea: LessonContent = {
       ]
     },
     {
+      "kind": "table",
+      "heading": "Quick reference notes: circle basics",
+      "headers": ["Circle term", "Typed note"],
+      "rows": [
+        ["Radius and diameter", "A radius joins the centre to the circle. A diameter is twice the radius."],
+        ["Chord", "A chord joins any two points on a circle. The longest chord is the diameter."],
+        ["Arc and sector", "An arc is part of the circumference, and a sector is the region bounded by two radii and an arc."],
+        ["Circumference", "Circumference = $2\pi r = \pi d$."],
+        ["Area", "Area of a circle = $\pi r^2$."],
+        ["Arc length", "Arc length = $\dfrac{\theta}{360^\circ} \times 2\pi r$."],
+        ["Sector area", "Sector area = $\dfrac{\theta}{360^\circ} \times \pi r^2$."],
+        ["Useful theorem", "The perpendicular from the centre to a chord bisects the chord." ]
+      ]
+    },
+    {
       "kind": "imageGallery",
-      "heading": "Visual connection: circle parts, area, arc and sector",
-      "note": "These visuals add colour intuition for circle area together with quick-reference pages for arcs and sectors.",
+      "heading": "Recreated visual extension",
+      "note": "This recreated diagram helps students see why the circle area formula works.",
       "images": [
-        { "src": "/geometry-recreated/visual-proofs/visual-proof-04.svg", "alt": "Recreated circle area sector rearrangement", "caption": "Coloured circle sectors rearranged into a near-rectangle, giving the idea behind $A=\\pi r^2$." },
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-12.webp", "alt": "Circle terminology and chord theorem", "caption": "Circle terminology and basic circle theorems about arc, chord, perpendicular from centre to chord and tangents." },
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-14.webp", "alt": "Arc sector and segment formulas", "caption": "Arc and sector formulas with a segment theorem illustration." }
+        { "src": "/geometry-recreated/visual-proofs/visual-proof-04.svg", "alt": "Recreated circle area sector rearrangement", "caption": "Recreated circle sectors rearranged into a near-rectangle, giving the idea behind $A=\pi r^2$." }
       ]
     },
     {

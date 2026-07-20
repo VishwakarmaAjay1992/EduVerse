@@ -426,14 +426,25 @@ export const trianglesAndTheirAngles: LessonContent = {
       ]
     },
     {
+      "kind": "table",
+      "heading": "Quick reference notes: triangles and centres",
+      "headers": ["Topic", "Typed note"],
+      "rows": [
+        ["Triangle types", "Triangles may be acute, obtuse, scalene, isosceles, equilateral or right-angled."],
+        ["Angle sum", "The interior angles of a triangle always add to $180^\circ$."],
+        ["Exterior angle", "An exterior angle equals the sum of the two opposite interior angles."],
+        ["Side-angle relation", "The longest side lies opposite the greatest angle, and the shortest side lies opposite the smallest angle."],
+        ["Circumcentre", "The circumcentre is the meeting point of the perpendicular bisectors and is equidistant from the vertices."],
+        ["Incentre", "The incentre is the meeting point of the angle bisectors and is equidistant from the sides."],
+        ["Orthocentre", "The orthocentre is the meeting point of the altitudes."],
+        ["Centroid", "The centroid is the meeting point of the medians and divides each median in the ratio $2:1$." ]
+      ]
+    },
+    {
       "kind": "imageGallery",
-      "heading": "Visual connection: triangle classification and centres",
-      "note": "These quick-reference pages deepen the earlier triangle notes with triangle types, exterior-angle facts, circumcentre, incentre, orthocentre and centroid.",
+      "heading": "Recreated visual extension",
+      "note": "This recreated proof adds deeper visual thinking to the triangle lesson.",
       "images": [
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-03.webp", "alt": "Triangle types guide", "caption": "Triangle definition and classification: acute, obtuse, scalene, isosceles, equilateral and right-angled triangles." },
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-04.webp", "alt": "Triangle properties and circumcentre", "caption": "Triangle angle sum, side-angle relation, exterior angle theorem and circumcentre diagram." },
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-05.webp", "alt": "Incentre orthocentre centroid guide", "caption": "Incentre, excircle, orthocentre and centroid with labelled construction diagrams." },
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-06.webp", "alt": "Triangle centre key points", "caption": "Important points about centres of triangles, including centroid ratio and special cases in right, obtuse, isosceles and equilateral triangles." },
         { "src": "/geometry-recreated/visual-proofs/visual-proof-08.svg", "alt": "Recreated Viviani theorem visual proof", "caption": "Recreated Viviani’s theorem proof for an equilateral triangle: the sum of distances from an interior point to the sides equals the altitude." }
       ]
     },

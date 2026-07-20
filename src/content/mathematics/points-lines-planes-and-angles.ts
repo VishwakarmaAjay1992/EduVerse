@@ -162,12 +162,17 @@ export const pointsLinesPlanesAndAngles: LessonContent = {
       ],
     },
     {
-      "kind": "imageGallery",
-      "heading": "Visual connection: Geometry foundations",
-      "note": "These pages come from the uploaded Geometry formula guide and support this lesson's point, line, ray, line segment and angle definitions.",
-      "images": [
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-01.webp", "alt": "Geometry guide page 1: point line ray angle", "caption": "Point, line, line segment, ray and basic angle definitions with small labelled diagrams." },
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-02.webp", "alt": "Geometry guide page 2: angle relationships", "caption": "Angles on a straight line, angles around a point, vertically opposite angles and parallel-line angle facts." }
+      "kind": "theory",
+      "heading": "Quick reference notes: geometry foundations",
+      "paragraphs": [
+        "A point marks an exact position. A line extends without end in both directions. A line segment is a part of a line with two endpoints, while a ray starts at one endpoint and extends endlessly in one direction.",
+        "An angle is formed by two rays from a common point. Acute angles are less than $90^\circ$, right angles equal $90^\circ$, obtuse angles lie between $90^\circ$ and $180^\circ$, straight angles equal $180^\circ$, and reflex angles lie between $180^\circ$ and $360^\circ$."
+      ],
+      "list": [
+        "A line contains infinitely many points.",
+        "Angles on a straight line sum to $180^\circ$.",
+        "Angles around a point sum to $360^\circ$.",
+        "Two distinct lines in a plane cannot have more than one common point."
       ]
     },
     {

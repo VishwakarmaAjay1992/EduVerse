@@ -419,11 +419,16 @@ export const interiorAndExteriorAnglesOfPolygons: LessonContent = {
       ]
     },
     {
-      "kind": "imageGallery",
-      "heading": "Visual connection: polygons",
-      "note": "The uploaded formula guide includes polygon vocabulary and exterior-angle facts that support regular and irregular polygon work.",
-      "images": [
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-11.webp", "alt": "Polygon convex polygon and concave polygon guide", "caption": "Polygon, convex polygon and concave polygon definitions, with the exterior-angle result for a polygon." }
+      "kind": "table",
+      "heading": "Quick reference notes: polygons",
+      "headers": ["Topic", "Typed note"],
+      "rows": [
+        ["Polygon", "A polygon is a closed figure made of straight line segments."],
+        ["Convex polygon", "All interior angles are less than $180^\circ$ and every diagonal lies inside the polygon."],
+        ["Concave polygon", "At least one interior angle is greater than $180^\circ$, so part of the figure bends inward."],
+        ["Interior-angle sum", "For an $n$-sided polygon, the sum is $(n-2)\times180^\circ$."],
+        ["Exterior-angle sum", "The sum of one exterior angle at each vertex of any polygon is $360^\circ$."],
+        ["Regular polygon", "A regular polygon has all sides equal and all angles equal." ]
       ]
     },
     {

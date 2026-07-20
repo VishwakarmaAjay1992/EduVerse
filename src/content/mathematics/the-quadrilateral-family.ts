@@ -418,13 +418,18 @@ export const theQuadrilateralFamily: LessonContent = {
       ]
     },
     {
-      "kind": "imageGallery",
-      "heading": "Visual connection: quadrilaterals",
-      "note": "These pages from the uploaded Geometry guide expand the quadrilateral family with cyclic quadrilateral, parallelogram, rhombus, rectangle, square and trapezium facts.",
-      "images": [
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-08.webp", "alt": "Quadrilateral and cyclic quadrilateral basics", "caption": "Quadrilateral definition and cyclic quadrilateral property: opposite angles are supplementary." },
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-09.webp", "alt": "Parallelogram rhombus rectangle properties", "caption": "Parallelogram, rhombus and rectangle definitions with side, angle and diagonal properties." },
-        { "src": "/geometry-pdf/formula-guide/geometry-guide-10.webp", "alt": "Square trapezium and area facts", "caption": "Square and trapezium definitions plus important area facts for figures on the same base and between the same parallel lines." }
+      "kind": "table",
+      "heading": "Quick reference notes: quadrilaterals",
+      "headers": ["Figure", "Typed note"],
+      "rows": [
+        ["Quadrilateral", "A quadrilateral is a closed figure with four sides, and its angle sum is $360^\circ$."],
+        ["Cyclic quadrilateral", "If all vertices lie on a circle, opposite angles are supplementary."],
+        ["Parallelogram", "Opposite sides are parallel and equal, opposite angles are equal, and diagonals bisect each other."],
+        ["Rhombus", "All sides are equal. Its diagonals are perpendicular bisectors."],
+        ["Rectangle", "All angles are right angles. Its diagonals are equal."],
+        ["Square", "A square has four equal sides and four right angles. Its diagonals are equal, perpendicular and bisect each other."],
+        ["Trapezium", "A trapezium has one pair of parallel sides."],
+        ["Area fact", "Figures on the same base and between the same parallels have equal height relationships useful in proofs." ]
       ]
     },
     {
