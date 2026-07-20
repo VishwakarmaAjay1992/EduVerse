@@ -3,6 +3,9 @@ import { johannesKepler } from "./johannes-kepler";
 import { nicolausCopernicus } from "./nicolaus-copernicus";
 import { jamesClerkMaxwell } from "./james-clerk-maxwell";
 import { nielsBohr } from "./niels-bohr";
+import { ernestRutherford } from "./ernest-rutherford";
+import { erwinSchrodinger } from "./erwin-schrodinger";
+import { maxPlanck } from "./max-planck";
 
 export * from "./types";
 
@@ -18,6 +21,9 @@ const PROFILES: Record<string, ScientistProfile> = {
   [nicolausCopernicus.slug]: nicolausCopernicus,
   [jamesClerkMaxwell.slug]: jamesClerkMaxwell,
   [nielsBohr.slug]: nielsBohr,
+  [ernestRutherford.slug]: ernestRutherford,
+  [erwinSchrodinger.slug]: erwinSchrodinger,
+  [maxPlanck.slug]: maxPlanck,
 };
 
 export function getScientistProfile(slug: string): ScientistProfile | undefined {

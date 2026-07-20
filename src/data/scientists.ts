@@ -2284,6 +2284,328 @@ export const SCIENTISTS: readonly Scientist[] = [
       },
     ],
   },
+  {
+    rank: 30,
+    slug: "ernest-rutherford",
+    fullName: "Ernest Rutherford, 1st Baron Rutherford of Nelson",
+    life: "1871–1937",
+    birthplace: "Brightwater, near Nelson, New Zealand",
+    primaryFields: ["Physics", "Chemistry", "Nuclear science", "Radioactivity"],
+    headline: "The farmer's son who found the nucleus and split the atom.",
+    overview: [
+      "Ernest Rutherford discovered that the atom is almost entirely empty space with a tiny, dense, positively charged nucleus at its centre. The result came from an experiment so surprising that he compared it to firing an artillery shell at tissue paper and having it bounce back.",
+      "He also established that radioactivity is the transmutation of one element into another, named alpha and beta radiation, achieved the first deliberate nuclear transmutation, named the proton and predicted the neutron. Eleven of his students went on to win Nobel Prizes — arguably his greatest single achievement.",
+    ],
+    knownFor: [
+      "The nuclear model of the atom",
+      "The gold foil scattering experiment",
+      "Theory of radioactive transmutation and half-life",
+      "First artificial nuclear transmutation",
+      "Naming the proton and predicting the neutron",
+    ],
+    earlyLife: [
+      "Rutherford was the fourth of twelve children born to a wheelwright and flax miller and a schoolteacher in rural New Zealand. The family was not poor but had little to spare, and he later said that having no money was what forced him to think.",
+      "He won scholarships through Nelson College and Canterbury College, then took an 1851 Exhibition Scholarship to Cambridge — though only because the original winner declined it. He was reportedly digging potatoes on the family farm when the news arrived, and remarked that it was the last potato he would ever dig.",
+    ],
+    inspiration: [
+      "Rutherford's early work at Cambridge involved detecting radio waves at distances approaching a mile, before Marconi's commercial demonstrations. J. J. Thomson redirected him toward the newly discovered phenomenon of radioactivity, which proved a far richer field.",
+      "His approach throughout was relentlessly experimental. He distrusted elaborate theory and insisted that a good experiment should give an answer plain enough to explain to a barmaid.",
+    ],
+    challenges: [
+      "Working at the periphery of the scientific world for much of his career — New Zealand, then Montreal — Rutherford had to build reputation and apparatus from very little, and repeatedly emphasised that limited funding forced ingenuity.",
+      "His 1908 Nobel Prize was awarded in Chemistry rather than Physics, which he found genuinely funny and mildly insulting: he remarked that he had dealt with many transformations, but the quickest was his own from physicist to chemist.",
+    ],
+    lawsAndIdeas: [
+      "The nuclear atom: almost all of an atom's mass and all of its positive charge occupy a nucleus roughly one hundred-thousandth the diameter of the atom itself.",
+      "Radioactive transmutation: radioactive decay converts one element into another, and is a property of individual atoms rather than of bulk matter.",
+      "Half-life: each radioactive species decays with a fixed characteristic half-life, independent of temperature, pressure or chemical state.",
+      "Artificial transmutation: bombarding a nucleus with energetic particles can change one element into another deliberately.",
+    ],
+    contributions: [
+      {
+        title: "Discovery of the nucleus",
+        period: "1909–1911",
+        description:
+          "The Geiger–Marsden scattering experiments showed that alpha particles occasionally rebound from gold foil, which is only possible if the atom's positive charge is concentrated in a minute central nucleus.",
+      },
+      {
+        title: "Theory of radioactive decay",
+        period: "1900–1903",
+        description:
+          "With Frederick Soddy, Rutherford established that radioactivity is spontaneous atomic transmutation governed by an exponential decay law and a characteristic half-life.",
+      },
+      {
+        title: "First artificial transmutation",
+        period: "1917–1919",
+        description:
+          "By bombarding nitrogen with alpha particles he produced oxygen and hydrogen nuclei, deliberately converting one element into another for the first time.",
+      },
+    ],
+    definingWork: {
+      title: "The Scattering of α and β Particles by Matter and the Structure of the Atom",
+      date: "1911",
+      description:
+        "Rutherford's paper interpreting the gold foil results, establishing that the atom has a tiny massive charged nucleus surrounded by mostly empty space.",
+      significance:
+        "It replaced the plum pudding model, defined the structure of the atom, and gave Bohr the framework he would quantise two years later.",
+    },
+    artifact: {
+      title: "The gold foil scattering result",
+      date: "1909–1911",
+      kind: "Historic document",
+      description:
+        "The diagram contrasting what the plum pudding model predicted — all alpha particles passing through — with what was observed, a small fraction rebounding at large angles.",
+      significance:
+        "The rare large-angle deflections are the direct evidence for a concentrated nucleus, and remain one of the clearest examples of an experiment overturning a model.",
+      image: {
+        fileName: "Rutherford gold foil experiment results.svg",
+        alt: "Diagram comparing plum pudding predictions with observed alpha particle scattering",
+        credit: "Wikimedia Commons",
+        license: "Public domain",
+        sourceUrl:
+          "https://commons.wikimedia.org/wiki/File:Rutherford_gold_foil_experiment_results.svg",
+      },
+    },
+    legacy: [
+      "The nuclear model is the foundation of all atomic and nuclear physics, and underlies chemistry's account of the periodic table.",
+      "Eleven of Rutherford's students and collaborators went on to win Nobel Prizes, including Bohr, Chadwick, Cockcroft, Walton, Blackett and Kapitsa.",
+      "Element 104 is named rutherfordium, and he is buried in Westminster Abbey near Newton and Kelvin.",
+    ],
+    portrait: {
+      fileName: "Ernest Rutherford LOC.jpg",
+      alt: "Portrait photograph of Ernest Rutherford",
+      credit: "Library of Congress",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Ernest_Rutherford_LOC.jpg",
+      objectPosition: "50% 20%",
+    },
+    sources: [
+      {
+        label: "Ernest Rutherford — facts",
+        url: "https://www.nobelprize.org/prizes/chemistry/1908/rutherford/facts/",
+        publisher: "Nobel Prize",
+      },
+      {
+        label: "Rutherford biography",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Rutherford/",
+        publisher: "MacTutor History of Mathematics",
+      },
+    ],
+  },
+  {
+    rank: 31,
+    slug: "erwin-schrodinger",
+    fullName: "Erwin Rudolf Josef Alexander Schrödinger",
+    life: "1887–1961",
+    birthplace: "Vienna, Austria-Hungary",
+    primaryFields: ["Physics", "Quantum mechanics", "Theoretical biology"],
+    headline: "The physicist who gave quantum mechanics its wave equation.",
+    overview: [
+      "Erwin Schrödinger produced the equation that governs how quantum systems evolve. Written during an extraordinary burst of work in 1926, it recast quantum theory in the familiar language of waves and differential equations and became the central tool of atomic physics and chemistry.",
+      "He also devised the cat thought experiment — intended as a criticism of the standard interpretation rather than an illustration of it — and wrote a short book, What Is Life?, that directly influenced the scientists who went on to determine the structure of DNA.",
+    ],
+    knownFor: [
+      "The Schrödinger equation",
+      "Wave mechanics",
+      "Schrödinger's cat thought experiment",
+      "What Is Life? and the idea of an aperiodic crystal",
+      "Nobel Prize in Physics 1933",
+    ],
+    earlyLife: [
+      "Schrödinger was an only child in a comfortable Viennese household. His father ran an oilcloth factory but was a serious amateur botanist; his mother was half-English, so he grew up bilingual and learned English alongside German.",
+      "He was educated at home until eleven, then attended the Akademisches Gymnasium, where he excelled at mathematics and physics while also developing a lasting interest in classical languages and philosophy. He took his doctorate at the University of Vienna in 1910.",
+    ],
+    inspiration: [
+      "Louis de Broglie's 1924 proposal that matter has wave properties was the direct trigger. When Schrödinger presented de Broglie's work at a seminar in Zurich, Peter Debye remarked that a proper wave ought to have a wave equation — and Schrödinger went away and found one.",
+      "Philosophically he was drawn to Schopenhauer and to Vedanta, and held a lifelong interest in questions about the unity of consciousness. He was also temperamentally opposed to Heisenberg's abstract matrix formulation and wanted a theory with a continuous, visualisable picture behind it.",
+    ],
+    challenges: [
+      "Schrödinger left Germany in 1933 in protest at Nazi antisemitism despite not being Jewish himself, which cost him his Berlin chair. A 1936 return to Austria proved a serious misjudgement: the Anschluss followed in 1938 and he had to flee again, this time having publicly recanted his earlier opposition, which damaged his reputation among émigré colleagues.",
+      "His unconventional domestic arrangements — living openly with his wife and with another partner, mother of one of his children — made academic appointments difficult in Oxford and impossible at Princeton.",
+    ],
+    lawsAndIdeas: [
+      "The wave function contains all the information about a quantum system, and its evolution in time is deterministic and governed by the Schrödinger equation.",
+      "Quantisation arises naturally as an eigenvalue problem: permitted energy levels emerge as the only solutions satisfying physical boundary conditions, rather than being imposed by postulate.",
+      "Wave mechanics and Heisenberg's matrix mechanics are mathematically equivalent formulations of the same theory, as Schrödinger himself demonstrated.",
+      "Living organisms maintain order by feeding on negative entropy from their surroundings, and heredity is carried by an aperiodic crystal encoding information in its structure.",
+    ],
+    contributions: [
+      {
+        title: "The wave equation",
+        period: "1926",
+        description:
+          "Schrödinger derived the equation governing quantum systems and applied it to hydrogen, recovering the energy levels as eigenvalues rather than postulates.",
+      },
+      {
+        title: "Equivalence of wave and matrix mechanics",
+        period: "1926",
+        description:
+          "He proved that his wave mechanics and Heisenberg's matrix mechanics are mathematically equivalent, unifying two apparently rival theories.",
+      },
+      {
+        title: "What Is Life?",
+        period: "1943–1944",
+        description:
+          "A short book applying physics to heredity, proposing that genetic information is stored in an aperiodic crystal. It directly influenced Watson, Crick and Wilkins.",
+      },
+    ],
+    definingWork: {
+      title: "Quantisierung als Eigenwertproblem",
+      date: "1926",
+      description:
+        "A series of four papers introducing the wave equation and showing that atomic energy levels emerge as eigenvalues of a differential equation.",
+      significance:
+        "It provided quantum mechanics with its central equation and the mathematical form in which the subject is still taught and applied.",
+    },
+    artifact: {
+      title: "Schrödinger's cat",
+      date: "1935",
+      kind: "Historic document",
+      description:
+        "A thought experiment in which a cat's fate is linked to a random quantum event, leaving it — on a literal reading of the theory — in a superposition of alive and dead.",
+      significance:
+        "Schrödinger intended it to expose the absurdity of extending superposition to everyday objects. It is now the most recognised image in quantum physics, usually cited for the opposite purpose.",
+      image: {
+        fileName: "Schrodingers cat.svg",
+        alt: "Diagram of the Schrödinger's cat thought experiment",
+        credit: "Dhatfield, Wikimedia Commons",
+        license: "CC BY-SA 3.0",
+        sourceUrl: "https://commons.wikimedia.org/wiki/File:Schrodingers_cat.svg",
+      },
+    },
+    legacy: [
+      "The Schrödinger equation is the central equation of quantum mechanics and the working tool of atomic physics, quantum chemistry and materials science.",
+      "What Is Life? shaped the emergence of molecular biology and was cited by Watson, Crick and Wilkins as an influence.",
+      "Schrödinger's cat has become the standard public shorthand for quantum superposition, despite having been intended as a criticism.",
+    ],
+    portrait: {
+      fileName: "Erwin Schrödinger (1933).jpg",
+      alt: "Portrait photograph of Erwin Schrödinger",
+      credit: "Nobel Foundation",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Erwin_Schrödinger_(1933).jpg",
+      objectPosition: "50% 20%",
+    },
+    sources: [
+      {
+        label: "Erwin Schrödinger — facts",
+        url: "https://www.nobelprize.org/prizes/physics/1933/schrodinger/facts/",
+        publisher: "Nobel Prize",
+      },
+      {
+        label: "Schrödinger biography",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Schrodinger/",
+        publisher: "MacTutor History of Mathematics",
+      },
+    ],
+  },
+  {
+    rank: 32,
+    slug: "max-planck",
+    fullName: "Max Karl Ernst Ludwig Planck",
+    life: "1858–1947",
+    birthplace: "Kiel, Duchy of Holstein",
+    primaryFields: ["Physics", "Thermodynamics", "Quantum theory"],
+    headline: "The reluctant revolutionary who started quantum physics.",
+    overview: [
+      "Max Planck solved the blackbody radiation problem in 1900 by assuming that energy is exchanged only in discrete packets proportional to frequency. He regarded the assumption as a mathematical device and spent years trying to eliminate it. It could not be eliminated, and it began quantum physics.",
+      "He was told as a student that physics was essentially finished and only details remained. He replied that he did not want to discover new things, only to understand the foundations. He then broke those foundations, and lived through personal losses — four of his five children died before him, the last executed by the Nazis — that make his continued work remarkable.",
+    ],
+    knownFor: [
+      "The quantum hypothesis and Planck's constant",
+      "Planck's law of blackbody radiation",
+      "Planck units",
+      "Nobel Prize in Physics 1918",
+      "Planck's principle about how science advances",
+    ],
+    earlyLife: [
+      "Planck came from a distinguished academic family of theologians and lawyers; his father was a professor of law. The family moved to Munich when he was nine, and he attended the Maximilians gymnasium, where a teacher's explanation of energy conservation gave him his first sense of physical law as something absolute.",
+      "He was a gifted musician and seriously considered a career in music. He asked a musician for advice and was told that if he had to ask, he should study something else. He chose physics — and was warned by Philipp von Jolly at Munich that the subject was essentially complete.",
+    ],
+    inspiration: [
+      "Planck was driven by a search for absolutes: quantities and laws that hold independently of any human convention or particular substance. This is why thermodynamics and, later, blackbody radiation attracted him — both concern universal behaviour rather than the properties of particular materials.",
+      "The blackbody spectrum was ideal for his purposes precisely because it depends only on temperature, not on what the body is made of. He regarded finding its law as the search for something genuinely absolute in nature.",
+    ],
+    challenges: [
+      "Planck was temperamentally conservative and found his own quantum hypothesis deeply uncomfortable. He described it as an act of desperation and spent more than a decade attempting to reconcile it with classical physics before accepting that it could not be done.",
+      "He endured extraordinary personal loss: his first wife died in 1909, his eldest son was killed at Verdun in 1916, both twin daughters died in childbirth in 1917 and 1919, and his surviving son Erwin was executed by the Nazis in 1945 for involvement in the plot against Hitler.",
+    ],
+    lawsAndIdeas: [
+      "Energy quantisation: electromagnetic energy is emitted and absorbed only in discrete amounts given by E = hν, where h is a new fundamental constant of nature.",
+      "Planck's radiation law: the spectrum of a blackbody follows a specific formula that matches observation at all wavelengths, resolving the ultraviolet catastrophe.",
+      "Planck units: combining c, G and h yields natural units of length, time, mass and temperature that are independent of any human convention.",
+      "Planck's principle: new scientific truths generally prevail not by converting opponents but because a new generation grows up familiar with them.",
+    ],
+    contributions: [
+      {
+        title: "The quantum hypothesis",
+        period: "1900",
+        description:
+          "Planck introduced discrete energy quanta to derive the correct blackbody spectrum, introducing the constant h and beginning quantum physics.",
+      },
+      {
+        title: "Planck's radiation law",
+        period: "1900",
+        description:
+          "His formula fits the observed blackbody spectrum across all wavelengths and yields the Wien displacement and Stefan–Boltzmann laws as consequences.",
+      },
+      {
+        title: "Planck units",
+        period: "1899",
+        description:
+          "He constructed a system of natural units from fundamental constants alone, which remain the standard scales at which quantum gravity is expected to matter.",
+      },
+    ],
+    definingWork: {
+      title: "On the Theory of the Energy Distribution Law of the Normal Spectrum",
+      date: "1900",
+      description:
+        "The paper presented to the German Physical Society on 14 December 1900, introducing energy quanta and the constant h.",
+      significance:
+        "The date is conventionally taken as the birth of quantum physics, and h has proved to be one of the fundamental constants of nature.",
+    },
+    artifact: {
+      title: "The blackbody spectrum",
+      date: "1900",
+      kind: "Historic document",
+      description:
+        "Curves of radiated intensity against wavelength at several temperatures, showing the peak that shifts with temperature and the failure of the classical prediction at short wavelengths.",
+      significance:
+        "The divergence of the classical curve — the ultraviolet catastrophe — is the anomaly that forced the quantum hypothesis into existence.",
+      image: {
+        fileName: "Black body.svg",
+        alt: "Blackbody radiation curves compared with the classical prediction",
+        credit: "Wikimedia Commons",
+        license: "CC BY-SA 3.0",
+        sourceUrl: "https://commons.wikimedia.org/wiki/File:Black_body.svg",
+      },
+    },
+    legacy: [
+      "Planck's constant is one of the fundamental constants of nature and now defines the kilogram in the SI system.",
+      "Quantum physics, which he began reluctantly, underpins all of modern electronics, chemistry and materials science.",
+      "The Kaiser Wilhelm Society was renamed the Max Planck Society in his honour and remains Germany's premier research organisation.",
+    ],
+    portrait: {
+      fileName: "Max Planck 1933.jpg",
+      alt: "Portrait photograph of Max Planck",
+      credit: "Unknown photographer",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Max_Planck_1933.jpg",
+      objectPosition: "50% 20%",
+    },
+    sources: [
+      {
+        label: "Max Planck — facts",
+        url: "https://www.nobelprize.org/prizes/physics/1918/planck/facts/",
+        publisher: "Nobel Prize",
+      },
+      {
+        label: "Planck biography",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Planck/",
+        publisher: "MacTutor History of Mathematics",
+      },
+    ],
+  },
 ] as const;
 
 export function getScientist(slug: string) {
