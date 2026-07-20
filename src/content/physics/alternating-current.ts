@@ -377,7 +377,7 @@ export const alternatingCurrent: LessonContent = {
     },
     {
       "kind": "practice",
-      "heading": "PDF Practice Exercise — Multiple Choice Questions (Q1–Q34)",
+      "heading": "Practice Exercise — Multiple Choice Questions (Q1–Q34)",
       "questions": [
         {
           "prompt": "The sum of average current values over one complete cycle is:",
@@ -757,7 +757,7 @@ export const alternatingCurrent: LessonContent = {
     },
     {
       "kind": "table",
-      "heading": "PDF Practice Exercise — Assertion and Reason (Q35–Q43)",
+      "heading": "Practice Exercise — Assertion and Reason (Q35–Q43)",
       "headers": [
         "Q",
         "Assertion and reason focus",
@@ -813,7 +813,7 @@ export const alternatingCurrent: LessonContent = {
     },
     {
       "kind": "table",
-      "heading": "PDF Practice Exercise — Fill in the Blanks (Q44–Q51)",
+      "heading": "Practice Exercise — Fill in the Blanks (Q44–Q51)",
       "headers": [
         "Q",
         "Question",
@@ -1021,7 +1021,7 @@ export const alternatingCurrent: LessonContent = {
     },
     {
       "kind": "table",
-      "heading": "Long Answer Questions from PDF — Topics to Master",
+      "heading": "Long Answer Questions — Topics to Master",
       "headers": [
         "Q",
         "Task",
@@ -1339,7 +1339,7 @@ export const alternatingCurrent: LessonContent = {
         },
         {
           "key": "practice",
-          "label": "Completed PDF practice exercise questions"
+          "label": "Completed practice exercise questions"
         },
         {
           "key": "chapterTest",

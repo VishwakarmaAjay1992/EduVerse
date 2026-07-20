@@ -91,6 +91,7 @@ import { exponentialAndLogarithmicEquations } from "@/content/mathematics/expone
 import { arithmeticSequencesAndSeries } from "@/content/mathematics/arithmetic-sequences-and-series";
 import { geometricSequencesAndSeries } from "@/content/mathematics/geometric-sequences-and-series";
 import { recursiveAndSpecialSequences } from "@/content/mathematics/recursive-and-special-sequences";
+import { permutationsAndCombinations } from "@/content/mathematics/permutations-and-combinations";
 import type { LessonContent } from "./lesson-content-types";
 
 const REGISTRY: LessonContent[] = [
@@ -145,6 +146,7 @@ const REGISTRY: LessonContent[] = [
   arithmeticSequencesAndSeries,
   geometricSequencesAndSeries,
   recursiveAndSpecialSequences,
+  permutationsAndCombinations,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
   solvingOneStepAndTwoStepEquations,
