@@ -162,6 +162,15 @@ export const pointsLinesPlanesAndAngles: LessonContent = {
       ],
     },
     {
+      "kind": "imageGallery",
+      "heading": "PDF visual reference: Geometry foundations",
+      "note": "These pages come from the uploaded Geometry formula guide and support this lesson's point, line, ray, line segment and angle definitions.",
+      "images": [
+        { "src": "/geometry-pdf/formula-guide/geometry-guide-01.webp", "alt": "Geometry guide page 1: point line ray angle", "caption": "Point, line, line segment, ray and basic angle definitions with small labelled diagrams." },
+        { "src": "/geometry-pdf/formula-guide/geometry-guide-02.webp", "alt": "Geometry guide page 2: angle relationships", "caption": "Angles on a straight line, angles around a point, vertically opposite angles and parallel-line angle facts." }
+      ]
+    },
+    {
       kind: "summary",
       points: [
         "Points, lines and planes are the undefined building blocks of geometry.",

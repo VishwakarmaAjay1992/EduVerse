@@ -418,6 +418,16 @@ export const theQuadrilateralFamily: LessonContent = {
       ]
     },
     {
+      "kind": "imageGallery",
+      "heading": "PDF visual reference: quadrilaterals",
+      "note": "These pages from the uploaded Geometry guide expand the quadrilateral family with cyclic quadrilateral, parallelogram, rhombus, rectangle, square and trapezium facts.",
+      "images": [
+        { "src": "/geometry-pdf/formula-guide/geometry-guide-08.webp", "alt": "Quadrilateral and cyclic quadrilateral basics", "caption": "Quadrilateral definition and cyclic quadrilateral property: opposite angles are supplementary." },
+        { "src": "/geometry-pdf/formula-guide/geometry-guide-09.webp", "alt": "Parallelogram rhombus rectangle properties", "caption": "Parallelogram, rhombus and rectangle definitions with side, angle and diagonal properties." },
+        { "src": "/geometry-pdf/formula-guide/geometry-guide-10.webp", "alt": "Square trapezium and area facts", "caption": "Square and trapezium definitions plus important area facts for figures on the same base and between the same parallel lines." }
+      ]
+    },
+    {
       "kind": "summary",
       "points": [
         "The Quadrilateral Family is not only memorising formulas; it is about choosing the correct relationship from the diagram.",

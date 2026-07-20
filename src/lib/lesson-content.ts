@@ -12,6 +12,7 @@ import { theParabolaAsAConic } from "@/content/mathematics/the-parabola-as-a-con
 import { ellipseAndHyperbola } from "@/content/mathematics/ellipse-and-hyperbola";
 import { pointsLinesPlanesAndAngles } from "@/content/mathematics/points-lines-planes-and-angles";
 import { angleRelationships } from "@/content/mathematics/angle-relationships";
+import { geometryVisualProofsAndFormulaGuide } from "@/content/mathematics/geometry-visual-proofs-and-formula-guide";
 import { radiansAndTheUnitCircle } from "@/content/mathematics/radians-and-the-unit-circle";
 import { fundamentalIdentities } from "@/content/mathematics/fundamental-identities";
 import { compoundAndDoubleAngleFormulas } from "@/content/mathematics/compound-and-double-angle-formulas";
@@ -157,6 +158,7 @@ const REGISTRY: LessonContent[] = [
   ellipseAndHyperbola,
   pointsLinesPlanesAndAngles,
   angleRelationships,
+  geometryVisualProofsAndFormulaGuide,
   trianglesAndTheirAngles,
   thePythagoreanTheorem,
   congruentTriangles,

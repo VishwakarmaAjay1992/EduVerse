@@ -412,6 +412,14 @@ export const congruentTriangles: LessonContent = {
       ]
     },
     {
+      "kind": "imageGallery",
+      "heading": "PDF visual reference: congruent triangles",
+      "note": "This page from the uploaded guide summarises the triangle congruency conditions students should memorise and apply in proof questions.",
+      "images": [
+        { "src": "/geometry-pdf/formula-guide/geometry-guide-06.webp", "alt": "Congruency criteria SSS SAS ASA AAS RHS", "caption": "Congruency criteria: SSS, SAS, ASA/AAS and RHS, with the reminder that corresponding sides and angles are equal." }
+      ]
+    },
+    {
       "kind": "summary",
       "points": [
         "Congruent Triangles is not only memorising formulas; it is about choosing the correct relationship from the diagram.",

@@ -419,6 +419,16 @@ export const circleTheoremsAndProofs: LessonContent = {
       ]
     },
     {
+      "kind": "imageGallery",
+      "heading": "PDF visual reference: circle theorems",
+      "note": "These pages support the circle theorem lesson with chord, tangent, arc, sector, segment and cyclic-quadrilateral results.",
+      "images": [
+        { "src": "/geometry-pdf/formula-guide/geometry-guide-12.webp", "alt": "Circle theorem reference page 12", "caption": "Chord, arc and tangent facts from the uploaded Geometry formula guide." },
+        { "src": "/geometry-pdf/formula-guide/geometry-guide-13.webp", "alt": "Circle theorem reference page 13", "caption": "Equal chords, angles in the same segment and cyclic quadrilateral facts." },
+        { "src": "/geometry-pdf/formula-guide/geometry-guide-15.webp", "alt": "Circle theorem remembered results", "caption": "Important remembered results for tangents, arcs and cyclic quadrilaterals." }
+      ]
+    },
+    {
       "kind": "summary",
       "points": [
         "Circle Theorems and Proofs is not only memorising formulas; it is about choosing the correct relationship from the diagram.",

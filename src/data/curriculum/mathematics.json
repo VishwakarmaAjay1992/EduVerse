@@ -909,6 +909,17 @@
                     "Vertically opposite angles",
                     "Parallel lines: alternate, corresponding, co-interior"
                   ]
+                },
+                {
+                  "title": "Geometry Visual Proofs and Formula Guide",
+                  "d": 2,
+                  "min": 50,
+                  "sub": [
+                    "Proof without words",
+                    "Geometry formula-guide pages",
+                    "Coloured visual models",
+                    "Revision practice"
+                  ]
                 }
               ]
             }

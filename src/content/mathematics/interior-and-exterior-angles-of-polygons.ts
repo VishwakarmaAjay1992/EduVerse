@@ -419,6 +419,14 @@ export const interiorAndExteriorAnglesOfPolygons: LessonContent = {
       ]
     },
     {
+      "kind": "imageGallery",
+      "heading": "PDF visual reference: polygons",
+      "note": "The uploaded formula guide includes polygon vocabulary and exterior-angle facts that support regular and irregular polygon work.",
+      "images": [
+        { "src": "/geometry-pdf/formula-guide/geometry-guide-11.webp", "alt": "Polygon convex polygon and concave polygon guide", "caption": "Polygon, convex polygon and concave polygon definitions, with the exterior-angle result for a polygon." }
+      ]
+    },
+    {
       "kind": "summary",
       "points": [
         "Interior and Exterior Angles of Polygons is not only memorising formulas; it is about choosing the correct relationship from the diagram.",

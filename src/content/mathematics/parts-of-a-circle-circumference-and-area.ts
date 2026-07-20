@@ -426,6 +426,16 @@ export const partsOfACircleCircumferenceAndArea: LessonContent = {
       ]
     },
     {
+      "kind": "imageGallery",
+      "heading": "PDF visual reference: circle parts, area, arc and sector",
+      "note": "The uploaded PDFs add coloured intuition for circle area and formula-guide pages for arcs and sectors.",
+      "images": [
+        { "src": "/geometry-pdf/visual-proofs/visual-proof-04.webp", "alt": "Circle area sector rearrangement", "caption": "Coloured circle sectors rearranged into a near-rectangle, giving the idea behind $A=\\pi r^2$." },
+        { "src": "/geometry-pdf/formula-guide/geometry-guide-12.webp", "alt": "Circle terminology and chord theorem", "caption": "Circle terminology and basic circle theorems about arc, chord, perpendicular from centre to chord and tangents." },
+        { "src": "/geometry-pdf/formula-guide/geometry-guide-14.webp", "alt": "Arc sector and segment formulas", "caption": "Arc and sector formulas with a segment theorem illustration." }
+      ]
+    },
+    {
       "kind": "summary",
       "points": [
         "Parts of a Circle, Circumference and Area is not only memorising formulas; it is about choosing the correct relationship from the diagram.",

@@ -155,6 +155,15 @@ export const angleRelationships: LessonContent = {
       ],
     },
     {
+      "kind": "imageGallery",
+      "heading": "PDF visual reference: angle relationships",
+      "note": "Use these diagrams to revise vertically opposite angles and angles made by a transversal cutting parallel lines.",
+      "images": [
+        { "src": "/geometry-pdf/formula-guide/geometry-guide-02.webp", "alt": "Parallel lines and transversal guide", "caption": "Alternate, corresponding and co-interior angle relationships from the uploaded formula guide." },
+        { "src": "/geometry-pdf/visual-proofs/visual-proof-07.webp", "alt": "Coloured angle proof without words", "caption": "A coloured proof-without-words diagram showing angle transfer and angle sums by parallel-line reasoning." }
+      ]
+    },
+    {
       kind: "summary",
       points: [
         "Angles on a straight line add to 180°; angles around a point add to 360°.",
