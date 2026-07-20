@@ -6,166 +6,245 @@ export const theQuadrilateralFamily: LessonContent = {
   "lessonSlug": "the-quadrilateral-family",
   "title": "The Quadrilateral Family",
   "objectives": [
-    "Define key vocabulary for quadrilaterals.",
-    "Use the main formula or theorem for quadrilaterals.",
-    "Solve missing-value problems step by step.",
-    "Recognise common mistakes in diagrams and calculations.",
-    "Apply the topic to real-life measurement, design or reasoning problems."
+    "Understand the quadrilateral family definitions.",
+    "Use formulas and theorems correctly.",
+    "Solve textbook-style and real-world problems.",
+    "Practise exam-style reasoning questions."
   ],
   "sections": [
     {
       "kind": "overview",
       "paragraphs": [
-        "This lesson develops the next major idea in geometry: quadrilaterals. You will connect definitions, diagrams, formulas and reasoning so that the topic becomes more than a list of rules.",
-        "The goal is to read a diagram carefully, choose the correct property, and then show each calculation clearly."
+        "This lesson develops the quadrilateral family beyond short notes. You will study definitions, theorems, worked examples, and self-study problems.",
+        "For best learning, copy each diagram in your notebook, mark the given information, then solve before checking the answer."
       ]
     },
     {
+      "kind": "callout",
+      "variant": "definition",
+      "title": "Textbook definition",
+      "body": "A quadrilateral is a closed plane figure with four straight sides. The interior angles of every quadrilateral add to $360^\\circ$."
+    },
+    {
       "kind": "theory",
-      "heading": "Core vocabulary",
+      "heading": "Important vocabulary",
       "paragraphs": [
-        "Important words in this lesson include: square, rectangle, rhombus, parallelogram, trapezium/trapezoid, kite. Each word names a specific part of the diagram or a specific transformation, so careful vocabulary prevents wrong calculations.",
-        "Before solving, mark the known information on the diagram mentally: equal sides, parallel lines, right angles, centres, radii, axes or scale factors."
+        "Before solving problems, make sure the language is clear. Geometry questions often become easy when every word in the diagram is understood correctly."
+      ],
+      "list": [
+        "Parallelogram: both pairs of opposite sides are parallel.",
+        "Rectangle: parallelogram with four right angles.",
+        "Rhombus: parallelogram with four equal sides.",
+        "Square: rectangle and rhombus together.",
+        "Trapezium/trapezoid: a quadrilateral with at least one pair of parallel sides, depending on convention."
       ]
     },
     {
       "kind": "formula",
-      "latex": "$360^\\circ$",
-      "caption": "Key formula or idea for quadrilaterals"
+      "latex": "A+B+C+D=360^\\circ",
+      "caption": "Interior angle sum of a quadrilateral"
+    },
+    {
+      "kind": "formula",
+      "latex": "A_{\\text{parallelogram}}=bh",
+      "caption": "Area of parallelogram"
+    },
+    {
+      "kind": "formula",
+      "latex": "A_{\\text{trapezium}}=\\frac12(a+b)h",
+      "caption": "Area of trapezium/trapezoid"
+    },
+    {
+      "kind": "theory",
+      "heading": "Core ideas explained in depth",
+      "paragraphs": [
+        "Quadrilaterals form a family tree. A square is not separate from rectangles and rhombi; it belongs to both groups.",
+        "Opposite sides and angles of a parallelogram are equal. Consecutive angles are supplementary because parallel lines create co-interior angles.",
+        "Diagonals give useful tests: parallelogram diagonals bisect each other, rectangle diagonals are equal, rhombus diagonals are perpendicular, and square diagonals are both equal and perpendicular."
+      ],
+      "list": [
+        "Naming conventions for trapezium/trapezoid vary by country, so read the textbook definition used in your course."
+      ]
     },
     {
       "kind": "table",
-      "heading": "Quick reference",
+      "heading": "Problem-solving guide",
       "headers": [
-        "Item",
-        "Meaning",
-        "Use"
+        "When you see this",
+        "What to use",
+        "Reason"
       ],
       "rows": [
         [
-          "Square",
-          "A central idea in quadrilaterals",
-          "Start by identifying it in the diagram"
+          "A diagram has equal marks",
+          "Use the matching theorem or definition",
+          "Equal marks are information, not decoration."
         ],
         [
-          "Rectangle",
-          "A related measurement or property",
-          "Use it to choose the correct formula"
+          "A formula is needed",
+          "Identify each variable before substitution",
+          "Most mistakes come from using the wrong length or angle."
         ],
         [
-          "Rhombus",
-          "A second related property",
-          "Often needed in multi-step questions"
-        ],
-        [
-          "Units",
-          "Length, area, angle or volume units",
-          "Write the correct unit in the answer"
+          "A proof-style question appears",
+          "Write reasons after each statement",
+          "Geometry answers must be justified."
         ]
       ]
     },
     {
       "kind": "example",
-      "prompt": "A problem gives information about square and asks for rectangle. Explain the first step.",
+      "prompt": "A quadrilateral has angles 80°, 95°, 110° and x. Find x.",
       "steps": [
-        "List the known values from the diagram.",
-        "Identify the correct relationship or formula.",
-        "Substitute the values carefully before simplifying."
+        "Use $360^\\circ$ angle sum.",
+        "$80+95+110+x=360$.",
+        "$285+x=360$, so $x=75$."
       ],
-      "answer": "The first step is not calculation; it is choosing the property that connects the given information to the unknown."
+      "answer": "$75^\\circ$."
     },
     {
       "kind": "example",
-      "prompt": "Use the key idea of quadrilaterals to solve a missing value problem.",
+      "prompt": "Find the area of a parallelogram with base 14 cm and height 9 cm.",
       "steps": [
-        "Write the rule: $$360^\\circ$$.",
-        "Substitute the known values from the question.",
-        "Solve the resulting equation or simplify the expression.",
-        "Check that the answer has the correct unit or angle size."
+        "Use $A=bh$.",
+        "$A=14\\times9$.",
+        "Calculate 126."
       ],
-      "answer": "The final answer should follow logically from the diagram and the formula, not from guessing by appearance."
+      "answer": "126 cm²."
     },
     {
       "kind": "example",
-      "prompt": "A student gets an answer that looks possible by eye. Why is that not enough in quadrilaterals?",
+      "prompt": "A rectangle is 12 cm by 7 cm. Find perimeter and area.",
       "steps": [
-        "Diagrams are often not drawn to scale.",
-        "A visual estimate can be misleading.",
-        "Use the marked information and theorem instead of measuring the screen."
+        "Perimeter $=2(l+w)=2(12+7)=38$.",
+        "Area $=lw=12\\times7=84$.",
+        "Include units."
       ],
-      "answer": "Geometry answers must be justified by properties, formulas or proof, not by appearance alone."
+      "answer": "Perimeter 38 cm; area 84 cm²."
     },
     {
-      "kind": "realWorld",
-      "heading": "Where this is used",
-      "items": [
-        {
-          "area": "Design and architecture",
-          "text": "Quadrilaterals appears in floor plans, elevations, tiling layouts and structural drawings."
-        },
-        {
-          "area": "Engineering",
-          "text": "Accurate geometry prevents parts from being the wrong size, angle or position."
-        },
-        {
-          "area": "Everyday measurement",
-          "text": "Packaging, maps, shadows, patterns and object dimensions use these geometric ideas."
-        }
-      ]
-    },
-    {
-      "kind": "mistakes",
-      "items": [
-        {
-          "wrong": "Trusting a diagram because it looks accurate.",
-          "right": "Use given measurements and marked properties; many exam diagrams are not to scale."
-        },
-        {
-          "wrong": "Forgetting units.",
-          "right": "Angles use degrees; lengths use cm/m; areas use square units; volumes use cubic units."
-        },
-        {
-          "wrong": "Using a formula without checking conditions.",
-          "right": "Every theorem has conditions such as parallel lines, a right angle, a centre or a regular polygon."
-        }
-      ]
+      "kind": "example",
+      "prompt": "A trapezium has parallel sides 10 cm and 16 cm, height 5 cm. Find area.",
+      "steps": [
+        "Use $A=\\frac12(a+b)h$.",
+        "$A=\\frac12(10+16)5$.",
+        "$A=65$."
+      ],
+      "answer": "65 cm²."
     },
     {
       "kind": "practice",
-      "heading": "Practice questions",
+      "heading": "Self-study practice questions",
       "questions": [
         {
-          "prompt": "Which action should come first in a quadrilaterals problem?",
+          "prompt": "Quadrilateral angle sum:",
           "options": [
-            "Guess from the picture",
-            "Identify the given properties",
-            "Write the answer only",
-            "Ignore units"
+            "180°",
+            "270°",
+            "360°",
+            "540°"
           ],
-          "answer": 1,
-          "explanation": "Geometry starts with reading the diagram and given facts."
+          "answer": 2,
+          "explanation": "Any quadrilateral splits into two triangles."
         },
         {
-          "prompt": "Why can a diagram be misleading?",
+          "prompt": "A square is also:",
           "options": [
-            "It is always exact",
-            "It may not be drawn to scale",
-            "It has no labels",
-            "It is never useful"
+            "rectangle and rhombus",
+            "circle",
+            "triangle",
+            "only kite"
           ],
-          "answer": 1,
-          "explanation": "Diagrams guide reasoning but are often not to scale."
+          "answer": 0,
+          "explanation": "It has right angles and equal sides."
         },
         {
-          "prompt": "What should appear in a final measurement answer?",
+          "prompt": "Opposite sides of parallelogram are:",
           "options": [
-            "Only a number",
-            "Correct unit",
-            "A random diagram",
-            "No explanation"
+            "equal and parallel",
+            "perpendicular always",
+            "curved",
+            "unequal always"
+          ],
+          "answer": 0,
+          "explanation": "This is a parallelogram property."
+        },
+        {
+          "prompt": "Area of parallelogram:",
+          "options": [
+            "$bh$",
+            "$l+w$",
+            "$2πr$",
+            "$a^2+b^2$"
+          ],
+          "answer": 0,
+          "explanation": "Base times perpendicular height."
+        },
+        {
+          "prompt": "Rectangle diagonals are:",
+          "options": [
+            "equal",
+            "perpendicular always",
+            "unequal always",
+            "radii"
+          ],
+          "answer": 0,
+          "explanation": "Rectangle diagonals are equal and bisect each other."
+        },
+        {
+          "prompt": "Rhombus has:",
+          "options": [
+            "four equal sides",
+            "four right angles always",
+            "no parallel sides",
+            "curved sides"
+          ],
+          "answer": 0,
+          "explanation": "All rhombus sides are equal."
+        },
+        {
+          "prompt": "A square side 9 has area:",
+          "options": [
+            "18",
+            "36",
+            "81",
+            "90"
+          ],
+          "answer": 2,
+          "explanation": "$9^2=81$."
+        },
+        {
+          "prompt": "A kite usually has:",
+          "options": [
+            "two pairs adjacent equal sides",
+            "all sides parallel",
+            "no equal sides",
+            "curved sides"
+          ],
+          "answer": 0,
+          "explanation": "Kite has adjacent equal pairs."
+        },
+        {
+          "prompt": "Consecutive angles in parallelogram add to:",
+          "options": [
+            "90°",
+            "180°",
+            "270°",
+            "360°"
           ],
           "answer": 1,
-          "explanation": "Units show what kind of quantity was found."
+          "explanation": "They are co-interior angles."
+        },
+        {
+          "prompt": "Trapezium area uses:",
+          "options": [
+            "sum of parallel sides and height",
+            "radius only",
+            "diagonal only",
+            "perimeter only"
+          ],
+          "answer": 0,
+          "explanation": "$A=1/2(a+b)h$."
         }
       ]
     },
@@ -173,70 +252,196 @@ export const theQuadrilateralFamily: LessonContent = {
       "kind": "quiz",
       "questions": [
         {
-          "prompt": "The safest way to solve quadrilaterals problems is to:",
+          "prompt": "Four-sided polygon is:",
           "options": [
-            "measure the screen",
-            "use definitions and formulas",
-            "copy a friend's answer",
-            "ignore markings"
+            "triangle",
+            "quadrilateral",
+            "pentagon",
+            "hexagon"
           ],
           "answer": 1,
-          "explanation": "Geometry is based on marked facts and logical rules."
+          "explanation": "Quad means four."
         },
         {
-          "prompt": "A square unit is used for:",
+          "prompt": "Area rectangle 8 by 11:",
           "options": [
-            "length",
-            "area",
-            "angle",
-            "mass"
+            "19",
+            "38",
+            "88",
+            "176"
           ],
-          "answer": 1,
-          "explanation": "Area is measured in square units."
+          "answer": 2,
+          "explanation": "$8×11=88$."
         },
         {
-          "prompt": "A cubic unit is used for:",
+          "prompt": "Parallelogram opposite angles are:",
           "options": [
-            "volume",
-            "angle",
-            "speed",
-            "ratio only"
+            "equal",
+            "always right",
+            "supplementary only",
+            "random"
           ],
           "answer": 0,
-          "explanation": "Volume is measured in cubic units."
+          "explanation": "Opposite angles are equal."
+        },
+        {
+          "prompt": "Rectangle is a parallelogram?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "answer": 0,
+          "explanation": "Both pairs of opposite sides are parallel."
+        },
+        {
+          "prompt": "Rhombus diagonals are:",
+          "options": [
+            "perpendicular",
+            "curved",
+            "parallel",
+            "zero"
+          ],
+          "answer": 0,
+          "explanation": "They meet at right angles."
+        },
+        {
+          "prompt": "Quadrilateral with all sides equal and four right angles:",
+          "options": [
+            "square",
+            "kite",
+            "trapezium",
+            "ordinary parallelogram"
+          ],
+          "answer": 0,
+          "explanation": "This defines a square."
+        },
+        {
+          "prompt": "If three quadrilateral angles are 90°, 90°, 90°, fourth is:",
+          "options": [
+            "90°",
+            "180°",
+            "270°",
+            "0°"
+          ],
+          "answer": 0,
+          "explanation": "Sum must be 360°."
+        },
+        {
+          "prompt": "Parallelogram base 12 height 4 area:",
+          "options": [
+            "16",
+            "24",
+            "48",
+            "96"
+          ],
+          "answer": 2,
+          "explanation": "$12×4=48$."
+        },
+        {
+          "prompt": "Square perimeter side 6:",
+          "options": [
+            "12",
+            "24",
+            "36",
+            "18"
+          ],
+          "answer": 1,
+          "explanation": "$4×6=24$."
+        },
+        {
+          "prompt": "Diagonals of parallelogram:",
+          "options": [
+            "bisect each other",
+            "always equal",
+            "always perpendicular",
+            "do not meet"
+          ],
+          "answer": 0,
+          "explanation": "They cut each other in half."
+        }
+      ]
+    },
+    {
+      "kind": "realWorld",
+      "heading": "Where this is used",
+      "items": [
+        {
+          "area": "Architecture",
+          "text": "Geometric reasoning helps check drawings, dimensions and layouts."
+        },
+        {
+          "area": "Engineering",
+          "text": "Shapes and measurements are used to design safe structures."
+        },
+        {
+          "area": "Computer graphics",
+          "text": "Transformations and geometry control images, animations and 3D models."
+        }
+      ]
+    },
+    {
+      "kind": "mistakes",
+      "items": [
+        {
+          "wrong": "Using slanted side instead of perpendicular height for area.",
+          "right": "Area of parallelogram and trapezium needs perpendicular height."
+        },
+        {
+          "wrong": "Forgetting a square is a rectangle.",
+          "right": "A square satisfies the definition of a rectangle and a rhombus."
+        },
+        {
+          "wrong": "Assuming all quadrilaterals have equal opposite sides.",
+          "right": "That is true for parallelograms, not every quadrilateral."
+        }
+      ]
+    },
+    {
+      "kind": "flashcards",
+      "cards": [
+        {
+          "front": "The Quadrilateral Family",
+          "back": "A quadrilateral is a closed plane figure with four straight sides. The interior angles of every quadrilateral add to $360^\\circ$."
+        },
+        {
+          "front": "Parallelogram",
+          "back": "Parallelogram: both pairs of opposite sides are parallel."
+        },
+        {
+          "front": "Rectangle",
+          "back": "Rectangle: parallelogram with four right angles."
+        },
+        {
+          "front": "Rhombus",
+          "back": "Rhombus: parallelogram with four equal sides."
         }
       ]
     },
     {
       "kind": "summary",
       "points": [
-        "Quadrilaterals depends on precise vocabulary and diagram reading.",
-        "Choose the theorem or formula that matches the conditions.",
-        "Show substitutions and units clearly.",
-        "Do not rely only on what a diagram appears to show."
+        "The Quadrilateral Family is not only memorising formulas; it is about choosing the correct relationship from the diagram.",
+        "Draw or redraw the diagram, mark known values, write the relevant formula, substitute carefully, and check the reasonableness of the answer.",
+        "For exam preparation, practise mixed problems where more than one fact is needed."
       ]
     },
     {
       "kind": "completion",
       "steps": [
         {
-          "key": "learn-key-vocabulary",
-          "label": "Learn key vocabulary"
+          "key": "read-definitions",
+          "label": "Read definitions"
         },
         {
-          "key": "use-the-main-formula",
-          "label": "Use the main formula"
-        },
-        {
-          "key": "solve-examples",
-          "label": "Solve examples"
+          "key": "study-examples",
+          "label": "Study solved examples"
         },
         {
           "key": "complete-practice",
           "label": "Complete practice"
         },
         {
-          "key": "pass-the-quiz",
+          "key": "pass-quiz",
           "label": "Pass the quiz"
         }
       ],

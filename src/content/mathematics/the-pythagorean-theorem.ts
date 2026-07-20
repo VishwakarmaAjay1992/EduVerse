@@ -6,144 +6,261 @@ export const thePythagoreanTheorem: LessonContent = {
   "lessonSlug": "the-pythagorean-theorem",
   "title": "The Pythagorean Theorem",
   "objectives": [
-    "Identify the hypotenuse of a right-angled triangle.",
-    "Use $a^2+b^2=c^2$ to find a missing side.",
-    "Decide whether three side lengths can form a right triangle.",
-    "Apply Pythagoras in real-world distance problems.",
-    "Avoid using the theorem on non-right triangles."
+    "Understand definitions and vocabulary.",
+    "Apply the main theorem or formula.",
+    "Solve worked and self-study problems.",
+    "Avoid common exam mistakes."
   ],
   "sections": [
     {
       "kind": "overview",
       "paragraphs": [
-        "The Pythagorean theorem is one of the most famous results in mathematics. It connects the side lengths of a right-angled triangle and lets us find distances we cannot measure directly.",
-        "It works only for right triangles. The longest side, opposite the right angle, is called the hypotenuse."
+        "This textbook-style lesson studies the pythagorean theorem with definitions, theorem statements, worked examples, self-study practice and quizzes.",
+        "Do not only memorise the final formula. Learn what each word means, draw the diagram, mark the given information, write the correct relationship, then solve step by step."
+      ]
+    },
+    {
+      "kind": "callout",
+      "variant": "definition",
+      "title": "Textbook definition",
+      "body": "In a right triangle, the square of the hypotenuse equals the sum of the squares of the two legs."
+    },
+    {
+      "kind": "theory",
+      "heading": "Vocabulary you must know",
+      "paragraphs": [
+        "Geometry questions are mostly language plus diagram reading. These terms should be clear before solving."
+      ],
+      "list": [
+        "Right triangle: triangle with one $90^\\circ$ angle.",
+        "Hypotenuse: side opposite the right angle and the longest side.",
+        "Legs: the two shorter sides that form the right angle.",
+        "Pythagorean triple: three whole numbers satisfying $a^2+b^2=c^2$, such as 3,4,5."
       ]
     },
     {
       "kind": "formula",
       "latex": "a^2+b^2=c^2",
-      "caption": "Pythagorean theorem, where $c$ is the hypotenuse"
+      "caption": "Pythagorean theorem"
+    },
+    {
+      "kind": "formula",
+      "latex": "c=\\sqrt{a^2+b^2}",
+      "caption": "Finding hypotenuse"
+    },
+    {
+      "kind": "formula",
+      "latex": "a=\\sqrt{c^2-b^2}",
+      "caption": "Finding a missing leg"
     },
     {
       "kind": "theory",
-      "heading": "Understanding the formula",
+      "heading": "In-depth explanation",
       "paragraphs": [
-        "The two shorter sides are often called the legs. Squaring each leg length and adding the squares gives the square of the hypotenuse.",
-        "The theorem can be rearranged. If you know the hypotenuse and one leg, subtract the known leg square from the hypotenuse square to find the missing leg square."
+        "The theorem is about squares of lengths, not direct addition of lengths. A triangle with legs 3 and 4 has hypotenuse 5, not 7.",
+        "Use the largest side as the hypotenuse when testing whether a triangle is right-angled.",
+        "The converse is also useful: if the side lengths satisfy $a^2+b^2=c^2$, the triangle is right-angled."
+      ],
+      "list": [
+        "Exact answers may include surds, such as $5\\sqrt2$. Decimal answers should be rounded only at the end.",
+        "The theorem underlies the distance formula in coordinate geometry."
       ]
     },
     {
-      "kind": "callout",
-      "variant": "tip",
-      "title": "First find the hypotenuse",
-      "body": "Before substituting numbers, mark the side opposite the right angle. That side must be $c$ in $a^2+b^2=c^2$."
+      "kind": "table",
+      "heading": "How to choose the method",
+      "headers": [
+        "Question clue",
+        "Use this idea",
+        "Why"
+      ],
+      "rows": [
+        [
+          "Two angles are known",
+          "Angle sum / complementary angles",
+          "The total angle relationship fixes the missing value."
+        ],
+        [
+          "A right triangle is shown",
+          "Pythagorean theorem if sides are involved",
+          "Right angle connects side lengths through squares."
+        ],
+        [
+          "An exterior angle is shown",
+          "Exterior angle theorem",
+          "It connects the outside angle to the two remote inside angles."
+        ]
+      ]
+    },
+    {
+      "kind": "history",
+      "paragraphs": [
+        "The theorem is named after Pythagoras, but right-triangle relationships were known in several ancient cultures. It remains important because it connects geometry with measurement, algebra and coordinate distance."
+      ]
     },
     {
       "kind": "example",
       "prompt": "A right triangle has legs 6 cm and 8 cm. Find the hypotenuse.",
       "steps": [
-        "Use $a^2+b^2=c^2$.",
-        "$6^2+8^2=c^2$.",
-        "$36+64=100$, so $c^2=100$.",
-        "Take the square root: $c=10$."
+        "$c^2=6^2+8^2$.",
+        "$c^2=36+64=100$.",
+        "$c=10$."
       ],
-      "answer": "The hypotenuse is 10 cm."
+      "answer": "10 cm."
     },
     {
       "kind": "example",
-      "prompt": "A ladder is 13 m long and reaches a wall 12 m high. How far is the foot of the ladder from the wall?",
+      "prompt": "A 13 m ladder has its foot 5 m from a wall. How high does it reach?",
       "steps": [
-        "The ladder is the hypotenuse because it is opposite the right angle between wall and ground.",
-        "Let the distance from the wall be $x$.",
-        "$x^2+12^2=13^2$.",
-        "$x^2+144=169$, so $x^2=25$.",
-        "$x=5$."
+        "The ladder is the hypotenuse.",
+        "$13^2=h^2+5^2$.",
+        "$169=h^2+25$, so $h^2=144$ and $h=12$."
       ],
-      "answer": "The foot of the ladder is 5 m from the wall."
+      "answer": "12 m."
     },
     {
       "kind": "example",
-      "prompt": "Do side lengths 9, 12 and 15 form a right triangle?",
+      "prompt": "Check whether sides 7, 24 and 25 form a right triangle.",
       "steps": [
-        "The longest side is 15, so check whether $9^2+12^2=15^2$.",
-        "$81+144=225$.",
-        "$15^2=225$.",
-        "The two sides are equal."
+        "Largest side is 25.",
+        "$7^2+24^2=49+576=625$.",
+        "$25^2=625$, so the equality holds."
       ],
-      "answer": "Yes. The triangle is right-angled."
+      "answer": "Yes, it is right-angled."
     },
     {
-      "kind": "realWorld",
-      "heading": "Where this is used",
-      "items": [
-        {
-          "area": "Construction",
-          "text": "Builders check corners using the 3-4-5 triangle rule, a simple Pythagorean triple."
-        },
-        {
-          "area": "Screens and rooms",
-          "text": "A diagonal measurement across a rectangle uses Pythagoras."
-        },
-        {
-          "area": "Maps",
-          "text": "Straight-line distance between grid points is found using a right triangle."
-        }
-      ]
+      "kind": "example",
+      "prompt": "Find the diagonal of a rectangle 9 cm by 12 cm.",
+      "steps": [
+        "The diagonal is the hypotenuse of a right triangle.",
+        "$d^2=9^2+12^2=225$.",
+        "$d=15$."
+      ],
+      "answer": "15 cm."
     },
     {
-      "kind": "mistakes",
-      "items": [
-        {
-          "wrong": "Using the longest side as a leg.",
-          "right": "The longest side is the hypotenuse and must be $c$."
-        },
-        {
-          "wrong": "Forgetting the square root at the end.",
-          "right": "After finding $c^2=100$, the side is $c=10$, not 100."
-        },
-        {
-          "wrong": "Using Pythagoras on any triangle.",
-          "right": "It applies only to right-angled triangles."
-        }
-      ]
+      "kind": "example",
+      "prompt": "A square has side 10 cm. Find exact diagonal.",
+      "steps": [
+        "Diagonal makes a right triangle with legs 10 and 10.",
+        "$d^2=10^2+10^2=200$.",
+        "$d=\\sqrt{200}=10\\sqrt2$."
+      ],
+      "answer": "$10\\sqrt2$ cm."
     },
     {
       "kind": "practice",
-      "heading": "Practice questions",
+      "heading": "Self-study practice questions",
       "questions": [
         {
-          "prompt": "A right triangle has legs 5 and 12. Find the hypotenuse.",
+          "prompt": "Legs 5 and 12. Hypotenuse:",
           "options": [
             "13",
+            "15",
             "17",
-            "60",
-            "7"
+            "60"
           ],
           "answer": 0,
-          "explanation": "$5^2+12^2=25+144=169$, so $c=13$."
+          "explanation": "$25+144=169$, root 13."
         },
         {
-          "prompt": "A right triangle has hypotenuse 10 and one leg 6. Find the other leg.",
+          "prompt": "Hypotenuse 10, one leg 6. Other leg:",
           "options": [
             "4",
+            "6",
             "8",
-            "12",
             "16"
           ],
-          "answer": 1,
-          "explanation": "$x^2+36=100$, so $x^2=64$ and $x=8$."
+          "answer": 2,
+          "explanation": "$100-36=64$, root 8."
         },
         {
-          "prompt": "Which set is a Pythagorean triple?",
+          "prompt": "Pythagorean triple:",
           "options": [
-            "2, 3, 4",
-            "5, 6, 7",
-            "8, 15, 17",
-            "7, 8, 10"
+            "2,3,4",
+            "6,8,10",
+            "5,5,10",
+            "7,8,9"
+          ],
+          "answer": 1,
+          "explanation": "6-8-10 is a multiple of 3-4-5."
+        },
+        {
+          "prompt": "Hypotenuse is:",
+          "options": [
+            "shortest side",
+            "opposite right angle",
+            "horizontal side",
+            "any side"
+          ],
+          "answer": 1,
+          "explanation": "Definition."
+        },
+        {
+          "prompt": "Sides 9,40,41:",
+          "options": [
+            "right triangle",
+            "not right",
+            "equilateral",
+            "impossible"
+          ],
+          "answer": 0,
+          "explanation": "$9^2+40^2=41^2$."
+        },
+        {
+          "prompt": "Square side 7 diagonal:",
+          "options": [
+            "7",
+            "14",
+            "$7\\sqrt2$",
+            "$49\\sqrt2$"
           ],
           "answer": 2,
-          "explanation": "$8^2+15^2=64+225=289=17^2$."
+          "explanation": "$d=\\sqrt{98}=7\\sqrt2$."
+        },
+        {
+          "prompt": "If $a=8$, $c=17$, then $b$:",
+          "options": [
+            "9",
+            "12",
+            "15",
+            "25"
+          ],
+          "answer": 2,
+          "explanation": "$289-64=225$."
+        },
+        {
+          "prompt": "Theorem applies to:",
+          "options": [
+            "all triangles",
+            "right triangles only",
+            "circles",
+            "all polygons"
+          ],
+          "answer": 1,
+          "explanation": "Needs right angle."
+        },
+        {
+          "prompt": "Distance from (0,0) to (3,4):",
+          "options": [
+            "5",
+            "7",
+            "12",
+            "25"
+          ],
+          "answer": 0,
+          "explanation": "3-4-5."
+        },
+        {
+          "prompt": "In $a^2+b^2=c^2$, c is:",
+          "options": [
+            "any side",
+            "hypotenuse",
+            "area",
+            "perimeter"
+          ],
+          "answer": 1,
+          "explanation": "c is hypotenuse."
         }
       ]
     },
@@ -151,70 +268,197 @@ export const thePythagoreanTheorem: LessonContent = {
       "kind": "quiz",
       "questions": [
         {
-          "prompt": "Pythagoras works only for:",
+          "prompt": "15 m ladder, foot 9 m from wall. Height:",
           "options": [
-            "equilateral triangles",
-            "right-angled triangles",
-            "isosceles triangles",
-            "all polygons"
-          ],
-          "answer": 1,
-          "explanation": "The theorem relates the sides of a right triangle."
-        },
-        {
-          "prompt": "In $a^2+b^2=c^2$, $c$ is:",
-          "options": [
-            "any side",
-            "the shortest side",
-            "the hypotenuse",
-            "an angle"
+            "6 m",
+            "10 m",
+            "12 m",
+            "18 m"
           ],
           "answer": 2,
-          "explanation": "$c$ is the hypotenuse."
+          "explanation": "$225-81=144$."
         },
         {
-          "prompt": "If $a=7$ and $b=24$, then $c$ is:",
+          "prompt": "Are 10,24,26 right triangle?",
           "options": [
-            "25",
-            "31",
-            "17",
-            "49"
+            "Yes",
+            "No"
           ],
           "answer": 0,
-          "explanation": "$49+576=625$, so $c=25$."
+          "explanation": "$100+576=676$."
+        },
+        {
+          "prompt": "Find c if a=9,b=12:",
+          "options": [
+            "15",
+            "18",
+            "21",
+            "25"
+          ],
+          "answer": 0,
+          "explanation": "$81+144=225$."
+        },
+        {
+          "prompt": "Missing leg c=25, other leg=7:",
+          "options": [
+            "18",
+            "20",
+            "24",
+            "26"
+          ],
+          "answer": 2,
+          "explanation": "$625-49=576$."
+        },
+        {
+          "prompt": "The theorem relates:",
+          "options": [
+            "squares on sides",
+            "angles only",
+            "volume only",
+            "perimeter only"
+          ],
+          "answer": 0,
+          "explanation": "Squared lengths."
+        },
+        {
+          "prompt": "Garden 3 m by 4 m diagonal:",
+          "options": [
+            "5 m",
+            "7 m",
+            "12 m",
+            "25 m"
+          ],
+          "answer": 0,
+          "explanation": "3-4-5."
+        },
+        {
+          "prompt": "Which is hypotenuse in 8,15,17?",
+          "options": [
+            "8",
+            "15",
+            "17",
+            "any"
+          ],
+          "answer": 2,
+          "explanation": "Largest side."
+        },
+        {
+          "prompt": "If $a^2+b^2<c^2$, triangle is:",
+          "options": [
+            "right",
+            "obtuse",
+            "equilateral",
+            "impossible"
+          ],
+          "answer": 1,
+          "explanation": "Largest angle is obtuse."
+        },
+        {
+          "prompt": "If $a^2+b^2>c^2$, triangle is:",
+          "options": [
+            "acute",
+            "right",
+            "obtuse",
+            "straight"
+          ],
+          "answer": 0,
+          "explanation": "Largest angle is acute."
+        },
+        {
+          "prompt": "Exact diagonal of square side 10:",
+          "options": [
+            "$10\\sqrt2$",
+            "20",
+            "100",
+            "$5\\sqrt2$"
+          ],
+          "answer": 0,
+          "explanation": "$\\sqrt{200}=10\\sqrt2$."
+        }
+      ]
+    },
+    {
+      "kind": "realWorld",
+      "heading": "Where this is used",
+      "items": [
+        {
+          "area": "Architecture",
+          "text": "Geometry checks slopes, frames, tile layouts, trusses and diagonals."
+        },
+        {
+          "area": "Surveying",
+          "text": "Angles and right-triangle distances help locate positions accurately."
+        },
+        {
+          "area": "Design and graphics",
+          "text": "Shapes, proportions and distances depend on these relationships."
+        }
+      ]
+    },
+    {
+      "kind": "mistakes",
+      "items": [
+        {
+          "wrong": "Using $a+b=c$.",
+          "right": "Use $a^2+b^2=c^2$."
+        },
+        {
+          "wrong": "Putting a leg as c when finding hypotenuse.",
+          "right": "c must be the side opposite the right angle."
+        },
+        {
+          "wrong": "Rounding too early.",
+          "right": "Keep exact values until the final step."
+        }
+      ]
+    },
+    {
+      "kind": "flashcards",
+      "cards": [
+        {
+          "front": "Main definition",
+          "back": "In a right triangle, the square of the hypotenuse equals the sum of the squares of the two legs."
+        },
+        {
+          "front": "Key formula",
+          "back": "a^2+b^2=c^2"
+        },
+        {
+          "front": "Problem method",
+          "back": "Draw, label, choose formula, substitute, solve, and check units."
+        },
+        {
+          "front": "Exam tip",
+          "back": "Write reasons for geometry statements, not only final answers."
         }
       ]
     },
     {
       "kind": "summary",
       "points": [
-        "The hypotenuse is opposite the right angle.",
-        "For right triangles, $a^2+b^2=c^2$.",
-        "To find a missing leg, subtract squares before taking the square root.",
-        "Pythagorean triples are whole-number side sets such as 3-4-5 and 5-12-13."
+        "The Pythagorean Theorem is a core geometry skill used in many later chapters.",
+        "The diagram must be labelled before substituting values into formulas.",
+        "Practise both direct questions and multi-step word problems.",
+        "Use exact values where possible, then round only at the final step."
       ]
     },
     {
       "kind": "completion",
       "steps": [
         {
-          "key": "identify-the-hypotenuse",
-          "label": "Identify the hypotenuse"
+          "key": "definitions",
+          "label": "Study definitions"
         },
         {
-          "key": "find-a-missing-hypotenuse",
-          "label": "Find a missing hypotenuse"
+          "key": "examples",
+          "label": "Work through solved examples"
         },
         {
-          "key": "find-a-missing-leg",
-          "label": "Find a missing leg"
+          "key": "practice",
+          "label": "Complete practice set"
         },
         {
-          "key": "use-pythagorean-triples",
-          "label": "Use Pythagorean triples"
-        },
-        {
-          "key": "pass-the-quiz",
+          "key": "quiz",
           "label": "Pass the quiz"
         }
       ],

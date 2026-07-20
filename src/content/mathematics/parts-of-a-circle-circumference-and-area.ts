@@ -6,166 +6,251 @@ export const partsOfACircleCircumferenceAndArea: LessonContent = {
   "lessonSlug": "parts-of-a-circle-circumference-and-area",
   "title": "Parts of a Circle, Circumference and Area",
   "objectives": [
-    "Define key vocabulary for circles.",
-    "Use the main formula or theorem for circles.",
-    "Solve missing-value problems step by step.",
-    "Recognise common mistakes in diagrams and calculations.",
-    "Apply the topic to real-life measurement, design or reasoning problems."
+    "Understand parts of a circle, circumference and area definitions.",
+    "Use formulas and theorems correctly.",
+    "Solve textbook-style and real-world problems.",
+    "Practise exam-style reasoning questions."
   ],
   "sections": [
     {
       "kind": "overview",
       "paragraphs": [
-        "This lesson develops the next major idea in geometry: circles. You will connect definitions, diagrams, formulas and reasoning so that the topic becomes more than a list of rules.",
-        "The goal is to read a diagram carefully, choose the correct property, and then show each calculation clearly."
+        "This lesson develops parts of a circle, circumference and area beyond short notes. You will study definitions, theorems, worked examples, and self-study problems.",
+        "For best learning, copy each diagram in your notebook, mark the given information, then solve before checking the answer."
       ]
     },
     {
+      "kind": "callout",
+      "variant": "definition",
+      "title": "Textbook definition",
+      "body": "A circle is the set of all points in a plane at a fixed distance from a fixed centre. That fixed distance is the radius."
+    },
+    {
       "kind": "theory",
-      "heading": "Core vocabulary",
+      "heading": "Important vocabulary",
       "paragraphs": [
-        "Important words in this lesson include: radius, diameter, chord, arc, sector, tangent. Each word names a specific part of the diagram or a specific transformation, so careful vocabulary prevents wrong calculations.",
-        "Before solving, mark the known information on the diagram mentally: equal sides, parallel lines, right angles, centres, radii, axes or scale factors."
+        "Before solving problems, make sure the language is clear. Geometry questions often become easy when every word in the diagram is understood correctly."
+      ],
+      "list": [
+        "Radius: line segment from centre to circle.",
+        "Diameter: line through centre joining two points on circle; $d=2r$.",
+        "Chord: line segment joining two points on circle.",
+        "Arc: part of the circumference.",
+        "Sector: region bounded by two radii and an arc.",
+        "Tangent: line touching the circle at exactly one point."
       ]
     },
     {
       "kind": "formula",
-      "latex": "C=2\\pi r,\\quad A=\\pi r^2",
-      "caption": "Key formula or idea for circles"
+      "latex": "C=2\\pi r=\\pi d",
+      "caption": "Circumference"
+    },
+    {
+      "kind": "formula",
+      "latex": "A=\\pi r^2",
+      "caption": "Area of circle"
+    },
+    {
+      "kind": "formula",
+      "latex": "\\text{arc length}=\\frac{\\theta}{360^\\circ}\\times2\\pi r",
+      "caption": "Arc length"
+    },
+    {
+      "kind": "formula",
+      "latex": "\\text{sector area}=\\frac{\\theta}{360^\\circ}\\times\\pi r^2",
+      "caption": "Sector area"
+    },
+    {
+      "kind": "theory",
+      "heading": "Core ideas explained in depth",
+      "paragraphs": [
+        "Circumference is the distance around a circle. It is a perimeter, so it uses length units.",
+        "Area measures the surface covered by the circle, so it uses square units.",
+        "The number $\\pi$ is the constant ratio of circumference to diameter for every circle."
+      ],
+      "list": [
+        "For sectors and arcs, the fraction of the circle is controlled by the central angle divided by $360^\\circ$."
+      ]
     },
     {
       "kind": "table",
-      "heading": "Quick reference",
+      "heading": "Problem-solving guide",
       "headers": [
-        "Item",
-        "Meaning",
-        "Use"
+        "When you see this",
+        "What to use",
+        "Reason"
       ],
       "rows": [
         [
-          "Radius",
-          "A central idea in circles",
-          "Start by identifying it in the diagram"
+          "A diagram has equal marks",
+          "Use the matching theorem or definition",
+          "Equal marks are information, not decoration."
         ],
         [
-          "Diameter",
-          "A related measurement or property",
-          "Use it to choose the correct formula"
+          "A formula is needed",
+          "Identify each variable before substitution",
+          "Most mistakes come from using the wrong length or angle."
         ],
         [
-          "Chord",
-          "A second related property",
-          "Often needed in multi-step questions"
-        ],
-        [
-          "Units",
-          "Length, area, angle or volume units",
-          "Write the correct unit in the answer"
+          "A proof-style question appears",
+          "Write reasons after each statement",
+          "Geometry answers must be justified."
         ]
       ]
     },
     {
       "kind": "example",
-      "prompt": "A problem gives information about radius and asks for diameter. Explain the first step.",
+      "prompt": "Find circumference of radius 7 cm using $\\pi=22/7$.",
       "steps": [
-        "List the known values from the diagram.",
-        "Identify the correct relationship or formula.",
-        "Substitute the values carefully before simplifying."
+        "Use $C=2\\pi r$.",
+        "$C=2\\times22/7\\times7$.",
+        "$C=44$."
       ],
-      "answer": "The first step is not calculation; it is choosing the property that connects the given information to the unknown."
+      "answer": "44 cm."
     },
     {
       "kind": "example",
-      "prompt": "Use the key idea of circles to solve a missing value problem.",
+      "prompt": "Find area of diameter 10 m.",
       "steps": [
-        "Write the rule: $C=2\\pi r,\\quad A=\\pi r^2$.",
-        "Substitute the known values from the question.",
-        "Solve the resulting equation or simplify the expression.",
-        "Check that the answer has the correct unit or angle size."
+        "Radius is half diameter: $r=5$.",
+        "Use $A=\\pi r^2$.",
+        "$A=25\\pi$."
       ],
-      "answer": "The final answer should follow logically from the diagram and the formula, not from guessing by appearance."
+      "answer": "$25\\pi$ m², about 78.5 m²."
     },
     {
       "kind": "example",
-      "prompt": "A student gets an answer that looks possible by eye. Why is that not enough in circles?",
+      "prompt": "Find arc length for radius 12 cm and central angle $90^\\circ$.",
       "steps": [
-        "Diagrams are often not drawn to scale.",
-        "A visual estimate can be misleading.",
-        "Use the marked information and theorem instead of measuring the screen."
+        "Fraction of circle is $90/360=1/4$.",
+        "Circumference is $2\\pi(12)=24\\pi$.",
+        "Arc length is $1/4\\times24\\pi=6\\pi$."
       ],
-      "answer": "Geometry answers must be justified by properties, formulas or proof, not by appearance alone."
+      "answer": "$6\\pi$ cm."
     },
     {
-      "kind": "realWorld",
-      "heading": "Where this is used",
-      "items": [
-        {
-          "area": "Design and architecture",
-          "text": "Circles appears in floor plans, elevations, tiling layouts and structural drawings."
-        },
-        {
-          "area": "Engineering",
-          "text": "Accurate geometry prevents parts from being the wrong size, angle or position."
-        },
-        {
-          "area": "Everyday measurement",
-          "text": "Packaging, maps, shadows, patterns and object dimensions use these geometric ideas."
-        }
-      ]
-    },
-    {
-      "kind": "mistakes",
-      "items": [
-        {
-          "wrong": "Trusting a diagram because it looks accurate.",
-          "right": "Use given measurements and marked properties; many exam diagrams are not to scale."
-        },
-        {
-          "wrong": "Forgetting units.",
-          "right": "Angles use degrees; lengths use cm/m; areas use square units; volumes use cubic units."
-        },
-        {
-          "wrong": "Using a formula without checking conditions.",
-          "right": "Every theorem has conditions such as parallel lines, a right angle, a centre or a regular polygon."
-        }
-      ]
+      "kind": "example",
+      "prompt": "Find sector area with radius 6 cm and angle $120^\\circ$.",
+      "steps": [
+        "Fraction is $120/360=1/3$.",
+        "Circle area is $36\\pi$.",
+        "Sector area is $12\\pi$."
+      ],
+      "answer": "$12\\pi$ cm²."
     },
     {
       "kind": "practice",
-      "heading": "Practice questions",
+      "heading": "Self-study practice questions",
       "questions": [
         {
-          "prompt": "Which action should come first in a circles problem?",
+          "prompt": "Diameter is:",
           "options": [
-            "Guess from the picture",
-            "Identify the given properties",
-            "Write the answer only",
-            "Ignore units"
+            "half radius",
+            "twice radius",
+            "same as radius",
+            "arc"
           ],
           "answer": 1,
-          "explanation": "Geometry starts with reading the diagram and given facts."
+          "explanation": "$d=2r$."
         },
         {
-          "prompt": "Why can a diagram be misleading?",
+          "prompt": "Circle area formula:",
           "options": [
-            "It is always exact",
-            "It may not be drawn to scale",
-            "It has no labels",
-            "It is never useful"
+            "$2πr$",
+            "$πr^2$",
+            "$πd$",
+            "$bh$"
           ],
           "answer": 1,
-          "explanation": "Diagrams guide reasoning but are often not to scale."
+          "explanation": "Area is $πr^2$."
         },
         {
-          "prompt": "What should appear in a final measurement answer?",
+          "prompt": "Circumference formula:",
           "options": [
-            "Only a number",
-            "Correct unit",
-            "A random diagram",
-            "No explanation"
+            "$2πr$",
+            "$πr^2$",
+            "$1/2bh$",
+            "$l×w$"
+          ],
+          "answer": 0,
+          "explanation": "Circumference is distance around."
+        },
+        {
+          "prompt": "Radius 3, circumference:",
+          "options": [
+            "$3π$",
+            "$6π$",
+            "$9π$",
+            "$12π$"
           ],
           "answer": 1,
-          "explanation": "Units show what kind of quantity was found."
+          "explanation": "$2πr=6π$."
+        },
+        {
+          "prompt": "Radius 4, area:",
+          "options": [
+            "$8π$",
+            "$16π$",
+            "$4π$",
+            "$32π$"
+          ],
+          "answer": 1,
+          "explanation": "$πr^2=16π$."
+        },
+        {
+          "prompt": "A tangent touches circle at:",
+          "options": [
+            "two points",
+            "one point",
+            "centre only",
+            "no points"
+          ],
+          "answer": 1,
+          "explanation": "Tangent touches once."
+        },
+        {
+          "prompt": "A chord through centre is:",
+          "options": [
+            "radius",
+            "diameter",
+            "arc",
+            "sector"
+          ],
+          "answer": 1,
+          "explanation": "It is a diameter."
+        },
+        {
+          "prompt": "90° sector is what fraction of circle?",
+          "options": [
+            "1/2",
+            "1/3",
+            "1/4",
+            "1/6"
+          ],
+          "answer": 2,
+          "explanation": "$90/360=1/4$."
+        },
+        {
+          "prompt": "Arc is:",
+          "options": [
+            "part of circumference",
+            "area inside",
+            "line through centre",
+            "radius"
+          ],
+          "answer": 0,
+          "explanation": "An arc is curved boundary part."
+        },
+        {
+          "prompt": "Area units are:",
+          "options": [
+            "cm",
+            "cm²",
+            "cm³",
+            "degrees"
+          ],
+          "answer": 1,
+          "explanation": "Area uses square units."
         }
       ]
     },
@@ -173,70 +258,198 @@ export const partsOfACircleCircumferenceAndArea: LessonContent = {
       "kind": "quiz",
       "questions": [
         {
-          "prompt": "The safest way to solve circles problems is to:",
+          "prompt": "If diameter is 14, radius is:",
           "options": [
-            "measure the screen",
-            "use definitions and formulas",
-            "copy a friend's answer",
-            "ignore markings"
-          ],
-          "answer": 1,
-          "explanation": "Geometry is based on marked facts and logical rules."
-        },
-        {
-          "prompt": "A square unit is used for:",
-          "options": [
-            "length",
-            "area",
-            "angle",
-            "mass"
-          ],
-          "answer": 1,
-          "explanation": "Area is measured in square units."
-        },
-        {
-          "prompt": "A cubic unit is used for:",
-          "options": [
-            "volume",
-            "angle",
-            "speed",
-            "ratio only"
+            "7",
+            "14",
+            "28",
+            "49"
           ],
           "answer": 0,
-          "explanation": "Volume is measured in cubic units."
+          "explanation": "Radius is half diameter."
+        },
+        {
+          "prompt": "Circumference with diameter 20:",
+          "options": [
+            "$10π$",
+            "$20π$",
+            "$40π$",
+            "$400π$"
+          ],
+          "answer": 1,
+          "explanation": "$C=πd=20π$."
+        },
+        {
+          "prompt": "Area radius 10:",
+          "options": [
+            "$20π$",
+            "$50π$",
+            "$100π$",
+            "$200π$"
+          ],
+          "answer": 2,
+          "explanation": "$π×10^2=100π$."
+        },
+        {
+          "prompt": "A sector uses:",
+          "options": [
+            "central angle",
+            "only chord",
+            "only tangent",
+            "diameter squared only"
+          ],
+          "answer": 0,
+          "explanation": "Sector fraction uses central angle."
+        },
+        {
+          "prompt": "180° sector is:",
+          "options": [
+            "quarter circle",
+            "semicircle",
+            "full circle",
+            "minor arc only"
+          ],
+          "answer": 1,
+          "explanation": "180° is half of 360°."
+        },
+        {
+          "prompt": "A line from centre to circle:",
+          "options": [
+            "radius",
+            "chord",
+            "arc",
+            "tangent"
+          ],
+          "answer": 0,
+          "explanation": "That is the radius."
+        },
+        {
+          "prompt": "A line joining two circle points:",
+          "options": [
+            "chord",
+            "sector",
+            "radius only",
+            "area"
+          ],
+          "answer": 0,
+          "explanation": "This is a chord."
+        },
+        {
+          "prompt": "$π$ is ratio of:",
+          "options": [
+            "C to d",
+            "A to r",
+            "d to C",
+            "radius to area"
+          ],
+          "answer": 0,
+          "explanation": "$π=C/d$."
+        },
+        {
+          "prompt": "Sector area radius 3 angle 40°:",
+          "options": [
+            "$π$",
+            "$2π$",
+            "$3π$",
+            "$4π$"
+          ],
+          "answer": 0,
+          "explanation": "$(40/360)×9π=π$."
+        },
+        {
+          "prompt": "Arc length radius 9 angle 60°:",
+          "options": [
+            "$3π$",
+            "$6π$",
+            "$9π$",
+            "$18π$"
+          ],
+          "answer": 0,
+          "explanation": "$(60/360)×18π=3π$."
+        }
+      ]
+    },
+    {
+      "kind": "realWorld",
+      "heading": "Where this is used",
+      "items": [
+        {
+          "area": "Architecture",
+          "text": "Geometric reasoning helps check drawings, dimensions and layouts."
+        },
+        {
+          "area": "Engineering",
+          "text": "Shapes and measurements are used to design safe structures."
+        },
+        {
+          "area": "Computer graphics",
+          "text": "Transformations and geometry control images, animations and 3D models."
+        }
+      ]
+    },
+    {
+      "kind": "mistakes",
+      "items": [
+        {
+          "wrong": "Using diameter as radius in area formula.",
+          "right": "Always halve the diameter first when using $A=πr^2$."
+        },
+        {
+          "wrong": "Writing area answers in cm instead of cm².",
+          "right": "Area uses square units."
+        },
+        {
+          "wrong": "Using $πr^2$ for circumference.",
+          "right": "Circumference uses $2πr$ or $πd$."
+        }
+      ]
+    },
+    {
+      "kind": "flashcards",
+      "cards": [
+        {
+          "front": "Parts of a Circle, Circumference and Area",
+          "back": "A circle is the set of all points in a plane at a fixed distance from a fixed centre. That fixed distance is the radius."
+        },
+        {
+          "front": "Radius",
+          "back": "Radius: line segment from centre to circle."
+        },
+        {
+          "front": "Diameter",
+          "back": "Diameter: line through centre joining two points on circle; $d=2r$."
+        },
+        {
+          "front": "Chord",
+          "back": "Chord: line segment joining two points on circle."
         }
       ]
     },
     {
       "kind": "summary",
       "points": [
-        "Circles depends on precise vocabulary and diagram reading.",
-        "Choose the theorem or formula that matches the conditions.",
-        "Show substitutions and units clearly.",
-        "Do not rely only on what a diagram appears to show."
+        "Parts of a Circle, Circumference and Area is not only memorising formulas; it is about choosing the correct relationship from the diagram.",
+        "Draw or redraw the diagram, mark known values, write the relevant formula, substitute carefully, and check the reasonableness of the answer.",
+        "For exam preparation, practise mixed problems where more than one fact is needed."
       ]
     },
     {
       "kind": "completion",
       "steps": [
         {
-          "key": "learn-key-vocabulary",
-          "label": "Learn key vocabulary"
+          "key": "read-definitions",
+          "label": "Read definitions"
         },
         {
-          "key": "use-the-main-formula",
-          "label": "Use the main formula"
-        },
-        {
-          "key": "solve-examples",
-          "label": "Solve examples"
+          "key": "study-examples",
+          "label": "Study solved examples"
         },
         {
           "key": "complete-practice",
           "label": "Complete practice"
         },
         {
-          "key": "pass-the-quiz",
+          "key": "pass-quiz",
           "label": "Pass the quiz"
         }
       ],

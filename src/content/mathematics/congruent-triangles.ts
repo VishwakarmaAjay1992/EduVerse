@@ -6,170 +6,239 @@ export const congruentTriangles: LessonContent = {
   "lessonSlug": "congruent-triangles",
   "title": "Congruent Triangles",
   "objectives": [
-    "Explain what congruent triangles are.",
-    "Use SSS, SAS, ASA, AAS and RHS congruence tests.",
-    "Match corresponding sides and angles correctly.",
-    "Use congruence to prove equal lengths or angles.",
-    "Recognise why AAA is not a congruence test."
+    "Understand congruent triangles definitions.",
+    "Use formulas and theorems correctly.",
+    "Solve textbook-style and real-world problems.",
+    "Practise exam-style reasoning questions."
   ],
   "sections": [
     {
       "kind": "overview",
       "paragraphs": [
-        "Two triangles are congruent when they are exactly the same size and shape. One triangle may be moved, rotated or reflected, but if it can fit exactly on top of the other, the triangles are congruent.",
-        "Congruence is powerful because once two triangles are known to be congruent, every pair of corresponding sides and angles is equal."
+        "This lesson develops congruent triangles beyond short notes. You will study definitions, theorems, worked examples, and self-study problems.",
+        "For best learning, copy each diagram in your notebook, mark the given information, then solve before checking the answer."
       ]
     },
     {
       "kind": "callout",
       "variant": "definition",
-      "title": "Congruent triangles",
-      "body": "Congruent triangles have equal corresponding sides and equal corresponding angles. The order of letters matters: $\\triangle ABC \\cong \\triangle DEF$ means $A$ matches $D$, $B$ matches $E$, and $C$ matches $F$."
-    },
-    {
-      "kind": "table",
-      "heading": "Congruence tests",
-      "headers": [
-        "Test",
-        "Information needed",
-        "Meaning"
-      ],
-      "rows": [
-        [
-          "SSS",
-          "Three sides equal",
-          "Side-Side-Side"
-        ],
-        [
-          "SAS",
-          "Two sides and the included angle equal",
-          "Side-Angle-Side"
-        ],
-        [
-          "ASA",
-          "Two angles and the included side equal",
-          "Angle-Side-Angle"
-        ],
-        [
-          "AAS",
-          "Two angles and a non-included side equal",
-          "Angle-Angle-Side"
-        ],
-        [
-          "RHS/HL",
-          "Right angle, hypotenuse and one side equal",
-          "Right-Hypotenuse-Side"
-        ]
-      ],
-      "note": "AAA proves similarity, not congruence. It fixes the shape but not the size."
+      "title": "Textbook definition",
+      "body": "Congruent triangles are triangles that have exactly the same size and shape. Their matching sides and matching angles are equal."
     },
     {
       "kind": "theory",
-      "heading": "Corresponding parts",
+      "heading": "Important vocabulary",
       "paragraphs": [
-        "The most common mistake in congruence is matching the wrong sides. Always read triangle names in order or mark equal sides and angles with ticks and arcs.",
-        "After proving triangles congruent, you may use CPCTC: Corresponding Parts of Congruent Triangles are Congruent."
+        "Before solving problems, make sure the language is clear. Geometry questions often become easy when every word in the diagram is understood correctly."
+      ],
+      "list": [
+        "SSS: three corresponding sides equal.",
+        "SAS: two sides and the included angle equal.",
+        "ASA/AAS: enough matching angles and a side to fix the triangle.",
+        "RHS/HL: right angle, hypotenuse and one side equal."
+      ]
+    },
+    {
+      "kind": "formula",
+      "latex": "\\triangle ABC \\cong \\triangle DEF",
+      "caption": "Triangle congruence notation"
+    },
+    {
+      "kind": "formula",
+      "latex": "\\text{CPCTC}",
+      "caption": "Corresponding parts of congruent triangles are congruent"
+    },
+    {
+      "kind": "theory",
+      "heading": "Core ideas explained in depth",
+      "paragraphs": [
+        "Congruence means one triangle could be moved by rotation, reflection or translation until it sits exactly on the other.",
+        "The order of letters matters. If $\\triangle ABC\\cong\\triangle DEF$, then A matches D, B matches E and C matches F.",
+        "AAA is not a congruence test because it fixes shape but not size."
+      ],
+      "list": [
+        "After proving triangles congruent, you may use CPCTC to prove another side or angle equal."
+      ]
+    },
+    {
+      "kind": "table",
+      "heading": "Problem-solving guide",
+      "headers": [
+        "When you see this",
+        "What to use",
+        "Reason"
+      ],
+      "rows": [
+        [
+          "A diagram has equal marks",
+          "Use the matching theorem or definition",
+          "Equal marks are information, not decoration."
+        ],
+        [
+          "A formula is needed",
+          "Identify each variable before substitution",
+          "Most mistakes come from using the wrong length or angle."
+        ],
+        [
+          "A proof-style question appears",
+          "Write reasons after each statement",
+          "Geometry answers must be justified."
+        ]
       ]
     },
     {
       "kind": "example",
-      "prompt": "Triangles $ABC$ and $DEF$ have $AB=DE$, $BC=EF$ and $AC=DF$. Are they congruent?",
+      "prompt": "Triangles ABC and PQR have AB=PQ, AC=PR, and angle A=angle P. Prove congruent.",
       "steps": [
-        "All three pairs of corresponding sides are equal.",
-        "This matches the SSS congruence test."
+        "The equal angle is between the two equal sides.",
+        "Use SAS congruence.",
+        "Therefore $\\triangle ABC\\cong\\triangle PQR$."
       ],
-      "answer": "Yes, $\\triangle ABC \\cong \\triangle DEF$ by SSS."
+      "answer": "Congruent by SAS."
     },
     {
       "kind": "example",
-      "prompt": "In triangles $PQR$ and $XYZ$, $PQ=XY$, $QR=YZ$, and $\\angle Q=\\angle Y$. Which congruence test applies?",
+      "prompt": "Two right triangles have equal hypotenuse and one equal leg. Which test applies?",
       "steps": [
-        "The equal angle is between the two equal sides in each triangle.",
-        "This is side-angle-side."
+        "Both have a right angle.",
+        "Hypotenuse and one corresponding side are equal.",
+        "Use RHS/HL."
       ],
-      "answer": "The triangles are congruent by SAS."
+      "answer": "Congruent by RHS/HL."
     },
     {
       "kind": "example",
-      "prompt": "Why does AAA not prove congruence?",
+      "prompt": "If $\\triangle ABC\\cong\\triangle DEF$ and AC=12 cm, find DF.",
       "steps": [
-        "AAA makes all angles equal, so the triangles have the same shape.",
-        "But one triangle could be a larger scaled copy of the other.",
-        "Same shape does not guarantee same size."
+        "Correspondence: A matches D and C matches F.",
+        "So AC matches DF.",
+        "Corresponding sides are equal."
       ],
-      "answer": "AAA proves similarity, not congruence."
+      "answer": "DF = 12 cm."
     },
     {
-      "kind": "realWorld",
-      "heading": "Where this is used",
-      "items": [
-        {
-          "area": "Engineering",
-          "text": "Congruent triangles are used to prove symmetry and stability in frames."
-        },
-        {
-          "area": "Manufacturing",
-          "text": "Identical triangular parts must be congruent so they fit the same assembly."
-        },
-        {
-          "area": "Proofs",
-          "text": "Many geometry proofs split a figure into triangles and prove them congruent."
-        }
-      ]
-    },
-    {
-      "kind": "mistakes",
-      "items": [
-        {
-          "wrong": "Using SSA as a congruence rule.",
-          "right": "SSA is generally not reliable because it can create two different triangles."
-        },
-        {
-          "wrong": "Forgetting that order matters in triangle names.",
-          "right": "If $\\triangle ABC \\cong \\triangle DEF$, then $AC$ matches $DF$, not necessarily $DE$."
-        },
-        {
-          "wrong": "Thinking AAA proves congruence.",
-          "right": "AAA proves similarity only."
-        }
-      ]
+      "kind": "example",
+      "prompt": "Why is AAA not enough for congruence?",
+      "steps": [
+        "AAA gives equal angles only.",
+        "Triangles can be similar but different sizes.",
+        "So AAA proves similarity, not congruence."
+      ],
+      "answer": "AAA is not a congruence rule."
     },
     {
       "kind": "practice",
-      "heading": "Practice questions",
+      "heading": "Self-study practice questions",
       "questions": [
         {
-          "prompt": "Which test uses three equal side pairs?",
+          "prompt": "Which proves congruence?",
           "options": [
-            "SAS",
-            "SSS",
-            "ASA",
-            "AAA"
-          ],
-          "answer": 1,
-          "explanation": "SSS means Side-Side-Side."
-        },
-        {
-          "prompt": "Which test is for right triangles using hypotenuse and one side?",
-          "options": [
-            "RHS/HL",
             "AAA",
             "SSS",
-            "AAS"
+            "Same perimeter only",
+            "Same area only"
+          ],
+          "answer": 1,
+          "explanation": "SSS is a valid congruence test."
+        },
+        {
+          "prompt": "CPCTC is used after:",
+          "options": [
+            "proving congruence",
+            "finding area",
+            "drawing circle",
+            "measuring perimeter"
           ],
           "answer": 0,
-          "explanation": "Right-Hypotenuse-Side is a special right-triangle test."
+          "explanation": "It uses corresponding parts after congruence."
+        },
+        {
+          "prompt": "SAS needs the angle to be:",
+          "options": [
+            "outside the sides",
+            "included between the two sides",
+            "any angle",
+            "right angle only"
+          ],
+          "answer": 1,
+          "explanation": "SAS uses the included angle."
         },
         {
           "prompt": "AAA proves:",
           "options": [
-            "congruence only",
+            "congruence",
             "similarity only",
-            "neither similarity nor congruence",
-            "right angles"
+            "area equality",
+            "perimeter equality"
           ],
           "answer": 1,
-          "explanation": "AAA fixes the shape but not size."
+          "explanation": "AAA fixes shape, not size."
+        },
+        {
+          "prompt": "RHS applies to:",
+          "options": [
+            "all triangles",
+            "right triangles",
+            "circles",
+            "quadrilaterals"
+          ],
+          "answer": 1,
+          "explanation": "It is for right triangles."
+        },
+        {
+          "prompt": "If triangles are congruent, corresponding angles are:",
+          "options": [
+            "equal",
+            "supplementary",
+            "always right",
+            "unknown"
+          ],
+          "answer": 0,
+          "explanation": "Congruence preserves angles."
+        },
+        {
+          "prompt": "If $△ABC≅△XYZ$, B corresponds to:",
+          "options": [
+            "X",
+            "Y",
+            "Z",
+            "A"
+          ],
+          "answer": 1,
+          "explanation": "Letter order gives correspondence."
+        },
+        {
+          "prompt": "Same area guarantees congruence?",
+          "options": [
+            "Yes",
+            "No",
+            "Only triangles",
+            "Only right triangles"
+          ],
+          "answer": 1,
+          "explanation": "Different shapes can have same area."
+        },
+        {
+          "prompt": "SSS uses:",
+          "options": [
+            "three angles",
+            "three sides",
+            "two sides only",
+            "one side one angle"
+          ],
+          "answer": 1,
+          "explanation": "SSS means side-side-side."
+        },
+        {
+          "prompt": "Reflection can map congruent triangles?",
+          "options": [
+            "Yes",
+            "No",
+            "Only enlargement",
+            "Only circle"
+          ],
+          "answer": 0,
+          "explanation": "Reflections preserve size and shape."
         }
       ]
     },
@@ -177,66 +246,196 @@ export const congruentTriangles: LessonContent = {
       "kind": "quiz",
       "questions": [
         {
-          "prompt": "If two triangles are congruent, their corresponding sides are:",
+          "prompt": "Valid congruence test:",
           "options": [
-            "proportional only",
-            "equal",
-            "always parallel",
-            "different"
+            "SSA always",
+            "SAS",
+            "AAA",
+            "Perimeter only"
           ],
           "answer": 1,
-          "explanation": "Congruence means same size and shape."
+          "explanation": "SAS is valid."
         },
         {
-          "prompt": "SAS requires the angle to be:",
+          "prompt": "After $△ABC≅△DEF$, angle C equals:",
           "options": [
-            "outside the two sides",
-            "included between the two sides",
-            "a right angle always",
-            "unknown"
+            "D",
+            "E",
+            "F",
+            "A"
           ],
-          "answer": 1,
-          "explanation": "SAS uses two sides and their included angle."
+          "answer": 2,
+          "explanation": "C corresponds to F."
         },
         {
-          "prompt": "CPCTC is used after proving:",
+          "prompt": "RHS means right angle, hypotenuse and:",
           "options": [
-            "parallel lines",
-            "triangle congruence",
-            "area equality",
-            "a circle theorem"
+            "one side",
+            "two angles",
+            "area",
+            "perimeter"
+          ],
+          "answer": 0,
+          "explanation": "RHS/HL uses one leg."
+        },
+        {
+          "prompt": "Congruent figures have:",
+          "options": [
+            "same shape and size",
+            "same shape only",
+            "same colour",
+            "same position"
+          ],
+          "answer": 0,
+          "explanation": "Both size and shape match."
+        },
+        {
+          "prompt": "AAS is:",
+          "options": [
+            "valid",
+            "invalid always",
+            "area formula",
+            "circle theorem"
+          ],
+          "answer": 0,
+          "explanation": "Two angles and a side determine a triangle."
+        },
+        {
+          "prompt": "CPCTC helps prove:",
+          "options": [
+            "matching parts equal",
+            "volume",
+            "radius",
+            "scale factor"
+          ],
+          "answer": 0,
+          "explanation": "Corresponding parts are equal."
+        },
+        {
+          "prompt": "Same three sides imply:",
+          "options": [
+            "SSS congruence",
+            "AAA only",
+            "no conclusion",
+            "circle"
+          ],
+          "answer": 0,
+          "explanation": "SSS proves congruence."
+        },
+        {
+          "prompt": "The symbol $\\cong$ means:",
+          "options": [
+            "similar",
+            "congruent",
+            "parallel",
+            "perpendicular"
           ],
           "answer": 1,
-          "explanation": "It lets you claim corresponding parts are equal."
+          "explanation": "It denotes congruence."
+        },
+        {
+          "prompt": "A triangle can be congruent after rotation?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "answer": 0,
+          "explanation": "Rotation preserves size and shape."
+        },
+        {
+          "prompt": "In SAS, the angle is:",
+          "options": [
+            "between given sides",
+            "opposite any side",
+            "not needed",
+            "outside triangle"
+          ],
+          "answer": 0,
+          "explanation": "Included angle is required."
+        }
+      ]
+    },
+    {
+      "kind": "realWorld",
+      "heading": "Where this is used",
+      "items": [
+        {
+          "area": "Architecture",
+          "text": "Geometric reasoning helps check drawings, dimensions and layouts."
+        },
+        {
+          "area": "Engineering",
+          "text": "Shapes and measurements are used to design safe structures."
+        },
+        {
+          "area": "Computer graphics",
+          "text": "Transformations and geometry control images, animations and 3D models."
+        }
+      ]
+    },
+    {
+      "kind": "mistakes",
+      "items": [
+        {
+          "wrong": "Using AAA to prove congruence.",
+          "right": "AAA proves similarity, not same size."
+        },
+        {
+          "wrong": "Ignoring letter order.",
+          "right": "Use the congruence statement to match vertices correctly."
+        },
+        {
+          "wrong": "Using CPCTC before proving congruence.",
+          "right": "First prove triangles congruent, then use CPCTC."
+        }
+      ]
+    },
+    {
+      "kind": "flashcards",
+      "cards": [
+        {
+          "front": "Congruent Triangles",
+          "back": "Congruent triangles are triangles that have exactly the same size and shape. Their matching sides and matching angles are equal."
+        },
+        {
+          "front": "SSS",
+          "back": "SSS: three corresponding sides equal."
+        },
+        {
+          "front": "SAS",
+          "back": "SAS: two sides and the included angle equal."
+        },
+        {
+          "front": "ASA/AAS",
+          "back": "ASA/AAS: enough matching angles and a side to fix the triangle."
         }
       ]
     },
     {
       "kind": "summary",
       "points": [
-        "Congruent triangles have the same size and shape.",
-        "Main tests: SSS, SAS, ASA, AAS and RHS/HL.",
-        "AAA proves similarity, not congruence.",
-        "After congruence, corresponding sides and angles are equal."
+        "Congruent Triangles is not only memorising formulas; it is about choosing the correct relationship from the diagram.",
+        "Draw or redraw the diagram, mark known values, write the relevant formula, substitute carefully, and check the reasonableness of the answer.",
+        "For exam preparation, practise mixed problems where more than one fact is needed."
       ]
     },
     {
       "kind": "completion",
       "steps": [
         {
-          "key": "understand-congruence",
-          "label": "Understand congruence"
+          "key": "read-definitions",
+          "label": "Read definitions"
         },
         {
-          "key": "choose-a-congruence-test",
-          "label": "Choose a congruence test"
+          "key": "study-examples",
+          "label": "Study solved examples"
         },
         {
-          "key": "match-corresponding-parts",
-          "label": "Match corresponding parts"
+          "key": "complete-practice",
+          "label": "Complete practice"
         },
         {
-          "key": "pass-the-quiz",
+          "key": "pass-quiz",
           "label": "Pass the quiz"
         }
       ],

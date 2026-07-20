@@ -6,152 +6,239 @@ export const similarTrianglesAndScale: LessonContent = {
   "lessonSlug": "similar-triangles-and-scale",
   "title": "Similar Triangles and Scale",
   "objectives": [
-    "Explain similarity as same shape but possibly different size.",
-    "Use AA, SAS and SSS similarity tests.",
-    "Find scale factors between similar triangles.",
-    "Calculate missing side lengths using proportional ratios.",
-    "Apply similarity in maps, shadows and models."
+    "Understand similar triangles and scale definitions.",
+    "Use formulas and theorems correctly.",
+    "Solve textbook-style and real-world problems.",
+    "Practise exam-style reasoning questions."
   ],
   "sections": [
     {
       "kind": "overview",
       "paragraphs": [
-        "Similar triangles have the same shape but not necessarily the same size. Their corresponding angles are equal, and their corresponding side lengths are in the same ratio.",
-        "Similarity is the mathematics behind scale drawings, maps, models, shadows and indirect measurement."
+        "This lesson develops similar triangles and scale beyond short notes. You will study definitions, theorems, worked examples, and self-study problems.",
+        "For best learning, copy each diagram in your notebook, mark the given information, then solve before checking the answer."
       ]
     },
     {
       "kind": "callout",
       "variant": "definition",
-      "title": "Similar triangles",
-      "body": "$\\triangle ABC \\sim \\triangle DEF$ means the angles match in order and the side ratios are equal: $\\frac{AB}{DE}=\\frac{BC}{EF}=\\frac{AC}{DF}$."
+      "title": "Textbook definition",
+      "body": "Similar triangles have the same shape but not necessarily the same size. Corresponding angles are equal and corresponding sides are in the same ratio."
     },
     {
-      "kind": "table",
-      "heading": "Similarity tests",
-      "headers": [
-        "Test",
-        "Information needed"
+      "kind": "theory",
+      "heading": "Important vocabulary",
+      "paragraphs": [
+        "Before solving problems, make sure the language is clear. Geometry questions often become easy when every word in the diagram is understood correctly."
       ],
-      "rows": [
-        [
-          "AA",
-          "Two pairs of equal angles"
-        ],
-        [
-          "SAS similarity",
-          "Two side ratios equal and the included angle equal"
-        ],
-        [
-          "SSS similarity",
-          "All three side ratios equal"
-        ]
+      "list": [
+        "Scale factor: multiplier from one figure to a similar figure.",
+        "AA similarity: two equal angles are enough for triangle similarity.",
+        "Corresponding sides: sides in matching positions.",
+        "Enlargement: transformation that changes size by a scale factor."
       ]
     },
     {
       "kind": "formula",
-      "latex": "\\frac{\\text{new length}}{\\text{original length}}=\\text{scale factor}",
-      "caption": "Scale factor between similar figures"
+      "latex": "\\frac{AB}{DE}=\\frac{BC}{EF}=\\frac{AC}{DF}",
+      "caption": "Corresponding side ratios"
     },
     {
-      "kind": "example",
-      "prompt": "Two similar triangles have corresponding sides 4 cm and 10 cm. What is the scale factor from the smaller triangle to the larger triangle?",
-      "steps": [
-        "Scale factor $=10/4$.",
-        "$10/4=2.5$."
+      "kind": "formula",
+      "latex": "\\text{scale factor}=\\frac{\\text{new length}}{\\text{original length}}",
+      "caption": "Scale factor"
+    },
+    {
+      "kind": "theory",
+      "heading": "Core ideas explained in depth",
+      "paragraphs": [
+        "Similarity is why maps, models and drawings work. The angles stay the same while all lengths are multiplied by one scale factor.",
+        "AA is enough because once two angles match, the third angle also matches by the triangle angle sum.",
+        "Area scale factor is the square of the length scale factor; volume scale factor is the cube of the length scale factor."
       ],
-      "answer": "The scale factor is 2.5."
-    },
-    {
-      "kind": "example",
-      "prompt": "Triangles are similar. A side of 6 cm matches a side of 18 cm. Another side is 7 cm in the small triangle. Find the matching large side.",
-      "steps": [
-        "Scale factor from small to large is $18/6=3$.",
-        "Multiply the matching small side by 3: $7\\times3=21$."
-      ],
-      "answer": "The matching large side is 21 cm."
-    },
-    {
-      "kind": "example",
-      "prompt": "A 1.5 m stick casts a 2 m shadow. At the same time, a tree casts a 10 m shadow. Estimate the tree height.",
-      "steps": [
-        "The sun creates similar right triangles: height/shadow ratios are equal.",
-        "$\\frac{1.5}{2}=\\frac{h}{10}$.",
-        "Multiply by 10: $h=7.5$."
-      ],
-      "answer": "The tree is approximately 7.5 m tall."
-    },
-    {
-      "kind": "realWorld",
-      "heading": "Where this is used",
-      "items": [
-        {
-          "area": "Maps",
-          "text": "A map is a scaled version of real land distances."
-        },
-        {
-          "area": "Photography",
-          "text": "Similar triangles explain how cameras project large scenes onto small sensors."
-        },
-        {
-          "area": "Architecture",
-          "text": "Scale models preserve shape while changing size."
-        }
+      "list": [
+        "Set proportions carefully with matching sides in the same order."
       ]
     },
     {
-      "kind": "mistakes",
-      "items": [
-        {
-          "wrong": "Using addition instead of multiplication for scale.",
-          "right": "Similar figures use a constant multiplier, not a constant difference."
-        },
-        {
-          "wrong": "Matching the wrong sides.",
-          "right": "Always pair sides opposite equal angles."
-        },
-        {
-          "wrong": "Assuming equal angles mean equal size.",
-          "right": "Equal angles show same shape, not necessarily same size."
-        }
+      "kind": "table",
+      "heading": "Problem-solving guide",
+      "headers": [
+        "When you see this",
+        "What to use",
+        "Reason"
+      ],
+      "rows": [
+        [
+          "A diagram has equal marks",
+          "Use the matching theorem or definition",
+          "Equal marks are information, not decoration."
+        ],
+        [
+          "A formula is needed",
+          "Identify each variable before substitution",
+          "Most mistakes come from using the wrong length or angle."
+        ],
+        [
+          "A proof-style question appears",
+          "Write reasons after each statement",
+          "Geometry answers must be justified."
+        ]
       ]
+    },
+    {
+      "kind": "example",
+      "prompt": "Triangles are similar with scale factor 3 from small to large. A small side is 7 cm. Find matching large side.",
+      "steps": [
+        "Multiply by the scale factor.",
+        "Large side = $7\\times3$.",
+        "Calculate 21."
+      ],
+      "answer": "21 cm."
+    },
+    {
+      "kind": "example",
+      "prompt": "Similar triangles have sides 4 and 10 corresponding. Another small side is 6. Find matching large side.",
+      "steps": [
+        "Scale factor $=10/4=2.5$.",
+        "Large side $=6\\times2.5$.",
+        "Calculate 15."
+      ],
+      "answer": "15."
+    },
+    {
+      "kind": "example",
+      "prompt": "A 1:50 model has a wall 8 cm long. Find real length.",
+      "steps": [
+        "Scale 1:50 means real is 50 times model.",
+        "$8\\times50=400$ cm.",
+        "Convert: 400 cm = 4 m."
+      ],
+      "answer": "4 m."
+    },
+    {
+      "kind": "example",
+      "prompt": "Two triangles have angles 35°, 65°, 80° and 35°, 80°, 65°. Are they similar?",
+      "steps": [
+        "All three angle measures match.",
+        "Two matching angles are enough.",
+        "So they are similar by AA."
+      ],
+      "answer": "Yes, similar by AA."
     },
     {
       "kind": "practice",
-      "heading": "Practice questions",
+      "heading": "Self-study practice questions",
       "questions": [
         {
-          "prompt": "A side 5 cm matches 20 cm. Scale factor small to large?",
+          "prompt": "Similar triangles have:",
           "options": [
-            "4",
-            "15",
-            "25",
-            "0.25"
+            "same shape",
+            "same size always",
+            "same colour",
+            "same area always"
           ],
           "answer": 0,
-          "explanation": "$20/5=4$."
+          "explanation": "Similarity means same shape."
         },
         {
-          "prompt": "If scale factor is 3 and a small side is 9 cm, large side is:",
+          "prompt": "Scale factor from 5 to 20 is:",
           "options": [
-            "3 cm",
-            "12 cm",
-            "27 cm",
-            "81 cm"
+            "2",
+            "4",
+            "15",
+            "25"
           ],
-          "answer": 2,
-          "explanation": "$9\\times3=27$."
+          "answer": 1,
+          "explanation": "$20/5=4$."
         },
         {
           "prompt": "AA similarity needs:",
           "options": [
-            "one equal angle",
             "two equal angles",
-            "three equal sides",
-            "one equal side"
+            "three sides equal",
+            "same area",
+            "one angle only"
+          ],
+          "answer": 0,
+          "explanation": "Two equal angles prove triangle similarity."
+        },
+        {
+          "prompt": "Length scale factor 3 gives area factor:",
+          "options": [
+            "3",
+            "6",
+            "9",
+            "27"
+          ],
+          "answer": 2,
+          "explanation": "Area factor is $3^2=9$."
+        },
+        {
+          "prompt": "A map scale 1:1000 means 2 cm represents:",
+          "options": [
+            "20 cm",
+            "200 cm",
+            "2000 cm",
+            "2 cm"
+          ],
+          "answer": 2,
+          "explanation": "$2\\times1000=2000$ cm."
+        },
+        {
+          "prompt": "Corresponding sides must be:",
+          "options": [
+            "added",
+            "matched in order",
+            "ignored",
+            "perpendicular"
           ],
           "answer": 1,
-          "explanation": "Two equal angles are enough because the third automatically matches."
+          "explanation": "Correct matching is essential."
+        },
+        {
+          "prompt": "If small side 9, large side 12, scale factor large/small:",
+          "options": [
+            "3/4",
+            "4/3",
+            "21",
+            "108"
+          ],
+          "answer": 1,
+          "explanation": "$12/9=4/3$."
+        },
+        {
+          "prompt": "Similar triangles always have equal:",
+          "options": [
+            "angles",
+            "side lengths",
+            "areas",
+            "perimeters"
+          ],
+          "answer": 0,
+          "explanation": "Angles match; lengths are proportional."
+        },
+        {
+          "prompt": "If scale factor is 1, similar figures are also:",
+          "options": [
+            "congruent",
+            "larger",
+            "smaller",
+            "impossible"
+          ],
+          "answer": 0,
+          "explanation": "Same shape and same size."
+        },
+        {
+          "prompt": "Volume factor for length scale 2 is:",
+          "options": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "answer": 3,
+          "explanation": "Volume factor is $2^3=8$."
         }
       ]
     },
@@ -159,66 +246,198 @@ export const similarTrianglesAndScale: LessonContent = {
       "kind": "quiz",
       "questions": [
         {
-          "prompt": "Similar triangles always have:",
+          "prompt": "AA proves:",
           "options": [
-            "equal areas",
-            "equal side lengths",
-            "equal corresponding angles",
-            "equal perimeter"
-          ],
-          "answer": 2,
-          "explanation": "Similarity means same shape."
-        },
-        {
-          "prompt": "If large/small scale factor is 2, area scale factor is:",
-          "options": [
-            "2",
-            "4",
-            "6",
-            "8"
-          ],
-          "answer": 1,
-          "explanation": "Areas scale by the square of the length scale factor."
-        },
-        {
-          "prompt": "Which situation commonly uses similar triangles?",
-          "options": [
-            "finding shadows and heights",
-            "adding integers",
-            "counting primes",
-            "factoring cubics only"
+            "similarity",
+            "congruence always",
+            "area only",
+            "perimeter only"
           ],
           "answer": 0,
-          "explanation": "Shadow-height problems are classic similarity applications."
+          "explanation": "AA is a similarity test."
+        },
+        {
+          "prompt": "Small side 3, large side 12. Scale factor:",
+          "options": [
+            "3",
+            "4",
+            "9",
+            "15"
+          ],
+          "answer": 1,
+          "explanation": "12/3=4."
+        },
+        {
+          "prompt": "If lengths double, areas:",
+          "options": [
+            "double",
+            "triple",
+            "quadruple",
+            "unchanged"
+          ],
+          "answer": 2,
+          "explanation": "Area factor $2^2=4$."
+        },
+        {
+          "prompt": "Similar triangles have side ratios:",
+          "options": [
+            "equal",
+            "random",
+            "always 1",
+            "negative"
+          ],
+          "answer": 0,
+          "explanation": "Corresponding side ratios are equal."
+        },
+        {
+          "prompt": "A photo enlarged by scale 1.5 has a 10 cm width become:",
+          "options": [
+            "6.67 cm",
+            "11.5 cm",
+            "15 cm",
+            "150 cm"
+          ],
+          "answer": 2,
+          "explanation": "$10\\times1.5=15$."
+        },
+        {
+          "prompt": "Two equal angles imply the third:",
+          "options": [
+            "also equal",
+            "right only",
+            "obtuse only",
+            "unknown"
+          ],
+          "answer": 0,
+          "explanation": "Angle sum forces the third to match."
+        },
+        {
+          "prompt": "Corresponding sides are:",
+          "options": [
+            "matching positions",
+            "opposite colours",
+            "only longest sides",
+            "unrelated"
+          ],
+          "answer": 0,
+          "explanation": "They occupy matching positions."
+        },
+        {
+          "prompt": "Length factor 5 gives area factor:",
+          "options": [
+            "5",
+            "10",
+            "25",
+            "125"
+          ],
+          "answer": 2,
+          "explanation": "$5^2=25$."
+        },
+        {
+          "prompt": "A scale drawing 1:20: 6 cm means:",
+          "options": [
+            "12 cm",
+            "26 cm",
+            "120 cm",
+            "1.2 cm"
+          ],
+          "answer": 2,
+          "explanation": "$6\\times20=120$."
+        },
+        {
+          "prompt": "Similarity symbol is often:",
+          "options": [
+            "~",
+            "=",
+            "⊥",
+            "∥"
+          ],
+          "answer": 0,
+          "explanation": "~ denotes similarity."
+        }
+      ]
+    },
+    {
+      "kind": "realWorld",
+      "heading": "Where this is used",
+      "items": [
+        {
+          "area": "Architecture",
+          "text": "Geometric reasoning helps check drawings, dimensions and layouts."
+        },
+        {
+          "area": "Engineering",
+          "text": "Shapes and measurements are used to design safe structures."
+        },
+        {
+          "area": "Computer graphics",
+          "text": "Transformations and geometry control images, animations and 3D models."
+        }
+      ]
+    },
+    {
+      "kind": "mistakes",
+      "items": [
+        {
+          "wrong": "Using the same scale factor for area.",
+          "right": "Area scale factor is the square of the length scale factor."
+        },
+        {
+          "wrong": "Matching the wrong sides in a proportion.",
+          "right": "Use angles or position to match corresponding sides."
+        },
+        {
+          "wrong": "Thinking similar means identical size.",
+          "right": "Similar means same shape; congruent means same shape and size."
+        }
+      ]
+    },
+    {
+      "kind": "flashcards",
+      "cards": [
+        {
+          "front": "Similar Triangles and Scale",
+          "back": "Similar triangles have the same shape but not necessarily the same size. Corresponding angles are equal and corresponding sides are in the same ratio."
+        },
+        {
+          "front": "Scale factor",
+          "back": "Scale factor: multiplier from one figure to a similar figure."
+        },
+        {
+          "front": "AA similarity",
+          "back": "AA similarity: two equal angles are enough for triangle similarity."
+        },
+        {
+          "front": "Corresponding sides",
+          "back": "Corresponding sides: sides in matching positions."
         }
       ]
     },
     {
       "kind": "summary",
       "points": [
-        "Similar triangles have equal corresponding angles and proportional side lengths.",
-        "AA is the most common similarity test.",
-        "Scale factor is a multiplier between corresponding lengths.",
-        "Areas scale by the square of the length scale factor."
+        "Similar Triangles and Scale is not only memorising formulas; it is about choosing the correct relationship from the diagram.",
+        "Draw or redraw the diagram, mark known values, write the relevant formula, substitute carefully, and check the reasonableness of the answer.",
+        "For exam preparation, practise mixed problems where more than one fact is needed."
       ]
     },
     {
       "kind": "completion",
       "steps": [
         {
-          "key": "recognise-similarity",
-          "label": "Recognise similarity"
+          "key": "read-definitions",
+          "label": "Read definitions"
         },
         {
-          "key": "find-scale-factor",
-          "label": "Find scale factor"
+          "key": "study-examples",
+          "label": "Study solved examples"
         },
         {
-          "key": "use-proportions",
-          "label": "Use proportions"
+          "key": "complete-practice",
+          "label": "Complete practice"
         },
         {
-          "key": "pass-the-quiz",
+          "key": "pass-quiz",
           "label": "Pass the quiz"
         }
       ],

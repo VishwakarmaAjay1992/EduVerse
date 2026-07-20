@@ -2,170 +2,238 @@ import type { LessonContent } from "@/lib/lesson-content-types";
 
 export const symmetry: LessonContent = {
   "subjectSlug": "mathematics",
-  "chapterSlug": "transformations-and-symmetry",
+  "chapterSlug": "transformations-and-constructions",
   "lessonSlug": "symmetry",
   "title": "Symmetry",
   "objectives": [
-    "Define key vocabulary for symmetry.",
-    "Use the main formula or theorem for symmetry.",
-    "Solve missing-value problems step by step.",
-    "Recognise common mistakes in diagrams and calculations.",
-    "Apply the topic to real-life measurement, design or reasoning problems."
+    "Understand symmetry definitions.",
+    "Use formulas and theorems correctly.",
+    "Solve textbook-style and real-world problems.",
+    "Practise exam-style reasoning questions."
   ],
   "sections": [
     {
       "kind": "overview",
       "paragraphs": [
-        "This lesson develops the next major idea in geometry: symmetry. You will connect definitions, diagrams, formulas and reasoning so that the topic becomes more than a list of rules.",
-        "The goal is to read a diagram carefully, choose the correct property, and then show each calculation clearly."
+        "This lesson develops symmetry beyond short notes. You will study definitions, theorems, worked examples, and self-study problems.",
+        "For best learning, copy each diagram in your notebook, mark the given information, then solve before checking the answer."
       ]
     },
     {
+      "kind": "callout",
+      "variant": "definition",
+      "title": "Textbook definition",
+      "body": "A figure has symmetry if it can be transformed and still match itself exactly."
+    },
+    {
       "kind": "theory",
-      "heading": "Core vocabulary",
+      "heading": "Important vocabulary",
       "paragraphs": [
-        "Important words in this lesson include: line symmetry, rotational symmetry, regular shapes, patterns, tessellations. Each word names a specific part of the diagram or a specific transformation, so careful vocabulary prevents wrong calculations.",
-        "Before solving, mark the known information on the diagram mentally: equal sides, parallel lines, right angles, centres, radii, axes or scale factors."
+        "Before solving problems, make sure the language is clear. Geometry questions often become easy when every word in the diagram is understood correctly."
+      ],
+      "list": [
+        "Line symmetry: a figure matches itself after reflection in a mirror line.",
+        "Rotational symmetry: a figure matches itself after rotation less than $360^\\circ$.",
+        "Order of rotational symmetry: number of times the figure matches itself in a full turn.",
+        "Centre of rotation: fixed point about which the shape turns."
       ]
     },
     {
       "kind": "formula",
-      "latex": "\\text{order of rotational symmetry}",
-      "caption": "Key formula or idea for symmetry"
+      "latex": "\\text{angle of rotation}=\\frac{360^\\circ}{\\text{order}}",
+      "caption": "Smallest angle for regular rotational symmetry"
+    },
+    {
+      "kind": "theory",
+      "heading": "Core ideas explained in depth",
+      "paragraphs": [
+        "Line symmetry is checked by folding or reflecting. Each point on one side must have a matching point the same perpendicular distance from the mirror line.",
+        "Rotational symmetry is checked by turning around the centre. The shape may match itself several times before completing a full turn.",
+        "Regular polygons have line symmetry and rotational symmetry equal to the number of sides."
+      ],
+      "list": [
+        "Some shapes have rotational symmetry but no line symmetry, and some have line symmetry but low rotational symmetry."
+      ]
     },
     {
       "kind": "table",
-      "heading": "Quick reference",
+      "heading": "Problem-solving guide",
       "headers": [
-        "Item",
-        "Meaning",
-        "Use"
+        "When you see this",
+        "What to use",
+        "Reason"
       ],
       "rows": [
         [
-          "Line Symmetry",
-          "A central idea in symmetry",
-          "Start by identifying it in the diagram"
+          "A diagram has equal marks",
+          "Use the matching theorem or definition",
+          "Equal marks are information, not decoration."
         ],
         [
-          "Rotational Symmetry",
-          "A related measurement or property",
-          "Use it to choose the correct formula"
+          "A formula is needed",
+          "Identify each variable before substitution",
+          "Most mistakes come from using the wrong length or angle."
         ],
         [
-          "Regular Shapes",
-          "A second related property",
-          "Often needed in multi-step questions"
-        ],
-        [
-          "Units",
-          "Length, area, angle or volume units",
-          "Write the correct unit in the answer"
+          "A proof-style question appears",
+          "Write reasons after each statement",
+          "Geometry answers must be justified."
         ]
       ]
     },
     {
       "kind": "example",
-      "prompt": "A problem gives information about line symmetry and asks for rotational symmetry. Explain the first step.",
+      "prompt": "Find the order of rotational symmetry of a square.",
       "steps": [
-        "List the known values from the diagram.",
-        "Identify the correct relationship or formula.",
-        "Substitute the values carefully before simplifying."
+        "A square matches after 90°, 180°, 270° and 360°.",
+        "That is four positions in one full turn.",
+        "Order is 4."
       ],
-      "answer": "The first step is not calculation; it is choosing the property that connects the given information to the unknown."
+      "answer": "Order 4."
     },
     {
       "kind": "example",
-      "prompt": "Use the key idea of symmetry to solve a missing value problem.",
+      "prompt": "Find the smallest angle of rotation for a regular pentagon.",
       "steps": [
-        "Write the rule: $\\text{order of rotational symmetry}$.",
-        "Substitute the known values from the question.",
-        "Solve the resulting equation or simplify the expression.",
-        "Check that the answer has the correct unit or angle size."
+        "Regular pentagon has order 5.",
+        "Use $360/5$.",
+        "Calculate 72."
       ],
-      "answer": "The final answer should follow logically from the diagram and the formula, not from guessing by appearance."
+      "answer": "$72^\\circ$."
     },
     {
       "kind": "example",
-      "prompt": "A student gets an answer that looks possible by eye. Why is that not enough in symmetry?",
+      "prompt": "How many lines of symmetry does a rectangle that is not a square have?",
       "steps": [
-        "Diagrams are often not drawn to scale.",
-        "A visual estimate can be misleading.",
-        "Use the marked information and theorem instead of measuring the screen."
+        "It has one vertical and one horizontal line through the centre.",
+        "Diagonals do not work unless it is a square.",
+        "So there are 2 lines."
       ],
-      "answer": "Geometry answers must be justified by properties, formulas or proof, not by appearance alone."
+      "answer": "2 lines."
     },
     {
-      "kind": "realWorld",
-      "heading": "Where this is used",
-      "items": [
-        {
-          "area": "Design and architecture",
-          "text": "Symmetry appears in floor plans, elevations, tiling layouts and structural drawings."
-        },
-        {
-          "area": "Engineering",
-          "text": "Accurate geometry prevents parts from being the wrong size, angle or position."
-        },
-        {
-          "area": "Everyday measurement",
-          "text": "Packaging, maps, shadows, patterns and object dimensions use these geometric ideas."
-        }
-      ]
-    },
-    {
-      "kind": "mistakes",
-      "items": [
-        {
-          "wrong": "Trusting a diagram because it looks accurate.",
-          "right": "Use given measurements and marked properties; many exam diagrams are not to scale."
-        },
-        {
-          "wrong": "Forgetting units.",
-          "right": "Angles use degrees; lengths use cm/m; areas use square units; volumes use cubic units."
-        },
-        {
-          "wrong": "Using a formula without checking conditions.",
-          "right": "Every theorem has conditions such as parallel lines, a right angle, a centre or a regular polygon."
-        }
-      ]
+      "kind": "example",
+      "prompt": "A regular hexagon has how many lines of symmetry?",
+      "steps": [
+        "A regular n-gon has n lines of symmetry.",
+        "Here n=6.",
+        "Therefore 6 lines."
+      ],
+      "answer": "6 lines."
     },
     {
       "kind": "practice",
-      "heading": "Practice questions",
+      "heading": "Self-study practice questions",
       "questions": [
         {
-          "prompt": "Which action should come first in a symmetry problem?",
+          "prompt": "A square has rotational symmetry order:",
           "options": [
-            "Guess from the picture",
-            "Identify the given properties",
-            "Write the answer only",
-            "Ignore units"
+            "1",
+            "2",
+            "4",
+            "8"
           ],
-          "answer": 1,
-          "explanation": "Geometry starts with reading the diagram and given facts."
+          "answer": 2,
+          "explanation": "It matches four times in a full turn."
         },
         {
-          "prompt": "Why can a diagram be misleading?",
+          "prompt": "Regular hexagon has lines of symmetry:",
           "options": [
-            "It is always exact",
-            "It may not be drawn to scale",
-            "It has no labels",
-            "It is never useful"
+            "3",
+            "4",
+            "5",
+            "6"
           ],
-          "answer": 1,
-          "explanation": "Diagrams guide reasoning but are often not to scale."
+          "answer": 3,
+          "explanation": "Regular n-gon has n lines."
         },
         {
-          "prompt": "What should appear in a final measurement answer?",
+          "prompt": "A non-square rectangle has lines of symmetry:",
           "options": [
-            "Only a number",
-            "Correct unit",
-            "A random diagram",
-            "No explanation"
+            "0",
+            "1",
+            "2",
+            "4"
           ],
-          "answer": 1,
-          "explanation": "Units show what kind of quantity was found."
+          "answer": 2,
+          "explanation": "Vertical and horizontal midlines."
+        },
+        {
+          "prompt": "Order 6 means smallest angle:",
+          "options": [
+            "30°",
+            "45°",
+            "60°",
+            "90°"
+          ],
+          "answer": 2,
+          "explanation": "$360/6=60$."
+        },
+        {
+          "prompt": "Line symmetry uses:",
+          "options": [
+            "reflection",
+            "translation",
+            "area",
+            "volume"
+          ],
+          "answer": 0,
+          "explanation": "Mirror line/reflection."
+        },
+        {
+          "prompt": "Rotational symmetry uses:",
+          "options": [
+            "turning",
+            "sliding only",
+            "mirror only",
+            "stretching"
+          ],
+          "answer": 0,
+          "explanation": "It is about rotation."
+        },
+        {
+          "prompt": "A circle has lines of symmetry:",
+          "options": [
+            "0",
+            "1",
+            "2",
+            "infinitely many"
+          ],
+          "answer": 3,
+          "explanation": "Any diameter is a symmetry line."
+        },
+        {
+          "prompt": "Equilateral triangle order:",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "6"
+          ],
+          "answer": 2,
+          "explanation": "Matches every 120°."
+        },
+        {
+          "prompt": "Isosceles triangle usually has lines:",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "0"
+          ],
+          "answer": 0,
+          "explanation": "One through vertex and midpoint of base."
+        },
+        {
+          "prompt": "Angle for order 4:",
+          "options": [
+            "45°",
+            "60°",
+            "90°",
+            "180°"
+          ],
+          "answer": 2,
+          "explanation": "$360/4=90$."
         }
       ]
     },
@@ -173,70 +241,196 @@ export const symmetry: LessonContent = {
       "kind": "quiz",
       "questions": [
         {
-          "prompt": "The safest way to solve symmetry problems is to:",
+          "prompt": "A regular pentagon lines of symmetry:",
           "options": [
-            "measure the screen",
-            "use definitions and formulas",
-            "copy a friend's answer",
-            "ignore markings"
+            "3",
+            "4",
+            "5",
+            "6"
           ],
-          "answer": 1,
-          "explanation": "Geometry is based on marked facts and logical rules."
+          "answer": 2,
+          "explanation": "Regular n-gon has n lines."
         },
         {
-          "prompt": "A square unit is used for:",
+          "prompt": "Order of rotational symmetry for circle:",
           "options": [
-            "length",
-            "area",
-            "angle",
-            "mass"
+            "1",
+            "2",
+            "infinite",
+            "0"
           ],
-          "answer": 1,
-          "explanation": "Area is measured in square units."
+          "answer": 2,
+          "explanation": "A circle matches at every angle."
         },
         {
-          "prompt": "A cubic unit is used for:",
+          "prompt": "A parallelogram generally has line symmetry:",
           "options": [
-            "volume",
-            "angle",
-            "speed",
-            "ratio only"
+            "0",
+            "1",
+            "2",
+            "4"
           ],
           "answer": 0,
-          "explanation": "Volume is measured in cubic units."
+          "explanation": "Ordinary parallelogram has no mirror line."
+        },
+        {
+          "prompt": "Rhombus usually has lines along:",
+          "options": [
+            "diagonals",
+            "sides only",
+            "none always",
+            "arcs"
+          ],
+          "answer": 0,
+          "explanation": "Rhombus diagonals are symmetry lines if it is a standard rhombus? In school geometry, a rhombus has symmetry along diagonals only when shaped accordingly; a square has four."
+        },
+        {
+          "prompt": "Regular octagon smallest rotation:",
+          "options": [
+            "45°",
+            "60°",
+            "90°",
+            "120°"
+          ],
+          "answer": 0,
+          "explanation": "$360/8=45$."
+        },
+        {
+          "prompt": "Line symmetry means two halves:",
+          "options": [
+            "match exactly",
+            "have same area only",
+            "different shapes",
+            "are rotated"
+          ],
+          "answer": 0,
+          "explanation": "They mirror each other."
+        },
+        {
+          "prompt": "Rotational order at least:",
+          "options": [
+            "1",
+            "2",
+            "0",
+            "infinite only"
+          ],
+          "answer": 0,
+          "explanation": "Every shape matches after 360°, so order at least 1."
+        },
+        {
+          "prompt": "A capital H has line symmetry?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "answer": 0,
+          "explanation": "It has vertical and horizontal symmetry in block form."
+        },
+        {
+          "prompt": "A regular polygon with 12 sides has rotational order:",
+          "options": [
+            "6",
+            "10",
+            "12",
+            "24"
+          ],
+          "answer": 2,
+          "explanation": "Order equals number of sides."
+        },
+        {
+          "prompt": "Mirror line points are:",
+          "options": [
+            "same perpendicular distance",
+            "same colour only",
+            "random",
+            "always at centre"
+          ],
+          "answer": 0,
+          "explanation": "Reflection distances are equal."
+        }
+      ]
+    },
+    {
+      "kind": "realWorld",
+      "heading": "Where this is used",
+      "items": [
+        {
+          "area": "Architecture",
+          "text": "Geometric reasoning helps check drawings, dimensions and layouts."
+        },
+        {
+          "area": "Engineering",
+          "text": "Shapes and measurements are used to design safe structures."
+        },
+        {
+          "area": "Computer graphics",
+          "text": "Transformations and geometry control images, animations and 3D models."
+        }
+      ]
+    },
+    {
+      "kind": "mistakes",
+      "items": [
+        {
+          "wrong": "Counting 360° as the smallest rotation.",
+          "right": "Order includes the full-turn match, but smallest non-zero match may be less than 360°."
+        },
+        {
+          "wrong": "Assuming equal area halves mean symmetry.",
+          "right": "The halves must match exactly as mirror images."
+        },
+        {
+          "wrong": "Confusing line symmetry and rotational symmetry.",
+          "right": "Line symmetry uses reflection; rotational symmetry uses turning."
+        }
+      ]
+    },
+    {
+      "kind": "flashcards",
+      "cards": [
+        {
+          "front": "Symmetry",
+          "back": "A figure has symmetry if it can be transformed and still match itself exactly."
+        },
+        {
+          "front": "Line symmetry",
+          "back": "Line symmetry: a figure matches itself after reflection in a mirror line."
+        },
+        {
+          "front": "Rotational symmetry",
+          "back": "Rotational symmetry: a figure matches itself after rotation less than $360^\\circ$."
+        },
+        {
+          "front": "Order of rotational symmetry",
+          "back": "Order of rotational symmetry: number of times the figure matches itself in a full turn."
         }
       ]
     },
     {
       "kind": "summary",
       "points": [
-        "Symmetry depends on precise vocabulary and diagram reading.",
-        "Choose the theorem or formula that matches the conditions.",
-        "Show substitutions and units clearly.",
-        "Do not rely only on what a diagram appears to show."
+        "Symmetry is not only memorising formulas; it is about choosing the correct relationship from the diagram.",
+        "Draw or redraw the diagram, mark known values, write the relevant formula, substitute carefully, and check the reasonableness of the answer.",
+        "For exam preparation, practise mixed problems where more than one fact is needed."
       ]
     },
     {
       "kind": "completion",
       "steps": [
         {
-          "key": "learn-key-vocabulary",
-          "label": "Learn key vocabulary"
+          "key": "read-definitions",
+          "label": "Read definitions"
         },
         {
-          "key": "use-the-main-formula",
-          "label": "Use the main formula"
-        },
-        {
-          "key": "solve-examples",
-          "label": "Solve examples"
+          "key": "study-examples",
+          "label": "Study solved examples"
         },
         {
           "key": "complete-practice",
           "label": "Complete practice"
         },
         {
-          "key": "pass-the-quiz",
+          "key": "pass-quiz",
           "label": "Pass the quiz"
         }
       ],
