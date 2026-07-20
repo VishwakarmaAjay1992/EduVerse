@@ -1,5 +1,8 @@
 import type { ScientistProfile } from "./types";
 import { johannesKepler } from "./johannes-kepler";
+import { nicolausCopernicus } from "./nicolaus-copernicus";
+import { jamesClerkMaxwell } from "./james-clerk-maxwell";
+import { nielsBohr } from "./niels-bohr";
 
 export * from "./types";
 
@@ -12,6 +15,9 @@ export * from "./types";
  */
 const PROFILES: Record<string, ScientistProfile> = {
   [johannesKepler.slug]: johannesKepler,
+  [nicolausCopernicus.slug]: nicolausCopernicus,
+  [jamesClerkMaxwell.slug]: jamesClerkMaxwell,
+  [nielsBohr.slug]: nielsBohr,
 };
 
 export function getScientistProfile(slug: string): ScientistProfile | undefined {

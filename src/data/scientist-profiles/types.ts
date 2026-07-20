@@ -140,7 +140,8 @@ export type ChallengeEntry = {
     | "Professional"
     | "Health"
     | "Social"
-    | "Educational";
+    | "Educational"
+    | "Political";
   description: string;
 };
 
@@ -186,6 +187,7 @@ export type PhotoPlaceholder = {
     | "Notebooks"
     | "Instruments"
     | "Historic location"
+    | "Colleagues"
     | "Statue"
     | "Memorial"
     | "Museum exhibit";

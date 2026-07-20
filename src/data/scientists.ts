@@ -1960,6 +1960,330 @@ export const SCIENTISTS: readonly Scientist[] = [
       },
     ],
   },
+  {
+    rank: 27,
+    slug: "nicolaus-copernicus",
+    fullName: "Nicolaus Copernicus",
+    life: "1473–1543",
+    birthplace: "Toruń, Royal Prussia, Kingdom of Poland",
+    primaryFields: ["Astronomy", "Mathematics", "Economics", "Medicine"],
+    headline: "The canon who moved the Earth.",
+    overview: [
+      "Nicolaus Copernicus proposed that the Sun, not the Earth, sits at the centre of the planetary system, and that Earth is a planet turning daily on its axis and circling the Sun once a year. The idea was not new in outline — it had been floated in antiquity — but Copernicus was the first to work it out in full mathematical detail as a serious replacement for Ptolemy.",
+      "He was never a professional astronomer. He was a cathedral canon who practised medicine, administered estates, defended a fortress during war and wrote influential work on currency. Astronomy occupied roughly three decades of his spare time, and he delayed publication until the year he died.",
+    ],
+    knownFor: [
+      "Heliocentric model of the solar system",
+      "De revolutionibus orbium coelestium",
+      "Explaining retrograde motion without epicycles of the Ptolemaic kind",
+      "Ordering the planets correctly by distance",
+      "Early statement of the quantity theory of money",
+    ],
+    earlyLife: [
+      "Copernicus was born into a prosperous merchant family in Toruń. His father died when he was about ten, and his maternal uncle Lucas Watzenrode — later Prince-Bishop of Warmia — became his guardian and the architect of his career, steering him toward a secure church position.",
+      "He studied at Kraków, then Bologna, Padua and Ferrara, accumulating training in mathematics, astronomy, canon law, Greek and medicine. At Bologna he lodged with the astronomer Domenico Maria Novara and assisted with observations, which appears to have been his first serious exposure to practical astronomy.",
+    ],
+    inspiration: [
+      "Copernicus was troubled less by Ptolemy's accuracy than by its inelegance. The Ptolemaic system used equants — points about which motion was uniform but which were not the centre of the orbit — and Copernicus regarded this as a violation of the principle that celestial motion should be genuinely uniform.",
+      "He drew on ancient sources that had proposed a moving Earth, including Aristarchus of Samos, and on Islamic astronomers whose mathematical devices for eliminating the equant closely parallel his own methods.",
+    ],
+    challenges: [
+      "Copernicus had no telescope and no way to detect stellar parallax, which his critics correctly identified as the observational test his theory should pass. His answer — that the stars must be enormously distant — was right but unverifiable for three centuries.",
+      "He held a church office while proposing a cosmology that contradicted the plain reading of several scriptural passages. He delayed publishing for decades, and the book appeared only as he was dying.",
+    ],
+    lawsAndIdeas: [
+      "Heliocentrism: the Sun lies near the centre of the planetary system, and the Earth is one of the planets orbiting it.",
+      "Daily rotation: the apparent turning of the sky is caused by Earth rotating on its axis, not by the heavens revolving around a fixed Earth.",
+      "Retrograde motion: the occasional backward loops of the planets are an effect of Earth overtaking, or being overtaken by, another planet on its own orbit.",
+      "Planetary ordering: the correct sequence outward from the Sun follows from orbital periods, placing Mercury nearest and Saturn furthest among the known planets.",
+    ],
+    contributions: [
+      {
+        title: "Heliocentric system",
+        period: "Developed c.1510–1543",
+        description:
+          "Copernicus set out a Sun-centred model in full technical detail, deriving planetary positions from it rather than merely asserting the arrangement.",
+      },
+      {
+        title: "Relative planetary distances",
+        period: "c.1510–1543",
+        description:
+          "His model allowed planetary distances to be determined relative to the Earth–Sun distance — something the Ptolemaic system could not do.",
+      },
+      {
+        title: "Monetary theory",
+        period: "1517–1526",
+        description:
+          "He wrote on currency debasement, stating that inferior coinage drives good coinage out of circulation and connecting money supply to prices.",
+      },
+    ],
+    definingWork: {
+      title: "De revolutionibus orbium coelestium",
+      date: "1543",
+      description:
+        "A six-book treatise presenting the heliocentric system with the full mathematical apparatus needed to compute planetary positions.",
+      significance:
+        "It provided the first complete technical alternative to Ptolemy and set the agenda for Kepler, Galileo and ultimately Newton.",
+    },
+    artifact: {
+      title: "The heliocentric diagram",
+      date: "1543",
+      kind: "Historic document",
+      description:
+        "The famous diagram from De revolutionibus showing concentric planetary spheres around a central Sun, with Earth as the third sphere out.",
+      significance:
+        "It is the single most reproduced image in the history of astronomy and the visual statement of the Copernican revolution.",
+      image: {
+        fileName: "Copernican heliocentrism diagram-2.jpg",
+        alt: "Copernicus's diagram of the heliocentric system from De revolutionibus",
+        credit: "Nicolaus Copernicus, 1543",
+        license: "Public domain",
+        sourceUrl:
+          "https://commons.wikimedia.org/wiki/File:Copernican_heliocentrism_diagram-2.jpg",
+      },
+    },
+    legacy: [
+      "The Copernican principle — that we do not occupy a privileged position in the universe — remains a guiding assumption across cosmology.",
+      "His system gave Kepler the framework within which elliptical orbits could be discovered.",
+      "The phrase 'Copernican revolution' is now used generally for any reversal of perspective that displaces the observer from the centre.",
+    ],
+    portrait: {
+      fileName: "Nikolaus Kopernikus.jpg",
+      alt: "Portrait of Nicolaus Copernicus",
+      credit: "Toruń portrait, unknown artist",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Nikolaus_Kopernikus.jpg",
+      objectPosition: "50% 25%",
+    },
+    sources: [
+      {
+        label: "Nicolaus Copernicus",
+        url: "https://plato.stanford.edu/entries/copernicus/",
+        publisher: "Stanford Encyclopedia of Philosophy",
+      },
+      {
+        label: "Copernicus biography",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Copernicus/",
+        publisher: "MacTutor History of Mathematics",
+      },
+    ],
+  },
+  {
+    rank: 28,
+    slug: "james-clerk-maxwell",
+    fullName: "James Clerk Maxwell",
+    life: "1831–1879",
+    birthplace: "Edinburgh, Scotland",
+    primaryFields: ["Physics", "Mathematics", "Electromagnetism", "Statistical mechanics"],
+    headline: "The physicist who proved light is electricity and magnetism travelling.",
+    overview: [
+      "James Clerk Maxwell unified electricity, magnetism and light into a single theory. His equations showed that changing electric and magnetic fields sustain one another and propagate as a wave — and that the calculated speed of that wave matched the measured speed of light so closely that the two could not be different phenomena.",
+      "He also founded statistical mechanics alongside Boltzmann, proved that Saturn's rings must be countless separate particles, produced the first colour photograph, and became the first Director of the Cavendish Laboratory. He died at forty-eight, of the same cancer that had killed his mother at the same age.",
+    ],
+    knownFor: [
+      "Maxwell's equations of electromagnetism",
+      "Prediction of electromagnetic waves",
+      "The electromagnetic theory of light",
+      "Maxwell–Boltzmann distribution",
+      "First colour photograph",
+    ],
+    earlyLife: [
+      "Maxwell grew up at Glenlair in rural Galloway, an intensely curious child whose recurring question was 'What's the go o' that?' — and, if the answer was unsatisfying, 'But what's the particular go of it?'. His mother Frances, who directed his early education, died of abdominal cancer when he was eight.",
+      "Sent to Edinburgh Academy, his rural clothes and accent earned him the nickname 'Dafty'. He nevertheless published his first mathematical paper, on a method for drawing oval curves, at fourteen — it had to be read to the Royal Society of Edinburgh on his behalf because he was considered too young to present it himself.",
+    ],
+    inspiration: [
+      "Michael Faraday's experimental work was Maxwell's decisive influence. Faraday had described electric and magnetic effects using lines of force, a picture many mathematicians dismissed as unrigorous. Maxwell took it seriously and set out to give it precise mathematical form.",
+      "He was also driven by a conviction that physical analogies could be genuinely illuminating, building elaborate mechanical models of the electromagnetic field as a way of reasoning toward the equations, then discarding the scaffolding once the mathematics stood on its own.",
+    ],
+    challenges: [
+      "Maxwell's electromagnetic theory was widely regarded as obscure during his lifetime. The mechanical models he used to develop it struck many contemporaries as arbitrary, and the theory gained general acceptance only after Hertz demonstrated electromagnetic waves in 1887 — eight years after Maxwell's death.",
+      "His post at King's College London and later the founding of the Cavendish Laboratory both required substantial administrative and teaching effort at the expense of research time.",
+    ],
+    lawsAndIdeas: [
+      "Gauss's law: electric field lines originate on positive charge and terminate on negative charge, so the electric flux through a closed surface is proportional to the enclosed charge.",
+      "Gauss's law for magnetism: there are no magnetic monopoles, so the net magnetic flux through any closed surface is zero.",
+      "Faraday's law: a changing magnetic field induces a circulating electric field.",
+      "Ampère–Maxwell law: an electric current or a changing electric field produces a circulating magnetic field. The second term was Maxwell's own addition and is what makes electromagnetic waves possible.",
+    ],
+    contributions: [
+      {
+        title: "Electromagnetic theory",
+        period: "1861–1873",
+        description:
+          "Maxwell unified electricity and magnetism into a single field theory and showed that it predicts self-propagating waves travelling at the speed of light.",
+      },
+      {
+        title: "Kinetic theory of gases",
+        period: "1859–1867",
+        description:
+          "He derived the statistical distribution of molecular speeds in a gas, introducing probability into fundamental physics for the first time.",
+      },
+      {
+        title: "Saturn's rings",
+        period: "1856–1859",
+        description:
+          "Maxwell proved mathematically that the rings could be neither solid nor fluid, and must consist of enormous numbers of independent particles.",
+      },
+    ],
+    definingWork: {
+      title: "A Treatise on Electricity and Magnetism",
+      date: "1873",
+      description:
+        "Maxwell's comprehensive two-volume presentation of electromagnetic theory, including the field equations and the electromagnetic account of light.",
+      significance:
+        "It is the foundation of classical field theory and the direct ancestor of special relativity and modern communications technology.",
+    },
+    artifact: {
+      title: "The tartan ribbon photograph",
+      date: "1861",
+      kind: "Original",
+      description:
+        "The world's first colour photograph, made by photographing a tartan ribbon three times through red, green and blue filters and projecting the results in superposition.",
+      significance:
+        "It demonstrated the three-colour principle of human vision and established the basis of all subsequent colour imaging.",
+      image: {
+        fileName: "Tartan Ribbon.jpg",
+        alt: "Maxwell's 1861 tartan ribbon, the first colour photograph",
+        credit: "Thomas Sutton for James Clerk Maxwell, 1861",
+        license: "Public domain",
+        sourceUrl: "https://commons.wikimedia.org/wiki/File:Tartan_Ribbon.jpg",
+      },
+    },
+    legacy: [
+      "Every radio, television, mobile phone, radar and wireless network operates on the electromagnetic waves Maxwell predicted.",
+      "The constancy of the wave speed in his equations was the puzzle that led Einstein to special relativity.",
+      "Maxwell's field concept became the template for the gauge field theories that describe all known fundamental forces.",
+    ],
+    portrait: {
+      fileName: "James Clerk Maxwell.png",
+      alt: "Portrait photograph of James Clerk Maxwell",
+      credit: "Unknown photographer",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:James_Clerk_Maxwell.png",
+      objectPosition: "50% 20%",
+    },
+    sources: [
+      {
+        label: "James Clerk Maxwell",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Maxwell/",
+        publisher: "MacTutor History of Mathematics",
+      },
+      {
+        label: "Maxwell and the Cavendish",
+        url: "https://www.phy.cam.ac.uk/about/history",
+        publisher: "Cavendish Laboratory, University of Cambridge",
+      },
+    ],
+  },
+  {
+    rank: 29,
+    slug: "niels-bohr",
+    fullName: "Niels Henrik David Bohr",
+    life: "1885–1962",
+    birthplace: "Copenhagen, Denmark",
+    primaryFields: ["Physics", "Quantum theory", "Atomic structure"],
+    headline: "The architect of the quantum atom and of the argument about what it means.",
+    overview: [
+      "Niels Bohr proposed that electrons occupy only certain permitted orbits around a nucleus and emit or absorb light when they jump between them. The model explained the hydrogen spectrum with startling precision and made quantisation a physical fact about atoms rather than a mathematical trick.",
+      "He then spent four decades shaping what quantum mechanics means. His principle of complementarity, his institute in Copenhagen and his long public argument with Einstein defined how physicists interpret the theory. He also escaped Nazi-occupied Denmark by fishing boat, worked on the Manhattan Project, and campaigned unsuccessfully for international openness about nuclear weapons.",
+    ],
+    knownFor: [
+      "The Bohr model of the atom",
+      "Quantised electron orbits and energy levels",
+      "The principle of complementarity",
+      "The Copenhagen interpretation",
+      "Liquid-drop model and the theory of nuclear fission",
+    ],
+    earlyLife: [
+      "Bohr grew up in an intellectually formidable Copenhagen household. His father Christian was a professor of physiology twice nominated for the Nobel Prize; his mother Ellen came from a prominent Jewish banking family. Scientific and philosophical debate at the family dinner table was routine.",
+      "He and his younger brother Harald, who became a distinguished mathematician, were both serious footballers. Harald won an Olympic silver medal with the Danish team in 1908; Niels kept goal for Akademisk Boldklub, where he acquired a reputation for being distracted by mathematical problems during quiet spells in play.",
+    ],
+    inspiration: [
+      "Ernest Rutherford's 1911 nuclear atom was the direct provocation. Rutherford's model was experimentally compelling but classically impossible: an orbiting electron should radiate energy continuously and spiral into the nucleus within a fraction of a second.",
+      "Bohr's resolution came when he connected the problem to the spectral formula that Balmer and Rydberg had extracted from hydrogen's emission lines. Combining Planck's quantum with those empirical numbers produced a model that reproduced the spectrum exactly.",
+    ],
+    challenges: [
+      "The Bohr model worked beautifully for hydrogen and failed for every atom with more than one electron. Bohr knew this and treated the model as a provisional step rather than a finished theory — a stance that frustrated colleagues wanting either rigour or retraction.",
+      "As Denmark fell under German occupation and his own maternal Jewish ancestry put him at risk, Bohr escaped in 1943 by fishing boat to Sweden and then in the bomb bay of an RAF Mosquito to Britain, losing consciousness in flight because his helmet did not fit and he missed the order to turn on his oxygen.",
+    ],
+    lawsAndIdeas: [
+      "Quantised orbits: electrons occupy only certain permitted orbits in which they do not radiate, contrary to classical electromagnetism.",
+      "Quantum jumps: light is emitted or absorbed only when an electron moves between permitted orbits, with photon energy equal to the difference between the two levels.",
+      "Angular momentum quantisation: the orbital angular momentum of an electron is an integer multiple of the reduced Planck constant.",
+      "Complementarity: wave and particle descriptions are both necessary and mutually exclusive; which one applies depends on the experiment performed.",
+      "Correspondence principle: quantum predictions must converge on classical results in the limit of large quantum numbers.",
+    ],
+    contributions: [
+      {
+        title: "The Bohr model",
+        period: "1913",
+        description:
+          "Bohr's three-part paper introduced quantised orbits and quantum jumps, deriving the hydrogen spectrum from first principles.",
+      },
+      {
+        title: "Complementarity and the Copenhagen interpretation",
+        period: "1927 onwards",
+        description:
+          "He argued that apparently contradictory descriptions are complementary aspects of a single reality, framing the dominant interpretation of quantum mechanics.",
+      },
+      {
+        title: "Nuclear fission theory",
+        period: "1939",
+        description:
+          "With John Wheeler he applied the liquid-drop model to fission and identified uranium-235 as the isotope responsible for slow-neutron fission.",
+      },
+    ],
+    definingWork: {
+      title: "On the Constitution of Atoms and Molecules",
+      date: "1913",
+      description:
+        "The three-part paper, often called the trilogy, in which Bohr set out quantised electron orbits and derived the observed hydrogen spectrum.",
+      significance:
+        "It made quantisation a structural fact about matter and opened the path to the full quantum mechanics of the 1920s.",
+    },
+    artifact: {
+      title: "Bohr and Einstein in debate",
+      date: "1925",
+      kind: "Historic document",
+      description:
+        "Paul Ehrenfest's photograph of Bohr and Einstein in discussion, taken during the years of their sustained argument over the completeness of quantum mechanics.",
+      significance:
+        "It records the most productive disagreement in twentieth-century physics, which sharpened the foundations of quantum theory for both sides.",
+      image: {
+        fileName: "Niels Bohr Albert Einstein by Ehrenfest.jpg",
+        alt: "Photograph of Niels Bohr and Albert Einstein in conversation",
+        credit: "Paul Ehrenfest",
+        license: "Public domain",
+        sourceUrl:
+          "https://commons.wikimedia.org/wiki/File:Niels_Bohr_Albert_Einstein_by_Ehrenfest.jpg",
+      },
+    },
+    legacy: [
+      "The quantised energy-level picture underlies all of chemistry, spectroscopy, lasers and semiconductor physics.",
+      "His institute in Copenhagen trained much of the generation that built quantum mechanics, and the Copenhagen interpretation remains the default teaching account.",
+      "Element 107, bohrium, is named in his honour.",
+    ],
+    portrait: {
+      fileName: "Niels Bohr.jpg",
+      alt: "Portrait photograph of Niels Bohr",
+      credit: "Unknown photographer",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Niels_Bohr.jpg",
+      objectPosition: "50% 20%",
+    },
+    sources: [
+      {
+        label: "Niels Bohr — facts",
+        url: "https://www.nobelprize.org/prizes/physics/1922/bohr/facts/",
+        publisher: "Nobel Prize",
+      },
+      {
+        label: "Copenhagen interpretation",
+        url: "https://plato.stanford.edu/entries/qm-copenhagen/",
+        publisher: "Stanford Encyclopedia of Philosophy",
+      },
+    ],
+  },
 ] as const;
 
 export function getScientist(slug: string) {
