@@ -42,6 +42,7 @@ import { solidsLiquidsGasesAndDensity } from "@/content/physics/solids-liquids-g
 import { equationsOfMotion } from "@/content/physics/equations-of-motion";
 import { vectorsInKinematics } from "@/content/physics/vectors-in-kinematics";
 import { projectileMotion } from "@/content/physics/projectile-motion";
+import { alternatingCurrent } from "@/content/physics/alternating-current";
 import { mixedNumbersAndImproperFractions } from "@/content/mathematics/mixed-numbers-and-improper-fractions";
 import { multiplicationAndDivision } from "@/content/mathematics/multiplication-and-division";
 import { multiplyingAndDividingFractions } from "@/content/mathematics/multiplying-and-dividing-fractions";
@@ -184,6 +185,7 @@ const REGISTRY: LessonContent[] = [
   equationsOfMotion,
   vectorsInKinematics,
   projectileMotion,
+  alternatingCurrent,
 ];
 
 export function getLessonContent(
