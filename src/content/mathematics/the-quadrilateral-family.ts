@@ -418,6 +418,21 @@ export const theQuadrilateralFamily: LessonContent = {
       ]
     },
     {
+      "kind": "table",
+      "heading": "Quick reference notes: quadrilaterals",
+      "headers": ["Figure", "Typed note"],
+      "rows": [
+        ["Quadrilateral", "A quadrilateral is a closed figure with four sides, and its angle sum is $360^\circ$."],
+        ["Cyclic quadrilateral", "If all vertices lie on a circle, opposite angles are supplementary."],
+        ["Parallelogram", "Opposite sides are parallel and equal, opposite angles are equal, and diagonals bisect each other."],
+        ["Rhombus", "All sides are equal. Its diagonals are perpendicular bisectors."],
+        ["Rectangle", "All angles are right angles. Its diagonals are equal."],
+        ["Square", "A square has four equal sides and four right angles. Its diagonals are equal, perpendicular and bisect each other."],
+        ["Trapezium", "A trapezium has one pair of parallel sides."],
+        ["Area fact", "Figures on the same base and between the same parallels have equal height relationships useful in proofs." ]
+      ]
+    },
+    {
       "kind": "summary",
       "points": [
         "The Quadrilateral Family is not only memorising formulas; it is about choosing the correct relationship from the diagram.",

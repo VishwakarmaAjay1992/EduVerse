@@ -7,11 +7,23 @@ const ALG = "HS256";
 const encoder = new TextEncoder();
 
 function accessKey(): Uint8Array {
-  return encoder.encode(getConfig().JWT_ACCESS_SECRET);
+  const secret = getConfig().JWT_ACCESS_SECRET;
+  if (!secret) {
+    throw new Error(
+      "JWT_ACCESS_SECRET is not configured. Set it in your environment before using auth helpers.",
+    );
+  }
+  return encoder.encode(secret);
 }
 
 function refreshKey(): Uint8Array {
-  return encoder.encode(getConfig().JWT_REFRESH_SECRET);
+  const secret = getConfig().JWT_REFRESH_SECRET;
+  if (!secret) {
+    throw new Error(
+      "JWT_REFRESH_SECRET is not configured. Set it in your environment before using auth helpers.",
+    );
+  }
+  return encoder.encode(secret);
 }
 
 /** Issue a short-lived access token. */

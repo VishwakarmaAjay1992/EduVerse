@@ -164,6 +164,7 @@ export type LessonSection =
   | { kind: "arithmeticSequenceExplorer"; heading?: string }
   | { kind: "geometricSequenceExplorer"; heading?: string }
   | { kind: "recursiveSequenceExplorer"; heading?: string }
+  | { kind: "imageGallery"; heading?: string; note?: string; images: { src: string; alt: string; caption?: string }[] }
   | { kind: "history"; paragraphs: string[] };
 
 export interface LessonContent {

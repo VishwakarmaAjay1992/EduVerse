@@ -12,6 +12,7 @@ import { theParabolaAsAConic } from "@/content/mathematics/the-parabola-as-a-con
 import { ellipseAndHyperbola } from "@/content/mathematics/ellipse-and-hyperbola";
 import { pointsLinesPlanesAndAngles } from "@/content/mathematics/points-lines-planes-and-angles";
 import { angleRelationships } from "@/content/mathematics/angle-relationships";
+import { geometryVisualProofsAndFormulaGuide } from "@/content/mathematics/geometry-visual-proofs-and-formula-guide";
 import { radiansAndTheUnitCircle } from "@/content/mathematics/radians-and-the-unit-circle";
 import { fundamentalIdentities } from "@/content/mathematics/fundamental-identities";
 import { compoundAndDoubleAngleFormulas } from "@/content/mathematics/compound-and-double-angle-formulas";
@@ -42,6 +43,7 @@ import { solidsLiquidsGasesAndDensity } from "@/content/physics/solids-liquids-g
 import { equationsOfMotion } from "@/content/physics/equations-of-motion";
 import { vectorsInKinematics } from "@/content/physics/vectors-in-kinematics";
 import { projectileMotion } from "@/content/physics/projectile-motion";
+import { alternatingCurrent } from "@/content/physics/alternating-current";
 import { mixedNumbersAndImproperFractions } from "@/content/mathematics/mixed-numbers-and-improper-fractions";
 import { multiplicationAndDivision } from "@/content/mathematics/multiplication-and-division";
 import { multiplyingAndDividingFractions } from "@/content/mathematics/multiplying-and-dividing-fractions";
@@ -90,6 +92,7 @@ import { exponentialAndLogarithmicEquations } from "@/content/mathematics/expone
 import { arithmeticSequencesAndSeries } from "@/content/mathematics/arithmetic-sequences-and-series";
 import { geometricSequencesAndSeries } from "@/content/mathematics/geometric-sequences-and-series";
 import { recursiveAndSpecialSequences } from "@/content/mathematics/recursive-and-special-sequences";
+import { permutationsAndCombinations } from "@/content/mathematics/permutations-and-combinations";
 import type { LessonContent } from "./lesson-content-types";
 
 const REGISTRY: LessonContent[] = [
@@ -144,6 +147,7 @@ const REGISTRY: LessonContent[] = [
   arithmeticSequencesAndSeries,
   geometricSequencesAndSeries,
   recursiveAndSpecialSequences,
+  permutationsAndCombinations,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
   solvingOneStepAndTwoStepEquations,
@@ -154,6 +158,7 @@ const REGISTRY: LessonContent[] = [
   ellipseAndHyperbola,
   pointsLinesPlanesAndAngles,
   angleRelationships,
+  geometryVisualProofsAndFormulaGuide,
   trianglesAndTheirAngles,
   thePythagoreanTheorem,
   congruentTriangles,
@@ -184,6 +189,7 @@ const REGISTRY: LessonContent[] = [
   equationsOfMotion,
   vectorsInKinematics,
   projectileMotion,
+  alternatingCurrent,
 ];
 
 export function getLessonContent(

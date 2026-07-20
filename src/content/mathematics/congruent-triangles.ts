@@ -412,6 +412,19 @@ export const congruentTriangles: LessonContent = {
       ]
     },
     {
+      "kind": "table",
+      "heading": "Quick reference notes: congruent triangles",
+      "headers": ["Condition", "Meaning"],
+      "rows": [
+        ["SSS", "All three corresponding sides are equal."],
+        ["SAS", "Two corresponding sides and the included angle are equal."],
+        ["ASA / AAS", "Two angles and a corresponding side are equal."],
+        ["RHS", "For right triangles, the hypotenuse and one corresponding side are equal."],
+        ["Key reminder", "In congruent triangles, corresponding sides and corresponding angles are equal." ]
+      ],
+      "note": "Use the correct order of vertices when writing a congruency statement."
+    },
+    {
       "kind": "summary",
       "points": [
         "Congruent Triangles is not only memorising formulas; it is about choosing the correct relationship from the diagram.",

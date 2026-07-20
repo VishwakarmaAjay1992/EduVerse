@@ -10,11 +10,21 @@ export const envSchema = z.object({
   APP_URL: z.string().url().default("http://localhost:3000"),
   LOG_LEVEL: z.enum(["fatal", "error", "warn", "info", "debug", "trace", "silent"]).default("info"),
 
-  DATABASE_URL: z.string().min(1, "DATABASE_URL is required"),
-  REDIS_URL: z.string().min(1, "REDIS_URL is required"),
+  // Phase 1 (the static content site) does not touch these at runtime, so they
+  // are optional. When Phase 2 lands (DB/Redis/auth actually wired up), any
+  // code path that calls getPrisma/getRedis/JWT helpers should assert these
+  // are set — tighten this schema back to required at that point.
+  DATABASE_URL: z.string().min(1).optional(),
+  REDIS_URL: z.string().min(1).optional(),
 
-  JWT_ACCESS_SECRET: z.string().min(16, "JWT_ACCESS_SECRET must be at least 16 characters"),
-  JWT_REFRESH_SECRET: z.string().min(16, "JWT_REFRESH_SECRET must be at least 16 characters"),
+  JWT_ACCESS_SECRET: z
+    .string()
+    .min(16, "JWT_ACCESS_SECRET must be at least 16 characters")
+    .optional(),
+  JWT_REFRESH_SECRET: z
+    .string()
+    .min(16, "JWT_REFRESH_SECRET must be at least 16 characters")
+    .optional(),
   JWT_ACCESS_TTL: z.coerce.number().int().positive().default(900),
   JWT_REFRESH_TTL: z.coerce.number().int().positive().default(2_592_000),
 

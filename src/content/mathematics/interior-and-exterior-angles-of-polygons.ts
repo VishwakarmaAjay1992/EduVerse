@@ -419,6 +419,19 @@ export const interiorAndExteriorAnglesOfPolygons: LessonContent = {
       ]
     },
     {
+      "kind": "table",
+      "heading": "Quick reference notes: polygons",
+      "headers": ["Topic", "Typed note"],
+      "rows": [
+        ["Polygon", "A polygon is a closed figure made of straight line segments."],
+        ["Convex polygon", "All interior angles are less than $180^\circ$ and every diagonal lies inside the polygon."],
+        ["Concave polygon", "At least one interior angle is greater than $180^\circ$, so part of the figure bends inward."],
+        ["Interior-angle sum", "For an $n$-sided polygon, the sum is $(n-2)\times180^\circ$."],
+        ["Exterior-angle sum", "The sum of one exterior angle at each vertex of any polygon is $360^\circ$."],
+        ["Regular polygon", "A regular polygon has all sides equal and all angles equal." ]
+      ]
+    },
+    {
       "kind": "summary",
       "points": [
         "Interior and Exterior Angles of Polygons is not only memorising formulas; it is about choosing the correct relationship from the diagram.",

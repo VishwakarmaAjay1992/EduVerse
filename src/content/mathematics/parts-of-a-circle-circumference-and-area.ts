@@ -426,6 +426,29 @@ export const partsOfACircleCircumferenceAndArea: LessonContent = {
       ]
     },
     {
+      "kind": "table",
+      "heading": "Quick reference notes: circle basics",
+      "headers": ["Circle term", "Typed note"],
+      "rows": [
+        ["Radius and diameter", "A radius joins the centre to the circle. A diameter is twice the radius."],
+        ["Chord", "A chord joins any two points on a circle. The longest chord is the diameter."],
+        ["Arc and sector", "An arc is part of the circumference, and a sector is the region bounded by two radii and an arc."],
+        ["Circumference", "Circumference = $2\pi r = \pi d$."],
+        ["Area", "Area of a circle = $\pi r^2$."],
+        ["Arc length", "Arc length = $\dfrac{\theta}{360^\circ} \times 2\pi r$."],
+        ["Sector area", "Sector area = $\dfrac{\theta}{360^\circ} \times \pi r^2$."],
+        ["Useful theorem", "The perpendicular from the centre to a chord bisects the chord." ]
+      ]
+    },
+    {
+      "kind": "imageGallery",
+      "heading": "Recreated visual extension",
+      "note": "This recreated diagram helps students see why the circle area formula works.",
+      "images": [
+        { "src": "/geometry-recreated/visual-proofs/visual-proof-04.svg", "alt": "Recreated circle area sector rearrangement", "caption": "Recreated circle sectors rearranged into a near-rectangle, giving the idea behind $A=\pi r^2$." }
+      ]
+    },
+    {
       "kind": "summary",
       "points": [
         "Parts of a Circle, Circumference and Area is not only memorising formulas; it is about choosing the correct relationship from the diagram.",

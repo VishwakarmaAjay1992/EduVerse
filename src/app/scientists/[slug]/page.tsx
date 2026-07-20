@@ -14,11 +14,13 @@ import {
   Telescope,
 } from "lucide-react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { ScientistProfileSections } from "@/components/scientists/profile-sections";
 import { ScientistImage } from "@/components/scientists/scientist-image";
 import { SiteHeader } from "@/components/site-header";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { getScientistProfile } from "@/data/scientist-profiles";
 import { SCIENTISTS, getScientist } from "@/data/scientists";
 
 export function generateStaticParams() {
@@ -48,6 +50,7 @@ export default async function ScientistProfilePage({
   const { slug } = await params;
   const scientist = getScientist(slug);
   if (!scientist) notFound();
+  const profile = getScientistProfile(slug);
 
   const index = SCIENTISTS.findIndex((item) => item.slug === slug);
   const previous = index > 0 ? SCIENTISTS[index - 1] : undefined;
@@ -323,6 +326,8 @@ export default async function ScientistProfilePage({
                   ))}
                 </div>
               </section>
+
+              {profile ? <ScientistProfileSections profile={profile} /> : null}
             </div>
 
             <aside className="space-y-6 lg:sticky lg:top-20 lg:self-start">

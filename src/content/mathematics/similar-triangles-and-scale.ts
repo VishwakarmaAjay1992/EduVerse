@@ -414,6 +414,28 @@ export const similarTrianglesAndScale: LessonContent = {
       ]
     },
     {
+      "kind": "table",
+      "heading": "Quick reference notes: similarity",
+      "headers": ["Idea", "Typed note"],
+      "rows": [
+        ["AA / AAA", "If two angles of one triangle equal two angles of another, the triangles are similar."],
+        ["SAS similarity", "Two pairs of corresponding sides are proportional and the included angle is equal."],
+        ["SSS similarity", "All three pairs of corresponding sides are in the same ratio."],
+        ["Basic proportionality theorem", "A line parallel to one side of a triangle divides the other two sides proportionally."],
+        ["Midpoint theorem", "The segment joining the midpoints of two sides is parallel to the third side and half its length."],
+        ["Area ratio", "Areas of similar triangles are in the ratio of the squares of corresponding sides."],
+        ["Apollonius theorem", "If $AD$ is a median, then $2(AD^2+BD^2)=AB^2+AC^2$." ]
+      ]
+    },
+    {
+      "kind": "imageGallery",
+      "heading": "Recreated visual extension",
+      "note": "This recreated proof broadens the triangle relationships used with non-right triangles.",
+      "images": [
+        { "src": "/geometry-recreated/visual-proofs/visual-proof-12.svg", "alt": "Recreated law of cosines visual proof", "caption": "A proof-without-words diagram for the Law of Cosines, useful when similarity and non-right-triangle relationships appear together." }
+      ]
+    },
+    {
       "kind": "summary",
       "points": [
         "Similar Triangles and Scale is not only memorising formulas; it is about choosing the correct relationship from the diagram.",

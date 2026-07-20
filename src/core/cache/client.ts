@@ -7,7 +7,14 @@ const globalForRedis = globalThis as unknown as { redis?: Redis };
 export function getRedis(): Redis {
   if (globalForRedis.redis) return globalForRedis.redis;
 
-  const client = new Redis(getConfig().REDIS_URL, {
+  const url = getConfig().REDIS_URL;
+  if (!url) {
+    throw new Error(
+      "REDIS_URL is not configured. Set it in your environment before using cache helpers.",
+    );
+  }
+
+  const client = new Redis(url, {
     maxRetriesPerRequest: 3,
     lazyConnect: true,
   });

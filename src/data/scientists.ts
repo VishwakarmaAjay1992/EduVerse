@@ -1848,6 +1848,118 @@ export const SCIENTISTS: readonly Scientist[] = [
       { label: "Chandra Observatory namesake", url: "https://chandra.harvard.edu/about/chandra.html", publisher: "NASA Chandra X-ray Center" },
     ],
   },
+  {
+    rank: 26,
+    slug: "johannes-kepler",
+    fullName: "Johannes Kepler",
+    life: "1571–1630",
+    birthplace: "Weil der Stadt, Duchy of Württemberg, Holy Roman Empire",
+    primaryFields: ["Astronomy", "Mathematics", "Optics", "Physics"],
+    headline: "The man who broke the circle and gave the planets their true shape.",
+    overview: [
+      "Johannes Kepler replaced two thousand years of circular planetary theory with three precise mathematical laws. Working from Tycho Brahe's observations, he showed that planets travel on ellipses, sweep equal areas in equal times, and obey a fixed relationship between orbital period and distance from the Sun.",
+      "He was equally serious as an optician and a mathematician: he explained how the eye forms images, designed an improved telescope still called the Keplerian design, and posed a sphere-packing conjecture that remained open for nearly four centuries. He did all of this while being expelled from cities for his faith and defending his mother against a capital witchcraft charge.",
+    ],
+    knownFor: [
+      "Three laws of planetary motion",
+      "Elliptical orbits replacing circles",
+      "The Keplerian refracting telescope",
+      "Rudolphine Tables",
+      "The Kepler conjecture on sphere packing",
+    ],
+    earlyLife: [
+      "Kepler was born prematurely into a struggling family in the free imperial city of Weil der Stadt. His father Heinrich was a mercenary who left when Johannes was about five and never returned. His mother Katharina, an innkeeper's daughter and herbalist, showed him the Great Comet of 1577 and a lunar eclipse in 1580 — sights he still recalled vividly in adulthood.",
+      "A childhood bout of smallpox left him with weakened eyesight and damaged hands, closing off practical observing but not mathematics. Scholarships carried him through Lutheran schools to the University of Tübingen, where he studied for the ministry until his teacher Michael Maestlin privately introduced him to Copernican astronomy.",
+    ],
+    inspiration: [
+      "Kepler's driving conviction was theological as much as scientific: he believed God had built the cosmos on a geometric plan, and that finding the plan was an act of worship. His first book tried to explain planetary distances using the five Platonic solids nested inside one another — a beautiful idea that turned out to be wrong, but which won him the attention of Europe's leading astronomers.",
+      "The decisive influence was Tycho Brahe's data. Tycho had spent decades recording planetary positions to an accuracy no one had matched, and Kepler recognised that this precision could settle questions that philosophy alone could not.",
+    ],
+    challenges: [
+      "As a committed Lutheran in Counter-Reformation territory, Kepler was repeatedly expelled or threatened with expulsion. He also refused to sign the Formula of Concord, which cost him communion with his own Lutheran church — leaving him distrusted by both Catholics and Protestants.",
+      "Between 1615 and 1621 his mother Katharina was accused of witchcraft. Kepler suspended much of his work to conduct her legal defence. She spent fourteen months imprisoned and was shown the instruments of torture before being released; she died months afterwards.",
+    ],
+    lawsAndIdeas: [
+      "Kepler's First Law: the orbit of a planet is an ellipse with the Sun at one focus, not a circle or a combination of circles.",
+      "Kepler's Second Law: a line joining a planet and the Sun sweeps out equal areas in equal intervals of time, so planets move faster when nearer the Sun.",
+      "Kepler's Third Law: the square of a planet's orbital period is proportional to the cube of the semi-major axis of its orbit, written T² ∝ a³.",
+      "Kepler's conjecture: no arrangement of equally sized spheres packs space more densely than the familiar face-centred cubic stacking used for oranges — proposed in 1611 and only proved in modern times.",
+    ],
+    contributions: [
+      {
+        title: "Laws of planetary motion",
+        period: "1609 and 1619",
+        description:
+          "Kepler derived three quantitative laws from Tycho Brahe's observations, abandoning circular orbits and giving astronomy its first genuinely predictive physical model.",
+      },
+      {
+        title: "Optics and vision",
+        period: "1604–1611",
+        description:
+          "He explained that the eye's lens projects an inverted image onto the retina, analysed refraction, and described the two-convex-lens telescope design now named after him.",
+      },
+      {
+        title: "Rudolphine Tables",
+        period: "Published 1627",
+        description:
+          "Kepler completed Tycho's planetary tables using his own elliptical model, producing predictions roughly thirty times more accurate than anything previously available.",
+      },
+    ],
+    definingWork: {
+      title: "Astronomia Nova",
+      date: "1609",
+      description:
+        "Kepler's account of his long struggle with the orbit of Mars, in which he abandoned circular motion and established his first two laws of planetary motion.",
+      significance:
+        "It is the first major work to treat planetary motion as a physical problem with real causes rather than a geometrical bookkeeping exercise.",
+    },
+    artifact: {
+      title: "Rudolphine Tables frontispiece",
+      date: "1627",
+      kind: "Historic document",
+      description:
+        "The engraved frontispiece depicts a temple of astronomy whose pillars represent the observers Kepler built upon, with Tycho Brahe and Copernicus among them.",
+      significance:
+        "It is a deliberate public statement that modern astronomy stands on accumulated observation, and it contains one of the few contemporary depictions of Kepler himself.",
+      image: {
+        fileName: "Rudolphine Tables.jpg",
+        alt: "Engraved frontispiece of Kepler's Rudolphine Tables of 1627",
+        credit: "Johannes Kepler, 1627",
+        license: "Public domain",
+        sourceUrl: "https://commons.wikimedia.org/wiki/File:Rudolphine_Tables.jpg",
+      },
+    },
+    legacy: [
+      "Kepler's laws are still the working description of orbital motion for planets, moons, satellites and exoplanets.",
+      "Newton showed that all three laws follow from universal gravitation, making Kepler's work the empirical foundation of classical mechanics.",
+      "NASA's Kepler space telescope, which discovered thousands of exoplanets, was named in his honour.",
+    ],
+    portrait: {
+      fileName: "JKepler.jpg",
+      alt: "Portrait of Johannes Kepler",
+      credit: "Unknown artist",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:JKepler.jpg",
+      objectPosition: "50% 20%",
+    },
+    sources: [
+      {
+        label: "Johannes Kepler",
+        url: "https://plato.stanford.edu/entries/kepler/",
+        publisher: "Stanford Encyclopedia of Philosophy",
+      },
+      {
+        label: "Kepler biography",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/",
+        publisher: "MacTutor History of Mathematics",
+      },
+      {
+        label: "Kepler mission namesake",
+        url: "https://science.nasa.gov/mission/kepler/",
+        publisher: "NASA",
+      },
+    ],
+  },
 ] as const;
 
 export function getScientist(slug: string) {

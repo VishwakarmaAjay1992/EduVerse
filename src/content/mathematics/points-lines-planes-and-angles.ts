@@ -162,6 +162,20 @@ export const pointsLinesPlanesAndAngles: LessonContent = {
       ],
     },
     {
+      "kind": "theory",
+      "heading": "Quick reference notes: geometry foundations",
+      "paragraphs": [
+        "A point marks an exact position. A line extends without end in both directions. A line segment is a part of a line with two endpoints, while a ray starts at one endpoint and extends endlessly in one direction.",
+        "An angle is formed by two rays from a common point. Acute angles are less than $90^\circ$, right angles equal $90^\circ$, obtuse angles lie between $90^\circ$ and $180^\circ$, straight angles equal $180^\circ$, and reflex angles lie between $180^\circ$ and $360^\circ$."
+      ],
+      "list": [
+        "A line contains infinitely many points.",
+        "Angles on a straight line sum to $180^\circ$.",
+        "Angles around a point sum to $360^\circ$.",
+        "Two distinct lines in a plane cannot have more than one common point."
+      ]
+    },
+    {
       kind: "summary",
       points: [
         "Points, lines and planes are the undefined building blocks of geometry.",

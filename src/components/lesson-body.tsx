@@ -797,6 +797,33 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
           )}
         </figure>
       );
+
+    case "imageGallery":
+      return (
+        <div className="space-y-3">
+          {section.heading && <h3 className="text-lg font-semibold">{rich(section.heading)}</h3>}
+          {section.note && <p className="text-sm leading-7 text-muted-foreground">{rich(section.note)}</p>}
+          <div className="grid gap-4 md:grid-cols-2">
+            {section.images.map((image, i) => (
+              <figure key={i} className="overflow-hidden rounded-xl border bg-card shadow-sm">
+                <div className="bg-gradient-to-br from-primary/10 via-emerald-500/10 to-amber-500/10 p-3">
+                  <img
+                    src={image.src}
+                    alt={image.alt}
+                    loading="lazy"
+                    className="mx-auto max-h-[560px] w-full rounded-lg object-contain bg-white"
+                  />
+                </div>
+                {image.caption && (
+                  <figcaption className="border-t px-4 py-3 text-sm leading-6 text-muted-foreground">
+                    {rich(image.caption)}
+                  </figcaption>
+                )}
+              </figure>
+            ))}
+          </div>
+        </div>
+      );
     case "history":
       return (
         <div className="space-y-3">

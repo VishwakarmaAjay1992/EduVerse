@@ -419,6 +419,21 @@ export const circleTheoremsAndProofs: LessonContent = {
       ]
     },
     {
+      "kind": "table",
+      "heading": "Quick reference notes: circle theorems",
+      "headers": ["Theorem", "Typed note"],
+      "rows": [
+        ["Chord bisector theorem", "The perpendicular from the centre to a chord bisects the chord."],
+        ["Equal chords", "Equal chords are equidistant from the centre and subtend equal angles at the centre."],
+        ["Angle at the centre", "The angle at the centre is twice the angle at the circumference standing on the same arc."],
+        ["Same segment theorem", "Angles in the same segment of a circle are equal."],
+        ["Semicircle theorem", "The angle in a semicircle is a right angle."],
+        ["Cyclic quadrilateral", "Opposite angles of a cyclic quadrilateral are supplementary."],
+        ["Tangent-radius theorem", "A tangent is perpendicular to the radius at the point of contact."],
+        ["Equal tangents", "Tangents drawn from the same external point are equal in length." ]
+      ]
+    },
+    {
       "kind": "summary",
       "points": [
         "Circle Theorems and Proofs is not only memorising formulas; it is about choosing the correct relationship from the diagram.",

@@ -434,6 +434,27 @@ export const thePythagoreanTheorem: LessonContent = {
       ]
     },
     {
+      "kind": "theory",
+      "heading": "Quick reference notes: right triangles",
+      "paragraphs": [
+        "A right-angled triangle has one angle equal to $90^\circ$. The side opposite the right angle is the hypotenuse, and the other two sides are often called the base and the perpendicular.",
+        "The Pythagorean theorem states that in a right triangle, the square of the hypotenuse equals the sum of the squares of the other two sides: $c^2=a^2+b^2$."
+      ],
+      "list": [
+        "Use the theorem only for right triangles.",
+        "If any two side lengths are known, the third can be found.",
+        "The converse is also useful: if $c^2=a^2+b^2$, the triangle is right-angled."
+      ]
+    },
+    {
+      "kind": "imageGallery",
+      "heading": "Recreated proof",
+      "note": "This reconstructed diagram shows the theorem by rearrangement.",
+      "images": [
+        { "src": "/geometry-recreated/visual-proofs/visual-proof-06.svg", "alt": "Recreated rearrangement proof of Pythagoras", "caption": "The same coloured right-triangle pieces are rearranged to show that the square on the hypotenuse has area $c^2=a^2+b^2$." }
+      ]
+    },
+    {
       "kind": "summary",
       "points": [
         "The Pythagorean Theorem is a core geometry skill used in many later chapters.",

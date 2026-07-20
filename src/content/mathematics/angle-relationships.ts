@@ -155,6 +155,27 @@ export const angleRelationships: LessonContent = {
       ],
     },
     {
+      "kind": "theory",
+      "heading": "Quick reference notes: angle relationships",
+      "paragraphs": [
+        "When two lines intersect, vertically opposite angles are equal. When a transversal cuts two parallel lines, corresponding angles are equal, alternate interior and alternate exterior angles are equal, and co-interior angles on the same side of the transversal sum to $180^\circ$."
+      ],
+      "list": [
+        "Corresponding angles form an F-pattern and are equal.",
+        "Alternate angles form a Z-pattern and are equal.",
+        "Co-interior angles form a C-pattern and sum to $180^\circ$.",
+        "Always state that the lines are parallel before applying these facts."
+      ]
+    },
+    {
+      "kind": "imageGallery",
+      "heading": "Recreated angle proof",
+      "note": "This recreated diagram supports the angle facts above.",
+      "images": [
+        { "src": "/geometry-recreated/visual-proofs/visual-proof-07.svg", "alt": "Recreated angle proof without words", "caption": "A recreated proof-without-words diagram showing angle transfer and angle sums by parallel-line reasoning." }
+      ]
+    },
+    {
       kind: "summary",
       points: [
         "Angles on a straight line add to 180°; angles around a point add to 360°.",
