@@ -419,7 +419,7 @@ export const theQuadrilateralFamily: LessonContent = {
     },
     {
       "kind": "imageGallery",
-      "heading": "PDF visual reference: quadrilaterals",
+      "heading": "Visual connection: quadrilaterals",
       "note": "These pages from the uploaded Geometry guide expand the quadrilateral family with cyclic quadrilateral, parallelogram, rhombus, rectangle, square and trapezium facts.",
       "images": [
         { "src": "/geometry-pdf/formula-guide/geometry-guide-08.webp", "alt": "Quadrilateral and cyclic quadrilateral basics", "caption": "Quadrilateral definition and cyclic quadrilateral property: opposite angles are supplementary." },

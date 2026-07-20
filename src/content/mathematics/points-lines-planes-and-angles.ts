@@ -163,7 +163,7 @@ export const pointsLinesPlanesAndAngles: LessonContent = {
     },
     {
       "kind": "imageGallery",
-      "heading": "PDF visual reference: Geometry foundations",
+      "heading": "Visual connection: Geometry foundations",
       "note": "These pages come from the uploaded Geometry formula guide and support this lesson's point, line, ray, line segment and angle definitions.",
       "images": [
         { "src": "/geometry-pdf/formula-guide/geometry-guide-01.webp", "alt": "Geometry guide page 1: point line ray angle", "caption": "Point, line, line segment, ray and basic angle definitions with small labelled diagrams." },

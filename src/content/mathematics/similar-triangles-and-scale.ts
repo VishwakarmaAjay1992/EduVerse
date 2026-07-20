@@ -415,12 +415,12 @@ export const similarTrianglesAndScale: LessonContent = {
     },
     {
       "kind": "imageGallery",
-      "heading": "PDF visual reference: similarity and triangle theorems",
+      "heading": "Visual connection: similarity and triangle theorems",
       "note": "These pages strengthen the similarity lesson with AA, SAS and SSS similarity conditions plus proportionality and area-ratio theorems.",
       "images": [
         { "src": "/geometry-pdf/formula-guide/geometry-guide-07.webp", "alt": "Similarity conditions and triangle theorems", "caption": "Similarity conditions and key theorems: Pythagoras, angle bisector theorem, basic proportionality and midpoint theorem." },
         { "src": "/geometry-pdf/formula-guide/geometry-guide-08.webp", "alt": "Area ratios of similar triangles and Apollonius theorem", "caption": "Apollonius theorem and the area-ratio rules for similar triangles." },
-        { "src": "/geometry-pdf/visual-proofs/visual-proof-12.webp", "alt": "Law of cosines visual proof", "caption": "A proof-without-words diagram for the Law of Cosines, useful when similarity and non-right-triangle relationships appear together." }
+        { "src": "/geometry-recreated/visual-proofs/visual-proof-12.svg", "alt": "Recreated law of cosines visual proof", "caption": "A proof-without-words diagram for the Law of Cosines, useful when similarity and non-right-triangle relationships appear together." }
       ]
     },
     {

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 980" width="700" height="980">
+    <defs>
+      <style>
+        .t{font-family:Arial,Helvetica,sans-serif; fill:#17324d}
+        .h{font-size:34px; font-weight:700}
+        .s{font-size:22px; font-weight:700}
+        .m{font-size:20px;}
+        .sm{font-size:16px; fill:#4b5563}
+        .box{fill:#fff;stroke:#d1d5db;stroke-width:2}
+        .thin{stroke:#374151;stroke-width:2;fill:none}
+        .axis{stroke:#6b7280;stroke-width:2;fill:none;marker-end:url(#arr)}
+      </style>
+      <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L9,3 z" fill="#6b7280"/>
+      </marker>
+    </defs>
+    <rect x="0" y="0" width="700" height="980" fill="#fafaf7"/>
+    <rect x="18" y="18" width="664" height="944" rx="24" fill="#fffef7" stroke="#dbe4ea" stroke-width="3"/>
+    
+<text x="350" y="70" text-anchor="middle" class="t h">Cubes and Cubic Growth</text>
+<text x="350" y="108" text-anchor="middle" class="t s">1³, 2³, 3³, 4³, 5³</text>
+<g transform="translate(60,160)">
+  <g transform="translate(0,0)"><rect x="0" y="30" width="34" height="34" fill="#e84b3a" stroke="#111827"/><polygon points="34,30 52,20 52,54 34,64" fill="#d43d2f" stroke="#111827"/><polygon points="0,30 18,20 52,20 34,30" fill="#ff6d5f" stroke="#111827"/><text x="0" y="95" class="t s">1³</text></g>
+  <g transform="translate(95,0)"><rect x="0" y="20" width="62" height="62" fill="#f0c23b" stroke="#111827"/><polygon points="62,20 85,8 85,70 62,82" fill="#d9a81c" stroke="#111827"/><polygon points="0,20 23,8 85,8 62,20" fill="#ffd768" stroke="#111827"/><line x1="31" y1="20" x2="31" y2="82" stroke="#111827"/><line x1="0" y1="51" x2="62" y2="51" stroke="#111827"/><text x="10" y="115" class="t s">2³</text></g>
+  <g transform="translate(220,0)"><rect x="0" y="0" width="94" height="94" fill="#57d763" stroke="#111827"/><polygon points="94,0 124,-15 124,79 94,94" fill="#37be49" stroke="#111827"/><polygon points="0,0 30,-15 124,-15 94,0" fill="#77ef81" stroke="#111827"/><text x="22" y="135" class="t s">3³</text></g>
+  <g transform="translate(390,0)"><rect x="0" y="0" width="118" height="118" fill="#6fb3ff" stroke="#111827"/><polygon points="118,0 154,-18 154,100 118,118" fill="#4c94e8" stroke="#111827"/><polygon points="0,0 36,-18 154,-18 118,0" fill="#95c9ff" stroke="#111827"/><text x="25" y="160" class="t s">4³</text></g>
+</g>
+<g transform="translate(120,500)">
+  <rect x="0" y="0" width="430" height="250" rx="24" fill="#f3f4f6" stroke="#cbd5e1"/>
+  <rect x="20" y="165" width="36" height="36" fill="#e84b3a" stroke="#111827"/>
+  <rect x="56" y="129" width="72" height="72" fill="#f0c23b" stroke="#111827"/>
+  <rect x="128" y="93" width="108" height="108" fill="#57d763" stroke="#111827"/>
+  <rect x="236" y="57" width="144" height="144" fill="#6fb3ff" stroke="#111827"/>
+  <rect x="20" y="201" width="396" height="36" fill="#bf7cff" stroke="#111827"/>
+  <rect x="380" y="21" width="36" height="180" fill="#bf7cff" stroke="#111827"/>
+  <rect x="236" y="201" width="180" height="36" fill="#d2a4ff" stroke="#111827"/>
+  <text x="215" y="35" text-anchor="middle" class="t m">Stacking the first five cubes creates a growing square pattern.</text>
+</g>
+<text x="350" y="920" text-anchor="middle" class="t m">This idea prepares for the identity 1³ + 2³ + ··· + n³ = (1 + 2 + ··· + n)².</text>
+
+    </svg>

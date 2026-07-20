@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 980" width="700" height="980">
+    <defs>
+      <style>
+        .t{font-family:Arial,Helvetica,sans-serif; fill:#17324d}
+        .h{font-size:34px; font-weight:700}
+        .s{font-size:22px; font-weight:700}
+        .m{font-size:20px;}
+        .sm{font-size:16px; fill:#4b5563}
+        .box{fill:#fff;stroke:#d1d5db;stroke-width:2}
+        .thin{stroke:#374151;stroke-width:2;fill:none}
+        .axis{stroke:#6b7280;stroke-width:2;fill:none;marker-end:url(#arr)}
+      </style>
+      <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L9,3 z" fill="#6b7280"/>
+      </marker>
+    </defs>
+    <rect x="0" y="0" width="700" height="980" fill="#fafaf7"/>
+    <rect x="18" y="18" width="664" height="944" rx="24" fill="#fffef7" stroke="#dbe4ea" stroke-width="3"/>
+    
+<text x="350" y="68" text-anchor="middle" class="t h">Trigonometric Identity by Geometry</text>
+<text x="350" y="108" text-anchor="middle" class="t s">(tanθ + 1)² + (cotθ + 1)² = (secθ + cscθ)²</text>
+<g transform="translate(70,170)">
+  <line x1="0" y1="430" x2="620" y2="430" stroke="#111827" stroke-width="3"/>
+  <line x1="520" y1="430" x2="520" y2="140" stroke="#111827" stroke-width="3"/>
+  <circle cx="360" cy="250" r="120" fill="none" stroke="#111827" stroke-width="3"/>
+  <line x1="0" y1="430" x2="525" y2="250" stroke="#111827" stroke-width="3"/>
+  <line x1="390" y1="250" x2="390" y2="430" stroke="#111827" stroke-width="3"/>
+  <line x1="520" y1="250" x2="520" y2="430" stroke="#111827" stroke-width="3"/>
+  <line x1="390" y1="250" x2="520" y2="250" stroke="#111827" stroke-width="3"/>
+  <text x="435" y="238" class="t sm">secθ</text><text x="435" y="277" class="t sm">cosθ</text><text x="514" y="245" class="t sm">sinθ</text><text x="532" y="347" class="t sm">tanθ</text><text x="140" y="410" class="t sm">cotθ</text><text x="185" y="230" class="t sm">cscθ</text>
+  <text x="345" y="421" class="t sm">1</text><text x="495" y="421" class="t sm">1</text><text x="516" y="427" class="t sm">1</text>
+</g>
+
+    </svg>

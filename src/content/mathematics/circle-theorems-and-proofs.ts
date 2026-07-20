@@ -420,7 +420,7 @@ export const circleTheoremsAndProofs: LessonContent = {
     },
     {
       "kind": "imageGallery",
-      "heading": "PDF visual reference: circle theorems",
+      "heading": "Visual connection: circle theorems",
       "note": "These pages support the circle theorem lesson with chord, tangent, arc, sector, segment and cyclic-quadrilateral results.",
       "images": [
         { "src": "/geometry-pdf/formula-guide/geometry-guide-12.webp", "alt": "Circle theorem reference page 12", "caption": "Chord, arc and tangent facts from the uploaded Geometry formula guide." },

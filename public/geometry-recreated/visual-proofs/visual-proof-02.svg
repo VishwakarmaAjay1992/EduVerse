@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 980" width="700" height="980">
+    <defs>
+      <style>
+        .t{font-family:Arial,Helvetica,sans-serif; fill:#17324d}
+        .h{font-size:34px; font-weight:700}
+        .s{font-size:22px; font-weight:700}
+        .m{font-size:20px;}
+        .sm{font-size:16px; fill:#4b5563}
+        .box{fill:#fff;stroke:#d1d5db;stroke-width:2}
+        .thin{stroke:#374151;stroke-width:2;fill:none}
+        .axis{stroke:#6b7280;stroke-width:2;fill:none;marker-end:url(#arr)}
+      </style>
+      <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L0,6 L9,3 z" fill="#6b7280"/>
+      </marker>
+    </defs>
+    <rect x="0" y="0" width="700" height="980" fill="#fafaf7"/>
+    <rect x="18" y="18" width="664" height="944" rx="24" fill="#fffef7" stroke="#dbe4ea" stroke-width="3"/>
+    <text x="350" y="68" text-anchor="middle" class="t h">Area Models and Identities</text><rect x="55" y="130" width="280" height="300" rx="20" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><text x="195" y="164" text-anchor="middle" class="t s">(a+b)² = a² + 2ab + b²</text><rect x="365" y="130" width="280" height="300" rx="20" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><text x="505" y="164" text-anchor="middle" class="t s">(a−b)² = a² − 2ab + b²</text><rect x="55" y="505" width="280" height="300" rx="20" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><text x="195" y="539" text-anchor="middle" class="t s">a² − b² = (a−b)(a+b)</text><rect x="365" y="505" width="280" height="300" rx="20" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><text x="505" y="539" text-anchor="middle" class="t s">(x+a)(x+b) = x² + (a+b)x + ab</text><rect x="95" y="180" width="120" height="120" fill="#98d6b2" stroke="#111827"/><rect x="215" y="180" width="70" height="120" fill="#b8dbf7" stroke="#111827"/><rect x="95" y="300" width="120" height="60" fill="#b8dbf7" stroke="#111827"/><rect x="215" y="300" width="70" height="60" fill="#f7b5d7" stroke="#111827"/><text x="145" y="245" class="t m">a²</text><text x="240" y="245" class="t m">ab</text><text x="145" y="335" class="t m">ab</text><text x="240" y="335" class="t m">b²</text><rect x="405" y="180" width="105" height="120" fill="#ceb5e8" stroke="#111827"/><rect x="510" y="180" width="80" height="180" fill="#f2b3c2" stroke="#111827"/><rect x="405" y="300" width="105" height="60" fill="#f4ddad" stroke="#111827"/><text x="445" y="245" class="t m">(a−b)²</text><text x="540" y="270" class="t m">ab</text><text x="430" y="334" class="t sm">b(a−b)</text><rect x="95" y="555" width="140" height="120" fill="#d9e889" stroke="#111827"/><rect x="235" y="555" width="55" height="80" fill="#9ed3f6" stroke="#111827"/><rect x="235" y="635" width="55" height="40" fill="#f4c59b" stroke="#111827"/><text x="130" y="620" class="t sm">a(a−b)</text><text x="245" y="600" class="t sm">b(a−b)</text><text x="247" y="660" class="t m">b²</text><rect x="405" y="555" width="75" height="110" fill="#cbd5f0" stroke="#111827"/><rect x="480" y="555" width="95" height="110" fill="#f1aac4" stroke="#111827"/><rect x="405" y="665" width="75" height="65" fill="#eef3a2" stroke="#111827"/><rect x="480" y="665" width="95" height="65" fill="#f4c27b" stroke="#111827"/><text x="430" y="610" class="t m">xa</text><text x="516" y="610" class="t m">ab</text><text x="430" y="705" class="t m">x²</text><text x="516" y="705" class="t m">xb</text><text x="350" y="920" text-anchor="middle" class="t m">Each picture turns an algebraic identity into a visible area statement.</text>
+    </svg>

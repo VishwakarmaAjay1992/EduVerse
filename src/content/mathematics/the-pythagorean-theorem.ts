@@ -435,10 +435,10 @@ export const thePythagoreanTheorem: LessonContent = {
     },
     {
       "kind": "imageGallery",
-      "heading": "PDF visual reference: Pythagorean theorem proofs",
-      "note": "The uploaded coloured visual-proof PDF includes a rearrangement proof that directly supports this lesson.",
+      "heading": "Visual connection: Pythagorean theorem proofs",
+      "note": "This recreated visual proof directly supports the lesson and helps students see why the theorem works.",
       "images": [
-        { "src": "/geometry-pdf/visual-proofs/visual-proof-06.webp", "alt": "Colour rearrangement proof of Pythagoras", "caption": "The same coloured right-triangle pieces are rearranged to show that the square on the hypotenuse has area $c^2=a^2+b^2$." },
+        { "src": "/geometry-recreated/visual-proofs/visual-proof-06.svg", "alt": "Recreated rearrangement proof of Pythagoras", "caption": "The same coloured right-triangle pieces are rearranged to show that the square on the hypotenuse has area $c^2=a^2+b^2$." },
         { "src": "/geometry-pdf/formula-guide/geometry-guide-03.webp", "alt": "Right triangle with hypotenuse perpendicular and base", "caption": "The Geometry guide page also labels the right triangle sides and states the Pythagorean relation." }
       ]
     },
