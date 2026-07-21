@@ -24,6 +24,15 @@ import { ibnAlHaytham } from "./ibn-al-haytham";
 import { archimedes } from "./archimedes";
 import { hypatia } from "./hypatia";
 import { subrahmanyanChandrasekhar } from "./subrahmanyan-chandrasekhar";
+import { barbaraMcclintock } from "./barbara-mcclintock";
+import { liseMeitner } from "./lise-meitner";
+import { chienShiungWu } from "./chien-shiung-wu";
+import { henriettaLeavitt } from "./henrietta-leavitt";
+import { ceciliaPayneGaposchkin } from "./cecilia-payne-gaposchkin";
+import { maryAnning } from "./mary-anning";
+import { graceHopper } from "./grace-hopper";
+import { abdusSalam } from "./abdus-salam";
+import { abdAlRahmanAlSufi } from "./abd-al-rahman-al-sufi";
 import { johannesKepler } from "./johannes-kepler";
 import { nicolausCopernicus } from "./nicolaus-copernicus";
 import { jamesClerkMaxwell } from "./james-clerk-maxwell";
@@ -76,6 +85,15 @@ const PROFILES: Record<string, ScientistProfile> = {
   [archimedes.slug]: archimedes,
   [hypatia.slug]: hypatia,
   [subrahmanyanChandrasekhar.slug]: subrahmanyanChandrasekhar,
+  [barbaraMcclintock.slug]: barbaraMcclintock,
+  [liseMeitner.slug]: liseMeitner,
+  [chienShiungWu.slug]: chienShiungWu,
+  [henriettaLeavitt.slug]: henriettaLeavitt,
+  [ceciliaPayneGaposchkin.slug]: ceciliaPayneGaposchkin,
+  [maryAnning.slug]: maryAnning,
+  [graceHopper.slug]: graceHopper,
+  [abdusSalam.slug]: abdusSalam,
+  [abdAlRahmanAlSufi.slug]: abdAlRahmanAlSufi,
   [johannesKepler.slug]: johannesKepler,
   [nicolausCopernicus.slug]: nicolausCopernicus,
   [jamesClerkMaxwell.slug]: jamesClerkMaxwell,
