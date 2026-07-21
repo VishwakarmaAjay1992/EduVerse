@@ -1,0 +1,132 @@
+import type { ScientistProfile } from "./types";
+
+export const cvRaman: ScientistProfile = {
+  slug: "cv-raman",
+  seoDescription:
+    "C. V. Raman discovered the Raman effect, showing that scattered light can change frequency through molecular energy exchange, creating a powerful tool for spectroscopy.",
+  timeline: [
+    { year: "1888", title: "Born in Tiruchirappalli", description: "Chandrasekhara Venkata Raman is born on 7 November in South India into a scholarly family." },
+    { year: "1904", title: "Graduates from Presidency College", description: "He completes his BA with exceptional distinction while still very young." },
+    { year: "1907", title: "Finance service and spare-time research", description: "Raman joins the Indian Finance Department but conducts physics research at the Indian Association for the Cultivation of Science.", pivotal: true },
+    { year: "1917", title: "Calcutta professorship", description: "He becomes Palit Professor of Physics at the University of Calcutta, moving fully into academic research." },
+    { year: "1921", title: "Mediterranean colour question", description: "A sea voyage deepens his interest in why the sea is blue and in light scattering by liquids." },
+    { year: "1928", title: "Raman effect discovered", description: "Raman and K. S. Krishnan observe frequency-shifted scattered light from transparent substances.", pivotal: true },
+    { year: "1930", title: "Nobel Prize in Physics", description: "Raman receives the Nobel Prize for work on light scattering, the first Asian Nobel laureate in science.", pivotal: true },
+    { year: "1933", title: "Indian Institute of Science", description: "He becomes director of IISc in Bangalore and continues institution-building." },
+    { year: "1948", title: "Raman Research Institute", description: "He founds the Raman Research Institute, pursuing optics, crystals and scientific education." },
+    { year: "1970", title: "Dies in Bangalore", description: "Raman dies on 21 November after a lifetime of experimental physics and institution-building." },
+  ],
+  earlyLifeDetail: {
+    childhood: "Raman grew up around teaching, books and music. His father taught mathematics and physics, and the household encouraged both intellectual seriousness and sensitivity to sound and colour.",
+    family: "His father R. Chandrasekhara Iyer was a lecturer; his mother Parvathi Ammal came from a cultured family. Music and learning shaped Raman's later acoustics and optics.",
+    education: "Raman studied at Presidency College, Madras, graduating very early with top honours. Colonial conditions limited scientific careers, so he first entered government finance service.",
+    difficulties: "He had to build world-class research under colonial conditions with limited equipment, limited recognition and few Indian scientific institutions.",
+    finances: "A secure government job initially supported him, while evenings and mornings at IACS became his true research life.",
+    personalLife: "He married Lokasundari Ammal in 1907. His household and later institutes became centres of intense scientific work.",
+    influences: "Lord Rayleigh's scattering work, Indian musical instruments, Helmholtz's acoustics and the visual experience of sea colour shaped Raman's questions.",
+    booksRead: "Raman read optics, acoustics, thermodynamics and molecular physics, but his strongest habit was turning reading into tabletop experiment.",
+    teachersAndMentors: "His father was an early influence. At IACS, Amrita Lal Sircar's institution gave him the space that colonial universities often did not.",
+    stories: ["Raman worked as a finance officer by day and experimental physicist outside office hours.", "India celebrates National Science Day on 28 February, the date associated with the Raman effect announcement.", "His Nobel-winning work used modest apparatus but exceptional experimental judgement."],
+  },
+  turningPoints: ["Access to IACS gave Raman a laboratory before he had a university post.", "The 1921 sea voyage sharpened his scattering questions.", "K. S. Krishnan's careful collaboration helped establish the new radiation.", "Rapid international confirmation turned the Raman effect into a new spectroscopy.", "The Nobel Prize made Indian experimental physics globally visible."],
+  failures: ["Raman's later views on some topics, including aspects of crystal physics, could be combative and isolated.", "His institution-building style was sometimes authoritarian.", "He underestimated some theoretical developments he did not favour.", "His discovery depended on collaborators whose names are less widely remembered."],
+  studentLessons: ["Great experiments can be done with modest apparatus when the question is sharp.", "Weak signals deserve patience and controls.", "Local institutions matter for scientific independence.", "Spectroscopy turns light into molecular evidence."],
+  discoveries: [
+    { name: "Raman effect", period: "1928", background: "Rayleigh scattering explained much elastic scattering, but molecular energy exchange could produce weaker shifted light.", problem: "Does scattered light contain new frequencies characteristic of the scattering molecule?", method: "Raman and Krishnan used filtered sunlight or mercury-lamp light, liquid samples and spectrographic observation.", discovery: "A small fraction of scattered light appears at shifted frequencies because photons exchange energy with molecular vibrations or rotations.", importance: "It founded Raman spectroscopy, a molecular fingerprinting technique.", modernApplications: ["Chemical identification", "Materials science", "Pharmaceutical quality control", "Medical diagnostics research"] },
+    { name: "Molecular scattering in liquids", period: "1920s", background: "The colours of sea and sky invited physical explanation through scattering.", problem: "How do molecules in liquids scatter light?", method: "Raman studied purified liquids, filters, polarization and spectra.", discovery: "Liquids scatter light in ways connected to molecular structure and fluctuations.", importance: "This linked optical phenomena with molecular physics.", modernApplications: ["Optical materials", "Spectroscopy", "Environmental sensing", "Liquid-state physics"] },
+    { name: "Acoustics of Indian instruments", period: "1910s-1920s", background: "Western acoustics did not fully explain instruments such as tabla, mridangam and violin variants.", problem: "How do instrument shapes and membranes produce characteristic tones?", method: "Raman measured vibrations and analysed harmonics in musical instruments.", discovery: "He clarified physical principles behind complex musical sounds.", importance: "It showed his broader commitment to wave phenomena in sound and light.", modernApplications: ["Musical acoustics", "Vibration analysis", "Instrument design", "Cultural acoustics"] },
+  ],
+  works: [
+    { title: "A New Type of Secondary Radiation", year: "1928", kind: "Paper", description: "Early report of frequency-shifted scattered light." },
+    { title: "A New Radiation", year: "1928", kind: "Paper", description: "Raman and Krishnan's famous announcement of the effect." },
+    { title: "The Molecular Scattering of Light", year: "1922", kind: "Book", description: "Raman's broader treatment of scattering before the Nobel discovery." },
+    { title: "Raman spectroscope", year: "1920s", kind: "Instrument", description: "A tabletop optical arrangement using filters and spectrographs to detect shifted scattered light." },
+  ],
+  equations: [
+    { name: "Photon energy", latex: "E=h\\nu", explanation: "A photon energy is proportional to its frequency.", variables: [{ symbol: "E", meaning: "photon energy" }, { symbol: "h", meaning: "Planck constant" }, { symbol: "\\nu", meaning: "frequency" }], workedExample: { problem: "Find energy for light with frequency 5.0 x 10^14 Hz.", steps: [{ text: "Use h=6.63 x 10^-34 J s.", latex: "E=(6.63\\times10^{-34})(5.0\\times10^{14})" }, { text: "Calculate.", latex: "E=3.32\\times10^{-19}\\text{ J}" }], answer: "The photon energy is 3.32 x 10^-19 J." }, modernUse: "Spectroscopy interprets light through photon energy." },
+    { name: "Raman shift", latex: "\\Delta\\tilde{\\nu}=\\tilde{\\nu}_0-\\tilde{\\nu}_s", explanation: "Raman spectra are often reported as wavenumber shifts between incident and scattered light.", variables: [{ symbol: "\\Delta\\tilde{\\nu}", meaning: "Raman shift" }, { symbol: "\\tilde{\\nu}_0", meaning: "incident wavenumber" }, { symbol: "\\tilde{\\nu}_s", meaning: "scattered wavenumber" }], workedExample: { problem: "Incident light is 20000 cm^-1 and scattered light is 18500 cm^-1. Find the shift.", steps: [{ text: "Subtract scattered from incident.", latex: "\\Delta\\tilde{\\nu}=20000-18500" }, { text: "Calculate.", latex: "\\Delta\\tilde{\\nu}=1500\\text{ cm}^{-1}" }], answer: "The Raman shift is 1500 cm^-1." }, modernUse: "Raman shifts identify molecular vibrational modes." },
+    { name: "Wavenumber", latex: "\\tilde{\\nu}=\\frac{1}{\\lambda}", explanation: "Spectroscopy often uses reciprocal wavelength as wavenumber.", variables: [{ symbol: "\\tilde{\\nu}", meaning: "wavenumber" }, { symbol: "\\lambda", meaning: "wavelength" }], workedExample: { problem: "Find wavenumber for wavelength 500 nm in cm.", steps: [{ text: "Convert 500 nm to 5.0 x 10^-5 cm.", latex: "\\tilde{\\nu}=\\frac{1}{5.0\\times10^{-5}}" }, { text: "Calculate.", latex: "\\tilde{\\nu}=20000\\text{ cm}^{-1}" }], answer: "The wavenumber is 20000 cm^-1." }, modernUse: "Infrared and Raman spectra commonly use cm^-1." },
+  ],
+  connections: [
+    { field: "Physics", description: "Raman's work belongs to optics, waves and quantum light-matter interaction." },
+    { field: "Chemistry", description: "Raman spectroscopy identifies bonds and molecular structures." },
+    { field: "Engineering", description: "Modern Raman instruments require lasers, detectors and optical design." },
+    { field: "Medicine", description: "Raman methods are explored for non-destructive tissue and diagnostic analysis." },
+  ],
+  historicalContext: { worldEvents: "Raman worked under British colonial rule and through the emergence of modern Indian science.", politics: "His Nobel Prize carried scientific and national significance for colonized India.", universities: "Indian research institutions were still developing; IACS was crucial.", scientificCommunity: "Raman's discovery was rapidly confirmed internationally and entered quantum spectroscopy.", technology: "Filters, mercury lamps, spectrographs, polarizers and careful dark-room methods enabled the work." },
+  backlash: [
+    { type: "Discrimination", title: "Colonial scientific inequality", description: "Raman built research in a system that gave Indian scientists fewer resources and less automatic recognition.", status: "Verified" },
+    { type: "Academic conflict", title: "Combative later style", description: "Raman's strong views sometimes caused institutional and scientific friction.", status: "Verified" },
+    { type: "Priority dispute", title: "Collaboration visibility", description: "K. S. Krishnan's role in the discovery is sometimes underemphasized in popular accounts.", status: "Verified" },
+  ],
+  challengesDetailed: [
+    { category: "Political", description: "Colonial conditions shaped resources and recognition." },
+    { category: "Professional", description: "He first worked outside a university research post." },
+    { category: "Scientific", description: "The Raman signal is weak and required careful filtering and observation." },
+    { category: "Financial", description: "Resourceful apparatus substituted for lavish equipment." },
+  ],
+  achievements: [
+    { title: "Nobel Prize in Physics", year: "1930", description: "Awarded for light scattering and the Raman effect." },
+    { title: "Knighted", year: "1929", description: "Recognized under the British honours system." },
+    { title: "Bharat Ratna", year: "1954", description: "India's highest civilian honour." },
+    { title: "Raman Research Institute", year: "1948", description: "Founded as a centre for independent research." },
+  ],
+  funFacts: ["Raman was fascinated by the blue colour of the sea.", "National Science Day in India marks his discovery.", "The Raman effect was observed with modest laboratory equipment.", "He also studied drums, violins and crystal colours."],
+  didYouKnow: [
+    { title: "A molecular fingerprint", content: "A Raman spectrum can identify substances because vibrational shifts depend on molecular structure." },
+    { title: "Weak but revealing", content: "Only a small fraction of scattered photons undergo Raman scattering." },
+    { title: "Tabletop physics", content: "The discovery showed that world-class physics did not always require giant apparatus." },
+  ],
+  visualPrompts: [
+    { category: "Hero portrait", prompt: "C. V. Raman in an optics laboratory with spectrograph, prism, filters and liquid samples, 1930s academic realism." },
+    { category: "Scientific diagram", prompt: "Raman scattering diagram showing incident photon, molecule vibrational energy exchange, Stokes and anti-Stokes shifted photons." },
+    { category: "Equipment", prompt: "1920s Raman spectroscope with mercury lamp, filters, sample tube and spectrograph, labelled educational style." },
+    { category: "Timeline infographic", prompt: "C. V. Raman timeline from Presidency College to IACS, Raman effect, Nobel Prize and Raman Research Institute." },
+  ],
+  photoPlaceholders: [
+    { slot: "Portrait", caption: "Portrait of C. V. Raman around the Nobel period.", suggestedSource: "Wikimedia Commons: Chandrasekhara Venkata Raman 1930.jpg" },
+    { slot: "Laboratory", caption: "Raman optics laboratory or spectroscope setup.", suggestedSource: "Indian Association for the Cultivation of Science or Wikimedia Commons" },
+    { slot: "Instruments", caption: "Raman spectrograph or light-scattering apparatus.", suggestedSource: "Raman Research Institute archives" },
+    { slot: "Historic location", caption: "IACS Calcutta or Raman Research Institute Bangalore.", suggestedSource: "Institutional archives or Wikimedia Commons" },
+  ],
+  relatedScientists: [
+    { slug: "max-planck", name: "Max Planck", reason: "Photon energy and quantum theory explain Raman scattering." },
+    { slug: "albert-einstein", name: "Albert Einstein", reason: "Einstein's light quantum helped create the conceptual background for photon scattering." },
+    { slug: "jagadish-chandra-bose", name: "Jagadish Chandra Bose", reason: "Both built major Indian experimental science traditions under colonial constraints." },
+    { slug: "james-clerk-maxwell", name: "James Clerk Maxwell", reason: "Light as electromagnetic radiation is the foundation for optical scattering." },
+  ],
+  relatedTopics: [
+    { title: "Wave Motion", href: "/subjects/physics/wave-motion", description: "Raman scattering is a wave and quantum light phenomenon." },
+    { title: "Blackbody Radiation and the Photoelectric Effect", href: "/subjects/physics/blackbody-radiation-and-the-photoelectric-effect", description: "Quantum light concepts support the interpretation of Raman scattering." },
+    { title: "Molecular Structure", href: "/subjects/chemistry/molecular-structure", description: "Raman spectra reveal vibrational fingerprints of molecules." },
+    { title: "Optics", href: "/subjects/physics/optics", description: "Raman's work is central to modern optical spectroscopy." },
+  ],
+  quotes: [
+    { text: "The essence of science is independent thinking, hard work, and not equipment.", source: "Widely attributed to Raman", status: "Widely attributed" },
+    { text: "Ask the right questions, and nature will open the doors to her secrets.", source: "Often attributed to Raman", status: "Widely attributed" },
+    { text: "I am the master of my failure; if I never fail how will I ever learn?", source: "Commonly attributed to Raman in later collections", status: "Disputed" },
+  ],
+  quiz: {
+    mcq: [
+      { question: "What is the Raman effect?", options: ["Frequency-shifted scattering of light by molecules", "Radioactive decay", "Bacterial inhibition", "Planetary motion"], answer: 0, explanation: "Raman scattering changes photon frequency through molecular energy exchange." },
+      { question: "What does a Raman spectrum help identify?", options: ["Molecular structure", "Only planet mass", "Only blood type", "Only star distance"], answer: 0, explanation: "Vibrational shifts act like molecular fingerprints." },
+      { question: "Who collaborated with Raman in the discovery?", options: ["K. S. Krishnan", "Pierre Curie", "G. H. Hardy", "Howard Florey"], answer: 0, explanation: "Krishnan was central to the experimental work." },
+      { question: "What prize did Raman win in 1930?", options: ["Nobel Prize in Physics", "Nobel Prize in Literature", "Fields Medal", "Turing Award"], answer: 0, explanation: "He won the 1930 Physics Nobel." },
+    ],
+    trueFalse: [
+      { statement: "Raman scattering is usually much weaker than ordinary elastic scattering.", answer: true, explanation: "Only a small fraction of photons scatter inelastically." },
+      { statement: "Raman spectroscopy is useless in chemistry.", answer: false, explanation: "It is widely used for chemical identification." },
+      { statement: "Raman worked to build Indian scientific institutions.", answer: true, explanation: "He led and founded major research institutions." },
+      { statement: "The Raman effect requires molecular energy exchange.", answer: true, explanation: "The shift reflects vibrational or rotational energy changes." },
+    ],
+    shortAnswer: [
+      { question: "Why is Raman spectroscopy called molecular fingerprinting?", modelAnswer: "Because each molecule has characteristic vibrational energy levels that produce distinctive Raman shifts.", marks: 4 },
+      { question: "Why was Raman's discovery important for Indian science?", modelAnswer: "It showed world-class experimental physics could be done in India and brought global recognition under colonial conditions.", marks: 5 },
+      { question: "What is a Raman shift?", modelAnswer: "It is the difference in wavenumber between incident and scattered light, corresponding to molecular energy exchange.", marks: 4 },
+    ],
+    longAnswer: [
+      { question: "Explain the Raman effect in physical terms.", modelAnswer: "When light passes through a substance, most photons scatter elastically with unchanged energy. A small fraction exchange energy with molecular vibrations or rotations. If a photon loses energy, the scattered light has lower frequency; if it gains energy, it has higher frequency. The pattern of shifts reveals molecular structure, making Raman spectroscopy a powerful analytical tool.", marks: 12 },
+      { question: "Assess Raman's experimental style.", modelAnswer: "Raman's work shows the power of precise tabletop experimentation. He used modest optical equipment, careful filtering and disciplined observation to detect a weak effect. His questions came from everyday phenomena such as sea colour and sound, but he converted them into molecular physics. This style linked curiosity, instrument craft and institutional ambition.", marks: 12 },
+    ],
+  },
+};

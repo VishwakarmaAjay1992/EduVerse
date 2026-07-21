@@ -1,0 +1,133 @@
+import type { ScientistProfile } from "./types";
+
+export const alexanderFleming: ScientistProfile = {
+  slug: "alexander-fleming",
+  seoDescription:
+    "Alexander Fleming discovered lysozyme and penicillin's antibacterial action, helped launch the antibiotic era, and warned early that misuse could select resistant bacteria.",
+  timeline: [
+    { year: "1881", title: "Born in Ayrshire", description: "Alexander Fleming is born on 6 August at Lochfield farm in Scotland." },
+    { year: "1901", title: "Moves into medical training", description: "After moving to London, Fleming studies at St Mary's Hospital Medical School." },
+    { year: "1906", title: "Joins Wright's laboratory", description: "He joins Almroth Wright's inoculation department, where bacteriology, immunity and infection become his field.", pivotal: true },
+    { year: "1914-1918", title: "World War I wound work", description: "Fleming serves in the Royal Army Medical Corps and studies infected wounds and the limits of antiseptics.", pivotal: true },
+    { year: "1921", title: "Discovers lysozyme", description: "A nasal secretion contaminating a plate leads him to identify lysozyme, a natural antibacterial enzyme." },
+    { year: "1928", title: "Penicillin observation", description: "A Penicillium mould contaminates a staphylococcus plate and creates a clear bacteria-free zone.", pivotal: true },
+    { year: "1929", title: "First penicillin paper", description: "Fleming publishes the antibacterial action of Penicillium filtrates, naming the substance penicillin." },
+    { year: "1939-1941", title: "Florey and Chain develop penicillin", description: "Oxford researchers purify, test and scale penicillin, converting Fleming's observation into medicine.", pivotal: true },
+    { year: "1945", title: "Nobel Prize", description: "Fleming shares the Nobel Prize in Physiology or Medicine with Howard Florey and Ernst Chain." },
+    { year: "1945", title: "Resistance warning", description: "In his Nobel lecture and public comments, Fleming warns that under-dosing can select resistant microbes.", pivotal: true },
+    { year: "1955", title: "Dies in London", description: "Fleming dies on 11 March and is buried in St Paul's Cathedral." },
+  ],
+  earlyLifeDetail: {
+    childhood: "Fleming grew up on a Scottish farm, where practical observation mattered more than polish. The habits of noticing small details and working without fuss stayed with him in the bacteriology laboratory.",
+    family: "His father Hugh Fleming died when Alexander was young. Family support helped him pursue education, and an inheritance from an uncle contributed to his medical studies.",
+    education: "He trained at St Mary's Hospital in London and became a bacteriologist under Almroth Wright. His scientific education was clinical, military and laboratory-based.",
+    difficulties: "Fleming's penicillin was unstable, difficult to purify and not immediately turned into a drug. The discovery needed chemistry, animal testing, industrial fermentation and wartime urgency.",
+    finances: "Fleming worked within hospital research rather than industrial wealth. Large-scale penicillin development later required government and pharmaceutical investment.",
+    personalLife: "He married Sarah McElroy in 1915; after her death he married Amalia Koutsouri-Vourekas in 1953. He was known as quiet, laconic and observant.",
+    influences: "Almroth Wright shaped his interest in immunity and scepticism about harsh antiseptics. World War I made infected wounds an urgent practical problem.",
+    booksRead: "Fleming's reading centred on bacteriology, immunology, wound treatment and medical laboratory practice.",
+    teachersAndMentors: "Wright was the defining mentor. Later, Florey, Chain and Heatley became linked to his legacy by developing penicillin clinically.",
+    stories: ["The mouldy plate story is true in outline, but the miracle-drug part required more than a decade of later work.", "Fleming discovered lysozyme before penicillin, but lysozyme was medically less powerful.", "He warned that careless antibiotic use could breed resistant bacteria almost as soon as penicillin became famous."],
+  },
+  turningPoints: ["Joining Wright's lab gave Fleming a bacteriological home.", "War wound work made antimicrobial selectivity a clinical problem.", "The lysozyme episode trained him to notice accidental antibacterial zones.", "The 1928 mould contamination became discovery because he investigated it.", "The Oxford team's purification work transformed penicillin into therapy."],
+  failures: ["Fleming did not purify penicillin into a stable mass-produced drug.", "His early paper understated penicillin's therapeutic future.", "Penicillin was neglected for years before Oxford revived it.", "The heroic accident story can obscure collaborative development."],
+  studentLessons: ["Do not discard anomalies too quickly.", "Discovery and development are different achievements.", "Selective toxicity is the heart of antimicrobial medicine.", "Misuse of powerful tools can undermine them through resistance."],
+  discoveries: [
+    { name: "Lysozyme", period: "1921-1922", background: "The body's natural antibacterial defences were not fully understood.", problem: "Could ordinary body fluids contain substances that inhibit bacteria?", method: "Fleming observed bacterial lysis near nasal mucus and tested tears, saliva and secretions.", discovery: "Lysozyme is an enzyme in body fluids that can attack bacterial cell walls.", importance: "It revealed natural chemical defence, though it was weak against many major pathogens.", modernApplications: ["Innate immunity", "Food preservation research", "Enzymology", "Mucosal defence studies"] },
+    { name: "Penicillin's antibacterial action", period: "1928-1929", background: "Bacterial infection remained deadly and available antiseptics could damage tissue.", problem: "What caused the bacteria-free zone around a contaminating mould?", method: "Fleming cultured the mould, prepared filtrates and tested bacterial sensitivity.", discovery: "Penicillium produced a substance that inhibited several bacteria; Fleming named it penicillin.", importance: "It became the starting point of beta-lactam antibiotics and modern antibacterial therapy.", modernApplications: ["Antibiotic treatment", "Surgery safety", "Sepsis care", "Drug discovery from microbes"] },
+    { name: "Antibiotic resistance warning", period: "1940s", background: "Penicillin's success encouraged rapid and sometimes careless use.", problem: "What happens when bacteria are exposed to insufficient antibiotic pressure?", method: "Fleming drew on laboratory selection and clinical reasoning.", discovery: "Surviving bacteria can be selected for resistance when treatment is misused.", importance: "This anticipated one of the largest public-health problems of modern medicine.", modernApplications: ["Antimicrobial stewardship", "Hospital infection control", "Resistance surveillance", "Drug dosing protocols"] },
+  ],
+  works: [
+    { title: "On a remarkable bacteriolytic element found in tissues and secretions", year: "1922", kind: "Paper", description: "Fleming's lysozyme paper." },
+    { title: "On the antibacterial action of cultures of a Penicillium", year: "1929", kind: "Paper", description: "The first scientific report of penicillin's antibacterial action." },
+    { title: "World War I wound infection studies", year: "1914-1918", kind: "Project", description: "Research showing limits of antiseptics in deep infected wounds." },
+    { title: "Nobel lecture on penicillin", year: "1945", kind: "Paper", description: "A public account of penicillin and warning about resistance." },
+  ],
+  equations: [
+    { name: "Exponential bacterial growth", latex: "N=N_02^{t/T_d}", explanation: "Bacteria can multiply rapidly, making infection control time-sensitive.", variables: [{ symbol: "N", meaning: "population after time t" }, { symbol: "N_0", meaning: "initial population" }, { symbol: "T_d", meaning: "doubling time" }], workedExample: { problem: "100 bacteria double every 30 min. How many after 2 h?", steps: [{ text: "Two hours is four doubling times.", latex: "N=100\\cdot2^4" }, { text: "Calculate.", latex: "N=1600" }], answer: "About 1600 bacteria." }, modernUse: "Used in microbiology, infection modelling and antibiotic timing." },
+    { name: "Log kill", latex: "\\text{log kill}=\\log_{10}\\frac{N_0}{N}", explanation: "Antimicrobial effect is often measured by orders-of-magnitude reduction.", variables: [{ symbol: "N_0", meaning: "initial count" }, { symbol: "N", meaning: "surviving count" }], workedExample: { problem: "A drug reduces bacteria from 10^8 to 10^3. What log kill?", steps: [{ text: "Form the ratio.", latex: "\\frac{10^8}{10^3}=10^5" }, { text: "Take log.", latex: "\\log_{10}(10^5)=5" }], answer: "A 5-log kill." }, modernUse: "Used in antimicrobial testing and sterilisation standards." },
+    { name: "Selection coefficient idea", latex: "\\Delta p\\approx sp(1-p)", explanation: "A simplified population-genetic expression showing resistant variants can increase under selection.", variables: [{ symbol: "p", meaning: "frequency of resistant variant" }, { symbol: "s", meaning: "selection advantage" }], workedExample: { problem: "If p=0.01 and s=0.2, estimate change.", steps: [{ text: "Substitute.", latex: "\\Delta p\\approx0.2(0.01)(0.99)" }, { text: "Calculate.", latex: "\\Delta p\\approx0.002" }], answer: "The resistant frequency rises by about 0.002 in this simple model." }, modernUse: "Resistance evolution is analysed with population genetics and epidemiology." },
+  ],
+  connections: [
+    { field: "Medicine", description: "Penicillin transformed treatment of bacterial infections." },
+    { field: "Biology", description: "Fleming's work belongs to microbiology and innate immunity." },
+    { field: "Chemistry", description: "Penicillin became useful only after chemical purification and stabilization." },
+    { field: "Statistics", description: "Resistance surveillance uses population data, culture results and treatment outcomes." },
+  ],
+  historicalContext: { worldEvents: "Fleming's work spans two world wars and the rise of modern laboratory medicine.", wars: "World War I shaped his concern with wound infection; World War II accelerated penicillin production.", universities: "Hospital laboratories became important sites of medical discovery.", scientificCommunity: "Fleming, Florey, Chain, Heatley and industrial teams form the full penicillin story.", technology: "Agar plates, incubators, sterile technique, fermentation tanks and purification chemistry were essential." },
+  backlash: [
+    { type: "Priority dispute", title: "Discovery versus development", description: "Popular accounts sometimes credit Fleming alone, underplaying Florey, Chain, Heatley and industrial scale-up.", status: "Verified" },
+    { type: "Controversy", title: "Antibiotic misuse", description: "Fleming warned that under-use and misuse would select resistant bacteria.", status: "Verified" },
+    { type: "Academic conflict", title: "Delayed recognition", description: "Penicillin's therapeutic promise was not immediately accepted or technically achievable after 1929.", status: "Verified" },
+  ],
+  challengesDetailed: [
+    { category: "Scientific", description: "Penicillin was unstable and hard to purify." },
+    { category: "Professional", description: "Fleming's observation needed other groups to become clinical medicine." },
+    { category: "Health", description: "He worked on infections that killed patients before antibiotics existed." },
+    { category: "Social", description: "Public mythology simplified a collaborative biomedical achievement." },
+  ],
+  achievements: [
+    { title: "Discovery of lysozyme", year: "1922", description: "Identified a natural antibacterial enzyme." },
+    { title: "Discovery of penicillin activity", year: "1928", description: "Observed and investigated antibacterial mould contamination." },
+    { title: "Nobel Prize in Physiology or Medicine", year: "1945", description: "Shared with Florey and Chain for penicillin." },
+    { title: "Knighted", year: "1944", description: "Recognized for medical contribution." },
+  ],
+  funFacts: ["The famous plate was useful because Fleming noticed the clear zone.", "Penicillin was first more a laboratory curiosity than a ready medicine.", "Fleming discovered lysozyme from accidental contamination too.", "He warned about resistance before antibiotics became routine."],
+  didYouKnow: [
+    { title: "Accident plus expertise", content: "The mould mattered because Fleming had the bacteriological eye to interpret it." },
+    { title: "The Oxford team was essential", content: "Florey, Chain and colleagues made penicillin clinically usable." },
+    { title: "Resistance was predicted early", content: "Fleming understood selection pressure before the antibiotic era fully expanded." },
+  ],
+  visualPrompts: [
+    { category: "Hero portrait", prompt: "Alexander Fleming in a 1920s bacteriology lab with culture plates, microscope and penicillin mould plate, realistic medical history style." },
+    { category: "Major discovery", prompt: "Educational diagram of Penicillium mould inhibiting bacterial growth on an agar plate with clear zone labelled." },
+    { category: "Laboratory", prompt: "St Mary's Hospital bacteriology bench with Petri dishes, incubator and notebooks, 1928 atmosphere." },
+    { category: "Scientific diagram", prompt: "Antibiotic resistance selection diagram showing susceptible bacteria killed and resistant survivors multiplying." },
+  ],
+  photoPlaceholders: [
+    { slot: "Portrait", caption: "Portrait of Sir Alexander Fleming.", suggestedSource: "Wikimedia Commons: Alexander-fleming.jpg" },
+    { slot: "Laboratory", caption: "Fleming's laboratory at St Mary's Hospital.", suggestedSource: "Wellcome Collection or Wikimedia Commons" },
+    { slot: "Notebooks", caption: "First page of Fleming's penicillin paper.", suggestedSource: "Wellcome Collection / Wikimedia Commons" },
+    { slot: "Museum exhibit", caption: "Penicillin culture plate or Fleming laboratory exhibit.", suggestedSource: "Science Museum London or St Mary's collections" },
+  ],
+  relatedScientists: [
+    { slug: "louis-pasteur", name: "Louis Pasteur", reason: "Pasteur helped create the microbiological framework Fleming worked within." },
+    { slug: "dorothy-hodgkin", name: "Dorothy Hodgkin", reason: "Hodgkin determined penicillin's structure." },
+    { slug: "robert-koch", name: "Robert Koch", reason: "Koch's bacteriology methods shaped infectious-disease science." },
+    { slug: "charles-darwin", name: "Charles Darwin", reason: "Antibiotic resistance is evolution by selection in real time." },
+  ],
+  relatedTopics: [
+    { title: "Microbiology", href: "/subjects/biology/microbiology", description: "Penicillin belongs to microbial competition and bacterial disease." },
+    { title: "Evolution and Natural Selection", href: "/subjects/biology/evolution-and-natural-selection", description: "Resistance is natural selection acting on microbes." },
+    { title: "Medicines and Antibiotics", href: "/subjects/chemistry/medicines-and-antibiotics", description: "Penicillin opened modern antibiotic chemistry." },
+    { title: "Immunity and Infection", href: "/subjects/biology/immunity-and-infection", description: "Fleming studied infection, natural defences and antimicrobial action." },
+  ],
+  quotes: [
+    { text: "One sometimes finds what one is not looking for.", source: "Often attributed to Fleming in accounts of penicillin", status: "Widely attributed" },
+    { text: "The thoughtless person playing with penicillin treatment is morally responsible for the death of the man who succumbs to infection with the penicillin-resistant organism.", source: "Nobel lecture, 1945, commonly excerpted", status: "Verified" },
+    { text: "Nature makes penicillin; I just found it.", source: "Often attributed to Fleming", status: "Widely attributed" },
+  ],
+  quiz: {
+    mcq: [
+      { question: "What did Fleming observe in 1928?", options: ["Mould inhibiting bacteria", "DNA diffraction", "Raman scattering", "Electromagnetic induction"], answer: 0, explanation: "A Penicillium mould produced a bacteria-free zone." },
+      { question: "Who helped turn penicillin into a clinical drug?", options: ["Florey and Chain", "Kepler and Galileo", "Darwin and Wallace", "Tesla and Edison"], answer: 0, explanation: "The Oxford team purified and tested penicillin." },
+      { question: "What did Fleming discover before penicillin?", options: ["Lysozyme", "Radium", "Oxygen", "The electron"], answer: 0, explanation: "Lysozyme is a natural antibacterial enzyme." },
+      { question: "What public-health danger did Fleming warn about?", options: ["Antibiotic resistance", "Plate tectonics", "Solar eclipses", "Acid rain"], answer: 0, explanation: "He warned misuse could select resistant bacteria." },
+    ],
+    trueFalse: [
+      { statement: "Fleming alone mass-produced penicillin.", answer: false, explanation: "Mass production required later teams and industry." },
+      { statement: "Penicillin changed bacterial infection treatment.", answer: true, explanation: "It made many infections treatable." },
+      { statement: "Resistance can be promoted by misuse.", answer: true, explanation: "Poor dosing can select survivors." },
+      { statement: "Lysozyme and penicillin were the same substance.", answer: false, explanation: "They are different antibacterial agents." },
+    ],
+    shortAnswer: [
+      { question: "Why was Fleming's observation not enough by itself?", modelAnswer: "Penicillin had to be purified, stabilized, tested, dosed and mass-produced before becoming medicine.", marks: 5 },
+      { question: "What is antibiotic resistance?", modelAnswer: "It is the ability of bacteria to survive an antibiotic, often spreading when drug use selects resistant variants.", marks: 4 },
+      { question: "Why was World War I important for Fleming?", modelAnswer: "It exposed him to infected wounds and the limitations of damaging antiseptics.", marks: 4 },
+    ],
+    longAnswer: [
+      { question: "Explain the full penicillin story beyond the accident.", modelAnswer: "Fleming noticed a mould contaminant that inhibited bacteria and reported penicillin in 1929. But the substance was unstable and difficult to purify, so it did not immediately become therapy. Florey, Chain, Heatley and others later purified it, tested it in animals and humans, and worked with wartime industry to produce it at scale. The antibiotic era therefore began from Fleming's observation but required chemistry, pharmacology, manufacturing and clinical organization.", marks: 12 },
+      { question: "Discuss Fleming's relevance to modern antimicrobial resistance.", modelAnswer: "Fleming understood that antibiotics create selection pressure. If treatment is too weak, too short or misused, susceptible bacteria may die while resistant ones survive and multiply. This is Darwinian selection in medicine. His warning remains central to antimicrobial stewardship, hospital infection control and the search for new drugs.", marks: 12 },
+    ],
+  },
+};

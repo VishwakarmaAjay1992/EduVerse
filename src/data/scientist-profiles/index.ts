@@ -3,6 +3,14 @@ import { isaacNewton } from "./isaac-newton";
 import { albertEinstein } from "./albert-einstein";
 import { thomasEdison } from "./thomas-edison";
 import { nikolaTesla } from "./nikola-tesla";
+import { marieCurie } from "./marie-curie";
+import { galileoGalilei } from "./galileo-galilei";
+import { charlesDarwin } from "./charles-darwin";
+import { michaelFaraday } from "./michael-faraday";
+import { louisPasteur } from "./louis-pasteur";
+import { alexanderFleming } from "./alexander-fleming";
+import { cvRaman } from "./cv-raman";
+import { jagadishChandraBose } from "./jagadish-chandra-bose";
 import { johannesKepler } from "./johannes-kepler";
 import { nicolausCopernicus } from "./nicolaus-copernicus";
 import { jamesClerkMaxwell } from "./james-clerk-maxwell";
@@ -34,6 +42,14 @@ const PROFILES: Record<string, ScientistProfile> = {
   [albertEinstein.slug]: albertEinstein,
   [thomasEdison.slug]: thomasEdison,
   [nikolaTesla.slug]: nikolaTesla,
+  [marieCurie.slug]: marieCurie,
+  [galileoGalilei.slug]: galileoGalilei,
+  [charlesDarwin.slug]: charlesDarwin,
+  [michaelFaraday.slug]: michaelFaraday,
+  [louisPasteur.slug]: louisPasteur,
+  [alexanderFleming.slug]: alexanderFleming,
+  [cvRaman.slug]: cvRaman,
+  [jagadishChandraBose.slug]: jagadishChandraBose,
   [johannesKepler.slug]: johannesKepler,
   [nicolausCopernicus.slug]: nicolausCopernicus,
   [jamesClerkMaxwell.slug]: jamesClerkMaxwell,
