@@ -129,7 +129,7 @@ export type BacklashEntry = {
     | "Controversy";
   title: string;
   description: string;
-  status: "Verified" | "Disputed" | "Myth";
+  status: "Verified" | "Disputed" | "Myth" | "Widely attributed";
 };
 
 /** A challenge, tagged by the kind of difficulty it was. */
@@ -142,7 +142,8 @@ export type ChallengeEntry = {
     | "Health"
     | "Social"
     | "Educational"
-    | "Political";
+    | "Political"
+    | "Gender";
   description: string;
 };
 

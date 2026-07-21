@@ -3252,6 +3252,331 @@ export const SCIENTISTS: readonly Scientist[] = [
       },
     ],
   },
+  {
+    rank: 39,
+    slug: "al-khwarizmi",
+    fullName: "Muhammad ibn Musa al-Khwarizmi",
+    life: "c. 780 – c. 850",
+    birthplace: "Khwarazm (modern Uzbekistan), or Baghdad",
+    primaryFields: ["Mathematics", "Astronomy", "Geography"],
+    headline: "Two words in every programmer's vocabulary come from one man: algebra and algorithm.",
+    overview: [
+      "Working at the House of Wisdom in Baghdad around 820, al-Khwarizmi wrote a book on solving equations by completion and balancing. The Arabic for completion, al-jabr, became the word algebra, and the Latin form of his own name became the word algorithm.",
+      "His achievement was not discovering how to solve quadratics — Babylonians and Indian mathematicians had done that. It was treating the solving of equations as a subject in its own right, with a general method that works on any problem of a given form, justified by proof.",
+    ],
+    knownFor: [
+      "Founding algebra as a systematic discipline",
+      "The method of completing the square, with geometric proofs",
+      "Introducing Hindu-Arabic numerals to the Islamic world and thence to Europe",
+      "The word algorithm, from the Latin form of his name",
+      "Astronomical tables and a corrected geography of the known world",
+    ],
+    earlyLife: [
+      "Almost nothing is known of his early life. His name suggests family origins in Khwarazm, south of the Aral Sea, though one early source places his family near Baghdad.",
+      "He appears in the record as a scholar already established at the House of Wisdom under the caliph al-Ma'mun, who actively gathered mathematicians, translators and astronomers and funded their work.",
+    ],
+    inspiration: [
+      "The problems he set out to solve were practical and specific: the division of inheritances under Islamic law, which is genuinely intricate; land surveying; trade; the digging of canals; and legal disputes over property.",
+      "He drew on Babylonian computational traditions, on Greek geometry for his proofs, and on Indian arithmetic for the numeral system. The synthesis of three mathematical cultures is itself the achievement.",
+    ],
+    challenges: [
+      "He had no symbolic notation of any kind. Every equation, every coefficient and every number is written out in words, which makes his general method far harder to state than it would be today.",
+      "Negative numbers were not admitted, so a single quadratic equation had to be split into six separate cases depending on which terms appeared on which side.",
+    ],
+    lawsAndIdeas: [
+      "Any quadratic equation can be reduced to one of six standard forms and solved by a procedure fixed in advance for that form.",
+      "Al-jabr, restoration: a term subtracted on one side may be added to both sides to remove the subtraction.",
+      "Al-muqabala, balancing: like terms appearing on both sides may be cancelled against each other.",
+      "A general method should be justified geometrically, not merely asserted to work.",
+    ],
+    contributions: [
+      {
+        title: "Algebra as a discipline",
+        period: "c. 820",
+        description:
+          "Set out a complete, self-contained method for solving linear and quadratic equations, classified by form, with geometric demonstrations for each.",
+      },
+      {
+        title: "Hindu-Arabic numerals",
+        period: "c. 825",
+        description:
+          "Wrote the treatise that carried the decimal positional system, including zero as a placeholder, into the Islamic world and eventually to Europe.",
+      },
+      {
+        title: "Geography and astronomy",
+        period: "c. 830",
+        description:
+          "Produced astronomical tables and a corrected description of the inhabited world giving coordinates for over two thousand localities.",
+      },
+    ],
+    definingWork: {
+      title: "Al-Kitab al-mukhtasar fi hisab al-jabr wa'l-muqabala",
+      date: "c. 820",
+      description:
+        "The Compendious Book on Calculation by Completion and Balancing: a systematic treatment of linear and quadratic equations, followed by sections on mensuration and on inheritance calculations.",
+      significance:
+        "It gave algebra its name and its character as a general method, and through Latin translation from 1145 it became the foundation of European algebra.",
+    },
+    artifact: {
+      title: "A page of the Algebra",
+      date: "c. 820; pictured in a later edition",
+      kind: "Historic document",
+      description:
+        "A page from al-Khwarizmi's treatise, showing the entirely verbal presentation — no symbols, no equals sign, every quantity written out as words.",
+      significance:
+        "It demonstrates how much was achieved before notation existed, and how much notation later made possible.",
+      image: {
+        fileName: "The Algebra of Mohammed ben Musa (Arabic).png",
+        alt: "A page of Arabic text from al-Khwarizmi's treatise on algebra",
+        credit: "Wikimedia Commons",
+        license: "Public domain",
+        sourceUrl:
+          "https://commons.wikimedia.org/wiki/File:The_Algebra_of_Mohammed_ben_Musa_(Arabic).png",
+      },
+    },
+    legacy: [
+      "The word algebra comes from al-jabr in his title; the word algorithm comes from Algoritmi, the Latin form of his name.",
+      "The Hindu-Arabic numeral system he transmitted replaced Roman numerals across Europe and is now universal.",
+      "His classification of equations by form, each with a fixed solution procedure, is recognisably the ancestor of algorithmic thinking.",
+    ],
+    portrait: {
+      fileName: "Statue of Muhammad ibn Musa al-Khwarizmi in Urgench.jpg",
+      alt: "Statue of al-Khwarizmi in Urgench, Uzbekistan; no contemporary likeness exists",
+      credit: "Wikimedia Commons",
+      license: "CC BY-SA",
+      sourceUrl:
+        "https://commons.wikimedia.org/wiki/File:Statue_of_Muhammad_ibn_Musa_al-Khwarizmi_in_Urgench.jpg",
+      objectPosition: "50% 30%",
+    },
+    sources: [
+      {
+        label: "Al-Khwarizmi biography",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+        publisher: "MacTutor History of Mathematics",
+      },
+      {
+        label: "Al-Khwarizmi",
+        url: "https://www.britannica.com/biography/al-Khwarizmi",
+        publisher: "Encyclopaedia Britannica",
+      },
+    ],
+  },
+  {
+    rank: 40,
+    slug: "carl-friedrich-gauss",
+    fullName: "Johann Carl Friedrich Gauss",
+    life: "1777–1855",
+    birthplace: "Brunswick, Duchy of Brunswick (modern Germany)",
+    primaryFields: ["Mathematics", "Astronomy", "Physics"],
+    headline: "He published only what was finished, and left the rest in a diary nobody read for eighty years.",
+    overview: [
+      "Gauss reshaped number theory, astronomy, geodesy, differential geometry, statistics and magnetism. His Disquisitiones Arithmeticae of 1801 founded modern number theory; his prediction of the lost asteroid Ceres in the same year made him famous across Europe.",
+      "He also withheld an extraordinary amount. His private diary, found in 1898, shows he had non-Euclidean geometry and elliptic functions decades before others published them, and chose to say nothing.",
+    ],
+    knownFor: [
+      "Disquisitiones Arithmeticae and modular arithmetic",
+      "The normal distribution and the method of least squares",
+      "Recovering the lost asteroid Ceres from three observations",
+      "The Theorema Egregium and the birth of differential geometry",
+      "Constructing the regular 17-sided polygon at eighteen",
+    ],
+    earlyLife: [
+      "Gauss was born into a poor family in Brunswick. His father was a bricklayer and gardener; his mother was illiterate and never recorded the date of his birth, which Gauss later reconstructed himself from her memory of the day relative to Easter.",
+      "His arithmetical ability appeared absurdly early and was noticed by his teachers, who brought him to the attention of the Duke of Brunswick. The Duke funded his education from the age of fourteen until his own death in 1806.",
+    ],
+    inspiration: [
+      "On 30 March 1796, aged eighteen, Gauss found how to construct a regular seventeen-sided polygon with compass and straightedge — the first advance on the problem in two thousand years. He had been undecided between mathematics and philology; this settled it.",
+      "The result came from number theory rather than geometry, which is characteristic: Gauss repeatedly solved problems in one field using tools from another, and the connection was usually the discovery.",
+    ],
+    challenges: [
+      "Poverty in childhood, and dependence on ducal patronage that ended abruptly when the Duke was killed in 1806.",
+      "His first wife Johanna died in 1809 shortly after childbirth, followed by their infant son. Gauss described the loss as leaving him in a darkness he never fully escaped, and his second wife died in 1831.",
+    ],
+    lawsAndIdeas: [
+      "Two numbers are congruent modulo n when they leave the same remainder, a notion that turns divisibility into an arithmetic of its own.",
+      "The law of quadratic reciprocity relates whether one prime is a square modulo another to the reverse question, connecting two apparently independent facts.",
+      "Errors of measurement distribute themselves around the true value in a bell-shaped curve, and the best estimate minimises the sum of squared deviations.",
+      "The curvature of a surface is intrinsic: it can be determined entirely by measurements made within the surface, without reference to any surrounding space.",
+    ],
+    contributions: [
+      {
+        title: "Modern number theory",
+        period: "1801",
+        description:
+          "Disquisitiones Arithmeticae introduced congruence notation, proved quadratic reciprocity, and settled which regular polygons are constructible.",
+      },
+      {
+        title: "Orbit determination and least squares",
+        period: "1801–1809",
+        description:
+          "Developed a method for computing an orbit from minimal observations, recovering Ceres, and formalised least squares with the normal error distribution.",
+      },
+      {
+        title: "Differential geometry",
+        period: "1827",
+        description:
+          "The Theorema Egregium proved curvature intrinsic to a surface, founding a subject that eventually made general relativity expressible.",
+      },
+    ],
+    definingWork: {
+      title: "Disquisitiones Arithmeticae",
+      date: "1801",
+      description:
+        "Written at twenty-one and published at twenty-four, it gathered and rebuilt number theory as a rigorous systematic subject, introducing congruences and proving the law of quadratic reciprocity.",
+      significance:
+        "It is the founding text of modern number theory, and mathematicians were still extracting new results from its final sections a century later.",
+    },
+    artifact: {
+      title: "Disquisitiones Arithmeticae, 1801",
+      date: "1801",
+      kind: "Historic document",
+      description:
+        "The first edition of Gauss's number theory treatise, written in Latin and dedicated to his patron the Duke of Brunswick.",
+      significance:
+        "One of the last major mathematical works composed in scholarly Latin, and among the few books to have founded a field outright.",
+      image: {
+        fileName: "Disquisitiones-Arithmeticae.jpg",
+        alt: "Title page of the first edition of Gauss's Disquisitiones Arithmeticae, 1801",
+        credit: "Wikimedia Commons",
+        license: "Public domain",
+        sourceUrl: "https://commons.wikimedia.org/wiki/File:Disquisitiones-Arithmeticae.jpg",
+      },
+    },
+    legacy: [
+      "The normal distribution, Gaussian elimination, Gaussian curvature, Gauss's law and the Gaussian integers all carry his name, and the gauss was the unit of magnetic flux density.",
+      "His work on curvature passed through Riemann to Einstein, making differential geometry the language of general relativity.",
+      "Least squares remains the foundation of regression, estimation and essentially all statistical fitting.",
+    ],
+    portrait: {
+      fileName: "Carl Friedrich Gauss 1840 by Jensen.jpg",
+      alt: "Christian Albrecht Jensen's 1840 oil portrait of Carl Friedrich Gauss",
+      credit: "Christian Albrecht Jensen",
+      license: "Public domain",
+      sourceUrl:
+        "https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss_1840_by_Jensen.jpg",
+      objectPosition: "50% 20%",
+    },
+    sources: [
+      {
+        label: "Gauss biography",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/",
+        publisher: "MacTutor History of Mathematics",
+      },
+      {
+        label: "Carl Friedrich Gauss",
+        url: "https://www.britannica.com/biography/Carl-Friedrich-Gauss",
+        publisher: "Encyclopaedia Britannica",
+      },
+    ],
+  },
+  {
+    rank: 41,
+    slug: "emmy-noether",
+    fullName: "Amalie Emmy Noether",
+    life: "1882–1935",
+    birthplace: "Erlangen, Bavaria (modern Germany)",
+    primaryFields: ["Mathematics", "Physics"],
+    headline: "She explained why energy is conserved, then spent years teaching without a salary or a title.",
+    overview: [
+      "Noether's theorem states that every continuous symmetry of a physical system corresponds to a conserved quantity. Energy is conserved because the laws do not change over time; momentum because they do not change from place to place. It is among the most important results in theoretical physics.",
+      "She also rebuilt algebra. Her work on rings and ideals turned the subject from a study of calculations into a study of structures, and the textbook that carried her approach defined how algebra was taught for generations.",
+    ],
+    knownFor: [
+      "Noether's theorem linking symmetry to conservation laws",
+      "Founding abstract algebra as a structural subject",
+      "Noetherian rings and the ascending chain condition",
+      "Shaping algebraic topology through homology groups",
+      "Teaching at Göttingen for years without pay or rank",
+    ],
+    earlyLife: [
+      "Noether was born in Erlangen into a Jewish family. Her father Max Noether was a distinguished mathematician at the university, and her brother Fritz became a mathematician too.",
+      "German universities did not admit women. She audited lectures at Erlangen from 1900 with the individual permission of each professor, one of two women among nearly a thousand students, and could enrol properly only after the rules changed in 1904.",
+    ],
+    inspiration: [
+      "Her doctorate under Paul Gordan was a long computational exercise in invariant theory that she later dismissed as worthless. The reaction against it shaped everything she did afterwards.",
+      "Hilbert's structural approach at Göttingen showed her an alternative: prove things about whole classes of objects by identifying the properties that matter, rather than grinding through calculations case by case.",
+    ],
+    challenges: [
+      "She worked at Erlangen for seven years with no position, no title and no salary, sometimes lecturing in place of her father.",
+      "Göttingen's faculty blocked her habilitation on grounds of sex. Hilbert responded that the university was not a bathhouse, and she lectured for four years under his name before the rules relented.",
+    ],
+    lawsAndIdeas: [
+      "Every continuous symmetry of a physical system's action corresponds to a conserved quantity, and every conservation law arises this way.",
+      "Invariance under time translation gives conservation of energy; under spatial translation, momentum; under rotation, angular momentum.",
+      "A ring in which every ascending chain of ideals eventually stops has properties strong enough to build a general theory on.",
+      "Algebra should be developed from axioms describing structure, not from computations with particular expressions.",
+    ],
+    contributions: [
+      {
+        title: "Noether's theorem",
+        period: "1918",
+        description:
+          "Proved that continuous symmetries and conservation laws are two descriptions of the same fact, resolving a puzzle about energy conservation in general relativity.",
+      },
+      {
+        title: "Abstract algebra",
+        period: "1921–1929",
+        description:
+          "Reformulated ideal theory around the ascending chain condition, creating the framework of Noetherian rings and modern commutative algebra.",
+      },
+      {
+        title: "Algebraic topology",
+        period: "1926–1929",
+        description:
+          "Pointed out that topologists should study homology groups rather than merely counting Betti numbers, a shift that reorganised the field.",
+      },
+    ],
+    definingWork: {
+      title: "Invariante Variationsprobleme",
+      date: "1918",
+      description:
+        "The paper containing Noether's first and second theorems, presented to the Göttingen Scientific Society by Felix Klein and published in its proceedings.",
+      significance:
+        "It gave physics its deepest organising principle, explaining why conservation laws exist at all rather than merely recording that they do.",
+    },
+    artifact: {
+      title: "Invariante Variationsprobleme, 1918",
+      date: "1918",
+      kind: "Historic document",
+      description:
+        "Noether's paper in the Göttingen proceedings, written to resolve a difficulty Hilbert and Klein had encountered with energy conservation in general relativity.",
+      significance:
+        "A paper written to settle a technical problem in one theory turned out to state a general principle underlying all of physics.",
+      image: {
+        fileName: "Noether Invariante Variationsprobleme 1918.png",
+        alt: "First page of Emmy Noether's 1918 paper Invariante Variationsprobleme",
+        credit: "Wikimedia Commons",
+        license: "Public domain",
+        sourceUrl:
+          "https://commons.wikimedia.org/wiki/File:Noether_Invariante_Variationsprobleme_1918.png",
+      },
+    },
+    legacy: [
+      "Noether's theorem is the organising principle of modern theoretical physics, and gauge symmetry giving charge conservation is the model on which the Standard Model is built.",
+      "Noetherian rings, Noetherian modules and Noetherian induction are standard vocabulary in algebra and algebraic geometry.",
+      "Van der Waerden's Moderne Algebra, drawn largely from her lectures, determined how the subject was taught for half a century.",
+    ],
+    portrait: {
+      fileName: "Emmy Noether (3x4 cropped).jpg",
+      alt: "Photographic portrait of the mathematician Emmy Noether",
+      credit: "Wikimedia Commons",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Emmy_Noether_(3x4_cropped).jpg",
+      objectPosition: "50% 25%",
+    },
+    sources: [
+      {
+        label: "Emmy Noether biography",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/",
+        publisher: "MacTutor History of Mathematics",
+      },
+      {
+        label: "Emmy Noether",
+        url: "https://www.britannica.com/biography/Emmy-Noether",
+        publisher: "Encyclopaedia Britannica",
+      },
+    ],
+  },
 ] as const;
 
 export function getScientist(slug: string) {

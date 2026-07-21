@@ -12,6 +12,9 @@ import { dmitriMendeleev } from "./dmitri-mendeleev";
 import { pythagoras } from "./pythagoras";
 import { euclid } from "./euclid";
 import { leonhardEuler } from "./leonhard-euler";
+import { alKhwarizmi } from "./al-khwarizmi";
+import { carlFriedrichGauss } from "./carl-friedrich-gauss";
+import { emmyNoether } from "./emmy-noether";
 
 export * from "./types";
 
@@ -36,6 +39,9 @@ const PROFILES: Record<string, ScientistProfile> = {
   [pythagoras.slug]: pythagoras,
   [euclid.slug]: euclid,
   [leonhardEuler.slug]: leonhardEuler,
+  [alKhwarizmi.slug]: alKhwarizmi,
+  [carlFriedrichGauss.slug]: carlFriedrichGauss,
+  [emmyNoether.slug]: emmyNoether,
 };
 
 export function getScientistProfile(slug: string): ScientistProfile | undefined {

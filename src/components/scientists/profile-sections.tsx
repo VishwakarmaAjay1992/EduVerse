@@ -64,6 +64,7 @@ const BACKLASH_BADGE = {
   Verified: "default",
   Disputed: "secondary",
   Myth: "destructive",
+  "Widely attributed": "secondary",
 } as const;
 
 const QUOTE_BADGE = {
