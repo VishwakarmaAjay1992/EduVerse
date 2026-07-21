@@ -21,7 +21,9 @@ import { BlockMath } from "@/components/math";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { ProfileQuiz } from "@/components/scientists/profile-quiz";
+import { ScientistImage } from "@/components/scientists/scientist-image";
 import type { ScientistProfile } from "@/data/scientist-profiles/types";
+import type { Scientist, ScientistImage as ScientistImageData } from "@/data/scientists";
 
 function Section({
   id,
@@ -74,7 +76,27 @@ const QUOTE_BADGE = {
   Disputed: "destructive",
 } as const;
 
-export function ScientistProfileSections({ profile }: { profile: ScientistProfile }) {
+function photoSlotImage({
+  profileImage,
+  scientist,
+  slot,
+}: {
+  profileImage?: ScientistImageData;
+  scientist?: Scientist;
+  slot: string;
+}) {
+  if (profileImage) return profileImage;
+  if (!scientist) return undefined;
+  return slot === "Portrait" ? scientist.portrait : scientist.artifact.image;
+}
+
+export function ScientistProfileSections({
+  profile,
+  scientist,
+}: {
+  profile: ScientistProfile;
+  scientist?: Scientist;
+}) {
   return (
     <div className="space-y-16">
       {profile.timeline?.length ? (
@@ -480,18 +502,36 @@ export function ScientistProfileSections({ profile }: { profile: ScientistProfil
       {profile.photoPlaceholders?.length ? (
         <Section id="photo-placeholders" title="Photo slots and captions" icon={Camera}>
           <div className="grid gap-4 sm:grid-cols-2">
-            {profile.photoPlaceholders.map((p) => (
-              <div key={p.slot} className="rounded-lg border p-4">
-                <div className="flex aspect-video items-center justify-center rounded-md bg-muted">
-                  <Camera className="size-6 text-muted-foreground/50" aria-hidden />
+            {profile.photoPlaceholders.map((p) => {
+              const image = photoSlotImage({
+                profileImage: p.image,
+                scientist,
+                slot: p.slot,
+              });
+
+              return (
+                <div key={p.slot} className="rounded-lg border p-4">
+                  {image ? (
+                    <ScientistImage
+                      image={image}
+                      width={900}
+                      className="aspect-video rounded-md"
+                      imageClassName="aspect-video"
+                      showCredit={false}
+                    />
+                  ) : (
+                    <div className="flex aspect-video items-center justify-center rounded-md bg-muted">
+                      <Camera className="size-6 text-muted-foreground/50" aria-hidden />
+                    </div>
+                  )}
+                  <Badge variant="secondary" className="mt-3">
+                    {p.slot}
+                  </Badge>
+                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{p.caption}</p>
+                  <p className="mt-2 text-xs text-muted-foreground/80">Source: {p.suggestedSource}</p>
                 </div>
-                <Badge variant="secondary" className="mt-3">
-                  {p.slot}
-                </Badge>
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{p.caption}</p>
-                <p className="mt-2 text-xs text-muted-foreground/80">Source: {p.suggestedSource}</p>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </Section>
       ) : null}

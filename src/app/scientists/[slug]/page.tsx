@@ -327,7 +327,7 @@ export default async function ScientistProfilePage({
                 </div>
               </section>
 
-              {profile ? <ScientistProfileSections profile={profile} /> : null}
+              {profile ? <ScientistProfileSections profile={profile} scientist={scientist} /> : null}
             </div>
 
             <aside className="space-y-6 lg:sticky lg:top-20 lg:self-start">

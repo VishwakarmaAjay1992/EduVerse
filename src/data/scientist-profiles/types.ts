@@ -196,6 +196,8 @@ export type PhotoPlaceholder = {
   caption: string;
   /** Where a suitably licensed image can be sourced from. */
   suggestedSource: string;
+  /** Optional real image for this slot. Falls back to the scientist portrait or artifact image. */
+  image?: import("@/data/scientists").ScientistImage;
 };
 
 /** A cross-link to another scientist, with the reason for the link. */
