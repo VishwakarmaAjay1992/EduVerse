@@ -11,6 +11,19 @@ import { louisPasteur } from "./louis-pasteur";
 import { alexanderFleming } from "./alexander-fleming";
 import { cvRaman } from "./cv-raman";
 import { jagadishChandraBose } from "./jagadish-chandra-bose";
+import { katherineJohnson } from "./katherine-johnson";
+import { dorothyHodgkin } from "./dorothy-hodgkin";
+import { homiBhabha } from "./homi-bhabha";
+import { alanTuring } from "./alan-turing";
+import { srinivasaRamanujan } from "./srinivasa-ramanujan";
+import { adaLovelace } from "./ada-lovelace";
+import { rosalindFranklin } from "./rosalind-franklin";
+import { janeGoodall } from "./jane-goodall";
+import { rachelCarson } from "./rachel-carson";
+import { ibnAlHaytham } from "./ibn-al-haytham";
+import { archimedes } from "./archimedes";
+import { hypatia } from "./hypatia";
+import { subrahmanyanChandrasekhar } from "./subrahmanyan-chandrasekhar";
 import { johannesKepler } from "./johannes-kepler";
 import { nicolausCopernicus } from "./nicolaus-copernicus";
 import { jamesClerkMaxwell } from "./james-clerk-maxwell";
@@ -50,6 +63,19 @@ const PROFILES: Record<string, ScientistProfile> = {
   [alexanderFleming.slug]: alexanderFleming,
   [cvRaman.slug]: cvRaman,
   [jagadishChandraBose.slug]: jagadishChandraBose,
+  [katherineJohnson.slug]: katherineJohnson,
+  [dorothyHodgkin.slug]: dorothyHodgkin,
+  [homiBhabha.slug]: homiBhabha,
+  [alanTuring.slug]: alanTuring,
+  [srinivasaRamanujan.slug]: srinivasaRamanujan,
+  [adaLovelace.slug]: adaLovelace,
+  [rosalindFranklin.slug]: rosalindFranklin,
+  [janeGoodall.slug]: janeGoodall,
+  [rachelCarson.slug]: rachelCarson,
+  [ibnAlHaytham.slug]: ibnAlHaytham,
+  [archimedes.slug]: archimedes,
+  [hypatia.slug]: hypatia,
+  [subrahmanyanChandrasekhar.slug]: subrahmanyanChandrasekhar,
   [johannesKepler.slug]: johannesKepler,
   [nicolausCopernicus.slug]: nicolausCopernicus,
   [jamesClerkMaxwell.slug]: jamesClerkMaxwell,

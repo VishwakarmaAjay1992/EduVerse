@@ -23,7 +23,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ProfileQuiz } from "@/components/scientists/profile-quiz";
 import { ScientistImage } from "@/components/scientists/scientist-image";
 import type { ScientistProfile } from "@/data/scientist-profiles/types";
-import type { Scientist, ScientistImage as ScientistImageData } from "@/data/scientists";
 
 function Section({
   id,
@@ -76,27 +75,7 @@ const QUOTE_BADGE = {
   Disputed: "destructive",
 } as const;
 
-function photoSlotImage({
-  profileImage,
-  scientist,
-  slot,
-}: {
-  profileImage?: ScientistImageData;
-  scientist?: Scientist;
-  slot: string;
-}) {
-  if (profileImage) return profileImage;
-  if (!scientist) return undefined;
-  return slot === "Portrait" ? scientist.portrait : scientist.artifact.image;
-}
-
-export function ScientistProfileSections({
-  profile,
-  scientist,
-}: {
-  profile: ScientistProfile;
-  scientist?: Scientist;
-}) {
+export function ScientistProfileSections({ profile }: { profile: ScientistProfile }) {
   return (
     <div className="space-y-16">
       {profile.timeline?.length ? (
@@ -503,17 +482,11 @@ export function ScientistProfileSections({
         <Section id="photo-placeholders" title="Photo slots and captions" icon={Camera}>
           <div className="grid gap-4 sm:grid-cols-2">
             {profile.photoPlaceholders.map((p) => {
-              const image = photoSlotImage({
-                profileImage: p.image,
-                scientist,
-                slot: p.slot,
-              });
-
               return (
                 <div key={p.slot} className="rounded-lg border p-4">
-                  {image ? (
+                  {p.image ? (
                     <ScientistImage
-                      image={image}
+                      image={p.image}
                       width={900}
                       className="aspect-video rounded-md"
                       imageClassName="aspect-video"
