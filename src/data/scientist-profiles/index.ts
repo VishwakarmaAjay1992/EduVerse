@@ -6,6 +6,12 @@ import { nielsBohr } from "./niels-bohr";
 import { ernestRutherford } from "./ernest-rutherford";
 import { erwinSchrodinger } from "./erwin-schrodinger";
 import { maxPlanck } from "./max-planck";
+import { antoineLavoisier } from "./antoine-lavoisier";
+import { johnDalton } from "./john-dalton";
+import { dmitriMendeleev } from "./dmitri-mendeleev";
+import { pythagoras } from "./pythagoras";
+import { euclid } from "./euclid";
+import { leonhardEuler } from "./leonhard-euler";
 
 export * from "./types";
 
@@ -24,6 +30,12 @@ const PROFILES: Record<string, ScientistProfile> = {
   [ernestRutherford.slug]: ernestRutherford,
   [erwinSchrodinger.slug]: erwinSchrodinger,
   [maxPlanck.slug]: maxPlanck,
+  [antoineLavoisier.slug]: antoineLavoisier,
+  [johnDalton.slug]: johnDalton,
+  [dmitriMendeleev.slug]: dmitriMendeleev,
+  [pythagoras.slug]: pythagoras,
+  [euclid.slug]: euclid,
+  [leonhardEuler.slug]: leonhardEuler,
 };
 
 export function getScientistProfile(slug: string): ScientistProfile | undefined {

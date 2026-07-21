@@ -88,6 +88,7 @@ export type SubjectConnection = {
     | "Chemistry"
     | "Mathematics"
     | "Statistics"
+    | "Earth Science"
     | "Engineering"
     | "Computer Science"
     | "Astronomy"
@@ -215,7 +216,7 @@ export type QuoteEntry = {
   text: string;
   source: string;
   /** Guards against the many misattributed "science quotes" in circulation. */
-  status: "Verified" | "Widely attributed" | "Paraphrase";
+  status: "Verified" | "Widely attributed" | "Paraphrase" | "Disputed";
 };
 
 export type McqQuestion = {

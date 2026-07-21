@@ -70,6 +70,7 @@ const QUOTE_BADGE = {
   Verified: "default",
   "Widely attributed": "secondary",
   Paraphrase: "outline",
+  Disputed: "destructive",
 } as const;
 
 export function ScientistProfileSections({ profile }: { profile: ScientistProfile }) {

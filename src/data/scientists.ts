@@ -2606,6 +2606,652 @@ export const SCIENTISTS: readonly Scientist[] = [
       },
     ],
   },
+  {
+    rank: 33,
+    slug: "antoine-lavoisier",
+    fullName: "Antoine-Laurent de Lavoisier",
+    life: "1743–1794",
+    birthplace: "Paris, France",
+    primaryFields: ["Chemistry", "Physiology", "Public administration"],
+    headline: "The founder of modern chemistry, executed by the revolution he served.",
+    overview: [
+      "Antoine Lavoisier turned chemistry from a qualitative craft into a quantitative science by insisting that every experiment be weighed. Careful measurement let him demolish the phlogiston theory, identify oxygen's role in combustion, prove that water is a compound rather than an element, and state the conservation of mass.",
+      "He also gave chemistry the systematic naming scheme it still uses and wrote its first modern textbook. Much of the work was done jointly with his wife Marie-Anne Paulze Lavoisier, who translated, illustrated, recorded and argued. He was guillotined at fifty for having been a tax collector.",
+    ],
+    knownFor: [
+      "Conservation of mass in chemical reactions",
+      "Overthrowing the phlogiston theory",
+      "Naming oxygen and hydrogen",
+      "Systematic chemical nomenclature",
+      "The first modern chemistry textbook",
+    ],
+    earlyLife: [
+      "Lavoisier was born into a wealthy Parisian legal family. His mother died when he was five, leaving him a substantial fortune that later funded the finest private laboratory in Europe.",
+      "He trained as a lawyer at the Collège Mazarin and was admitted to the bar, but had already been drawn into science by the geologist Jean-Étienne Guettard, with whom he surveyed France for a mineralogical atlas. He was elected to the Académie des Sciences at twenty-five.",
+    ],
+    inspiration: [
+      "Lavoisier's governing conviction was that the balance settles arguments. Where earlier chemists described colours, smells and textures, he weighed everything before and after, including the gases, and let the numbers decide.",
+      "The phlogiston theory held that burning substances release a fire-principle. Lavoisier noticed the awkward fact that metals gain weight when they burn, which would require phlogiston to have negative weight — and built his life's work on taking that anomaly seriously.",
+    ],
+    challenges: [
+      "In 1768 he bought a share in the Ferme Générale, the private consortium that collected taxes for the crown. It funded his science and made him wealthy; it also made him one of the most hated men in France.",
+      "His scientific reputation created enemies. Jean-Paul Marat, rejected by the Académie and publicly criticised by Lavoisier, later attacked him in print — and Marat became a powerful figure in the Revolution.",
+    ],
+    lawsAndIdeas: [
+      "Conservation of mass: in a chemical reaction the total mass of the products equals the total mass of the reactants, so matter is neither created nor destroyed.",
+      "Combustion is combination with oxygen from the air, not the release of phlogiston, which explains why metals gain weight when they burn.",
+      "Water is a compound of hydrogen and oxygen, not an element, as shown by both decomposing and synthesising it.",
+      "Respiration is a slow combustion, consuming oxygen and producing carbon dioxide and heat by the same chemistry as a burning flame.",
+    ],
+    contributions: [
+      {
+        title: "Conservation of mass",
+        period: "1770s",
+        description:
+          "By weighing sealed vessels before and after reaction, Lavoisier established that total mass is unchanged, making quantitative accounting the basis of chemistry.",
+      },
+      {
+        title: "The oxygen theory of combustion",
+        period: "1772–1783",
+        description:
+          "He showed that burning and rusting are combination with a component of air, which he named oxygen, destroying the phlogiston theory.",
+      },
+      {
+        title: "Chemical nomenclature",
+        period: "1787",
+        description:
+          "With Guyton de Morveau, Berthollet and Fourcroy he devised a systematic naming scheme in which a compound's name states its composition.",
+      },
+    ],
+    definingWork: {
+      title: "Traité élémentaire de chimie",
+      date: "1789",
+      description:
+        "The first modern chemistry textbook, presenting the oxygen theory, the conservation of mass and a table of thirty-three simple substances that could not be decomposed further.",
+      significance:
+        "It reorganised chemistry around elements, quantitative measurement and systematic naming, and taught the subject to the next century.",
+    },
+    artifact: {
+      title: "David's portrait of the Lavoisiers",
+      date: "1788",
+      kind: "Original",
+      description:
+        "Jacques-Louis David's double portrait shows Lavoisier at a table of glassware, looking up at Marie-Anne, who stands beside him with drawing materials rather than in a merely decorative pose.",
+      significance:
+        "The painting records a working scientific partnership. Marie-Anne translated the English chemists, engraved the plates for the Traité and kept the laboratory records, and David was her drawing teacher.",
+      image: {
+        fileName: "David - Portrait of Monsieur Lavoisier and His Wife.jpg",
+        alt: "Jacques-Louis David's 1788 double portrait of Antoine and Marie-Anne Lavoisier",
+        credit: "Jacques-Louis David, Metropolitan Museum of Art",
+        license: "Public domain",
+        sourceUrl:
+          "https://commons.wikimedia.org/wiki/File:David_-_Portrait_of_Monsieur_Lavoisier_and_His_Wife.jpg",
+      },
+    },
+    legacy: [
+      "Conservation of mass remains the foundation of stoichiometry and every balanced chemical equation.",
+      "The 1787 nomenclature system is still the basis of how compounds are named, so a chemical name states what the substance is made of.",
+      "Chemistry became a quantitative laboratory science, and the balance became its defining instrument.",
+    ],
+    portrait: {
+      fileName: "Antoine lavoisier.jpg",
+      alt: "Portrait of Antoine-Laurent de Lavoisier",
+      credit: "Wikimedia Commons",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Antoine_lavoisier.jpg",
+      objectPosition: "50% 20%",
+    },
+    sources: [
+      {
+        label: "Antoine Lavoisier",
+        url: "https://www.sciencehistory.org/education/scientific-biographies/antoine-laurent-lavoisier/",
+        publisher: "Science History Institute",
+      },
+      {
+        label: "Lavoisier biography",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Lavoisier/",
+        publisher: "MacTutor History of Mathematics",
+      },
+    ],
+  },
+  {
+    rank: 34,
+    slug: "john-dalton",
+    fullName: "John Dalton",
+    life: "1766–1844",
+    birthplace: "Eaglesfield, Cumberland, England",
+    primaryFields: ["Chemistry", "Physics", "Meteorology"],
+    headline: "The Quaker schoolmaster who gave atoms a weight.",
+    overview: [
+      "John Dalton took the ancient speculation that matter is made of atoms and turned it into a working scientific theory by adding one decisive idea: atoms of each element have a characteristic weight, and compounds form by combining them in fixed small whole-number ratios.",
+      "He published the first table of atomic weights, discovered the law of partial pressures, and wrote the first scientific description of colour blindness — a condition he had himself, and which he arranged to have investigated after his death.",
+    ],
+    knownFor: [
+      "Atomic theory and the first table of atomic weights",
+      "The law of multiple proportions",
+      "Dalton's law of partial pressures",
+      "The first description of colour blindness",
+      "Fifty-seven years of daily meteorological records",
+    ],
+    earlyLife: [
+      "Dalton was born into a poor Quaker family in a Cumberland village; his father was a weaver. Quakers were barred from English universities, so his formal education ended at a village Quaker school — where he began teaching at twelve.",
+      "His real education came from John Gough, a blind natural philosopher who taught him Latin, Greek, French, mathematics and science in exchange for having books read aloud to him.",
+    ],
+    inspiration: [
+      "Dalton came to chemistry through meteorology. Trying to understand why the gases of the atmosphere mix rather than settling into layers by density led him to think about gas particles as discrete objects of differing weight.",
+      "The law of definite proportions — that a compound always contains the same elements in the same mass ratio — demanded an explanation. Dalton saw that it followed immediately if matter is particulate and combination occurs atom by atom.",
+    ],
+    challenges: [
+      "As a Quaker, Dalton was excluded from Oxford and Cambridge and from most public offices. He was largely self-taught and spent his life outside the university system, supporting himself by private tutoring.",
+      "He could not determine molecular formulas independently, so he assumed the simplest one — water as one hydrogen to one oxygen — which made half his atomic weights wrong by a factor of two.",
+    ],
+    lawsAndIdeas: [
+      "All matter consists of indivisible atoms, and all atoms of a given element are identical in mass and properties.",
+      "Compounds form when atoms of different elements combine in fixed, simple, whole-number ratios.",
+      "The law of multiple proportions: when two elements form more than one compound, the masses of one element combining with a fixed mass of the other stand in small whole-number ratios.",
+      "Dalton's law of partial pressures: in a mixture of gases, each gas exerts the pressure it would exert alone, and the total is the sum.",
+    ],
+    contributions: [
+      {
+        title: "Atomic theory",
+        period: "1803–1808",
+        description:
+          "Proposed that elements consist of atoms with characteristic weights combining in whole-number ratios, converting atomism from philosophy into testable chemistry.",
+      },
+      {
+        title: "The first table of atomic weights",
+        period: "1803",
+        description:
+          "Published relative weights for the known elements using hydrogen as unity, giving chemistry its first quantitative scale of atomic mass.",
+      },
+      {
+        title: "Law of partial pressures",
+        period: "1801",
+        description:
+          "Showed that each gas in a mixture contributes pressure independently, explaining why the atmosphere does not separate into layers.",
+      },
+    ],
+    definingWork: {
+      title: "A New System of Chemical Philosophy",
+      date: "1808",
+      description:
+        "Dalton's presentation of atomic theory, including his circular symbols for the elements and his table of relative atomic weights.",
+      significance:
+        "It gave chemistry the atom as a quantitative working tool, and every chemical formula written since descends from it.",
+    },
+    artifact: {
+      title: "Dalton's table of atomic symbols",
+      date: "1808",
+      kind: "Historic document",
+      description:
+        "The famous plate from A New System of Chemical Philosophy showing each element as a distinct circular symbol, with compounds drawn as clusters of those circles.",
+      significance:
+        "The first attempt to depict chemical composition structurally rather than verbally. The symbols were soon replaced by Berzelius's letters, but the underlying idea survived.",
+      image: {
+        fileName: "A New System of Chemical Philosophy fp.jpg",
+        alt: "Dalton's 1808 plate of circular atomic symbols and their relative weights",
+        credit: "Wikimedia Commons",
+        license: "Public domain",
+        sourceUrl:
+          "https://commons.wikimedia.org/wiki/File:A_New_System_of_Chemical_Philosophy_fp.jpg",
+      },
+    },
+    legacy: [
+      "Atomic theory is the organising idea of all chemistry, and relative atomic mass remains a core quantity.",
+      "The unit of atomic mass is named the dalton in his honour.",
+      "His account of colour blindness was the first in the scientific literature, and the condition was long called Daltonism.",
+    ],
+    portrait: {
+      fileName: "John Dalton by Charles Turner.jpg",
+      alt: "Portrait of John Dalton",
+      credit: "Charles Turner, after Joseph Allen",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:John_Dalton_by_Charles_Turner.jpg",
+      objectPosition: "50% 20%",
+    },
+    sources: [
+      {
+        label: "John Dalton",
+        url: "https://www.sciencehistory.org/education/scientific-biographies/john-dalton/",
+        publisher: "Science History Institute",
+      },
+      {
+        label: "Dalton biography",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Dalton/",
+        publisher: "MacTutor History of Mathematics",
+      },
+    ],
+  },
+  {
+    rank: 35,
+    slug: "dmitri-mendeleev",
+    fullName: "Dmitri Ivanovich Mendeleev",
+    life: "1834–1907",
+    birthplace: "Tobolsk, Siberia, Russian Empire",
+    primaryFields: ["Chemistry", "Metrology", "Industrial science"],
+    headline: "The Siberian chemist who left gaps in his table — and was proved right.",
+    overview: [
+      "Dmitri Mendeleev arranged the known elements by atomic weight and found that their properties repeat periodically. Others had noticed patterns; what set Mendeleev apart was his confidence in the pattern over the data. Where no known element fitted, he left a gap and described in detail the element that would fill it.",
+      "Within fifteen years gallium, scandium and germanium were discovered, matching his predictions closely enough to settle the matter. He also corrected the accepted atomic weights of several elements on the strength of the table alone.",
+    ],
+    knownFor: [
+      "The periodic law and the periodic table",
+      "Predicting gallium, scandium and germanium before their discovery",
+      "Correcting accepted atomic weights",
+      "Principles of Chemistry",
+      "Founding Russian metrology",
+    ],
+    earlyLife: [
+      "Mendeleev was the youngest of a very large family in Tobolsk, deep in Siberia. His father, a school headmaster, went blind the year Dmitri was born and died when the boy was thirteen.",
+      "His mother reopened the family glass factory to support them; when it burned down she took her son thousands of miles across Russia to find him a university place. She died shortly after he was admitted, and he dedicated his major work to her memory.",
+    ],
+    inspiration: [
+      "The table came out of teaching. Writing a chemistry textbook, Mendeleev needed a rational order in which to present the elements, and the periodic law emerged from the search for one.",
+      "The 1860 Karlsruhe Congress was decisive. Cannizzaro's clarification of the distinction between atomic and molecular weights gave chemists a consistent set of atomic weights for the first time — the raw material the table required.",
+    ],
+    challenges: [
+      "He was educated at the far edge of the Russian Empire and reached St Petersburg only through his mother's extraordinary effort. He contracted tuberculosis in his twenties and was expected to die.",
+      "In 1880 he was refused election to the Imperial Academy of Sciences, a rejection widely attributed to his liberal politics and to hostility within a German-dominated institution rather than to any scientific doubt.",
+    ],
+    lawsAndIdeas: [
+      "The periodic law: the properties of the elements vary periodically with atomic weight, so chemically similar elements recur at regular intervals.",
+      "Gaps in the table correspond to elements not yet discovered, whose properties can be predicted by interpolating between their neighbours.",
+      "Where an accepted atomic weight conflicts with an element's chemical behaviour, the weight may be wrong rather than the pattern.",
+      "Elements are best characterised by their place in the system as a whole rather than by isolated properties.",
+    ],
+    contributions: [
+      {
+        title: "The periodic table",
+        period: "1869",
+        description:
+          "Arranged the known elements so that chemical similarity recurs periodically, and published the arrangement as a working scientific claim rather than a mnemonic.",
+      },
+      {
+        title: "Predicting undiscovered elements",
+        period: "1869–1871",
+        description:
+          "Left gaps for eka-aluminium, eka-boron and eka-silicon and specified their atomic weights, densities and chemistry. All three were found within seventeen years.",
+      },
+      {
+        title: "Correcting atomic weights",
+        period: "1869–1871",
+        description:
+          "Used the table to identify errors in accepted values, including those for beryllium, indium and uranium, and was subsequently vindicated.",
+      },
+    ],
+    definingWork: {
+      title: "On the Relationship of the Properties of the Elements to their Atomic Weights",
+      date: "1869",
+      description:
+        "The paper presenting the periodic law to the Russian Chemical Society, with a table ordering the elements and gaps left for those not yet known.",
+      significance:
+        "It converted a loose collection of sixty-three substances into a system with predictive power, and set the framework of all subsequent chemistry.",
+    },
+    artifact: {
+      title: "The 1869 periodic table",
+      date: "1869",
+      kind: "Historic document",
+      description:
+        "Mendeleev's first published arrangement, with elements ordered by atomic weight, chemically similar elements grouped together, and question marks marking the gaps.",
+      significance:
+        "The question marks are the point. A table that merely organised what was known would have been useful; one that specified what was missing was testable, and it passed.",
+      image: {
+        fileName: "Mendeleev's 1869 periodic table.png",
+        alt: "Mendeleev's first published periodic table of 1869, showing gaps for undiscovered elements",
+        credit: "Wikimedia Commons",
+        license: "Public domain",
+        sourceUrl:
+          "https://commons.wikimedia.org/wiki/File:Mendeleev%27s_1869_periodic_table.png",
+      },
+    },
+    legacy: [
+      "The periodic table is the single most recognisable object in science and the organising framework of chemistry.",
+      "His method — trusting a pattern enough to predict specific unknowns — became a model for how theories earn acceptance.",
+      "Element 101 is named mendelevium, and 2019 was declared the International Year of the Periodic Table on the table's 150th anniversary.",
+    ],
+    portrait: {
+      fileName: "Dmitri Mendeleev.jpg",
+      alt: "Portrait photograph of Dmitri Mendeleev",
+      credit: "Wikimedia Commons",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Dmitri_Mendeleev.jpg",
+      objectPosition: "50% 20%",
+    },
+    sources: [
+      {
+        label: "Dmitri Mendeleev",
+        url: "https://www.sciencehistory.org/education/scientific-biographies/dmitri-mendeleev/",
+        publisher: "Science History Institute",
+      },
+      {
+        label: "Mendeleev biography",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Mendeleev/",
+        publisher: "MacTutor History of Mathematics",
+      },
+    ],
+  },
+  {
+    rank: 36,
+    slug: "pythagoras",
+    fullName: "Pythagoras of Samos",
+    life: "c. 570 – c. 495 BCE",
+    birthplace: "Samos, Ionia (modern Greece)",
+    primaryFields: ["Mathematics", "Music theory", "Philosophy"],
+    headline: "The most famous theorem in mathematics is named after a man who probably did not prove it.",
+    overview: [
+      "Pythagoras founded a philosophical and religious community in southern Italy built on the conviction that number is the underlying structure of reality. His followers discovered that musical harmony corresponds to simple whole-number ratios of string length, which appeared to confirm the idea spectacularly.",
+      "Almost nothing about him is securely known. He wrote nothing that survives, and every account of his life was written centuries after his death. The theorem bearing his name was known in Babylon a thousand years earlier, and whether he proved it is genuinely uncertain.",
+    ],
+    knownFor: [
+      "The Pythagorean theorem",
+      "Whole-number ratios in musical harmony",
+      "The doctrine that reality is fundamentally numerical",
+      "The Pythagorean brotherhood at Croton",
+      "The discovery of incommensurable magnitudes",
+    ],
+    earlyLife: [
+      "Pythagoras was born on the Aegean island of Samos, the son of Mnesarchus, described variously as a gem-engraver or a merchant. Samos under the tyrant Polycrates was wealthy and outward-looking.",
+      "Ancient sources say he travelled to Egypt and possibly Babylon, studying with priests and absorbing mathematical and religious traditions. These accounts are late and partly legendary, but the transmission of Babylonian mathematics into Greek thought is real.",
+    ],
+    inspiration: [
+      "The founding insight was musical. Strings whose lengths stand in the ratios 2:1, 3:2 and 4:3 sound the octave, fifth and fourth — the intervals the ear finds most consonant. Something as apparently subjective as beauty turned out to be governed by small whole numbers.",
+      "Generalising from this, the Pythagoreans concluded that number is not merely a tool for describing the world but its actual substance. The pattern found in sound was expected to run through geometry, astronomy and the soul alike.",
+    ],
+    challenges: [
+      "The discovery that the diagonal of a square is incommensurable with its side struck at the foundation of the doctrine. If some magnitudes cannot be expressed as a ratio of whole numbers, then number in the Pythagorean sense cannot be the substance of everything.",
+      "The brotherhood's political influence in Croton provoked a violent backlash. Their meeting house was burned and members were killed. Pythagoras fled to Metapontum, where he died.",
+    ],
+    lawsAndIdeas: [
+      "In a right-angled triangle, the square on the hypotenuse equals the sum of the squares on the other two sides.",
+      "Musical consonance corresponds to simple whole-number ratios between vibrating string lengths.",
+      "Number is the fundamental principle of reality, and the structure of things is mathematical structure.",
+      "The soul is immortal and transmigrates between bodies, which grounded the community's ethical rules including its dietary prohibitions.",
+    ],
+    contributions: [
+      {
+        title: "Mathematical harmony",
+        period: "6th century BCE",
+        description:
+          "Established that the consonant musical intervals correspond to simple ratios of string length, the first known mathematical law of a physical phenomenon.",
+      },
+      {
+        title: "The Pythagorean school",
+        period: "c. 530 BCE onward",
+        description:
+          "Founded a community at Croton in which mathematics was pursued as a shared discipline, producing results transmitted collectively rather than individually.",
+      },
+      {
+        title: "Incommensurable magnitudes",
+        period: "5th century BCE",
+        description:
+          "The school discovered that the diagonal of a square cannot be expressed as a ratio of whole numbers to its side — the first irrational number.",
+      },
+    ],
+    definingWork: {
+      title: "The Pythagorean theorem",
+      date: "Attributed, 6th century BCE",
+      description:
+        "The relation between the sides of a right-angled triangle, expressed as the square on the hypotenuse equalling the sum of the squares on the legs.",
+      significance:
+        "It links algebra and geometry, underlies all distance measurement, and is the most widely taught result in mathematics. Its attribution to Pythagoras is traditional rather than documented.",
+    },
+    artifact: {
+      title: "Plimpton 322",
+      date: "c. 1800 BCE",
+      kind: "Historic document",
+      description:
+        "A Babylonian clay tablet listing numbers that correspond to Pythagorean triples, written roughly twelve centuries before Pythagoras was born.",
+      significance:
+        "It demonstrates that the relationship was known and used long before the Greeks. The Greek contribution was not the discovery but the demand that it be proved.",
+      image: {
+        fileName: "Plimpton 322.jpg",
+        alt: "The Babylonian clay tablet Plimpton 322, listing Pythagorean triples in cuneiform",
+        credit: "Columbia University, Wikimedia Commons",
+        license: "Public domain",
+        sourceUrl: "https://commons.wikimedia.org/wiki/File:Plimpton_322.jpg",
+      },
+    },
+    legacy: [
+      "The theorem underlies coordinate geometry, trigonometry, navigation and every distance calculation in physics and computing.",
+      "The idea that nature has a mathematical structure runs from Plato through Galileo and Newton to modern physics.",
+      "The discovery of irrational numbers forced Greek mathematics toward geometry and eventually toward a rigorous theory of the real numbers.",
+    ],
+    portrait: {
+      fileName: "Kapitolinischer Pythagoras adjusted.jpg",
+      alt: "Roman marble bust traditionally identified as Pythagoras, Capitoline Museums",
+      credit: "Capitoline Museums, Rome, Wikimedia Commons",
+      license: "Public domain",
+      sourceUrl:
+        "https://commons.wikimedia.org/wiki/File:Kapitolinischer_Pythagoras_adjusted.jpg",
+      objectPosition: "50% 25%",
+    },
+    sources: [
+      {
+        label: "Pythagoras",
+        url: "https://plato.stanford.edu/entries/pythagoras/",
+        publisher: "Stanford Encyclopedia of Philosophy",
+      },
+      {
+        label: "Pythagoras biography",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Pythagoras/",
+        publisher: "MacTutor History of Mathematics",
+      },
+    ],
+  },
+  {
+    rank: 37,
+    slug: "euclid",
+    fullName: "Euclid of Alexandria",
+    life: "fl. c. 300 BCE",
+    birthplace: "Unknown; worked in Alexandria, Egypt",
+    primaryFields: ["Mathematics", "Geometry", "Logic"],
+    headline: "He wrote the textbook that taught the world what a proof is.",
+    overview: [
+      "Euclid's Elements collected the mathematics of his predecessors and organised it into a single deductive structure: a handful of definitions, postulates and common notions, from which four hundred and sixty-five propositions follow in strict order.",
+      "The content was largely not original. The architecture was, and it defined what mathematics is for the next two thousand years. Almost nothing is known about Euclid himself beyond the fact that he worked in Alexandria.",
+    ],
+    knownFor: [
+      "The Elements, the most influential textbook ever written",
+      "The axiomatic method",
+      "The Euclidean algorithm for greatest common divisors",
+      "The proof that the primes are infinite",
+      "The parallel postulate",
+    ],
+    earlyLife: [
+      "Nothing reliable is known of Euclid's birth, family or education. Every biographical statement about him comes from Proclus, writing roughly eight centuries later, and from Pappus.",
+      "He worked in Alexandria under Ptolemy I, at the newly founded Museum and Library. Proclus suggests he was trained by pupils of Plato, which would place his mathematical formation in Athens.",
+    ],
+    inspiration: [
+      "Greek mathematics before Euclid was a collection of powerful but scattered results. The problem he set himself was organisational: to determine what must be assumed and to derive everything else from it in a defensible order.",
+      "The Platonic demand for demonstrative knowledge rather than practical rule-of-thumb shaped the project. A Babylonian scribe could calculate correctly; the Greek question was how you know the calculation must be right.",
+    ],
+    challenges: [
+      "The fifth postulate, concerning parallel lines, is markedly less self-evident than the other four. Euclid appears to have been uneasy with it, avoiding its use for as long as possible.",
+      "Some proofs rely on assumptions never stated — that two circles drawn in a certain way must intersect, for instance. These gaps went unnoticed for two millennia.",
+    ],
+    lawsAndIdeas: [
+      "Mathematical knowledge should be derived from explicitly stated assumptions by chains of reasoning that can be checked step by step.",
+      "The parallel postulate: given a line and a point not on it, exactly one line through that point never meets the first.",
+      "The greatest common divisor of two numbers can be found by repeated division with remainder.",
+      "There is no largest prime number, as can be shown by supposing there were and deriving a contradiction.",
+    ],
+    contributions: [
+      {
+        title: "The axiomatic method",
+        period: "c. 300 BCE",
+        description:
+          "Organised mathematics as a deductive system built from stated definitions, postulates and common notions, establishing the standard of rigour still used today.",
+      },
+      {
+        title: "Number theory",
+        period: "c. 300 BCE",
+        description:
+          "Books VII to IX contain the Euclidean algorithm, the infinitude of primes, and the characterisation of even perfect numbers.",
+      },
+      {
+        title: "Solid geometry",
+        period: "c. 300 BCE",
+        description:
+          "Books XI to XIII treat three-dimensional figures, concluding with the construction of the five Platonic solids and a proof that there are no others.",
+      },
+    ],
+    definingWork: {
+      title: "The Elements",
+      date: "c. 300 BCE",
+      description:
+        "Thirteen books covering plane geometry, proportion, number theory, incommensurable magnitudes and solid geometry, developed as a single deductive chain.",
+      significance:
+        "The most successful textbook in history, in continuous use for over two thousand years and second only to the Bible in number of printed editions.",
+    },
+    artifact: {
+      title: "Papyrus Oxyrhynchus 29",
+      date: "c. 75–125 CE",
+      kind: "Historic document",
+      description:
+        "A papyrus fragment from Egypt carrying the statement of Book II, Proposition 5, together with its diagram — the earliest surviving text of the Elements.",
+      significance:
+        "It shows the Elements circulating as a working text in Roman Egypt centuries after Euclid, and preserves one of the oldest mathematical diagrams in existence.",
+      image: {
+        fileName: "P. Oxy. I 29.jpg",
+        alt: "Papyrus fragment carrying Proposition 5 of Book II of Euclid's Elements with its diagram",
+        credit: "University of Pennsylvania Museum, Wikimedia Commons",
+        license: "Public domain",
+        sourceUrl: "https://commons.wikimedia.org/wiki/File:P._Oxy._I_29.jpg",
+      },
+    },
+    legacy: [
+      "The axiomatic method became the model for mathematics, and for Newton's Principia and Spinoza's Ethics beyond it.",
+      "Attempts to prove the parallel postulate from the others failed for two thousand years and eventually produced non-Euclidean geometry, without which general relativity is impossible.",
+      "The Euclidean algorithm remains in daily use in cryptography and computer algebra.",
+    ],
+    portrait: {
+      fileName: "Euklid-von-Alexandria 1.jpg",
+      alt: "Imagined portrait of Euclid of Alexandria; no authentic likeness exists",
+      credit: "Wikimedia Commons",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Euklid-von-Alexandria_1.jpg",
+      objectPosition: "50% 20%",
+    },
+    sources: [
+      {
+        label: "Euclid biography",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
+        publisher: "MacTutor History of Mathematics",
+      },
+      {
+        label: "Euclid's Elements",
+        url: "https://mathcs.clarku.edu/~djoyce/elements/elements.html",
+        publisher: "Clark University, D. E. Joyce",
+      },
+    ],
+  },
+  {
+    rank: 38,
+    slug: "leonhard-euler",
+    fullName: "Leonhard Euler",
+    life: "1707–1783",
+    birthplace: "Basel, Switzerland",
+    primaryFields: ["Mathematics", "Physics", "Astronomy"],
+    headline: "The most prolific mathematician who ever lived — and he did half of it blind.",
+    overview: [
+      "Leonhard Euler published around 866 works spanning every branch of mathematics then existing and several he created himself: graph theory, the calculus of variations, analytic number theory and topology among them. His collected works still run to some eighty volumes.",
+      "He also gave mathematics much of its notation, including f(x), e, i, the summation sign, and the popularisation of π. He went blind in his sixties and his productivity increased, dictating to scribes from memory.",
+    ],
+    knownFor: [
+      "Euler's identity linking e, i, π, 1 and 0",
+      "Solving the Basel problem",
+      "Founding graph theory with the Königsberg bridges",
+      "The Euler characteristic V − E + F = 2",
+      "Most of modern mathematical notation",
+    ],
+    earlyLife: [
+      "Euler was born in Basel to a Calvinist pastor who had studied mathematics under Jacob Bernoulli. He entered the University of Basel at thirteen and took his master's degree at sixteen.",
+      "His father intended him for the ministry. Johann Bernoulli, recognising exceptional talent during private Saturday lessons, persuaded the family to let him pursue mathematics instead.",
+    ],
+    inspiration: [
+      "Euler treated mathematics as a single connected subject. He moved freely between number theory, analysis, mechanics and geometry, and his most striking results come from carrying a method developed in one area into another where nobody expected it.",
+      "The Basel problem — finding the exact sum of the reciprocals of the squares — had defeated the best mathematicians in Europe for ninety years. Euler solved it at twenty-eight by treating an infinite series as though it were a polynomial, and the audacity made his reputation.",
+    ],
+    challenges: [
+      "He lost the sight of his right eye around 1738 and developed a cataract in the left in 1766, becoming almost totally blind by 1771. He responded by dictating, and produced roughly half his total output afterwards.",
+      "In 1771 a fire destroyed his house in St Petersburg. He escaped, and a servant carried him out; most of his manuscripts were saved.",
+    ],
+    lawsAndIdeas: [
+      "Euler's formula: raising e to an imaginary power produces a combination of cosine and sine, uniting exponential and trigonometric functions.",
+      "For any convex polyhedron, the number of vertices minus edges plus faces always equals two.",
+      "A walk crossing every edge of a network exactly once exists only if the network is connected and has zero or two vertices of odd degree.",
+      "The sum of the reciprocals of the squares of the whole numbers equals π² divided by 6.",
+    ],
+    contributions: [
+      {
+        title: "Analysis and notation",
+        period: "1730s–1780s",
+        description:
+          "Systematised the function concept and introduced much of the notation mathematics still uses, making results communicable in a way they had not been before.",
+      },
+      {
+        title: "Graph theory and topology",
+        period: "1736–1758",
+        description:
+          "The Königsberg bridges problem and the polyhedron formula founded two subjects concerned with shape and connection rather than measurement.",
+      },
+      {
+        title: "Number theory",
+        period: "1730s–1780s",
+        description:
+          "Introduced the totient function, proved Fermat's little theorem, and connected the distribution of primes to the zeta function.",
+      },
+    ],
+    definingWork: {
+      title: "Introductio in analysin infinitorum",
+      date: "1748",
+      description:
+        "A two-volume treatise placing the function at the centre of analysis and developing infinite series, exponentials, logarithms and trigonometric functions on a unified basis.",
+      significance:
+        "It is often called the foundation of modern analysis, and did for the subject what the Elements did for geometry.",
+    },
+    artifact: {
+      title: "The seven bridges of Königsberg",
+      date: "1736",
+      kind: "Historic document",
+      description:
+        "The diagram of the city's two islands and seven bridges, which Euler reduced to four points joined by seven lines in order to prove no route could cross each bridge exactly once.",
+      significance:
+        "Discarding distance and shape and keeping only connection was a genuinely new kind of mathematics, and it founded graph theory and pointed toward topology.",
+      image: {
+        fileName: "Konigsberg bridges.png",
+        alt: "Map of Königsberg showing the two islands and the seven bridges of Euler's problem",
+        credit: "Wikimedia Commons",
+        license: "Public domain",
+        sourceUrl: "https://commons.wikimedia.org/wiki/File:Konigsberg_bridges.png",
+      },
+    },
+    legacy: [
+      "Euler's notation is the language mathematics is written in, from f(x) to e, i and Σ.",
+      "Graph theory now underlies network routing, social network analysis, logistics and circuit design.",
+      "More theorems, equations and constants bear his name than any other mathematician's, and his collected works are still being published.",
+    ],
+    portrait: {
+      fileName: "Leonhard Euler.jpg",
+      alt: "Jakob Emanuel Handmann's 1753 pastel portrait of Leonhard Euler",
+      credit: "Jakob Emanuel Handmann, Kunstmuseum Basel",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Leonhard_Euler.jpg",
+      objectPosition: "50% 20%",
+    },
+    sources: [
+      {
+        label: "Euler biography",
+        url: "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+        publisher: "MacTutor History of Mathematics",
+      },
+      {
+        label: "The Euler Archive",
+        url: "https://scholarlycommons.pacific.edu/euler/",
+        publisher: "University of the Pacific",
+      },
+    ],
+  },
 ] as const;
 
 export function getScientist(slug: string) {
