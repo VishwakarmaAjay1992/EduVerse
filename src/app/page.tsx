@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Compass, Microscope, Sparkles, Telescope } from "lucide-react";
+import { ArrowRight, Compass, Lightbulb, Microscope, Sparkles, Telescope } from "lucide-react";
 import { ScientistImage } from "@/components/scientists/scientist-image";
 import { SiteHeader } from "@/components/site-header";
 import { SubjectCard } from "@/components/subject-card";
@@ -8,11 +8,13 @@ import { Card, CardContent } from "@/components/ui/card";
 import { SCIENTISTS } from "@/data/scientists";
 import { listSubjects } from "@/lib/curriculum";
 import { HUB_FEATURES, HUB_GROUPS, HUB_GROUP_COPY } from "@/data/learning-hub";
+import { inventions } from "@/data/inventions";
 
 export default function HomePage() {
   const subjects = listSubjects();
   const totalLessons = subjects.reduce((n, s) => n + s.stats.lessons, 0);
   const totalHours = subjects.reduce((n, s) => n + s.stats.hours, 0);
+  const featuredInvention = inventions[0];
 
   return (
     <>
@@ -41,6 +43,59 @@ export default function HomePage() {
               {totalLessons.toLocaleString()} lessons · ~{totalHours.toLocaleString()} hours of
               structured learning
             </p>
+          </div>
+        </section>
+
+
+
+        <section className="border-b bg-gradient-to-br from-slate-950 via-cyan-950 to-amber-900 text-white">
+          <div className="container grid gap-10 py-16 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
+            <div>
+              <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.17em]">
+                <Lightbulb className="size-4" aria-hidden="true" /> New section added
+              </div>
+              <h2 className="mt-5 text-balance text-3xl font-bold tracking-tight sm:text-5xl">
+                History of Human Inventions
+              </h2>
+              <p className="mt-4 max-w-xl leading-7 text-white/75">
+                Start with a complete student-friendly feature on {featuredInvention.title}: its inventors,
+                experiments, timeline, scientific principles, social impact, myths, FAQs, image ideas and
+                interactive learning activities.
+              </p>
+              <div className="mt-7 flex flex-wrap gap-3">
+                <Button asChild size="lg" variant="secondary">
+                  <Link href={`/history-of-human-inventions/${featuredInvention.slug}`}>
+                    Read Steam Engine article <ArrowRight aria-hidden="true" />
+                  </Link>
+                </Button>
+                <Button
+                  asChild
+                  size="lg"
+                  className="border border-white/20 bg-white/10 text-white hover:bg-white/20"
+                >
+                  <Link href="/history-of-human-inventions">Open inventions section</Link>
+                </Button>
+              </div>
+            </div>
+            <Link
+              href={`/history-of-human-inventions/${featuredInvention.slug}`}
+              className="group overflow-hidden rounded-3xl border border-white/15 bg-white/10 shadow-2xl shadow-cyan-950/40 transition hover:-translate-y-1 hover:bg-white/15"
+            >
+              <img
+                src="/images/inventions/steam-engine-hero.svg"
+                alt="Illustration showing the steam engine, factory power, and modern steam turbine"
+                className="aspect-video w-full object-cover"
+              />
+              <div className="p-6">
+                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-cyan-200">
+                  Featured invention
+                </p>
+                <h3 className="mt-2 text-2xl font-bold">{featuredInvention.title}</h3>
+                <p className="mt-3 line-clamp-3 text-sm leading-6 text-white/70">
+                  {featuredInvention.heroSummary}
+                </p>
+              </div>
+            </Link>
           </div>
         </section>
 

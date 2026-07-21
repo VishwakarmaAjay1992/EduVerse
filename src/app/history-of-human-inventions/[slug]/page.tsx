@@ -81,8 +81,15 @@ export default async function InventionArticlePage({ params }: PageProps) {
           <p className="mt-8 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-300">History of Human Inventions</p>
           <h1 className="mt-4 max-w-5xl text-4xl font-black tracking-tight sm:text-6xl">{invention.title}</h1>
           <p className="mt-6 max-w-3xl text-xl leading-8 text-slate-300">{invention.subtitle}</p>
-          <div className="mt-8 rounded-3xl border border-cyan-300/20 bg-cyan-300/10 p-6 text-lg leading-8 text-cyan-50">
-            {invention.heroSummary}
+          <div className="mt-8 grid gap-6 lg:grid-cols-[1fr_1.1fr] lg:items-center">
+            <div className="rounded-3xl border border-cyan-300/20 bg-cyan-300/10 p-6 text-lg leading-8 text-cyan-50">
+              {invention.heroSummary}
+            </div>
+            <img
+              src="/images/inventions/steam-engine-hero.svg"
+              alt="Steam engine historical evolution illustration"
+              className="aspect-video w-full rounded-3xl border border-white/15 object-cover shadow-2xl shadow-cyan-950/40"
+            />
           </div>
         </div>
       </section>
@@ -118,6 +125,17 @@ export default async function InventionArticlePage({ params }: PageProps) {
             </div>
           </section>
         ))}
+
+        <figure className="my-10 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+          <img
+            src="/images/inventions/steam-engine-cutaway.svg"
+            alt="Simple cutaway diagram of a piston steam engine"
+            className="w-full"
+          />
+          <figcaption className="border-t border-slate-200 px-6 py-4 text-sm leading-6 text-slate-600">
+            Simplified cutaway diagram: heat produces steam, steam moves the piston, and the connecting rod turns the flywheel.
+          </figcaption>
+        </figure>
 
         <section id="timeline" className="scroll-mt-24 py-8">
           <h2 className="text-3xl font-black tracking-tight text-slate-950">4. Timeline of Development</h2>

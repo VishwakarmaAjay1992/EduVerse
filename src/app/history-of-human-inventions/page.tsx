@@ -29,6 +29,11 @@ export default function HumanInventionsPage() {
               key={invention.slug}
               className="group rounded-3xl border border-white/10 bg-white/[0.04] p-6 shadow-2xl shadow-cyan-950/20 transition hover:-translate-y-1 hover:border-cyan-300/40 hover:bg-white/[0.07]"
             >
+              <img
+                src="/images/inventions/steam-engine-hero.svg"
+                alt="Steam engine educational illustration"
+                className="mb-5 aspect-video w-full rounded-2xl object-cover ring-1 ring-white/10"
+              />
               <p className="text-sm font-medium text-cyan-300">Featured invention</p>
               <h2 className="mt-3 text-2xl font-bold text-white group-hover:text-cyan-200">{invention.title}</h2>
               <p className="mt-4 line-clamp-4 text-sm leading-6 text-slate-300">{invention.heroSummary}</p>
