@@ -19,7 +19,6 @@ export const permutationsAndCombinations: LessonContent = {
       "kind": "overview",
       "paragraphs": [
         "Permutations and combinations are the mathematics of counting. This chapter answers two basic questions: how many ways can objects be arranged in order, and how many ways can objects be selected when order does not matter?",
-        "This lesson is placed in Mathematics → Counting and Combinatorics because the uploaded PDF chapter develops fundamental counting, factorial notation, permutations, combinations, circular arrangements, distributions, divisibility-based counting, inclusion-exclusion, derangements and the multinomial theorem.",
         "Study this chapter like a problem-solving toolbox. First decide whether the task is an arrangement or a selection, then check whether repetition, restrictions, identical objects, circular order or inclusion-exclusion is involved."
       ]
     },
@@ -373,7 +372,7 @@ export const permutationsAndCombinations: LessonContent = {
       "kind": "theory",
       "heading": "Solved Examples — Counting principles and factorials",
       "paragraphs": [
-        "This block contains solved textbook-style illustrations 1 to 4 from the uploaded Permutations and Combinations PDF."
+        "This block contains solved textbook-style illustrations 1 to 4."
       ]
     },
     {
@@ -419,7 +418,7 @@ export const permutationsAndCombinations: LessonContent = {
       "kind": "theory",
       "heading": "Solved Examples — Permutations",
       "paragraphs": [
-        "This block contains solved textbook-style illustrations 5 to 16 from the uploaded Permutations and Combinations PDF."
+        "This block contains solved textbook-style illustrations 5 to 16."
       ]
     },
     {
@@ -578,7 +577,7 @@ export const permutationsAndCombinations: LessonContent = {
       "kind": "theory",
       "heading": "Solved Examples — Combinations, groups and distributions",
       "paragraphs": [
-        "This block contains solved textbook-style illustrations 17 to 31 from the uploaded Permutations and Combinations PDF."
+        "This block contains solved textbook-style illustrations 17 to 31."
       ]
     },
     {
@@ -782,7 +781,7 @@ export const permutationsAndCombinations: LessonContent = {
       "kind": "theory",
       "heading": "Solved Examples — Circular permutations and stars and bars",
       "paragraphs": [
-        "This block contains solved textbook-style illustrations 32 to 38 from the uploaded Permutations and Combinations PDF."
+        "This block contains solved textbook-style illustrations 32 to 38."
       ]
     },
     {
@@ -873,7 +872,7 @@ export const permutationsAndCombinations: LessonContent = {
       "kind": "theory",
       "heading": "Solved Examples — Divisibility, sums, factors and prime exponents",
       "paragraphs": [
-        "This block contains solved textbook-style illustrations 39 to 45 from the uploaded Permutations and Combinations PDF."
+        "This block contains solved textbook-style illustrations 39 to 45."
       ]
     },
     {
@@ -960,7 +959,7 @@ export const permutationsAndCombinations: LessonContent = {
       "kind": "theory",
       "heading": "Solved Examples — Inclusion-exclusion, derangements and multinomial theorem",
       "paragraphs": [
-        "This block contains solved textbook-style illustrations 46 to 49 from the uploaded Permutations and Combinations PDF."
+        "This block contains solved textbook-style illustrations 46 to 49."
       ]
     },
     {

@@ -13,13 +13,12 @@ export const alternatingCurrent: LessonContent = {
     "Explain wattless current, average AC power and maximum power at resonance",
     "Apply transformer relations to step-up and step-down transformers, efficiency and transmission losses",
     "Describe the working principle of an AC generator and derive the instantaneous emf",
-    "Practise MCQ, assertion-reason, fill-in-the-blank, case-study, short-answer and long-answer questions from the uploaded chapter PDF"
+    "Practise MCQ, assertion-reason, fill-in-the-blank, case-study, short-answer and long-answer questions"
   ],
   "sections": [
     {
       "kind": "overview",
       "paragraphs": [
-        "This lesson is placed in Physics → Magnetism and Electromagnetic Induction → Alternating Current because the uploaded PDF chapter is titled Alternating Current and covers AC generation, rms values, RLC circuits, resonance, transformers, power transmission and AC generators.",
         "Study it like a textbook chapter: first learn the definitions and formulas, then compare R, L and C circuits, then solve LCR resonance and transformer questions, and finally attempt the practice exercise and chapter test."
       ]
     },
@@ -465,7 +464,7 @@ export const alternatingCurrent: LessonContent = {
             "none of these"
           ],
           "answer": 0,
-          "explanation": "Phasors rotate like vectors but represent sinusoidal quantities, so the expected answer is scalar quantity in this PDF."
+          "explanation": "Phasors rotate like vectors but represent sinusoidal quantities, so the expected answer is scalar quantity in this question set."
         },
         {
           "prompt": "In a purely resistive AC circuit, current:",
@@ -904,7 +903,7 @@ export const alternatingCurrent: LessonContent = {
     },
     {
       "kind": "table",
-      "heading": "Very Short Answer Questions from PDF",
+      "heading": "Very Short Answer Questions",
       "headers": [
         "Q",
         "Question",
@@ -965,7 +964,7 @@ export const alternatingCurrent: LessonContent = {
     },
     {
       "kind": "table",
-      "heading": "Short Answer Type-I / Type-II Questions from PDF",
+      "heading": "Short Answer Type-I / Type-II Questions",
       "headers": [
         "Q",
         "Question focus",
@@ -1056,7 +1055,7 @@ export const alternatingCurrent: LessonContent = {
         [
           "6",
           "Step-up transformer power transmission problem for a town.",
-          "Use transformer ratio and line loss $I^2R$; result in PDF line loss example is 1800 kW for the stated 20 km, 0.5Ω/km, 1200 kW problem."
+          "Use transformer ratio and line loss $I^2R$; for the stated 20 km, 0.5Ω/km and 1200 kW problem, the line loss is 1800 kW."
         ],
         [
           "7",

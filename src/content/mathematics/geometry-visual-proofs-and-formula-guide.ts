@@ -15,7 +15,7 @@ export const geometryVisualProofsAndFormulaGuide: LessonContent = {
     {
       kind: "overview",
       paragraphs: [
-        "This lesson is a visual companion to your existing Geometry section. It keeps the earlier textbook-style lessons and adds clean proof cards together with typed revision notes drawn from your uploaded Geometry material.",
+        "This lesson is a visual companion to the Geometry section. It keeps the earlier textbook-style lessons and adds clean proof cards together with typed revision notes.",
         "A visual proof is not just a picture. Read the labels, notice the equal lengths, angle marks, colour blocks and rearrangements, then explain the result in your own words."
       ]
     },
@@ -28,7 +28,7 @@ export const geometryVisualProofsAndFormulaGuide: LessonContent = {
     {
       kind: "imageGallery",
       heading: "Colour visual proofs",
-      note: "These cards are recreated visuals based on your uploaded pages, with cleaner headers and lesson-friendly captions.",
+      note: "These cards are recreated visuals with cleaner headers and lesson-friendly captions.",
       images: [
         { src: "/geometry-recreated/visual-proofs/visual-proof-01.svg", alt: "Expansion of (a+b+c)^2", caption: "A large square of side $a+b+c$ is partitioned into $a^2$, $b^2$, $c^2$ and six rectangles. Adding the parts gives $(a+b+c)^2 = a^2+b^2+c^2+2ab+2ac+2bc$." },
         { src: "/geometry-recreated/visual-proofs/visual-proof-02.svg", alt: "Area identities with rectangles", caption: "Area models for $(a+b)^2$, $(a-b)^2$, $a^2-b^2$ and $(x+a)(x+b)$. Each coloured region turns an algebraic identity into a visible area statement." },
