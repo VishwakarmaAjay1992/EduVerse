@@ -1,4 +1,8 @@
 import type { ScientistProfile } from "./types";
+import { isaacNewton } from "./isaac-newton";
+import { albertEinstein } from "./albert-einstein";
+import { thomasEdison } from "./thomas-edison";
+import { nikolaTesla } from "./nikola-tesla";
 import { johannesKepler } from "./johannes-kepler";
 import { nicolausCopernicus } from "./nicolaus-copernicus";
 import { jamesClerkMaxwell } from "./james-clerk-maxwell";
@@ -26,6 +30,10 @@ export * from "./types";
  * the deep-dive layer is entirely opt-in.
  */
 const PROFILES: Record<string, ScientistProfile> = {
+  [isaacNewton.slug]: isaacNewton,
+  [albertEinstein.slug]: albertEinstein,
+  [thomasEdison.slug]: thomasEdison,
+  [nikolaTesla.slug]: nikolaTesla,
   [johannesKepler.slug]: johannesKepler,
   [nicolausCopernicus.slug]: nicolausCopernicus,
   [jamesClerkMaxwell.slug]: jamesClerkMaxwell,
