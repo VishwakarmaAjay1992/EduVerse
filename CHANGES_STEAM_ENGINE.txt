@@ -1,0 +1,39 @@
+EduVerse update: History of Human Inventions - Steam Engine
+==========================================================
+
+Added into the actual uploaded Next.js website project:
+
+1. New data file
+   src/data/inventions.ts
+   - Steam Engine article content
+   - 26-section structure
+   - timeline, contributors, generations, milestones, models, FAQs, myths, facts, SEO metadata, image suggestions, and interactive ideas
+
+2. New section landing page
+   src/app/history-of-human-inventions/page.tsx
+   URL: /history-of-human-inventions
+
+3. New article page
+   src/app/history-of-human-inventions/[slug]/page.tsx
+   URL: /history-of-human-inventions/steam-engine
+
+4. Navigation updated
+   src/components/site-header.tsx
+   - Added "Inventions" link in the main header
+
+5. Sitemap updated
+   src/app/sitemap.ts
+   - Added /history-of-human-inventions
+   - Added /history-of-human-inventions/steam-engine
+
+Verification performed:
+- Extracted the uploaded .7z archive successfully.
+- Added files directly into the real project structure.
+- Ran ESLint on the new/changed files successfully.
+- Full typecheck could not complete because Prisma Client generation requires downloading Prisma engine binaries from binaries.prisma.sh, which was unavailable in this sandbox.
+
+Local run:
+1. npm install
+2. npx prisma generate
+3. npm run dev
+4. Open http://localhost:3000/history-of-human-inventions/steam-engine

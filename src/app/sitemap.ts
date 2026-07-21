@@ -3,6 +3,7 @@ import { chapterParams, lessonParams, listSubjects } from "@/lib/curriculum";
 import { SCIENTISTS } from "@/data/scientists";
 import { PHENOMENA } from "@/data/phenomena";
 import { HUB_FEATURES } from "@/data/learning-hub";
+import { inventions } from "@/data/inventions";
 
 /**
  * The canonical site origin. Set NEXT_PUBLIC_SITE_URL in Vercel to your
@@ -27,6 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/phenomena`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/learning-hub`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/science-qa`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/history-of-human-inventions`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 
   const subjectRoutes: MetadataRoute.Sitemap = listSubjects().map((subject) => ({
@@ -71,6 +73,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const inventionRoutes: MetadataRoute.Sitemap = inventions.map((invention) => ({
+    url: `${base}/history-of-human-inventions/${invention.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
   return [
     ...staticRoutes,
     ...subjectRoutes,
@@ -79,5 +88,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...scientistRoutes,
     ...phenomenonRoutes,
     ...hubRoutes,
+    ...inventionRoutes,
   ];
 }

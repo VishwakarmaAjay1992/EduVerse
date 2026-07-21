@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { SiteHeader } from "@/components/site-header";
 import { getInvention, inventions } from "@/data/inventions";
 
 type PageProps = {
@@ -71,7 +72,9 @@ export default async function InventionArticlePage({ params }: PageProps) {
   if (!invention) notFound();
 
   return (
-    <main className="bg-slate-50 text-slate-900">
+    <>
+      <SiteHeader />
+      <main className="bg-slate-50 text-slate-900">
       <section className="bg-slate-950 text-white">
         <div className="mx-auto max-w-6xl px-6 py-16 sm:py-24">
           <Link href="/history-of-human-inventions" className="text-sm font-semibold text-cyan-300 hover:text-cyan-100">← History of Human Inventions</Link>
@@ -249,6 +252,7 @@ export default async function InventionArticlePage({ params }: PageProps) {
           </div>
         </section>
       </article>
-    </main>
+      </main>
+    </>
   );
 }

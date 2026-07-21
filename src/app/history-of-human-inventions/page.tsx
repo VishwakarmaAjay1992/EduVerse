@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { Lightbulb, ArrowRight } from "lucide-react";
+import { SiteHeader } from "@/components/site-header";
 import { inventions } from "@/data/inventions";
 
 export const metadata = {
@@ -8,9 +10,11 @@ export const metadata = {
 
 export default function HumanInventionsPage() {
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100">
+    <>
+      <SiteHeader />
+      <main className="min-h-screen bg-slate-950 text-slate-100">
       <section className="mx-auto max-w-6xl px-6 py-16 sm:py-24">
-        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-300">EduVerse Learning Hub</p>
+        <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-100"><Lightbulb className="size-4" /> EduVerse Learning Hub</div>
         <h1 className="max-w-4xl text-4xl font-bold tracking-tight sm:text-6xl">History of Human Inventions</h1>
         <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
           A complete educational section about the tools, machines, and ideas that changed human civilization. Each article follows a consistent structure for students, teachers, and curious learners.
@@ -28,11 +32,12 @@ export default function HumanInventionsPage() {
               <p className="text-sm font-medium text-cyan-300">Featured invention</p>
               <h2 className="mt-3 text-2xl font-bold text-white group-hover:text-cyan-200">{invention.title}</h2>
               <p className="mt-4 line-clamp-4 text-sm leading-6 text-slate-300">{invention.heroSummary}</p>
-              <span className="mt-6 inline-flex text-sm font-semibold text-cyan-200">Read full article →</span>
+              <span className="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-cyan-200">Read full article <ArrowRight className="size-4" /></span>
             </Link>
           ))}
         </div>
       </section>
-    </main>
+      </main>
+    </>
   );
 }
