@@ -52,11 +52,7 @@ export async function generateMetadata({
   };
 }
 
-export default async function InventionPage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default async function InventionPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const invention = getInvention(slug);
 
@@ -83,8 +79,8 @@ export default async function InventionPage({
               <section id="contributors" className="scroll-mt-20">
                 <h2 className="text-3xl font-bold">Inventors and Contributors</h2>
                 <p className="mt-4 leading-8 text-muted-foreground">
-                  The steam engine was a cumulative invention. No single person created the
-                  complete machine used during the Industrial Revolution.
+                  The steam engine was a cumulative invention. No single person created the complete
+                  machine used during the Industrial Revolution.
                 </p>
                 <div className="mt-6 grid gap-4 md:grid-cols-2">
                   {[...invention.inventors, ...invention.contributors].map((person) => (

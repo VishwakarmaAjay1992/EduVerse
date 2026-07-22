@@ -59,7 +59,9 @@ function InventionsGateway() {
     >
       <div className="rounded-xl border bg-muted/30 p-6">
         <p className="max-w-2xl leading-7 text-muted-foreground">
-          Begin with the Steam Engine: trace the mine-drainage problem, the work of Papin, Savery, Newcomen, Watt, Boulton and Trevithick, and the evolution from atmospheric engines to modern steam turbines.
+          Begin with the Steam Engine: trace the mine-drainage problem, the work of Papin, Savery,
+          Newcomen, Watt, Boulton and Trevithick, and the evolution from atmospheric engines to
+          modern steam turbines.
         </p>
         <Button asChild className="mt-5">
           <Link href="/inventions">Open the inventions collection</Link>

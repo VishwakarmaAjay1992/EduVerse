@@ -34,8 +34,8 @@ export default function InventionsPage() {
                 Inventions in Human History
               </h1>
               <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-muted-foreground">
-                Discover the problems that inspired major inventions, the people who improved
-                them, how they work, and how early machines evolved into modern technology.
+                Discover the problems that inspired major inventions, the people who improved them,
+                how they work, and how early machines evolved into modern technology.
               </p>
             </div>
             <div className="mx-auto mt-12 grid max-w-4xl gap-4 sm:grid-cols-3">

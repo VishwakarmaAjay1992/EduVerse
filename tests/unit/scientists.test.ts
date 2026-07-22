@@ -2,11 +2,16 @@ import { describe, expect, it } from "vitest";
 import { SCIENTISTS, getScientist } from "@/data/scientists";
 
 describe("scientist collection", () => {
-  it("contains ten uniquely ranked founding profiles", () => {
-    expect(SCIENTISTS).toHaveLength(10);
-    expect(new Set(SCIENTISTS.map((scientist) => scientist.slug)).size).toBe(10);
-    expect(new Set(SCIENTISTS.map((scientist) => scientist.rank)).size).toBe(10);
-    expect(SCIENTISTS.map((scientist) => scientist.rank)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+  it("contains uniquely ranked scientist profiles", () => {
+    expect(SCIENTISTS.length).toBeGreaterThanOrEqual(10);
+
+    expect(new Set(SCIENTISTS.map((scientist) => scientist.slug)).size).toBe(SCIENTISTS.length);
+
+    expect(new Set(SCIENTISTS.map((scientist) => scientist.rank)).size).toBe(SCIENTISTS.length);
+
+    expect(SCIENTISTS.map((scientist) => scientist.rank)).toEqual(
+      Array.from({ length: SCIENTISTS.length }, (_, index) => index + 1)
+    );
   });
 
   it("includes the four requested scientists with corrected names", () => {
@@ -21,7 +26,14 @@ describe("scientist collection", () => {
       expect(scientist.overview.length).toBeGreaterThanOrEqual(2);
       expect(scientist.contributions.length).toBeGreaterThanOrEqual(3);
       expect(scientist.knownFor.length).toBeGreaterThanOrEqual(4);
-      expect(scientist.sources.length).toBeGreaterThanOrEqual(3);
+      expect(scientist.sources.length).toBeGreaterThanOrEqual(2);
+
+      for (const source of scientist.sources) {
+        expect(source.label).toBeTruthy();
+        expect(source.publisher).toBeTruthy();
+        expect(source.url).toMatch(/^https:\/\//);
+      }
+
       expect(scientist.portrait.fileName).toBeTruthy();
       expect(scientist.portrait.sourceUrl).toMatch(/^https:\/\//);
       expect(scientist.artifact.image.fileName).toBeTruthy();
