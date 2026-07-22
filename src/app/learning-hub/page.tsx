@@ -52,13 +52,6 @@ export default function LearningHubPage() {
                 >
                   <Link href="/phenomena">Discover 25 phenomena</Link>
                 </Button>
-                <Button
-                  asChild
-                  size="lg"
-                  className="border border-white/20 bg-white/10 text-white hover:bg-white/20"
-                >
-                  <Link href="/history-of-human-inventions">History of Inventions</Link>
-                </Button>
               </div>
             </div>
             <div className="mt-12 grid max-w-2xl grid-cols-3 gap-3">
