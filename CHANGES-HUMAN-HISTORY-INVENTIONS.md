@@ -5,6 +5,9 @@
 - `/inventions`
 - `/inventions/steam-engine`
 - `/inventions/printing-press`
+- `/inventions/electrical-telegraph`
+- `/inventions/electric-light`
+- `/inventions/airplane`
 
 ## Included
 
@@ -26,3 +29,13 @@
 ## Adding future inventions
 
 Follow `documentation/HUMAN-HISTORY-INVENTIONS.md`. Add one typed record to `src/data/inventions.ts`; the directory, dynamic pages, homepage and sitemap update automatically.
+
+## July 2026 expansion
+
+Added three complete dossiers in the existing typed format:
+
+- Electrical Telegraph
+- Electric Light
+- Airplane
+
+Each addition includes a dedicated concept diagram, licensed Wikimedia Commons gallery, evidence-labelled failures, milestone timeline, technical anatomy, consequences, myths, glossary, research questions and institutional sources.

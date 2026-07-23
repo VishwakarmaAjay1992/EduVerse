@@ -1,9 +1,12 @@
 # Human History Inventions
 
-The invention-history collection lives at `/inventions`. The initial release includes complete dossiers for:
+The invention-history collection lives at `/inventions`. The collection includes complete dossiers for:
 
 - `/inventions/steam-engine`
 - `/inventions/printing-press`
+- `/inventions/electrical-telegraph`
+- `/inventions/electric-light`
+- `/inventions/airplane`
 
 Each dossier follows the same research structure: necessity, earlier methods, global prior art, contributors, experiments and failures, milestones, working principle, anatomy, later improvements, real historical objects, consequences, modern descendants, myths, glossary, research questions and selected sources.
 

@@ -55,7 +55,7 @@ export function InventionDirectory({ inventions }: { inventions: readonly Invent
           <CardContent className="p-8 text-center">
             <p className="font-semibold">No invention matches “{query}”.</p>
             <p className="mt-2 text-sm text-muted-foreground">
-              Try a broader term such as steam, mining, Gutenberg, type, pressure or printing.
+              Try a broader term such as steam, printing, telegraph, lighting, aviation or control.
             </p>
           </CardContent>
         </Card>

@@ -1377,7 +1377,1322 @@ const printingPress: Invention = {
   ],
 };
 
-export const INVENTIONS: readonly Invention[] = [steamEngine, printingPress];
+const electricalTelegraph: Invention = {
+  slug: "electrical-telegraph",
+  title: "Electrical Telegraph",
+  subtitle: "How coded electrical pulses made long-distance communication faster than transport",
+  category: "Communication & Networks",
+  era: "1820s–1870s",
+  origin: "Developed through parallel European and American experiments, then expanded into international cable networks",
+  statusLine: "A network system assembled from electromagnetism, codes, instruments, operators and wires",
+  summary: [
+    "The electrical telegraph separated the speed of communication from the speed of a horse, ship or railway. Instead of physically carrying a written message, an operator converted information into controlled electrical signals that travelled through a circuit and were reconstructed at a distant station.",
+    "No single inventor created the complete system. Pavel Schilling, Carl Friedrich Gauss, Wilhelm Weber, William Fothergill Cooke, Charles Wheatstone, Samuel Morse, Alfred Vail, Joseph Henry and many instrument makers contributed different combinations of receivers, relays, codes, line practices and commercial organization. Cooke and Wheatstone developed a practical needle telegraph for British railways, while the Morse-Vail system became especially influential because it could send messages over long lines with a comparatively simple circuit and code.",
+    "The telegraph became useful only when it grew beyond the laboratory. Insulators, batteries, relays, standardized time, trained operators, rights-of-way, maintenance crews, tariffs and submarine cables turned an instrument into a communications infrastructure. It accelerated news, finance, railway control, diplomacy and empire, while also concentrating power in governments and large network companies.",
+  ],
+  heroImage: {
+    fileName: "Cooke and Wheatstone electric telegraph.jpg",
+    alt: "A five-needle Cooke and Wheatstone electrical telegraph instrument from 1837",
+    credit: "Geni",
+    license: "CC BY-SA 3.0 / GFDL",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Cooke_and_Wheatstone_electric_telegraph.jpg",
+    caption:
+      "A surviving Cooke and Wheatstone five-needle telegraph associated with the first practical railway installations in Britain. The display shows how deflecting needles could point directly to letters.",
+    objectPosition: "50% 48%",
+  },
+  quickFacts: [
+    { label: "Original necessity", value: "Send information faster than a messenger could travel" },
+    { label: "Key scientific basis", value: "Electric current producing a magnetic effect" },
+    { label: "Early commercial system", value: "Cooke and Wheatstone railway telegraph, 1837–1838" },
+    { label: "Influential coded system", value: "Morse-Vail recording and sounder telegraph" },
+    { label: "Famous public demonstration", value: "Washington to Baltimore, 24 May 1844" },
+    { label: "Historical caution", value: "The instrument, code and worldwide network had different contributors" },
+  ],
+  necessity: {
+    headline: "Necessity: decisions were moving faster than messages",
+    introduction:
+      "Industrial economies, railways, newspapers, armies and financial markets increasingly needed information before a courier could deliver it. A delayed warning could cause a railway collision, a missed price could cost a merchant heavily, and distant governments could wait weeks for reports from overseas.",
+    pressures: [
+      {
+        title: "Railways needed traffic control",
+        description:
+          "Trains moved faster than traditional signalling systems and shared limited track. Station staff needed a method to report departures, arrivals, obstructions and emergencies along the line.",
+      },
+      {
+        title: "Markets valued fresh information",
+        description:
+          "Commodity prices, exchange rates and shipping news changed before letters arrived. Faster information created a direct commercial advantage and justified network fees.",
+      },
+      {
+        title: "Newspapers competed on speed",
+        description:
+          "Editors wanted distant political and military reports quickly enough to publish them while they were still news, encouraging pooled reporting and dedicated wire services.",
+      },
+      {
+        title: "States needed command over distance",
+        description:
+          "Governments and armed forces sought rapid communication across national territory and, later, across oceans. This made the telegraph strategically important but also enabled surveillance and centralized control.",
+      },
+    ],
+    before: [
+      {
+        method: "Mounted couriers and mail coaches",
+        strength: "Could carry long, detailed documents without electrical infrastructure.",
+        limit: "Speed was limited by terrain, animals, roads, weather and relay stations.",
+      },
+      {
+        method: "Semaphore and optical telegraph towers",
+        strength: "Could transmit coded messages rapidly across a prepared line of sight.",
+        limit: "Required daylight or strong illumination, clear weather, many staffed towers and uninterrupted visibility.",
+      },
+      {
+        method: "Flags, lamps, bells and signal guns",
+        strength: "Effective for short-range signalling with simple agreed meanings.",
+        limit: "Low information capacity and limited range; complex messages were difficult or impossible.",
+      },
+      {
+        method: "Ships and packet services",
+        strength: "Connected continents and carried original documents and physical goods.",
+        limit: "Ocean communication still took days or weeks and could be interrupted by storms or war.",
+      },
+    ],
+    decisiveConstraint:
+      "The central engineering challenge was not merely detecting electricity at a distance. The system had to produce an unmistakable signal over resistive wire, encode language efficiently, operate reliably in poor weather, and be affordable enough to install and maintain across hundreds or thousands of kilometres.",
+  },
+  globalPrehistory: {
+    introduction:
+      "The telegraph emerged from earlier signalling systems and a rapidly developing science of electricity and magnetism. Its history includes parallel experiments rather than one straight line of invention.",
+    entries: [
+      {
+        date: "Ancient to early modern eras",
+        place: "Multiple regions",
+        title: "Visual and acoustic signalling",
+        description:
+          "Beacon fires, drums, flags and other coded signals demonstrated that information could be represented and relayed without moving a written document.",
+      },
+      {
+        date: "1790s",
+        place: "France",
+        title: "Chappe optical telegraph network",
+        description:
+          "Claude Chappe's semaphore towers formed a state-operated network that transmitted coded symbols rapidly between visible stations, proving the administrative value of high-speed communication.",
+      },
+      {
+        date: "1800",
+        place: "Italy and Britain",
+        title: "Reliable electric current",
+        description:
+          "Alessandro Volta's pile supplied sustained current, making controlled electrical experiments and practical circuits more feasible than static-electricity demonstrations.",
+      },
+      {
+        date: "1820",
+        place: "Denmark and Europe",
+        title: "Current linked to magnetism",
+        description:
+          "Hans Christian Ørsted showed that current deflected a magnetic needle. Researchers quickly explored electromagnets and instruments that could convert current into visible motion.",
+      },
+      {
+        date: "1832–1833",
+        place: "Russia and German states",
+        title: "Experimental electromagnetic telegraphs",
+        description:
+          "Pavel Schilling built a needle-based telegraph, while Gauss and Weber operated an experimental line in Göttingen. These systems demonstrated workable long-distance electrical signalling before mass deployment.",
+      },
+    ],
+  },
+  people: [
+    {
+      name: "William Fothergill Cooke",
+      life: "1806–1879",
+      role: "Promoter, designer and commercial organizer",
+      contribution:
+        "Recognized the railway value of electrical signalling, partnered with Wheatstone and drove patents, demonstrations and early installations in Britain.",
+      correction:
+        "Cooke was not working alone; his practical urgency depended on Wheatstone's scientific and instrument expertise and on railway customers willing to install the system.",
+    },
+    {
+      name: "Charles Wheatstone",
+      life: "1802–1875",
+      role: "Experimental scientist and instrument designer",
+      contribution:
+        "Developed sensitive needle arrangements, helped design the Cooke-Wheatstone instruments and investigated signal transmission through circuits.",
+    },
+    {
+      name: "Samuel F. B. Morse",
+      life: "1791–1872",
+      role: "System inventor, promoter and patent holder",
+      contribution:
+        "Developed an influential single-circuit recording telegraph concept, secured support for a demonstration line and organized its public presentation in the United States.",
+      correction:
+        "Morse did not independently invent every essential element; relays, code refinements, mechanics, finance and line construction involved collaborators and prior research.",
+    },
+    {
+      name: "Alfred Vail",
+      life: "1807–1859",
+      role: "Mechanician, financier and system developer",
+      contribution:
+        "Built and improved apparatus for the Morse partnership and played a major role in turning a laboratory concept into robust keys, registers and an efficient symbol system.",
+    },
+    {
+      name: "Joseph Henry",
+      life: "1797–1878",
+      role: "Electromagnetism researcher",
+      contribution:
+        "Demonstrated powerful electromagnets, long-wire signalling and relay principles that informed practical telegraph engineering; he also advised Morse during development.",
+    },
+    {
+      name: "Pavel Schilling",
+      life: "1786–1837",
+      role: "Early electromagnetic telegraph pioneer",
+      contribution:
+        "Constructed a working needle telegraph using coded deflections, helping establish that electromagnetic signalling could convey language.",
+    },
+    {
+      name: "Line builders and telegraph operators",
+      life: "19th century",
+      role: "Infrastructure and operational workforce",
+      contribution:
+        "Selected routes, erected poles, maintained batteries and insulators, learned codes, repeated weak signals and created the working procedures that made networks dependable.",
+    },
+  ],
+  experimentsAndFailures: [
+    {
+      period: "Early 1800s",
+      title: "Many-wire electrochemical telegraphs",
+      attempt:
+        "Some inventors assigned a separate wire or electrochemical indicator to each letter or symbol.",
+      failure:
+        "The number of conductors, contacts and receivers made long-distance installation expensive and difficult to maintain.",
+      lesson:
+        "A commercially scalable system needed to encode many symbols through a small number of wires and repeatable time sequences.",
+      evidence: "Documented",
+    },
+    {
+      period: "1830s",
+      title: "Complex multi-needle instruments",
+      attempt:
+        "Five-needle systems allowed pairs of needles to point directly at letters, reducing the need for operators to memorize a separate code.",
+      failure:
+        "They required multiple conductors, expensive instruments and careful adjustment; simpler one- or two-needle systems were cheaper for longer routes.",
+      lesson:
+        "Ease of reading had to be balanced against line cost and electrical reliability.",
+      evidence: "Documented",
+    },
+    {
+      period: "1830s–1840s",
+      title: "Weak signals on long wires",
+      attempt:
+        "Early circuits tried to operate a distant receiver directly from a battery through long, resistive conductors.",
+      failure:
+        "Current weakened with distance, leakage and poor insulation, producing unreliable movement or marks.",
+      lesson:
+        "Relays, better batteries, improved insulation and line testing were system-level necessities, not optional refinements.",
+      evidence: "Documented",
+    },
+    {
+      period: "1850s",
+      title: "The first Atlantic cable",
+      attempt:
+        "A submarine cable laid in 1858 briefly carried transatlantic messages.",
+      failure:
+        "The cable suffered from poor manufacture, handling damage and excessive operating voltage; service failed after only a short period.",
+      lesson:
+        "Submarine telegraphy required improved cable structure, careful electrical testing and an understanding of signal distortion in long cables.",
+      evidence: "Documented",
+    },
+    {
+      period: "Network expansion",
+      title: "Weather, leakage and line breaks",
+      attempt:
+        "Operators treated overhead wire as if its electrical behaviour would remain constant.",
+      failure:
+        "Rain, dirty insulators, vegetation, corrosion and broken poles changed circuit resistance or grounded the line.",
+      lesson:
+        "Maintenance crews, sectional testing and standardized components were as important as the signalling instrument.",
+      evidence: "Strongly supported",
+    },
+  ],
+  milestones: [
+    { year: "1794", title: "Chappe network enters service", description: "France demonstrates that a national high-speed coded communications network has military and administrative value." },
+    { year: "1820", title: "Ørsted's observation", description: "Electric current is publicly linked to magnetic needle deflection, opening a practical route to electrical receivers." },
+    { year: "1832", title: "Schilling telegraph demonstrated", description: "A coded electromagnetic needle system shows that multiple symbols can be transmitted electrically." },
+    { year: "1833", title: "Gauss-Weber line operates", description: "A wire connection between scientific facilities in Göttingen carries experimental signals over distance." },
+    { year: "1837", title: "Cooke-Wheatstone and Morse systems patented", description: "Distinct British and American approaches move toward practical deployment.", pivotal: true },
+    { year: "1838", title: "Railway telegraph trials", description: "Cooke and Wheatstone instruments are tested and installed for railway operation in Britain." },
+    { year: "1844", title: "Washington-Baltimore demonstration", description: "The Morse-Vail system sends a widely publicized message over a federally supported line.", pivotal: true },
+    { year: "1851", title: "Submarine link across the Channel", description: "A durable cable connects Britain and France, proving the commercial value of undersea telegraphy." },
+    { year: "1858", title: "First Atlantic cable briefly operates", description: "The achievement captures public attention but fails quickly, exposing major cable-engineering problems." },
+    { year: "1866", title: "Reliable Atlantic service established", description: "Improved cable design, testing and laying methods create sustained transatlantic telegraph communication.", pivotal: true },
+    { year: "1870s", title: "Duplex and quadruplex working", description: "Engineers transmit multiple messages on one wire, increasing network capacity without duplicating routes." },
+  ],
+  howItWorks: {
+    introduction:
+      "A basic telegraph converts a deliberate hand movement into a controlled change of electric current. The distant receiver converts that current back into motion, sound or a mark. A code maps the timing or direction of those signals to letters and numbers.",
+    steps: [
+      { title: "Compose and encode", explanation: "The sender translates words into an agreed symbol code, such as short and long signal elements." },
+      { title: "Close the key", explanation: "Pressing the key completes the circuit so current flows from the battery into the line." },
+      { title: "Transmit through the line", explanation: "The signal travels through conducting wire while insulation limits leakage into the ground or supporting structures." },
+      { title: "Operate the receiver", explanation: "Current energizes an electromagnet, moving an armature, needle, sounder or recording mechanism." },
+      { title: "Restore and space", explanation: "Releasing the key breaks the current; the pattern of energized and unenergized intervals carries the message." },
+      { title: "Repeat when necessary", explanation: "On long routes, a relay uses a weak incoming signal to switch a fresh local circuit for the next section." },
+      { title: "Decode and deliver", explanation: "An operator reads the marks or sounds, writes the text and routes the telegram to its recipient." },
+    ],
+    expertNotes: [
+      { title: "Line resistance", explanation: "Longer and thinner conductors resist current more strongly, reducing receiver force unless voltage, wire size or relay spacing changes." },
+      { title: "Earth return", explanation: "Many networks used the ground as one side of the circuit, reducing wire cost but introducing dependence on soil conditions and good earth connections." },
+      { title: "Submarine capacitance", explanation: "A long insulated cable stores charge, smearing sharp pulses and limiting signalling speed unless instruments and codes are adapted." },
+      { title: "Information layer", explanation: "The physical pulse is not the message by itself. Meaning comes from coding conventions, operator practice, addresses, timing and network routing." },
+    ],
+  },
+  anatomy: [
+    { part: "Battery", purpose: "Provides electrical potential for the signalling circuit.", designProblem: "Cells had to be stable, maintainable and sized for line resistance." },
+    { part: "Key or transmitter", purpose: "Lets the operator make controlled current pulses.", designProblem: "Contacts had to switch repeatedly without sticking, burning or producing ambiguous timing." },
+    { part: "Line wire", purpose: "Carries the electrical signal between stations.", designProblem: "Conductivity, mechanical strength, corrosion, cost and route length had to be balanced." },
+    { part: "Insulators", purpose: "Prevent current leaking from the wire into poles or ground.", designProblem: "Rain, dirt, salt and cracked materials could sharply reduce insulation resistance." },
+    { part: "Receiver electromagnet", purpose: "Converts current into mechanical movement.", designProblem: "It needed adequate sensitivity without responding to noise or remaining magnetized." },
+    { part: "Sounder, needle or register", purpose: "Presents the signal in an audible, visual or recorded form.", designProblem: "The output had to be fast, distinct and easy for operators to interpret." },
+    { part: "Relay", purpose: "Controls a fresh circuit using a weak incoming signal.", designProblem: "Contact adjustment and local battery condition determined whether distant sections remained reliable." },
+    { part: "Code and operating rules", purpose: "Map signals to language and coordinate network traffic.", designProblem: "Codes had to be efficient, learnable and resistant to timing errors." },
+  ],
+  improvements: [
+    { period: "1830s", inventor: "Cooke and Wheatstone", improvement: "Needle telegraph instruments and railway application", whyItMattered: "Created a practical commercial use case and direct visual letter indication." },
+    { period: "1830s–1840s", inventor: "Morse, Vail and collaborators", improvement: "Single-circuit key, receiver and efficient code", whyItMattered: "Reduced conductor count and supported long-distance operation with trained operators." },
+    { period: "1840s", inventor: "Multiple line engineers", improvement: "Electromagnetic relays", whyItMattered: "Allowed weak signals to control fresh local circuits and extend range." },
+    { period: "1840s–1860s", inventor: "Cable makers and physicists", improvement: "Better gutta-percha insulation and armored submarine cable", whyItMattered: "Made durable underwater routes possible." },
+    { period: "1850s–1870s", inventor: "Network operators", improvement: "Standardized poles, insulators, testing and maintenance", whyItMattered: "Raised service availability across large networks." },
+    { period: "1870s", inventor: "J. B. Stearns and Thomas Edison", improvement: "Duplex and quadruplex telegraphy", whyItMattered: "Sent multiple messages simultaneously over one wire, multiplying capacity." },
+    { period: "Late 1800s", inventor: "Émile Baudot and others", improvement: "Printing and multiplex telegraph systems", whyItMattered: "Reduced dependence on manual code copying and prepared the way for teletype networks." },
+  ],
+  gallery: [
+    {
+      fileName: "Morse Telegraph 1837.jpg",
+      alt: "A reconstructed or preserved 1837 Morse telegraph instrument",
+      credit: "Zubro",
+      license: "CC BY-SA 3.0",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Morse_Telegraph_1837.jpg",
+      caption: "A museum-displayed Morse telegraph associated with the 1837 design stage, before the later public line and standardized operating practice.",
+    },
+    {
+      fileName: "Cooke Wheatstone Telegraph 2.jpg",
+      alt: "Five-needle Cooke and Wheatstone telegraph indicating a letter",
+      credit: "Wrrglla",
+      license: "CC BY-SA 3.0",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Cooke_Wheatstone_Telegraph_2.jpg",
+      caption: "A five-needle receiver. Two deflected needles intersect at a printed letter, trading extra wires for direct readability.",
+    },
+    {
+      fileName: "Samuel F.B. Morse, half-length portrait, posing with left hand on a telegraph apparatus, facing slightly left LCCN2001700118.jpg",
+      alt: "Samuel Morse posed beside telegraph apparatus around 1850",
+      credit: "Library of Congress",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Samuel_F.B._Morse,_half-length_portrait,_posing_with_left_hand_on_a_telegraph_apparatus,_facing_slightly_left_LCCN2001700118.jpg",
+      caption: "Samuel Morse photographed with telegraph apparatus. The portrait reflects how the public story often centered one famous promoter despite a wider development network.",
+    },
+    {
+      fileName: "Morse-telegraph-key-master-texture (Smithsonian Institution).png",
+      alt: "Detailed Smithsonian image of a Morse-Vail telegraph key",
+      credit: "Smithsonian Institution",
+      license: "CC0 1.0",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Morse-telegraph-key-master-texture_(Smithsonian_Institution).png",
+      caption: "A detailed record of the Morse-Vail key: a simple human interface whose contact quality and timing shaped every transmitted character.",
+    },
+    {
+      fileName: "C&W telegraph circuit.svg",
+      alt: "Circuit diagram for a Cooke and Wheatstone five-needle telegraph",
+      credit: "Spinningspark",
+      license: "CC BY-SA 3.0",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:C%26W_telegraph_circuit.svg",
+      caption: "A modern explanatory diagram of the conductor and needle arrangement in a five-needle telegraph circuit.",
+    },
+  ],
+  consequences: {
+    transformed: [
+      { title: "Railway safety and scheduling", description: "Stations could coordinate train movements, communicate delays and support standardized railway time." },
+      { title: "News and journalism", description: "Wire services and newspapers distributed reports rapidly across regions, changing what counted as current events." },
+      { title: "Finance and trade", description: "Prices and orders moved faster, linking markets and rewarding those with privileged access to information." },
+      { title: "Diplomacy and administration", description: "Central authorities could issue instructions and receive reports without waiting for physical mail." },
+      { title: "Global communications infrastructure", description: "Submarine cables created the first near-instant intercontinental information network and a foundation for later telecommunications." },
+    ],
+    tradeoffs: [
+      { title: "Centralized control", description: "Governments and corporations gained unprecedented ability to direct distant operations and monitor communications." },
+      { title: "Unequal access", description: "Network routes and tariffs favored strategic cities, businesses and imperial centers before service became more widely available." },
+      { title: "Labour pressure", description: "Operators performed highly skilled repetitive work under speed expectations, surveillance and occupational stress." },
+      { title: "Military and colonial use", description: "Telegraph lines supported conquest, resource extraction and rapid coordination of coercive power as well as civilian communication." },
+      { title: "Information advantage", description: "Those who controlled lines or received messages first could exploit markets and politics before others could respond." },
+    ],
+  },
+  modernDescendants: [
+    { title: "Telephone networks", connection: "Reused rights-of-way, poles, switching practices and the concept of converting information into electrical signals." },
+    { title: "Telex and teleprinters", connection: "Automated the encoding and printing of messages over switched text networks." },
+    { title: "Computer data links", connection: "Digital communication still represents information as discrete signal states governed by protocols." },
+    { title: "Fiber-optic cables", connection: "Replace electrical pulses with light while retaining repeaters, routing, coding and long-haul network architecture." },
+    { title: "Internet messaging", connection: "Separates message content from physical transport through layers of encoding, addressing, routing and reconstruction." },
+  ],
+  myths: [
+    {
+      claim: "Samuel Morse single-handedly invented the telegraph and Morse code.",
+      verdict: "Misleading",
+      explanation:
+        "Morse was central to one influential system, but electromagnetic telegraphs were developed in several countries. Alfred Vail, Joseph Henry, instrument makers, line engineers and other code traditions were also important.",
+    },
+    {
+      claim: "The 1844 message was the first electrical telegraph message ever sent.",
+      verdict: "False",
+      explanation:
+        "It was a famous public demonstration on a substantial American line, not the first experimental electrical message. Earlier working systems included Schilling's and the Gauss-Weber line.",
+    },
+    {
+      claim: "A telegraph signal travels perfectly and instantly through any wire.",
+      verdict: "False",
+      explanation:
+        "Resistance, leakage, inductance and capacitance weaken or distort signals. Long lines and submarine cables required relays, specialized instruments and careful operating speeds.",
+    },
+    {
+      claim: "The telegraph was only a faster form of mail.",
+      verdict: "Incomplete",
+      explanation:
+        "It changed institutions as well as speed: railway dispatch, time coordination, wire journalism, financial arbitrage and centralized command all depended on the network's near-real-time character.",
+    },
+  ],
+  glossary: [
+    { term: "Circuit", definition: "A complete conducting path through which electric current can flow." },
+    { term: "Key", definition: "A manually operated switch used to create timed telegraph pulses." },
+    { term: "Electromagnet", definition: "A coil and magnetic core that produce magnetic force when current flows." },
+    { term: "Armature", definition: "The movable iron component attracted by an energized electromagnet." },
+    { term: "Relay", definition: "An electrically operated switch that lets a weak signal control a stronger local circuit." },
+    { term: "Sounder", definition: "A receiver that produces distinct clicks which a trained operator interprets as code." },
+    { term: "Register", definition: "A receiver that records incoming signal patterns on moving paper." },
+    { term: "Insulator", definition: "A material and component that limits unwanted current leakage from the line." },
+    { term: "Duplex", definition: "A method for sending two messages over the same wire, commonly in opposite directions at once." },
+    { term: "Submarine cable", definition: "An insulated and protected communications cable laid beneath water." },
+  ],
+  researchQuestions: [
+    "How should credit be divided among scientific discovery, instrument design, coding, finance and network construction?",
+    "How did operator communities modify formal codes and procedures in daily practice?",
+    "Which railway safety improvements can be directly attributed to telegraph installation rather than to broader signalling reforms?",
+    "How did telegraph tariffs and route placement shape regional economic inequality?",
+    "How did submarine cable ownership influence diplomacy, war reporting and colonial administration?",
+  ],
+  sources: [
+    {
+      label: "Samuel F. B. Morse Papers",
+      publisher: "Library of Congress",
+      url: "https://www.loc.gov/collections/samuel-morse-papers-at-the-library-of-congress/about-this-collection/",
+      note: "Primary manuscripts, correspondence, drawings and records documenting Morse's work and partnerships.",
+    },
+    {
+      label: "Joseph Henry: Inventor of the Telegraph?",
+      publisher: "Smithsonian Institution Archives",
+      url: "https://siarchives.si.edu/collections/siris_sic_12604",
+      note: "Institutional account of Henry's electromagnetic research and its relationship to telegraph development.",
+    },
+    {
+      label: "Cooke and Wheatstone five-needle telegraph",
+      publisher: "Science Museum Group Collection",
+      url: "https://collection.sciencemuseumgroup.org.uk/objects/co32899/cooke-and-wheatstone-five-needle-telegraph",
+      note: "Museum object record for an early British needle telegraph and its railway context.",
+    },
+    {
+      label: "Morse-Vail Telegraph Key",
+      publisher: "Smithsonian 3D",
+      url: "https://3d.si.edu/object/3d/morse-vail-telegraph-key:ed99f44d-3c60-4111-b666-e2908e1b64ef",
+      note: "High-resolution institutional model of a surviving transmitting key associated with the 1844 system.",
+    },
+    {
+      label: "The Atlantic Cable",
+      publisher: "Institution of Engineering and Technology Archives",
+      url: "https://www.theiet.org/membership/library-and-archives/the-iet-archives/archives-highlights/the-transatlantic-telegraph-cables-1865-1866",
+      note: "Engineering-history overview of early transatlantic cable attempts, failure and eventual success.",
+    },
+    {
+      label: "What Hath God Wrought — Telegraph Centennial Plaque",
+      publisher: "Architect of the Capitol",
+      url: "https://www.aoc.gov/explore-capitol-campus/art/telegraph-centennial-plaque",
+      note: "Official record of the commemorated 1844 Washington-Baltimore transmission.",
+    },
+  ],
+};
+
+const electricLight: Invention = {
+  slug: "electric-light",
+  title: "Electric Light",
+  subtitle: "How experiments with arcs, filaments, vacuum and power networks replaced flame illumination",
+  category: "Electricity & Daily Life",
+  era: "1800s–1910s",
+  origin: "Developed internationally through British, American, European and Russian electrical research and industry",
+  statusLine: "Not one bulb, but a lamp-and-power system refined by many teams",
+  summary: [
+    "Electric lighting did not begin with a single famous bulb. Early nineteenth-century experimenters produced brilliant electric arcs, but those lamps were too intense and demanding for ordinary rooms. Later inventors tried to heat a conductor until it glowed inside a partially evacuated glass envelope, creating the incandescent lamp.",
+    "Joseph Swan and Thomas Edison are among the best-known developers, but they worked within a much wider field that included Humphry Davy, Warren de la Rue, Frederick de Moleyns, Alexander Lodygin, Hiram Maxim, William Sawyer, Albon Man, Lewis Latimer and many glassworkers, vacuum-pump specialists, chemists and electrical engineers. Edison’s major achievement was not merely a filament: his team designed a practical high-resistance lamp alongside generators, wiring, meters, switches, sockets and a distribution network.",
+    "Electric light transformed working hours, streets, homes, factories and entertainment. It reduced some fire and smoke hazards associated with open flames, but created new risks, new monopolies and rising electricity demand. The modern story continues through tungsten filaments, fluorescent lamps, discharge lighting and LEDs, each improving efficiency while changing manufacturing and environmental trade-offs.",
+  ],
+  heroImage: {
+    fileName: "Joseph Swan in his Laboratory (9672405514).jpg",
+    alt: "Joseph Swan standing in his laboratory beside early electric lighting apparatus",
+    credit: "Science Museum Group / Tyne & Wear Archives & Museums",
+    license: "No known copyright restrictions",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Joseph_Swan_in_his_Laboratory_(9672405514).jpg",
+    caption:
+      "Joseph Swan in his laboratory. Swan demonstrated an incandescent lamp in Britain before he and Edison later combined commercial interests in the Edison & Swan United Electric Light Company.",
+    objectPosition: "50% 40%",
+  },
+  quickFacts: [
+    { label: "Original necessity", value: "Safer, cleaner and more controllable illumination than open flame" },
+    { label: "Early electric method", value: "Arc lamps using an electrical discharge between carbon electrodes" },
+    { label: "Incandescent principle", value: "Heat a filament until it emits visible light" },
+    { label: "Key enclosure problem", value: "Keep oxygen away from the hot filament" },
+    { label: "System breakthrough", value: "Lamp, generator, wiring, controls and distribution designed together" },
+    { label: "Historical caution", value: "Edison commercialized a practical system; he did not invent electric light from nothing" },
+  ],
+  necessity: {
+    headline: "Necessity: flame lighting was useful, dirty and dangerous",
+    introduction:
+      "Candles, oil lamps and gas lighting extended human activity after sunset, but they consumed oxygen, produced heat and soot, required fuel handling and could ignite buildings. Growing cities and factories demanded brighter, more controllable light that could be distributed without an open flame at every point of use.",
+    pressures: [
+      {
+        title: "Fire and explosion risk",
+        description:
+          "Open flames could ignite curtains, timber, dust or leaking gas. Mines and industrial spaces made flame hazards especially severe.",
+      },
+      {
+        title: "Smoke, heat and indoor air",
+        description:
+          "Oil and gas lighting produced combustion products and significant heat. Large illuminated interiors required ventilation and frequent cleaning.",
+      },
+      {
+        title: "Industrial working hours",
+        description:
+          "Factories, workshops and shops wanted reliable illumination for evening work, inspection and public display without maintaining hundreds of individual fuel lamps.",
+      },
+      {
+        title: "Urban streets and public spaces",
+        description:
+          "Cities needed brighter lighting for transport, policing and commercial life. Arc lighting could serve streets, while smaller incandescent lamps were better suited to interiors.",
+      },
+    ],
+    before: [
+      {
+        method: "Candles",
+        strength: "Portable, simple and usable without fixed infrastructure.",
+        limit: "Dim, consumable, smoky and vulnerable to drafts and fire.",
+      },
+      {
+        method: "Oil and kerosene lamps",
+        strength: "Brighter than many candles and widely available as domestic lighting.",
+        limit: "Required fuel storage, wick maintenance and cleaning; spills and flames created hazards.",
+      },
+      {
+        method: "Coal-gas lighting",
+        strength: "Could illuminate streets and buildings through a centralized pipe network.",
+        limit: "Produced heat and fumes, leaked poisonous or explosive gas and blackened interiors.",
+      },
+      {
+        method: "Electric arc lamps",
+        strength: "Extremely bright and effective for streets, large halls and industrial sites.",
+        limit: "Harsh, noisy and difficult to regulate; carbon electrodes wore away and the light was too intense for many rooms.",
+      },
+    ],
+    decisiveConstraint:
+      "A practical domestic lamp needed to glow brightly for many hours without burning up, operate at a voltage compatible with distribution, be manufacturable in large quantities and form part of a safe electrical supply system. Solving only the filament was not enough.",
+  },
+  globalPrehistory: {
+    introduction:
+      "Electric lighting grew from discoveries in batteries, resistance heating, vacuum technology, arc discharge and electrical generation. Researchers repeatedly produced light before they could make it durable or economical.",
+    entries: [
+      {
+        date: "1800",
+        place: "Italy and Britain",
+        title: "The voltaic pile provides continuous current",
+        description:
+          "Volta's battery made sustained electrical experiments possible and supplied the early currents used in arc-light demonstrations.",
+      },
+      {
+        date: "Early 1800s",
+        place: "Britain",
+        title: "Humphry Davy demonstrates electric light",
+        description:
+          "Davy produced intense light from current passing between carbon pieces, establishing the arc principle but not a convenient household lamp.",
+      },
+      {
+        date: "1840",
+        place: "Britain",
+        title: "De la Rue uses a platinum coil in vacuum",
+        description:
+          "Warren de la Rue enclosed a platinum conductor in an evacuated tube. The approach worked technically but used an expensive material.",
+      },
+      {
+        date: "1841",
+        place: "Britain",
+        title: "Frederick de Moleyns patents an incandescent lamp",
+        description:
+          "An early patent described electrically heating conductors in a vacuum, illustrating that incandescent concepts preceded later commercial systems.",
+      },
+      {
+        date: "1870s",
+        place: "Russia, Britain, United States and elsewhere",
+        title: "Many inventors pursue durable filaments",
+        description:
+          "Lodygin, Swan, Edison, Maxim, Sawyer, Man and others tested carbon, platinum, paper, fibres and improved vacuum methods as electrical generation became more practical.",
+      },
+    ],
+  },
+  people: [
+    {
+      name: "Humphry Davy",
+      life: "1778–1829",
+      role: "Chemist and early electrical experimenter",
+      contribution:
+        "Demonstrated powerful electric arc lighting using large batteries, proving that electricity could create intense artificial light.",
+      correction:
+        "Arc light was a foundational demonstration, not a practical replacement for domestic lamps at the time.",
+    },
+    {
+      name: "Joseph Swan",
+      life: "1828–1914",
+      role: "Chemist, physicist and lamp developer",
+      contribution:
+        "Developed carbon-filament incandescent lamps, improved vacuum conditions and publicly demonstrated working lamps in Britain in the late 1870s.",
+    },
+    {
+      name: "Thomas Edison",
+      life: "1847–1931",
+      role: "Inventor, laboratory director and system entrepreneur",
+      contribution:
+        "Led a team that developed a high-resistance carbon lamp and coordinated it with generators, parallel distribution, switches, sockets, meters and a commercial utility model.",
+      correction:
+        "Edison did not create the first electric light or the first incandescent experiment; his significance lies in practical durability, manufacturability and system integration.",
+    },
+    {
+      name: "Lewis Howard Latimer",
+      life: "1848–1928",
+      role: "Draftsman, patent specialist and electrical engineer",
+      contribution:
+        "Worked on electric-light patent drawings, developed improved carbon-filament manufacturing methods and helped install and explain lighting systems.",
+    },
+    {
+      name: "Alexander Lodygin",
+      life: "1847–1923",
+      role: "Russian electrical inventor",
+      contribution:
+        "Patented and demonstrated incandescent lamps using carbon conductors and later explored refractory metal filaments.",
+    },
+    {
+      name: "William Coolidge",
+      life: "1873–1975",
+      role: "Metallurgist and industrial researcher",
+      contribution:
+        "Developed ductile tungsten wire, enabling durable, efficient tungsten-filament lamps in the early twentieth century.",
+    },
+    {
+      name: "Laboratory assistants and manufacturing workers",
+      life: "19th–20th centuries",
+      role: "Experimental, glassworking and production teams",
+      contribution:
+        "Prepared filaments, operated vacuum pumps, sealed glass, measured lamp life, built generators and standardized millions of components.",
+    },
+  ],
+  experimentsAndFailures: [
+    {
+      period: "1800s–1870s",
+      title: "Platinum filaments",
+      attempt:
+        "Inventors used platinum because it tolerated high temperature and could be formed into wire.",
+      failure:
+        "Platinum was expensive, and its electrical and thermal behaviour did not provide an economical mass-market lamp under available conditions.",
+      lesson:
+        "The best laboratory material is not always the best commercial material; cost, supply and operating temperature matter together.",
+      evidence: "Documented",
+    },
+    {
+      period: "Mid-1800s",
+      title: "Poor vacuum and rapid oxidation",
+      attempt:
+        "Early lamps enclosed glowing carbon or metal conductors in glass bulbs evacuated with limited pumps.",
+      failure:
+        "Residual oxygen attacked the hot material, while gases released from the filament and glass shortened lamp life and darkened the bulb.",
+      lesson:
+        "Vacuum quality, material preparation and glass sealing were inseparable from filament design.",
+      evidence: "Documented",
+    },
+    {
+      period: "1870s",
+      title: "Low-resistance lamps",
+      attempt:
+        "Some designs drew large current at low voltage to produce useful brightness.",
+      failure:
+        "Heavy current required thick copper conductors, making a distributed urban network prohibitively expensive.",
+      lesson:
+        "A lamp had to be designed for the economics of the entire electrical distribution system, not only for brightness.",
+      evidence: "Documented",
+    },
+    {
+      period: "1878–1880",
+      title: "Hundreds of filament candidates",
+      attempt:
+        "Teams tested paper, cotton thread, wood fibres, grasses and other carbonizable materials for strength, resistance and life.",
+      failure:
+        "Many samples cracked during carbonization, varied in thickness, sagged, evaporated quickly or failed at the lead-in connection.",
+      lesson:
+        "Repeatable material processing and quality control were as important as finding a promising substance.",
+      evidence: "Strongly supported",
+    },
+    {
+      period: "Early distribution systems",
+      title: "Unsafe wiring and inconsistent standards",
+      attempt:
+        "Rapid installations used competing voltages, improvised insulation and unfamiliar protection methods.",
+      failure:
+        "Short circuits, overheated conductors and poor workmanship created shocks and fires.",
+      lesson:
+        "Codes, fuses, standardized fittings and trained electricians were required for public trust and safe expansion.",
+      evidence: "Documented",
+    },
+  ],
+  milestones: [
+    { year: "1800", title: "Voltaic pile announced", description: "A sustained electrical source makes controlled current experiments possible." },
+    { year: "1800s", title: "Davy demonstrates arc light", description: "A carbon arc produces brilliant electric illumination, establishing a powerful but specialized lighting method." },
+    { year: "1840", title: "De la Rue vacuum lamp", description: "A platinum coil glows inside an evacuated glass tube, combining incandescence with oxygen exclusion." },
+    { year: "1841", title: "De Moleyns lamp patent", description: "An early incandescent-light patent documents the concept decades before mass commercialization." },
+    { year: "1874", title: "Lodygin receives lamp patent", description: "Carbon conductors in an evacuated vessel advance the international incandescent-light field." },
+    { year: "1878", title: "Swan public demonstration", description: "Joseph Swan demonstrates a practical carbon-filament lamp in Britain.", pivotal: true },
+    { year: "1879", title: "Edison team achieves long-lived carbon lamp", description: "A high-resistance carbon filament operates for extended testing and supports a complete distribution strategy.", pivotal: true },
+    { year: "1880", title: "Edison electric-lamp patent", description: "U.S. Patent 223,898 describes an incandescent lamp with a high-resistance carbon filament." },
+    { year: "1882", title: "Pearl Street station begins service", description: "A central generating station supplies a commercial district with a coordinated direct-current lighting system.", pivotal: true },
+    { year: "1883", title: "Edison and Swan interests combine", description: "The Edison & Swan United Electric Light Company consolidates British commercial activity after patent conflict." },
+    { year: "1904–1911", title: "Tungsten lamp matures", description: "Powder metallurgy and ductile tungsten wire raise efficiency and life beyond carbon filaments." },
+    { year: "1960s–2010s", title: "LED lighting becomes practical", description: "Semiconductor emitters progress from indicator lights to high-output, efficient general illumination." },
+  ],
+  howItWorks: {
+    introduction:
+      "An incandescent lamp sends current through a thin resistive filament. Electrical energy becomes heat; at a sufficiently high temperature the filament emits visible light. The envelope protects the filament from rapid chemical attack and controls the internal atmosphere.",
+    steps: [
+      { title: "Supply electrical potential", explanation: "A generator and distribution system create a voltage across the lamp terminals." },
+      { title: "Drive current through resistance", explanation: "The filament resists electron flow and converts electrical energy into thermal energy." },
+      { title: "Raise filament temperature", explanation: "The thin filament heats to thousands of degrees while supports keep it positioned inside the bulb." },
+      { title: "Emit a spectrum", explanation: "The hot material radiates energy across infrared and visible wavelengths; only part becomes useful visible light." },
+      { title: "Protect the filament", explanation: "A vacuum or inert gas prevents rapid oxidation and can reduce evaporation or heat loss." },
+      { title: "Seal current leads", explanation: "Metal conductors pass through glass while maintaining a durable gas-tight seal despite thermal expansion." },
+      { title: "Control the circuit", explanation: "Switches, fuses, wiring and meters make the individual lamp usable within a larger electrical system." },
+    ],
+    expertNotes: [
+      { title: "Resistance and distribution", explanation: "Higher-resistance lamps draw less current for a given power, reducing copper conductor size and making parallel distribution more economical." },
+      { title: "Blackbody trade-off", explanation: "A hotter filament emits a larger fraction of its energy as visible light but evaporates faster and becomes harder to support." },
+      { title: "Bulb blackening", explanation: "Evaporated filament material can deposit on cooler glass, reducing light output and indicating material loss." },
+      { title: "Gas filling", explanation: "Inert gas can slow evaporation and permit higher operating temperature, but it also increases convective heat loss, so pressure and filament geometry must be optimized." },
+    ],
+  },
+  anatomy: [
+    { part: "Filament", purpose: "Produces light by resistive heating.", designProblem: "Must combine high melting point, useful resistance, low evaporation and manufacturability." },
+    { part: "Glass envelope", purpose: "Creates a controlled atmosphere around the filament.", designProblem: "Must be sealed, clean, heat resistant and inexpensive to form at scale." },
+    { part: "Vacuum or fill gas", purpose: "Limits oxidation and influences evaporation and heat transfer.", designProblem: "Residual gases shorten life; gas choice and pressure affect efficiency." },
+    { part: "Lead-in wires", purpose: "Carry current through the glass seal.", designProblem: "Thermal expansion must be compatible with glass to prevent cracks and leaks." },
+    { part: "Filament supports", purpose: "Hold the hot, fragile filament in shape.", designProblem: "Supports must survive heat without conducting away excessive energy or causing shorts." },
+    { part: "Base and contacts", purpose: "Mechanically locate the lamp and connect it to the circuit.", designProblem: "Fittings needed standard dimensions, safe polarity and repeatable replacement." },
+    { part: "Generator", purpose: "Converts mechanical power into electrical power.", designProblem: "Voltage regulation and capacity had to match changing numbers of connected lamps." },
+    { part: "Distribution network", purpose: "Carries power from station to lamps.", designProblem: "Copper cost, voltage drop, insulation, protection and service reliability governed economics." },
+  ],
+  improvements: [
+    { period: "1870s", inventor: "Joseph Swan and others", improvement: "Better vacuum pumps and carbon filaments", whyItMattered: "Extended lamp life enough for public demonstrations and early installations." },
+    { period: "1879–1882", inventor: "Edison laboratory team", improvement: "High-resistance lamp integrated with a parallel distribution system", whyItMattered: "Reduced conductor cost and allowed individual lamps to be switched independently." },
+    { period: "1880s", inventor: "Lewis Latimer and manufacturing teams", improvement: "More consistent carbon-filament production", whyItMattered: "Improved repeatability, reduced breakage and supported mass manufacturing." },
+    { period: "1890s", inventor: "Walther Nernst and gas-discharge researchers", improvement: "Alternative electric-light mechanisms", whyItMattered: "Expanded the field beyond carbon incandescence and influenced later discharge lamps." },
+    { period: "1904–1911", inventor: "Sándor Just, Franjo Hanaman, William Coolidge and industry teams", improvement: "Tungsten filaments and ductile tungsten wire", whyItMattered: "Permitted higher temperatures, better efficacy and longer service life." },
+    { period: "1930s–1940s", inventor: "General Electric and international lamp engineers", improvement: "Fluorescent lighting", whyItMattered: "Produced more visible light per unit of electricity for large interiors." },
+    { period: "1990s–2010s", inventor: "Semiconductor researchers and manufacturers", improvement: "High-brightness white LEDs", whyItMattered: "Greatly reduced energy use and enabled long-lived, controllable solid-state lighting." },
+  ],
+  gallery: [
+    {
+      fileName: "Light bulb Edison 2.jpg",
+      alt: "Thomas Edison's 1880 patent drawing for an electric lamp",
+      credit: "United States Patent Office",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Light_bulb_Edison_2.jpg",
+      caption: "The drawing associated with U.S. Patent 223,898. Patent images document a specific claimed design, not the entire international history of electric lighting.",
+    },
+    {
+      fileName: "Early types of Electric lightning. Wellcome M0015309.jpg",
+      alt: "Historical comparison of early Edison, Jablochkoff and Swan electric lamps",
+      credit: "Wellcome Collection",
+      license: "CC BY 4.0",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Early_types_of_Electric_lightning._Wellcome_M0015309.jpg",
+      caption: "A historical comparison showing several competing electric-light forms: carbon incandescent lamps and an electric candle arc system.",
+    },
+    {
+      fileName: "Edison incandescent lights.jpg",
+      alt: "Early horseshoe-shaped carbon-filament Edison incandescent lamps",
+      credit: "William J. Hammer collection",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Edison_incandescent_lights.jpg",
+      caption: "Early carbon-filament lamps demonstrate how filament geometry, carbon processing and glass construction evolved through repeated tests.",
+    },
+    {
+      fileName: "Drawing of the Incandescent Light Bulb by Thomas Edison, 01-27-1880 (Page 2 of 2) (5286032832).jpg",
+      alt: "National Archives drawing of Edison's incandescent light bulb patent",
+      credit: "U.S. National Archives and Records Administration",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Drawing_of_the_Incandescent_Light_Bulb_by_Thomas_Edison,_01-27-1880_(Page_2_of_2)_(5286032832).jpg",
+      caption: "A National Archives reproduction of the patent drawing, preserving the geometry and annotations of the filed invention record.",
+    },
+    {
+      fileName: "The conquest of nature (1911) (14763187261).jpg",
+      alt: "Historical illustration of Edison with a dynamo used for commercial electric light",
+      credit: "Internet Archive Book Images",
+      license: "No known copyright restrictions",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:The_conquest_of_nature_(1911)_(14763187261).jpg",
+      caption: "A period illustration linking the lamp to its dynamo. Commercial lighting depended on generation and distribution as much as on the glowing element.",
+    },
+  ],
+  consequences: {
+    transformed: [
+      { title: "Homes and public interiors", description: "Lighting became cleaner at the point of use, easier to switch and less dependent on carrying fuel to each fixture." },
+      { title: "Urban nightlife", description: "Streets, theatres, shops and transport systems operated later and used brightness as a sign of safety and modernity." },
+      { title: "Industrial production", description: "Factories extended shifts and improved inspection, although longer working hours also increased labour exploitation." },
+      { title: "Electrical utilities", description: "Lighting created a major early market for centralized generation, metering and urban distribution networks." },
+      { title: "Architecture and design", description: "Buildings gained new fixture types, wiring routes, switches and lighting strategies independent of gas pipes and flames." },
+    ],
+    tradeoffs: [
+      { title: "Energy consumption", description: "More efficient lamps often led to more total lighting, expanding electricity demand and light pollution." },
+      { title: "Industrial concentration", description: "Patent pools, utilities and large manufacturers gained control over standards, supply and access." },
+      { title: "Electrical hazards", description: "Poor wiring, exposed conductors and unfamiliar voltages introduced shock and fire risks requiring regulation." },
+      { title: "Labour and extraction", description: "Copper, tungsten, coal generation and factory production shifted environmental and occupational burdens away from the illuminated room." },
+      { title: "Night-time discipline", description: "Artificial light supported education and leisure but also enabled longer shifts, surveillance and erosion of natural darkness." },
+    ],
+  },
+  modernDescendants: [
+    { title: "Tungsten-halogen lamps", connection: "Refine thermal incandescence using a compact high-temperature filament and a halogen regeneration cycle." },
+    { title: "Fluorescent lamps", connection: "Use electric discharge and phosphors rather than directly heating a filament to visible temperature." },
+    { title: "High-intensity discharge lamps", connection: "Develop the arc principle for efficient streets, stadiums and industrial spaces." },
+    { title: "Light-emitting diodes", connection: "Convert electrical energy to light in semiconductor junctions with far less waste heat than incandescent lamps." },
+    { title: "Smart lighting networks", connection: "Combine efficient emitters with sensors, digital control, dimming and communication infrastructure." },
+  ],
+  myths: [
+    {
+      claim: "Thomas Edison invented the first light bulb.",
+      verdict: "False",
+      explanation:
+        "Electric arcs and incandescent experiments existed decades earlier, and several inventors developed working lamps. Edison's team created an influential, durable high-resistance lamp and a coordinated commercial system.",
+    },
+    {
+      claim: "The filament alone made electric lighting practical.",
+      verdict: "False",
+      explanation:
+        "Vacuum quality, glass seals, generators, distribution voltage, copper cost, sockets, switches, meters, fuses and manufacturing consistency were all essential.",
+    },
+    {
+      claim: "Electric light immediately replaced gas everywhere.",
+      verdict: "False",
+      explanation:
+        "Gas and electric systems competed for decades. Cost, location, building wiring, utility access and lamp performance produced a gradual transition.",
+    },
+    {
+      claim: "Electric lighting removed all fire risk.",
+      verdict: "False",
+      explanation:
+        "It removed an open flame at the lamp but introduced overheating, short circuits and unsafe wiring. Codes and protective devices were necessary.",
+    },
+  ],
+  glossary: [
+    { term: "Incandescence", definition: "Light emitted by a material because it is heated to a high temperature." },
+    { term: "Arc lamp", definition: "A lamp that produces light from an electrical discharge between electrodes." },
+    { term: "Filament", definition: "A thin conductor heated by electric current until it emits light." },
+    { term: "Resistance", definition: "Opposition to electric current that converts some electrical energy into heat." },
+    { term: "Vacuum", definition: "A space from which much of the gas has been removed." },
+    { term: "Efficacy", definition: "Visible light output per unit of electrical power, commonly measured in lumens per watt." },
+    { term: "Dynamo", definition: "A generator that converts mechanical rotation into electrical energy." },
+    { term: "Parallel circuit", definition: "A connection in which each lamp receives the supply voltage independently of other branches." },
+    { term: "Lead-in wire", definition: "A conductor sealed through the glass envelope to carry current to the filament." },
+    { term: "Tungsten", definition: "A metal with a very high melting point used in mature incandescent filaments." },
+  ],
+  researchQuestions: [
+    "How should histories balance famous patent holders against laboratory assistants, glassworkers and manufacturing teams?",
+    "Which early lamp designs were technically successful but commercially blocked by distribution economics?",
+    "How did gas companies respond through pricing, mantle technology and public campaigns?",
+    "How did electric lighting change shift work, sleep patterns and urban inequality?",
+    "When efficiency improves, under what conditions does total lighting energy use still rise?",
+  ],
+  sources: [
+    {
+      label: "Edison's Electric Lamp Patent, US223898A",
+      publisher: "United States Patent Office / Google Patents",
+      url: "https://patents.google.com/patent/US223898A/en",
+      note: "Primary patent text and drawings for Edison's 1880 electric-lamp patent.",
+    },
+    {
+      label: "The Thomas A. Edison Papers",
+      publisher: "Rutgers University",
+      url: "https://edisondigital.rutgers.edu/",
+      note: "Scholarly archive of notebooks, correspondence and records from Edison and his laboratories.",
+    },
+    {
+      label: "Lighting a Revolution",
+      publisher: "Smithsonian National Museum of American History",
+      url: "https://americanhistory.si.edu/lighting/",
+      note: "Institutional history of electric lighting as a technological system rather than a single object.",
+    },
+    {
+      label: "Thomas Edison National Historical Park",
+      publisher: "U.S. National Park Service",
+      url: "https://www.nps.gov/edis/learn/historyculture/index.htm",
+      note: "Official resources on Edison's laboratories, industrial research practice and surviving collections.",
+    },
+    {
+      label: "Joseph Swan lamp collections",
+      publisher: "Science Museum Group Collection",
+      url: "https://collection.sciencemuseumgroup.org.uk/objects/co42487/swan-electric-lamp",
+      note: "Museum object records for Swan lamps and the British development of incandescent lighting.",
+    },
+    {
+      label: "Lewis Latimer Patent Drawing",
+      publisher: "Smithsonian National Museum of American History",
+      url: "https://americanhistory.si.edu/collections/object/nmah_1313353",
+      note: "Institutional object record for a patent drawing created by Latimer during his electrical engineering and drafting career.",
+    },
+  ],
+};
+
+const airplane: Invention = {
+  slug: "airplane",
+  title: "Airplane",
+  subtitle: "How experimenters combined lift, propulsion and three-axis control into sustained powered flight",
+  category: "Transport & Aeronautics",
+  era: "1790s–1910s",
+  origin: "An international aeronautical tradition culminating in controlled powered flights by the Wright brothers in the United States",
+  statusLine: "A controlled flying system—not merely an engine attached to wings",
+  summary: [
+    "The airplane emerged from more than a century of work on balloons, gliders, propellers, engines and aerodynamic measurement. Many experimenters could produce lift or brief hops; the decisive challenge was to create a heavier-than-air machine that could take off, remain under the pilot's control, sustain flight and land with enough reliability to be developed further.",
+    "George Cayley separated the functions of lift, propulsion and control; Otto Lilienthal gathered practical gliding experience; Octave Chanute shared structural and experimental knowledge; Samuel Langley and Clément Ader pursued powered machines; and engine makers, fabric workers and mechanics provided essential enabling technologies. Wilbur and Orville Wright systematically tested wing shapes, built a wind tunnel, developed coordinated three-axis control and worked with Charlie Taylor on a lightweight engine.",
+    "On 17 December 1903, the 1903 Flyer made four powered, controlled flights near Kitty Hawk, North Carolina. The first lasted 12 seconds and travelled 120 feet; the fourth covered 852 feet in 59 seconds. Those flights were a breakthrough, but the 1903 machine was still difficult to fly. The Wrights and many competitors then developed more practical aircraft, while aviation rapidly acquired military, commercial and political consequences.",
+  ],
+  heroImage: {
+    fileName: "Wrightflyer.jpg",
+    alt: "Orville Wright making the first flight of the 1903 Wright Flyer while Wilbur runs beside the wing",
+    credit: "John T. Daniels / Library of Congress",
+    license: "Public domain",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Wrightflyer.jpg",
+    caption:
+      "The first flight of 17 December 1903. Orville Wright is at the controls and Wilbur runs beside the aircraft. The launch rail, restrained structure and prone pilot position reveal how experimental the machine remained.",
+    objectPosition: "50% 50%",
+  },
+  quickFacts: [
+    { label: "Original ambition", value: "Controlled heavier-than-air human flight" },
+    { label: "Key conceptual separation", value: "Lift, propulsion and control treated as distinct functions" },
+    { label: "Decisive control system", value: "Roll, pitch and yaw coordinated by the pilot" },
+    { label: "First Wright flight", value: "17 December 1903 — 120 ft in 12 seconds" },
+    { label: "Longest flight that day", value: "852 ft in 59 seconds" },
+    { label: "Historical caution", value: "The 1903 Flyer was a research breakthrough, not yet a practical transport aircraft" },
+  ],
+  necessity: {
+    headline: "Necessity and ambition: travel through the air under control",
+    introduction:
+      "Humans long imagined flight, but nineteenth-century industry turned the dream into an engineering program. Balloons could carry people, yet they drifted with the wind. A practical airplane had to move in a chosen direction, support its own weight, remain stable enough to control and carry a propulsion system light enough to leave the ground.",
+    pressures: [
+      {
+        title: "Balloons lacked directional authority",
+        description:
+          "Lighter-than-air craft proved that people could fly, but ordinary balloons depended heavily on wind. Engineers sought powered flight with deliberate steering and repeatable routes.",
+      },
+      {
+        title: "Transport networks rewarded speed",
+        description:
+          "Railways and steamships demonstrated the value of rapid movement. Aviation promised direct routes over mountains, deserts and oceans where surface infrastructure was slow or impossible.",
+      },
+      {
+        title: "Military observation and mobility",
+        description:
+          "Governments funded balloons and experimental aircraft because aerial reconnaissance, communication and later attack offered strategic advantage.",
+      },
+      {
+        title: "Scientific understanding was incomplete",
+        description:
+          "Available lift tables, propeller theories and stability assumptions were often inaccurate. Successful flight required new measurements rather than confidence in inherited formulas.",
+      },
+    ],
+    before: [
+      {
+        method: "Kites",
+        strength: "Demonstrated aerodynamic lift, bracing and controllable tethered surfaces.",
+        limit: "Depended on a tether and external wind; they did not provide free piloted transport.",
+      },
+      {
+        method: "Hot-air and gas balloons",
+        strength: "Achieved sustained human flight and useful observation from the late eighteenth century.",
+        limit: "Direction and landing point were strongly controlled by the wind unless additional propulsion was added.",
+      },
+      {
+        method: "Ornithopters",
+        strength: "Imitated bird wing motion and encouraged study of lift and propulsion.",
+        limit: "Human muscle and early mechanisms could not efficiently reproduce the complex power and control of bird flight at useful scale.",
+      },
+      {
+        method: "Unpowered gliders",
+        strength: "Allowed direct testing of wing shape, balance and pilot control without carrying an engine.",
+        limit: "Flight duration and route depended on launch height, wind and rising air; landing risk remained high.",
+      },
+    ],
+    decisiveConstraint:
+      "The central problem was simultaneous control. A machine could have enough lift and power yet still fail if the pilot could not correct roll, pitch and yaw quickly. The Wrights treated the airplane as a coupled control system and tested it through kites, gliders, a wind tunnel and repeated field trials.",
+  },
+  globalPrehistory: {
+    introduction:
+      "The airplane's prehistory crossed science, craft and geography. Balloons established human flight, gliders generated aerodynamic evidence, and new engines and materials made powered flight increasingly plausible.",
+    entries: [
+      {
+        date: "1783",
+        place: "France",
+        title: "First crewed balloon flights",
+        description:
+          "Montgolfier hot-air balloons and hydrogen balloons carried people, proving that sustained flight was possible while highlighting the difficulty of directional control.",
+      },
+      {
+        date: "1799–1850s",
+        place: "Britain",
+        title: "George Cayley's fixed-wing concept",
+        description:
+          "Cayley identified lift, drag, thrust and weight as distinct concerns and designed gliders with separate lifting surfaces and tail controls.",
+      },
+      {
+        date: "1891–1896",
+        place: "Germany",
+        title: "Otto Lilienthal's repeated glides",
+        description:
+          "Lilienthal completed many piloted glides, published lift data and demonstrated that systematic practice could develop practical aeronautical knowledge, though his weight-shift control was limited.",
+      },
+      {
+        date: "1890s",
+        place: "France and United States",
+        title: "Powered aircraft experiments",
+        description:
+          "Clément Ader and Samuel Langley built powered machines that achieved disputed or unpiloted successes but did not establish a repeatable controlled piloted airplane system.",
+      },
+      {
+        date: "1896–1901",
+        place: "United States and international correspondence",
+        title: "Chanute shares structural knowledge",
+        description:
+          "Octave Chanute documented experiments, tested braced biplane gliders and communicated with aviation pioneers, helping circulate practical information across national boundaries.",
+      },
+    ],
+  },
+  people: [
+    {
+      name: "Sir George Cayley",
+      life: "1773–1857",
+      role: "Aeronautical theorist and glider designer",
+      contribution:
+        "Separated lift from propulsion, described the four forces of flight and developed fixed-wing arrangements with tail surfaces that strongly influenced later aircraft.",
+    },
+    {
+      name: "Otto Lilienthal",
+      life: "1848–1896",
+      role: "Glider experimenter and aerodynamic recorder",
+      contribution:
+        "Built and flew multiple glider designs, gathered practical lift information and made human gliding a repeatable experimental practice.",
+      correction:
+        "Lilienthal's work was foundational, but weight-shift control did not fully solve the three-axis control problem.",
+    },
+    {
+      name: "Octave Chanute",
+      life: "1832–1910",
+      role: "Engineer, author and knowledge broker",
+      contribution:
+        "Tested braced gliders, synthesized international experiments and exchanged technical information with the Wright brothers and other pioneers.",
+    },
+    {
+      name: "Wilbur Wright",
+      life: "1867–1912",
+      role: "Aeronautical researcher, pilot and system designer",
+      contribution:
+        "Led theoretical analysis, field experimentation and the development of coordinated control, propeller design and the 1903 flying program with Orville.",
+    },
+    {
+      name: "Orville Wright",
+      life: "1871–1948",
+      role: "Mechanician, researcher and pilot",
+      contribution:
+        "Co-developed the kites, gliders, wind-tunnel tests, control system and powered Flyers; piloted the first flight on 17 December 1903.",
+    },
+    {
+      name: "Charlie Taylor",
+      life: "1868–1956",
+      role: "Mechanic and engine builder",
+      contribution:
+        "Built the lightweight four-cylinder engine for the 1903 Flyer in the Wright bicycle shop, translating performance requirements into a workable powerplant.",
+    },
+    {
+      name: "Katharine Wright and local assistants",
+      life: "Late 19th–early 20th centuries",
+      role: "Family support, logistics and field assistance",
+      contribution:
+        "Katharine helped sustain the Wright household and later their public work, while Kitty Hawk residents and lifesaving-station personnel assisted launches, transport, photography and recovery.",
+    },
+  ],
+  experimentsAndFailures: [
+    {
+      period: "1899–1901",
+      title: "Inherited lift data proved inaccurate",
+      attempt:
+        "The Wrights designed wings using published coefficients and tables from respected predecessors.",
+      failure:
+        "Their 1900 and 1901 gliders produced less lift than expected and behaved unpredictably in pitch and control.",
+      lesson:
+        "Authoritative data still required verification. The brothers built a wind tunnel and measured many wing shapes themselves.",
+      evidence: "Documented",
+    },
+    {
+      period: "1901",
+      title: "Wing warping created adverse yaw",
+      attempt:
+        "Twisting the wings increased lift on one side to roll the glider.",
+      failure:
+        "The higher-lift wing also produced more drag and could yaw backward, opposing the intended turn and risking loss of control.",
+      lesson:
+        "Roll and yaw controls had to be coordinated, leading to a movable rudder linked with wing warping.",
+      evidence: "Documented",
+    },
+    {
+      period: "1903",
+      title: "Propeller theory was inadequate",
+      attempt:
+        "Available marine propeller rules were considered for the aircraft's twin propellers.",
+      failure:
+        "Air propellers operate as rotating wings in a moving flow; simple screw analogies did not predict useful efficiency.",
+      lesson:
+        "The Wrights developed their own blade calculations and shaped propellers as aerodynamic lifting surfaces.",
+      evidence: "Documented",
+    },
+    {
+      period: "October–December 1903",
+      title: "Transmission and structure failures",
+      attempt:
+        "The powered Flyer used chain drives and lightweight wooden components under unfamiliar loads.",
+      failure:
+        "Propeller shafts cracked, sprockets and drive components required repair, and transport between Kitty Hawk and Dayton delayed testing.",
+      lesson:
+        "Low mass could not come at the expense of fatigue strength, alignment or maintainability.",
+      evidence: "Documented",
+    },
+    {
+      period: "17 December 1903",
+      title: "The Flyer was damaged after the fourth flight",
+      attempt:
+        "After four successful flights, the machine rested on the ground while the team prepared to move it.",
+      failure:
+        "A gust overturned and badly damaged the aircraft, which never flew again.",
+      lesson:
+        "Ground handling, tie-downs and weather protection are part of aircraft safety even when the flying task is complete.",
+      evidence: "Documented",
+    },
+  ],
+  milestones: [
+    { year: "1783", title: "Crewed balloon flight", description: "Humans achieve sustained flight, establishing aviation while leaving powered directional control unresolved." },
+    { year: "1799", title: "Cayley sketches fixed-wing aircraft", description: "Lift, propulsion and control are conceptually separated in a recognizable airplane arrangement." },
+    { year: "1853", title: "Cayley glider carries a person", description: "A full-scale glider demonstrates the viability of fixed-wing human carriage." },
+    { year: "1891–1896", title: "Lilienthal's glider program", description: "Repeated piloted glides create practical evidence and public confidence in heavier-than-air flight." },
+    { year: "1896", title: "Langley Aerodrome models fly", description: "Steam-powered uncrewed models demonstrate that a powered heavier-than-air craft can sustain flight." },
+    { year: "1899", title: "Wright kite tests wing warping", description: "A small kite validates a method of lateral control before risking a pilot." },
+    { year: "1901", title: "Wind-tunnel campaign", description: "The Wrights measure hundreds of wing combinations and correct flawed lift assumptions.", pivotal: true },
+    { year: "1902", title: "Three-axis control demonstrated", description: "The 1902 glider combines wing warping, elevator and coordinated rudder into an effective control system.", pivotal: true },
+    { year: "17 Dec 1903", title: "First powered controlled flights", description: "The Wright Flyer completes four sustained flights near Kitty Hawk.", pivotal: true },
+    { year: "1905", title: "Flyer III becomes practical", description: "Longer, repeatable flights and improved control produce the first Wright aircraft capable of sustained maneuvering." },
+    { year: "1906", title: "Santos-Dumont public European flights", description: "The 14-bis makes witnessed powered flights in France and accelerates public aviation development in Europe." },
+    { year: "1909", title: "Channel crossing", description: "Louis Blériot flies across the English Channel, demonstrating aviation's transport and military significance." },
+  ],
+  howItWorks: {
+    introduction:
+      "An airplane remains aloft when its wings generate enough lift to balance weight while propulsion overcomes drag. Stable travel is not enough: the pilot must control rotation around the roll, pitch and yaw axes and coordinate those movements during turns, climbs and landings.",
+    steps: [
+      { title: "Create forward airflow", explanation: "The engine turns propellers that accelerate air backward, producing thrust that moves the aircraft forward." },
+      { title: "Generate lift", explanation: "The moving wing redirects airflow and creates a pressure distribution whose net aerodynamic force includes an upward component." },
+      { title: "Balance weight", explanation: "Lift must equal or exceed the aircraft's weight for level flight or climb, while structure carries the resulting loads." },
+      { title: "Control pitch", explanation: "The forward elevator on the 1903 Flyer changed the nose-up or nose-down attitude and therefore angle of attack." },
+      { title: "Control roll", explanation: "Wing warping increased lift on one wing and reduced it on the other, banking the aircraft." },
+      { title: "Coordinate yaw", explanation: "The movable rudder countered adverse yaw and aligned the aircraft through turns." },
+      { title: "Manage energy and landing", explanation: "The pilot adjusted attitude and engine operation while preserving sufficient airspeed to avoid a stall before touchdown." },
+    ],
+    expertNotes: [
+      { title: "Lift is not one simple effect", explanation: "Pressure differences, flow turning, circulation and momentum change are complementary descriptions of the same aerodynamic interaction." },
+      { title: "Static stability versus control", explanation: "A perfectly self-stable craft may resist maneuvering, while a highly responsive craft demands constant pilot correction. Designers choose a balance." },
+      { title: "Propeller as rotating wing", explanation: "Each blade section meets the airflow at a local angle and produces an aerodynamic force whose forward component becomes thrust." },
+      { title: "Reynolds-number sensitivity", explanation: "Small wind-tunnel models do not always reproduce full-scale flow exactly, so measurements must be interpreted with scale effects in mind." },
+    ],
+  },
+  anatomy: [
+    { part: "Wings", purpose: "Generate most of the lift.", designProblem: "Airfoil shape, area, aspect ratio, structure and control deformation had to work at low speed." },
+    { part: "Forward elevator", purpose: "Controls pitch on the 1903 Flyer.", designProblem: "Too much sensitivity caused oscillation; too little prevented timely correction." },
+    { part: "Wing-warping system", purpose: "Produces differential lift for roll control.", designProblem: "Flexible structure had to twist predictably without losing strength." },
+    { part: "Twin rudders", purpose: "Control yaw and coordinate turns.", designProblem: "Rudder action had to counter drag differences caused by wing warping." },
+    { part: "Engine", purpose: "Supplies mechanical power for sustained flight.", designProblem: "Power-to-weight ratio, cooling, vibration and reliability were severe constraints." },
+    { part: "Propellers", purpose: "Convert engine torque into thrust.", designProblem: "Blade shape, twist and rotational speed needed aerodynamic rather than marine optimization." },
+    { part: "Chain transmission", purpose: "Drives two propellers from one engine.", designProblem: "Alignment, vibration, shaft strength and opposite rotation had to be managed at low mass." },
+    { part: "Wood-and-wire truss", purpose: "Carries flight loads while maintaining wing geometry.", designProblem: "The structure needed stiffness and strength with extremely limited available engine power." },
+    { part: "Launch rail", purpose: "Guides the aircraft during acceleration before lift-off.", designProblem: "Sand prevented ordinary wheel takeoff and crosswind launch demanded careful alignment." },
+  ],
+  improvements: [
+    { period: "1799–1850s", inventor: "George Cayley", improvement: "Fixed wing with separate propulsion and tail control", whyItMattered: "Established the conceptual architecture of the modern airplane." },
+    { period: "1890s", inventor: "Otto Lilienthal and other glider pilots", improvement: "Repeated piloted glider experimentation", whyItMattered: "Generated practical knowledge of lift, balance, launch and landing." },
+    { period: "1896", inventor: "Octave Chanute and Augustus Herring", improvement: "Braced biplane glider structure", whyItMattered: "Combined light weight with stiffness and influenced the Wright structural arrangement." },
+    { period: "1901–1902", inventor: "Wilbur and Orville Wright", improvement: "Wind-tunnel data and coordinated three-axis control", whyItMattered: "Solved the central control problem and replaced unreliable published aerodynamic values." },
+    { period: "1903", inventor: "Wright brothers and Charlie Taylor", improvement: "Integrated engine, transmission and efficient propellers", whyItMattered: "Provided enough thrust within the severe weight limit for sustained powered flight." },
+    { period: "1905–1909", inventor: "Wrights, Santos-Dumont, Curtiss, Farman and others", improvement: "More practical controls, landing gear and sustained maneuvering", whyItMattered: "Moved aviation from experimental hops toward demonstrable transport machines." },
+    { period: "1910s–1930s", inventor: "International aircraft industry", improvement: "Ailerons, enclosed fuselages, metal structures and reliable engines", whyItMattered: "Improved safety, speed, payload and manufacturability for military and civil aviation." },
+  ],
+  gallery: [
+    {
+      fileName: "1903-12 Wright-Flyer-side-view.jpg",
+      alt: "Side view of the 1903 Wright Flyer on the ground at Kitty Hawk",
+      credit: "Wright brothers / U.S. Air Force Historical Research Agency",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:1903-12_Wright-Flyer-side-view.jpg",
+      caption: "A side view reveals the canard elevator, biplane truss, prone pilot position, twin rudders and compact engine installation.",
+    },
+    {
+      fileName: "Wright Flyer 1903 3-view.svg",
+      alt: "Three-view technical drawing of the 1903 Wright Flyer",
+      credit: "Emoscopes",
+      license: "CC0 1.0",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Wright_Flyer_1903_3-view.svg",
+      caption: "A three-view drawing makes the Flyer's geometry easier to compare than a single photograph and supports study of span, planform and control surfaces.",
+    },
+    {
+      fileName: "Wright diary1.jpg",
+      alt: "Orville Wright's diary entry recording the first successful powered flights",
+      credit: "Orville Wright / Library of Congress",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:Wright_diary1.jpg",
+      caption: "Orville Wright's diary entry from 17 December 1903 is a primary record of the day's flights, weather and distances.",
+    },
+    {
+      fileName: "1903 Wright Flyer engine section view 2.jpg",
+      alt: "Front view of the Wright Flyer's engine and chain-drive section",
+      credit: "Wright brothers",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:1903_Wright_Flyer_engine_section_view_2.jpg",
+      caption: "The engine and transmission section shows how power, chain drives and twin propeller shafts were packed into the airframe.",
+    },
+    {
+      fileName: "1903 Wright Flyer front view.jpg",
+      alt: "Front view of the 1903 Wright Flyer showing its biplane structure",
+      credit: "Library of Congress",
+      license: "Public domain",
+      sourceUrl: "https://commons.wikimedia.org/wiki/File:1903_Wright_Flyer_front_view.jpg",
+      caption: "The front view emphasizes the wide wingspan, dense bracing and slender structural members required to achieve enough lift with limited power.",
+    },
+  ],
+  consequences: {
+    transformed: [
+      { title: "Global transport", description: "Aircraft eventually made intercontinental travel and high-value freight movement possible in hours rather than weeks." },
+      { title: "Mapping and observation", description: "Aerial photography changed surveying, agriculture, disaster response, archaeology and military intelligence." },
+      { title: "Emergency access", description: "Aircraft connected remote communities and enabled medical evacuation, search and rescue, and rapid disaster relief." },
+      { title: "Industrial innovation", description: "Aviation accelerated work in engines, lightweight structures, weather forecasting, radio, navigation and materials science." },
+      { title: "Cultural exchange", description: "Mass air travel increased tourism, migration and international business while compressing perceptions of distance." },
+    ],
+    tradeoffs: [
+      { title: "Aerial warfare", description: "Aircraft quickly became tools for reconnaissance, bombing and air superiority, expanding the reach of violence." },
+      { title: "Climate impact", description: "Jet fuel combustion emits carbon dioxide and high-altitude effects that contribute to warming." },
+      { title: "Noise and land use", description: "Airports, flight paths and military operations impose noise, displacement and ecological impacts on nearby communities." },
+      { title: "Unequal mobility", description: "Air travel connects the world but remains unequally accessible and can concentrate economic activity around major hubs." },
+      { title: "Safety and regulation", description: "Early aviation's high accident rate required certification, traffic rules, maintenance systems and international standards." },
+    ],
+  },
+  modernDescendants: [
+    { title: "Commercial airliners", connection: "Retain the fixed-wing lift, propulsion and three-axis control architecture while adding pressurization, automation and turbine power." },
+    { title: "Helicopters and rotorcraft", connection: "Use rotating wings to generate lift and control, addressing vertical takeoff rather than runway operation." },
+    { title: "Uncrewed aerial vehicles", connection: "Replace the onboard pilot with remote or autonomous control while preserving the same aerodynamic and systems-engineering problems." },
+    { title: "Space launch and re-entry vehicles", connection: "Use aircraft-derived guidance, structures and control surfaces during atmospheric phases, even though rocket propulsion dominates ascent." },
+    { title: "Electric and hybrid aircraft", connection: "Apply new power sources to the same demanding balance of weight, thrust, range, cooling and safety." },
+  ],
+  myths: [
+    {
+      claim: "The Wright brothers were the first people to build anything that flew.",
+      verdict: "False",
+      explanation:
+        "Kites, balloons, gliders and uncrewed powered models flew earlier. The Wright achievement was controlled, sustained, piloted powered flight in a heavier-than-air machine and its continued development.",
+    },
+    {
+      claim: "A powerful engine was the only missing ingredient.",
+      verdict: "False",
+      explanation:
+        "Several powered experiments failed because stability and control were inadequate. The Wrights prioritized aerodynamic data and coordinated control before propulsion.",
+    },
+    {
+      claim: "The first flight proved the airplane was immediately practical.",
+      verdict: "False",
+      explanation:
+        "The 1903 Flyer flew only four times, was difficult to control and was destroyed by wind after the final flight. Later Flyers made the concept practical.",
+    },
+    {
+      claim: "The Wrights worked in isolation and owed nothing to earlier pioneers.",
+      verdict: "False",
+      explanation:
+        "They studied Cayley, Lilienthal and Chanute, corresponded with experts and used existing engine, bicycle, structural and scientific knowledge while correcting important errors through their own experiments.",
+    },
+  ],
+  glossary: [
+    { term: "Lift", definition: "The aerodynamic force component perpendicular to the relative airflow, commonly supporting aircraft weight." },
+    { term: "Drag", definition: "The aerodynamic force component opposing motion through the air." },
+    { term: "Thrust", definition: "The propulsive force that drives an aircraft through the air." },
+    { term: "Angle of attack", definition: "The angle between an airfoil's reference line and the incoming airflow." },
+    { term: "Roll", definition: "Rotation around the aircraft's longitudinal nose-to-tail axis." },
+    { term: "Pitch", definition: "Rotation that raises or lowers the nose around the lateral axis." },
+    { term: "Yaw", definition: "Rotation of the nose left or right around the vertical axis." },
+    { term: "Adverse yaw", definition: "Yaw opposite the intended turn, often caused by unequal drag during roll control." },
+    { term: "Airfoil", definition: "A shaped surface designed to generate aerodynamic force as air flows around it." },
+    { term: "Stall", definition: "A large loss of lift caused when airflow separates after the wing exceeds a critical angle of attack." },
+  ],
+  researchQuestions: [
+    "How should historians define 'first flight' when comparing hops, assisted launches, witnesses, control and repeatability?",
+    "Which parts of the Wright wind-tunnel data most directly changed their 1902 glider design?",
+    "How much did bicycle manufacturing practice influence the Wrights' approach to lightweight mechanisms and control?",
+    "How did patent disputes affect the pace and geography of early aviation development?",
+    "How should the benefits of global air mobility be weighed against aviation's climate and noise impacts?",
+  ],
+  sources: [
+    {
+      label: "1903 Wright Flyer",
+      publisher: "Smithsonian National Air and Space Museum",
+      url: "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
+      note: "Authoritative object record for the original aircraft and its research-and-development context.",
+    },
+    {
+      label: "Wilbur and Orville Wright Papers",
+      publisher: "Library of Congress",
+      url: "https://www.loc.gov/collections/wilbur-and-orville-wright-papers/about-this-collection/",
+      note: "Primary diaries, photographs, notebooks, correspondence and technical records from the Wright family.",
+    },
+    {
+      label: "First Flight",
+      publisher: "Wright Brothers National Memorial, U.S. National Park Service",
+      url: "https://www.nps.gov/wrbr/learn/historyculture/thefirstflight.htm",
+      note: "Official site history of the December 1903 flights and the people present.",
+    },
+    {
+      label: "Wright Brothers Collection",
+      publisher: "Wright State University Libraries",
+      url: "https://corescholar.libraries.wright.edu/special_ms1/",
+      note: "Digitized primary documents and photographs from one of the major Wright archival collections.",
+    },
+    {
+      label: "The Wright Brothers & The Invention of the Aerial Age",
+      publisher: "Smithsonian National Air and Space Museum",
+      url: "https://airandspace.si.edu/exhibitions/wright-brothers",
+      note: "Museum interpretation of the Wright experimental program, predecessors, controls and public legacy.",
+    },
+    {
+      label: "Beginner's Guide to Aeronautics",
+      publisher: "NASA Glenn Research Center",
+      url: "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/",
+      note: "Technical explanations of lift, drag, propulsion, stability and control used to support the working-principle section.",
+    },
+  ],
+};
+
+export const INVENTIONS: readonly Invention[] = [
+  steamEngine,
+  printingPress,
+  electricalTelegraph,
+  electricLight,
+  airplane,
+];
 
 export function getInvention(slug: string) {
   return INVENTIONS.find((invention) => invention.slug === slug);

@@ -2,11 +2,14 @@ import { describe, expect, it } from "vitest";
 import { INVENTIONS, getInvention } from "@/data/inventions";
 
 describe("human history inventions collection", () => {
-  it("contains the two requested uniquely addressed dossiers", () => {
-    expect(INVENTIONS).toHaveLength(2);
-    expect(new Set(INVENTIONS.map((invention) => invention.slug)).size).toBe(2);
+  it("contains five uniquely addressed dossiers", () => {
+    expect(INVENTIONS).toHaveLength(5);
+    expect(new Set(INVENTIONS.map((invention) => invention.slug)).size).toBe(5);
     expect(getInvention("steam-engine")?.title).toBe("Steam Engine");
     expect(getInvention("printing-press")?.title).toBe("Printing Press");
+    expect(getInvention("electrical-telegraph")?.title).toBe("Electrical Telegraph");
+    expect(getInvention("electric-light")?.title).toBe("Electric Light");
+    expect(getInvention("airplane")?.title).toBe("Airplane");
   });
 
   it("provides full necessity-to-legacy research structure", () => {
