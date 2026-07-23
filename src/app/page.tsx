@@ -222,7 +222,7 @@ export default function HomePage() {
                         width={700}
                         className="h-full rounded-none border-0"
                         imageClassName="grayscale transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
-                        showCaption={false}
+                        showCredit={false}
                       />
                       <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 via-black/45 to-transparent p-3 pt-12 text-white">
                         <p className="scientist-signature text-xl leading-tight">

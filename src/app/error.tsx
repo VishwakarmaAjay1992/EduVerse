@@ -16,7 +16,6 @@ export default function GlobalError({
   useEffect(() => {
     // Surface to your logging service here (Sentry, Axiom, etc.) when wired.
     // For now, dev console is enough.
-    // eslint-disable-next-line no-console
     console.error("[EduVerse] Unhandled error:", error);
   }, [error]);
 

@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { BookOpenCheck, FlaskConical, Hammer, LibraryBig, SearchCheck } from "lucide-react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { InventionDirectory } from "@/components/inventions/invention-directory";
@@ -44,7 +44,7 @@ export default function InventionsPage() {
             <div className="grid gap-10 lg:grid-cols-[1fr_0.8fr] lg:items-end">
               <div>
                 <div className="inline-flex items-center gap-2 rounded-full border bg-background/80 px-3 py-1.5 text-xs font-bold uppercase tracking-[0.17em] shadow-sm">
-                  <Hammer className="size-3.5" aria-hidden="true" /> Human history Â· technology Â· society
+                  <Hammer className="size-3.5" aria-hidden="true" /> Human history · technology · society
                 </div>
                 <h1 className="mt-6 max-w-4xl text-balance text-4xl font-bold tracking-tight sm:text-6xl">
                   Inventions explained from necessity to legacy.
@@ -109,4 +109,3 @@ export default function InventionsPage() {
     </>
   );
 }
-

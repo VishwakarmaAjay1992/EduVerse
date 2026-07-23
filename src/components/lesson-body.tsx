@@ -807,6 +807,7 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
             {section.images.map((image, i) => (
               <figure key={i} className="overflow-hidden rounded-xl border bg-card shadow-sm">
                 <div className="bg-gradient-to-br from-primary/10 via-emerald-500/10 to-amber-500/10 p-3">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={image.src}
                     alt={image.alt}

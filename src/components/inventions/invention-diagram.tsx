@@ -1,4 +1,4 @@
-﻿import { ArrowDown, ArrowRight } from "lucide-react";
+import { ArrowDown, ArrowRight } from "lucide-react";
 
 export function InventionDiagram({ slug }: { slug: string }) {
   if (slug === "steam-engine") return <SteamEngineDiagram />;
@@ -150,4 +150,3 @@ function Insight({ label, text }: { label: string; text: string }) {
     </div>
   );
 }
-
