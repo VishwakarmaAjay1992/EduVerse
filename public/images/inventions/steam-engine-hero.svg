@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Steam engine educational hero illustration</title>
+  <desc id="desc">A stylized steam locomotive, factory beam engine, and turbine timeline for EduVerse.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.55" stop-color="#164e63"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="steam" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#cbd5e1" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky)"/>
+  <circle cx="1010" cy="120" r="76" fill="#fde68a" opacity="0.88"/>
+  <path d="M0 515 C180 455 310 505 480 468 C680 425 792 505 1200 420 L1200 675 L0 675 Z" fill="#020617" opacity="0.55"/>
+  <g opacity="0.18" stroke="#fff" stroke-width="2">
+    <path d="M90 140 H1110"/><path d="M120 205 H1080"/><path d="M170 270 H1030"/>
+  </g>
+  <g transform="translate(105 228)">
+    <rect x="0" y="220" width="420" height="42" rx="12" fill="#111827"/>
+    <rect x="50" y="135" width="200" height="92" rx="16" fill="#0f766e"/>
+    <rect x="270" y="92" width="95" height="135" rx="10" fill="#334155"/>
+    <rect x="290" y="55" width="54" height="52" rx="8" fill="#1f2937"/>
+    <rect x="355" y="160" width="72" height="67" rx="8" fill="#475569"/>
+    <circle cx="110" cy="276" r="54" fill="#0f172a" stroke="#e2e8f0" stroke-width="12"/>
+    <circle cx="275" cy="276" r="54" fill="#0f172a" stroke="#e2e8f0" stroke-width="12"/>
+    <circle cx="110" cy="276" r="14" fill="#f8fafc"/><circle cx="275" cy="276" r="14" fill="#f8fafc"/>
+    <path d="M290 45 C250 -20 330 -55 295 -110 C390 -70 430 2 340 70" fill="url(#steam)" opacity="0.8"/>
+    <text x="0" y="350" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Steam Engine</text>
+  </g>
+  <g transform="translate(575 170)">
+    <rect x="0" y="230" width="360" height="24" fill="#94a3b8" opacity="0.8"/>
+    <rect x="72" y="125" width="72" height="210" rx="8" fill="#1e293b"/>
+    <rect x="245" y="105" width="72" height="230" rx="8" fill="#1e293b"/>
+    <path d="M105 135 L280 120 L305 145 L120 165 Z" fill="#eab308"/>
+    <circle cx="105" cy="135" r="18" fill="#f8fafc"/><circle cx="280" cy="120" r="18" fill="#f8fafc"/>
+    <rect x="155" y="195" width="118" height="72" rx="14" fill="#0f766e"/>
+    <path d="M220 266 L258 324" stroke="#f8fafc" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="260" cy="326" r="30" fill="#0f172a" stroke="#f8fafc" stroke-width="8"/>
+    <text x="14" y="390" fill="#e0f2fe" font-family="Arial, sans-serif" font-size="24" font-weight="700">Beam engine → factory power</text>
+  </g>
+  <g transform="translate(925 372)">
+    <circle cx="92" cy="92" r="82" fill="#0f172a" stroke="#e2e8f0" stroke-width="10"/>
+    <g fill="#38bdf8" opacity="0.9">
+      <path d="M92 92 L92 12 A80 80 0 0 1 132 22 Z"/>
+      <path d="M92 92 L172 92 A80 80 0 0 1 158 132 Z"/>
+      <path d="M92 92 L92 172 A80 80 0 0 1 52 158 Z"/>
+      <path d="M92 92 L12 92 A80 80 0 0 1 26 52 Z"/>
+    </g>
+    <circle cx="92" cy="92" r="18" fill="#f8fafc"/>
+    <text x="-16" y="215" fill="#e0f2fe" font-family="Arial, sans-serif" font-size="22" font-weight="700">Modern turbine</text>
+  </g>
+</svg>
