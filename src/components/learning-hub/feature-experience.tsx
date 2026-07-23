@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { CheckCircle2, Download, Lightbulb, RotateCcw, Search, Trophy } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
@@ -44,29 +43,9 @@ export function FeatureExperience({ slug }: { slug: string }) {
       return <DownloadLibrary />;
     case "english-arabic-learning":
       return <BilingualScience />;
-    case "great-inventions":
-      return <InventionsGateway />;
     default:
       return <KnowledgeGuide slug={slug} />;
   }
-}
-
-function InventionsGateway() {
-  return (
-    <Panel
-      title="Inventions in Human History"
-      description="The full, research-based invention collection now has its own scalable section."
-    >
-      <div className="rounded-xl border bg-muted/30 p-6">
-        <p className="max-w-2xl leading-7 text-muted-foreground">
-          Begin with the Steam Engine: trace the mine-drainage problem, the work of Papin, Savery, Newcomen, Watt, Boulton and Trevithick, and the evolution from atmospheric engines to modern steam turbines.
-        </p>
-        <Button asChild className="mt-5">
-          <Link href="/inventions">Open the inventions collection</Link>
-        </Button>
-      </div>
-    </Panel>
-  );
 }
 
 function Panel({

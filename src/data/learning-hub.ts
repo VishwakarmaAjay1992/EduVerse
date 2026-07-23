@@ -672,9 +672,19 @@ export const HUB_FEATURES: HubFeature[] = [
     ],
     collections: [
       {
-        title: "Foundation release",
-        description: "The first complete invention profile validates the reusable architecture.",
-        examples: ["Steam engine"],
+        title: "Power and machines",
+        description: "Devices that transformed work and energy use.",
+        examples: ["Steam engine", "Electric motor", "Battery"],
+      },
+      {
+        title: "Communication",
+        description: "From physical signals to global digital networks.",
+        examples: ["Telegraph", "Telephone", "Radio"],
+      },
+      {
+        title: "Seeing farther",
+        description: "Instruments that extended human observation.",
+        examples: ["Telescope", "Microscope", "Camera"],
       },
     ],
     sources: [

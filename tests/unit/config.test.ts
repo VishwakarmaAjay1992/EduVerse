@@ -17,13 +17,13 @@ describe("env config", () => {
     expect(env.RATE_LIMIT_MAX_REQUESTS).toBe(120);
   });
 
-  it("allows an unused Phase 1 secret to be omitted", () => {
+  it("fails when a required secret is missing", () => {
     const { JWT_ACCESS_SECRET: _omit, ...rest } = base;
     void _omit;
-    expect(envSchema.safeParse(rest).success).toBe(true);
+    expect(envSchema.safeParse(rest).success).toBe(false);
   });
 
-  it("fails when a provided secret is too short", () => {
+  it("fails when a secret is too short", () => {
     expect(envSchema.safeParse({ ...base, JWT_ACCESS_SECRET: "short" }).success).toBe(false);
   });
 });
