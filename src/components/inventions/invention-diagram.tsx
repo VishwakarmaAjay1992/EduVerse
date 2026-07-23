@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowRight } from "lucide-react";
+﻿import { ArrowDown, ArrowRight } from "lucide-react";
 
 export function InventionDiagram({ slug }: { slug: string }) {
   if (slug === "steam-engine") return <SteamEngineDiagram />;
@@ -13,7 +13,7 @@ function SteamEngineDiagram() {
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-amber-700 dark:text-amber-300">
             Concept diagram
           </p>
-          <h3 className="mt-1 text-xl font-bold">The atmospheric cycle and Watt's key change</h3>
+          <h3 className="mt-1 text-xl font-bold">The atmospheric cycle and Watt&apos;s key change</h3>
         </div>
         <span className="rounded-full border border-slate-900/10 bg-white/60 px-3 py-1 text-xs font-semibold dark:border-white/15 dark:bg-white/5">
           Not to scale
@@ -79,7 +79,7 @@ function PrintingPressDiagram() {
         </p>
         <h3 className="mt-1 text-xl font-bold">The press was a production chain, not one machine</h3>
         <p className="mt-2 max-w-3xl text-sm leading-6 text-slate-600 dark:text-slate-300">
-          Gutenberg's advantage came from linking repeatable tooling, type manufacture, composition, ink and controlled pressure.
+          Gutenberg&apos;s advantage came from linking repeatable tooling, type manufacture, composition, ink and controlled pressure.
         </p>
       </div>
 
@@ -150,3 +150,4 @@ function Insight({ label, text }: { label: string; text: string }) {
     </div>
   );
 }
+
