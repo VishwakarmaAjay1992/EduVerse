@@ -45,10 +45,7 @@ export function InventionCard({ invention }: { invention: Invention }) {
           className="mt-5 inline-flex items-center gap-2 rounded-sm text-sm font-semibold text-primary outline-none focus-visible:ring-2 focus-visible:ring-ring"
         >
           Explore invention
-          <ArrowRight
-            className="size-4 transition-transform group-hover:translate-x-1"
-            aria-hidden="true"
-          />
+          <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" aria-hidden="true" />
         </Link>
       </CardContent>
     </Card>

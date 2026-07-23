@@ -5,12 +5,16 @@ describe("scientist collection", () => {
   it("contains uniquely ranked scientist profiles", () => {
     expect(SCIENTISTS.length).toBeGreaterThanOrEqual(10);
 
-    expect(new Set(SCIENTISTS.map((scientist) => scientist.slug)).size).toBe(SCIENTISTS.length);
+    expect(new Set(SCIENTISTS.map((scientist) => scientist.slug)).size).toBe(
+      SCIENTISTS.length,
+    );
 
-    expect(new Set(SCIENTISTS.map((scientist) => scientist.rank)).size).toBe(SCIENTISTS.length);
+    expect(new Set(SCIENTISTS.map((scientist) => scientist.rank)).size).toBe(
+      SCIENTISTS.length,
+    );
 
     expect(SCIENTISTS.map((scientist) => scientist.rank)).toEqual(
-      Array.from({ length: SCIENTISTS.length }, (_, index) => index + 1)
+      Array.from({ length: SCIENTISTS.length }, (_, index) => index + 1),
     );
   });
 

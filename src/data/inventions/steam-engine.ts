@@ -3,8 +3,7 @@ import type { Invention } from "./types";
 const originalDiagram = {
   src: "/inventions/steam-engine/steam-engine-cutaway.svg",
   alt: "Educational cutaway of a reciprocating steam engine showing the boiler, steam pipe, valve, cylinder, piston, connecting rod, crank, flywheel, exhaust and condenser return path.",
-  caption:
-    "Original EduVerse educational cutaway showing one simplified condensing reciprocating steam-engine cycle. Components are not drawn to scale.",
+  caption: "Original EduVerse educational cutaway showing one simplified condensing reciprocating steam-engine cycle. Components are not drawn to scale.",
   creator: "EduVerse",
   sourceName: "EduVerse original illustration",
   licence: "Original educational illustration supplied with this project",
@@ -77,12 +76,10 @@ export const steamEngine: Invention = {
   historicalImages: [
     {
       alt: "A preserved Newcomen-style atmospheric pumping engine in a museum or historic engine house.",
-      caption:
-        "Suggested historical image: a preserved Newcomen atmospheric engine or accurate museum reconstruction.",
+      caption: "Suggested historical image: a preserved Newcomen atmospheric engine or accurate museum reconstruction.",
       sourceName: "Science Museum Group Collection",
       sourceUrl: "https://collection.sciencemuseumgroup.org.uk/search?q=Newcomen%20engine",
-      licence:
-        "Select a specific public-domain or Creative Commons item and retain its item-level licence statement.",
+      licence: "Select a specific public-domain or Creative Commons item and retain its item-level licence statement.",
       credit: "Manual image addition required after licence verification",
       kind: "historical",
     },
@@ -91,8 +88,7 @@ export const steamEngine: Invention = {
       caption: "Suggested historical image: a preserved Boulton and Watt rotative beam engine.",
       sourceName: "Science Museum Group Collection",
       sourceUrl: "https://collection.sciencemuseumgroup.org.uk/search?q=Boulton%20Watt%20engine",
-      licence:
-        "Select a specific public-domain or Creative Commons item and retain its item-level licence statement.",
+      licence: "Select a specific public-domain or Creative Commons item and retain its item-level licence statement.",
       credit: "Manual image addition required after licence verification",
       kind: "historical",
     },
@@ -100,12 +96,10 @@ export const steamEngine: Invention = {
   modernImages: [
     {
       alt: "A modern steam turbine generator in a power station.",
-      caption:
-        "Suggested modern image: a steam turbine-generator set in a thermal or nuclear power station.",
+      caption: "Suggested modern image: a steam turbine-generator set in a thermal or nuclear power station.",
       sourceName: "Wikimedia Commons or a power-station media library",
       sourceUrl: "https://commons.wikimedia.org/wiki/Category:Steam_turbines",
-      licence:
-        "Choose a file with a clear public-domain or Creative Commons licence and preserve attribution.",
+      licence: "Choose a file with a clear public-domain or Creative Commons licence and preserve attribution.",
       credit: "Manual image addition required after licence verification",
       kind: "modern",
     },
@@ -182,14 +176,8 @@ export const steamEngine: Invention = {
   },
   components: [
     { name: "Boiler", purpose: "Heats water and contains the resulting steam." },
-    {
-      name: "Firebox or heat source",
-      purpose: "Supplies thermal energy from fuel, nuclear heat, solar heat or another source.",
-    },
-    {
-      name: "Steam pipe",
-      purpose: "Carries steam from the boiler to the valve chest and cylinder.",
-    },
+    { name: "Firebox or heat source", purpose: "Supplies thermal energy from fuel, nuclear heat, solar heat or another source." },
+    { name: "Steam pipe", purpose: "Carries steam from the boiler to the valve chest and cylinder." },
     { name: "Valves", purpose: "Control when steam enters and leaves each side of the cylinder." },
     { name: "Cylinder", purpose: "Provides a sealed space in which steam pressure acts." },
     { name: "Piston", purpose: "Moves linearly when a pressure difference acts across it." },
@@ -197,141 +185,35 @@ export const steamEngine: Invention = {
     { name: "Connecting rod", purpose: "Links reciprocating motion to the crank." },
     { name: "Crank", purpose: "Converts back-and-forth motion into rotation." },
     { name: "Flywheel", purpose: "Stores rotational energy and smooths the output." },
-    {
-      name: "Condenser",
-      purpose:
-        "Cools exhaust steam, lowers back pressure and permits water recovery in condensing engines.",
-    },
+    { name: "Condenser", purpose: "Cools exhaust steam, lowers back pressure and permits water recovery in condensing engines." },
     { name: "Exhaust", purpose: "Carries spent steam away from the cylinder." },
   ],
   evolutionTimeline: [
-    {
-      year: "1st century CE",
-      title: "Early steam concepts",
-      description:
-        "Hero of Alexandria described the aeolipile, a rotating steam-reaction demonstration rather than an industrial engine.",
-    },
-    {
-      year: "1679–1690",
-      title: "Papin's experiments",
-      description:
-        "Denis Papin developed a steam digester with a safety valve and explored piston motion produced by steam and condensation.",
-    },
-    {
-      year: "1698",
-      title: "Savery pump",
-      description: "Thomas Savery patented a steam-powered pumping system for raising water.",
-    },
-    {
-      year: "1712",
-      title: "Newcomen atmospheric engine",
-      description: "A practical piston engine began pumping water at a coal mine near Dudley.",
-    },
-    {
-      year: "1765–1769",
-      title: "Watt's separate condenser",
-      description:
-        "James Watt developed and patented a condenser separate from the main cylinder, reducing heat loss.",
-    },
-    {
-      year: "1775 onward",
-      title: "Boulton & Watt commercialization",
-      description:
-        "The partnership manufactured improved engines and later supplied rotary power to industry.",
-    },
-    {
-      year: "1801–1804",
-      title: "Trevithick's high-pressure engine",
-      description:
-        "Compact high-pressure engines powered road demonstrations and an early railway locomotive.",
-    },
-    {
-      year: "1820s–1830s",
-      title: "Steam locomotives",
-      description:
-        "Improved boilers, cylinders and track systems made railway transport commercially successful.",
-    },
-    {
-      year: "19th century",
-      title: "Marine steam engines",
-      description:
-        "Paddle steamers and then screw-propelled steamships transformed river and ocean transport.",
-    },
-    {
-      year: "Mid-to-late 19th century",
-      title: "Compound engines",
-      description: "Steam expanded through two or more cylinders, improving efficiency and range.",
-    },
-    {
-      year: "1884",
-      title: "Steam turbine",
-      description:
-        "Charles Parsons demonstrated a practical high-speed reaction turbine suited to electricity generation and marine propulsion.",
-    },
-    {
-      year: "20th–21st centuries",
-      title: "Modern steam power",
-      description:
-        "Large turbines became central to fossil-fuel, nuclear, geothermal and some solar-thermal electricity generation.",
-    },
+    { year: "1st century CE", title: "Early steam concepts", description: "Hero of Alexandria described the aeolipile, a rotating steam-reaction demonstration rather than an industrial engine." },
+    { year: "1679–1690", title: "Papin's experiments", description: "Denis Papin developed a steam digester with a safety valve and explored piston motion produced by steam and condensation." },
+    { year: "1698", title: "Savery pump", description: "Thomas Savery patented a steam-powered pumping system for raising water." },
+    { year: "1712", title: "Newcomen atmospheric engine", description: "A practical piston engine began pumping water at a coal mine near Dudley." },
+    { year: "1765–1769", title: "Watt's separate condenser", description: "James Watt developed and patented a condenser separate from the main cylinder, reducing heat loss." },
+    { year: "1775 onward", title: "Boulton & Watt commercialization", description: "The partnership manufactured improved engines and later supplied rotary power to industry." },
+    { year: "1801–1804", title: "Trevithick's high-pressure engine", description: "Compact high-pressure engines powered road demonstrations and an early railway locomotive." },
+    { year: "1820s–1830s", title: "Steam locomotives", description: "Improved boilers, cylinders and track systems made railway transport commercially successful." },
+    { year: "19th century", title: "Marine steam engines", description: "Paddle steamers and then screw-propelled steamships transformed river and ocean transport." },
+    { year: "Mid-to-late 19th century", title: "Compound engines", description: "Steam expanded through two or more cylinders, improving efficiency and range." },
+    { year: "1884", title: "Steam turbine", description: "Charles Parsons demonstrated a practical high-speed reaction turbine suited to electricity generation and marine propulsion." },
+    { year: "20th–21st centuries", title: "Modern steam power", description: "Large turbines became central to fossil-fuel, nuclear, geothermal and some solar-thermal electricity generation." },
   ],
   comparison: [
-    {
-      topic: "Purpose",
-      early: "Mine pumping and slow mechanical work",
-      modern: "Continuous large-scale electricity generation and process heat",
-    },
-    {
-      topic: "Pressure",
-      early: "Atmospheric or relatively low pressure",
-      modern: "Very high pressure; often superheated and carefully staged",
-    },
-    {
-      topic: "Efficiency",
-      early: "Low; large heat losses",
-      modern: "Much higher through turbines, multiple stages, reheating and heat recovery",
-    },
-    {
-      topic: "Size",
-      early: "Large and heavy for modest power",
-      modern: "Large plants produce enormous power; turbine power density is far higher",
-    },
-    {
-      topic: "Materials",
-      early: "Cast iron, wrought iron and early copper boilers",
-      modern: "Alloy steels, nickel alloys, precision coatings and advanced seals",
-    },
-    {
-      topic: "Control",
-      early: "Manual valves and mechanical governors",
-      modern: "Digital monitoring, automated control and protection systems",
-    },
-    {
-      topic: "Safety",
-      early: "Inconsistent construction and inspection",
-      modern: "Codes, certified pressure vessels, redundant protection and continuous monitoring",
-    },
-    {
-      topic: "Speed",
-      early: "Slow reciprocating strokes",
-      modern: "Turbines commonly rotate at thousands of revolutions per minute",
-    },
-    {
-      topic: "Reliability",
-      early: "Frequent maintenance, leakage and wear",
-      modern: "High availability with planned maintenance and condition monitoring",
-    },
-    {
-      topic: "Applications",
-      early: "Mines, mills, locomotives and ships",
-      modern: "Power stations, industrial steam networks and specialized marine systems",
-    },
-    {
-      topic: "Environmental impact",
-      early: "Severe local coal smoke and inefficient fuel use",
-      modern:
-        "Efficiency is improved, but impact depends mainly on how the heat is produced and how emissions are controlled",
-    },
+    { topic: "Purpose", early: "Mine pumping and slow mechanical work", modern: "Continuous large-scale electricity generation and process heat" },
+    { topic: "Pressure", early: "Atmospheric or relatively low pressure", modern: "Very high pressure; often superheated and carefully staged" },
+    { topic: "Efficiency", early: "Low; large heat losses", modern: "Much higher through turbines, multiple stages, reheating and heat recovery" },
+    { topic: "Size", early: "Large and heavy for modest power", modern: "Large plants produce enormous power; turbine power density is far higher" },
+    { topic: "Materials", early: "Cast iron, wrought iron and early copper boilers", modern: "Alloy steels, nickel alloys, precision coatings and advanced seals" },
+    { topic: "Control", early: "Manual valves and mechanical governors", modern: "Digital monitoring, automated control and protection systems" },
+    { topic: "Safety", early: "Inconsistent construction and inspection", modern: "Codes, certified pressure vessels, redundant protection and continuous monitoring" },
+    { topic: "Speed", early: "Slow reciprocating strokes", modern: "Turbines commonly rotate at thousands of revolutions per minute" },
+    { topic: "Reliability", early: "Frequent maintenance, leakage and wear", modern: "High availability with planned maintenance and condition monitoring" },
+    { topic: "Applications", early: "Mines, mills, locomotives and ships", modern: "Power stations, industrial steam networks and specialized marine systems" },
+    { topic: "Environmental impact", early: "Severe local coal smoke and inefficient fuel use", modern: "Efficiency is improved, but impact depends mainly on how the heat is produced and how emissions are controlled" },
   ],
   historicalImpact: {
     id: "historical-impact",
@@ -425,15 +307,6 @@ export const steamEngine: Invention = {
   imageCredits: [originalDiagram],
   relatedInventions: [],
   seoTitle: "Steam Engine: History, Inventors, Working Principle and Evolution",
-  seoDescription:
-    "Learn how the steam engine developed from early pumps to Watt's improvements, high-pressure engines, locomotives and modern steam turbines.",
-  keywords: [
-    "steam engine",
-    "James Watt",
-    "Thomas Newcomen",
-    "Thomas Savery",
-    "Industrial Revolution",
-    "steam turbine",
-    "invention history",
-  ],
+  seoDescription: "Learn how the steam engine developed from early pumps to Watt's improvements, high-pressure engines, locomotives and modern steam turbines.",
+  keywords: ["steam engine", "James Watt", "Thomas Newcomen", "Thomas Savery", "Industrial Revolution", "steam turbine", "invention history"],
 };

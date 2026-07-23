@@ -1,6 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, ExternalLink, ImageIcon, Lightbulb, UserRound } from "lucide-react";
+import {
+  ArrowLeft,
+  ArrowRight,
+  ExternalLink,
+  ImageIcon,
+  Lightbulb,
+  UserRound,
+} from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import type {
@@ -147,7 +154,11 @@ export function CreditedImage({
       {image.src ? (
         <div className={diagram ? "overflow-x-auto" : undefined}>
           <div
-            className={diagram ? "relative aspect-[5/3] min-w-[760px]" : "relative aspect-[16/10]"}
+            className={
+              diagram
+                ? "relative aspect-[5/3] min-w-[760px]"
+                : "relative aspect-[16/10]"
+            }
           >
             <Image
               src={image.src}
@@ -196,7 +207,9 @@ export function WorkingPrinciple({ invention }: { invention: Invention }) {
       <h2 className="text-3xl font-bold">How a Steam Engine Works</h2>
       <div className="mt-5 rounded-xl border bg-muted/30 p-5">
         <p className="font-semibold">Simple explanation</p>
-        <p className="mt-2 leading-7 text-muted-foreground">{invention.workingPrinciple.simple}</p>
+        <p className="mt-2 leading-7 text-muted-foreground">
+          {invention.workingPrinciple.simple}
+        </p>
       </div>
       <div className="mt-6 space-y-4 leading-8 text-muted-foreground">
         {invention.workingPrinciple.detailed.map((item) => (
@@ -238,9 +251,9 @@ export function CutawayDiagram({ invention }: { invention: Invention }) {
     <section id="diagram" className="scroll-mt-20">
       <h2 className="text-3xl font-bold">Sectional Cutaway Diagram</h2>
       <p className="mt-3 text-muted-foreground">
-        The original diagram combines a reciprocating engine with a condenser return path to show
-        the complete energy and fluid sequence. On a small screen, scroll horizontally to keep every
-        label readable.
+        The original diagram combines a reciprocating engine with a condenser return path to
+        show the complete energy and fluid sequence. On a small screen, scroll horizontally to
+        keep every label readable.
       </p>
       <div className="mt-5">
         <CreditedImage image={invention.diagram} diagram />
@@ -278,23 +291,15 @@ export function ComparisonTable({ invention }: { invention: Invention }) {
           </caption>
           <thead className="bg-muted">
             <tr>
-              <th scope="col" className="p-4">
-                Topic
-              </th>
-              <th scope="col" className="p-4">
-                Early piston engines
-              </th>
-              <th scope="col" className="p-4">
-                Modern steam systems
-              </th>
+              <th scope="col" className="p-4">Topic</th>
+              <th scope="col" className="p-4">Early piston engines</th>
+              <th scope="col" className="p-4">Modern steam systems</th>
             </tr>
           </thead>
           <tbody>
             {invention.comparison.map((row) => (
               <tr key={row.topic} className="border-t align-top">
-                <th scope="row" className="p-4 font-semibold">
-                  {row.topic}
-                </th>
+                <th scope="row" className="p-4 font-semibold">{row.topic}</th>
                 <td className="p-4 leading-6 text-muted-foreground">{row.early}</td>
                 <td className="p-4 leading-6 text-muted-foreground">{row.modern}</td>
               </tr>
@@ -412,9 +417,7 @@ export function RelatedInventions({
 
   return (
     <section aria-labelledby="related-heading">
-      <h2 id="related-heading" className="text-2xl font-bold">
-        Related inventions
-      </h2>
+      <h2 id="related-heading" className="text-2xl font-bold">Related inventions</h2>
       {related.length ? (
         <div className="mt-4 grid gap-3 sm:grid-cols-2">
           {related.map((item) => (
