@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { ArrowRight, Compass, Microscope, Sparkles, Telescope } from "lucide-react";
+import { ArrowRight, Compass, Hammer, Microscope, Sparkles, Telescope } from "lucide-react";
+import { HistoricalImage } from "@/components/inventions/historical-image";
 import { ScientistImage } from "@/components/scientists/scientist-image";
 import { SiteHeader } from "@/components/site-header";
 import { SubjectCard } from "@/components/subject-card";
@@ -8,6 +9,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { SCIENTISTS } from "@/data/scientists";
 import { listSubjects } from "@/lib/curriculum";
 import { HUB_FEATURES, HUB_GROUPS, HUB_GROUP_COPY } from "@/data/learning-hub";
+import { INVENTIONS } from "@/data/inventions";
 
 export default function HomePage() {
   const subjects = listSubjects();
@@ -124,6 +126,63 @@ export default function HomePage() {
           </div>
         </section>
 
+        <section className="border-y bg-amber-50/60 dark:bg-amber-950/10">
+          <div className="container py-16">
+            <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
+              <div>
+                <div className="inline-flex items-center gap-2 rounded-full border bg-background px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.17em] shadow-sm">
+                  <Hammer className="size-3.5" aria-hidden="true" /> Human history inventions
+                </div>
+                <h2 className="mt-5 text-balance text-3xl font-bold tracking-tight sm:text-4xl">
+                  Necessity, trial, failure and breakthrough
+                </h2>
+                <p className="mt-4 max-w-xl leading-7 text-muted-foreground">
+                  Explore inventions as evolving systems rather than single eureka moments. Each
+                  dossier connects the original need, prior art, failed experiments, collaborators,
+                  technical operation, surviving prototypes, later improvements and long-term effects.
+                </p>
+                <Button asChild className="mt-6">
+                  <Link href="/inventions">
+                    Explore invention history <ArrowRight aria-hidden="true" />
+                  </Link>
+                </Button>
+              </div>
+
+              <div className="grid gap-5 sm:grid-cols-2">
+                {INVENTIONS.map((invention) => (
+                  <Link
+                    key={invention.slug}
+                    href={`/inventions/${invention.slug}`}
+                    className="group overflow-hidden rounded-xl border bg-background shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
+                  >
+                    <HistoricalImage
+                      image={invention.heroImage}
+                      width={900}
+                      className="rounded-none border-0 shadow-none"
+                      imageClassName="aspect-[16/10] transition duration-500 group-hover:scale-105"
+                      showCaption={false}
+                    />
+                    <div className="p-5">
+                      <p className="text-xs font-bold uppercase tracking-widest text-primary">
+                        {invention.era}
+                      </p>
+                      <h3 className="mt-2 text-xl font-bold group-hover:underline">
+                        {invention.title}
+                      </h3>
+                      <p className="mt-2 line-clamp-3 text-sm leading-6 text-muted-foreground">
+                        {invention.subtitle}
+                      </p>
+                      <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold">
+                        Open complete dossier <ArrowRight className="size-4" aria-hidden="true" />
+                      </span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="border-y bg-muted/35">
           <div className="container grid gap-10 py-16 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
             <div>
@@ -163,7 +222,7 @@ export default function HomePage() {
                         width={700}
                         className="h-full rounded-none border-0"
                         imageClassName="grayscale transition duration-500 group-hover:scale-105 group-hover:grayscale-0"
-                        showCredit={false}
+                        showCaption={false}
                       />
                       <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 via-black/45 to-transparent p-3 pt-12 text-white">
                         <p className="scientist-signature text-xl leading-tight">

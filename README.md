@@ -2,7 +2,7 @@
 
 A subject-agnostic education knowledge platform. This repository is the application foundation (Batch 1): configuration, tooling, and the production folder structure that every feature module builds on.
 
-Current public collections include structured Mathematics and Physics lessons, influential scientists, 25 physics phenomena and a 25-experience interactive Learning Hub.
+Current public collections include structured Mathematics and Physics lessons, influential scientists, 25 physics phenomena, a 25-experience interactive Learning Hub, and research-grade Human History Inventions dossiers.
 
 ## Tech stack
 
@@ -64,6 +64,10 @@ Supporting services when running via Docker Compose:
 ## Learning Hub
 
 Open `/learning-hub` for the organized Learn, Explore, Tools, Practice and Resources collections. See `documentation/LEARNING-HUB.md` for the extension guide.
+
+## Human History Inventions
+
+Open `/inventions` for full necessity-to-legacy histories of the Steam Engine and Printing Press. The collection is data-driven and ready for future additions. See `documentation/HUMAN-HISTORY-INVENTIONS.md` for the extension guide.
 
 ## Project structure
 
