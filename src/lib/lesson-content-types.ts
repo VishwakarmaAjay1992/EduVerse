@@ -20,6 +20,26 @@ export type Figure =
   | { type: "accuracyPrecision" }
   | { type: "parallax" }
   | {
+      type: "calculus";
+      kind:
+        | "function"
+        | "limit"
+        | "derivative"
+        | "mean-value"
+        | "riemann-sum"
+        | "volume"
+        | "exponential"
+        | "integral"
+        | "slope-field"
+        | "series"
+        | "polar"
+        | "vector-space"
+        | "space-curve"
+        | "surface"
+        | "double-integral"
+        | "vector-field";
+    }
+  | {
       type: "trigonometry";
       kind:
         | "angle-measure"

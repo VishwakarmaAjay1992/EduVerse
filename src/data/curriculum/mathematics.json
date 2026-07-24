@@ -1975,52 +1975,96 @@
     },
     {
       "title": "Calculus",
-      "level": "advanced",
+      "level": "university",
       "chapters": [
         {
-          "title": "Limits and Continuity",
-          "prereq": [
-            "Advanced Functions"
-          ],
+          "title": "Functions",
+          "prereq": [],
           "topics": [
             {
-              "title": "Limits",
+              "title": "Numbered lessons",
               "lessons": [
                 {
-                  "title": "The Idea of a Limit",
-                  "d": 4,
-                  "min": 50,
+                  "title": "Functions and Their Graphs",
+                  "d": 3,
+                  "min": 55,
                   "sub": [
-                    "Intuitive limits",
-                    "One-sided limits",
-                    "Limit laws",
-                    "Limits at infinity"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
                   ]
                 },
                 {
-                  "title": "Evaluating Limits",
-                  "d": 4,
-                  "min": 50,
+                  "title": "Combining Functions; Shifting and Scaling Graphs",
+                  "d": 3,
+                  "min": 55,
                   "sub": [
-                    "Algebraic techniques",
-                    "Squeeze theorem",
-                    "Standard limits sin x / x",
-                    "Indeterminate forms"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
                   ]
-                }
-              ]
-            },
-            {
-              "title": "Continuity",
-              "lessons": [
+                },
                 {
-                  "title": "Continuous Functions",
-                  "d": 4,
-                  "min": 45,
+                  "title": "Trigonometric Functions",
+                  "d": 3,
+                  "min": 55,
                   "sub": [
-                    "Definition of continuity",
-                    "Types of discontinuity",
-                    "Intermediate value theorem"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Graphing with Software",
+                  "d": 3,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Exponential Functions",
+                  "d": 3,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Inverse Functions and Logarithms",
+                  "d": 3,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Functions Chapter Review",
+                  "d": 4,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
                   ]
                 }
               ]
@@ -2028,23 +2072,132 @@
           ]
         },
         {
-          "title": "Differentiation",
+          "title": "Limits and Continuity",
+          "prereq": [
+            "Functions"
+          ],
+          "topics": [
+            {
+              "title": "Numbered lessons",
+              "lessons": [
+                {
+                  "title": "Rates of Change and Tangents to Curves",
+                  "d": 3,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Limit of a Function and Limit Laws",
+                  "d": 3,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "The Precise Definition of a Limit",
+                  "d": 3,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "One-Sided Limits",
+                  "d": 3,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Continuity",
+                  "d": 3,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Limits Involving Infinity; Asymptotes of Graphs",
+                  "d": 3,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Limits and Continuity Chapter Review",
+                  "d": 4,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Derivatives",
           "prereq": [
             "Limits and Continuity"
           ],
           "topics": [
             {
-              "title": "The Derivative",
+              "title": "Numbered lessons",
               "lessons": [
                 {
-                  "title": "Derivative from First Principles",
+                  "title": "Tangents and the Derivative at a Point",
                   "d": 4,
                   "min": 55,
                   "sub": [
-                    "Rate of change and tangents",
-                    "The difference quotient",
-                    "Differentiability vs continuity",
-                    "Newton vs Leibniz (history)"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "The Derivative as a Function",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
                   ]
                 },
                 {
@@ -2052,26 +2205,118 @@
                   "d": 4,
                   "min": 55,
                   "sub": [
-                    "Power, product, quotient rules",
-                    "Chain rule",
-                    "Trig, exponential, log derivatives",
-                    "Implicit differentiation"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
                   ]
-                }
-              ]
-            },
-            {
-              "title": "Higher Derivatives and Special Techniques",
-              "lessons": [
+                },
                 {
-                  "title": "Higher Order and Special Derivatives",
+                  "title": "The Derivative as a Rate of Change",
                   "d": 4,
-                  "min": 45,
+                  "min": 55,
                   "sub": [
-                    "Second derivatives",
-                    "Logarithmic differentiation",
-                    "Parametric differentiation",
-                    "Related rates"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Derivatives of Trigonometric Functions",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "The Chain Rule",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Implicit Differentiation",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Derivatives of Inverse Functions and Logarithms",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Inverse Trigonometric Functions",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Related Rates",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Linearization and Differentials",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Derivatives Chapter Review",
+                  "d": 4,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
                   ]
                 }
               ]
@@ -2081,61 +2326,117 @@
         {
           "title": "Applications of Derivatives",
           "prereq": [
-            "Differentiation"
+            "Derivatives"
           ],
           "topics": [
             {
-              "title": "Curve Analysis",
+              "title": "Numbered lessons",
               "lessons": [
                 {
-                  "title": "Increasing, Decreasing and Extrema",
-                  "d": 4,
-                  "min": 50,
-                  "sub": [
-                    "Critical points",
-                    "First and second derivative tests",
-                    "Concavity and inflection",
-                    "Curve sketching"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Optimization and Motion",
-              "lessons": [
-                {
-                  "title": "Optimization Problems",
+                  "title": "Extreme Values of Functions",
                   "d": 4,
                   "min": 55,
                   "sub": [
-                    "Modeling strategy",
-                    "Geometric optimization",
-                    "Economic applications"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
                   ]
                 },
                 {
-                  "title": "Kinematics and Rates",
+                  "title": "The Mean Value Theorem",
                   "d": 4,
-                  "min": 45,
+                  "min": 55,
                   "sub": [
-                    "Position, velocity, acceleration",
-                    "Related rates problems",
-                    "Linear approximation and differentials"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
                   ]
-                }
-              ]
-            },
-            {
-              "title": "Mean Value Theorems",
-              "lessons": [
+                },
                 {
-                  "title": "Rolle's and the Mean Value Theorem",
+                  "title": "Monotonic Functions and the First Derivative Test",
                   "d": 4,
-                  "min": 45,
+                  "min": 55,
                   "sub": [
-                    "Statements and proofs",
-                    "Geometric meaning",
-                    "L'Hopital's rule"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Concavity and Curve Sketching",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Indeterminate Forms and L’Hôpital’s Rule",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Applied Optimization",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Newton’s Method",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Antiderivatives",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Applications of Derivatives Chapter Review",
+                  "d": 4,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
                   ]
                 }
               ]
@@ -2143,59 +2444,95 @@
           ]
         },
         {
-          "title": "Integration",
+          "title": "Integrals",
           "prereq": [
             "Applications of Derivatives"
           ],
           "topics": [
             {
-              "title": "The Integral",
+              "title": "Numbered lessons",
               "lessons": [
                 {
-                  "title": "Antiderivatives and the Indefinite Integral",
+                  "title": "Area and Estimating with Finite Sums",
                   "d": 4,
-                  "min": 50,
+                  "min": 55,
                   "sub": [
-                    "Reverse differentiation",
-                    "Basic integral rules",
-                    "Initial value problems"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
                   ]
                 },
                 {
-                  "title": "The Definite Integral and the Fundamental Theorem",
+                  "title": "Sigma Notation and Limits of Finite Sums",
                   "d": 4,
                   "min": 55,
                   "sub": [
-                    "Riemann sums",
-                    "Area under curves",
-                    "FTC parts 1 and 2",
-                    "History of integration"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Integration Techniques",
-              "lessons": [
-                {
-                  "title": "Substitution and Integration by Parts",
-                  "d": 4,
-                  "min": 55,
-                  "sub": [
-                    "u-substitution",
-                    "Integration by parts",
-                    "Choosing techniques"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
                   ]
                 },
                 {
-                  "title": "Advanced Techniques",
-                  "d": 5,
+                  "title": "The Definite Integral",
+                  "d": 4,
                   "min": 55,
                   "sub": [
-                    "Trig integrals and substitutions",
-                    "Partial fractions in integration",
-                    "Improper integrals",
-                    "Reduction formulas"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "The Fundamental Theorem of Calculus",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Indefinite Integrals and the Substitution Method",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Definite Integral Substitutions and the Area Between Curves",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Integrals Chapter Review",
+                  "d": 4,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
                   ]
                 }
               ]
@@ -2203,39 +2540,95 @@
           ]
         },
         {
-          "title": "Applications of Integration",
+          "title": "Applications of Definite Integrals",
           "prereq": [
-            "Integration"
+            "Integrals"
           ],
           "topics": [
             {
-              "title": "Geometric Applications",
+              "title": "Numbered lessons",
               "lessons": [
                 {
-                  "title": "Areas and Volumes",
+                  "title": "Volumes Using Cross-Sections",
                   "d": 4,
                   "min": 55,
                   "sub": [
-                    "Area between curves",
-                    "Volumes of revolution (disks, shells)",
-                    "Arc length",
-                    "Surface area"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
                   ]
-                }
-              ]
-            },
-            {
-              "title": "Physical and Other Applications",
-              "lessons": [
+                },
                 {
-                  "title": "Integrals in Science and Beyond",
+                  "title": "Volumes Using Cylindrical Shells",
                   "d": 4,
-                  "min": 45,
+                  "min": 55,
                   "sub": [
-                    "Average value",
-                    "Work and center of mass",
-                    "Probability density preview",
-                    "Differential equations preview"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Arc Length",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Areas of Surfaces of Revolution",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Work and Fluid Forces",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Moments and Centers of Mass",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Applications of Definite Integrals Chapter Review",
+                  "d": 4,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
                   ]
                 }
               ]
@@ -2243,41 +2636,660 @@
           ]
         },
         {
-          "title": "Infinite Series",
+          "title": "Integrals and Transcendental Functions",
           "prereq": [
-            "Integration"
+            "Applications of Definite Integrals"
           ],
           "topics": [
             {
-              "title": "Convergence",
+              "title": "Numbered lessons",
               "lessons": [
                 {
-                  "title": "Sequences and Series Convergence",
-                  "d": 5,
+                  "title": "The Logarithm Defined as an Integral",
+                  "d": 4,
                   "min": 55,
                   "sub": [
-                    "Convergence of sequences",
-                    "Partial sums",
-                    "Divergence test",
-                    "Integral, comparison, ratio, root tests",
-                    "Alternating series"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Exponential Change and Separable Differential Equations",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Hyperbolic Functions",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Relative Rates of Growth",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Integrals and Transcendental Functions Chapter Review",
+                  "d": 4,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
                   ]
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "title": "Techniques of Integration",
+          "prereq": [
+            "Integrals and Transcendental Functions"
+          ],
+          "topics": [
             {
-              "title": "Power Series",
+              "title": "Numbered lessons",
               "lessons": [
+                {
+                  "title": "Using Basic Integration Formulas",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Integration by Parts",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Trigonometric Integrals",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Trigonometric Substitutions",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Integration of Rational Functions by Partial Fractions",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Integral Tables and Computer Algebra Systems",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Numerical Integration",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Improper Integrals",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Probability",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Techniques of Integration Chapter Review",
+                  "d": 4,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "First-Order Differential Equations",
+          "prereq": [
+            "Techniques of Integration"
+          ],
+          "topics": [
+            {
+              "title": "Numbered lessons",
+              "lessons": [
+                {
+                  "title": "Solutions, Slope Fields, and Euler’s Method",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "First-Order Linear Equations",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Applications",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Graphical Solutions of Autonomous Equations",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Systems of Equations and Phase Planes",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "First-Order Differential Equations Chapter Review",
+                  "d": 4,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Infinite Sequences and Series",
+          "prereq": [
+            "First-Order Differential Equations"
+          ],
+          "topics": [
+            {
+              "title": "Numbered lessons",
+              "lessons": [
+                {
+                  "title": "Sequences",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Infinite Series",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "The Integral Test",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Comparison Tests",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Absolute Convergence; The Ratio and Root Tests",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Alternating Series and Conditional Convergence",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Power Series",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
                 {
                   "title": "Taylor and Maclaurin Series",
-                  "d": 5,
-                  "min": 60,
+                  "d": 4,
+                  "min": 55,
                   "sub": [
-                    "Power series and radius of convergence",
-                    "Taylor's theorem",
-                    "Standard expansions",
-                    "Error bounds",
-                    "Euler's formula"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Convergence of Taylor Series",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "The Binomial Series and Applications of Taylor Series",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Infinite Sequences and Series Chapter Review",
+                  "d": 4,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Parametric Equations and Polar Coordinates",
+          "prereq": [
+            "Infinite Sequences and Series"
+          ],
+          "topics": [
+            {
+              "title": "Numbered lessons",
+              "lessons": [
+                {
+                  "title": "Parametrizations of Plane Curves",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Calculus with Parametric Curves",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Polar Coordinates",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Graphing Polar Coordinate Equations",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Areas and Lengths in Polar Coordinates",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Conic Sections",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Conics in Polar Coordinates",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Parametric Equations and Polar Coordinates Chapter Review",
+                  "d": 4,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Calculus Reference and Proof Appendices",
+          "prereq": [],
+          "topics": [
+            {
+              "title": "Supporting mathematics",
+              "lessons": [
+                {
+                  "title": "Real Numbers and the Real Line",
+                  "d": 4,
+                  "min": 40,
+                  "sub": [
+                    "Definitions",
+                    "Reference formulas",
+                    "Proof or verification",
+                    "Calculus connections"
+                  ]
+                },
+                {
+                  "title": "Mathematical Induction",
+                  "d": 4,
+                  "min": 40,
+                  "sub": [
+                    "Definitions",
+                    "Reference formulas",
+                    "Proof or verification",
+                    "Calculus connections"
+                  ]
+                },
+                {
+                  "title": "Lines, Circles, and Parabolas",
+                  "d": 4,
+                  "min": 40,
+                  "sub": [
+                    "Definitions",
+                    "Reference formulas",
+                    "Proof or verification",
+                    "Calculus connections"
+                  ]
+                },
+                {
+                  "title": "Proofs of Limit Theorems",
+                  "d": 4,
+                  "min": 40,
+                  "sub": [
+                    "Definitions",
+                    "Reference formulas",
+                    "Proof or verification",
+                    "Calculus connections"
+                  ]
+                },
+                {
+                  "title": "Commonly Occurring Limits",
+                  "d": 4,
+                  "min": 40,
+                  "sub": [
+                    "Definitions",
+                    "Reference formulas",
+                    "Proof or verification",
+                    "Calculus connections"
+                  ]
+                },
+                {
+                  "title": "Theory of the Real Numbers",
+                  "d": 4,
+                  "min": 40,
+                  "sub": [
+                    "Definitions",
+                    "Reference formulas",
+                    "Proof or verification",
+                    "Calculus connections"
+                  ]
+                },
+                {
+                  "title": "Complex Numbers",
+                  "d": 4,
+                  "min": 40,
+                  "sub": [
+                    "Definitions",
+                    "Reference formulas",
+                    "Proof or verification",
+                    "Calculus connections"
+                  ]
+                },
+                {
+                  "title": "Distributive Law for Vector Cross Products",
+                  "d": 4,
+                  "min": 40,
+                  "sub": [
+                    "Definitions",
+                    "Reference formulas",
+                    "Proof or verification",
+                    "Calculus connections"
+                  ]
+                },
+                {
+                  "title": "Mixed Derivative and Increment Theorems",
+                  "d": 4,
+                  "min": 40,
+                  "sub": [
+                    "Definitions",
+                    "Reference formulas",
+                    "Proof or verification",
+                    "Calculus connections"
+                  ]
+                },
+                {
+                  "title": "Brief Table of Integrals",
+                  "d": 4,
+                  "min": 40,
+                  "sub": [
+                    "Definitions",
+                    "Reference formulas",
+                    "Proof or verification",
+                    "Calculus connections"
                   ]
                 }
               ]
@@ -2291,36 +3303,335 @@
       "level": "university",
       "chapters": [
         {
-          "title": "Functions of Several Variables",
+          "title": "Vectors and the Geometry of Space",
           "prereq": [
-            "Infinite Series",
-            "Vectors"
+            "Parametric Equations and Polar Coordinates"
           ],
           "topics": [
             {
-              "title": "Partial Derivatives",
+              "title": "Numbered lessons",
               "lessons": [
                 {
-                  "title": "Surfaces, Limits and Partial Derivatives",
+                  "title": "Three-Dimensional Coordinate Systems",
                   "d": 5,
-                  "min": 60,
+                  "min": 65,
                   "sub": [
-                    "Functions of two variables",
-                    "Level curves",
-                    "Partial derivatives",
-                    "The gradient",
-                    "Tangent planes"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
                   ]
                 },
                 {
-                  "title": "Optimization in Several Variables",
+                  "title": "Vectors",
                   "d": 5,
-                  "min": 60,
+                  "min": 65,
                   "sub": [
-                    "Critical points and the Hessian",
-                    "Second derivative test",
-                    "Lagrange multipliers",
-                    "Applied optimization"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "The Dot Product",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "The Cross Product",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Lines and Planes in Space",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Cylinders and Quadric Surfaces",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Vectors and the Geometry of Space Chapter Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vector-Valued Functions and Motion in Space",
+          "prereq": [
+            "Vectors and the Geometry of Space"
+          ],
+          "topics": [
+            {
+              "title": "Numbered lessons",
+              "lessons": [
+                {
+                  "title": "Curves in Space and Their Tangents",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Integrals of Vector Functions; Projectile Motion",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Arc Length in Space",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Curvature and Normal Vectors of a Curve",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Tangential and Normal Components of Acceleration",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Velocity and Acceleration in Polar Coordinates",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Vector-Valued Functions and Motion in Space Chapter Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Partial Derivatives",
+          "prereq": [
+            "Vector-Valued Functions and Motion in Space"
+          ],
+          "topics": [
+            {
+              "title": "Numbered lessons",
+              "lessons": [
+                {
+                  "title": "Functions of Several Variables",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Limits and Continuity in Higher Dimensions",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Partial Derivatives",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "The Chain Rule",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Directional Derivatives and Gradient Vectors",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Tangent Planes and Differentials",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Extreme Values and Saddle Points",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Lagrange Multipliers",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Taylor’s Formula for Two Variables",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Partial Derivatives with Constrained Variables",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Partial Derivatives Chapter Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
                   ]
                 }
               ]
@@ -2330,31 +3641,117 @@
         {
           "title": "Multiple Integrals",
           "prereq": [
-            "Functions of Several Variables"
+            "Partial Derivatives"
           ],
           "topics": [
             {
-              "title": "Double and Triple Integrals",
+              "title": "Numbered lessons",
               "lessons": [
                 {
-                  "title": "Double Integrals",
+                  "title": "Double and Iterated Integrals over Rectangles",
                   "d": 5,
-                  "min": 60,
+                  "min": 65,
                   "sub": [
-                    "Iterated integrals",
-                    "Regions and order of integration",
-                    "Polar coordinates",
-                    "Applications: area, mass"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
                   ]
                 },
                 {
-                  "title": "Triple Integrals and Coordinate Systems",
+                  "title": "Double Integrals over General Regions",
                   "d": 5,
-                  "min": 60,
+                  "min": 65,
                   "sub": [
-                    "Triple integrals",
-                    "Cylindrical and spherical coordinates",
-                    "Change of variables and the Jacobian"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Area by Double Integration",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Double Integrals in Polar Form",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Triple Integrals in Rectangular Coordinates",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Moments and Centers of Mass",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Triple Integrals in Cylindrical and Spherical Coordinates",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Substitutions in Multiple Integrals",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Multiple Integrals Chapter Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
                   ]
                 }
               ]
@@ -2362,49 +3759,119 @@
           ]
         },
         {
-          "title": "Vector Calculus",
+          "title": "Integrals and Vector Fields",
           "prereq": [
             "Multiple Integrals"
           ],
           "topics": [
             {
-              "title": "Vector Fields and Line Integrals",
+              "title": "Numbered lessons",
               "lessons": [
                 {
-                  "title": "Vector Fields, Divergence and Curl",
-                  "d": 5,
-                  "min": 55,
-                  "sub": [
-                    "Visualizing vector fields",
-                    "Div and curl",
-                    "Conservative fields and potentials"
-                  ]
-                },
-                {
-                  "title": "Line and Surface Integrals",
-                  "d": 5,
-                  "min": 60,
-                  "sub": [
-                    "Line integrals of scalar and vector fields",
-                    "Work",
-                    "Parametrized surfaces",
-                    "Flux"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "The Big Theorems",
-              "lessons": [
-                {
-                  "title": "Green's, Stokes' and the Divergence Theorem",
+                  "title": "Line Integrals",
                   "d": 5,
                   "min": 65,
                   "sub": [
-                    "Green's theorem",
-                    "Stokes' theorem",
-                    "Divergence theorem",
-                    "Unified view and physics applications"
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Vector Fields and Line Integrals: Work, Circulation, and Flux",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Path Independence, Conservative Fields, and Potential Functions",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Green’s Theorem in the Plane",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Surfaces and Area",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Surface Integrals",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Stokes’ Theorem",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "The Divergence Theorem and a Unified Theory",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Concept and definitions",
+                    "Core formulas and theorems",
+                    "Worked example",
+                    "Applications and connections",
+                    "Practice and self-check"
+                  ]
+                },
+                {
+                  "title": "Integrals and Vector Fields Chapter Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Section map",
+                    "Mixed review",
+                    "Formula consolidation",
+                    "Assessment preparation"
                   ]
                 }
               ]

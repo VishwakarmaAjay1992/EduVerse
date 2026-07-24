@@ -1,4 +1,5 @@
 import { plainMath } from "@/lib/rich-text";
+import calculusLessonsData from "@/data/calculus-lessons.json";
 import { addingAndSubtractingFractions } from "@/content/mathematics/adding-and-subtracting-fractions";
 import { additionAndSubtraction } from "@/content/mathematics/addition-and-subtraction";
 import { decimalNotationAndOperations } from "@/content/mathematics/decimal-notation-and-operations";
@@ -88,6 +89,8 @@ import { permutationsAndCombinations } from "@/content/mathematics/permutations-
 import { trigonometryCourse } from "@/content/mathematics/trigonometry-course";
 import type { LessonContent } from "./lesson-content-types";
 
+const calculusLessons = calculusLessonsData as LessonContent[];
+
 const REGISTRY: LessonContent[] = [
   understandingPlaceValue,
   romanNumerals,
@@ -142,6 +145,7 @@ const REGISTRY: LessonContent[] = [
   recursiveAndSpecialSequences,
   permutationsAndCombinations,
   ...trigonometryCourse,
+  ...calculusLessons,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
   solvingOneStepAndTwoStepEquations,

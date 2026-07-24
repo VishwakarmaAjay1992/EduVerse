@@ -13,6 +13,7 @@ import { Parallax } from "@/components/figures/parallax";
 import { RightTriangle } from "@/components/figures/right-triangle";
 import { ScalarVector } from "@/components/figures/scalar-vector";
 import { TrigonometryDiagram } from "@/components/figures/trigonometry-diagram";
+import { CalculusDiagram } from "@/components/figures/calculus-diagram";
 import { AngleExplorer } from "@/components/interactive/angle-explorer";
 import { UnitCircleExplorer } from "@/components/interactive/unit-circle-explorer";
 import { TrigGraphExplorer } from "@/components/interactive/trig-graph-explorer";
@@ -120,6 +121,8 @@ function FigureView({ figure }: { figure: Figure }) {
       return <Parallax />;
     case "trigonometry":
       return <TrigonometryDiagram kind={figure.kind} />;
+    case "calculus":
+      return <CalculusDiagram kind={figure.kind} />;
   }
 }
 
