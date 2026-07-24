@@ -286,7 +286,7 @@ function EnergyLab() {
       {!valid ? <p className="text-sm text-red-600">Enter a positive number, using scientific notation if useful.</p> : (
         <div className="space-y-3">
           <div className="rounded-lg bg-muted/40 p-3 text-sm"><strong>Step 1:</strong> use $c=f\\lambda$ to calculate the missing wave quantity.</div>
-          <div className="rounded-lg bg-muted/40 p-3 text-sm"><strong>Step 2:</strong> use $E=hf$ for one photon's energy.</div>
+          <div className="rounded-lg bg-muted/40 p-3 text-sm"><strong>Step 2:</strong> use $E=hf$ for one photon&apos;s energy.</div>
           <div className="grid gap-3 sm:grid-cols-2">
             <div className="rounded-lg border p-3 text-sm"><span className="text-muted-foreground">Frequency</span><br /><strong>{formatScientific(frequency, "Hz")}</strong></div>
             <div className="rounded-lg border p-3 text-sm"><span className="text-muted-foreground">Wavelength</span><br /><strong>{formatScientific(wavelength, "m")}</strong></div>
@@ -362,7 +362,7 @@ function RefractionLab() {
         <label className="text-sm">n₁: {n1.toFixed(2)}<input type="range" min="1" max="2.4" step="0.05" value={n1} onChange={(e) => setN1(Number(e.target.value))} className="mt-1 w-full accent-primary" /></label>
         <label className="text-sm">n₂: {n2.toFixed(2)}<input type="range" min="1" max="2.4" step="0.05" value={n2} onChange={(e) => setN2(Number(e.target.value))} className="mt-1 w-full accent-primary" /></label>
       </div>
-      <div className="rounded-lg bg-muted/40 p-3 text-sm"><strong>Snell's law:</strong> $n_1\\sin i=n_2\\sin r$. Reflection angle = {incidence}°. {tir ? "No transmitted ray exists because the calculated sine exceeds 1." : `Refraction angle ≈ ${refracted!.toFixed(1)}°.`}</div>
+      <div className="rounded-lg bg-muted/40 p-3 text-sm"><strong>Snell&apos;s law:</strong> $n_1\\sin i=n_2\\sin r$. Reflection angle = {incidence}°. {tir ? "No transmitted ray exists because the calculated sine exceeds 1." : `Refraction angle ≈ ${refracted!.toFixed(1)}°.`}</div>
       <button type="button" onClick={() => { setN1(1); setN2(1.5); setIncidence(40); }} className="rounded-md border px-3 py-2 text-sm font-medium hover:bg-muted">Reset</button>
     </div>
   );
