@@ -12,6 +12,7 @@ import { DerivedFlow } from "@/components/figures/derived-flow";
 import { Parallax } from "@/components/figures/parallax";
 import { RightTriangle } from "@/components/figures/right-triangle";
 import { ScalarVector } from "@/components/figures/scalar-vector";
+import { TrigonometryDiagram } from "@/components/figures/trigonometry-diagram";
 import { AngleExplorer } from "@/components/interactive/angle-explorer";
 import { UnitCircleExplorer } from "@/components/interactive/unit-circle-explorer";
 import { TrigGraphExplorer } from "@/components/interactive/trig-graph-explorer";
@@ -117,6 +118,8 @@ function FigureView({ figure }: { figure: Figure }) {
       return <AccuracyPrecision />;
     case "parallax":
       return <Parallax />;
+    case "trigonometry":
+      return <TrigonometryDiagram kind={figure.kind} />;
   }
 }
 

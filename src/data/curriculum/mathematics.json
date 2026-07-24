@@ -1283,6 +1283,422 @@
       ]
     },
     {
+      "title": "Trigonometry: Complete Course",
+      "level": "advanced",
+      "chapters": [
+        {
+          "title": "Foundations of Trigonometry",
+          "prereq": [
+            "Triangles and Congruence"
+          ],
+          "topics": [
+            {
+              "title": "Angles and Right Triangles",
+              "lessons": [
+                {
+                  "title": "Degree and Radian Measure of Angles",
+                  "d": 3,
+                  "min": 55,
+                  "sub": [
+                    "Revolutions, degrees, and radians",
+                    "Oriented and coterminal angles",
+                    "Standard position",
+                    "Conversions"
+                  ]
+                },
+                {
+                  "title": "Right Triangle Trigonometry",
+                  "d": 3,
+                  "min": 55,
+                  "sub": [
+                    "Sine, cosine, and tangent",
+                    "Special right triangles",
+                    "Solving triangles",
+                    "Applications"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Circle Definitions and Identities",
+              "lessons": [
+                {
+                  "title": "The Unit Circle",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Coordinates and angles",
+                    "Reference angles",
+                    "Standard values",
+                    "Pythagorean identity"
+                  ]
+                },
+                {
+                  "title": "The Six Trigonometric Functions",
+                  "d": 3,
+                  "min": 55,
+                  "sub": [
+                    "Coordinate definitions",
+                    "Reciprocal and quotient identities",
+                    "Domains and signs",
+                    "Exact values"
+                  ]
+                },
+                {
+                  "title": "Foundational Trigonometric Identities",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Reciprocal identities",
+                    "Quotient identities",
+                    "Pythagorean identities",
+                    "Verification"
+                  ]
+                },
+                {
+                  "title": "Beyond the Unit Circle",
+                  "d": 3,
+                  "min": 50,
+                  "sub": [
+                    "General-coordinate definitions",
+                    "Normalization",
+                    "Quadrant signs",
+                    "Circle parametrization"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trigonometric Graphs and Applications of Radian Measure",
+          "prereq": [
+            "Foundations of Trigonometry"
+          ],
+          "topics": [
+            {
+              "title": "Periodic Graphs",
+              "lessons": [
+                {
+                  "title": "Graphs of Sine and Cosine Functions",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Fundamental cycles",
+                    "Amplitude and period",
+                    "Phase and vertical shifts",
+                    "Writing sinusoidal equations"
+                  ]
+                },
+                {
+                  "title": "Graphs of the Other Trigonometric Functions",
+                  "d": 4,
+                  "min": 60,
+                  "sub": [
+                    "Tangent and cotangent",
+                    "Secant and cosecant",
+                    "Vertical asymptotes",
+                    "Transformations"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Circular Applications",
+              "lessons": [
+                {
+                  "title": "Applications of Radian Measure",
+                  "d": 3,
+                  "min": 55,
+                  "sub": [
+                    "Arc length",
+                    "Sector area",
+                    "Angular speed",
+                    "Linear speed"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trigonometric Identities",
+          "prereq": [
+            "Trigonometric Graphs and Applications of Radian Measure"
+          ],
+          "topics": [
+            {
+              "title": "Identity Techniques",
+              "lessons": [
+                {
+                  "title": "Using Trigonometric Identities",
+                  "d": 4,
+                  "min": 65,
+                  "sub": [
+                    "Even and odd identities",
+                    "Sum and difference identities",
+                    "Cofunction identities",
+                    "Verification"
+                  ]
+                },
+                {
+                  "title": "Multiple-Angle Identities",
+                  "d": 4,
+                  "min": 65,
+                  "sub": [
+                    "Double-angle identities",
+                    "Half-angle identities",
+                    "Power reduction",
+                    "Product-to-sum and sum-to-product"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trigonometric Equations",
+          "prereq": [
+            "Trigonometric Identities"
+          ],
+          "topics": [
+            {
+              "title": "Inverse Trigonometric Functions",
+              "lessons": [
+                {
+                  "title": "Inverse Sine and Cosine Functions",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Restricted domains",
+                    "Principal values",
+                    "Compositions",
+                    "Elementary equations"
+                  ]
+                },
+                {
+                  "title": "The Other Inverse Trigonometric Functions",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Inverse tangent and cotangent",
+                    "Inverse secant and cosecant",
+                    "Principal ranges",
+                    "Reference triangles"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Equation Solving",
+              "lessons": [
+                {
+                  "title": "Inverse Functions and Trigonometric Equations",
+                  "d": 4,
+                  "min": 65,
+                  "sub": [
+                    "Reference solutions",
+                    "Solutions in an interval",
+                    "General solutions",
+                    "Transformed equations"
+                  ]
+                },
+                {
+                  "title": "Solving General Trigonometric Equations",
+                  "d": 5,
+                  "min": 70,
+                  "sub": [
+                    "Factoring",
+                    "Identity substitution",
+                    "Quadratic form",
+                    "Multiple-angle equations"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Beyond Right Triangles",
+          "prereq": [
+            "Trigonometric Equations"
+          ],
+          "topics": [
+            {
+              "title": "Oblique Triangles",
+              "lessons": [
+                {
+                  "title": "The Law of Sines",
+                  "d": 4,
+                  "min": 65,
+                  "sub": [
+                    "ASA and AAS",
+                    "SSA ambiguous case",
+                    "Triangle area",
+                    "Bearings and applications"
+                  ]
+                },
+                {
+                  "title": "The Law of Cosines",
+                  "d": 4,
+                  "min": 65,
+                  "sub": [
+                    "SAS and SSS",
+                    "Pythagorean connection",
+                    "Heron's formula",
+                    "Applications"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Polar Coordinates and Applications",
+          "prereq": [
+            "Beyond Right Triangles"
+          ],
+          "topics": [
+            {
+              "title": "Polar Coordinates and Graphs",
+              "lessons": [
+                {
+                  "title": "Polar Coordinates and Equations",
+                  "d": 4,
+                  "min": 60,
+                  "sub": [
+                    "Plotting polar points",
+                    "Equivalent representations",
+                    "Coordinate conversion",
+                    "Equation conversion"
+                  ]
+                },
+                {
+                  "title": "Graphing Polar Equations",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Symmetry tests",
+                    "Circles and limacons",
+                    "Rose curves",
+                    "Lemniscates"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complex Numbers in Polar Form",
+              "lessons": [
+                {
+                  "title": "Polar Representations of Complex Numbers",
+                  "d": 4,
+                  "min": 60,
+                  "sub": [
+                    "Complex plane",
+                    "Modulus and argument",
+                    "Trigonometric form",
+                    "Exponential form"
+                  ]
+                },
+                {
+                  "title": "Complex Products, Powers, Quotients, and Roots",
+                  "d": 5,
+                  "min": 70,
+                  "sub": [
+                    "Polar products and quotients",
+                    "De Moivre's theorem",
+                    "Powers",
+                    "Roots"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Vectors",
+          "prereq": [
+            "Foundations of Trigonometry"
+          ],
+          "topics": [
+            {
+              "title": "Vector Algebra and Applications",
+              "lessons": [
+                {
+                  "title": "Vector Properties and Operations",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Scalar and vector quantities",
+                    "Components",
+                    "Operations",
+                    "Magnitude and direction"
+                  ]
+                },
+                {
+                  "title": "The Unit Vector and Vector Applications",
+                  "d": 4,
+                  "min": 60,
+                  "sub": [
+                    "Normalization",
+                    "Principal unit vectors",
+                    "Magnitude-direction form",
+                    "Forces and navigation"
+                  ]
+                },
+                {
+                  "title": "The Dot Product",
+                  "d": 4,
+                  "min": 65,
+                  "sub": [
+                    "Component formula",
+                    "Angles and orthogonality",
+                    "Projection",
+                    "Work"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Parametric Equations",
+          "prereq": [
+            "Vectors"
+          ],
+          "topics": [
+            {
+              "title": "Parametric Curves and Motion",
+              "lessons": [
+                {
+                  "title": "Sketching Curves Described by Parametric Equations",
+                  "d": 4,
+                  "min": 60,
+                  "sub": [
+                    "Value tables",
+                    "Eliminating the parameter",
+                    "Restrictions and orientation",
+                    "Common parametrizations"
+                  ]
+                },
+                {
+                  "title": "Parametric Descriptions for Oriented Curves",
+                  "d": 5,
+                  "min": 65,
+                  "sub": [
+                    "Orientation and speed",
+                    "Line segments",
+                    "Circular and cycloidal motion",
+                    "Projectile motion"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Coordinate and Analytic Geometry",
       "level": "intermediate",
       "chapters": [

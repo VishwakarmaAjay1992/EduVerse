@@ -18,7 +18,28 @@ export type Figure =
   | { type: "derivedFlow" }
   | { type: "scalarVector" }
   | { type: "accuracyPrecision" }
-  | { type: "parallax" };
+  | { type: "parallax" }
+  | {
+      type: "trigonometry";
+      kind:
+        | "angle-measure"
+        | "unit-circle"
+        | "six-functions"
+        | "sinusoid"
+        | "reciprocal-graphs"
+        | "sector-motion"
+        | "inverse-restrictions"
+        | "law-of-sines"
+        | "law-of-cosines"
+        | "polar-coordinates"
+        | "polar-curves"
+        | "complex-plane"
+        | "vector-addition"
+        | "unit-vector"
+        | "dot-product"
+        | "parametric-curve"
+        | "projectile";
+    };
 
 export interface QuizItem {
   prompt: string;

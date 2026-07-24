@@ -93,6 +93,7 @@ import { arithmeticSequencesAndSeries } from "@/content/mathematics/arithmetic-s
 import { geometricSequencesAndSeries } from "@/content/mathematics/geometric-sequences-and-series";
 import { recursiveAndSpecialSequences } from "@/content/mathematics/recursive-and-special-sequences";
 import { permutationsAndCombinations } from "@/content/mathematics/permutations-and-combinations";
+import { completeTrigonometryCourse } from "@/content/mathematics/complete-trigonometry-course";
 import type { LessonContent } from "./lesson-content-types";
 
 const REGISTRY: LessonContent[] = [
@@ -148,6 +149,7 @@ const REGISTRY: LessonContent[] = [
   geometricSequencesAndSeries,
   recursiveAndSpecialSequences,
   permutationsAndCombinations,
+  ...completeTrigonometryCourse,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
   solvingOneStepAndTwoStepEquations,
