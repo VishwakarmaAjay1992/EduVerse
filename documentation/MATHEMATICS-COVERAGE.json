@@ -1,0 +1,2680 @@
+{
+  "summary": {
+    "chapters": 78,
+    "lessons": 314,
+    "registered_lessons": 249,
+    "missing_lessons": 65,
+    "status_counts": {
+      "Moderate": 24,
+      "Strong": 3,
+      "Weak": 21,
+      "Missing": 30
+    }
+  },
+  "chapters": [
+    {
+      "category": "Number Foundations",
+      "level": "beginner",
+      "chapter": "Whole Numbers and Arithmetic",
+      "chapterSlug": "whole-numbers-and-arithmetic",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Place Value and Number Systems",
+          "title": "Understanding Place Value",
+          "lessonSlug": "understanding-place-value",
+          "status": "present"
+        },
+        {
+          "topic": "Place Value and Number Systems",
+          "title": "Roman Numerals and Historical Number Systems",
+          "lessonSlug": "roman-numerals-and-historical-number-systems",
+          "status": "present"
+        },
+        {
+          "topic": "The Four Operations",
+          "title": "Addition and Subtraction",
+          "lessonSlug": "addition-and-subtraction",
+          "status": "present"
+        },
+        {
+          "topic": "The Four Operations",
+          "title": "Multiplication and Division",
+          "lessonSlug": "multiplication-and-division",
+          "status": "present"
+        },
+        {
+          "topic": "The Four Operations",
+          "title": "Order of Operations",
+          "lessonSlug": "order-of-operations",
+          "status": "present"
+        },
+        {
+          "topic": "Estimation and Number Sense",
+          "title": "Estimation and Approximation",
+          "lessonSlug": "estimation-and-approximation",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Number Foundations",
+      "level": "beginner",
+      "chapter": "Fractions and Decimals",
+      "chapterSlug": "fractions-and-decimals",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Understanding Fractions",
+          "title": "Fractions as Parts of a Whole",
+          "lessonSlug": "fractions-as-parts-of-a-whole",
+          "status": "present"
+        },
+        {
+          "topic": "Understanding Fractions",
+          "title": "Mixed Numbers and Improper Fractions",
+          "lessonSlug": "mixed-numbers-and-improper-fractions",
+          "status": "present"
+        },
+        {
+          "topic": "Operations with Fractions",
+          "title": "Adding and Subtracting Fractions",
+          "lessonSlug": "adding-and-subtracting-fractions",
+          "status": "present"
+        },
+        {
+          "topic": "Operations with Fractions",
+          "title": "Multiplying and Dividing Fractions",
+          "lessonSlug": "multiplying-and-dividing-fractions",
+          "status": "present"
+        },
+        {
+          "topic": "Decimals",
+          "title": "Decimal Notation and Operations",
+          "lessonSlug": "decimal-notation-and-operations",
+          "status": "present"
+        },
+        {
+          "topic": "Decimals",
+          "title": "Fractions, Decimals and Recurring Decimals",
+          "lessonSlug": "fractions-decimals-and-recurring-decimals",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Number Foundations",
+      "level": "beginner",
+      "chapter": "Percentages, Ratio and Proportion",
+      "chapterSlug": "percentages-ratio-and-proportion",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Percentages",
+          "title": "Understanding Percentages",
+          "lessonSlug": "understanding-percentages",
+          "status": "present"
+        },
+        {
+          "topic": "Percentages",
+          "title": "Percentage Change and Applications",
+          "lessonSlug": "percentage-change-and-applications",
+          "status": "present"
+        },
+        {
+          "topic": "Ratio and Proportion",
+          "title": "Ratios",
+          "lessonSlug": "ratios",
+          "status": "present"
+        },
+        {
+          "topic": "Ratio and Proportion",
+          "title": "Direct and Inverse Proportion",
+          "lessonSlug": "direct-and-inverse-proportion",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Number Foundations",
+      "level": "beginner",
+      "chapter": "Exponents, Roots and Scientific Notation",
+      "chapterSlug": "exponents-roots-and-scientific-notation",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Powers and Roots",
+          "title": "Exponents and the Laws of Indices",
+          "lessonSlug": "exponents-and-the-laws-of-indices",
+          "status": "present"
+        },
+        {
+          "topic": "Powers and Roots",
+          "title": "Square Roots and Cube Roots",
+          "lessonSlug": "square-roots-and-cube-roots",
+          "status": "present"
+        },
+        {
+          "topic": "Scientific Notation",
+          "title": "Standard Form",
+          "lessonSlug": "standard-form",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Number Foundations",
+      "level": "beginner",
+      "chapter": "Measurement and Units",
+      "chapterSlug": "measurement-and-units",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Units and Conversion",
+          "title": "Metric and Imperial Units",
+          "lessonSlug": "metric-and-imperial-units",
+          "status": "present"
+        },
+        {
+          "topic": "Perimeter, Area and Volume Basics",
+          "title": "Perimeter and Area of Basic Shapes",
+          "lessonSlug": "perimeter-and-area-of-basic-shapes",
+          "status": "present"
+        },
+        {
+          "topic": "Perimeter, Area and Volume Basics",
+          "title": "Volume and Surface Area Basics",
+          "lessonSlug": "volume-and-surface-area-basics",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Pre-Algebra",
+      "level": "beginner",
+      "chapter": "Integers and Rational Numbers",
+      "chapterSlug": "integers-and-rational-numbers",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Negative Numbers",
+          "title": "Integers and the Number Line",
+          "lessonSlug": "integers-and-the-number-line",
+          "status": "present"
+        },
+        {
+          "topic": "Negative Numbers",
+          "title": "Multiplying and Dividing Integers",
+          "lessonSlug": "multiplying-and-dividing-integers",
+          "status": "present"
+        },
+        {
+          "topic": "The Rational Number System",
+          "title": "Rational and Irrational Numbers",
+          "lessonSlug": "rational-and-irrational-numbers",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Pre-Algebra",
+      "level": "beginner",
+      "chapter": "Factors, Multiples and Primes",
+      "chapterSlug": "factors-multiples-and-primes",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Divisibility and Primes",
+          "title": "Factors, Multiples and Divisibility Rules",
+          "lessonSlug": "factors-multiples-and-divisibility-rules",
+          "status": "present"
+        },
+        {
+          "topic": "Divisibility and Primes",
+          "title": "Prime Numbers and Prime Factorization",
+          "lessonSlug": "prime-numbers-and-prime-factorization",
+          "status": "present"
+        },
+        {
+          "topic": "HCF and LCM",
+          "title": "Highest Common Factor and Lowest Common Multiple",
+          "lessonSlug": "highest-common-factor-and-lowest-common-multiple",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Pre-Algebra",
+      "level": "beginner",
+      "chapter": "Introduction to Algebraic Thinking",
+      "chapterSlug": "introduction-to-algebraic-thinking",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Variables and Expressions",
+          "title": "From Arithmetic to Algebra",
+          "lessonSlug": "from-arithmetic-to-algebra",
+          "status": "present"
+        },
+        {
+          "topic": "Variables and Expressions",
+          "title": "Simplifying Expressions",
+          "lessonSlug": "simplifying-expressions",
+          "status": "present"
+        },
+        {
+          "topic": "Simple Equations",
+          "title": "Solving One-Step and Two-Step Equations",
+          "lessonSlug": "solving-one-step-and-two-step-equations",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Pre-Algebra",
+      "level": "beginner",
+      "chapter": "The Coordinate Plane and Data Basics",
+      "chapterSlug": "the-coordinate-plane-and-data-basics",
+      "status": "Strong",
+      "reason": "Meets the detailed-content standard with multiple examples, visuals and assessment.",
+      "lessons": [
+        {
+          "topic": "Coordinates",
+          "title": "The Cartesian Plane",
+          "lessonSlug": "the-cartesian-plane",
+          "status": "present"
+        },
+        {
+          "topic": "Reading and Drawing Graphs",
+          "title": "Charts, Tables and Graphs",
+          "lessonSlug": "charts-tables-and-graphs",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Algebra",
+      "level": "intermediate",
+      "chapter": "Linear Equations and Inequalities",
+      "chapterSlug": "linear-equations-and-inequalities",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Linear Equations",
+          "title": "Solving Linear Equations",
+          "lessonSlug": "solving-linear-equations",
+          "status": "present"
+        },
+        {
+          "topic": "Linear Equations",
+          "title": "Word Problems with Linear Equations",
+          "lessonSlug": "word-problems-with-linear-equations",
+          "status": "present"
+        },
+        {
+          "topic": "Inequalities",
+          "title": "Linear Inequalities",
+          "lessonSlug": "linear-inequalities",
+          "status": "present"
+        },
+        {
+          "topic": "Simultaneous Equations",
+          "title": "Systems of Linear Equations",
+          "lessonSlug": "systems-of-linear-equations",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Algebra",
+      "level": "intermediate",
+      "chapter": "Polynomials and Factoring",
+      "chapterSlug": "polynomials-and-factoring",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Polynomial Arithmetic",
+          "title": "Polynomials: Add, Subtract, Multiply",
+          "lessonSlug": "polynomials-add-subtract-multiply",
+          "status": "present"
+        },
+        {
+          "topic": "Polynomial Arithmetic",
+          "title": "Polynomial Division",
+          "lessonSlug": "polynomial-division",
+          "status": "present"
+        },
+        {
+          "topic": "Factoring",
+          "title": "Factoring Techniques",
+          "lessonSlug": "factoring-techniques",
+          "status": "present"
+        },
+        {
+          "topic": "Algebraic Fractions",
+          "title": "Rational Expressions",
+          "lessonSlug": "rational-expressions",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Algebra",
+      "level": "intermediate",
+      "chapter": "Quadratic Equations",
+      "chapterSlug": "quadratic-equations",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Solving Quadratics",
+          "title": "Solving by Factoring and Square Roots",
+          "lessonSlug": "solving-by-factoring-and-square-roots",
+          "status": "present"
+        },
+        {
+          "topic": "Solving Quadratics",
+          "title": "Completing the Square and the Quadratic Formula",
+          "lessonSlug": "completing-the-square-and-the-quadratic-formula",
+          "status": "present"
+        },
+        {
+          "topic": "Quadratic Functions and Graphs",
+          "title": "Parabolas",
+          "lessonSlug": "parabolas",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Algebra",
+      "level": "intermediate",
+      "chapter": "Functions and Graphs",
+      "chapterSlug": "functions-and-graphs",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "The Function Concept",
+          "title": "What Is a Function?",
+          "lessonSlug": "what-is-a-function",
+          "status": "present"
+        },
+        {
+          "topic": "The Function Concept",
+          "title": "Composite and Inverse Functions",
+          "lessonSlug": "composite-and-inverse-functions",
+          "status": "present"
+        },
+        {
+          "topic": "Graphing and Transformations",
+          "title": "Families of Graphs",
+          "lessonSlug": "families-of-graphs",
+          "status": "present"
+        },
+        {
+          "topic": "Graphing and Transformations",
+          "title": "Graph Transformations",
+          "lessonSlug": "graph-transformations",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Algebra",
+      "level": "intermediate",
+      "chapter": "Exponentials and Logarithms",
+      "chapterSlug": "exponentials-and-logarithms",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Exponential Functions",
+          "title": "Exponential Growth and Decay",
+          "lessonSlug": "exponential-growth-and-decay",
+          "status": "present"
+        },
+        {
+          "topic": "Logarithms",
+          "title": "Logarithms and Their Laws",
+          "lessonSlug": "logarithms-and-their-laws",
+          "status": "present"
+        },
+        {
+          "topic": "Logarithms",
+          "title": "Exponential and Logarithmic Equations",
+          "lessonSlug": "exponential-and-logarithmic-equations",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Algebra",
+      "level": "intermediate",
+      "chapter": "Sequences and Series",
+      "chapterSlug": "sequences-and-series",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Arithmetic and Geometric Sequences",
+          "title": "Arithmetic Sequences and Series",
+          "lessonSlug": "arithmetic-sequences-and-series",
+          "status": "present"
+        },
+        {
+          "topic": "Arithmetic and Geometric Sequences",
+          "title": "Geometric Sequences and Series",
+          "lessonSlug": "geometric-sequences-and-series",
+          "status": "present"
+        },
+        {
+          "topic": "Other Sequences",
+          "title": "Recursive and Special Sequences",
+          "lessonSlug": "recursive-and-special-sequences",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Geometry",
+      "level": "intermediate",
+      "chapter": "Foundations, Lines and Angles",
+      "chapterSlug": "foundations-lines-and-angles",
+      "status": "Weak",
+      "reason": "Content exists but needs more solved examples, visual explanation or assessment to reach the new EduVerse standard.",
+      "lessons": [
+        {
+          "topic": "Geometric Foundations",
+          "title": "Points, Lines, Planes and Angles",
+          "lessonSlug": "points-lines-planes-and-angles",
+          "status": "present"
+        },
+        {
+          "topic": "Geometric Foundations",
+          "title": "Angle Relationships",
+          "lessonSlug": "angle-relationships",
+          "status": "present"
+        },
+        {
+          "topic": "Geometric Foundations",
+          "title": "Geometry Visual Proofs and Formula Guide",
+          "lessonSlug": "geometry-visual-proofs-and-formula-guide",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Geometry",
+      "level": "intermediate",
+      "chapter": "Triangles and Congruence",
+      "chapterSlug": "triangles-and-congruence",
+      "status": "Weak",
+      "reason": "Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples.",
+      "lessons": [
+        {
+          "topic": "Triangle Properties",
+          "title": "Triangles and Their Angles",
+          "lessonSlug": "triangles-and-their-angles",
+          "status": "present"
+        },
+        {
+          "topic": "Triangle Properties",
+          "title": "The Pythagorean Theorem",
+          "lessonSlug": "the-pythagorean-theorem",
+          "status": "present"
+        },
+        {
+          "topic": "Congruence and Similarity",
+          "title": "Congruent Triangles",
+          "lessonSlug": "congruent-triangles",
+          "status": "present"
+        },
+        {
+          "topic": "Congruence and Similarity",
+          "title": "Similar Triangles and Scale",
+          "lessonSlug": "similar-triangles-and-scale",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Geometry",
+      "level": "intermediate",
+      "chapter": "Quadrilaterals and Polygons",
+      "chapterSlug": "quadrilaterals-and-polygons",
+      "status": "Weak",
+      "reason": "Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples.",
+      "lessons": [
+        {
+          "topic": "Quadrilaterals",
+          "title": "The Quadrilateral Family",
+          "lessonSlug": "the-quadrilateral-family",
+          "status": "present"
+        },
+        {
+          "topic": "Polygons",
+          "title": "Interior and Exterior Angles of Polygons",
+          "lessonSlug": "interior-and-exterior-angles-of-polygons",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Geometry",
+      "level": "intermediate",
+      "chapter": "Circles",
+      "chapterSlug": "circles",
+      "status": "Weak",
+      "reason": "Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples.",
+      "lessons": [
+        {
+          "topic": "Circle Basics",
+          "title": "Parts of a Circle, Circumference and Area",
+          "lessonSlug": "parts-of-a-circle-circumference-and-area",
+          "status": "present"
+        },
+        {
+          "topic": "Circle Theorems",
+          "title": "Circle Theorems and Proofs",
+          "lessonSlug": "circle-theorems-and-proofs",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Geometry",
+      "level": "intermediate",
+      "chapter": "Mensuration",
+      "chapterSlug": "mensuration",
+      "status": "Strong",
+      "reason": "Meets the detailed-content standard with multiple examples, visuals and assessment.",
+      "lessons": [
+        {
+          "topic": "Area and Volume of Solids",
+          "title": "Prisms, Cylinders, Pyramids, Cones and Spheres",
+          "lessonSlug": "prisms-cylinders-pyramids-cones-and-spheres",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Geometry",
+      "level": "intermediate",
+      "chapter": "Transformations and Symmetry",
+      "chapterSlug": "transformations-and-symmetry",
+      "status": "Strong",
+      "reason": "Meets the detailed-content standard with multiple examples, visuals and assessment.",
+      "lessons": [
+        {
+          "topic": "Transformations",
+          "title": "Translation, Rotation, Reflection and Enlargement",
+          "lessonSlug": "translation-rotation-reflection-and-enlargement",
+          "status": "present"
+        },
+        {
+          "topic": "Transformations",
+          "title": "Symmetry",
+          "lessonSlug": "symmetry",
+          "status": "present"
+        },
+        {
+          "topic": "Constructions and Loci",
+          "title": "Ruler and Compass Constructions",
+          "lessonSlug": "ruler-and-compass-constructions",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Trigonometry",
+      "level": "intermediate",
+      "chapter": "Foundations of Trigonometry",
+      "chapterSlug": "foundations-of-trigonometry",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Angles and Right Triangles",
+          "title": "Degree and Radian Measure of Angles",
+          "lessonSlug": "degree-and-radian-measure-of-angles",
+          "status": "present"
+        },
+        {
+          "topic": "Angles and Right Triangles",
+          "title": "Sine, Cosine and Tangent",
+          "lessonSlug": "sine-cosine-and-tangent",
+          "status": "present"
+        },
+        {
+          "topic": "Angles and Right Triangles",
+          "title": "Right Triangle Trigonometry",
+          "lessonSlug": "right-triangle-trigonometry",
+          "status": "present"
+        },
+        {
+          "topic": "Angles and Right Triangles",
+          "title": "Angles of Elevation and Depression",
+          "lessonSlug": "angles-of-elevation-and-depression",
+          "status": "present"
+        },
+        {
+          "topic": "Circle Definitions and Identities",
+          "title": "Radians and the Unit Circle",
+          "lessonSlug": "radians-and-the-unit-circle",
+          "status": "present"
+        },
+        {
+          "topic": "Circle Definitions and Identities",
+          "title": "The Unit Circle",
+          "lessonSlug": "the-unit-circle",
+          "status": "present"
+        },
+        {
+          "topic": "Circle Definitions and Identities",
+          "title": "The Six Trigonometric Functions",
+          "lessonSlug": "the-six-trigonometric-functions",
+          "status": "present"
+        },
+        {
+          "topic": "Circle Definitions and Identities",
+          "title": "Foundational Trigonometric Identities",
+          "lessonSlug": "foundational-trigonometric-identities",
+          "status": "present"
+        },
+        {
+          "topic": "Circle Definitions and Identities",
+          "title": "Beyond the Unit Circle",
+          "lessonSlug": "beyond-the-unit-circle",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Trigonometry",
+      "level": "intermediate",
+      "chapter": "Trigonometric Graphs and Applications of Radian Measure",
+      "chapterSlug": "trigonometric-graphs-and-applications-of-radian-measure",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Periodic Graphs",
+          "title": "Graphs of Sine and Cosine Functions",
+          "lessonSlug": "graphs-of-sine-and-cosine-functions",
+          "status": "present"
+        },
+        {
+          "topic": "Periodic Graphs",
+          "title": "Graphs of the Other Trigonometric Functions",
+          "lessonSlug": "graphs-of-the-other-trigonometric-functions",
+          "status": "present"
+        },
+        {
+          "topic": "Periodic Graphs",
+          "title": "Modeling with Trigonometric Functions",
+          "lessonSlug": "modeling-with-trigonometric-functions",
+          "status": "present"
+        },
+        {
+          "topic": "Circular Applications",
+          "title": "Applications of Radian Measure",
+          "lessonSlug": "applications-of-radian-measure",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Trigonometry",
+      "level": "intermediate",
+      "chapter": "Trigonometric Identities",
+      "chapterSlug": "trigonometric-identities",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Identity Techniques",
+          "title": "Fundamental Identities",
+          "lessonSlug": "fundamental-identities",
+          "status": "present"
+        },
+        {
+          "topic": "Identity Techniques",
+          "title": "Using Trigonometric Identities",
+          "lessonSlug": "using-trigonometric-identities",
+          "status": "present"
+        },
+        {
+          "topic": "Identity Techniques",
+          "title": "Multiple-Angle Identities",
+          "lessonSlug": "multiple-angle-identities",
+          "status": "present"
+        },
+        {
+          "topic": "Identity Techniques",
+          "title": "Compound and Double Angle Formulas",
+          "lessonSlug": "compound-and-double-angle-formulas",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Trigonometry",
+      "level": "intermediate",
+      "chapter": "Trigonometric Equations",
+      "chapterSlug": "trigonometric-equations",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Inverse Trigonometric Functions",
+          "title": "Inverse Sine and Cosine Functions",
+          "lessonSlug": "inverse-sine-and-cosine-functions",
+          "status": "present"
+        },
+        {
+          "topic": "Inverse Trigonometric Functions",
+          "title": "The Other Inverse Trigonometric Functions",
+          "lessonSlug": "the-other-inverse-trigonometric-functions",
+          "status": "present"
+        },
+        {
+          "topic": "Equation Solving",
+          "title": "Inverse Functions and Trigonometric Equations",
+          "lessonSlug": "inverse-functions-and-trigonometric-equations",
+          "status": "present"
+        },
+        {
+          "topic": "Equation Solving",
+          "title": "Solving General Trigonometric Equations",
+          "lessonSlug": "solving-general-trigonometric-equations",
+          "status": "present"
+        },
+        {
+          "topic": "Equation Solving",
+          "title": "Trigonometric Equations",
+          "lessonSlug": "trigonometric-equations",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Trigonometry",
+      "level": "intermediate",
+      "chapter": "Beyond Right Triangles",
+      "chapterSlug": "beyond-right-triangles",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Oblique Triangles",
+          "title": "The Law of Sines",
+          "lessonSlug": "the-law-of-sines",
+          "status": "present"
+        },
+        {
+          "topic": "Oblique Triangles",
+          "title": "The Law of Cosines",
+          "lessonSlug": "the-law-of-cosines",
+          "status": "present"
+        },
+        {
+          "topic": "Oblique Triangles",
+          "title": "Law of Sines and Law of Cosines",
+          "lessonSlug": "law-of-sines-and-law-of-cosines",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Trigonometry",
+      "level": "intermediate",
+      "chapter": "Polar Coordinates and Applications",
+      "chapterSlug": "polar-coordinates-and-applications",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Polar Coordinates and Graphs",
+          "title": "Polar Coordinates and Equations",
+          "lessonSlug": "polar-coordinates-and-equations",
+          "status": "present"
+        },
+        {
+          "topic": "Polar Coordinates and Graphs",
+          "title": "Graphing Polar Equations",
+          "lessonSlug": "graphing-polar-equations",
+          "status": "present"
+        },
+        {
+          "topic": "Complex Numbers in Polar Form",
+          "title": "Polar Representations of Complex Numbers",
+          "lessonSlug": "polar-representations-of-complex-numbers",
+          "status": "present"
+        },
+        {
+          "topic": "Complex Numbers in Polar Form",
+          "title": "Complex Products, Powers, Quotients, and Roots",
+          "lessonSlug": "complex-products-powers-quotients-and-roots",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Trigonometry",
+      "level": "intermediate",
+      "chapter": "Vectors",
+      "chapterSlug": "vectors",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Vector Algebra and Applications",
+          "title": "Vector Properties and Operations",
+          "lessonSlug": "vector-properties-and-operations",
+          "status": "present"
+        },
+        {
+          "topic": "Vector Algebra and Applications",
+          "title": "The Unit Vector and Vector Applications",
+          "lessonSlug": "the-unit-vector-and-vector-applications",
+          "status": "present"
+        },
+        {
+          "topic": "Vector Algebra and Applications",
+          "title": "The Dot Product",
+          "lessonSlug": "the-dot-product",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Trigonometry",
+      "level": "intermediate",
+      "chapter": "Parametric Equations",
+      "chapterSlug": "parametric-equations",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Parametric Curves and Motion",
+          "title": "Sketching Curves Described by Parametric Equations",
+          "lessonSlug": "sketching-curves-described-by-parametric-equations",
+          "status": "present"
+        },
+        {
+          "topic": "Parametric Curves and Motion",
+          "title": "Parametric Descriptions for Oriented Curves",
+          "lessonSlug": "parametric-descriptions-for-oriented-curves",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Coordinate and Analytic Geometry",
+      "level": "intermediate",
+      "chapter": "Straight Lines",
+      "chapterSlug": "straight-lines",
+      "status": "Missing",
+      "reason": "1 of 1 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Equations of Lines",
+          "title": "Gradient and Equation of a Line",
+          "lessonSlug": "gradient-and-equation-of-a-line",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Coordinate and Analytic Geometry",
+      "level": "intermediate",
+      "chapter": "Conic Sections",
+      "chapterSlug": "conic-sections",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Circles and Parabolas",
+          "title": "Equation of a Circle",
+          "lessonSlug": "equation-of-a-circle",
+          "status": "present"
+        },
+        {
+          "topic": "Circles and Parabolas",
+          "title": "The Parabola as a Conic",
+          "lessonSlug": "the-parabola-as-a-conic",
+          "status": "present"
+        },
+        {
+          "topic": "Ellipses and Hyperbolas",
+          "title": "Ellipse and Hyperbola",
+          "lessonSlug": "ellipse-and-hyperbola",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Coordinate and Analytic Geometry",
+      "level": "intermediate",
+      "chapter": "Vectors",
+      "chapterSlug": "vectors",
+      "status": "Missing",
+      "reason": "3 of 3 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Vectors in Two and Three Dimensions",
+          "title": "Vector Basics",
+          "lessonSlug": "vector-basics",
+          "status": "missing"
+        },
+        {
+          "topic": "Vectors in Two and Three Dimensions",
+          "title": "The Dot Product and Cross Product",
+          "lessonSlug": "the-dot-product-and-cross-product",
+          "status": "missing"
+        },
+        {
+          "topic": "Lines and Planes in 3D",
+          "title": "Vector Equations of Lines and Planes",
+          "lessonSlug": "vector-equations-of-lines-and-planes",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Pre-Calculus",
+      "level": "advanced",
+      "chapter": "Advanced Functions",
+      "chapterSlug": "advanced-functions",
+      "status": "Missing",
+      "reason": "3 of 3 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Polynomial and Rational Functions",
+          "title": "Polynomial Functions and Their Graphs",
+          "lessonSlug": "polynomial-functions-and-their-graphs",
+          "status": "missing"
+        },
+        {
+          "topic": "Polynomial and Rational Functions",
+          "title": "Rational Functions and Asymptotes",
+          "lessonSlug": "rational-functions-and-asymptotes",
+          "status": "missing"
+        },
+        {
+          "topic": "Partial Fractions",
+          "title": "Partial Fraction Decomposition",
+          "lessonSlug": "partial-fraction-decomposition",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Pre-Calculus",
+      "level": "advanced",
+      "chapter": "Complex Numbers",
+      "chapterSlug": "complex-numbers",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Introduction to Complex Numbers",
+          "title": "The Imaginary Unit and Complex Arithmetic",
+          "lessonSlug": "the-imaginary-unit-and-complex-arithmetic",
+          "status": "missing"
+        },
+        {
+          "topic": "Introduction to Complex Numbers",
+          "title": "Polar Form and De Moivre's Theorem",
+          "lessonSlug": "polar-form-and-de-moivre-s-theorem",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Pre-Calculus",
+      "level": "advanced",
+      "chapter": "Matrices and Determinants",
+      "chapterSlug": "matrices-and-determinants",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Matrix Algebra",
+          "title": "Matrices: Operations and Inverses",
+          "lessonSlug": "matrices-operations-and-inverses",
+          "status": "missing"
+        },
+        {
+          "topic": "Matrix Algebra",
+          "title": "Matrices as Transformations",
+          "lessonSlug": "matrices-as-transformations",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Pre-Calculus",
+      "level": "advanced",
+      "chapter": "Counting and Combinatorics",
+      "chapterSlug": "counting-and-combinatorics",
+      "status": "Moderate",
+      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "lessons": [
+        {
+          "topic": "Permutations, Combinations and Counting Methods",
+          "title": "Permutations and Combinations",
+          "lessonSlug": "permutations-and-combinations",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Pre-Calculus",
+      "level": "advanced",
+      "chapter": "Proof, Induction and the Binomial Theorem",
+      "chapterSlug": "proof-induction-and-the-binomial-theorem",
+      "status": "Missing",
+      "reason": "3 of 3 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Mathematical Proof",
+          "title": "Introduction to Proof",
+          "lessonSlug": "introduction-to-proof",
+          "status": "missing"
+        },
+        {
+          "topic": "Mathematical Proof",
+          "title": "Mathematical Induction",
+          "lessonSlug": "mathematical-induction",
+          "status": "missing"
+        },
+        {
+          "topic": "The Binomial Theorem",
+          "title": "Binomial Expansion",
+          "lessonSlug": "binomial-expansion",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Calculus",
+      "level": "university",
+      "chapter": "Functions",
+      "chapterSlug": "functions",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Functions and Their Graphs",
+          "lessonSlug": "functions-and-their-graphs",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Combining Functions; Shifting and Scaling Graphs",
+          "lessonSlug": "combining-functions-shifting-and-scaling-graphs",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Trigonometric Functions",
+          "lessonSlug": "trigonometric-functions",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Graphing with Software",
+          "lessonSlug": "graphing-with-software",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Exponential Functions",
+          "lessonSlug": "exponential-functions",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Inverse Functions and Logarithms",
+          "lessonSlug": "inverse-functions-and-logarithms",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Functions Chapter Review",
+          "lessonSlug": "functions-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Calculus",
+      "level": "university",
+      "chapter": "Limits and Continuity",
+      "chapterSlug": "limits-and-continuity",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Rates of Change and Tangents to Curves",
+          "lessonSlug": "rates-of-change-and-tangents-to-curves",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Limit of a Function and Limit Laws",
+          "lessonSlug": "limit-of-a-function-and-limit-laws",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "The Precise Definition of a Limit",
+          "lessonSlug": "the-precise-definition-of-a-limit",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "One-Sided Limits",
+          "lessonSlug": "one-sided-limits",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Continuity",
+          "lessonSlug": "continuity",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Limits Involving Infinity; Asymptotes of Graphs",
+          "lessonSlug": "limits-involving-infinity-asymptotes-of-graphs",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Limits and Continuity Chapter Review",
+          "lessonSlug": "limits-and-continuity-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Calculus",
+      "level": "university",
+      "chapter": "Derivatives",
+      "chapterSlug": "derivatives",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Tangents and the Derivative at a Point",
+          "lessonSlug": "tangents-and-the-derivative-at-a-point",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "The Derivative as a Function",
+          "lessonSlug": "the-derivative-as-a-function",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Differentiation Rules",
+          "lessonSlug": "differentiation-rules",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "The Derivative as a Rate of Change",
+          "lessonSlug": "the-derivative-as-a-rate-of-change",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Derivatives of Trigonometric Functions",
+          "lessonSlug": "derivatives-of-trigonometric-functions",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "The Chain Rule",
+          "lessonSlug": "the-chain-rule",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Implicit Differentiation",
+          "lessonSlug": "implicit-differentiation",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Derivatives of Inverse Functions and Logarithms",
+          "lessonSlug": "derivatives-of-inverse-functions-and-logarithms",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Inverse Trigonometric Functions",
+          "lessonSlug": "inverse-trigonometric-functions",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Related Rates",
+          "lessonSlug": "related-rates",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Linearization and Differentials",
+          "lessonSlug": "linearization-and-differentials",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Derivatives Chapter Review",
+          "lessonSlug": "derivatives-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Calculus",
+      "level": "university",
+      "chapter": "Applications of Derivatives",
+      "chapterSlug": "applications-of-derivatives",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Extreme Values of Functions",
+          "lessonSlug": "extreme-values-of-functions",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "The Mean Value Theorem",
+          "lessonSlug": "the-mean-value-theorem",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Monotonic Functions and the First Derivative Test",
+          "lessonSlug": "monotonic-functions-and-the-first-derivative-test",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Concavity and Curve Sketching",
+          "lessonSlug": "concavity-and-curve-sketching",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Indeterminate Forms and L\u2019H\u00f4pital\u2019s Rule",
+          "lessonSlug": "indeterminate-forms-and-l-h-pital-s-rule",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Applied Optimization",
+          "lessonSlug": "applied-optimization",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Newton\u2019s Method",
+          "lessonSlug": "newton-s-method",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Antiderivatives",
+          "lessonSlug": "antiderivatives",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Applications of Derivatives Chapter Review",
+          "lessonSlug": "applications-of-derivatives-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Calculus",
+      "level": "university",
+      "chapter": "Integrals",
+      "chapterSlug": "integrals",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Area and Estimating with Finite Sums",
+          "lessonSlug": "area-and-estimating-with-finite-sums",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Sigma Notation and Limits of Finite Sums",
+          "lessonSlug": "sigma-notation-and-limits-of-finite-sums",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "The Definite Integral",
+          "lessonSlug": "the-definite-integral",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "The Fundamental Theorem of Calculus",
+          "lessonSlug": "the-fundamental-theorem-of-calculus",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Indefinite Integrals and the Substitution Method",
+          "lessonSlug": "indefinite-integrals-and-the-substitution-method",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Definite Integral Substitutions and the Area Between Curves",
+          "lessonSlug": "definite-integral-substitutions-and-the-area-between-curves",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Integrals Chapter Review",
+          "lessonSlug": "integrals-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Calculus",
+      "level": "university",
+      "chapter": "Applications of Definite Integrals",
+      "chapterSlug": "applications-of-definite-integrals",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Volumes Using Cross-Sections",
+          "lessonSlug": "volumes-using-cross-sections",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Volumes Using Cylindrical Shells",
+          "lessonSlug": "volumes-using-cylindrical-shells",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Arc Length",
+          "lessonSlug": "arc-length",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Areas of Surfaces of Revolution",
+          "lessonSlug": "areas-of-surfaces-of-revolution",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Work and Fluid Forces",
+          "lessonSlug": "work-and-fluid-forces",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Moments and Centers of Mass",
+          "lessonSlug": "moments-and-centers-of-mass",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Applications of Definite Integrals Chapter Review",
+          "lessonSlug": "applications-of-definite-integrals-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Calculus",
+      "level": "university",
+      "chapter": "Integrals and Transcendental Functions",
+      "chapterSlug": "integrals-and-transcendental-functions",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "The Logarithm Defined as an Integral",
+          "lessonSlug": "the-logarithm-defined-as-an-integral",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Exponential Change and Separable Differential Equations",
+          "lessonSlug": "exponential-change-and-separable-differential-equations",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Hyperbolic Functions",
+          "lessonSlug": "hyperbolic-functions",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Relative Rates of Growth",
+          "lessonSlug": "relative-rates-of-growth",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Integrals and Transcendental Functions Chapter Review",
+          "lessonSlug": "integrals-and-transcendental-functions-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Calculus",
+      "level": "university",
+      "chapter": "Techniques of Integration",
+      "chapterSlug": "techniques-of-integration",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Using Basic Integration Formulas",
+          "lessonSlug": "using-basic-integration-formulas",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Integration by Parts",
+          "lessonSlug": "integration-by-parts",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Trigonometric Integrals",
+          "lessonSlug": "trigonometric-integrals",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Trigonometric Substitutions",
+          "lessonSlug": "trigonometric-substitutions",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Integration of Rational Functions by Partial Fractions",
+          "lessonSlug": "integration-of-rational-functions-by-partial-fractions",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Integral Tables and Computer Algebra Systems",
+          "lessonSlug": "integral-tables-and-computer-algebra-systems",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Numerical Integration",
+          "lessonSlug": "numerical-integration",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Improper Integrals",
+          "lessonSlug": "improper-integrals",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Probability",
+          "lessonSlug": "probability",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Techniques of Integration Chapter Review",
+          "lessonSlug": "techniques-of-integration-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Calculus",
+      "level": "university",
+      "chapter": "First-Order Differential Equations",
+      "chapterSlug": "first-order-differential-equations",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Solutions, Slope Fields, and Euler\u2019s Method",
+          "lessonSlug": "solutions-slope-fields-and-euler-s-method",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "First-Order Linear Equations",
+          "lessonSlug": "first-order-linear-equations",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Applications",
+          "lessonSlug": "applications",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Graphical Solutions of Autonomous Equations",
+          "lessonSlug": "graphical-solutions-of-autonomous-equations",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Systems of Equations and Phase Planes",
+          "lessonSlug": "systems-of-equations-and-phase-planes",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "First-Order Differential Equations Chapter Review",
+          "lessonSlug": "first-order-differential-equations-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Calculus",
+      "level": "university",
+      "chapter": "Infinite Sequences and Series",
+      "chapterSlug": "infinite-sequences-and-series",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Sequences",
+          "lessonSlug": "sequences",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Infinite Series",
+          "lessonSlug": "infinite-series",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "The Integral Test",
+          "lessonSlug": "the-integral-test",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Comparison Tests",
+          "lessonSlug": "comparison-tests",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Absolute Convergence; The Ratio and Root Tests",
+          "lessonSlug": "absolute-convergence-the-ratio-and-root-tests",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Alternating Series and Conditional Convergence",
+          "lessonSlug": "alternating-series-and-conditional-convergence",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Power Series",
+          "lessonSlug": "power-series",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Taylor and Maclaurin Series",
+          "lessonSlug": "taylor-and-maclaurin-series",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Convergence of Taylor Series",
+          "lessonSlug": "convergence-of-taylor-series",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "The Binomial Series and Applications of Taylor Series",
+          "lessonSlug": "the-binomial-series-and-applications-of-taylor-series",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Infinite Sequences and Series Chapter Review",
+          "lessonSlug": "infinite-sequences-and-series-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Calculus",
+      "level": "university",
+      "chapter": "Parametric Equations and Polar Coordinates",
+      "chapterSlug": "parametric-equations-and-polar-coordinates",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Parametrizations of Plane Curves",
+          "lessonSlug": "parametrizations-of-plane-curves",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Calculus with Parametric Curves",
+          "lessonSlug": "calculus-with-parametric-curves",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Polar Coordinates",
+          "lessonSlug": "polar-coordinates",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Graphing Polar Coordinate Equations",
+          "lessonSlug": "graphing-polar-coordinate-equations",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Areas and Lengths in Polar Coordinates",
+          "lessonSlug": "areas-and-lengths-in-polar-coordinates",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Conic Sections",
+          "lessonSlug": "conic-sections",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Conics in Polar Coordinates",
+          "lessonSlug": "conics-in-polar-coordinates",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Parametric Equations and Polar Coordinates Chapter Review",
+          "lessonSlug": "parametric-equations-and-polar-coordinates-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Calculus",
+      "level": "university",
+      "chapter": "Calculus Reference and Proof Appendices",
+      "chapterSlug": "calculus-reference-and-proof-appendices",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Supporting mathematics",
+          "title": "Real Numbers and the Real Line",
+          "lessonSlug": "real-numbers-and-the-real-line",
+          "status": "present"
+        },
+        {
+          "topic": "Supporting mathematics",
+          "title": "Mathematical Induction",
+          "lessonSlug": "mathematical-induction",
+          "status": "present"
+        },
+        {
+          "topic": "Supporting mathematics",
+          "title": "Lines, Circles, and Parabolas",
+          "lessonSlug": "lines-circles-and-parabolas",
+          "status": "present"
+        },
+        {
+          "topic": "Supporting mathematics",
+          "title": "Proofs of Limit Theorems",
+          "lessonSlug": "proofs-of-limit-theorems",
+          "status": "present"
+        },
+        {
+          "topic": "Supporting mathematics",
+          "title": "Commonly Occurring Limits",
+          "lessonSlug": "commonly-occurring-limits",
+          "status": "present"
+        },
+        {
+          "topic": "Supporting mathematics",
+          "title": "Theory of the Real Numbers",
+          "lessonSlug": "theory-of-the-real-numbers",
+          "status": "present"
+        },
+        {
+          "topic": "Supporting mathematics",
+          "title": "Complex Numbers",
+          "lessonSlug": "complex-numbers",
+          "status": "present"
+        },
+        {
+          "topic": "Supporting mathematics",
+          "title": "Distributive Law for Vector Cross Products",
+          "lessonSlug": "distributive-law-for-vector-cross-products",
+          "status": "present"
+        },
+        {
+          "topic": "Supporting mathematics",
+          "title": "Mixed Derivative and Increment Theorems",
+          "lessonSlug": "mixed-derivative-and-increment-theorems",
+          "status": "present"
+        },
+        {
+          "topic": "Supporting mathematics",
+          "title": "Brief Table of Integrals",
+          "lessonSlug": "brief-table-of-integrals",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Multivariable and Vector Calculus",
+      "level": "university",
+      "chapter": "Vectors and the Geometry of Space",
+      "chapterSlug": "vectors-and-the-geometry-of-space",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Three-Dimensional Coordinate Systems",
+          "lessonSlug": "three-dimensional-coordinate-systems",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Vectors",
+          "lessonSlug": "vectors",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "The Dot Product",
+          "lessonSlug": "the-dot-product",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "The Cross Product",
+          "lessonSlug": "the-cross-product",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Lines and Planes in Space",
+          "lessonSlug": "lines-and-planes-in-space",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Cylinders and Quadric Surfaces",
+          "lessonSlug": "cylinders-and-quadric-surfaces",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Vectors and the Geometry of Space Chapter Review",
+          "lessonSlug": "vectors-and-the-geometry-of-space-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Multivariable and Vector Calculus",
+      "level": "university",
+      "chapter": "Vector-Valued Functions and Motion in Space",
+      "chapterSlug": "vector-valued-functions-and-motion-in-space",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Curves in Space and Their Tangents",
+          "lessonSlug": "curves-in-space-and-their-tangents",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Integrals of Vector Functions; Projectile Motion",
+          "lessonSlug": "integrals-of-vector-functions-projectile-motion",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Arc Length in Space",
+          "lessonSlug": "arc-length-in-space",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Curvature and Normal Vectors of a Curve",
+          "lessonSlug": "curvature-and-normal-vectors-of-a-curve",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Tangential and Normal Components of Acceleration",
+          "lessonSlug": "tangential-and-normal-components-of-acceleration",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Velocity and Acceleration in Polar Coordinates",
+          "lessonSlug": "velocity-and-acceleration-in-polar-coordinates",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Vector-Valued Functions and Motion in Space Chapter Review",
+          "lessonSlug": "vector-valued-functions-and-motion-in-space-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Multivariable and Vector Calculus",
+      "level": "university",
+      "chapter": "Partial Derivatives",
+      "chapterSlug": "partial-derivatives",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Functions of Several Variables",
+          "lessonSlug": "functions-of-several-variables",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Limits and Continuity in Higher Dimensions",
+          "lessonSlug": "limits-and-continuity-in-higher-dimensions",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Partial Derivatives",
+          "lessonSlug": "partial-derivatives",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "The Chain Rule",
+          "lessonSlug": "the-chain-rule",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Directional Derivatives and Gradient Vectors",
+          "lessonSlug": "directional-derivatives-and-gradient-vectors",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Tangent Planes and Differentials",
+          "lessonSlug": "tangent-planes-and-differentials",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Extreme Values and Saddle Points",
+          "lessonSlug": "extreme-values-and-saddle-points",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Lagrange Multipliers",
+          "lessonSlug": "lagrange-multipliers",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Taylor\u2019s Formula for Two Variables",
+          "lessonSlug": "taylor-s-formula-for-two-variables",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Partial Derivatives with Constrained Variables",
+          "lessonSlug": "partial-derivatives-with-constrained-variables",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Partial Derivatives Chapter Review",
+          "lessonSlug": "partial-derivatives-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Multivariable and Vector Calculus",
+      "level": "university",
+      "chapter": "Multiple Integrals",
+      "chapterSlug": "multiple-integrals",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Double and Iterated Integrals over Rectangles",
+          "lessonSlug": "double-and-iterated-integrals-over-rectangles",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Double Integrals over General Regions",
+          "lessonSlug": "double-integrals-over-general-regions",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Area by Double Integration",
+          "lessonSlug": "area-by-double-integration",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Double Integrals in Polar Form",
+          "lessonSlug": "double-integrals-in-polar-form",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Triple Integrals in Rectangular Coordinates",
+          "lessonSlug": "triple-integrals-in-rectangular-coordinates",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Moments and Centers of Mass",
+          "lessonSlug": "moments-and-centers-of-mass",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Triple Integrals in Cylindrical and Spherical Coordinates",
+          "lessonSlug": "triple-integrals-in-cylindrical-and-spherical-coordinates",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Substitutions in Multiple Integrals",
+          "lessonSlug": "substitutions-in-multiple-integrals",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Multiple Integrals Chapter Review",
+          "lessonSlug": "multiple-integrals-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Multivariable and Vector Calculus",
+      "level": "university",
+      "chapter": "Integrals and Vector Fields",
+      "chapterSlug": "integrals-and-vector-fields",
+      "status": "Weak",
+      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "lessons": [
+        {
+          "topic": "Numbered lessons",
+          "title": "Line Integrals",
+          "lessonSlug": "line-integrals",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Vector Fields and Line Integrals: Work, Circulation, and Flux",
+          "lessonSlug": "vector-fields-and-line-integrals-work-circulation-and-flux",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Path Independence, Conservative Fields, and Potential Functions",
+          "lessonSlug": "path-independence-conservative-fields-and-potential-functions",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Green\u2019s Theorem in the Plane",
+          "lessonSlug": "green-s-theorem-in-the-plane",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Surfaces and Area",
+          "lessonSlug": "surfaces-and-area",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Surface Integrals",
+          "lessonSlug": "surface-integrals",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Stokes\u2019 Theorem",
+          "lessonSlug": "stokes-theorem",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "The Divergence Theorem and a Unified Theory",
+          "lessonSlug": "the-divergence-theorem-and-a-unified-theory",
+          "status": "present"
+        },
+        {
+          "topic": "Numbered lessons",
+          "title": "Integrals and Vector Fields Chapter Review",
+          "lessonSlug": "integrals-and-vector-fields-chapter-review",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "category": "Linear Algebra",
+      "level": "university",
+      "chapter": "Systems, Matrices and Determinants",
+      "chapterSlug": "systems-matrices-and-determinants",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Gaussian Elimination",
+          "title": "Solving Linear Systems",
+          "lessonSlug": "solving-linear-systems",
+          "status": "missing"
+        },
+        {
+          "topic": "Determinants",
+          "title": "Determinants in Depth",
+          "lessonSlug": "determinants-in-depth",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Linear Algebra",
+      "level": "university",
+      "chapter": "Vector Spaces",
+      "chapterSlug": "vector-spaces",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Abstract Vector Spaces",
+          "title": "Vector Spaces and Subspaces",
+          "lessonSlug": "vector-spaces-and-subspaces",
+          "status": "missing"
+        },
+        {
+          "topic": "Abstract Vector Spaces",
+          "title": "Linear Transformations",
+          "lessonSlug": "linear-transformations",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Linear Algebra",
+      "level": "university",
+      "chapter": "Eigenvalues and Eigenvectors",
+      "chapterSlug": "eigenvalues-and-eigenvectors",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Eigentheory",
+          "title": "Eigenvalues, Eigenvectors and Diagonalization",
+          "lessonSlug": "eigenvalues-eigenvectors-and-diagonalization",
+          "status": "missing"
+        },
+        {
+          "topic": "Eigentheory",
+          "title": "Symmetric Matrices and the Spectral Theorem",
+          "lessonSlug": "symmetric-matrices-and-the-spectral-theorem",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Linear Algebra",
+      "level": "university",
+      "chapter": "Inner Products and Applications",
+      "chapterSlug": "inner-products-and-applications",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Orthogonality",
+          "title": "Inner Products and Orthogonality",
+          "lessonSlug": "inner-products-and-orthogonality",
+          "status": "missing"
+        },
+        {
+          "topic": "Applications of Linear Algebra",
+          "title": "Linear Algebra in the Real World",
+          "lessonSlug": "linear-algebra-in-the-real-world",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Differential Equations",
+      "level": "university",
+      "chapter": "First Order Equations",
+      "chapterSlug": "first-order-equations",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "First Order ODEs",
+          "title": "Separable and Linear First Order Equations",
+          "lessonSlug": "separable-and-linear-first-order-equations",
+          "status": "missing"
+        },
+        {
+          "topic": "First Order ODEs",
+          "title": "Applications of First Order ODEs",
+          "lessonSlug": "applications-of-first-order-odes",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Differential Equations",
+      "level": "university",
+      "chapter": "Higher Order Linear Equations",
+      "chapterSlug": "higher-order-linear-equations",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Second Order Linear ODEs",
+          "title": "Homogeneous Equations with Constant Coefficients",
+          "lessonSlug": "homogeneous-equations-with-constant-coefficients",
+          "status": "missing"
+        },
+        {
+          "topic": "Second Order Linear ODEs",
+          "title": "Nonhomogeneous Equations",
+          "lessonSlug": "nonhomogeneous-equations",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Differential Equations",
+      "level": "university",
+      "chapter": "Transforms and Systems",
+      "chapterSlug": "transforms-and-systems",
+      "status": "Missing",
+      "reason": "3 of 3 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Laplace Transforms",
+          "title": "The Laplace Transform Method",
+          "lessonSlug": "the-laplace-transform-method",
+          "status": "missing"
+        },
+        {
+          "topic": "Systems and Qualitative Theory",
+          "title": "Systems of ODEs and Phase Planes",
+          "lessonSlug": "systems-of-odes-and-phase-planes",
+          "status": "missing"
+        },
+        {
+          "topic": "Introduction to PDEs",
+          "title": "Partial Differential Equations Preview",
+          "lessonSlug": "partial-differential-equations-preview",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Probability and Combinatorics",
+      "level": "advanced",
+      "chapter": "Counting Principles",
+      "chapterSlug": "counting-principles",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Combinatorics Basics",
+          "title": "Permutations and Combinations",
+          "lessonSlug": "permutations-and-combinations",
+          "status": "missing"
+        },
+        {
+          "topic": "Combinatorics Basics",
+          "title": "Advanced Counting",
+          "lessonSlug": "advanced-counting",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Probability and Combinatorics",
+      "level": "advanced",
+      "chapter": "Probability Foundations",
+      "chapterSlug": "probability-foundations",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Basic Probability",
+          "title": "Probability Rules and Sample Spaces",
+          "lessonSlug": "probability-rules-and-sample-spaces",
+          "status": "missing"
+        },
+        {
+          "topic": "Basic Probability",
+          "title": "Conditional Probability and Bayes' Theorem",
+          "lessonSlug": "conditional-probability-and-bayes-theorem",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Probability and Combinatorics",
+      "level": "advanced",
+      "chapter": "Random Variables and Distributions",
+      "chapterSlug": "random-variables-and-distributions",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Discrete Random Variables",
+          "title": "Discrete Distributions",
+          "lessonSlug": "discrete-distributions",
+          "status": "missing"
+        },
+        {
+          "topic": "Continuous Random Variables",
+          "title": "Continuous Distributions and the Normal Curve",
+          "lessonSlug": "continuous-distributions-and-the-normal-curve",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Discrete Mathematics",
+      "level": "university",
+      "chapter": "Logic and Proof",
+      "chapterSlug": "logic-and-proof",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Propositional and Predicate Logic",
+          "title": "Logic Foundations",
+          "lessonSlug": "logic-foundations",
+          "status": "missing"
+        },
+        {
+          "topic": "Set Theory and Relations",
+          "title": "Sets, Relations and Functions",
+          "lessonSlug": "sets-relations-and-functions",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Discrete Mathematics",
+      "level": "university",
+      "chapter": "Graph Theory",
+      "chapterSlug": "graph-theory",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Graphs and Their Properties",
+          "title": "Introduction to Graph Theory",
+          "lessonSlug": "introduction-to-graph-theory",
+          "status": "missing"
+        },
+        {
+          "topic": "Graphs and Their Properties",
+          "title": "Graph Algorithms and Coloring",
+          "lessonSlug": "graph-algorithms-and-coloring",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Discrete Mathematics",
+      "level": "university",
+      "chapter": "Recurrences and Generating Functions",
+      "chapterSlug": "recurrences-and-generating-functions",
+      "status": "Missing",
+      "reason": "1 of 1 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Recurrence Relations",
+          "title": "Solving Recurrences",
+          "lessonSlug": "solving-recurrences",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Number Theory",
+      "level": "university",
+      "chapter": "Divisibility and Congruences",
+      "chapterSlug": "divisibility-and-congruences",
+      "status": "Missing",
+      "reason": "3 of 3 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "The Euclidean Algorithm",
+          "title": "GCD and the Euclidean Algorithm",
+          "lessonSlug": "gcd-and-the-euclidean-algorithm",
+          "status": "missing"
+        },
+        {
+          "topic": "Modular Arithmetic",
+          "title": "Congruences",
+          "lessonSlug": "congruences",
+          "status": "missing"
+        },
+        {
+          "topic": "Modular Arithmetic",
+          "title": "Fermat, Euler and Wilson",
+          "lessonSlug": "fermat-euler-and-wilson",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Number Theory",
+      "level": "university",
+      "chapter": "Primes and Cryptography",
+      "chapterSlug": "primes-and-cryptography",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "The Theory of Primes",
+          "title": "Primes: Distribution and Mysteries",
+          "lessonSlug": "primes-distribution-and-mysteries",
+          "status": "missing"
+        },
+        {
+          "topic": "Cryptographic Applications",
+          "title": "Number Theory in Cryptography",
+          "lessonSlug": "number-theory-in-cryptography",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Real Analysis",
+      "level": "university",
+      "chapter": "The Real Numbers and Sequences",
+      "chapterSlug": "the-real-numbers-and-sequences",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Construction of the Reals",
+          "title": "The Real Number System",
+          "lessonSlug": "the-real-number-system",
+          "status": "missing"
+        },
+        {
+          "topic": "Rigorous Sequences",
+          "title": "Sequences: Epsilon Definitions",
+          "lessonSlug": "sequences-epsilon-definitions",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Real Analysis",
+      "level": "university",
+      "chapter": "Continuity and Differentiation, Rigorously",
+      "chapterSlug": "continuity-and-differentiation-rigorously",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Rigorous Continuity",
+          "title": "Epsilon-Delta Continuity",
+          "lessonSlug": "epsilon-delta-continuity",
+          "status": "missing"
+        },
+        {
+          "topic": "Rigorous Differentiation and Integration",
+          "title": "The Derivative and the Riemann Integral, Formally",
+          "lessonSlug": "the-derivative-and-the-riemann-integral-formally",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Real Analysis",
+      "level": "university",
+      "chapter": "Metric Spaces",
+      "chapterSlug": "metric-spaces",
+      "status": "Missing",
+      "reason": "1 of 1 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Introduction to Metric Spaces",
+          "title": "Metric Spaces and Topology of the Line",
+          "lessonSlug": "metric-spaces-and-topology-of-the-line",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Abstract Algebra",
+      "level": "university",
+      "chapter": "Group Theory",
+      "chapterSlug": "group-theory",
+      "status": "Missing",
+      "reason": "3 of 3 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Groups",
+          "title": "Groups: Definition and Examples",
+          "lessonSlug": "groups-definition-and-examples",
+          "status": "missing"
+        },
+        {
+          "topic": "Groups",
+          "title": "Subgroups, Cosets and Lagrange's Theorem",
+          "lessonSlug": "subgroups-cosets-and-lagrange-s-theorem",
+          "status": "missing"
+        },
+        {
+          "topic": "Groups",
+          "title": "Homomorphisms and Isomorphisms",
+          "lessonSlug": "homomorphisms-and-isomorphisms",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Abstract Algebra",
+      "level": "university",
+      "chapter": "Rings and Fields",
+      "chapterSlug": "rings-and-fields",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Rings",
+          "title": "Rings, Integral Domains and Ideals",
+          "lessonSlug": "rings-integral-domains-and-ideals",
+          "status": "missing"
+        },
+        {
+          "topic": "Fields",
+          "title": "Fields and a Glimpse of Galois Theory",
+          "lessonSlug": "fields-and-a-glimpse-of-galois-theory",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Complex Analysis",
+      "level": "university",
+      "chapter": "Complex Functions",
+      "chapterSlug": "complex-functions",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Analytic Functions",
+          "title": "Complex Differentiability and the Cauchy-Riemann Equations",
+          "lessonSlug": "complex-differentiability-and-the-cauchy-riemann-equations",
+          "status": "missing"
+        },
+        {
+          "topic": "Analytic Functions",
+          "title": "Elementary Complex Functions",
+          "lessonSlug": "elementary-complex-functions",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Complex Analysis",
+      "level": "university",
+      "chapter": "Complex Integration and Residues",
+      "chapterSlug": "complex-integration-and-residues",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Contour Integration",
+          "title": "Cauchy's Theorem and Integral Formula",
+          "lessonSlug": "cauchy-s-theorem-and-integral-formula",
+          "status": "missing"
+        },
+        {
+          "topic": "Series and Residues",
+          "title": "Laurent Series and the Residue Theorem",
+          "lessonSlug": "laurent-series-and-the-residue-theorem",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Numerical and Applied Methods",
+      "level": "university",
+      "chapter": "Numerical Methods",
+      "chapterSlug": "numerical-methods",
+      "status": "Missing",
+      "reason": "4 of 4 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Roots and Interpolation",
+          "title": "Root Finding: Bisection to Newton-Raphson",
+          "lessonSlug": "root-finding-bisection-to-newton-raphson",
+          "status": "missing"
+        },
+        {
+          "topic": "Roots and Interpolation",
+          "title": "Interpolation and Curve Fitting",
+          "lessonSlug": "interpolation-and-curve-fitting",
+          "status": "missing"
+        },
+        {
+          "topic": "Numerical Calculus and Linear Systems",
+          "title": "Numerical Integration and Differentiation",
+          "lessonSlug": "numerical-integration-and-differentiation",
+          "status": "missing"
+        },
+        {
+          "topic": "Numerical Calculus and Linear Systems",
+          "title": "Numerical Linear Algebra",
+          "lessonSlug": "numerical-linear-algebra",
+          "status": "missing"
+        }
+      ]
+    },
+    {
+      "category": "Numerical and Applied Methods",
+      "level": "university",
+      "chapter": "Optimization and Modeling",
+      "chapterSlug": "optimization-and-modeling",
+      "status": "Missing",
+      "reason": "2 of 2 lesson(s) have no native content registered.",
+      "lessons": [
+        {
+          "topic": "Linear Programming",
+          "title": "Linear Programming and the Simplex Idea",
+          "lessonSlug": "linear-programming-and-the-simplex-idea",
+          "status": "missing"
+        },
+        {
+          "topic": "Mathematical Modeling",
+          "title": "The Modeling Cycle",
+          "lessonSlug": "the-modeling-cycle",
+          "status": "missing"
+        }
+      ]
+    }
+  ]
+}

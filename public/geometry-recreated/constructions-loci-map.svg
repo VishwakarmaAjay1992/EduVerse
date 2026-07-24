@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <defs>
+    <style>
+      .h{font: 28px Arial, sans-serif; font-weight:700; fill:#16324f}
+      .t{font: 18px Arial, sans-serif; fill:#16324f}
+      .s{font: 15px Arial, sans-serif; fill:#44627c}
+      .line{stroke:#16324f; stroke-width:2.5; fill:none}
+      .arc{stroke:#0ea5e9; stroke-width:2; fill:none; stroke-dasharray:6 4}
+      .fill{fill:#e8f8e7; stroke:#16324f; stroke-width:2}
+    </style>
+  </defs>
+  <rect width="960" height="540" fill="#fff"/>
+  <text x="30" y="45" class="h">Loci behind the constructions</text>
+
+  <g transform="translate(70,120)">
+    <text x="0" y="0" class="t">Equidistant from two points</text>
+    <line x1="20" y1="120" x2="230" y2="120" class="line"/>
+    <line x1="125" y1="25" x2="125" y2="215" class="line"/>
+    <circle cx="20" cy="120" r="4" fill="#16324f"/>
+    <circle cx="230" cy="120" r="4" fill="#16324f"/>
+    <text x="10" y="255" class="s">Locus: perpendicular bisector</text>
+  </g>
+
+  <g transform="translate(360,120)">
+    <text x="0" y="0" class="t">Equidistant from two lines</text>
+    <line x1="40" y1="210" x2="40" y2="40" class="line"/>
+    <line x1="40" y1="210" x2="210" y2="210" class="line"/>
+    <line x1="40" y1="210" x2="145" y2="105" class="line"/>
+    <text x="10" y="255" class="s">Locus: angle bisector</text>
+  </g>
+
+  <g transform="translate(660,120)">
+    <text x="0" y="0" class="t">Fixed distance from a point</text>
+    <circle cx="120" cy="120" r="85" class="fill"/>
+    <circle cx="120" cy="120" r="4" fill="#16324f"/>
+    <line x1="120" y1="120" x2="205" y2="120" class="line"/>
+    <text x="10" y="255" class="s">Locus: circle of radius r</text>
+  </g>
+</svg>

@@ -1,454 +1,365 @@
 import type { LessonContent } from "@/lib/lesson-content-types";
 
 export const translationRotationReflectionAndEnlargement: LessonContent = {
-  "subjectSlug": "mathematics",
-  "chapterSlug": "transformations-and-constructions",
-  "lessonSlug": "translation-rotation-reflection-and-enlargement",
-  "title": "Translation, Rotation, Reflection and Enlargement",
-  "objectives": [
-    "Understand translation, rotation, reflection and enlargement definitions.",
-    "Use formulas and theorems correctly.",
-    "Solve textbook-style and real-world problems.",
-    "Practise exam-style reasoning questions."
+  subjectSlug: "mathematics",
+  chapterSlug: "transformations-and-symmetry",
+  lessonSlug: "translation-rotation-reflection-and-enlargement",
+  title: "Translation, Rotation, Reflection and Enlargement",
+  objectives: [
+    "Describe translations, rotations, reflections and enlargements precisely using correct mathematical language.",
+    "Apply coordinate rules to transform points and shapes accurately.",
+    "Distinguish between congruence transformations and enlargements that create similar figures.",
+    "Solve transformation questions from beginner to expert level, including combined transformations and centre of enlargement problems.",
+    "Use illustrations, coordinates and vectors to justify answers.",
   ],
-  "sections": [
+  sections: [
     {
-      "kind": "overview",
-      "paragraphs": [
-        "This lesson develops translation, rotation, reflection and enlargement beyond short notes. You will study definitions, theorems, worked examples, and self-study problems.",
-        "For best learning, copy each diagram in your notebook, mark the given information, then solve before checking the answer."
-      ]
-    },
-    {
-      "kind": "callout",
-      "variant": "definition",
-      "title": "Textbook definition",
-      "body": "A transformation moves or changes a figure according to a rule. The original is the object; the new figure is the image."
-    },
-    {
-      "kind": "theory",
-      "heading": "Important vocabulary",
-      "paragraphs": [
-        "Before solving problems, make sure the language is clear. Geometry questions often become easy when every word in the diagram is understood correctly."
+      kind: "overview",
+      paragraphs: [
+        "A **transformation** changes the position, orientation or size of a shape according to a rule. It might slide the shape, turn it, reflect it in a mirror line, or enlarge it from a centre. These ideas are essential in geometry, design, computer graphics and technical drawing.",
+        "In this lesson you will not only use the standard rules but also learn how to describe each transformation **exactly**. A good geometry answer is precise: for example, a rotation is not just a turn — it needs a centre, an angle and a direction.",
       ],
-      "list": [
-        "Translation: slide every point the same distance and direction.",
-        "Rotation: turn around a fixed centre by an angle.",
-        "Reflection: mirror image across a line.",
-        "Enlargement: resize from a centre using a scale factor.",
-        "Isometry: transformation preserving lengths and angles."
-      ]
     },
     {
-      "kind": "formula",
-      "latex": "(x,y)\\to(x+a,y+b)",
-      "caption": "Translation by vector $(a,b)$"
+      kind: "callout",
+      variant: "definition",
+      title: "Core definitions",
+      body: "A **translation** slides every point by the same vector. A **rotation** turns a figure about a fixed centre. A **reflection** flips a figure in a mirror line. An **enlargement** changes the size of a figure from a centre using a scale factor. The original shape is the **object** and the new shape is the **image**.",
     },
     {
-      "kind": "formula",
-      "latex": "(x,y)\\to(-x,y)",
-      "caption": "Reflection in y-axis"
-    },
-    {
-      "kind": "formula",
-      "latex": "(x,y)\\to(x,-y)",
-      "caption": "Reflection in x-axis"
-    },
-    {
-      "kind": "formula",
-      "latex": "(x,y)\\to(kx,ky)",
-      "caption": "Enlargement about origin, scale factor k"
-    },
-    {
-      "kind": "theory",
-      "heading": "Core ideas explained in depth",
-      "paragraphs": [
-        "Translations, rotations and reflections are congruence transformations because they preserve size and shape.",
-        "Enlargements preserve shape but change size unless the scale factor is 1, so they produce similar figures.",
-        "Coordinate rules make transformations precise. Apply the rule to every vertex and then join the image points."
+      kind: "cards",
+      heading: "What changes and what stays the same?",
+      columns: 2,
+      items: [
+        {
+          title: "Translation",
+          text: "Position changes, but lengths, angles, orientation and area stay the same.",
+        },
+        {
+          title: "Rotation",
+          text: "Position and orientation may change, but lengths, angles and area stay the same.",
+        },
+        {
+          title: "Reflection",
+          text: "Shape and size stay the same, but orientation reverses. Mirror-image effect appears.",
+        },
+        {
+          title: "Enlargement",
+          text: "Shape is preserved, but lengths and area change unless the scale factor is 1. The image is similar to the object.",
+        },
       ],
-      "list": [
-        "For rotations, specify centre, angle and direction. Missing any of these makes the transformation unclear."
-      ]
     },
     {
-      "kind": "table",
-      "heading": "Problem-solving guide",
-      "headers": [
-        "When you see this",
-        "What to use",
-        "Reason"
+      kind: "table",
+      heading: "Coordinate rules to remember",
+      headers: ["Transformation", "Rule", "Notes"],
+      rows: [
+        ["Translation by vector $(a,b)$", "$(x,y) \\to (x+a,y+b)$", "Add the vector components to every coordinate."],
+        ["Reflection in x-axis", "$(x,y) \\to (x,-y)$", "x-coordinate stays, y-coordinate changes sign."],
+        ["Reflection in y-axis", "$(x,y) \\to (-x,y)$", "y-coordinate stays, x-coordinate changes sign."],
+        ["Reflection in $y=x$", "$(x,y) \\to (y,x)$", "Coordinates swap places."],
+        ["Rotation $90^\\circ$ anticlockwise about origin", "$(x,y) \\to (-y,x)$", "Distance from origin stays the same."],
+        ["Rotation $180^\\circ$ about origin", "$(x,y) \\to (-x,-y)$", "Equivalent to turning upside down through the origin."],
+        ["Rotation $270^\\circ$ anticlockwise about origin", "$(x,y) \\to (y,-x)$", "Same as $90^\\circ$ clockwise."],
+        ["Enlargement scale factor $k$ from origin", "$(x,y) \\to (kx,ky)$", "If $k<0$, the image lies on the opposite side of the centre."],
       ],
-      "rows": [
-        [
-          "A diagram has equal marks",
-          "Use the matching theorem or definition",
-          "Equal marks are information, not decoration."
-        ],
-        [
-          "A formula is needed",
-          "Identify each variable before substitution",
-          "Most mistakes come from using the wrong length or angle."
-        ],
-        [
-          "A proof-style question appears",
-          "Write reasons after each statement",
-          "Geometry answers must be justified."
-        ]
-      ]
     },
     {
-      "kind": "example",
-      "prompt": "Translate point A(2, -1) by vector (5, 3).",
-      "steps": [
-        "Add 5 to x-coordinate and 3 to y-coordinate.",
-        "New point is $(2+5,-1+3)$.",
-        "Simplify."
+      kind: "imageGallery",
+      heading: "Transformation illustrations",
+      images: [
+        {
+          src: "/geometry-recreated/transformations-coordinate-rules.svg",
+          alt: "Coordinate-plane illustrations for translation, reflection, rotation and enlargement.",
+          caption: "Each transformation can be seen on a coordinate grid. Matching points should be tracked in a consistent order, such as $A, B, C$ to $A', B', C'$.",
+        },
+        {
+          src: "/geometry-recreated/transformations-combined-example.svg",
+          alt: "Illustration of a shape being reflected and then translated on a coordinate grid.",
+          caption: "Combined transformations are performed one step at a time. Order matters: reflecting and then translating may give a different result from translating and then reflecting.",
+        },
       ],
-      "answer": "A' = (7, 2)."
     },
     {
-      "kind": "example",
-      "prompt": "Reflect P(4, -6) in the x-axis.",
-      "steps": [
-        "Reflection in x-axis keeps x same.",
-        "Change sign of y.",
-        "$P'=(4,6)$."
+      kind: "theory",
+      heading: "Describing transformations accurately",
+      paragraphs: [
+        "A correct description of a transformation must contain all essential information. A translation needs a vector. A reflection needs the mirror line. A rotation needs the centre, the size of the angle and whether it is clockwise or anticlockwise. An enlargement needs its centre and scale factor.",
+        "Translations, rotations and reflections are all **isometries** or **congruence transformations**, because they preserve length and angle. Enlargements preserve shape but not size, so the object and image are **similar** rather than congruent unless the scale factor is 1 or -1.",
+        "A **negative scale factor** in enlargement sends the image to the opposite side of the centre. For example, scale factor $-2$ doubles all distances from the centre and reverses the direction through the centre.",
       ],
-      "answer": "(4, 6)."
-    },
-    {
-      "kind": "example",
-      "prompt": "Enlarge point (3, -2) from origin with scale factor 4.",
-      "steps": [
-        "Multiply both coordinates by 4.",
-        "$(3,-2)\\to(12,-8)$.",
-        "This is four times as far from origin."
+      list: [
+        "The notation $A'$ is read as ‘A prime’, meaning the image of point $A$.",
+        "To transform a polygon, transform each vertex, then join the image points in the same order.",
+        "In exam questions, write the transformation name first, then the extra detail.",
       ],
-      "answer": "(12, -8)."
     },
     {
-      "kind": "example",
-      "prompt": "Rotate (2, 1) by 90° anticlockwise about origin.",
-      "steps": [
-        "Rule is $(x,y)\\to(-y,x)$.",
-        "$(2,1)\\to(-1,2)$.",
-        "Check distance from origin is unchanged."
+      kind: "example",
+      prompt: "Translate point $A(3,-2)$ by the vector $\\begin{pmatrix}5\\\\1\\end{pmatrix}$.",
+      steps: [
+        "Add 5 to the x-coordinate and 1 to the y-coordinate.",
+        "$A'=(3+5,-2+1)$.",
+        "$A'=(8,-1)$.",
       ],
-      "answer": "(-1, 2)."
+      answer: "$A'=(8,-1)$.",
     },
     {
-      "kind": "practice",
-      "heading": "Self-study practice questions",
-      "questions": [
-        {
-          "prompt": "Translation is a:",
-          "options": [
-            "slide",
-            "turn",
-            "mirror",
-            "resize"
-          ],
-          "answer": 0,
-          "explanation": "Translation slides a figure."
-        },
-        {
-          "prompt": "Reflection in x-axis maps (3,4) to:",
-          "options": [
-            "(3,-4)",
-            "(-3,4)",
-            "(-3,-4)",
-            "(4,3)"
-          ],
-          "answer": 0,
-          "explanation": "x same, y changes sign."
-        },
-        {
-          "prompt": "Reflection in y-axis maps (3,4) to:",
-          "options": [
-            "(3,-4)",
-            "(-3,4)",
-            "(-3,-4)",
-            "(4,3)"
-          ],
-          "answer": 1,
-          "explanation": "y same, x changes sign."
-        },
-        {
-          "prompt": "Enlargement scale 2 makes lengths:",
-          "options": [
-            "same",
-            "double",
-            "half",
-            "negative"
-          ],
-          "answer": 1,
-          "explanation": "Lengths multiply by scale factor."
-        },
-        {
-          "prompt": "Rotation needs centre and:",
-          "options": [
-            "angle/direction",
-            "area",
-            "price",
-            "volume"
-          ],
-          "answer": 0,
-          "explanation": "Rotation is not complete without angle and direction."
-        },
-        {
-          "prompt": "Translation by (1,-5) maps (2,3) to:",
-          "options": [
-            "(3,-2)",
-            "(1,8)",
-            "(-3,4)",
-            "(2,-15)"
-          ],
-          "answer": 0,
-          "explanation": "Add coordinates."
-        },
-        {
-          "prompt": "Which preserves size?",
-          "options": [
-            "translation",
-            "enlargement scale 3",
-            "stretch",
-            "dilation only"
-          ],
-          "answer": 0,
-          "explanation": "Translation is an isometry."
-        },
-        {
-          "prompt": "90° anticlockwise rule:",
-          "options": [
-            "(x,y)->(-y,x)",
-            "(x,y)->(y,-x)",
-            "(x,y)->(-x,-y)",
-            "(x,y)->(x,-y)"
-          ],
-          "answer": 0,
-          "explanation": "Standard origin rule."
-        },
-        {
-          "prompt": "A mirror line is used in:",
-          "options": [
-            "reflection",
-            "translation",
-            "rotation only",
-            "enlargement only"
-          ],
-          "answer": 0,
-          "explanation": "Reflection uses a mirror line."
-        },
-        {
-          "prompt": "Scale factor less than 1 gives:",
-          "options": [
-            "reduction",
-            "larger image",
-            "same always",
-            "reflection"
-          ],
-          "answer": 0,
-          "explanation": "It makes a smaller similar image."
-        }
-      ]
-    },
-    {
-      "kind": "quiz",
-      "questions": [
-        {
-          "prompt": "Translate (0,0) by (-2,5):",
-          "options": [
-            "(-2,5)",
-            "(2,-5)",
-            "(5,-2)",
-            "(0,0)"
-          ],
-          "answer": 0,
-          "explanation": "Add vector."
-        },
-        {
-          "prompt": "Reflect (-7,2) in y-axis:",
-          "options": [
-            "(7,2)",
-            "(-7,-2)",
-            "(2,-7)",
-            "(7,-2)"
-          ],
-          "answer": 0,
-          "explanation": "Change x sign."
-        },
-        {
-          "prompt": "Enlargement scale 3: area factor:",
-          "options": [
-            "3",
-            "6",
-            "9",
-            "27"
-          ],
-          "answer": 2,
-          "explanation": "Area factor is $3^2$."
-        },
-        {
-          "prompt": "Rotation preserves:",
-          "options": [
-            "distance from centre",
-            "area only not shape",
-            "nothing",
-            "currency"
-          ],
-          "answer": 0,
-          "explanation": "Each point stays same distance from centre."
-        },
-        {
-          "prompt": "180° rotation about origin:",
-          "options": [
-            "(x,y)->(-x,-y)",
-            "(x,y)->(y,x)",
-            "(x,y)->(x,-y)",
-            "(x,y)->(-x,y)"
-          ],
-          "answer": 0,
-          "explanation": "Both signs change."
-        },
-        {
-          "prompt": "Reflection creates:",
-          "options": [
-            "mirror image",
-            "bigger image always",
-            "random shape",
-            "curved image"
-          ],
-          "answer": 0,
-          "explanation": "A reflection mirrors."
-        },
-        {
-          "prompt": "Object means:",
-          "options": [
-            "original figure",
-            "new figure",
-            "axis",
-            "scale factor"
-          ],
-          "answer": 0,
-          "explanation": "Object is before transformation."
-        },
-        {
-          "prompt": "Image means:",
-          "options": [
-            "after transformation",
-            "before transformation",
-            "centre only",
-            "angle only"
-          ],
-          "answer": 0,
-          "explanation": "Image is result."
-        },
-        {
-          "prompt": "Translation preserves angles?",
-          "options": [
-            "Yes",
-            "No"
-          ],
-          "answer": 0,
-          "explanation": "It is an isometry."
-        },
-        {
-          "prompt": "Enlargement preserves angles?",
-          "options": [
-            "Yes",
-            "No"
-          ],
-          "answer": 0,
-          "explanation": "Similar figures have equal angles."
-        }
-      ]
-    },
-    {
-      "kind": "realWorld",
-      "heading": "Where this is used",
-      "items": [
-        {
-          "area": "Architecture",
-          "text": "Geometric reasoning helps check drawings, dimensions and layouts."
-        },
-        {
-          "area": "Engineering",
-          "text": "Shapes and measurements are used to design safe structures."
-        },
-        {
-          "area": "Computer graphics",
-          "text": "Transformations and geometry control images, animations and 3D models."
-        }
-      ]
-    },
-    {
-      "kind": "mistakes",
-      "items": [
-        {
-          "wrong": "Moving only one vertex in a transformation.",
-          "right": "Apply the same rule to every vertex."
-        },
-        {
-          "wrong": "Forgetting direction in rotation.",
-          "right": "State clockwise or anticlockwise and the centre."
-        },
-        {
-          "wrong": "Thinking enlargement changes angles.",
-          "right": "Enlargement changes lengths but keeps angles equal."
-        }
-      ]
-    },
-    {
-      "kind": "flashcards",
-      "cards": [
-        {
-          "front": "Translation, Rotation, Reflection and Enlargement",
-          "back": "A transformation moves or changes a figure according to a rule. The original is the object; the new figure is the image."
-        },
-        {
-          "front": "Translation",
-          "back": "Translation: slide every point the same distance and direction."
-        },
-        {
-          "front": "Rotation",
-          "back": "Rotation: turn around a fixed centre by an angle."
-        },
-        {
-          "front": "Reflection",
-          "back": "Reflection: mirror image across a line."
-        }
-      ]
-    },
-    {
-      "kind": "summary",
-      "points": [
-        "Translation, Rotation, Reflection and Enlargement is not only memorising formulas; it is about choosing the correct relationship from the diagram.",
-        "Draw or redraw the diagram, mark known values, write the relevant formula, substitute carefully, and check the reasonableness of the answer.",
-        "For exam preparation, practise mixed problems where more than one fact is needed."
-      ]
-    },
-    {
-      "kind": "completion",
-      "steps": [
-        {
-          "key": "read-definitions",
-          "label": "Read definitions"
-        },
-        {
-          "key": "study-examples",
-          "label": "Study solved examples"
-        },
-        {
-          "key": "complete-practice",
-          "label": "Complete practice"
-        },
-        {
-          "key": "pass-quiz",
-          "label": "Pass the quiz"
-        }
+      kind: "example",
+      prompt: "Reflect point $P(-4,7)$ in the y-axis.",
+      steps: [
+        "Reflection in the y-axis changes the sign of the x-coordinate.",
+        "The y-coordinate remains the same.",
+        "So $P'=(4,7)$.",
       ],
-      "requireQuizPass": true
-    }
-  ]
+      answer: "$P'=(4,7)$.",
+    },
+    {
+      kind: "example",
+      prompt: "Rotate the point $(2,5)$ through $90^\\circ$ anticlockwise about the origin.",
+      steps: [
+        "Use the rule $(x,y)\\to(-y,x)$.",
+        "Substitute $x=2$ and $y=5$.",
+        "The image is $(-5,2)$.",
+      ],
+      answer: "$(-5,2)$.",
+    },
+    {
+      kind: "example",
+      prompt: "Enlarge the point $(-3,4)$ from the origin with scale factor 3.",
+      steps: [
+        "Multiply each coordinate by 3.",
+        "$(-3,4)\\to(-9,12)$.",
+        "The image lies on the same ray from the origin and is three times as far away.",
+      ],
+      answer: "$(-9,12)$.",
+    },
+    {
+      kind: "example",
+      prompt: "Triangle $ABC$ has vertices $A(1,1)$, $B(4,1)$ and $C(2,3)$. Reflect the triangle in the x-axis.",
+      steps: [
+        "Reflection in the x-axis maps $(x,y)$ to $(x,-y)$.",
+        "$A'=(1,-1)$, $B'=(4,-1)$ and $C'=(2,-3)$.",
+        "Join the three image points in the order $A'B'C'$.",
+      ],
+      answer: "The reflected triangle has vertices $(1,-1)$, $(4,-1)$ and $(2,-3)$.",
+    },
+    {
+      kind: "example",
+      prompt: "Describe the single transformation that maps a shape to its image when every point moves 6 units right and 2 units down.",
+      steps: [
+        "A move with the same displacement for every point is a translation.",
+        "Right 6 means x increases by 6, and down 2 means y decreases by 2.",
+        "So the translation vector is $\\begin{pmatrix}6\\\\-2\\end{pmatrix}$.",
+      ],
+      answer: "A translation by vector $\\begin{pmatrix}6\\\\-2\\end{pmatrix}$.",
+    },
+    {
+      kind: "example",
+      prompt: "A square with side 4 cm is enlarged by scale factor $1.5$. Find the new side length, the new perimeter and the new area.",
+      steps: [
+        "Lengths scale by 1.5, so the new side length is $4 \times 1.5=6$ cm.",
+        "Perimeter also scales by 1.5, so new perimeter is $4 \times 6=24$ cm.",
+        "Area scales by the square of the factor: $1.5^2=2.25$.",
+        "Original area is $4^2=16$ cm², so new area is $16 \times 2.25=36$ cm².",
+      ],
+      answer: "New side length 6 cm, perimeter 24 cm, area 36 cm².",
+    },
+    {
+      kind: "example",
+      prompt: "The point $A(2,1)$ is enlarged to $A'(8,4)$ from the origin. Find the scale factor.",
+      steps: [
+        "Compare corresponding coordinates: $8 \div 2 = 4$ and $4 \div 1 = 4$.",
+        "Both coordinates are multiplied by 4.",
+        "Therefore the scale factor is 4.",
+      ],
+      answer: "Scale factor 4.",
+    },
+    {
+      kind: "example",
+      prompt: "The image of point $P(3,2)$ under an enlargement with scale factor $-2$ about the origin is required. Find $P'$.",
+      steps: [
+        "Multiply each coordinate by $-2$.",
+        "$P' = (-6,-4)$.",
+        "The negative sign shows that the image lies on the opposite side of the origin from the original point.",
+      ],
+      answer: "$P'=(-6,-4)$.",
+    },
+    {
+      kind: "example",
+      prompt: "A shape is first reflected in the y-axis and then translated by vector $\\begin{pmatrix}2\\\\-1\\end{pmatrix}$. Find the final image of the point $(4,3)$.",
+      steps: [
+        "First reflect in the y-axis: $(4,3)\\to(-4,3)$.",
+        "Then translate by adding $(2,-1)$: $(-4,3)\\to(-2,2)$.",
+        "Always do combined transformations in the stated order.",
+      ],
+      answer: "The final image is $(-2,2)$.",
+    },
+    {
+      kind: "mistakes",
+      items: [
+        {
+          wrong: "Writing ‘rotation 90°’ without giving centre or direction.",
+          right: "State the full description, for example ‘rotation $90^\\circ$ anticlockwise about the origin’.",
+        },
+        {
+          wrong: "Using the reflection rule for the wrong axis.",
+          right: "x-axis changes the sign of $y$; y-axis changes the sign of $x$.",
+        },
+        {
+          wrong: "Multiplying the area by the scale factor instead of its square.",
+          right: "If lengths scale by $k$, areas scale by $k^2$.",
+        },
+        {
+          wrong: "Changing the order of combined transformations.",
+          right: "Carry out each transformation exactly in the order given.",
+        },
+      ],
+    },
+    {
+      kind: "realWorld",
+      heading: "Why transformations matter",
+      items: [
+        {
+          area: "Interior design and architecture",
+          text: "Tiling layouts, mirrored elevations, rotated plans and scaled drawings all use transformations.",
+        },
+        {
+          area: "Computer graphics",
+          text: "Every movement, flip, rotation and resize of a digital image uses transformation ideas.",
+        },
+        {
+          area: "Engineering drawing",
+          text: "Scaled parts, reflected profiles and rotated views are standard in technical diagrams.",
+        },
+        {
+          area: "Art and pattern design",
+          text: "Repeated motifs in wallpaper, Islamic geometry and textile design depend on symmetry and transformations.",
+        },
+      ],
+    },
+    {
+      kind: "practice",
+      heading: "Practice questions",
+      stepKey: "transformationPractice",
+      questions: [
+        {
+          prompt: "Translation by vector $\\begin{pmatrix}-3\\\\4\\end{pmatrix}$ sends $(5,1)$ to",
+          options: ["$(2,5)$", "$(8,-3)$", "$(2,-3)$", "$(1,4)$"],
+          answer: 0,
+          explanation: "Add the vector components: $(5-3,1+4)=(2,5)$.",
+        },
+        {
+          prompt: "Reflection in the x-axis sends $(-2,-7)$ to",
+          options: ["$(2,-7)$", "$(-2,7)$", "$(7,-2)$", "$(-7,-2)$"],
+          answer: 1,
+          explanation: "Only the y-coordinate changes sign.",
+        },
+        {
+          prompt: "The rule $(x,y)\\to(-y,x)$ is",
+          options: [
+            "reflection in y-axis",
+            "rotation $90^\\circ$ anticlockwise about origin",
+            "rotation $90^\\circ$ clockwise about origin",
+            "reflection in $y=x$",
+          ],
+          answer: 1,
+          explanation: "This is the standard $90^\\circ$ anticlockwise rule.",
+        },
+        {
+          prompt: "An enlargement with scale factor 2 changes area by a factor of",
+          options: ["2", "4", "6", "8"],
+          answer: 1,
+          explanation: "Area scales by $2^2=4$.",
+        },
+        {
+          prompt: "Which transformation reverses orientation?",
+          options: ["translation", "rotation", "reflection", "enlargement scale 2"],
+          answer: 2,
+          explanation: "Only reflection creates a mirror image.",
+        },
+        {
+          prompt: "The image of $(3,-1)$ after a $180^\\circ$ rotation about the origin is",
+          options: ["$(-3,1)$", "$(1,-3)$", "$(-1,3)$", "$(3,1)$"],
+          answer: 0,
+          explanation: "$180^\\circ$ rotation uses $(x,y)\\to(-x,-y)$.",
+        },
+        {
+          prompt: "A shape enlarged by scale factor $-1$ is equivalent to",
+          options: [
+            "a translation",
+            "a half turn about the centre",
+            "a reflection in the x-axis",
+            "no change at all",
+          ],
+          answer: 1,
+          explanation: "Scale factor $-1$ keeps lengths but puts points on the opposite side of the centre.",
+        },
+        {
+          prompt: "To describe an enlargement fully, you need",
+          options: [
+            "a centre and a scale factor",
+            "a centre and an angle",
+            "a vector only",
+            "a line of reflection only",
+          ],
+          answer: 0,
+          explanation: "Those are the two essential pieces of information.",
+        },
+      ],
+    },
+    {
+      kind: "gradedQuiz",
+      heading: "Transformation mastery check",
+      passMark: 7,
+      questions: [
+        {
+          type: "mc",
+          prompt: "Triangle $ABC$ with vertices $(1,0)$, $(3,0)$ and $(2,2)$ is translated by $\\begin{pmatrix}-2\\\\5\\end{pmatrix}$. The image of $C$ is",
+          options: ["$(0,7)$", "$(4,7)$", "$(0,3)$", "$(-4,7)$"],
+          answer: 0,
+          marks: 2,
+          explanation: "$(2,2)\\to(0,7)$.",
+        },
+        {
+          type: "tf",
+          prompt: "All enlargements preserve angle size.",
+          answer: true,
+          marks: 2,
+          explanation: "Enlargements produce similar figures, so corresponding angles are unchanged.",
+        },
+        {
+          type: "matching",
+          prompt: "Match each description to its transformation.",
+          left: [
+            "mirror image in a line",
+            "slide by same displacement",
+            "turn about a centre",
+            "resize from a centre",
+          ],
+          options: ["translation", "rotation", "reflection", "enlargement"],
+          answer: [2, 0, 1, 3],
+          marks: 4,
+          explanation: "Each transformation has a distinct defining action.",
+        },
+      ],
+    },
+    {
+      kind: "summary",
+      points: [
+        "Translations slide, rotations turn, reflections mirror and enlargements resize.",
+        "Translations, rotations and reflections preserve size and shape; enlargements preserve shape but change size.",
+        "Coordinate rules allow fast and accurate transformations on a grid.",
+        "A complete description of a transformation must include the right extra details such as vector, mirror line, centre, angle or scale factor.",
+        "For enlargements, lengths scale by $k$, areas by $k^2$ and volumes by $k^3$.",
+      ],
+    },
+    {
+      kind: "completion",
+      steps: [
+        { key: "transformationPractice", label: "Complete the transformation practice set" },
+      ],
+      requireQuizPass: true,
+    },
+  ],
 };

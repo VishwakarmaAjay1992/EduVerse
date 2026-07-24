@@ -1,450 +1,325 @@
 import type { LessonContent } from "@/lib/lesson-content-types";
 
 export const rulerAndCompassConstructions: LessonContent = {
-  "subjectSlug": "mathematics",
-  "chapterSlug": "transformations-and-constructions",
-  "lessonSlug": "ruler-and-compass-constructions",
-  "title": "Ruler and Compass Constructions",
-  "objectives": [
-    "Understand ruler and compass constructions definitions.",
-    "Use formulas and theorems correctly.",
-    "Solve textbook-style and real-world problems.",
-    "Practise exam-style reasoning questions."
+  subjectSlug: "mathematics",
+  chapterSlug: "transformations-and-symmetry",
+  lessonSlug: "ruler-and-compass-constructions",
+  title: "Ruler and Compass Constructions",
+  objectives: [
+    "Understand what counts as an exact geometric construction.",
+    "Construct standard objects such as perpendicular bisectors, angle bisectors, perpendiculars and special angles.",
+    "Use constructions to solve locus problems and triangle-building tasks.",
+    "Explain why each construction works rather than simply memorising steps.",
   ],
-  "sections": [
+  sections: [
     {
-      "kind": "overview",
-      "paragraphs": [
-        "This lesson develops ruler and compass constructions beyond short notes. You will study definitions, theorems, worked examples, and self-study problems.",
-        "For best learning, copy each diagram in your notebook, mark the given information, then solve before checking the answer."
-      ]
-    },
-    {
-      "kind": "callout",
-      "variant": "definition",
-      "title": "Textbook definition",
-      "body": "A construction is an exact geometric drawing made using only a straightedge/ruler for lines and a compass for arcs and circles."
-    },
-    {
-      "kind": "theory",
-      "heading": "Important vocabulary",
-      "paragraphs": [
-        "Before solving problems, make sure the language is clear. Geometry questions often become easy when every word in the diagram is understood correctly."
+      kind: "overview",
+      paragraphs: [
+        "Geometric construction is the art of making an **exact** diagram using a straightedge and a compass. Unlike a sketch, a construction is based on geometric properties such as equal radii, perpendicularity and symmetry. This is why every arc you draw has a reason.",
+        "In this lesson, you will learn the classic school constructions and the logic behind them. You will also see how loci — sets of points satisfying a condition — connect directly to perpendicular bisectors, angle bisectors and circles.",
       ],
-      "list": [
-        "Perpendicular bisector: line that cuts a segment into two equal parts at $90^\\circ$.",
-        "Angle bisector: ray that divides an angle into two equal angles.",
-        "Equidistant: the same distance from two or more objects.",
-        "Locus: set of points satisfying a rule."
-      ]
     },
     {
-      "kind": "formula",
-      "latex": "PA=PB",
-      "caption": "Points on perpendicular bisector are equidistant from endpoints"
+      kind: "callout",
+      variant: "definition",
+      title: "Construction and locus",
+      body: "A **construction** is an exact geometric drawing made with a straightedge and compass. A **locus** is the set of all points that satisfy a given rule. Many standard constructions work because they create points belonging to one or more loci at the same time.",
     },
     {
-      "kind": "formula",
-      "latex": "\\angle AOC=\\angle COB",
-      "caption": "Angle bisector creates equal angles"
-    },
-    {
-      "kind": "theory",
-      "heading": "Core ideas explained in depth",
-      "paragraphs": [
-        "Construction is about preserving exact distances with a compass, not estimating with a ruler scale.",
-        "Arcs are used to create equal distances. When two arcs intersect, the intersection point satisfies two distance conditions at once.",
-        "A perpendicular bisector is the locus of points equidistant from two endpoints."
+      kind: "imageGallery",
+      heading: "Construction illustrations",
+      images: [
+        {
+          src: "/geometry-recreated/constructions-standard-steps.svg",
+          alt: "Illustrated steps for perpendicular bisector, angle bisector and perpendicular construction.",
+          caption: "Equal-radius arcs create equal distances. Intersections of arcs mark points that satisfy distance conditions exactly.",
+        },
+        {
+          src: "/geometry-recreated/constructions-loci-map.svg",
+          alt: "Locus examples showing points equidistant from endpoints, lines and fixed points.",
+          caption: "A perpendicular bisector is the locus of points equidistant from two endpoints. An angle bisector is the locus of points equidistant from two rays.",
+        },
       ],
-      "list": [
-        "An angle bisector is the locus of points equidistant from the two arms of an angle."
-      ]
     },
     {
-      "kind": "table",
-      "heading": "Problem-solving guide",
-      "headers": [
-        "When you see this",
-        "What to use",
-        "Reason"
+      kind: "theory",
+      heading: "Construction tools and discipline",
+      paragraphs: [
+        "A straightedge is used to draw straight lines, but in pure geometry it is not used as a measuring scale. The compass copies distances exactly by keeping the radius fixed. That is why you must avoid changing the compass width in the middle of a step unless the method tells you to do so.",
+        "Good constructions use light arcs, sharp intersections and clear final lines. Leave the construction arcs visible unless a question explicitly tells you to erase them, because they show the reasoning behind the result.",
       ],
-      "rows": [
+      list: [
+        "More than half the segment means the arcs from each endpoint will intersect.",
+        "Equal radii imply equal distances from the chosen centre.",
+        "Intersections of loci solve many geometry problems elegantly.",
+      ],
+    },
+    {
+      kind: "table",
+      heading: "Standard constructions and why they work",
+      headers: ["Construction", "Main idea", "Why it works"],
+      rows: [
         [
-          "A diagram has equal marks",
-          "Use the matching theorem or definition",
-          "Equal marks are information, not decoration."
+          "Perpendicular bisector of a segment",
+          "Draw equal-radius arcs from each endpoint.",
+          "Arc intersections are equidistant from both endpoints, so the line through them is the locus of such points.",
         ],
         [
-          "A formula is needed",
-          "Identify each variable before substitution",
-          "Most mistakes come from using the wrong length or angle."
+          "Angle bisector",
+          "Mark equal distances on both arms, then intersect equal-radius arcs.",
+          "The intersection is equidistant from both arms, so joining it to the vertex gives the angle bisector.",
         ],
         [
-          "A proof-style question appears",
-          "Write reasons after each statement",
-          "Geometry answers must be justified."
-        ]
-      ]
-    },
-    {
-      "kind": "example",
-      "prompt": "Construct the perpendicular bisector of AB.",
-      "steps": [
-        "Open compass to more than half of AB.",
-        "Draw arcs above and below AB from A.",
-        "Without changing compass width, draw arcs from B to intersect the first arcs.",
-        "Join the two arc intersections."
+          "Perpendicular through a point on a line",
+          "Create equal points on the line around the given point, then bisect.",
+          "Symmetry forces the new line to meet the original at $90^\\circ$.",
+        ],
+        [
+          "60° angle",
+          "Use the equilateral triangle idea.",
+          "Equal radii create equal side lengths, and equilateral triangles have all angles 60°.",
+        ],
+        [
+          "Triangle with given side lengths",
+          "Draw one side first, then use arcs from the endpoints.",
+          "The arc intersection is exactly the distance required from both endpoints.",
+        ],
       ],
-      "answer": "The joined line is the perpendicular bisector of AB."
     },
     {
-      "kind": "example",
-      "prompt": "Construct an angle bisector.",
-      "steps": [
-        "From the angle vertex, draw an arc cutting both arms.",
-        "From the two cut points, draw equal-radius arcs inside the angle.",
-        "Join the vertex to the intersection of those arcs."
+      kind: "example",
+      prompt: "Construct the perpendicular bisector of segment $AB$.",
+      steps: [
+        "Open the compass to a width greater than half of $AB$.",
+        "With centre $A$, draw one arc above the segment and one below it.",
+        "Without changing the compass width, repeat from centre $B$ so that the new arcs intersect the first pair.",
+        "Join the two arc-intersection points with a straight line.",
+        "This line cuts $AB$ at its midpoint and at $90^\\circ$, so it is the perpendicular bisector.",
       ],
-      "answer": "The ray divides the angle into two equal angles."
+      answer: "The line through the two arc intersections is the perpendicular bisector of $AB$.",
     },
     {
-      "kind": "example",
-      "prompt": "Construct a 60° angle.",
-      "steps": [
-        "Draw a ray AB.",
-        "With compass at A, draw an arc cutting ray at C.",
-        "With same radius at C, cut the arc at D.",
-        "Join A to D."
+      kind: "example",
+      prompt: "Construct the bisector of angle $AOB$.",
+      steps: [
+        "With centre $O$, draw an arc that cuts the two arms of the angle at points $P$ and $Q$.",
+        "Using the same compass width, draw arcs from $P$ and $Q$ so they meet at a point $R$ inside the angle.",
+        "Join $O$ to $R$.",
+        "Because $R$ is equidistant from the two arms of the angle, $OR$ bisects the angle.",
       ],
-      "answer": "Angle DAB is 60°."
+      answer: "Ray $OR$ is the angle bisector.",
     },
     {
-      "kind": "example",
-      "prompt": "Construct a triangle with sides 5 cm, 6 cm and 7 cm.",
-      "steps": [
-        "Draw base AB = 7 cm.",
-        "From A draw arc radius 5 cm.",
-        "From B draw arc radius 6 cm.",
-        "Their intersection is C; join AC and BC."
+      kind: "example",
+      prompt: "Construct a perpendicular to a line $l$ through a point $P$ lying on the line.",
+      steps: [
+        "With centre $P$, draw an arc cutting the line at points $A$ and $B$.",
+        "With centres $A$ and $B$ and equal radius greater than $AP$, draw arcs on one side of the line to meet at $R$.",
+        "Join $P$ to $R$.",
+        "By symmetry, $PR$ is perpendicular to $AB$, and therefore perpendicular to $l$.",
       ],
-      "answer": "Triangle ABC has sides 5, 6 and 7 cm."
+      answer: "$PR$ is the required perpendicular.",
     },
     {
-      "kind": "practice",
-      "heading": "Self-study practice questions",
-      "questions": [
-        {
-          "prompt": "Perpendicular bisector meets segment at:",
-          "options": [
-            "90° and midpoint",
-            "60°",
-            "endpoint only",
-            "random point"
-          ],
-          "answer": 0,
-          "explanation": "It is perpendicular and bisects."
-        },
-        {
-          "prompt": "Compass is used to copy:",
-          "options": [
-            "distances",
-            "colours",
-            "text",
-            "prices"
-          ],
-          "answer": 0,
-          "explanation": "Compass preserves equal distances."
-        },
-        {
-          "prompt": "Angle bisector makes:",
-          "options": [
-            "two equal angles",
-            "two equal lengths only",
-            "circle",
-            "parallel lines"
-          ],
-          "answer": 0,
-          "explanation": "It splits an angle equally."
-        },
-        {
-          "prompt": "Points on perpendicular bisector are equidistant from:",
-          "options": [
-            "segment endpoints",
-            "circle centre only",
-            "angle arms only",
-            "all vertices"
-          ],
-          "answer": 0,
-          "explanation": "$PA=PB$."
-        },
-        {
-          "prompt": "A locus is:",
-          "options": [
-            "set of points following a rule",
-            "a measuring tape",
-            "a theorem only",
-            "a triangle"
-          ],
-          "answer": 0,
-          "explanation": "Locus describes all positions satisfying a condition."
-        },
-        {
-          "prompt": "To construct 60°, use:",
-          "options": [
-            "equilateral triangle idea",
-            "protractor only",
-            "calculator",
-            "area formula"
-          ],
-          "answer": 0,
-          "explanation": "Same-radius arcs form equilateral triangle."
-        },
-        {
-          "prompt": "Straightedge is used for:",
-          "options": [
-            "drawing straight lines",
-            "measuring angles only",
-            "drawing arcs",
-            "colouring"
-          ],
-          "answer": 0,
-          "explanation": "It draws lines."
-        },
-        {
-          "prompt": "Changing compass width during equal arcs is:",
-          "options": [
-            "wrong",
-            "required always",
-            "irrelevant",
-            "only for text"
-          ],
-          "answer": 0,
-          "explanation": "Keep width same when equal distances are needed."
-        },
-        {
-          "prompt": "Angle bisector locus points are equidistant from:",
-          "options": [
-            "angle arms",
-            "endpoints only",
-            "circle arcs",
-            "parallel sides"
-          ],
-          "answer": 0,
-          "explanation": "Distance to both arms is equal."
-        },
-        {
-          "prompt": "Construction accuracy depends on:",
-          "options": [
-            "clear arcs and sharp points",
-            "guessing",
-            "thick lines only",
-            "rounding"
-          ],
-          "answer": 0,
-          "explanation": "Precise arcs matter."
-        }
-      ]
-    },
-    {
-      "kind": "quiz",
-      "questions": [
-        {
-          "prompt": "Perpendicular means:",
-          "options": [
-            "90°",
-            "180°",
-            "360°",
-            "45°"
-          ],
-          "answer": 0,
-          "explanation": "Perpendicular lines meet at right angle."
-        },
-        {
-          "prompt": "Bisect means:",
-          "options": [
-            "cut into two equal parts",
-            "double",
-            "rotate",
-            "shade"
-          ],
-          "answer": 0,
-          "explanation": "Bisect means divide equally."
-        },
-        {
-          "prompt": "For perpendicular bisector arcs, compass radius should be:",
-          "options": [
-            "more than half segment",
-            "less than half always",
-            "zero",
-            "any tiny length"
-          ],
-          "answer": 0,
-          "explanation": "Arcs must intersect."
-        },
-        {
-          "prompt": "A 60° construction relates to:",
-          "options": [
-            "equilateral triangle",
-            "square",
-            "circle area",
-            "trapezium"
-          ],
-          "answer": 0,
-          "explanation": "Equilateral angles are 60°."
-        },
-        {
-          "prompt": "To copy a length, use:",
-          "options": [
-            "compass",
-            "calculator only",
-            "protractor",
-            "scale factor only"
-          ],
-          "answer": 0,
-          "explanation": "Compass transfers length."
-        },
-        {
-          "prompt": "A ruler in construction acts as:",
-          "options": [
-            "straightedge",
-            "compass",
-            "protractor",
-            "calculator"
-          ],
-          "answer": 0,
-          "explanation": "It draws straight lines."
-        },
-        {
-          "prompt": "Angle bisector from vertex passes through:",
-          "options": [
-            "intersection of equal arcs",
-            "random point",
-            "midpoint of opposite side always",
-            "circle centre only"
-          ],
-          "answer": 0,
-          "explanation": "Equal arcs locate bisector."
-        },
-        {
-          "prompt": "Perpendicular bisector of chord passes through circle:",
-          "options": [
-            "centre",
-            "tangent only",
-            "arc only",
-            "outside point only"
-          ],
-          "answer": 0,
-          "explanation": "Chord perpendicular bisector passes through centre."
-        },
-        {
-          "prompt": "Locus equidistant from two points is:",
-          "options": [
-            "perpendicular bisector",
-            "angle bisector",
-            "circle only",
-            "parallel line"
-          ],
-          "answer": 0,
-          "explanation": "This is a key locus fact."
-        },
-        {
-          "prompt": "Locus at fixed distance from a point is:",
-          "options": [
-            "circle",
-            "line",
-            "triangle",
-            "rectangle"
-          ],
-          "answer": 0,
-          "explanation": "All points a fixed distance from centre form a circle."
-        }
-      ]
-    },
-    {
-      "kind": "realWorld",
-      "heading": "Where this is used",
-      "items": [
-        {
-          "area": "Architecture",
-          "text": "Geometric reasoning helps check drawings, dimensions and layouts."
-        },
-        {
-          "area": "Engineering",
-          "text": "Shapes and measurements are used to design safe structures."
-        },
-        {
-          "area": "Computer graphics",
-          "text": "Transformations and geometry control images, animations and 3D models."
-        }
-      ]
-    },
-    {
-      "kind": "mistakes",
-      "items": [
-        {
-          "wrong": "Measuring every construction with a ruler only.",
-          "right": "Use compass arcs to create exact equal distances."
-        },
-        {
-          "wrong": "Changing compass radius when equal arcs are required.",
-          "right": "Keep the compass width unchanged for matching distances."
-        },
-        {
-          "wrong": "Drawing very thick construction lines.",
-          "right": "Use thin accurate lines so intersections are clear."
-        }
-      ]
-    },
-    {
-      "kind": "flashcards",
-      "cards": [
-        {
-          "front": "Ruler and Compass Constructions",
-          "back": "A construction is an exact geometric drawing made using only a straightedge/ruler for lines and a compass for arcs and circles."
-        },
-        {
-          "front": "Perpendicular bisector",
-          "back": "Perpendicular bisector: line that cuts a segment into two equal parts at $90^\\circ$."
-        },
-        {
-          "front": "Angle bisector",
-          "back": "Angle bisector: ray that divides an angle into two equal angles."
-        },
-        {
-          "front": "Equidistant",
-          "back": "Equidistant: the same distance from two or more objects."
-        }
-      ]
-    },
-    {
-      "kind": "summary",
-      "points": [
-        "Ruler and Compass Constructions is not only memorising formulas; it is about choosing the correct relationship from the diagram.",
-        "Draw or redraw the diagram, mark known values, write the relevant formula, substitute carefully, and check the reasonableness of the answer.",
-        "For exam preparation, practise mixed problems where more than one fact is needed."
-      ]
-    },
-    {
-      "kind": "completion",
-      "steps": [
-        {
-          "key": "read-definitions",
-          "label": "Read definitions"
-        },
-        {
-          "key": "study-examples",
-          "label": "Study solved examples"
-        },
-        {
-          "key": "complete-practice",
-          "label": "Complete practice"
-        },
-        {
-          "key": "pass-quiz",
-          "label": "Pass the quiz"
-        }
+      kind: "example",
+      prompt: "Construct a $60^\\circ$ angle at point $A$ on a ray $AB$.",
+      steps: [
+        "With centre $A$, draw an arc that meets the ray at $B$.",
+        "With centre $B$ and the same compass width, draw an arc that intersects the first arc at $C$.",
+        "Join $A$ to $C$.",
+        "Triangle $ABC$ is equilateral, so $\\angle CAB=60^\\circ$.",
       ],
-      "requireQuizPass": true
-    }
-  ]
+      answer: "The new ray $AC$ forms a $60^\\circ$ angle with $AB$.",
+    },
+    {
+      kind: "example",
+      prompt: "Construct a triangle with side lengths 5 cm, 6 cm and 7 cm.",
+      steps: [
+        "Draw a base segment $AB=7$ cm.",
+        "With centre $A$, draw an arc of radius 5 cm.",
+        "With centre $B$, draw an arc of radius 6 cm.",
+        "Let the arcs meet at $C$. Join $AC$ and $BC$.",
+        "Now $AC=5$ cm, $BC=6$ cm and $AB=7$ cm by construction.",
+      ],
+      answer: "Triangle $ABC$ is the required triangle.",
+    },
+    {
+      kind: "example",
+      prompt: "Describe the locus of points equidistant from two fixed points $A$ and $B$.",
+      steps: [
+        "A point equidistant from $A$ and $B$ satisfies $PA=PB$.",
+        "The set of all such points is exactly the perpendicular bisector of segment $AB$.",
+        "This is why the perpendicular bisector construction is a locus construction.",
+      ],
+      answer: "The locus is the perpendicular bisector of $AB$.",
+    },
+    {
+      kind: "example",
+      prompt: "A town needs a borehole placed so that it is equally distant from two roads that meet at an angle. Which locus should be used?",
+      steps: [
+        "Being equally distant from two roads means equal perpendicular distance from the two lines.",
+        "The locus of points equidistant from the two arms of an angle is the angle bisector.",
+        "In fact there are two angle bisectors, internal and external, but the practical region usually tells you which one is needed.",
+      ],
+      answer: "Use the angle bisector of the two roads.",
+    },
+    {
+      kind: "example",
+      prompt: "Construct the region of points that are within 4 cm of a fixed point $P$.",
+      steps: [
+        "Points exactly 4 cm from $P$ form a circle of radius 4 cm.",
+        "Points within 4 cm are all points inside that circle, together with the boundary.",
+        "Draw the circle first; the shaded interior represents the full region.",
+      ],
+      answer: "A circle of radius 4 cm centred at $P$, including its interior.",
+    },
+    {
+      kind: "mistakes",
+      items: [
+        {
+          wrong: "Changing the compass width between the two arcs in a step that needs equal distances.",
+          right: "Keep the compass width fixed whenever equal distances are required.",
+        },
+        {
+          wrong: "Choosing a radius less than half the segment when constructing a perpendicular bisector.",
+          right: "Use a radius greater than half the segment, so the arcs intersect.",
+        },
+        {
+          wrong: "Treating a rough sketch as an exact proof.",
+          right: "A construction works because of distance and angle properties, not because the sketch ‘looks right’.",
+        },
+      ],
+    },
+    {
+      kind: "realWorld",
+      heading: "Applications of constructions and loci",
+      items: [
+        {
+          area: "Surveying",
+          text: "Loci help identify points equally distant from landmarks, roads or boundaries.",
+        },
+        {
+          area: "Architecture and drafting",
+          text: "Exact geometric layout is used in detailing, setting-out and decorative pattern work.",
+        },
+        {
+          area: "Engineering and manufacturing",
+          text: "Perpendiculars, angle bisectors and equal offsets appear in component layout and mechanical drawing.",
+        },
+        {
+          area: "Classical geometry",
+          text: "Much of Greek geometry was built from these straightedge-and-compass ideas.",
+        },
+      ],
+    },
+    {
+      kind: "practice",
+      heading: "Construction and loci practice",
+      stepKey: "constructionPractice",
+      questions: [
+        {
+          prompt: "The perpendicular bisector of a segment passes through",
+          options: ["one endpoint", "the midpoint at $90^\\circ$", "the centre of a circle only", "any random point"],
+          answer: 1,
+          explanation: "It bisects the segment and is perpendicular to it.",
+        },
+        {
+          prompt: "Points on the angle bisector are equidistant from",
+          options: ["the angle arms", "the angle endpoints", "the origin", "two circles"],
+          answer: 0,
+          explanation: "Distance is measured perpendicularly to the two arms.",
+        },
+        {
+          prompt: "A construction of a $60^\\circ$ angle relies on the fact that",
+          options: ["a rectangle has right angles", "an equilateral triangle has equal angles", "all arcs are 90°", "a compass measures mass"],
+          answer: 1,
+          explanation: "Equal radii form an equilateral triangle.",
+        },
+        {
+          prompt: "The locus of points 5 cm from a fixed point is",
+          options: ["a line", "a segment", "a circle", "a triangle"],
+          answer: 2,
+          explanation: "All points at a fixed distance from one point form a circle.",
+        },
+        {
+          prompt: "Why must the radius be greater than half the segment when constructing a perpendicular bisector?",
+          options: [
+            "To make the arcs intersect",
+            "To make the line horizontal",
+            "To double the length",
+            "It is not necessary",
+          ],
+          answer: 0,
+          explanation: "If the radius is too small, the arcs will not meet.",
+        },
+        {
+          prompt: "Which tool is used to copy exact distances?",
+          options: ["protractor", "compass", "calculator", "set square only"],
+          answer: 1,
+          explanation: "A compass preserves radius exactly.",
+        },
+        {
+          prompt: "To construct a triangle from three side lengths, you should",
+          options: [
+            "guess the third vertex",
+            "draw one side and use two arcs from its endpoints",
+            "draw any triangle and label it",
+            "start with a protractor",
+          ],
+          answer: 1,
+          explanation: "The intersection of the two arcs gives the exact third vertex.",
+        },
+      ],
+    },
+    {
+      kind: "gradedQuiz",
+      heading: "Construction mastery check",
+      passMark: 6,
+      questions: [
+        {
+          type: "mc",
+          prompt: "Which locus describes points equidistant from two fixed points?",
+          options: ["circle", "angle bisector", "perpendicular bisector", "parallel line"],
+          answer: 2,
+          marks: 2,
+          explanation: "That is the defining property of the perpendicular bisector.",
+        },
+        {
+          type: "tf",
+          prompt: "In a correct construction, the construction arcs may be erased before the work is checked.",
+          answer: false,
+          marks: 2,
+          explanation: "The arcs often show how the construction was achieved and should remain visible unless told otherwise.",
+        },
+        {
+          type: "matching",
+          prompt: "Match the description to the construction.",
+          left: [
+            "set of points equidistant from a fixed point",
+            "set of points equidistant from two endpoints",
+            "set of points equidistant from two intersecting lines",
+          ],
+          options: ["circle", "perpendicular bisector", "angle bisector"],
+          answer: [0, 1, 2],
+          marks: 3,
+          explanation: "Each locus has a standard geometric form.",
+        },
+      ],
+    },
+    {
+      kind: "summary",
+      points: [
+        "Straightedge-and-compass constructions are exact, not approximate sketches.",
+        "Perpendicular bisectors and angle bisectors are special loci.",
+        "Equal-radius arcs are the engine behind many classical constructions.",
+        "A triangle with given side lengths is constructed by arc intersection from a known base.",
+        "Locus problems translate verbal conditions into geometric sets of points.",
+      ],
+    },
+    {
+      kind: "completion",
+      steps: [{ key: "constructionPractice", label: "Complete the construction and loci practice set" }],
+      requireQuizPass: true,
+    },
+  ],
 };

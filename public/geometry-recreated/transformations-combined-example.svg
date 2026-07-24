@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="960" height="520">
+  <defs>
+    <style>
+      .h{font: 28px Arial, sans-serif; font-weight:700; fill:#16324f}
+      .t{font: 18px Arial, sans-serif; fill:#16324f}
+      .s{font: 15px Arial, sans-serif; fill:#44627c}
+      .axis{stroke:#16324f; stroke-width:2.4}
+      .a{fill:#9fd5ff; stroke:#16324f; stroke-width:2}
+      .b{fill:#ffe4b5; stroke:#8b4a00; stroke-width:2}
+      .c{fill:#d5f5d5; stroke:#226622; stroke-width:2}
+    </style>
+  </defs>
+  <rect width="960" height="520" fill="#fff"/>
+  <text x="35" y="45" class="h">Combined transformation example</text>
+  <text x="35" y="78" class="s">Object → reflect in y-axis → translate by (2, -1)</text>
+
+  <g transform="translate(80,110)">
+    <path d="M0,160 H760 M380,20 V320" class="axis"/>
+    <polygon points="430,180 475,120 495,210" class="a"/>
+    <polygon points="330,180 285,120 265,210" class="b"/>
+    <polygon points="350,200 305,140 285,230" class="c"/>
+    <text x="443" y="230" class="t">Object</text>
+    <text x="210" y="230" class="t">After reflection</text>
+    <text x="115" y="255" class="t">Final image</text>
+    <line x1="380" y1="20" x2="380" y2="320" stroke="#0ea5e9" stroke-width="2" stroke-dasharray="8 5"/>
+    <text x="390" y="35" class="s">y-axis</text>
+  </g>
+</svg>

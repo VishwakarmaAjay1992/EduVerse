@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600">
+  <defs>
+    <style>
+      .h{font: 28px Arial, sans-serif; font-weight:700; fill:#16324f}
+      .t{font: 18px Arial, sans-serif; fill:#16324f}
+      .s{font: 15px Arial, sans-serif; fill:#44627c}
+      .line{stroke:#16324f; stroke-width:2.6; fill:none}
+      .arc{stroke:#0ea5e9; stroke-width:2; fill:none; stroke-dasharray:6 4}
+      .dot{fill:#16324f}
+    </style>
+  </defs>
+  <rect width="960" height="600" fill="#fff"/>
+  <text x="30" y="45" class="h">Standard ruler-and-compass constructions</text>
+
+  <g transform="translate(60,105)">
+    <text x="0" y="0" class="t">Perpendicular bisector</text>
+    <line x1="20" y1="110" x2="220" y2="110" class="line"/>
+    <path d="M20,110 A95 95 0 0 1 120,15" class="arc"/>
+    <path d="M20,110 A95 95 0 0 0 120,205" class="arc"/>
+    <path d="M220,110 A95 95 0 0 0 120,15" class="arc"/>
+    <path d="M220,110 A95 95 0 0 1 120,205" class="arc"/>
+    <line x1="120" y1="15" x2="120" y2="205" class="line"/>
+    <circle cx="20" cy="110" r="4" class="dot"/>
+    <circle cx="220" cy="110" r="4" class="dot"/>
+    <text x="5" y="235" class="s">Arc intersections are equidistant from A and B.</text>
+  </g>
+
+  <g transform="translate(370,105)">
+    <text x="0" y="0" class="t">Angle bisector</text>
+    <line x1="40" y1="170" x2="40" y2="40" class="line"/>
+    <line x1="40" y1="170" x2="200" y2="170" class="line"/>
+    <path d="M40,170 A70 70 0 0 0 110,100" class="arc"/>
+    <path d="M40,170 A70 70 0 0 1 110,170" class="arc"/>
+    <path d="M80,130 A58 58 0 0 1 110,110" class="arc"/>
+    <path d="M110,170 A58 58 0 0 0 110,110" class="arc"/>
+    <line x1="40" y1="170" x2="110" y2="110" class="line"/>
+    <text x="0" y="235" class="s">The intersection point is equally distant from both arms.</text>
+  </g>
+
+  <g transform="translate(690,105)">
+    <text x="0" y="0" class="t">Perpendicular through a point</text>
+    <line x1="20" y1="110" x2="220" y2="110" class="line"/>
+    <circle cx="120" cy="110" r="4" class="dot"/>
+    <path d="M120,110 A70 70 0 0 0 50,110" class="arc"/>
+    <path d="M120,110 A70 70 0 0 1 190,110" class="arc"/>
+    <path d="M50,110 A95 95 0 0 1 120,20" class="arc"/>
+    <path d="M190,110 A95 95 0 0 0 120,20" class="arc"/>
+    <line x1="120" y1="20" x2="120" y2="210" class="line"/>
+    <text x="0" y="235" class="s">The new line is at 90° to the original line.</text>
+  </g>
+
+  <g transform="translate(260,380)">
+    <rect x="0" y="0" width="430" height="140" rx="16" fill="#f6fbff" stroke="#c6d7e5"/>
+    <text x="20" y="35" class="t">Good construction habits</text>
+    <text x="20" y="65" class="s">• Keep the compass width fixed when equal distances are required.</text>
+    <text x="20" y="90" class="s">• Use light arcs first, then darken the final answer line.</text>
+    <text x="20" y="115" class="s">• Leave the arcs visible unless the question says otherwise.</text>
+  </g>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" width="960" height="640">
+  <defs>
+    <style>
+      .t{font: 18px Arial, sans-serif; fill:#16324f}
+      .h{font: 28px Arial, sans-serif; font-weight:700; fill:#16324f}
+      .s{font: 16px Arial, sans-serif; fill:#44627c}
+      .shape{stroke:#16324f; stroke-width:3; fill:#dff3ff}
+      .alt{fill:#e8f8e7}
+      .gold{fill:#fff0cc}
+      .pink{fill:#ffe2ea}
+      .line{stroke:#16324f; stroke-width:2; fill:none; stroke-dasharray:6 5}
+    </style>
+  </defs>
+  <rect width="960" height="640" fill="#ffffff"/>
+  <text x="40" y="50" class="h">Mensuration solids overview</text>
+
+  <g transform="translate(40,90)">
+    <text x="0" y="0" class="t">Prism</text>
+    <polygon points="40,80 150,80 150,170 40,170" class="shape"/>
+    <polygon points="80,40 190,40 190,130 150,170 150,80" class="shape alt"/>
+    <polygon points="40,80 80,40 190,40 150,80" class="shape"/>
+    <line x1="150" y1="80" x2="190" y2="40" class="line"/>
+    <text x="20" y="210" class="s">Volume = B × h</text>
+    <text x="20" y="235" class="s">Surface area = 2B + Ph</text>
+    <text x="82" y="192" class="s">B = base area</text>
+    <text x="170" y="100" class="s">h</text>
+  </g>
+
+  <g transform="translate(290,90)">
+    <text x="0" y="0" class="t">Cylinder</text>
+    <ellipse cx="90" cy="48" rx="55" ry="20" class="shape gold"/>
+    <path d="M35,48 L35,170 M145,48 L145,170" class="shape"/>
+    <ellipse cx="90" cy="170" rx="55" ry="20" class="shape gold"/>
+    <text x="20" y="210" class="s">Volume = πr²h</text>
+    <text x="20" y="235" class="s">Surface area = 2πr² + 2πrh</text>
+    <text x="150" y="115" class="s">h</text>
+    <text x="90" y="52" class="s">r</text>
+  </g>
+
+  <g transform="translate(575,90)">
+    <text x="0" y="0" class="t">Pyramid</text>
+    <polygon points="90,30 30,170 170,170" class="shape pink"/>
+    <polygon points="90,30 140,95 170,170" class="shape alt"/>
+    <line x1="90" y1="30" x2="90" y2="170" class="line"/>
+    <text x="20" y="210" class="s">Volume = 1/3 Bh</text>
+    <text x="20" y="235" class="s">Surface area = base + faces</text>
+    <text x="95" y="110" class="s">h</text>
+  </g>
+
+  <g transform="translate(75,345)">
+    <text x="0" y="0" class="t">Cone</text>
+    <path d="M85,25 L25,165 Q85,200 145,165 Z" class="shape gold"/>
+    <ellipse cx="85" cy="165" rx="60" ry="18" class="shape gold"/>
+    <line x1="85" y1="25" x2="85" y2="165" class="line"/>
+    <line x1="85" y1="25" x2="145" y2="165" class="line"/>
+    <text x="18" y="210" class="s">Volume = 1/3 πr²h</text>
+    <text x="18" y="235" class="s">Surface area = πr² + πrl</text>
+    <text x="88" y="103" class="s">h</text>
+    <text x="118" y="102" class="s">l</text>
+  </g>
+
+  <g transform="translate(350,330)">
+    <text x="0" y="15" class="t">Sphere</text>
+    <circle cx="100" cy="115" r="82" class="shape pink"/>
+    <ellipse cx="100" cy="115" rx="82" ry="24" class="line"/>
+    <line x1="100" y1="115" x2="182" y2="115" class="line"/>
+    <text x="134" y="105" class="s">r</text>
+    <text x="18" y="225" class="s">Volume = 4/3 πr³</text>
+    <text x="18" y="250" class="s">Surface area = 4πr²</text>
+  </g>
+
+  <g transform="translate(650,340)">
+    <rect x="0" y="0" width="250" height="180" rx="18" fill="#f6fbff" stroke="#c6d7e5"/>
+    <text x="20" y="35" class="t">Key idea</text>
+    <text x="20" y="70" class="s">• Area uses square units</text>
+    <text x="20" y="95" class="s">• Volume uses cubic units</text>
+    <text x="20" y="120" class="s">• Surface area counts outside covering</text>
+    <text x="20" y="145" class="s">• Volume measures storage or space</text>
+  </g>
+</svg>
