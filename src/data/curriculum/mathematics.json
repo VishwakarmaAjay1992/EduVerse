@@ -1160,6 +1160,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Foundations, Lines and Angles Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1220,6 +1237,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Triangles and Congruence Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1255,6 +1289,23 @@
                     "Angle sum formulas",
                     "Regular polygons",
                     "Tessellations"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Quadrilaterals and Polygons Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
                   ]
                 }
               ]
@@ -1295,6 +1346,23 @@
                     "Cyclic quadrilaterals",
                     "Tangent properties",
                     "Alternate segment theorem"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Circles Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
                   ]
                 }
               ]
@@ -2038,6 +2106,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Straight Lines Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2156,6 +2241,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Vectors Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -2211,6 +2313,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Advanced Functions Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2246,6 +2365,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Complex Numbers Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2277,6 +2413,23 @@
                     "Linear transformations of the plane",
                     "Rotation/reflection/scaling matrices",
                     "Composition as multiplication"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Matrices and Determinants Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
                   ]
                 }
               ]
@@ -2373,6 +2526,23 @@
                     "Binomial coefficients",
                     "General term",
                     "Approximations"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Proof, Induction and the Binomial Theorem Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
                   ]
                 }
               ]
@@ -2476,6 +2646,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Functions Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2569,6 +2756,23 @@
                     "Mixed review",
                     "Formula consolidation",
                     "Assessment preparation"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Limits and Continuity Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
                   ]
                 }
               ]
@@ -2728,6 +2932,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Derivatives Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2848,6 +3069,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Applications of Derivatives Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2941,6 +3179,23 @@
                     "Mixed review",
                     "Formula consolidation",
                     "Assessment preparation"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Integrals Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
                   ]
                 }
               ]
@@ -3040,6 +3295,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Applications of Definite Integrals Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3109,6 +3381,23 @@
                     "Mixed review",
                     "Formula consolidation",
                     "Assessment preparation"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Integrals and Transcendental Functions Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
                   ]
                 }
               ]
@@ -3244,6 +3533,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Techniques of Integration Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3325,6 +3631,23 @@
                     "Mixed review",
                     "Formula consolidation",
                     "Assessment preparation"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "First-Order Differential Equations Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
                   ]
                 }
               ]
@@ -3472,6 +3795,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Infinite Sequences and Series Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3577,6 +3917,23 @@
                     "Mixed review",
                     "Formula consolidation",
                     "Assessment preparation"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Parametric Equations and Polar Coordinates Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
                   ]
                 }
               ]
@@ -3701,6 +4058,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Calculus Reference and Proof Appendices Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -3803,6 +4177,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Vectors and the Geometry of Space Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -3896,6 +4287,23 @@
                     "Mixed review",
                     "Formula consolidation",
                     "Assessment preparation"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Vector-Valued Functions and Motion in Space Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
                   ]
                 }
               ]
@@ -4043,6 +4451,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Partial Derivatives Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4160,6 +4585,23 @@
                     "Mixed review",
                     "Formula consolidation",
                     "Assessment preparation"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Multiple Integrals Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
                   ]
                 }
               ]
@@ -4283,6 +4725,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Expert Chapter Mastery",
+              "lessons": [
+                {
+                  "title": "Integrals and Vector Fields Expert Mastery Review",
+                  "d": 5,
+                  "min": 90,
+                  "sub": [
+                    "Integrated chapter skills",
+                    "Progressive solved examples",
+                    "Error analysis",
+                    "Mixed practice",
+                    "Mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -4329,6 +4788,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Systems, Matrices and Determinants Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4361,6 +4837,23 @@
                     "Kernel and image",
                     "Rank-nullity theorem",
                     "Change of basis"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Vector Spaces Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
                   ]
                 }
               ]
@@ -4397,6 +4890,23 @@
                     "Quadratic forms",
                     "Positive definiteness",
                     "SVD preview"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Eigenvalues and Eigenvectors Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
                   ]
                 }
               ]
@@ -4437,6 +4947,23 @@
                     "PageRank",
                     "Data and PCA idea",
                     "Machine learning connections"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Inner Products and Applications Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
                   ]
                 }
               ]
@@ -4481,6 +5008,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "First Order Equations Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4511,6 +5055,23 @@
                     "Undetermined coefficients",
                     "Variation of parameters",
                     "Forced oscillations and resonance"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Higher Order Linear Equations Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
                   ]
                 }
               ]
@@ -4569,6 +5130,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Transforms and Systems Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -4610,6 +5188,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Counting Principles Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4642,6 +5237,23 @@
                     "Independence",
                     "Law of total probability",
                     "Bayes' theorem and applications"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Probability Foundations Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
                   ]
                 }
               ]
@@ -4682,6 +5294,23 @@
                     "Uniform and exponential",
                     "Normal distribution",
                     "Central limit theorem (statement)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Random Variables and Distributions Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
                   ]
                 }
               ]
@@ -4733,6 +5362,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Logic and Proof Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4768,6 +5414,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Graph Theory Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4789,6 +5452,23 @@
                     "Characteristic equation method",
                     "Fibonacci closed form",
                     "Generating functions intro"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Recurrences and Generating Functions Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
                   ]
                 }
               ]
@@ -4850,6 +5530,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Divisibility and Congruences Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4887,6 +5584,23 @@
                     "Diffie-Hellman idea",
                     "RSA step by step",
                     "Why factoring is hard"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Primes and Cryptography Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
                   ]
                 }
               ]
@@ -4937,6 +5651,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "The Real Numbers and Sequences Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4977,6 +5708,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Continuity and Differentiation, Rigorously Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4999,6 +5747,23 @@
                     "Compactness",
                     "Completeness",
                     "Toward general topology"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Metric Spaces Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
                   ]
                 }
               ]
@@ -5056,6 +5821,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Group Theory Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5093,6 +5875,23 @@
                     "Field extensions",
                     "Impossibility of angle trisection",
                     "Galois and the quintic (story)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Rings and Fields Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
                   ]
                 }
               ]
@@ -5138,6 +5937,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Complex Functions Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5175,6 +5991,23 @@
                     "Poles and singularities",
                     "Residue theorem",
                     "Evaluating real integrals"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Complex Integration and Residues Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
                   ]
                 }
               ]
@@ -5245,6 +6078,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Numerical Methods Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5283,6 +6133,23 @@
                     "Assumptions and validation",
                     "Dimensional analysis",
                     "Case studies"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Complete Chapter Review",
+              "lessons": [
+                {
+                  "title": "Optimization and Modeling Complete Mastery Review",
+                  "d": 5,
+                  "min": 75,
+                  "sub": [
+                    "Skills map",
+                    "Mixed solved examples",
+                    "Proof and modelling",
+                    "Practice with explanations",
+                    "Graded mastery assessment"
                   ]
                 }
               ]

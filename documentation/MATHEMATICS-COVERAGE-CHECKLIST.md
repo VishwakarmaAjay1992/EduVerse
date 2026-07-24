@@ -5,12 +5,12 @@ This internal checklist audits the Mathematics curriculum against the lesson-con
 ## Audit summary
 
 - Curriculum chapters: **78**
-- Curriculum lessons: **338**
-- Registered native lesson content: **273**
+- Curriculum lessons: **359**
+- Registered native lesson content: **294**
 - Missing lesson content: **65**
-- Strong chapters: **27**
+- Strong chapters: **48**
 - Moderate chapters: **0**
-- Weak chapters: **21**
+- Weak chapters: **0**
 - Missing chapters: **30**
 
 ### Status meaning
@@ -98,10 +98,10 @@ The Moderate backlog is complete. The remaining work is now limited to chapters 
 | ✅ Strong | Algebra | Functions and Graphs | 5 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
 | ✅ Strong | Algebra | Exponentials and Logarithms | 4 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
 | ✅ Strong | Algebra | Sequences and Series | 4 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
-| 🟠 Weak | Geometry | Foundations, Lines and Angles | 3 | Content exists but needs more solved examples, visual explanation or assessment to reach the new EduVerse standard. |
-| 🟠 Weak | Geometry | Triangles and Congruence | 4 | Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples. |
-| 🟠 Weak | Geometry | Quadrilaterals and Polygons | 2 | Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples. |
-| 🟠 Weak | Geometry | Circles | 2 | Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples. |
+| ✅ Strong | Geometry | Foundations, Lines and Angles | 3 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Geometry | Triangles and Congruence | 4 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Geometry | Quadrilaterals and Polygons | 2 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Geometry | Circles | 2 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
 | ✅ Strong | Geometry | Mensuration | 1 | Meets the detailed-content standard with multiple examples, visuals and assessment. |
 | ✅ Strong | Geometry | Transformations and Symmetry | 3 | Meets the detailed-content standard with multiple examples, visuals and assessment. |
 | ✅ Strong | Trigonometry | Foundations of Trigonometry | 10 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
@@ -120,23 +120,23 @@ The Moderate backlog is complete. The remaining work is now limited to chapters 
 | 🔴 Missing | Pre-Calculus | Matrices and Determinants | 2 | 2 of 2 lesson(s) have no native content registered. |
 | ✅ Strong | Pre-Calculus | Counting and Combinatorics | 2 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
 | 🔴 Missing | Pre-Calculus | Proof, Induction and the Binomial Theorem | 3 | 3 of 3 lesson(s) have no native content registered. |
-| 🟠 Weak | Calculus | Functions | 7 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Calculus | Limits and Continuity | 7 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Calculus | Derivatives | 12 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Calculus | Applications of Derivatives | 9 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Calculus | Integrals | 7 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Calculus | Applications of Definite Integrals | 7 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Calculus | Integrals and Transcendental Functions | 5 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Calculus | Techniques of Integration | 10 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Calculus | First-Order Differential Equations | 6 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Calculus | Infinite Sequences and Series | 11 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Calculus | Parametric Equations and Polar Coordinates | 8 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Calculus | Calculus Reference and Proof Appendices | 10 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Multivariable and Vector Calculus | Vectors and the Geometry of Space | 7 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Multivariable and Vector Calculus | Vector-Valued Functions and Motion in Space | 7 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Multivariable and Vector Calculus | Partial Derivatives | 11 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Multivariable and Vector Calculus | Multiple Integrals | 9 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
-| 🟠 Weak | Multivariable and Vector Calculus | Integrals and Vector Fields | 9 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
+| ✅ Strong | Calculus | Functions | 7 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Calculus | Limits and Continuity | 7 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Calculus | Derivatives | 12 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Calculus | Applications of Derivatives | 9 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Calculus | Integrals | 7 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Calculus | Applications of Definite Integrals | 7 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Calculus | Integrals and Transcendental Functions | 5 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Calculus | Techniques of Integration | 10 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Calculus | First-Order Differential Equations | 6 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Calculus | Infinite Sequences and Series | 11 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Calculus | Parametric Equations and Polar Coordinates | 8 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Calculus | Calculus Reference and Proof Appendices | 10 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Multivariable and Vector Calculus | Vectors and the Geometry of Space | 7 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Multivariable and Vector Calculus | Vector-Valued Functions and Motion in Space | 7 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Multivariable and Vector Calculus | Partial Derivatives | 11 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Multivariable and Vector Calculus | Multiple Integrals | 9 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
+| ✅ Strong | Multivariable and Vector Calculus | Integrals and Vector Fields | 9 | Upgraded with progressive worked examples, deep-reasoning guidance, visual support, practice, graded assessment, completion tracking and an Expert Mastery Review. |
 | 🔴 Missing | Linear Algebra | Systems, Matrices and Determinants | 2 | 2 of 2 lesson(s) have no native content registered. |
 | 🔴 Missing | Linear Algebra | Vector Spaces | 2 | 2 of 2 lesson(s) have no native content registered. |
 | 🔴 Missing | Linear Algebra | Eigenvalues and Eigenvectors | 2 | 2 of 2 lesson(s) have no native content registered. |
@@ -319,31 +319,15 @@ The Moderate backlog is complete. The remaining work is now limited to chapters 
 - [ ] **Linear Programming and the Simplex Idea** — `/subjects/mathematics/optimization-and-modeling/linear-programming-and-the-simplex-idea`
 - [ ] **The Modeling Cycle** — `/subjects/mathematics/optimization-and-modeling/the-modeling-cycle`
 
-## Weak-content enhancement checklist
+## Former Weak chapters completed
 
-The following chapters are not missing, but should receive a dedicated enrichment pass before being considered complete at the new beginner-to-expert standard:
+All 21 chapters previously marked Weak are now Strong. The enrichment covered 153 existing lessons and added 21 Expert Mastery Review lessons.
 
-- [ ] **Geometry → Foundations, Lines and Angles** — Content exists but needs more solved examples, visual explanation or assessment to reach the new EduVerse standard.
-- [ ] **Geometry → Triangles and Congruence** — Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples.
-- [ ] **Geometry → Quadrilaterals and Polygons** — Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples.
-- [ ] **Geometry → Circles** — Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples.
-- [ ] **Calculus → Functions** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Calculus → Limits and Continuity** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Calculus → Derivatives** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Calculus → Applications of Derivatives** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Calculus → Integrals** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Calculus → Applications of Definite Integrals** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Calculus → Integrals and Transcendental Functions** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Calculus → Techniques of Integration** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Calculus → First-Order Differential Equations** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Calculus → Infinite Sequences and Series** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Calculus → Parametric Equations and Polar Coordinates** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Calculus → Calculus Reference and Proof Appendices** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Multivariable and Vector Calculus → Vectors and the Geometry of Space** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Multivariable and Vector Calculus → Vector-Valued Functions and Motion in Space** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Multivariable and Vector Calculus → Partial Derivatives** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Multivariable and Vector Calculus → Multiple Integrals** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
-- [ ] **Multivariable and Vector Calculus → Integrals and Vector Fields** — Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.
+Completed groups:
+
+- Geometry: Foundations, Triangles and Congruence, Quadrilaterals and Polygons, Circles
+- Calculus: Functions through Parametric and Polar Calculus, plus the reference and proof appendices
+- Multivariable and Vector Calculus: Space Vectors, Vector-Valued Motion, Partial Derivatives, Multiple Integrals, and Vector Fields
 
 ## Definition of complete for future chapters
 

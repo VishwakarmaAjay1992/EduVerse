@@ -1,13 +1,13 @@
 {
   "summary": {
     "chapters": 78,
-    "lessons": 338,
-    "registered_lessons": 273,
+    "lessons": 359,
+    "registered_lessons": 294,
     "missing_lessons": 65,
     "status_counts": {
-      "Strong": 27,
+      "Strong": 48,
       "Moderate": 0,
-      "Weak": 21,
+      "Weak": 0,
       "Missing": 30
     }
   },
@@ -575,8 +575,8 @@
       "level": "intermediate",
       "chapter": "Foundations, Lines and Angles",
       "chapterSlug": "foundations-lines-and-angles",
-      "status": "Weak",
-      "reason": "Content exists but needs more solved examples, visual explanation or assessment to reach the new EduVerse standard.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Geometric Foundations",
@@ -595,6 +595,12 @@
           "title": "Geometry Visual Proofs and Formula Guide",
           "lessonSlug": "geometry-visual-proofs-and-formula-guide",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Foundations, Lines and Angles Expert Mastery Review",
+          "lessonSlug": "foundations-lines-and-angles-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -603,8 +609,8 @@
       "level": "intermediate",
       "chapter": "Triangles and Congruence",
       "chapterSlug": "triangles-and-congruence",
-      "status": "Weak",
-      "reason": "Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Triangle Properties",
@@ -629,6 +635,12 @@
           "title": "Similar Triangles and Scale",
           "lessonSlug": "similar-triangles-and-scale",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Triangles and Congruence Expert Mastery Review",
+          "lessonSlug": "triangles-and-congruence-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -637,8 +649,8 @@
       "level": "intermediate",
       "chapter": "Quadrilaterals and Polygons",
       "chapterSlug": "quadrilaterals-and-polygons",
-      "status": "Weak",
-      "reason": "Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Quadrilaterals",
@@ -651,6 +663,12 @@
           "title": "Interior and Exterior Angles of Polygons",
           "lessonSlug": "interior-and-exterior-angles-of-polygons",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Quadrilaterals and Polygons Expert Mastery Review",
+          "lessonSlug": "quadrilaterals-and-polygons-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -659,8 +677,8 @@
       "level": "intermediate",
       "chapter": "Circles",
       "chapterSlug": "circles",
-      "status": "Weak",
-      "reason": "Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Circle Basics",
@@ -672,6 +690,12 @@
           "topic": "Circle Theorems",
           "title": "Circle Theorems and Proofs",
           "lessonSlug": "circle-theorems-and-proofs",
+          "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Circles Expert Mastery Review",
+          "lessonSlug": "circles-expert-mastery-review",
           "status": "present"
         }
       ]
@@ -1257,8 +1281,8 @@
       "level": "university",
       "chapter": "Functions",
       "chapterSlug": "functions",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -1301,6 +1325,12 @@
           "title": "Functions Chapter Review",
           "lessonSlug": "functions-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Functions Expert Mastery Review",
+          "lessonSlug": "functions-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -1309,8 +1339,8 @@
       "level": "university",
       "chapter": "Limits and Continuity",
       "chapterSlug": "limits-and-continuity",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -1353,6 +1383,12 @@
           "title": "Limits and Continuity Chapter Review",
           "lessonSlug": "limits-and-continuity-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Limits and Continuity Expert Mastery Review",
+          "lessonSlug": "limits-and-continuity-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -1361,8 +1397,8 @@
       "level": "university",
       "chapter": "Derivatives",
       "chapterSlug": "derivatives",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -1435,6 +1471,12 @@
           "title": "Derivatives Chapter Review",
           "lessonSlug": "derivatives-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Derivatives Expert Mastery Review",
+          "lessonSlug": "derivatives-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -1443,8 +1485,8 @@
       "level": "university",
       "chapter": "Applications of Derivatives",
       "chapterSlug": "applications-of-derivatives",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -1499,6 +1541,12 @@
           "title": "Applications of Derivatives Chapter Review",
           "lessonSlug": "applications-of-derivatives-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Applications of Derivatives Expert Mastery Review",
+          "lessonSlug": "applications-of-derivatives-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -1507,8 +1555,8 @@
       "level": "university",
       "chapter": "Integrals",
       "chapterSlug": "integrals",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -1551,6 +1599,12 @@
           "title": "Integrals Chapter Review",
           "lessonSlug": "integrals-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Integrals Expert Mastery Review",
+          "lessonSlug": "integrals-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -1559,8 +1613,8 @@
       "level": "university",
       "chapter": "Applications of Definite Integrals",
       "chapterSlug": "applications-of-definite-integrals",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -1603,6 +1657,12 @@
           "title": "Applications of Definite Integrals Chapter Review",
           "lessonSlug": "applications-of-definite-integrals-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Applications of Definite Integrals Expert Mastery Review",
+          "lessonSlug": "applications-of-definite-integrals-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -1611,8 +1671,8 @@
       "level": "university",
       "chapter": "Integrals and Transcendental Functions",
       "chapterSlug": "integrals-and-transcendental-functions",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -1643,6 +1703,12 @@
           "title": "Integrals and Transcendental Functions Chapter Review",
           "lessonSlug": "integrals-and-transcendental-functions-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Integrals and Transcendental Functions Expert Mastery Review",
+          "lessonSlug": "integrals-and-transcendental-functions-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -1651,8 +1717,8 @@
       "level": "university",
       "chapter": "Techniques of Integration",
       "chapterSlug": "techniques-of-integration",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -1713,6 +1779,12 @@
           "title": "Techniques of Integration Chapter Review",
           "lessonSlug": "techniques-of-integration-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Techniques of Integration Expert Mastery Review",
+          "lessonSlug": "techniques-of-integration-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -1721,8 +1793,8 @@
       "level": "university",
       "chapter": "First-Order Differential Equations",
       "chapterSlug": "first-order-differential-equations",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -1759,6 +1831,12 @@
           "title": "First-Order Differential Equations Chapter Review",
           "lessonSlug": "first-order-differential-equations-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "First-Order Differential Equations Expert Mastery Review",
+          "lessonSlug": "first-order-differential-equations-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -1767,8 +1845,8 @@
       "level": "university",
       "chapter": "Infinite Sequences and Series",
       "chapterSlug": "infinite-sequences-and-series",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -1835,6 +1913,12 @@
           "title": "Infinite Sequences and Series Chapter Review",
           "lessonSlug": "infinite-sequences-and-series-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Infinite Sequences and Series Expert Mastery Review",
+          "lessonSlug": "infinite-sequences-and-series-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -1843,8 +1927,8 @@
       "level": "university",
       "chapter": "Parametric Equations and Polar Coordinates",
       "chapterSlug": "parametric-equations-and-polar-coordinates",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -1893,6 +1977,12 @@
           "title": "Parametric Equations and Polar Coordinates Chapter Review",
           "lessonSlug": "parametric-equations-and-polar-coordinates-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Parametric Equations and Polar Coordinates Expert Mastery Review",
+          "lessonSlug": "parametric-equations-and-polar-coordinates-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -1901,8 +1991,8 @@
       "level": "university",
       "chapter": "Calculus Reference and Proof Appendices",
       "chapterSlug": "calculus-reference-and-proof-appendices",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Supporting mathematics",
@@ -1963,6 +2053,12 @@
           "title": "Brief Table of Integrals",
           "lessonSlug": "brief-table-of-integrals",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Calculus Reference and Proof Appendices Expert Mastery Review",
+          "lessonSlug": "calculus-reference-and-proof-appendices-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -1971,8 +2067,8 @@
       "level": "university",
       "chapter": "Vectors and the Geometry of Space",
       "chapterSlug": "vectors-and-the-geometry-of-space",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -2015,6 +2111,12 @@
           "title": "Vectors and the Geometry of Space Chapter Review",
           "lessonSlug": "vectors-and-the-geometry-of-space-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Vectors and the Geometry of Space Expert Mastery Review",
+          "lessonSlug": "vectors-and-the-geometry-of-space-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -2023,8 +2125,8 @@
       "level": "university",
       "chapter": "Vector-Valued Functions and Motion in Space",
       "chapterSlug": "vector-valued-functions-and-motion-in-space",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -2067,6 +2169,12 @@
           "title": "Vector-Valued Functions and Motion in Space Chapter Review",
           "lessonSlug": "vector-valued-functions-and-motion-in-space-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Vector-Valued Functions and Motion in Space Expert Mastery Review",
+          "lessonSlug": "vector-valued-functions-and-motion-in-space-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -2075,8 +2183,8 @@
       "level": "university",
       "chapter": "Partial Derivatives",
       "chapterSlug": "partial-derivatives",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -2143,6 +2251,12 @@
           "title": "Partial Derivatives Chapter Review",
           "lessonSlug": "partial-derivatives-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Partial Derivatives Expert Mastery Review",
+          "lessonSlug": "partial-derivatives-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -2151,8 +2265,8 @@
       "level": "university",
       "chapter": "Multiple Integrals",
       "chapterSlug": "multiple-integrals",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -2207,6 +2321,12 @@
           "title": "Multiple Integrals Chapter Review",
           "lessonSlug": "multiple-integrals-chapter-review",
           "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Multiple Integrals Expert Mastery Review",
+          "lessonSlug": "multiple-integrals-expert-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -2215,8 +2335,8 @@
       "level": "university",
       "chapter": "Integrals and Vector Fields",
       "chapterSlug": "integrals-and-vector-fields",
-      "status": "Weak",
-      "reason": "Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment.",
+      "status": "Strong",
+      "reason": "Upgraded from Weak with topic-aware deep-reasoning guidance, at least three worked examples per lesson, practice, graded mastery assessment, completion tracking and a dedicated Expert Mastery Review.",
       "lessons": [
         {
           "topic": "Numbered lessons",
@@ -2270,6 +2390,12 @@
           "topic": "Numbered lessons",
           "title": "Integrals and Vector Fields Chapter Review",
           "lessonSlug": "integrals-and-vector-fields-chapter-review",
+          "status": "present"
+        },
+        {
+          "topic": "Expert Chapter Mastery",
+          "title": "Integrals and Vector Fields Expert Mastery Review",
+          "lessonSlug": "integrals-and-vector-fields-expert-mastery-review",
           "status": "present"
         }
       ]

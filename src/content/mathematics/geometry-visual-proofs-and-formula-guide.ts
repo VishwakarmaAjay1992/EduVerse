@@ -4,18 +4,18 @@ export const geometryVisualProofsAndFormulaGuide: LessonContent = {
   subjectSlug: "mathematics",
   chapterSlug: "foundations-lines-and-angles",
   lessonSlug: "geometry-visual-proofs-and-formula-guide",
-  title: "Geometry Visual Proofs and Quick Reference",
+  title: "Geometry Visual Proofs and Formula Guide",
   objectives: [
     "Use diagrams as mathematical arguments, not only decorations.",
-    "Study clean colour recreations of important visual proofs.",
-    "Revise core Geometry facts in typed, textbook-style notes.",
+    "Study clear colour illustrations of important visual proofs.",
+    "Revise core geometry facts through structured reference notes.",
     "Connect visual reasoning to angles, triangles, quadrilaterals, circles and trigonometry."
   ],
   sections: [
     {
       kind: "overview",
       paragraphs: [
-        "This lesson is a visual companion to the Geometry section. It keeps the earlier textbook-style lessons and adds clean proof cards together with typed revision notes.",
+        "This lesson is a visual companion to the Geometry section. It combines proof cards with structured revision notes so that diagrams become tools for reasoning rather than decoration.",
         "A visual proof is not just a picture. Read the labels, notice the equal lengths, angle marks, colour blocks and rearrangements, then explain the result in your own words."
       ]
     },
@@ -28,7 +28,7 @@ export const geometryVisualProofsAndFormulaGuide: LessonContent = {
     {
       kind: "imageGallery",
       heading: "Colour visual proofs",
-      note: "These cards are recreated visuals with cleaner headers and lesson-friendly captions.",
+      note: "Use each proof card to connect the labelled diagram with a complete algebraic or geometric explanation.",
       images: [
         { src: "/geometry-recreated/visual-proofs/visual-proof-01.svg", alt: "Expansion of (a+b+c)^2", caption: "A large square of side $a+b+c$ is partitioned into $a^2$, $b^2$, $c^2$ and six rectangles. Adding the parts gives $(a+b+c)^2 = a^2+b^2+c^2+2ab+2ac+2bc$." },
         { src: "/geometry-recreated/visual-proofs/visual-proof-02.svg", alt: "Area identities with rectangles", caption: "Area models for $(a+b)^2$, $(a-b)^2$, $a^2-b^2$ and $(x+a)(x+b)$. Each coloured region turns an algebraic identity into a visible area statement." },
@@ -131,10 +131,10 @@ export const geometryVisualProofsAndFormulaGuide: LessonContent = {
     {
       kind: "summary",
       points: [
-        "Your earlier Geometry content is still present; this lesson adds typed revision notes and recreated visuals rather than scanned pages.",
-        "The colour proof cards are recreated assets, not direct page screenshots.",
-        "Visual proofs help students remember both the formula and the reason behind it.",
-        "The typed quick-reference notes are best used alongside the deeper textbook-style lessons."
+        "A visual proof must be translated into a sequence of mathematical statements.",
+        "Area, dissection, symmetry and angle relationships can reveal why important formulas are true.",
+        "Visual proofs support memory because they connect a formula with its geometric meaning.",
+        "The quick-reference tables connect foundational geometry with triangles, polygons, circles and trigonometry."
       ]
     },
     {

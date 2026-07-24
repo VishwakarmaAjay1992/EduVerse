@@ -88,7 +88,10 @@ import { recursiveAndSpecialSequences } from "@/content/mathematics/recursive-an
 import { permutationsAndCombinations } from "@/content/mathematics/permutations-and-combinations";
 import { trigonometryCourse } from "@/content/mathematics/trigonometry-course";
 import { moderateChapterReviews } from "@/content/mathematics/moderate-chapter-reviews";
+import { weakChapterReviews } from "@/content/mathematics/weak-chapter-reviews";
+import { missingMathematicsCourse } from "@/content/mathematics/missing-mathematics-course";
 import { enrichModerateLesson } from "@/lib/moderate-enrichment";
+import { enrichWeakLesson } from "@/lib/weak-enrichment";
 import type { LessonContent } from "./lesson-content-types";
 
 const calculusLessons = calculusLessonsData as LessonContent[];
@@ -148,6 +151,8 @@ const REGISTRY: LessonContent[] = [
   permutationsAndCombinations,
   ...trigonometryCourse,
   ...moderateChapterReviews,
+  ...weakChapterReviews,
+  ...missingMathematicsCourse,
   ...calculusLessons,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
@@ -198,7 +203,7 @@ export function getLessonContent(
         c.lessonSlug === lessonSlug
     ) ?? null;
 
-  return content ? enrichModerateLesson(content) : null;
+  return content ? enrichWeakLesson(enrichModerateLesson(content)) : null;
 }
 
 export function hasLessonContent(subjectSlug: string, lessonSlug: string): boolean {
