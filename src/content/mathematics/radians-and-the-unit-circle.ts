@@ -1,7 +1,7 @@
 import type { LessonContent } from "@/lib/lesson-content-types";
 export const radiansAndTheUnitCircle: LessonContent = {
   subjectSlug: "mathematics",
-  chapterSlug: "the-unit-circle-and-identities",
+  chapterSlug: "foundations-of-trigonometry",
   lessonSlug: "radians-and-the-unit-circle",
   title: "Radians and the Unit Circle",
   objectives: [

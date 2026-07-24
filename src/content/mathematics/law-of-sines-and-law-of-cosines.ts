@@ -1,7 +1,7 @@
 import type { LessonContent } from "@/lib/lesson-content-types";
 export const lawOfSinesAndCosines: LessonContent = {
   subjectSlug: "mathematics",
-  chapterSlug: "trigonometric-equations-and-applications",
+  chapterSlug: "beyond-right-triangles",
   lessonSlug: "law-of-sines-and-law-of-cosines",
   title: "Law of Sines and Law of Cosines",
   objectives: [

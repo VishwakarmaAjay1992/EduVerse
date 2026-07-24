@@ -1,7 +1,7 @@
 import type { LessonContent } from "@/lib/lesson-content-types";
 export const modelingWithTrigonometricFunctions: LessonContent = {
   subjectSlug: "mathematics",
-  chapterSlug: "trigonometric-equations-and-applications",
+  chapterSlug: "trigonometric-graphs-and-applications-of-radian-measure",
   lessonSlug: "modeling-with-trigonometric-functions",
   title: "Modeling with Trigonometric Functions",
   objectives: [

@@ -1,10 +1,10 @@
-# Complete Trigonometry Course — Internal Coverage Checklist
+# Unified Trigonometry Course — Internal Coverage Checklist
 
 This checklist is an internal development and QA document. It is not linked from the student-facing website.
 
 ## Source structure reviewed
 
-The source curriculum contains eight chapters and twenty-six instructional sections. Each instructional section has been assigned to one native EduVerse lesson rather than being divided by printed page.
+The textbook-based curriculum contains eight chapters and twenty-six instructional sections. These are combined with eight pre-existing EduVerse Trigonometry lessons in one student-facing course, giving thirty-four native lessons across the same eight chapters.
 
 ## Chapter-to-lesson mapping
 
@@ -84,14 +84,25 @@ The source curriculum contains eight chapters and twenty-six instructional secti
 - [x] Parametric Descriptions for Oriented Curves
   - Direction/speed changes, line segments, circles, cycloids, projectile motion
 
+## Original EduVerse lessons retained in the unified course
+
+- [x] Sine, Cosine and Tangent
+- [x] Angles of Elevation and Depression
+- [x] Radians and the Unit Circle
+- [x] Fundamental Identities
+- [x] Compound and Double Angle Formulas
+- [x] Trigonometric Equations
+- [x] Law of Sines and Law of Cosines
+- [x] Modeling with Trigonometric Functions
+
 ## Content and presentation verification
 
 - [x] Every lesson has learning objectives.
 - [x] Every lesson has an introduction and key definition.
 - [x] Important formulas are rendered through the existing KaTeX pipeline.
-- [x] Every lesson has at least two checked worked examples.
+- [x] Every textbook-based lesson has at least two checked worked examples.
 - [x] Every lesson includes common mistakes and corrections.
-- [x] Every lesson includes four practice questions with explanations.
+- [x] Every textbook-based lesson includes four practice questions with explanations.
 - [x] Every lesson includes a summary and completion step.
 - [x] Seventeen reusable responsive SVG diagram modes were added.
 - [x] No full-page images, scanned pages, PDF viewer, or PDF download control is included.

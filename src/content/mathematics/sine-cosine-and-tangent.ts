@@ -2,7 +2,7 @@ import type { LessonContent } from "@/lib/lesson-content-types";
 
 export const sineCosineAndTangent: LessonContent = {
   subjectSlug: "mathematics",
-  chapterSlug: "right-triangle-trigonometry",
+  chapterSlug: "foundations-of-trigonometry",
   lessonSlug: "sine-cosine-and-tangent",
   title: "Sine, Cosine and Tangent",
   objectives: [

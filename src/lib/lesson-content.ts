@@ -5,20 +5,12 @@ import { decimalNotationAndOperations } from "@/content/mathematics/decimal-nota
 import { estimationAndApproximation } from "@/content/mathematics/estimation-and-approximation";
 import { fractionsAsPartsOfAWhole } from "@/content/mathematics/fractions-as-parts-of-a-whole";
 import { fractionsDecimalsAndRecurringDecimals } from "@/content/mathematics/fractions-decimals-and-recurring-decimals";
-import { sineCosineAndTangent } from "@/content/mathematics/sine-cosine-and-tangent";
-import { anglesOfElevationAndDepression } from "@/content/mathematics/angles-of-elevation-and-depression";
 import { equationOfACircle } from "@/content/mathematics/equation-of-a-circle";
 import { theParabolaAsAConic } from "@/content/mathematics/the-parabola-as-a-conic";
 import { ellipseAndHyperbola } from "@/content/mathematics/ellipse-and-hyperbola";
 import { pointsLinesPlanesAndAngles } from "@/content/mathematics/points-lines-planes-and-angles";
 import { angleRelationships } from "@/content/mathematics/angle-relationships";
 import { geometryVisualProofsAndFormulaGuide } from "@/content/mathematics/geometry-visual-proofs-and-formula-guide";
-import { radiansAndTheUnitCircle } from "@/content/mathematics/radians-and-the-unit-circle";
-import { fundamentalIdentities } from "@/content/mathematics/fundamental-identities";
-import { compoundAndDoubleAngleFormulas } from "@/content/mathematics/compound-and-double-angle-formulas";
-import { trigonometricEquations } from "@/content/mathematics/trigonometric-equations";
-import { lawOfSinesAndCosines } from "@/content/mathematics/law-of-sines-and-law-of-cosines";
-import { modelingWithTrigonometricFunctions } from "@/content/mathematics/modeling-with-trigonometric-functions";
 import { trianglesAndTheirAngles } from "@/content/mathematics/triangles-and-their-angles";
 import { thePythagoreanTheorem } from "@/content/mathematics/the-pythagorean-theorem";
 import { congruentTriangles } from "@/content/mathematics/congruent-triangles";
@@ -93,7 +85,7 @@ import { arithmeticSequencesAndSeries } from "@/content/mathematics/arithmetic-s
 import { geometricSequencesAndSeries } from "@/content/mathematics/geometric-sequences-and-series";
 import { recursiveAndSpecialSequences } from "@/content/mathematics/recursive-and-special-sequences";
 import { permutationsAndCombinations } from "@/content/mathematics/permutations-and-combinations";
-import { completeTrigonometryCourse } from "@/content/mathematics/complete-trigonometry-course";
+import { trigonometryCourse } from "@/content/mathematics/trigonometry-course";
 import type { LessonContent } from "./lesson-content-types";
 
 const REGISTRY: LessonContent[] = [
@@ -149,12 +141,10 @@ const REGISTRY: LessonContent[] = [
   geometricSequencesAndSeries,
   recursiveAndSpecialSequences,
   permutationsAndCombinations,
-  ...completeTrigonometryCourse,
+  ...trigonometryCourse,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
   solvingOneStepAndTwoStepEquations,
-  sineCosineAndTangent,
-  anglesOfElevationAndDepression,
   equationOfACircle,
   theParabolaAsAConic,
   ellipseAndHyperbola,
@@ -173,12 +163,6 @@ const REGISTRY: LessonContent[] = [
   translationRotationReflectionAndEnlargement,
   symmetry,
   rulerAndCompassConstructions,
-  radiansAndTheUnitCircle,
-  fundamentalIdentities,
-  compoundAndDoubleAngleFormulas,
-  trigonometricEquations,
-  lawOfSinesAndCosines,
-  modelingWithTrigonometricFunctions,
   introductionToPhysicalQuantities,
   dimensionalAnalysis,
   measurementUncertaintyAndSignificantFigures,

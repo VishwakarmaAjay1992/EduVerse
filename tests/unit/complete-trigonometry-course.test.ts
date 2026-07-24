@@ -1,6 +1,10 @@
 import { describe, expect, it } from "vitest";
 import mathematics from "@/data/curriculum/mathematics.json";
 import { completeTrigonometryCourse } from "@/content/mathematics/complete-trigonometry-course";
+import {
+  originalTrigonometryLessons,
+  trigonometryCourse,
+} from "@/content/mathematics/trigonometry-course";
 import { findLesson, lessonParams } from "@/lib/curriculum";
 import { getLessonContent } from "@/lib/lesson-content";
 import { slugify } from "@/lib/slug";
@@ -34,40 +38,43 @@ function flattenText(value: unknown): string {
   return "";
 }
 
-describe("complete trigonometry course", () => {
-  it("contains 8 chapters and 26 unique native lessons", () => {
+describe("unified trigonometry course", () => {
+  it("combines the 26 complete-course lessons with all 8 original EduVerse lessons", () => {
     expect(completeTrigonometryCourse).toHaveLength(26);
-    expect(new Set(completeTrigonometryCourse.map((lesson) => lesson.lessonSlug)).size).toBe(26);
-    expect(new Set(completeTrigonometryCourse.map((lesson) => lesson.chapterSlug))).toEqual(
+    expect(originalTrigonometryLessons).toHaveLength(8);
+    expect(trigonometryCourse).toHaveLength(34);
+    expect(new Set(trigonometryCourse.map((lesson) => lesson.lessonSlug)).size).toBe(34);
+    expect(new Set(trigonometryCourse.map((lesson) => lesson.chapterSlug))).toEqual(
       new Set(CHAPTERS)
     );
   });
 
-  it("registers every lesson through curriculum routes and the content registry", () => {
-    const category = mathematics.categories.find(
-      (item) => item.title === "Trigonometry: Complete Course"
+  it("shows one Trigonometry category with 8 chapters and 34 routed lessons", () => {
+    const categories = mathematics.categories.filter((item) =>
+      item.title.toLowerCase().startsWith("trigonometry")
     );
-    expect(category?.chapters).toHaveLength(8);
+    expect(categories).toHaveLength(1);
+
+    const category = categories[0];
+    expect(category.title).toBe("Trigonometry");
+    expect(category.chapters).toHaveLength(8);
 
     const curriculumRoutes = new Set(
-      category?.chapters.flatMap((chapter) =>
+      category.chapters.flatMap((chapter) =>
         chapter.topics.flatMap((topic) =>
-          topic.lessons.map(
-            (lesson) => `${slugify(chapter.title)}/${slugify(lesson.title)}`
-          )
+          topic.lessons.map((lesson) => `${slugify(chapter.title)}/${slugify(lesson.title)}`)
         )
-      ) ?? []
-    );
-
-    const contentRoutes = new Set(
-      completeTrigonometryCourse.map(
-        (lesson) => `${lesson.chapterSlug}/${lesson.lessonSlug}`
       )
     );
 
+    const contentRoutes = new Set(
+      trigonometryCourse.map((lesson) => `${lesson.chapterSlug}/${lesson.lessonSlug}`)
+    );
+
+    expect(curriculumRoutes.size).toBe(34);
     expect(curriculumRoutes).toEqual(contentRoutes);
 
-    for (const lesson of completeTrigonometryCourse) {
+    for (const lesson of trigonometryCourse) {
       expect(findLesson("mathematics", lesson.chapterSlug, lesson.lessonSlug)).not.toBeNull();
       expect(getLessonContent("mathematics", lesson.chapterSlug, lesson.lessonSlug)).toBe(lesson);
     }
@@ -80,7 +87,7 @@ describe("complete trigonometry course", () => {
     for (const route of contentRoutes) expect(generatedRoutes.has(route)).toBe(true);
   });
 
-  it("provides complete student-facing lesson structure", () => {
+  it("keeps the 26 textbook-based lessons fully structured", () => {
     for (const lesson of completeTrigonometryCourse) {
       expect(lesson.objectives.length).toBeGreaterThanOrEqual(4);
       for (const kind of REQUIRED_SECTION_KINDS) {
@@ -98,8 +105,16 @@ describe("complete trigonometry course", () => {
     }
   });
 
+  it("keeps every original lesson as native content inside the unified chapters", () => {
+    for (const lesson of originalTrigonometryLessons) {
+      expect(lesson.objectives.length).toBeGreaterThanOrEqual(3);
+      expect(lesson.sections.length).toBeGreaterThanOrEqual(8);
+      expect(CHAPTERS).toContain(lesson.chapterSlug as (typeof CHAPTERS)[number]);
+    }
+  });
+
   it("contains clean mathematical text without placeholders or extraction artifacts", () => {
-    const text = flattenText(completeTrigonometryCourse);
+    const text = flattenText(trigonometryCourse);
     expect(text).not.toMatch(/uploaded pdf|source:\s*uploaded|copied from|content extracted|pdf page|scanned from/i);
     expect(text).not.toMatch(/TODO|TBD|lorem ipsum|placeholder/i);
     expect(text).not.toMatch(/[]/);

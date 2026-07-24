@@ -1,7 +1,7 @@
 import type { LessonContent } from "@/lib/lesson-content-types";
 export const trigonometricEquations: LessonContent = {
   subjectSlug: "mathematics",
-  chapterSlug: "trigonometric-equations-and-applications",
+  chapterSlug: "trigonometric-equations",
   lessonSlug: "trigonometric-equations",
   title: "Trigonometric Equations",
   objectives: [

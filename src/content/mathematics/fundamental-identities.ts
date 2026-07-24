@@ -1,7 +1,7 @@
 import type { LessonContent } from "@/lib/lesson-content-types";
 export const fundamentalIdentities: LessonContent = {
   subjectSlug: "mathematics",
-  chapterSlug: "the-unit-circle-and-identities",
+  chapterSlug: "trigonometric-identities",
   lessonSlug: "fundamental-identities",
   title: "Fundamental Identities",
   objectives: [

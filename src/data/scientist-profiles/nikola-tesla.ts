@@ -925,7 +925,7 @@ export const nikolaTesla: ScientistProfile = {
     },
     {
       title: "Trigonometric Graphs",
-      href: "/subjects/mathematics/trigonometric-graphs",
+      href: "/subjects/mathematics/trigonometric-graphs-and-applications-of-radian-measure",
       description:
         "Sinusoidal AC waveforms and phase differences are naturally described by trigonometric functions.",
     },

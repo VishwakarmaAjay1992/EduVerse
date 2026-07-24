@@ -846,7 +846,7 @@ export const pythagoras: ScientistProfile = {
   relatedTopics: [
     {
       title: "Right-Triangle Trigonometry",
-      href: "/subjects/mathematics/right-triangle-trigonometry",
+      href: "/subjects/mathematics/foundations-of-trigonometry",
       description:
         "The theorem and the trigonometric ratios that grow directly out of it.",
     },

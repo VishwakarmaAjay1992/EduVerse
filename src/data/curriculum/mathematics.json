@@ -1143,150 +1143,6 @@
       "level": "intermediate",
       "chapters": [
         {
-          "title": "Right-Triangle Trigonometry",
-          "prereq": [
-            "Triangles and Congruence"
-          ],
-          "topics": [
-            {
-              "title": "Trigonometric Ratios",
-              "lessons": [
-                {
-                  "title": "Sine, Cosine and Tangent",
-                  "d": 3,
-                  "min": 45,
-                  "sub": [
-                    "SOHCAHTOA",
-                    "Finding sides and angles",
-                    "Exact values for special angles"
-                  ]
-                },
-                {
-                  "title": "Angles of Elevation and Depression",
-                  "d": 3,
-                  "min": 40,
-                  "sub": [
-                    "Modeling with right triangles",
-                    "Bearings",
-                    "Multi-step problems"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "The Unit Circle and Identities",
-          "prereq": [
-            "Right-Triangle Trigonometry"
-          ],
-          "topics": [
-            {
-              "title": "The Unit Circle",
-              "lessons": [
-                {
-                  "title": "Radians and the Unit Circle",
-                  "d": 3,
-                  "min": 50,
-                  "sub": [
-                    "Radian measure",
-                    "Extending trig to all angles",
-                    "CAST/quadrant signs",
-                    "Graphs of sin, cos, tan"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Trigonometric Identities",
-              "lessons": [
-                {
-                  "title": "Fundamental Identities",
-                  "d": 4,
-                  "min": 50,
-                  "sub": [
-                    "Pythagorean identities",
-                    "Reciprocal and quotient identities",
-                    "Proving identities"
-                  ]
-                },
-                {
-                  "title": "Compound and Double Angle Formulas",
-                  "d": 4,
-                  "min": 55,
-                  "sub": [
-                    "Addition formulas",
-                    "Double and half angle",
-                    "Product-to-sum",
-                    "R-form a sin x + b cos x"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "Trigonometric Equations and Applications",
-          "prereq": [
-            "The Unit Circle and Identities"
-          ],
-          "topics": [
-            {
-              "title": "Solving Trig Equations",
-              "lessons": [
-                {
-                  "title": "Trigonometric Equations",
-                  "d": 4,
-                  "min": 50,
-                  "sub": [
-                    "Principal values",
-                    "General solutions",
-                    "Equations requiring identities",
-                    "Inverse trig functions"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Non-Right Triangles",
-              "lessons": [
-                {
-                  "title": "Law of Sines and Law of Cosines",
-                  "d": 3,
-                  "min": 50,
-                  "sub": [
-                    "Sine rule and the ambiguous case",
-                    "Cosine rule",
-                    "Area formula",
-                    "Surveying applications"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Periodic Modeling",
-              "lessons": [
-                {
-                  "title": "Modeling with Trigonometric Functions",
-                  "d": 4,
-                  "min": 45,
-                  "sub": [
-                    "Amplitude, period, phase shift",
-                    "Tides, sound, seasons",
-                    "Fitting sinusoidal models"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Trigonometry: Complete Course",
-      "level": "advanced",
-      "chapters": [
-        {
           "title": "Foundations of Trigonometry",
           "prereq": [
             "Triangles and Congruence"
@@ -1307,6 +1163,16 @@
                   ]
                 },
                 {
+                  "title": "Sine, Cosine and Tangent",
+                  "d": 3,
+                  "min": 45,
+                  "sub": [
+                    "SOHCAHTOA",
+                    "Finding sides and angles",
+                    "Exact values for special angles"
+                  ]
+                },
+                {
                   "title": "Right Triangle Trigonometry",
                   "d": 3,
                   "min": 55,
@@ -1316,12 +1182,33 @@
                     "Solving triangles",
                     "Applications"
                   ]
+                },
+                {
+                  "title": "Angles of Elevation and Depression",
+                  "d": 3,
+                  "min": 40,
+                  "sub": [
+                    "Modeling with right triangles",
+                    "Bearings",
+                    "Multi-step problems"
+                  ]
                 }
               ]
             },
             {
               "title": "Circle Definitions and Identities",
               "lessons": [
+                {
+                  "title": "Radians and the Unit Circle",
+                  "d": 3,
+                  "min": 50,
+                  "sub": [
+                    "Radian measure",
+                    "Extending trigonometry to all angles",
+                    "Quadrant signs",
+                    "Graphs of sine, cosine, and tangent"
+                  ]
+                },
                 {
                   "title": "The Unit Circle",
                   "d": 3,
@@ -1400,6 +1287,16 @@
                     "Vertical asymptotes",
                     "Transformations"
                   ]
+                },
+                {
+                  "title": "Modeling with Trigonometric Functions",
+                  "d": 4,
+                  "min": 45,
+                  "sub": [
+                    "Amplitude, period, and phase shift",
+                    "Tides, sound, and seasons",
+                    "Fitting sinusoidal models"
+                  ]
                 }
               ]
             },
@@ -1431,6 +1328,16 @@
               "title": "Identity Techniques",
               "lessons": [
                 {
+                  "title": "Fundamental Identities",
+                  "d": 4,
+                  "min": 50,
+                  "sub": [
+                    "Pythagorean identities",
+                    "Reciprocal and quotient identities",
+                    "Proving identities"
+                  ]
+                },
+                {
                   "title": "Using Trigonometric Identities",
                   "d": 4,
                   "min": 65,
@@ -1450,6 +1357,17 @@
                     "Half-angle identities",
                     "Power reduction",
                     "Product-to-sum and sum-to-product"
+                  ]
+                },
+                {
+                  "title": "Compound and Double Angle Formulas",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Addition formulas",
+                    "Double- and half-angle formulas",
+                    "Product-to-sum formulas",
+                    "R-form: a sin x + b cos x"
                   ]
                 }
               ]
@@ -1513,6 +1431,17 @@
                     "Quadratic form",
                     "Multiple-angle equations"
                   ]
+                },
+                {
+                  "title": "Trigonometric Equations",
+                  "d": 4,
+                  "min": 50,
+                  "sub": [
+                    "Principal values",
+                    "General solutions",
+                    "Equations requiring identities",
+                    "Inverse trigonometric functions"
+                  ]
                 }
               ]
             }
@@ -1547,6 +1476,17 @@
                     "Pythagorean connection",
                     "Heron's formula",
                     "Applications"
+                  ]
+                },
+                {
+                  "title": "Law of Sines and Law of Cosines",
+                  "d": 3,
+                  "min": 50,
+                  "sub": [
+                    "Sine rule and the ambiguous case",
+                    "Cosine rule",
+                    "Area formula",
+                    "Surveying applications"
                   ]
                 }
               ]

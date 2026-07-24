@@ -2,7 +2,7 @@ import type { LessonContent } from "@/lib/lesson-content-types";
 
 export const anglesOfElevationAndDepression: LessonContent = {
   subjectSlug: "mathematics",
-  chapterSlug: "right-triangle-trigonometry",
+  chapterSlug: "foundations-of-trigonometry",
   lessonSlug: "angles-of-elevation-and-depression",
   title: "Angles of Elevation and Depression",
   objectives: [

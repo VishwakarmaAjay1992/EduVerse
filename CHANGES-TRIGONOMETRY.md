@@ -14,3 +14,11 @@
 - Existing Mathematics and Physics lessons.
 - Existing Trigonometry category and all prior lesson URLs.
 - Existing visual language, KaTeX rendering, progress tracking, and responsive lesson layout.
+## Unified Trigonometry merge
+
+- Replaced the two separate Mathematics cards (`Trigonometry` and `Trigonometry: Complete Course`) with one canonical `Trigonometry` course.
+- Combined all 26 textbook-based lessons with the 8 pre-existing EduVerse Trigonometry lessons, for 34 lessons across 8 chapters.
+- Moved the original lessons into the most relevant unified chapters without deleting their teaching content.
+- Added permanent redirects from the previous chapter and lesson URLs to the new canonical locations.
+- Updated curriculum tests to verify one category, route parity, lesson uniqueness, and preservation of the original lessons.
+

@@ -1,7 +1,7 @@
 import type { LessonContent } from "@/lib/lesson-content-types";
 export const compoundAndDoubleAngleFormulas: LessonContent = {
   subjectSlug: "mathematics",
-  chapterSlug: "the-unit-circle-and-identities",
+  chapterSlug: "trigonometric-identities",
   lessonSlug: "compound-and-double-angle-formulas",
   title: "Compound and Double Angle Formulas",
   objectives: [
