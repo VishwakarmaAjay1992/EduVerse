@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620">
+  <defs><style>.h{font:700 30px Arial;fill:#16324f}.t{font:700 17px Arial;fill:#16324f}.s{font:14px Arial;fill:#46637a}.arrow{stroke:#16324f;stroke-width:3}</style><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16324f"/></marker></defs>
+  <rect width="1100" height="620" fill="#fff"/>
+  <text x="35" y="52" class="h">Electromagnetic spectrum</text>
+  <g transform="translate(45,120)">
+    <rect x="0" y="0" width="145" height="145" fill="#dbeafe"/><rect x="145" y="0" width="145" height="145" fill="#c7d2fe"/><rect x="290" y="0" width="145" height="145" fill="#fed7aa"/><rect x="435" y="0" width="145" height="145" fill="url(#vis)"/><rect x="580" y="0" width="145" height="145" fill="#e9d5ff"/><rect x="725" y="0" width="145" height="145" fill="#fecaca"/><rect x="870" y="0" width="145" height="145" fill="#fca5a5"/>
+    <text x="42" y="70" class="t">Radio</text><text x="170" y="70" class="t">Microwave</text><text x="335" y="70" class="t">Infrared</text><text x="474" y="70" class="t">Visible</text><text x="615" y="70" class="t">Ultraviolet</text><text x="765" y="70" class="t">X-ray</text><text x="910" y="70" class="t">Gamma</text>
+    <text x="25" y="115" class="s">longest λ</text><text x="905" y="115" class="s">shortest λ</text>
+  </g>
+  <defs><linearGradient id="vis" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset=".2" stop-color="#2563eb"/><stop offset=".4" stop-color="#06b6d4"/><stop offset=".55" stop-color="#22c55e"/><stop offset=".7" stop-color="#fde047"/><stop offset=".85" stop-color="#f97316"/><stop offset="1" stop-color="#dc2626"/></linearGradient></defs>
+  <line x1="80" y1="340" x2="1020" y2="340" class="arrow" marker-end="url(#m)"/>
+  <text x="335" y="325" class="t">frequency and photon energy increase</text>
+  <line x1="1020" y1="420" x2="80" y2="420" class="arrow" marker-end="url(#m)"/>
+  <text x="380" y="405" class="t">wavelength increases</text>
+  <text x="70" y="485" class="s">Non-ionizing dominates at the long-wavelength end.</text>
+  <text x="625" y="485" class="s">Short UV, X-rays and gamma can ionize matter.</text>
+  <text x="120" y="555" class="s">Boundaries are approximate; source mechanism helps classify overlapping high-frequency radiation.</text>
+</svg>

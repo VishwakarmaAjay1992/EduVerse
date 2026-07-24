@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <defs><style>.h{font:700 30px Arial;fill:#16324f}.t{font:18px Arial;fill:#16324f}.s{font:15px Arial;fill:#46637a}.ant{stroke:#16324f;stroke-width:7}.wave{stroke:#0284c7;stroke-width:2.4;fill:none}.field{stroke:#e11d48;stroke-width:2.5;fill:none}.charge{fill:#f97316;stroke:#9a3412;stroke-width:2}</style></defs>
+  <rect width="960" height="540" fill="#fff"/>
+  <text x="35" y="52" class="h">Oscillating dipole and radiation pattern</text>
+  <line x1="480" y1="120" x2="480" y2="410" class="ant"/>
+  <circle cx="480" cy="175" r="16" class="charge"/><text x="472" y="181" font-family="Arial" font-size="18" fill="white">+</text>
+  <circle cx="480" cy="355" r="16" fill="#60a5fa" stroke="#1d4ed8" stroke-width="2"/><text x="473" y="361" font-family="Arial" font-size="18" fill="white">−</text>
+  <ellipse cx="480" cy="265" rx="110" ry="60" class="wave"/>
+  <ellipse cx="480" cy="265" rx="190" ry="105" class="wave"/>
+  <ellipse cx="480" cy="265" rx="280" ry="150" class="wave"/>
+  <path d="M480,135 C390,165 375,235 400,275 C430,320 430,360 480,400" class="field"/>
+  <path d="M480,135 C570,165 585,235 560,275 C530,320 530,360 480,400" class="field"/>
+  <text x="65" y="175" class="t">strong radiation sideways</text>
+  <text x="675" y="175" class="t">strong radiation sideways</text>
+  <text x="390" y="485" class="s">Ideal short-dipole model: radiation is weak along the antenna axis.</text>
+</svg>

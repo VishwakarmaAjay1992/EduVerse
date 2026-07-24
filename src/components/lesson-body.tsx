@@ -1,4 +1,4 @@
-import { BookOpen, Globe, Lightbulb, Pin, Sparkles } from "lucide-react";
+import { BookOpen, FlaskConical, Globe, Lightbulb, Pin, Sparkles, TriangleAlert } from "lucide-react";
 import { AccuracyPrecision } from "@/components/figures/accuracy-precision";
 import { AngleTypes } from "@/components/figures/angle-types";
 import { ConicSection } from "@/components/figures/conic-section";
@@ -65,6 +65,7 @@ import { ExpLogEquationExplorer } from "@/components/interactive/exp-log-equatio
 import { ArithmeticSequenceExplorer } from "@/components/interactive/arithmetic-sequence-explorer";
 import { GeometricSequenceExplorer } from "@/components/interactive/geometric-sequence-explorer";
 import { RecursiveSequenceExplorer } from "@/components/interactive/recursive-sequence-explorer";
+import { ElectromagneticWaveExplorer } from "@/components/interactive/electromagnetic-wave-explorer";
 import { Flashcards } from "@/components/interactive/flashcards";
 import { Quiz } from "@/components/interactive/quiz";
 import { BlockMath, richText } from "@/components/math";
@@ -225,6 +226,11 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
           label: "Did you know?",
           cls: "border-sky-500/30 bg-sky-500/5",
         },
+        warning: {
+          icon: TriangleAlert,
+          label: "Safety note",
+          cls: "border-red-500/30 bg-red-500/5",
+        },
       }[section.variant];
       const Icon = cfg.icon;
       return (
@@ -237,6 +243,64 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
         </div>
       );
     }
+    case "experiment":
+      return (
+        <div className="space-y-4 rounded-xl border bg-card p-5">
+          <h3 className="flex items-center gap-2 text-lg font-semibold">
+            <FlaskConical className="size-5 text-primary" />
+            {rich(section.heading)}
+          </h3>
+          <div>
+            <p className="text-sm font-semibold">Aim</p>
+            <p className="mt-1 text-sm leading-7 text-muted-foreground">{rich(section.aim)}</p>
+          </div>
+          {section.apparatus && section.apparatus.length > 0 && (
+            <div>
+              <p className="text-sm font-semibold">Apparatus or model</p>
+              <ul className="ml-5 mt-1 list-disc space-y-1 text-sm text-muted-foreground">
+                {section.apparatus.map((item, i) => (
+                  <li key={i}>{rich(item)}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          <div>
+            <p className="text-sm font-semibold">Method</p>
+            <ol className="ml-5 mt-1 list-decimal space-y-1 text-sm text-muted-foreground">
+              {section.method.map((item, i) => (
+                <li key={i}>{rich(item)}</li>
+              ))}
+            </ol>
+          </div>
+          <div>
+            <p className="text-sm font-semibold">Observations and conclusion</p>
+            <ul className="ml-5 mt-1 list-disc space-y-1 text-sm text-muted-foreground">
+              {section.observations.map((item, i) => (
+                <li key={i}>{rich(item)}</li>
+              ))}
+            </ul>
+          </div>
+          {section.safety && section.safety.length > 0 && (
+            <div className="rounded-lg border border-red-500/30 bg-red-500/5 p-3">
+              <p className="text-sm font-semibold">Safety</p>
+              <ul className="ml-5 mt-1 list-disc space-y-1 text-sm text-muted-foreground">
+                {section.safety.map((item, i) => (
+                  <li key={i}>{rich(item)}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      );
+    case "electromagneticWaveExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {rich(section.heading ?? "Electromagnetic-wave interactive laboratory")}
+          </h3>
+          <ElectromagneticWaveExplorer mode={section.mode} />
+        </div>
+      );
     case "realWorld":
       return (
         <div className="space-y-3">

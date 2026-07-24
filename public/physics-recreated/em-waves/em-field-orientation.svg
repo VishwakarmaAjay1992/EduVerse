@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <defs><style>.h{font:700 30px Arial;fill:#16324f}.t{font:18px Arial;fill:#16324f}.s{font:15px Arial;fill:#46637a}.axis{stroke:#16324f;stroke-width:3}.e{stroke:#0284c7;stroke-width:4;fill:none}.b{stroke:#e11d48;stroke-width:4;fill:none}</style><marker id="m" markerWidth="11" markerHeight="11" refX="9" refY="3.5" orient="auto"><path d="M0,0 L0,7 L10,3.5 z" fill="#16324f"/></marker></defs>
+  <rect width="960" height="540" fill="#fff"/>
+  <text x="35" y="52" class="h">Mutually perpendicular field directions</text>
+  <line x1="150" y1="300" x2="840" y2="300" class="axis" marker-end="url(#m)"/>
+  <text x="725" y="285" class="t">propagation x</text>
+  <path d="M170,300 C230,170 290,430 350,300 C410,170 470,430 530,300 C590,170 650,430 710,300" class="e"/>
+  <path d="M170,300 C230,245 290,355 350,300 C410,245 470,355 530,300 C590,245 650,355 710,300" class="b" transform="skewY(-18)"/>
+  <line x1="120" y1="300" x2="120" y2="125" stroke="#0284c7" stroke-width="4" marker-end="url(#m)"/>
+  <text x="70" y="110" class="t">electric field E</text>
+  <line x1="120" y1="300" x2="50" y2="375" stroke="#e11d48" stroke-width="4" marker-end="url(#m)"/>
+  <text x="35" y="410" class="t">magnetic field B</text>
+  <text x="300" y="485" class="s">E ⟂ B, and E × B points along the direction of propagation.</text>
+</svg>

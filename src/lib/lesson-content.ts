@@ -37,6 +37,7 @@ import { equationsOfMotion } from "@/content/physics/equations-of-motion";
 import { vectorsInKinematics } from "@/content/physics/vectors-in-kinematics";
 import { projectileMotion } from "@/content/physics/projectile-motion";
 import { alternatingCurrent } from "@/content/physics/alternating-current";
+import { electromagneticWavesCourse } from "@/content/physics/electromagnetic-waves-course";
 import { mixedNumbersAndImproperFractions } from "@/content/mathematics/mixed-numbers-and-improper-fractions";
 import { multiplicationAndDivision } from "@/content/mathematics/multiplication-and-division";
 import { multiplyingAndDividingFractions } from "@/content/mathematics/multiplying-and-dividing-fractions";
@@ -188,6 +189,7 @@ const REGISTRY: LessonContent[] = [
   vectorsInKinematics,
   projectileMotion,
   alternatingCurrent,
+  ...electromagneticWavesCourse,
 ];
 
 export function getLessonContent(
@@ -232,6 +234,12 @@ export function lessonOutline(content: LessonContent): OutlineItem[] {
         break;
       case "realWorld":
         items.push({ id, label: "Real-world uses" });
+        break;
+      case "experiment":
+        items.push({ id, label: plainMath(section.heading) });
+        break;
+      case "electromagneticWaveExplorer":
+        items.push({ id, label: plainMath(section.heading ?? "Interactive electromagnetic-wave laboratory") });
         break;
       case "motionExplorer":
         items.push({ id, label: "Interactive motion explorer" });

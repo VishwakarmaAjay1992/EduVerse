@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <defs>
+    <style>.h{font:700 30px Arial;fill:#16324f}.t{font:18px Arial;fill:#16324f}.s{font:15px Arial;fill:#46637a}.box{fill:#f4f9fd;stroke:#16324f;stroke-width:2.5}.e{fill:#dff3ff;stroke:#0284c7;stroke-width:3}.b{fill:#ffe4e8;stroke:#e11d48;stroke-width:3}.a{stroke:#d97706;stroke-width:4;fill:none}</style>
+    <marker id="m" markerWidth="12" markerHeight="12" refX="10" refY="4" orient="auto"><path d="M0,0 L0,8 L11,4 z" fill="#d97706"/></marker>
+  </defs>
+  <rect width="960" height="540" fill="#fff"/>
+  <text x="35" y="52" class="h">Maxwell's self-sustaining field cycle</text>
+  <rect x="90" y="135" width="300" height="170" rx="24" class="e"/>
+  <text x="155" y="195" class="t">Changing electric field</text>
+  <text x="135" y="230" class="s">Ampère–Maxwell law</text>
+  <text x="135" y="260" class="s">creates magnetic circulation</text>
+  <rect x="570" y="135" width="300" height="170" rx="24" class="b"/>
+  <text x="635" y="195" class="t">Changing magnetic field</text>
+  <text x="650" y="230" class="s">Faraday's law</text>
+  <text x="625" y="260" class="s">creates electric circulation</text>
+  <path d="M390,185 C470,95 520,95 570,185" class="a" marker-end="url(#m)"/>
+  <path d="M570,255 C500,355 440,355 390,255" class="a" marker-end="url(#m)"/>
+  <line x1="190" y1="390" x2="760" y2="390" stroke="#16324f" stroke-width="4" marker-end="url(#m)"/>
+  <text x="365" y="430" class="t">wave and energy propagate through space</text>
+  <text x="210" y="475" class="s">In vacuum the coupled equations predict c = 1/√(μ₀ε₀).</text>
+</svg>

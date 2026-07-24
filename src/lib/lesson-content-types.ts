@@ -131,7 +131,7 @@ export type LessonSection =
   | { kind: "theory"; heading: string; paragraphs: string[]; list?: string[] }
   | {
       kind: "callout";
-      variant: "definition" | "remember" | "tip" | "didyouknow";
+      variant: "definition" | "remember" | "tip" | "didyouknow" | "warning";
       title?: string;
       body: string;
     }
@@ -146,6 +146,27 @@ export type LessonSection =
   | { kind: "realWorld"; heading?: string; items: { area: string; text: string }[] }
   | { kind: "example"; prompt: string; steps: string[]; answer: string }
   | { kind: "mistakes"; items: { wrong: string; right: string }[] }
+  | {
+      kind: "experiment";
+      heading: string;
+      aim: string;
+      apparatus?: string[];
+      method: string[];
+      observations: string[];
+      safety?: string[];
+    }
+  | {
+      kind: "electromagneticWaveExplorer";
+      heading?: string;
+      mode:
+        | "field-wave"
+        | "spectrum"
+        | "energy"
+        | "polarization"
+        | "refraction"
+        | "dipole"
+        | "communication";
+    }
   | { kind: "motionExplorer"; heading?: string }
   | { kind: "motionGraphExplorer"; heading?: string }
   | { kind: "forceExplorer"; heading?: string }
