@@ -1,0 +1,14 @@
+{
+  "enrichedOriginalLessons": 90,
+  "masteryReviews": 24,
+  "plannedLessons": 338,
+  "registeredLessons": 273,
+  "missingLessons": 65,
+  "reviewTotals": {
+    "examples": 144,
+    "practice": 240,
+    "graded": 144,
+    "visuals": 61
+  },
+  "allCriteriaPassed": true
+}

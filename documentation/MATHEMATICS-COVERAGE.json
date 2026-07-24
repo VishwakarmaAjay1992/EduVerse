@@ -1,12 +1,12 @@
 {
   "summary": {
     "chapters": 78,
-    "lessons": 314,
-    "registered_lessons": 249,
+    "lessons": 338,
+    "registered_lessons": 273,
     "missing_lessons": 65,
     "status_counts": {
-      "Moderate": 24,
-      "Strong": 3,
+      "Strong": 27,
+      "Moderate": 0,
       "Weak": 21,
       "Missing": 30
     }
@@ -17,8 +17,8 @@
       "level": "beginner",
       "chapter": "Whole Numbers and Arithmetic",
       "chapterSlug": "whole-numbers-and-arithmetic",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Place Value and Number Systems",
@@ -55,6 +55,12 @@
           "title": "Estimation and Approximation",
           "lessonSlug": "estimation-and-approximation",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Whole Numbers and Arithmetic Mastery Review",
+          "lessonSlug": "whole-numbers-and-arithmetic-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -63,8 +69,8 @@
       "level": "beginner",
       "chapter": "Fractions and Decimals",
       "chapterSlug": "fractions-and-decimals",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Understanding Fractions",
@@ -101,6 +107,12 @@
           "title": "Fractions, Decimals and Recurring Decimals",
           "lessonSlug": "fractions-decimals-and-recurring-decimals",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Fractions and Decimals Mastery Review",
+          "lessonSlug": "fractions-and-decimals-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -109,8 +121,8 @@
       "level": "beginner",
       "chapter": "Percentages, Ratio and Proportion",
       "chapterSlug": "percentages-ratio-and-proportion",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Percentages",
@@ -135,6 +147,12 @@
           "title": "Direct and Inverse Proportion",
           "lessonSlug": "direct-and-inverse-proportion",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Percentages, Ratio and Proportion Mastery Review",
+          "lessonSlug": "percentages-ratio-and-proportion-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -143,8 +161,8 @@
       "level": "beginner",
       "chapter": "Exponents, Roots and Scientific Notation",
       "chapterSlug": "exponents-roots-and-scientific-notation",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Powers and Roots",
@@ -163,6 +181,12 @@
           "title": "Standard Form",
           "lessonSlug": "standard-form",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Exponents, Roots and Scientific Notation Mastery Review",
+          "lessonSlug": "exponents-roots-and-scientific-notation-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -171,8 +195,8 @@
       "level": "beginner",
       "chapter": "Measurement and Units",
       "chapterSlug": "measurement-and-units",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Units and Conversion",
@@ -191,6 +215,12 @@
           "title": "Volume and Surface Area Basics",
           "lessonSlug": "volume-and-surface-area-basics",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Measurement and Units Mastery Review",
+          "lessonSlug": "measurement-and-units-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -199,8 +229,8 @@
       "level": "beginner",
       "chapter": "Integers and Rational Numbers",
       "chapterSlug": "integers-and-rational-numbers",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Negative Numbers",
@@ -219,6 +249,12 @@
           "title": "Rational and Irrational Numbers",
           "lessonSlug": "rational-and-irrational-numbers",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Integers and Rational Numbers Mastery Review",
+          "lessonSlug": "integers-and-rational-numbers-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -227,8 +263,8 @@
       "level": "beginner",
       "chapter": "Factors, Multiples and Primes",
       "chapterSlug": "factors-multiples-and-primes",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Divisibility and Primes",
@@ -247,6 +283,12 @@
           "title": "Highest Common Factor and Lowest Common Multiple",
           "lessonSlug": "highest-common-factor-and-lowest-common-multiple",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Factors, Multiples and Primes Mastery Review",
+          "lessonSlug": "factors-multiples-and-primes-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -255,8 +297,8 @@
       "level": "beginner",
       "chapter": "Introduction to Algebraic Thinking",
       "chapterSlug": "introduction-to-algebraic-thinking",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Variables and Expressions",
@@ -274,6 +316,12 @@
           "topic": "Simple Equations",
           "title": "Solving One-Step and Two-Step Equations",
           "lessonSlug": "solving-one-step-and-two-step-equations",
+          "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Introduction to Algebraic Thinking Mastery Review",
+          "lessonSlug": "introduction-to-algebraic-thinking-mastery-review",
           "status": "present"
         }
       ]
@@ -305,8 +353,8 @@
       "level": "intermediate",
       "chapter": "Linear Equations and Inequalities",
       "chapterSlug": "linear-equations-and-inequalities",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Linear Equations",
@@ -331,6 +379,12 @@
           "title": "Systems of Linear Equations",
           "lessonSlug": "systems-of-linear-equations",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Linear Equations and Inequalities Mastery Review",
+          "lessonSlug": "linear-equations-and-inequalities-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -339,8 +393,8 @@
       "level": "intermediate",
       "chapter": "Polynomials and Factoring",
       "chapterSlug": "polynomials-and-factoring",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Polynomial Arithmetic",
@@ -365,6 +419,12 @@
           "title": "Rational Expressions",
           "lessonSlug": "rational-expressions",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Polynomials and Factoring Mastery Review",
+          "lessonSlug": "polynomials-and-factoring-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -373,8 +433,8 @@
       "level": "intermediate",
       "chapter": "Quadratic Equations",
       "chapterSlug": "quadratic-equations",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Solving Quadratics",
@@ -393,6 +453,12 @@
           "title": "Parabolas",
           "lessonSlug": "parabolas",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Quadratic Equations Mastery Review",
+          "lessonSlug": "quadratic-equations-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -401,8 +467,8 @@
       "level": "intermediate",
       "chapter": "Functions and Graphs",
       "chapterSlug": "functions-and-graphs",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "The Function Concept",
@@ -427,6 +493,12 @@
           "title": "Graph Transformations",
           "lessonSlug": "graph-transformations",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Functions and Graphs Mastery Review",
+          "lessonSlug": "functions-and-graphs-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -435,8 +507,8 @@
       "level": "intermediate",
       "chapter": "Exponentials and Logarithms",
       "chapterSlug": "exponentials-and-logarithms",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Exponential Functions",
@@ -455,6 +527,12 @@
           "title": "Exponential and Logarithmic Equations",
           "lessonSlug": "exponential-and-logarithmic-equations",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Exponentials and Logarithms Mastery Review",
+          "lessonSlug": "exponentials-and-logarithms-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -463,8 +541,8 @@
       "level": "intermediate",
       "chapter": "Sequences and Series",
       "chapterSlug": "sequences-and-series",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Arithmetic and Geometric Sequences",
@@ -482,6 +560,12 @@
           "topic": "Other Sequences",
           "title": "Recursive and Special Sequences",
           "lessonSlug": "recursive-and-special-sequences",
+          "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Sequences and Series Mastery Review",
+          "lessonSlug": "sequences-and-series-mastery-review",
           "status": "present"
         }
       ]
@@ -641,8 +725,8 @@
       "level": "intermediate",
       "chapter": "Foundations of Trigonometry",
       "chapterSlug": "foundations-of-trigonometry",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Angles and Right Triangles",
@@ -697,6 +781,12 @@
           "title": "Beyond the Unit Circle",
           "lessonSlug": "beyond-the-unit-circle",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Foundations of Trigonometry Mastery Review",
+          "lessonSlug": "foundations-of-trigonometry-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -705,8 +795,8 @@
       "level": "intermediate",
       "chapter": "Trigonometric Graphs and Applications of Radian Measure",
       "chapterSlug": "trigonometric-graphs-and-applications-of-radian-measure",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Periodic Graphs",
@@ -731,6 +821,12 @@
           "title": "Applications of Radian Measure",
           "lessonSlug": "applications-of-radian-measure",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Trigonometric Graphs and Applications of Radian Measure Mastery Review",
+          "lessonSlug": "trigonometric-graphs-and-applications-of-radian-measure-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -739,8 +835,8 @@
       "level": "intermediate",
       "chapter": "Trigonometric Identities",
       "chapterSlug": "trigonometric-identities",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Identity Techniques",
@@ -765,6 +861,12 @@
           "title": "Compound and Double Angle Formulas",
           "lessonSlug": "compound-and-double-angle-formulas",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Trigonometric Identities Mastery Review",
+          "lessonSlug": "trigonometric-identities-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -773,8 +875,8 @@
       "level": "intermediate",
       "chapter": "Trigonometric Equations",
       "chapterSlug": "trigonometric-equations",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Inverse Trigonometric Functions",
@@ -805,6 +907,12 @@
           "title": "Trigonometric Equations",
           "lessonSlug": "trigonometric-equations",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Trigonometric Equations Mastery Review",
+          "lessonSlug": "trigonometric-equations-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -813,8 +921,8 @@
       "level": "intermediate",
       "chapter": "Beyond Right Triangles",
       "chapterSlug": "beyond-right-triangles",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Oblique Triangles",
@@ -833,6 +941,12 @@
           "title": "Law of Sines and Law of Cosines",
           "lessonSlug": "law-of-sines-and-law-of-cosines",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Beyond Right Triangles Mastery Review",
+          "lessonSlug": "beyond-right-triangles-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -841,8 +955,8 @@
       "level": "intermediate",
       "chapter": "Polar Coordinates and Applications",
       "chapterSlug": "polar-coordinates-and-applications",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Polar Coordinates and Graphs",
@@ -867,6 +981,12 @@
           "title": "Complex Products, Powers, Quotients, and Roots",
           "lessonSlug": "complex-products-powers-quotients-and-roots",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Polar Coordinates and Applications Mastery Review",
+          "lessonSlug": "polar-coordinates-and-applications-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -875,8 +995,8 @@
       "level": "intermediate",
       "chapter": "Vectors",
       "chapterSlug": "vectors",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Vector Algebra and Applications",
@@ -895,6 +1015,12 @@
           "title": "The Dot Product",
           "lessonSlug": "the-dot-product",
           "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Vectors Mastery Review",
+          "lessonSlug": "vectors-mastery-review",
+          "status": "present"
         }
       ]
     },
@@ -903,8 +1029,8 @@
       "level": "intermediate",
       "chapter": "Parametric Equations",
       "chapterSlug": "parametric-equations",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Parametric Curves and Motion",
@@ -916,6 +1042,12 @@
           "topic": "Parametric Curves and Motion",
           "title": "Parametric Descriptions for Oriented Curves",
           "lessonSlug": "parametric-descriptions-for-oriented-curves",
+          "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Parametric Equations Mastery Review",
+          "lessonSlug": "parametric-equations-mastery-review",
           "status": "present"
         }
       ]
@@ -941,8 +1073,8 @@
       "level": "intermediate",
       "chapter": "Conic Sections",
       "chapterSlug": "conic-sections",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Circles and Parabolas",
@@ -960,6 +1092,12 @@
           "topic": "Ellipses and Hyperbolas",
           "title": "Ellipse and Hyperbola",
           "lessonSlug": "ellipse-and-hyperbola",
+          "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Conic Sections Mastery Review",
+          "lessonSlug": "conic-sections-mastery-review",
           "status": "present"
         }
       ]
@@ -1069,13 +1207,19 @@
       "level": "advanced",
       "chapter": "Counting and Combinatorics",
       "chapterSlug": "counting-and-combinatorics",
-      "status": "Moderate",
-      "reason": "Complete and usable; later enrichment can add more visuals, challenge problems or assessments.",
+      "status": "Strong",
+      "reason": "Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review.",
       "lessons": [
         {
           "topic": "Permutations, Combinations and Counting Methods",
           "title": "Permutations and Combinations",
           "lessonSlug": "permutations-and-combinations",
+          "status": "present"
+        },
+        {
+          "topic": "Chapter Review and Mastery",
+          "title": "Counting and Combinatorics Mastery Review",
+          "lessonSlug": "counting-and-combinatorics-mastery-review",
           "status": "present"
         }
       ]
@@ -1328,7 +1472,7 @@
         },
         {
           "topic": "Numbered lessons",
-          "title": "Indeterminate Forms and L\u2019H\u00f4pital\u2019s Rule",
+          "title": "Indeterminate Forms and L’Hôpital’s Rule",
           "lessonSlug": "indeterminate-forms-and-l-h-pital-s-rule",
           "status": "present"
         },
@@ -1340,7 +1484,7 @@
         },
         {
           "topic": "Numbered lessons",
-          "title": "Newton\u2019s Method",
+          "title": "Newton’s Method",
           "lessonSlug": "newton-s-method",
           "status": "present"
         },
@@ -1582,7 +1726,7 @@
       "lessons": [
         {
           "topic": "Numbered lessons",
-          "title": "Solutions, Slope Fields, and Euler\u2019s Method",
+          "title": "Solutions, Slope Fields, and Euler’s Method",
           "lessonSlug": "solutions-slope-fields-and-euler-s-method",
           "status": "present"
         },
@@ -1984,7 +2128,7 @@
         },
         {
           "topic": "Numbered lessons",
-          "title": "Taylor\u2019s Formula for Two Variables",
+          "title": "Taylor’s Formula for Two Variables",
           "lessonSlug": "taylor-s-formula-for-two-variables",
           "status": "present"
         },
@@ -2094,7 +2238,7 @@
         },
         {
           "topic": "Numbered lessons",
-          "title": "Green\u2019s Theorem in the Plane",
+          "title": "Green’s Theorem in the Plane",
           "lessonSlug": "green-s-theorem-in-the-plane",
           "status": "present"
         },
@@ -2112,7 +2256,7 @@
         },
         {
           "topic": "Numbered lessons",
-          "title": "Stokes\u2019 Theorem",
+          "title": "Stokes’ Theorem",
           "lessonSlug": "stokes-theorem",
           "status": "present"
         },

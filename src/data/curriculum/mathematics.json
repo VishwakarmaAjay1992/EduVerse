@@ -92,6 +92,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Whole Numbers and Arithmetic Mastery Review",
+                  "d": 2,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -176,6 +193,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Fractions and Decimals Mastery Review",
+                  "d": 2,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -236,6 +270,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Percentages, Ratio and Proportion Mastery Review",
+                  "d": 2,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -284,6 +335,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Exponents, Roots and Scientific Notation Mastery Review",
+                  "d": 2,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -329,6 +397,23 @@
                     "Cuboids",
                     "Prisms",
                     "Units of volume and capacity"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Measurement and Units Mastery Review",
+                  "d": 2,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
                   ]
                 }
               ]
@@ -386,6 +471,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Integers and Rational Numbers Mastery Review",
+                  "d": 2,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -431,6 +533,23 @@
                     "Prime factor method",
                     "Venn diagram method",
                     "Word problems"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Factors, Multiples and Primes Mastery Review",
+                  "d": 2,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
                   ]
                 }
               ]
@@ -481,6 +600,23 @@
                     "Inverse operations",
                     "Checking solutions",
                     "Forming equations from words"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Introduction to Algebraic Thinking Mastery Review",
+                  "d": 2,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
                   ]
                 }
               ]
@@ -594,6 +730,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Linear Equations and Inequalities Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -659,6 +812,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Polynomials and Factoring Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -706,6 +876,23 @@
                     "Axis of symmetry",
                     "Roots and intercepts",
                     "Max/min applications"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Quadratic Equations Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
                   ]
                 }
               ]
@@ -770,6 +957,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Functions and Graphs Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -821,6 +1025,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Exponentials and Logarithms Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -868,6 +1089,23 @@
                     "Recurrence relations",
                     "Fibonacci and the golden ratio",
                     "Sigma notation"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Sequences and Series Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
                   ]
                 }
               ]
@@ -1254,6 +1492,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Foundations of Trigonometry Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1315,6 +1570,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Trigonometric Graphs and Applications of Radian Measure Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1368,6 +1640,23 @@
                     "Double- and half-angle formulas",
                     "Product-to-sum formulas",
                     "R-form: a sin x + b cos x"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Trigonometric Identities Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
                   ]
                 }
               ]
@@ -1444,6 +1733,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Trigonometric Equations Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1487,6 +1793,23 @@
                     "Cosine rule",
                     "Area formula",
                     "Surveying applications"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Beyond Right Triangles Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
                   ]
                 }
               ]
@@ -1552,6 +1875,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Polar Coordinates and Applications Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1598,6 +1938,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Vectors Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1630,6 +1987,23 @@
                     "Line segments",
                     "Circular and cycloidal motion",
                     "Projectile motion"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Parametric Equations Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
                   ]
                 }
               ]
@@ -1711,6 +2085,23 @@
                     "Standard equations",
                     "Asymptotes",
                     "Orbits and applications"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Conic Sections Mastery Review",
+                  "d": 3,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
                   ]
                 }
               ]
@@ -1914,6 +2305,23 @@
                     "Stars and bars",
                     "Inclusion-exclusion and derangements",
                     "JEE-style solved examples"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Chapter Review and Mastery",
+              "lessons": [
+                {
+                  "title": "Counting and Combinatorics Mastery Review",
+                  "d": 4,
+                  "min": 60,
+                  "sub": [
+                    "Chapter skills map",
+                    "Mixed solved examples",
+                    "Common-error diagnosis",
+                    "Practice with explanations",
+                    "Graded mastery check"
                   ]
                 }
               ]

@@ -5,77 +5,120 @@ This internal checklist audits the Mathematics curriculum against the lesson-con
 ## Audit summary
 
 - Curriculum chapters: **78**
-- Curriculum lessons: **314**
-- Registered native lesson content: **249**
+- Curriculum lessons: **338**
+- Registered native lesson content: **273**
 - Missing lesson content: **65**
-- Strong chapters: **3**
-- Moderate chapters: **24**
+- Strong chapters: **27**
+- Moderate chapters: **0**
 - Weak chapters: **21**
 - Missing chapters: **30**
 
 ### Status meaning
 
 - ✅ **Strong:** detailed theory, several solved examples, visual support and assessment.
-- 🟡 **Moderate:** complete and usable, but not yet at the richest beginner-to-expert standard.
+- 🟡 **Moderate:** complete and usable, but not yet at the richest beginner-to-expert standard. **No chapters remain in this status.**
 - 🟠 **Weak:** routes exist, but depth, solved examples, diagrams, proofs or assessment should be expanded.
 - 🔴 **Missing:** one or more curriculum lessons have no registered native lesson content.
 
-## Important correction completed
+## Moderate-chapter enrichment completed
 
-The three completed lessons under **Transformations and Symmetry** were using the internal chapter slug `transformations-and-constructions`, while the curriculum route uses `transformations-and-symmetry`. The lesson slugs have now been corrected so all three lessons resolve through the visible chapter route.
+All **24 chapters previously marked Moderate** have been upgraded to **Strong**.
+
+The upgrade covered **90 existing lessons**. Existing authored content was preserved. Where a lesson lacked a visual summary, practice section, graded mastery check or completion tracking, those elements are now supplied through the Mathematics enrichment layer. In addition, each former Moderate chapter now ends with a dedicated **Chapter Mastery Review** containing a chapter skills map, mixed solved examples, common-error diagnosis, ten practice questions and a graded assessment.
+
+Generated review totals:
+
+- **24** new chapter-review lessons
+- **144** consolidated solved examples
+- **240** practice questions with explanations
+- **144** graded mastery questions
+- **61** visual skill maps, tables or reused diagrams
+
+### Upgraded chapters
+
+- **Number Foundations → Whole Numbers and Arithmetic** — added `whole-numbers-and-arithmetic-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Number Foundations → Fractions and Decimals** — added `fractions-and-decimals-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Number Foundations → Percentages, Ratio and Proportion** — added `percentages-ratio-and-proportion-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Number Foundations → Exponents, Roots and Scientific Notation** — added `exponents-roots-and-scientific-notation-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Number Foundations → Measurement and Units** — added `measurement-and-units-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Pre-Algebra → Integers and Rational Numbers** — added `integers-and-rational-numbers-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Pre-Algebra → Factors, Multiples and Primes** — added `factors-multiples-and-primes-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Pre-Algebra → Introduction to Algebraic Thinking** — added `introduction-to-algebraic-thinking-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Algebra → Linear Equations and Inequalities** — added `linear-equations-and-inequalities-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Algebra → Polynomials and Factoring** — added `polynomials-and-factoring-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Algebra → Quadratic Equations** — added `quadratic-equations-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Algebra → Functions and Graphs** — added `functions-and-graphs-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Algebra → Exponentials and Logarithms** — added `exponentials-and-logarithms-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Algebra → Sequences and Series** — added `sequences-and-series-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Trigonometry → Foundations of Trigonometry** — added `foundations-of-trigonometry-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Trigonometry → Trigonometric Graphs and Applications of Radian Measure** — added `trigonometric-graphs-and-applications-of-radian-measure-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Trigonometry → Trigonometric Identities** — added `trigonometric-identities-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Trigonometry → Trigonometric Equations** — added `trigonometric-equations-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Trigonometry → Beyond Right Triangles** — added `beyond-right-triangles-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Trigonometry → Polar Coordinates and Applications** — added `polar-coordinates-and-applications-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Trigonometry → Vectors** — added `vectors-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Trigonometry → Parametric Equations** — added `parametric-equations-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Coordinate and Analytic Geometry → Conic Sections** — added `conic-sections-mastery-review` and completed missing lesson assessment/visual requirements.
+- **Pre-Calculus → Counting and Combinatorics** — added `counting-and-combinatorics-mastery-review` and completed missing lesson assessment/visual requirements.
+
+## Important correction retained
+
+The completed lessons under **Transformations and Symmetry** use the visible curriculum chapter slug `transformations-and-symmetry`, so those routes continue to resolve correctly.
 
 ## Recommended development order
 
-1. **Coordinate and Analytic Geometry** — Straight Lines and Vectors.
-2. **Pre-Calculus** — Advanced Functions, Complex Numbers, Matrices, Proof and Induction.
-3. **Probability and Combinatorics** — complete the six missing lessons.
-4. **Linear Algebra** — build the eight foundational lessons.
-5. **Differential Equations** — build the seven dedicated lessons and cross-link the existing calculus material.
-6. **Numerical and Applied Methods** — highly useful for engineering and applied mathematics.
+The Moderate backlog is complete. The remaining work is now limited to chapters classified as Weak or Missing:
+
+1. **Geometry weak-content pass** — Foundations, Triangles, Quadrilaterals and Circles.
+2. **Coordinate and Analytic Geometry** — Straight Lines and Vectors.
+3. **Pre-Calculus** — Advanced Functions, Complex Numbers, Matrices, Proof and Induction.
+4. **Probability and Combinatorics**.
+5. **Linear Algebra and Differential Equations**.
+6. **Numerical and Applied Methods**.
 7. **Discrete Mathematics and Number Theory**.
 8. **Real Analysis, Abstract Algebra and Complex Analysis**.
-9. **Calculus enrichment pass** — add larger exercise banks and more solved examples to the existing 142-lesson course.
+9. **Calculus and Multivariable Calculus weak-content enrichment**.
 
 ## Full chapter checklist
 
 | Status | Mathematics section | Chapter | Lessons | Audit note |
 |---|---|---|---:|---|
-| 🟡 Moderate | Number Foundations | Whole Numbers and Arithmetic | 6 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Number Foundations | Fractions and Decimals | 6 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Number Foundations | Percentages, Ratio and Proportion | 4 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Number Foundations | Exponents, Roots and Scientific Notation | 3 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Number Foundations | Measurement and Units | 3 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Pre-Algebra | Integers and Rational Numbers | 3 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Pre-Algebra | Factors, Multiples and Primes | 3 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Pre-Algebra | Introduction to Algebraic Thinking | 3 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
+| ✅ Strong | Number Foundations | Whole Numbers and Arithmetic | 7 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Number Foundations | Fractions and Decimals | 7 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Number Foundations | Percentages, Ratio and Proportion | 5 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Number Foundations | Exponents, Roots and Scientific Notation | 4 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Number Foundations | Measurement and Units | 4 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Pre-Algebra | Integers and Rational Numbers | 4 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Pre-Algebra | Factors, Multiples and Primes | 4 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Pre-Algebra | Introduction to Algebraic Thinking | 4 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
 | ✅ Strong | Pre-Algebra | The Coordinate Plane and Data Basics | 2 | Meets the detailed-content standard with multiple examples, visuals and assessment. |
-| 🟡 Moderate | Algebra | Linear Equations and Inequalities | 4 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Algebra | Polynomials and Factoring | 4 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Algebra | Quadratic Equations | 3 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Algebra | Functions and Graphs | 4 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Algebra | Exponentials and Logarithms | 3 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Algebra | Sequences and Series | 3 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
+| ✅ Strong | Algebra | Linear Equations and Inequalities | 5 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Algebra | Polynomials and Factoring | 5 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Algebra | Quadratic Equations | 4 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Algebra | Functions and Graphs | 5 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Algebra | Exponentials and Logarithms | 4 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Algebra | Sequences and Series | 4 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
 | 🟠 Weak | Geometry | Foundations, Lines and Angles | 3 | Content exists but needs more solved examples, visual explanation or assessment to reach the new EduVerse standard. |
 | 🟠 Weak | Geometry | Triangles and Congruence | 4 | Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples. |
 | 🟠 Weak | Geometry | Quadrilaterals and Polygons | 2 | Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples. |
 | 🟠 Weak | Geometry | Circles | 2 | Some lessons still use generic/boilerplate explanations and need richer diagrams, proofs and advanced examples. |
 | ✅ Strong | Geometry | Mensuration | 1 | Meets the detailed-content standard with multiple examples, visuals and assessment. |
 | ✅ Strong | Geometry | Transformations and Symmetry | 3 | Meets the detailed-content standard with multiple examples, visuals and assessment. |
-| 🟡 Moderate | Trigonometry | Foundations of Trigonometry | 9 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Trigonometry | Trigonometric Graphs and Applications of Radian Measure | 4 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Trigonometry | Trigonometric Identities | 4 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Trigonometry | Trigonometric Equations | 5 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Trigonometry | Beyond Right Triangles | 3 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Trigonometry | Polar Coordinates and Applications | 4 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Trigonometry | Vectors | 3 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
-| 🟡 Moderate | Trigonometry | Parametric Equations | 2 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
+| ✅ Strong | Trigonometry | Foundations of Trigonometry | 10 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Trigonometry | Trigonometric Graphs and Applications of Radian Measure | 5 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Trigonometry | Trigonometric Identities | 5 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Trigonometry | Trigonometric Equations | 6 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Trigonometry | Beyond Right Triangles | 4 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Trigonometry | Polar Coordinates and Applications | 5 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Trigonometry | Vectors | 4 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
+| ✅ Strong | Trigonometry | Parametric Equations | 3 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
 | 🔴 Missing | Coordinate and Analytic Geometry | Straight Lines | 1 | 1 of 1 lesson(s) have no native content registered. |
-| 🟡 Moderate | Coordinate and Analytic Geometry | Conic Sections | 3 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
+| ✅ Strong | Coordinate and Analytic Geometry | Conic Sections | 4 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
 | 🔴 Missing | Coordinate and Analytic Geometry | Vectors | 3 | 3 of 3 lesson(s) have no native content registered. |
 | 🔴 Missing | Pre-Calculus | Advanced Functions | 3 | 3 of 3 lesson(s) have no native content registered. |
 | 🔴 Missing | Pre-Calculus | Complex Numbers | 2 | 2 of 2 lesson(s) have no native content registered. |
 | 🔴 Missing | Pre-Calculus | Matrices and Determinants | 2 | 2 of 2 lesson(s) have no native content registered. |
-| 🟡 Moderate | Pre-Calculus | Counting and Combinatorics | 1 | Complete and usable; later enrichment can add more visuals, challenge problems or assessments. |
+| ✅ Strong | Pre-Calculus | Counting and Combinatorics | 2 | Enriched to the beginner-to-expert standard with per-lesson visual/assessment completion and a dedicated mixed chapter mastery review. |
 | 🔴 Missing | Pre-Calculus | Proof, Induction and the Binomial Theorem | 3 | 3 of 3 lesson(s) have no native content registered. |
 | 🟠 Weak | Calculus | Functions | 7 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |
 | 🟠 Weak | Calculus | Limits and Continuity | 7 | Routes and core explanations exist, but most lessons have only about one worked example and no embedded practice/mastery assessment. |

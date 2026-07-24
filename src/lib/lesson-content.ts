@@ -87,6 +87,8 @@ import { geometricSequencesAndSeries } from "@/content/mathematics/geometric-seq
 import { recursiveAndSpecialSequences } from "@/content/mathematics/recursive-and-special-sequences";
 import { permutationsAndCombinations } from "@/content/mathematics/permutations-and-combinations";
 import { trigonometryCourse } from "@/content/mathematics/trigonometry-course";
+import { moderateChapterReviews } from "@/content/mathematics/moderate-chapter-reviews";
+import { enrichModerateLesson } from "@/lib/moderate-enrichment";
 import type { LessonContent } from "./lesson-content-types";
 
 const calculusLessons = calculusLessonsData as LessonContent[];
@@ -145,6 +147,7 @@ const REGISTRY: LessonContent[] = [
   recursiveAndSpecialSequences,
   permutationsAndCombinations,
   ...trigonometryCourse,
+  ...moderateChapterReviews,
   ...calculusLessons,
   fromArithmeticToAlgebra,
   simplifyingExpressions,
@@ -187,14 +190,15 @@ export function getLessonContent(
   chapterSlug: string,
   lessonSlug: string
 ): LessonContent | null {
-  return (
+  const content =
     REGISTRY.find(
       (c) =>
         c.subjectSlug === subjectSlug &&
         c.chapterSlug === chapterSlug &&
         c.lessonSlug === lessonSlug
-    ) ?? null
-  );
+    ) ?? null;
+
+  return content ? enrichModerateLesson(content) : null;
 }
 
 export function hasLessonContent(subjectSlug: string, lessonSlug: string): boolean {
