@@ -190,6 +190,23 @@ export type LessonSection =
         | "thermal-review";
     }
   | {
+      kind: "currentElectricityExplorer";
+      heading?: string;
+      mode:
+        | "current-flow"
+        | "drift-mobility"
+        | "ohms-law"
+        | "resistance-temperature"
+        | "resistor-network"
+        | "cells"
+        | "kirchhoff"
+        | "bridge-meter"
+        | "instruments"
+        | "potentiometer"
+        | "power-heating"
+        | "current-review";
+    }
+  | {
       kind: "electromagneticWaveExplorer";
       heading?: string;
       mode:

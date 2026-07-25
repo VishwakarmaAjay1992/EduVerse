@@ -1088,17 +1088,50 @@
           ],
           "topics": [
             {
-              "title": "Electric Current",
+              "title": "Charge Transport and Material Resistance",
               "lessons": [
                 {
-                  "title": "Current, Drift Velocity and Ohm's Law",
+                  "title": "Electric Current, Charge Flow and Current Density",
                   "d": 3,
                   "min": 50,
                   "sub": [
-                    "Current and drift velocity derivation",
-                    "Ohm's law and resistivity",
-                    "Temperature dependence",
-                    "Ohmic and non-ohmic conductors"
+                    "Average and instantaneous current",
+                    "Conventional current and charge carriers",
+                    "Current density and flux",
+                    "Circular charge motion"
+                  ]
+                },
+                {
+                  "title": "Drift Velocity, Mobility and Microscopic Ohm's Law",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Thermal motion and collisions",
+                    "Mean free path and relaxation time",
+                    "Drift velocity derivation",
+                    "Mobility, conductivity and resistivity"
+                  ]
+                },
+                {
+                  "title": "Ohm's Law, Resistance, Resistivity and Temperature",
+                  "d": 4,
+                  "min": 60,
+                  "sub": [
+                    "Ohmic and non-ohmic behaviour",
+                    "Resistance geometry",
+                    "Temperature coefficients",
+                    "Materials, stretching and superconductivity"
+                  ]
+                },
+                {
+                  "title": "Resistor Combinations, Colour Codes and Network Reduction",
+                  "d": 4,
+                  "min": 60,
+                  "sub": [
+                    "Series and parallel networks",
+                    "Voltage and current division",
+                    "Resistor colour code",
+                    "Symmetry, bridges and infinite ladders"
                   ]
                 }
               ]
@@ -1112,28 +1145,77 @@
           ],
           "topics": [
             {
-              "title": "Circuit Analysis",
+              "title": "Sources and Circuit Laws",
               "lessons": [
                 {
-                  "title": "Series, Parallel and Kirchhoff's Laws",
-                  "d": 3,
-                  "min": 55,
+                  "title": "EMF, Internal Resistance and Grouping of Cells",
+                  "d": 4,
+                  "min": 60,
                   "sub": [
-                    "Resistor combinations",
-                    "EMF and internal resistance",
-                    "Kirchhoff's junction and loop rules",
-                    "Wheatstone bridge"
+                    "EMF and terminal voltage",
+                    "Charging and discharging",
+                    "Series, parallel and mixed grouping",
+                    "Maximum power transfer"
                   ]
                 },
                 {
-                  "title": "Electrical Energy, Power and Measuring Instruments",
-                  "d": 3,
-                  "min": 50,
+                  "title": "Kirchhoff's Laws and Multiloop Circuits",
+                  "d": 4,
+                  "min": 60,
                   "sub": [
-                    "Joule heating derivation",
-                    "Power ratings and household circuits",
-                    "Ammeters, voltmeters, potentiometer",
-                    "RC circuits (charging and discharging)"
+                    "Junction rule",
+                    "Loop sign convention",
+                    "Two-loop circuits",
+                    "Simultaneous equation solutions"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Null Methods and Measuring Instruments",
+              "lessons": [
+                {
+                  "title": "Wheatstone Bridge, Meter Bridge and Resistance Measurement",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Wheatstone balance",
+                    "Meter-bridge derivation",
+                    "Sensitivity and end correction",
+                    "Resistance measurement"
+                  ]
+                },
+                {
+                  "title": "Galvanometer, Ammeter and Voltmeter",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Galvanometer response",
+                    "Shunt and ammeter conversion",
+                    "Multiplier and voltmeter conversion",
+                    "Loading errors"
+                  ]
+                },
+                {
+                  "title": "Potentiometer Principle and Applications",
+                  "d": 4,
+                  "min": 60,
+                  "sub": [
+                    "Potential gradient",
+                    "EMF comparison",
+                    "Internal resistance measurement",
+                    "Calibration and sensitivity"
+                  ]
+                },
+                {
+                  "title": "Electric Power, Heating Effect and Current Electricity Review",
+                  "d": 4,
+                  "min": 65,
+                  "sub": [
+                    "Power and Joule heating",
+                    "Energy and kilowatt-hours",
+                    "Fuse and circuit safety",
+                    "Mixed current-electricity review"
                   ]
                 }
               ]

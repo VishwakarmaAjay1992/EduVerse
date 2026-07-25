@@ -174,6 +174,21 @@ const nextConfig: NextConfig = {
         destination: "/subjects/mathematics/infinite-sequences-and-series/taylor-and-maclaurin-series",
         permanent: true,
       },
+      {
+        source: "/subjects/physics/current-and-resistance/current-drift-velocity-and-ohm-s-law",
+        destination: "/subjects/physics/current-and-resistance/drift-velocity-mobility-and-microscopic-ohm-s-law",
+        permanent: true,
+      },
+      {
+        source: "/subjects/physics/circuits/series-parallel-and-kirchhoff-s-laws",
+        destination: "/subjects/physics/current-and-resistance/resistor-combinations-colour-codes-and-network-reduction",
+        permanent: true,
+      },
+      {
+        source: "/subjects/physics/circuits/electrical-energy-power-and-measuring-instruments",
+        destination: "/subjects/physics/circuits/electric-power-heating-effect-and-current-electricity-review",
+        permanent: true,
+      },
     ];
   },
 };
