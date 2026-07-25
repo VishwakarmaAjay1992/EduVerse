@@ -404,12 +404,13 @@ function CommunicationLab() {
     ["Output", "A speaker, display or data circuit reconstructs the message."],
   ] as const;
   const [active, setActive] = useState(0);
+  const activeStage = stages[active] ?? stages[0];
   return (
     <div className="space-y-4 rounded-xl border p-4">
       <div className="flex flex-wrap items-center gap-2" role="list" aria-label="Communication system stages">
         {stages.map(([name], i) => <button role="listitem" type="button" key={name} onClick={() => setActive(i)} className={cn("rounded-lg border px-3 py-2 text-sm", active === i && "border-primary bg-primary/10")}>{name}</button>)}
       </div>
-      <div className="rounded-xl bg-muted/40 p-4"><h4 className="font-semibold">{stages[active][0]}</h4><p className="mt-1 text-sm leading-7 text-muted-foreground">{stages[active][1]}</p></div>
+      <div className="rounded-xl bg-muted/40 p-4"><h4 className="font-semibold">{activeStage[0]}</h4><p className="mt-1 text-sm leading-7 text-muted-foreground">{activeStage[1]}</p></div>
       <svg viewBox="0 0 620 175" className="w-full" role="img" aria-label="Transmitter antenna sending electromagnetic waves to a receiver antenna">
         <line x1="85" y1="135" x2="85" y2="45" className="stroke-foreground" strokeWidth="5" /><line x1="535" y1="135" x2="535" y2="45" className="stroke-foreground" strokeWidth="5" />
         {[0,1,2,3].map((i) => <path key={i} d={`M${120+i*35},55 Q${150+i*35},88 ${120+i*35},121`} fill="none" className="stroke-sky-500" strokeWidth="3" />)}
