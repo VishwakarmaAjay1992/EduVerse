@@ -38,6 +38,7 @@ import { vectorsInKinematics } from "@/content/physics/vectors-in-kinematics";
 import { projectileMotion } from "@/content/physics/projectile-motion";
 import { alternatingCurrent } from "@/content/physics/alternating-current";
 import { electromagneticWavesCourse } from "@/content/physics/electromagnetic-waves-course";
+import { rayOpticsCourse } from "@/content/physics/ray-optics-course";
 import { mixedNumbersAndImproperFractions } from "@/content/mathematics/mixed-numbers-and-improper-fractions";
 import { multiplicationAndDivision } from "@/content/mathematics/multiplication-and-division";
 import { multiplyingAndDividingFractions } from "@/content/mathematics/multiplying-and-dividing-fractions";
@@ -190,6 +191,7 @@ const REGISTRY: LessonContent[] = [
   projectileMotion,
   alternatingCurrent,
   ...electromagneticWavesCourse,
+  ...rayOpticsCourse,
 ];
 
 export function getLessonContent(

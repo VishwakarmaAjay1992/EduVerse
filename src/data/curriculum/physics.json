@@ -815,60 +815,94 @@
           ],
           "topics": [
             {
-              "title": "Reflection and Mirrors",
+              "title": "Ray Optics and Optical Instruments",
               "lessons": [
                 {
-                  "title": "Reflection and Spherical Mirrors",
-                  "d": 3,
-                  "min": 50,
-                  "sub": [
-                    "Laws of reflection",
-                    "Plane mirror images",
-                    "Concave and convex mirrors",
-                    "Mirror formula derivation and magnification"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Refraction and Lenses",
-              "lessons": [
-                {
-                  "title": "Refraction and Total Internal Reflection",
-                  "d": 3,
-                  "min": 55,
-                  "sub": [
-                    "Snell's law",
-                    "Refractive index",
-                    "Total internal reflection and optical fibers",
-                    "Prisms and dispersion"
-                  ]
-                },
-                {
-                  "title": "Thin Lenses",
+                  "title": "Foundations, Sign Conventions and Plane Mirrors",
                   "d": 4,
                   "min": 55,
                   "sub": [
-                    "Converging and diverging lenses",
-                    "Lens formula and lensmaker's equation derivation",
-                    "Ray diagrams",
-                    "Power and combinations of lenses"
+                    "Ray model and paraxial rays",
+                    "Cartesian sign convention",
+                    "Plane-mirror images",
+                    "Multiple reflections and mirror rotation"
                   ]
-                }
-              ]
-            },
-            {
-              "title": "Optical Instruments",
-              "lessons": [
+                },
                 {
-                  "title": "The Eye, Microscopes and Telescopes",
-                  "d": 3,
-                  "min": 45,
+                  "title": "Spherical Mirrors, Ray Diagrams and Mirror Formula",
+                  "d": 4,
+                  "min": 65,
                   "sub": [
-                    "The human eye and defects",
-                    "Magnifying glass",
+                    "Concave and convex mirrors",
+                    "Standard rays",
+                    "Mirror formula and magnification",
+                    "Applications"
+                  ]
+                },
+                {
+                  "title": "Refraction, Plane Surfaces and Total Internal Reflection",
+                  "d": 4,
+                  "min": 70,
+                  "sub": [
+                    "Snell's law",
+                    "Apparent depth and glass slabs",
+                    "Critical angle",
+                    "Optical fibres"
+                  ]
+                },
+                {
+                  "title": "Thin Lenses, Lens Formula, Lens Maker and Power",
+                  "d": 4,
+                  "min": 75,
+                  "sub": [
+                    "Convex and concave lenses",
+                    "Lens formula",
+                    "Lens maker's formula",
+                    "Power and combinations"
+                  ]
+                },
+                {
+                  "title": "Prisms, Minimum Deviation and Dispersion",
+                  "d": 4,
+                  "min": 60,
+                  "sub": [
+                    "Prism deviation",
+                    "Minimum deviation",
+                    "Dispersion",
+                    "Dispersive power"
+                  ]
+                },
+                {
+                  "title": "The Human Eye and Defects of Vision",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Accommodation",
+                    "Myopia and hypermetropia",
+                    "Presbyopia and astigmatism",
+                    "Corrective power"
+                  ]
+                },
+                {
+                  "title": "Simple and Compound Microscopes",
+                  "d": 4,
+                  "min": 60,
+                  "sub": [
+                    "Simple microscope",
                     "Compound microscope",
-                    "Telescopes and resolving power"
+                    "Magnifying power",
+                    "Ray diagrams"
+                  ]
+                },
+                {
+                  "title": "Astronomical Telescopes and Ray Optics Review",
+                  "d": 4,
+                  "min": 70,
+                  "sub": [
+                    "Refracting and reflecting telescopes",
+                    "Normal adjustment",
+                    "Angular magnification",
+                    "Resolving power and review"
                   ]
                 }
               ]

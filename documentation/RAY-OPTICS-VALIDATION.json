@@ -1,0 +1,11 @@
+{
+  "pdfPagesReviewed": 32,
+  "lessons": 8,
+  "routeParity": true,
+  "interactiveModes": 15,
+  "workedExamples": 32,
+  "practiceQuestions": 40,
+  "gradedQuizQuestions": 24,
+  "syntaxDiagnostics": 0,
+  "build": "not run: npm dependency installation timed out"
+}

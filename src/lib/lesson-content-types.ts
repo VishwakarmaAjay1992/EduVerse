@@ -156,6 +156,26 @@ export type LessonSection =
       safety?: string[];
     }
   | {
+      kind: "rayOpticsExplorer";
+      heading?: string;
+      mode:
+        | "plane-mirror"
+        | "spherical-mirror"
+        | "refraction-tir"
+        | "thin-lens"
+        | "prism"
+        | "human-eye"
+        | "microscope"
+        | "telescope"
+        | "mirror-calculator"
+        | "glass-slab"
+        | "apparent-depth"
+        | "lens-calculator"
+        | "lens-maker"
+        | "lens-combination"
+        | "ray-practice";
+    }
+  | {
       kind: "electromagneticWaveExplorer";
       heading?: string;
       mode:

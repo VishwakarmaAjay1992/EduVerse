@@ -66,6 +66,7 @@ import { ArithmeticSequenceExplorer } from "@/components/interactive/arithmetic-
 import { GeometricSequenceExplorer } from "@/components/interactive/geometric-sequence-explorer";
 import { RecursiveSequenceExplorer } from "@/components/interactive/recursive-sequence-explorer";
 import { ElectromagneticWaveExplorer } from "@/components/interactive/electromagnetic-wave-explorer";
+import { RayOpticsExplorer } from "@/components/interactive/ray-optics-explorer";
 import { Flashcards } from "@/components/interactive/flashcards";
 import { Quiz } from "@/components/interactive/quiz";
 import { BlockMath, richText } from "@/components/math";
@@ -290,6 +291,13 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
               </ul>
             </div>
           )}
+        </div>
+      );
+    case "rayOpticsExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">{rich(section.heading ?? "Ray-optics interactive laboratory")}</h3>
+          <RayOpticsExplorer mode={section.mode} />
         </div>
       );
     case "electromagneticWaveExplorer":
