@@ -3,8 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SiteHeader } from "@/components/site-header";
 import { CategoryProgress } from "@/components/category-progress";
+import { ChapterThumbnailCard } from "@/components/chapter-thumbnail-card";
 import { LevelBadge } from "@/components/level-badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { getChapterThumbnail } from "@/data/chapter-thumbnails";
 import { getSubject, subjectSlugs } from "@/lib/curriculum";
 import { slugify } from "@/lib/slug";
 
@@ -69,18 +71,43 @@ export default async function SubjectPage({ params }: { params: Promise<{ slug: 
                   />
                 </CardHeader>
                 <CardContent>
-                  <ul className="grid gap-1.5 sm:grid-cols-2">
-                    {category.chapters.map((chapter) => (
-                      <li key={chapter.title}>
-                        <Link
-                          href={`/subjects/${subject.slug}/${slugify(chapter.title)}`}
-                          className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-                        >
-                          {chapter.title}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
+                  {subject.slug === "mathematics" ? (
+                    <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+                      {category.chapters.map((chapter) => {
+                        const chapterLessons = chapter.topics.reduce(
+                          (total, topic) => total + topic.lessons.length,
+                          0
+                        );
+                        return (
+                          <ChapterThumbnailCard
+                            key={chapter.title}
+                            href={`/subjects/${subject.slug}/${slugify(chapter.title)}`}
+                            title={chapter.title}
+                            lessonCount={chapterLessons}
+                            imagePath={getChapterThumbnail(
+                              subject.slug,
+                              category.title,
+                              chapter.title
+                            )}
+                            accent={subject.accent}
+                          />
+                        );
+                      })}
+                    </div>
+                  ) : (
+                    <ul className="grid gap-1.5 sm:grid-cols-2">
+                      {category.chapters.map((chapter) => (
+                        <li key={chapter.title}>
+                          <Link
+                            href={`/subjects/${subject.slug}/${slugify(chapter.title)}`}
+                            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                          >
+                            {chapter.title}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </CardContent>
               </Card>
             );

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, Check } from "lucide-react";
@@ -6,6 +7,7 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import { LevelBadge } from "@/components/level-badge";
 import { SiteHeader } from "@/components/site-header";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { getChapterThumbnail } from "@/data/chapter-thumbnails";
 import { chapterParams, getChapter } from "@/lib/curriculum";
 import { hasLessonContent } from "@/lib/lesson-content";
 import { slugify } from "@/lib/slug";
@@ -33,6 +35,8 @@ export default async function ChapterPage({
   const detail = getChapter(slug, chapter);
   if (!detail) notFound();
 
+  const thumbnail = getChapterThumbnail(slug, detail.categoryTitle, detail.chapter.title);
+
   return (
     <>
       <SiteHeader />
@@ -45,6 +49,18 @@ export default async function ChapterPage({
           ]}
         />
         <div className="mb-8">
+          {thumbnail && (
+            <div className="relative mb-6 aspect-video overflow-hidden rounded-2xl border bg-muted shadow-sm">
+              <Image
+                src={thumbnail}
+                alt={`${detail.chapter.title} chapter thumbnail`}
+                fill
+                priority
+                sizes="(max-width: 896px) 100vw, 896px"
+                className="object-cover"
+              />
+            </div>
+          )}
           <div className="mb-2">
             <LevelBadge level={detail.categoryLevel} />
           </div>
