@@ -1,0 +1,23 @@
+{
+  "sourcePagesReviewed": 31,
+  "sourceChaptersReviewed": 1,
+  "nativeLessons": 8,
+  "interactiveModes": 9,
+  "staticSvgDiagrams": 4,
+  "workedExamples": 32,
+  "practiceQuestions": 40,
+  "gradedQuestions": 24,
+  "formulaCards": 28,
+  "curriculumRouteParity": true,
+  "duplicateThermalRoutes": 0,
+  "orphanThermalLessons": 0,
+  "typescriptSyntaxFilesChecked": 358,
+  "typescriptSyntaxErrors": 0,
+  "targetedStrictTypeChecks": "passed",
+  "svgXmlValidation": "passed",
+  "jsonValidation": "passed",
+  "npmInstall": "not completed; offline package cache lacked zod-3.25.76 and online installation did not complete within the available environment time",
+  "fullNextBuild": "not run because dependencies were unavailable",
+  "fullLint": "not run because dependencies were unavailable",
+  "fullVitest": "not run because dependencies were unavailable"
+}

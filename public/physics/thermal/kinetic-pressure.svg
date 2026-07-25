@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <defs><style>.h{font:700 28px Arial;fill:#16324f}.t{font:18px Arial;fill:#16324f}.s{font:15px Arial;fill:#44627c}.box{fill:#eef8ff;stroke:#16324f;stroke-width:3}.ray{stroke:#0ea5e9;stroke-width:5;fill:none}.wall{stroke:#334155;stroke-width:8}.eq{font:24px Georgia;fill:#16324f}</style></defs>
+  <rect width="960" height="540" fill="#fff"/><text x="35" y="48" class="h">How molecular collisions produce gas pressure</text>
+  <rect x="55" y="95" width="500" height="330" rx="18" class="box"/>
+  <line x1="500" y1="115" x2="500" y2="405" class="wall"/>
+  <circle cx="390" cy="250" r="13" fill="#f59e0b"/>
+  <line x1="210" y1="155" x2="390" y2="250" class="ray"/><line x1="390" y1="250" x2="215" y2="345" class="ray"/>
+  <line x1="390" y1="250" x2="500" y2="250" stroke="#ef4444" stroke-width="4"/><text x="405" y="232" class="s">impulse on wall</text>
+  <text x="90" y="455" class="s">Elastic collisions reverse the velocity component normal to the wall.</text>
+  <g transform="translate(610,100)"><rect width="300" height="335" rx="18" fill="#f7fbff" stroke="#c8d9e7"/><text x="25" y="50" class="t">Microscopic result</text><text x="25" y="95" class="eq">P = ⅓ρv²ᵣₘₛ</text><text x="25" y="145" class="t">Equivalent forms</text><text x="25" y="185" class="eq">PV = ⅓Nm⟨v²⟩</text><text x="25" y="225" class="eq">P = ⅔(U/V)</text><text x="25" y="275" class="s">More frequent or stronger wall</text><text x="25" y="300" class="s">collisions create greater pressure.</text></g>
+</svg>

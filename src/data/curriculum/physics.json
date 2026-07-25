@@ -617,7 +617,18 @@
               "title": "The Gas Laws and Kinetic Theory",
               "lessons": [
                 {
-                  "title": "Ideal Gas Laws",
+                  "title": "Brownian Motion and Molecular Randomness",
+                  "d": 2,
+                  "min": 45,
+                  "sub": [
+                    "Brownian motion and its history",
+                    "Molecular bombardment",
+                    "Temperature, size and viscosity effects",
+                    "Diffusion and evidence for atoms"
+                  ]
+                },
+                {
+                  "title": "Ideal Gas Laws and Kinetic-Theory Postulates",
                   "d": 3,
                   "min": 45,
                   "sub": [
@@ -636,6 +647,28 @@
                     "Temperature and mean KE",
                     "RMS speed",
                     "Degrees of freedom and equipartition"
+                  ]
+                },
+                {
+                  "title": "RMS Speed, Temperature and Translational Kinetic Energy",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Root-mean-square speed",
+                    "Mean translational kinetic energy",
+                    "Boltzmann constant and electron-volt",
+                    "Molecular speed comparisons"
+                  ]
+                },
+                {
+                  "title": "Thermal Physics Comprehensive Review",
+                  "d": 4,
+                  "min": 60,
+                  "sub": [
+                    "Mixed kinetic-theory problems",
+                    "Statistical populations",
+                    "Stellar thermal physics",
+                    "Exam-style review"
                   ]
                 }
               ]
@@ -1806,6 +1839,17 @@
               "title": "Statistical Mechanics Basics",
               "lessons": [
                 {
+                  "title": "Boltzmann Distribution and Statistical Physics",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Macrostates and microstates",
+                    "Boltzmann factor",
+                    "Population ratios",
+                    "Thermal energy scale kT"
+                  ]
+                },
+                {
                   "title": "Microstates, Entropy and the Boltzmann Distribution",
                   "d": 5,
                   "min": 65,
@@ -1899,6 +1943,17 @@
                     "Hertzsprung-Russell diagram",
                     "Nuclear fusion in stars",
                     "White dwarfs, neutron stars, black holes"
+                  ]
+                },
+                {
+                  "title": "Neutron Stars, Pulsars and the Life Cycle of the Sun",
+                  "d": 4,
+                  "min": 55,
+                  "sub": [
+                    "Neutron-star formation",
+                    "Pulsar beams and rotation",
+                    "Compact-remnant density",
+                    "Solar life cycle"
                   ]
                 }
               ]

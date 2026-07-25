@@ -67,6 +67,7 @@ import { GeometricSequenceExplorer } from "@/components/interactive/geometric-se
 import { RecursiveSequenceExplorer } from "@/components/interactive/recursive-sequence-explorer";
 import { ElectromagneticWaveExplorer } from "@/components/interactive/electromagnetic-wave-explorer";
 import { RayOpticsExplorer } from "@/components/interactive/ray-optics-explorer";
+import { ThermalPhysicsExplorer } from "@/components/interactive/thermal-physics-explorer";
 import { Flashcards } from "@/components/interactive/flashcards";
 import { Quiz } from "@/components/interactive/quiz";
 import { BlockMath, richText } from "@/components/math";
@@ -298,6 +299,15 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
         <div className="space-y-3">
           <h3 className="text-lg font-semibold">{rich(section.heading ?? "Ray-optics interactive laboratory")}</h3>
           <RayOpticsExplorer mode={section.mode} />
+        </div>
+      );
+    case "thermalPhysicsExplorer":
+      return (
+        <div className="space-y-3">
+          <h3 className="text-lg font-semibold">
+            {rich(section.heading ?? "Interactive thermal-physics laboratory")}
+          </h3>
+          <ThermalPhysicsExplorer mode={section.mode} />
         </div>
       );
     case "electromagneticWaveExplorer":

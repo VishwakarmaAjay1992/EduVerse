@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <defs><style>.h{font:700 28px Arial;fill:#16324f}.t{font:18px Arial;fill:#16324f}.s{font:15px Arial;fill:#44627c}.box{fill:#edf8ff;stroke:#16324f;stroke-width:3}.m{fill:#3b82f6}.p{fill:#f59e0b}.path{fill:none;stroke:#f59e0b;stroke-width:3;stroke-dasharray:8 5}</style></defs>
+  <rect width="960" height="540" fill="#fff"/><text x="35" y="48" class="h">Brownian motion: random molecular bombardment</text>
+  <rect x="55" y="95" width="540" height="350" rx="18" class="box"/>
+  <path d="M210 270 L255 220 L310 255 L360 170 L410 210 L465 135 L520 185" class="path"/>
+  <circle cx="210" cy="270" r="20" class="p"/>
+  <g>
+    <circle cx="110" cy="145" r="8" class="m"/><circle cx="170" cy="175" r="8" class="m"/><circle cx="260" cy="135" r="8" class="m"/><circle cx="340" cy="120" r="8" class="m"/><circle cx="470" cy="110" r="8" class="m"/><circle cx="545" cy="155" r="8" class="m"/>
+    <circle cx="120" cy="335" r="8" class="m"/><circle cx="185" cy="390" r="8" class="m"/><circle cx="280" cy="370" r="8" class="m"/><circle cx="380" cy="400" r="8" class="m"/><circle cx="500" cy="340" r="8" class="m"/>
+  </g>
+  <text x="85" y="475" class="s">Visible particle follows an irregular zig-zag path because molecular impacts are unequal at each instant.</text>
+  <g transform="translate(650,115)"><rect width="260" height="300" rx="18" fill="#f7fbff" stroke="#c8d9e7"/><text x="20" y="42" class="t">Factors that increase motion</text><text x="20" y="85" class="s">• Higher temperature</text><text x="20" y="125" class="s">• Smaller suspended particle</text><text x="20" y="165" class="s">• Lower fluid viscosity</text><text x="20" y="205" class="s">• Lighter particle</text><text x="20" y="255" class="t">Evidence</text><text x="20" y="282" class="s">Matter is made of moving molecules.</text></g>
+</svg>

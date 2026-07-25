@@ -176,6 +176,20 @@ export type LessonSection =
         | "ray-practice";
     }
   | {
+      kind: "thermalPhysicsExplorer";
+      heading?: string;
+      mode:
+        | "brownian-motion"
+        | "gas-model"
+        | "gas-pressure"
+        | "rms-energy"
+        | "boltzmann-population"
+        | "stellar-equilibrium"
+        | "stellar-evolution"
+        | "neutron-star-pulsar"
+        | "thermal-review";
+    }
+  | {
       kind: "electromagneticWaveExplorer";
       heading?: string;
       mode:
