@@ -260,6 +260,8 @@ export type LessonSection =
   | { kind: "wordProblemTranslatorExplorer"; heading?: string }
   | { kind: "inequalityExplorer"; heading?: string }
   | { kind: "simultaneousEquationsExplorer"; heading?: string }
+  | { kind: "solvedQuestionBank"; heading?: string }
+  | { kind: "questionBankPromo"; title: string; body: string; href: string; buttonLabel: string }
   | { kind: "polynomialMultiplyExplorer"; heading?: string }
   | { kind: "polynomialDivisionExplorer"; heading?: string }
   | { kind: "factoringExplorer"; heading?: string }

@@ -1,4 +1,5 @@
-import { BookOpen, FlaskConical, Globe, Lightbulb, Pin, Sparkles, TriangleAlert } from "lucide-react";
+import Link from "next/link";
+import { ArrowRight, BookOpen, FlaskConical, Globe, Lightbulb, Pin, Sparkles, TriangleAlert } from "lucide-react";
 import { AccuracyPrecision } from "@/components/figures/accuracy-precision";
 import { AngleTypes } from "@/components/figures/angle-types";
 import { ConicSection } from "@/components/figures/conic-section";
@@ -48,6 +49,7 @@ import { LinearEquationSolverExplorer } from "@/components/interactive/linear-eq
 import { WordProblemTranslatorExplorer } from "@/components/interactive/word-problem-translator-explorer";
 import { InequalityExplorer } from "@/components/interactive/inequality-explorer";
 import { SimultaneousEquationsExplorer } from "@/components/interactive/simultaneous-equations-explorer";
+import { SolvedQuestionBank } from "@/components/interactive/solved-question-bank";
 import { PolynomialMultiplyExplorer } from "@/components/interactive/polynomial-multiply-explorer";
 import { PolynomialDivisionExplorer } from "@/components/interactive/polynomial-division-explorer";
 import { FactoringExplorer } from "@/components/interactive/factoring-explorer";
@@ -715,6 +717,34 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
             {rich(section.heading ?? "Simultaneous equations laboratory")}
           </h3>
           <SimultaneousEquationsExplorer lessonId={lessonId} />
+        </div>
+      );
+    case "solvedQuestionBank":
+      return (
+        <div className="space-y-4">
+          <h3 className="text-lg font-semibold">
+            {rich(section.heading ?? "Solved question bank")}
+          </h3>
+          <SolvedQuestionBank lessonId={lessonId} />
+        </div>
+      );
+    case "questionBankPromo":
+      return (
+        <div className="overflow-hidden rounded-xl border bg-gradient-to-br from-primary/10 via-background to-background p-6 shadow-sm">
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-primary">Next step</p>
+              <h3 className="mt-2 text-xl font-semibold">{rich(section.title)}</h3>
+              <p className="mt-2 max-w-2xl leading-7 text-muted-foreground">{rich(section.body)}</p>
+            </div>
+            <Link
+              href={section.href}
+              className="inline-flex h-10 shrink-0 items-center justify-center gap-2 rounded-md bg-primary px-5 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90"
+            >
+              {section.buttonLabel}
+              <ArrowRight className="size-4" />
+            </Link>
+          </div>
         </div>
       );
     case "polynomialMultiplyExplorer":

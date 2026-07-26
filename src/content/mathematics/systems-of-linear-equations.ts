@@ -442,6 +442,13 @@ export const systemsOfLinearEquations: LessonContent = {
       ],
     },
     {
+      kind: "questionBankPromo",
+      title: "Continue with 132 solved board-style questions",
+      body: "You have completed the concept lesson. Build exam confidence with the complete Pair of Linear Equations question bank, organised by marks, method, concept and application.",
+      href: "/subjects/mathematics/linear-equations-and-inequalities/pair-of-linear-equations-132-solved-questions",
+      buttonLabel: "Open question bank",
+    },
+    {
       kind: "completion",
       steps: [
         {

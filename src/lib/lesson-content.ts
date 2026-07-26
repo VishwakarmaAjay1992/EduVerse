@@ -72,6 +72,7 @@ import { solvingLinearEquations } from "@/content/mathematics/solving-linear-equ
 import { wordProblemsWithLinearEquations } from "@/content/mathematics/word-problems-with-linear-equations";
 import { linearInequalities } from "@/content/mathematics/linear-inequalities";
 import { systemsOfLinearEquations } from "@/content/mathematics/systems-of-linear-equations";
+import { pairOfLinearEquationsSolvedQuestionBank } from "@/content/mathematics/pair-of-linear-equations-solved-question-bank";
 import { polynomialsAddSubtractMultiply } from "@/content/mathematics/polynomials-add-subtract-multiply";
 import { polynomialDivision } from "@/content/mathematics/polynomial-division";
 import { factoringTechniques } from "@/content/mathematics/factoring-techniques";
@@ -135,6 +136,7 @@ const REGISTRY: LessonContent[] = [
   wordProblemsWithLinearEquations,
   linearInequalities,
   systemsOfLinearEquations,
+  pairOfLinearEquationsSolvedQuestionBank,
   polynomialsAddSubtractMultiply,
   polynomialDivision,
   factoringTechniques,
@@ -344,6 +346,12 @@ export function lessonOutline(content: LessonContent): OutlineItem[] {
         break;
       case "simultaneousEquationsExplorer":
         items.push({ id, label: "Interactive simultaneous-equations laboratory" });
+        break;
+      case "solvedQuestionBank":
+        items.push({ id, label: plainMath(section.heading ?? "Solved question bank") });
+        break;
+      case "questionBankPromo":
+        items.push({ id, label: plainMath(section.title) });
         break;
       case "polynomialMultiplyExplorer":
         items.push({ id, label: "Interactive polynomial multiplication laboratory" });
