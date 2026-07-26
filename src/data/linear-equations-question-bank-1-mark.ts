@@ -1,6 +1,6 @@
 import type { LinearEquationQuestion } from "./linear-equations-question-bank-types";
 
-const arOptions = [
+const arOptions: [string, string, string, string] = [
   "Both assertion (A) and reason (R) are true, and reason (R) is the correct explanation of assertion (A).",
   "Both assertion (A) and reason (R) are true, but reason (R) is not the correct explanation of assertion (A).",
   "Assertion (A) is true, but reason (R) is false.",

@@ -71,7 +71,11 @@ function shuffle<T>(items: T[]): T[] {
   const copy = [...items];
   for (let i = copy.length - 1; i > 0; i -= 1) {
     const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
+    const currentItem = copy[i];
+    const randomItem = copy[j];
+    if (currentItem === undefined || randomItem === undefined) continue;
+    copy[i] = randomItem;
+    copy[j] = currentItem;
   }
   return copy;
 }

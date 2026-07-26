@@ -31,7 +31,10 @@ function lineSegment(
     add((line.c - line.b * ymax) / line.a, ymax);
   }
 
-  return points.length >= 2 ? [points[0], points[1]] : null;
+  const firstPoint = points[0];
+  const secondPoint = points[1];
+
+  return firstPoint && secondPoint ? [firstPoint, secondPoint] : null;
 }
 
 function CoordinateGraph({ diagram }: { diagram: Extract<QuestionBankDiagram, { kind: "coordinate-graph" }> }) {
