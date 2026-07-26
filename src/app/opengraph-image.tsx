@@ -15,8 +15,9 @@ export default function OpenGraphImage() {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "72px",
-          background:
-            "radial-gradient(circle at 15% 15%, rgba(99,102,241,.45), transparent 36%), radial-gradient(circle at 85% 82%, rgba(14,165,233,.38), transparent 34%), #09090b",
+          backgroundColor: "#09090b",
+          backgroundImage:
+            "radial-gradient(circle at 15% 15%, rgba(99, 102, 241, 0.45), transparent 36%), radial-gradient(circle at 85% 82%, rgba(14, 165, 233, 0.38), transparent 34%)",
           color: "white",
         }}
       >
@@ -41,11 +42,11 @@ export default function OpenGraphImage() {
           <div style={{ fontSize: 70, lineHeight: 1.04, fontWeight: 800, letterSpacing: "-3px" }}>
             Learn from first principles.
           </div>
-          <div style={{ fontSize: 30, lineHeight: 1.35, color: "rgba(255,255,255,.76)" }}>
+          <div style={{ fontSize: 30, lineHeight: 1.35, color: "rgba(255, 255, 255, 0.76)" }}>
             Guided Mathematics and Physics paths, interactive practice, scientists, inventions and science answers.
           </div>
         </div>
-        <div style={{ display: "flex", gap: "18px", fontSize: 23, color: "rgba(255,255,255,.62)" }}>
+        <div style={{ display: "flex", gap: "18px", fontSize: 23, color: "rgba(255, 255, 255, 0.62)" }}>
           <span>500+ lessons</span>
           <span>•</span>
           <span>Interactive learning</span>
