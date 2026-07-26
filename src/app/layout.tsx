@@ -34,12 +34,8 @@ export const metadata: Metadata = {
     "khan academy alternative",
   ],
   authors: [{ name: "EduVerse" }],
-  alternates: {
-    canonical: "/",
-  },
   openGraph: {
     type: "website",
-    url: "/",
     siteName: "EduVerse",
     title: "EduVerse — Learn anything, structured from first principles",
     description: SITE_DESCRIPTION,
@@ -76,9 +72,29 @@ export const viewport: Viewport = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const structuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "EduVerse",
+      url: SITE_URL,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "EduVerse",
+      url: SITE_URL,
+      description: SITE_DESCRIPTION,
+    },
+  ];
+
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn(GeistSans.className, "min-h-screen antialiased")}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

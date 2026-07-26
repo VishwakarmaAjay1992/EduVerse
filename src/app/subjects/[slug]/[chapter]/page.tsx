@@ -23,7 +23,17 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug, chapter } = await params;
   const detail = getChapter(slug, chapter);
-  return { title: detail ? detail.chapter.title : "Chapter" };
+  if (!detail) return { title: "Chapter" };
+  const lessonCount = detail.chapter.topics.reduce(
+    (total, topic) => total + topic.lessons.length,
+    0
+  );
+  const description = `${detail.chapter.title}: ${lessonCount} structured ${detail.subject.name} lessons at ${detail.categoryLevel} level.`;
+  return {
+    title: detail.chapter.title,
+    description,
+    alternates: { canonical: `/subjects/${slug}/${chapter}` },
+  };
 }
 
 export default async function ChapterPage({

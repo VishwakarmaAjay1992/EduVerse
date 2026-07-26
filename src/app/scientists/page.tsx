@@ -8,12 +8,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import { SCIENTISTS } from "@/data/scientists";
 
 export const metadata: Metadata = {
-  title: "World's Top Scientists",
+  title: "Influential Scientists",
   description:
     "Research-based profiles of influential scientists, their major work, discoveries, historical instruments and primary artifacts.",
+  alternates: { canonical: "/scientists" },
 };
 
 const fieldCount = new Set(SCIENTISTS.flatMap((scientist) => scientist.primaryFields)).size;
+const sourceCount = SCIENTISTS.reduce((total, scientist) => total + scientist.sources.length, 0);
 
 export default function ScientistsPage() {
   return (
@@ -29,17 +31,17 @@ export default function ScientistsPage() {
                 Expanded collection
               </div>
               <h1 className="text-balance text-4xl font-bold tracking-tight sm:text-6xl">
-                World&apos;s Top 25 Scientists
+                {SCIENTISTS.length} Influential Scientists
               </h1>
               <p className="mx-auto mt-6 max-w-3xl text-balance text-lg leading-8 text-muted-foreground">
                 Explore the ideas, experiments, early-life struggles, inspirations, political pressures,
-                scientific backlashes and original records behind 25 of history&apos;s most
+                scientific backlashes and original records behind {SCIENTISTS.length} of history&apos;s most
                 influential scientific lives.
               </p>
               <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-muted-foreground">
-                “Top” is used as a curated introduction rather than an absolute ranking. Scientific
+                “Influential” is used as a curated introduction rather than an absolute ranking. Scientific
                 progress is collaborative, crosses cultures and includes many more people than a
-                list of 25 can represent. This collection is designed to expand.
+                single collection can represent. This collection is designed to expand.
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-3">
                 <Button asChild size="lg">
@@ -82,7 +84,7 @@ export default function ScientistsPage() {
                     <BookOpenCheck className="size-5" aria-hidden="true" />
                   </div>
                   <div>
-                    <p className="text-2xl font-bold">75+</p>
+                    <p className="text-2xl font-bold">{sourceCount}</p>
                     <p className="text-xs text-muted-foreground">Research references</p>
                   </div>
                 </CardContent>

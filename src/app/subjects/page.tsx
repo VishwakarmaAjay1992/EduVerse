@@ -5,6 +5,8 @@ import { listSubjects } from "@/lib/curriculum";
 
 export const metadata: Metadata = {
   title: "Subjects",
+  description: "Browse the complete EduVerse Mathematics and Physics curricula from beginner to university level.",
+  alternates: { canonical: "/subjects" },
 };
 
 export default function SubjectsPage() {

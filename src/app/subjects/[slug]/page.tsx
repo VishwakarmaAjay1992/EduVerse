@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SiteHeader } from "@/components/site-header";
-import { CategoryProgress } from "@/components/category-progress";
-import { ChapterThumbnailCard } from "@/components/chapter-thumbnail-card";
-import { LevelBadge } from "@/components/level-badge";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  SubjectCurriculumBrowser,
+  type CurriculumBrowserCategory,
+} from "@/components/subject-curriculum-browser";
 import { getChapterThumbnail } from "@/data/chapter-thumbnails";
 import { getSubject, subjectSlugs } from "@/lib/curriculum";
 import { slugify } from "@/lib/slug";
@@ -21,7 +20,14 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const subject = getSubject(slug);
-  return { title: subject ? subject.name : "Subject" };
+  if (!subject) return { title: "Subject" };
+  const description = `${subject.tagline} Explore ${subject.stats.lessons} structured lessons across ${subject.stats.chapters} chapters.`;
+  return {
+    title: subject.name,
+    description,
+    alternates: { canonical: `/subjects/${subject.slug}` },
+    openGraph: { title: subject.name, description, type: "website" },
+  };
 }
 
 export default async function SubjectPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -29,10 +35,61 @@ export default async function SubjectPage({ params }: { params: Promise<{ slug: 
   const subject = getSubject(slug);
   if (!subject) notFound();
 
+  const categories: CurriculumBrowserCategory[] = subject.categories.map((category) => {
+    const chapterSlugs = category.chapters.map((chapter) => slugify(chapter.title));
+    const lessonCount = category.chapters.reduce(
+      (total, chapter) =>
+        total + chapter.topics.reduce((topicTotal, topic) => topicTotal + topic.lessons.length, 0),
+      0
+    );
+
+    return {
+      title: category.title,
+      level: category.level,
+      lessonCount,
+      chapterSlugs,
+      chapters: category.chapters.map((chapter) => {
+        const chapterSlug = slugify(chapter.title);
+        const lessons = chapter.topics.flatMap((topic) => topic.lessons);
+        const imagePath = getChapterThumbnail(subject.slug, category.title, chapter.title);
+        return {
+          title: chapter.title,
+          href: `/subjects/${subject.slug}/${chapterSlug}`,
+          slug: chapterSlug,
+          lessonCount: lessons.length,
+          ...(imagePath ? { imagePath } : {}),
+          prerequisites: chapter.prereq,
+          searchableText: `${chapter.title} ${chapter.prereq.join(" ")} ${lessons
+            .flatMap((lesson) => [lesson.title, ...lesson.sub])
+            .join(" ")}`.toLowerCase(),
+        };
+      }),
+    };
+  });
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    name: `${subject.name} Curriculum`,
+    description: subject.tagline,
+    provider: { "@type": "Organization", name: "EduVerse" },
+    educationalLevel: "Beginner to university",
+    timeRequired: `PT${subject.stats.hours}H`,
+    hasCourseInstance: {
+      "@type": "CourseInstance",
+      courseMode: "online",
+      courseWorkload: `PT${subject.stats.hours}H`,
+    },
+  };
+
   return (
     <>
       <SiteHeader />
       <main className="container py-12">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
         <div className="mb-10">
           <div
             className="mb-3 inline-flex rounded-lg px-3 py-1 text-sm font-medium"
@@ -48,71 +105,11 @@ export default async function SubjectPage({ params }: { params: Promise<{ slug: 
           </p>
         </div>
 
-        <div className="space-y-6">
-          {subject.categories.map((category) => {
-            const lessons = category.chapters.reduce(
-              (n, c) => n + c.topics.reduce((m, t) => m + t.lessons.length, 0),
-              0
-            );
-            return (
-              <Card key={category.title}>
-                <CardHeader>
-                  <div className="flex items-center justify-between gap-4">
-                    <CardTitle className="text-xl">{category.title}</CardTitle>
-                    <LevelBadge level={category.level} />
-                  </div>
-                  <p className="text-sm text-muted-foreground">
-                    {category.chapters.length} chapters · {lessons} lessons
-                  </p>
-                  <CategoryProgress
-                    subjectSlug={subject.slug}
-                    chapterSlugs={category.chapters.map((c) => slugify(c.title))}
-                    totalLessons={lessons}
-                  />
-                </CardHeader>
-                <CardContent>
-                  {subject.slug === "mathematics" ? (
-                    <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-                      {category.chapters.map((chapter) => {
-                        const chapterLessons = chapter.topics.reduce(
-                          (total, topic) => total + topic.lessons.length,
-                          0
-                        );
-                        return (
-                          <ChapterThumbnailCard
-                            key={chapter.title}
-                            href={`/subjects/${subject.slug}/${slugify(chapter.title)}`}
-                            title={chapter.title}
-                            lessonCount={chapterLessons}
-                            imagePath={getChapterThumbnail(
-                              subject.slug,
-                              category.title,
-                              chapter.title
-                            )}
-                            accent={subject.accent}
-                          />
-                        );
-                      })}
-                    </div>
-                  ) : (
-                    <ul className="grid gap-1.5 sm:grid-cols-2">
-                      {category.chapters.map((chapter) => (
-                        <li key={chapter.title}>
-                          <Link
-                            href={`/subjects/${subject.slug}/${slugify(chapter.title)}`}
-                            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-                          >
-                            {chapter.title}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </CardContent>
-              </Card>
-            );
-          })}
-        </div>
+        <SubjectCurriculumBrowser
+          subjectSlug={subject.slug}
+          accent={subject.accent}
+          categories={categories}
+        />
       </main>
     </>
   );

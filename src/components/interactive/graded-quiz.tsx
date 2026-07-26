@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { trackEvent } from "@/lib/analytics";
 import { saveQuiz, useLessonProgress } from "@/lib/progress-store";
 import { cn } from "@/lib/utils";
 import { richText, plainMath } from "@/components/math";
@@ -66,7 +67,15 @@ export function GradedQuiz({
 
   function submit() {
     const earned = questions.reduce((s, qq, i) => s + markQuestion(qq, answers[i]), 0);
-    saveQuiz(lessonId, Math.round(earned * 100) / 100, totalMarks, passMark);
+    const roundedEarned = Math.round(earned * 100) / 100;
+    const percent = Math.round((roundedEarned / totalMarks) * 100);
+    saveQuiz(lessonId, roundedEarned, totalMarks, passMark);
+    trackEvent("quiz_completed", {
+      lesson_id: lessonId,
+      score_percent: percent,
+      passed: percent >= passMark,
+      total_marks: totalMarks,
+    });
     setSubmitted(true);
     setConfirming(false);
   }

@@ -2,7 +2,9 @@
 
 A subject-agnostic education knowledge platform. This repository is the application foundation (Batch 1): configuration, tooling, and the production folder structure that every feature module builds on.
 
-Current public collections include structured Mathematics and Physics lessons, influential scientists, 25 physics phenomena, a 25-experience interactive Learning Hub, and research-grade Human History Inventions dossiers.
+Current public collections include 500+ structured Mathematics and Physics lessons, influential scientists, physics phenomena, an interactive Learning Hub, 100 science Q&A pages, and research-grade Human History Inventions dossiers.
+
+The homepage now includes a guided `/start` flow that recommends a curriculum path by subject, learner level, topic and daily study time. Returning learners can continue their most recently opened lesson, with progress stored locally on the device.
 
 ## Tech stack
 
@@ -60,6 +62,13 @@ Supporting services when running via Docker Compose:
 | `npm run typecheck`       | Type-check with `tsc`         |
 | `npm run prisma:generate` | Generate the Prisma client    |
 | `npm run prisma:migrate`  | Run database migrations (dev) |
+
+## Guided learning and discovery
+
+- `/start` builds a recommended path and opens the correct first lesson.
+- Subject pages support curriculum search, level filtering, collapsible categories and visible prerequisites.
+- `/science-qa/[slug]` provides a dedicated indexable page for every science question.
+- Lesson, practice, quiz and completion actions emit analytics-ready browser events.
 
 ## Learning Hub
 

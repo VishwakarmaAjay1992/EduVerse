@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { LessonBody } from "@/components/lesson-body";
+import { LessonVisitTracker } from "@/components/lesson-visit-tracker";
 import { LessonSidebarNav } from "@/components/lesson-sidebar-nav";
 import { OnThisPage } from "@/components/on-this-page";
 import { SiteHeader } from "@/components/site-header";
@@ -23,7 +24,14 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug, chapter, lesson } = await params;
   const location = findLesson(slug, chapter, lesson);
-  return { title: location ? location.lesson.title : "Lesson" };
+  if (!location) return { title: "Lesson" };
+  const description = `${location.lesson.title}: ${location.lesson.sub.slice(0, 2).join("; ")}. A ${location.lesson.min}-minute ${location.subject.name} lesson.`;
+  return {
+    title: location.lesson.title,
+    description,
+    alternates: { canonical: `/subjects/${slug}/${chapter}/${lesson}` },
+    openGraph: { title: location.lesson.title, description, type: "article" },
+  };
 }
 
 export default async function LessonPage({
@@ -48,6 +56,16 @@ export default async function LessonPage({
   return (
     <>
       <SiteHeader />
+      <LessonVisitTracker
+        lesson={{
+          id: `${slug}/${chapter}/${lesson}`,
+          href: `/subjects/${slug}/${chapter}/${lesson}`,
+          title: location.lesson.title,
+          subject: location.subject.name,
+          chapter: location.chapter.title,
+          minutes: location.lesson.min,
+        }}
+      />
       <div className="container max-w-7xl py-8">
         <div className="lg:grid lg:grid-cols-[220px_minmax(0,1fr)_240px] lg:gap-10">
           {/* Left rail: chapter navigation */}

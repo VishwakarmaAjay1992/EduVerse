@@ -45,11 +45,17 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const invention = getInvention(slug);
-  if (!invention) return { title: "Invention not found | EduVerse" };
+  if (!invention) return { title: "Invention not found" };
 
   return {
-    title: `${invention.title}: Necessity, Failures, Milestones & Prototypes | EduVerse`,
+    title: `${invention.title}: Necessity, Failures, Milestones & Prototypes`,
     description: invention.summary[0],
+    alternates: { canonical: `/inventions/${invention.slug}` },
+    openGraph: {
+      title: invention.title,
+      description: invention.subtitle,
+      type: "article",
+    },
   };
 }
 

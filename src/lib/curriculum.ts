@@ -227,3 +227,102 @@ export function flattenChapterLessons(chapter: Chapter): { title: string; slug: 
   }
   return out;
 }
+
+export interface CurriculumSearchResult {
+  subjectSlug: string;
+  subjectName: string;
+  chapterTitle: string;
+  chapterSlug: string;
+  lessonTitle: string;
+  lessonSlug: string;
+  minutes: number;
+  score: number;
+  href: string;
+}
+
+const SEARCH_STOP_WORDS = new Set([
+  "about",
+  "after",
+  "again",
+  "also",
+  "because",
+  "before",
+  "being",
+  "between",
+  "could",
+  "does",
+  "from",
+  "have",
+  "into",
+  "other",
+  "their",
+  "there",
+  "these",
+  "they",
+  "this",
+  "through",
+  "what",
+  "when",
+  "where",
+  "which",
+  "while",
+  "with",
+  "would",
+  "your",
+]);
+
+/** Find curriculum lessons related to a piece of science or history content. */
+export function searchCurriculumLessons(query: string, limit = 4): CurriculumSearchResult[] {
+  const terms = Array.from(
+    new Set(
+      (query.toLowerCase().match(/[a-z0-9]+/g) ?? []).filter(
+        (term) => term.length >= 4 && !SEARCH_STOP_WORDS.has(term)
+      )
+    )
+  ).slice(0, 24);
+
+  if (!terms.length) return [];
+  const results: CurriculumSearchResult[] = [];
+
+  for (const [subjectSlug, file] of Object.entries(FILES)) {
+    const subject = META[subjectSlug];
+    if (!subject) continue;
+    for (const category of file.categories) {
+      for (const chapter of category.chapters) {
+        const chapterSlug = slugify(chapter.title);
+        for (const topic of chapter.topics) {
+          for (const lesson of topic.lessons) {
+            const title = lesson.title.toLowerCase();
+            const topicText = topic.title.toLowerCase();
+            const chapterText = chapter.title.toLowerCase();
+            const categoryText = category.title.toLowerCase();
+            const detailText = lesson.sub.join(" ").toLowerCase();
+            let score = 0;
+            for (const term of terms) {
+              if (title.includes(term)) score += 8;
+              if (topicText.includes(term)) score += 4;
+              if (chapterText.includes(term)) score += 3;
+              if (categoryText.includes(term)) score += 1;
+              if (detailText.includes(term)) score += 2;
+            }
+            if (score === 0) continue;
+            const lessonSlug = slugify(lesson.title);
+            results.push({
+              subjectSlug,
+              subjectName: subject.name,
+              chapterTitle: chapter.title,
+              chapterSlug,
+              lessonTitle: lesson.title,
+              lessonSlug,
+              minutes: lesson.min,
+              score,
+              href: `/subjects/${subjectSlug}/${chapterSlug}/${lessonSlug}`,
+            });
+          }
+        }
+      }
+    }
+  }
+
+  return results.sort((a, b) => b.score - a.score || a.lessonTitle.localeCompare(b.lessonTitle)).slice(0, limit);
+}

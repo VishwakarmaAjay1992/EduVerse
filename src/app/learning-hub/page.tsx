@@ -5,11 +5,12 @@ import { LearningHubDirectory } from "@/components/learning-hub/learning-hub-dir
 import { SiteHeader } from "@/components/site-header";
 import { Button } from "@/components/ui/button";
 import { HUB_FEATURES, HUB_GROUPS, HUB_GROUP_COPY } from "@/data/learning-hub";
+import { PHENOMENA } from "@/data/phenomena";
 
 export const metadata: Metadata = {
   title: "Learning Hub",
-  description:
-    "Explore 25 organized EduVerse learning experiences, including virtual labs, calculators, quizzes, discoveries and study resources.",
+  description: `Explore ${HUB_FEATURES.length} organized EduVerse learning experiences, including virtual labs, calculators, quizzes, discoveries and study resources.`,
+  alternates: { canonical: "/learning-hub" },
 };
 
 export default function LearningHubPage() {
@@ -35,7 +36,7 @@ export default function LearningHubPage() {
                 Learn, explore, experiment and practise.
               </h1>
               <p className="mt-6 max-w-2xl text-balance text-lg leading-8 text-white/75">
-                Twenty-five connected experiences turn lessons into a complete learning journey—from
+                {HUB_FEATURES.length} connected experiences turn lessons into a complete learning journey—from
                 everyday physics and open mysteries to formula tools, quizzes and downloadable
                 resources.
               </p>
@@ -50,7 +51,7 @@ export default function LearningHubPage() {
                   size="lg"
                   className="border border-white/20 bg-white/10 text-white hover:bg-white/20"
                 >
-                  <Link href="/phenomena">Discover 25 phenomena</Link>
+                  <Link href="/phenomena">Discover {PHENOMENA.length} phenomena</Link>
                 </Button>
               </div>
             </div>

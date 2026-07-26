@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import { HelpCircle } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { QaDirectory } from "@/components/science-qa/qa-directory";
+import { SCIENCE_QA } from "@/data/science-qa";
 
 export const metadata: Metadata = {
-  title: "100 General Science Questions",
+  title: `${SCIENCE_QA.length} General Science Questions`,
   description:
-    "Clear, accurate answers to 100 common science questions across Earth and climate, biology, the human body, physics and chemistry.",
+    `Clear, accurate answers to ${SCIENCE_QA.length} common science questions across Earth and climate, biology, the human body, physics and chemistry.`,
+  alternates: { canonical: "/science-qa" },
 };
 
 export default function Page() {
@@ -20,11 +22,11 @@ export default function Page() {
               <HelpCircle className="size-4" /> Quick answers
             </div>
             <h1 className="mt-6 text-balance text-4xl font-bold tracking-tight sm:text-5xl">
-              100 General Science Questions
+              {SCIENCE_QA.length} General Science Questions
             </h1>
             <p className="mt-4 max-w-2xl text-balance leading-7 text-muted-foreground">
               Everyday questions about the Earth, living things, the human body, physics and
-              chemistry — answered clearly and accurately. Tap any question to expand its answer.
+              chemistry — answered clearly and accurately. Expand an answer here or open its dedicated page to share and study it.
             </p>
           </div>
         </section>

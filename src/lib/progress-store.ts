@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 // same API can later be swapped for a database service without touching UI.
 
 const KEY = "eduverse:progress:v1";
+const RECENT_KEY = "eduverse:recent-lesson:v1";
 const EVENT = "eduverse:progress-change";
 
 export interface QuizResult {
@@ -19,9 +20,20 @@ export interface QuizResult {
 
 export interface LessonProgress {
   opened: boolean;
+  openedAt?: string;
   steps: Record<string, boolean>;
   quiz?: QuizResult;
   completed: boolean;
+}
+
+export interface RecentLesson {
+  id: string;
+  href: string;
+  title: string;
+  subject: string;
+  chapter: string;
+  minutes: number;
+  visitedAt: string;
 }
 
 const EMPTY: LessonProgress = { opened: false, steps: {}, completed: false };
@@ -53,7 +65,25 @@ function update(id: string, fn: (p: LessonProgress) => LessonProgress): void {
 }
 
 export function setOpened(id: string): void {
-  update(id, (p) => (p.opened ? p : { ...p, opened: true }));
+  update(id, (p) => ({ ...p, opened: true, openedAt: new Date().toISOString() }));
+}
+
+export function recordLessonVisit(lesson: Omit<RecentLesson, "visitedAt">): void {
+  if (typeof window === "undefined") return;
+  const visitedAt = new Date().toISOString();
+  setOpened(lesson.id);
+  window.localStorage.setItem(RECENT_KEY, JSON.stringify({ ...lesson, visitedAt }));
+  window.dispatchEvent(new Event(EVENT));
+}
+
+export function getRecentLesson(): RecentLesson | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = window.localStorage.getItem(RECENT_KEY);
+    return raw ? (JSON.parse(raw) as RecentLesson) : null;
+  } catch {
+    return null;
+  }
 }
 
 export function markStep(id: string, step: string): void {
@@ -117,6 +147,22 @@ export function useLessonProgress(id: string): LessonProgress {
     };
   }, [id]);
   return p;
+}
+
+/** React hook: most recently opened lesson. */
+export function useRecentLesson(): RecentLesson | null {
+  const [lesson, setLesson] = useState<RecentLesson | null>(null);
+  useEffect(() => {
+    const load = () => setLesson(getRecentLesson());
+    load();
+    window.addEventListener(EVENT, load);
+    window.addEventListener("storage", load);
+    return () => {
+      window.removeEventListener(EVENT, load);
+      window.removeEventListener("storage", load);
+    };
+  }, []);
+  return lesson;
 }
 
 /** React hook: total completed lessons across the given id prefixes. */

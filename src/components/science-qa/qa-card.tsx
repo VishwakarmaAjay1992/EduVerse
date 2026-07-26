@@ -1,10 +1,12 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
-import { ChevronDown } from "lucide-react";
+import { ArrowRight, ChevronDown } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { QaDiagramView } from "./qa-diagram";
 import type { ScienceQuestion } from "@/data/science-qa";
+import { slugify } from "@/lib/slug";
 
 /** A single accordion-style science question card with a smooth expand/collapse answer panel. */
 export function QaCard({ item }: { item: ScienceQuestion }) {
@@ -57,6 +59,12 @@ export function QaCard({ item }: { item: ScienceQuestion }) {
               </div>
             )}
             {item.diagram && <QaDiagramView diagram={item.diagram} />}
+            <Link
+              href={`/science-qa/${slugify(item.question)}`}
+              className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline"
+            >
+              Read and share the full answer <ArrowRight className="size-4" aria-hidden="true" />
+            </Link>
           </div>
         </div>
       </div>

@@ -39,6 +39,12 @@ export async function generateMetadata({
   return {
     title: scientist.fullName,
     description: `${scientist.headline} Explore ${scientist.fullName}'s major work, discoveries and historical artifacts.`,
+    alternates: { canonical: `/scientists/${scientist.slug}` },
+    openGraph: {
+      title: scientist.fullName,
+      description: scientist.headline,
+      type: "article",
+    },
   };
 }
 

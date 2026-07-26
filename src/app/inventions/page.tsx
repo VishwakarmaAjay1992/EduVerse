@@ -7,9 +7,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { INVENTIONS } from "@/data/inventions";
 
 export const metadata: Metadata = {
-  title: "Human History Inventions | EduVerse",
+  title: "Human History Inventions",
   description:
     "Research-grade, beginner-friendly histories of inventions: necessity, prior art, people, failed experiments, engineering milestones, real prototypes, consequences and primary sources.",
+  alternates: { canonical: "/inventions" },
 };
 
 const readingModes = [
@@ -73,7 +74,7 @@ export default function InventionsPage() {
         <section className="container py-14 sm:py-16">
           <div className="mb-8 max-w-3xl">
             <p className="text-sm font-semibold text-primary">Choose an invention</p>
-            <h2 className="mt-2 text-3xl font-bold tracking-tight">Five complete knowledge dossiers</h2>
+            <h2 className="mt-2 text-3xl font-bold tracking-tight">{INVENTIONS.length} complete knowledge dossiers</h2>
             <p className="mt-3 leading-7 text-muted-foreground">
               Search by invention, inventor, historical era, engineering term or underlying problem.
             </p>

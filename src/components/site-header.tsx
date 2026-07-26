@@ -6,6 +6,7 @@ import {
   Hammer,
   HelpCircle,
   Microscope,
+  Route,
   Sparkles,
 } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -18,7 +19,15 @@ export function SiteHeader() {
           <GraduationCap className="size-5 text-primary" />
           <span>EduVerse</span>
         </Link>
-        <nav className="flex max-w-[calc(100vw-7.5rem)] items-center gap-0.5 overflow-x-auto lg:max-w-none lg:gap-1 lg:overflow-visible">
+        <nav aria-label="Primary navigation" className="flex max-w-[calc(100vw-7.5rem)] items-center gap-0.5 overflow-x-auto lg:max-w-none lg:gap-1 lg:overflow-visible">
+          <Link
+            href="/start"
+            className="mr-1 inline-flex items-center gap-1.5 rounded-md bg-primary px-2.5 py-2 text-sm font-semibold text-primary-foreground shadow-sm transition hover:bg-primary/90"
+          >
+            <Route className="size-4" aria-hidden="true" />
+            <span className="hidden sm:inline">Start learning</span>
+            <span className="sr-only sm:hidden">Start learning</span>
+          </Link>
           <Link
             href="/subjects"
             className="inline-flex items-center gap-1.5 rounded-md px-2.5 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"

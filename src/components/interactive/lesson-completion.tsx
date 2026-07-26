@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { CheckCircle2, Circle, Trophy } from "lucide-react";
+import { trackEvent } from "@/lib/analytics";
 import { computeComplete, setCompleted, setOpened, useLessonProgress } from "@/lib/progress-store";
 import { cn } from "@/lib/utils";
 
@@ -26,7 +27,10 @@ export function LessonCompletion({
 
   // Auto-persist completion once requirements are met (no manual override).
   useEffect(() => {
-    if (ready && !p.completed) setCompleted(lessonId, true);
+    if (ready && !p.completed) {
+      setCompleted(lessonId, true);
+      trackEvent("lesson_completed", { lesson_id: lessonId });
+    }
   }, [ready, p.completed, lessonId]);
 
   const rows = [

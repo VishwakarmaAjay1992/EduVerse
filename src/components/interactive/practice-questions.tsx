@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { CheckCircle2, XCircle } from "lucide-react";
+import { trackEvent } from "@/lib/analytics";
 import { markStep } from "@/lib/progress-store";
 import { cn } from "@/lib/utils";
 import { richText } from "@/components/math";
@@ -22,7 +23,14 @@ export function PracticeQuestions({
     if (answers[qi] !== undefined) return;
     const next = { ...answers, [qi]: oi };
     setAnswers(next);
-    if (Object.keys(next).length === questions.length) markStep(lessonId, stepKey);
+    if (Object.keys(next).length === questions.length) {
+      markStep(lessonId, stepKey);
+      trackEvent("practice_completed", {
+        lesson_id: lessonId,
+        question_count: questions.length,
+        step_key: stepKey,
+      });
+    }
   }
 
   return (

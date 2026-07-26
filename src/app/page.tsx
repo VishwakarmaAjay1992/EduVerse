@@ -1,5 +1,7 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Compass, Hammer, Microscope, Sparkles, Telescope } from "lucide-react";
+import { ContinueLearning } from "@/components/continue-learning";
 import { HistoricalImage } from "@/components/inventions/historical-image";
 import { ScientistImage } from "@/components/scientists/scientist-image";
 import { SiteHeader } from "@/components/site-header";
@@ -10,6 +12,14 @@ import { SCIENTISTS } from "@/data/scientists";
 import { listSubjects } from "@/lib/curriculum";
 import { HUB_FEATURES, HUB_GROUPS, HUB_GROUP_COPY } from "@/data/learning-hub";
 import { INVENTIONS } from "@/data/inventions";
+import { PHENOMENA } from "@/data/phenomena";
+
+export const metadata: Metadata = {
+  title: "Learn Mathematics and Physics from First Principles",
+  description:
+    "Build a guided learning path across Mathematics and Physics, then practise with interactive tools, science questions and research-based collections.",
+  alternates: { canonical: "/" },
+};
 
 export default function HomePage() {
   const subjects = listSubjects();
@@ -20,31 +30,35 @@ export default function HomePage() {
     <>
       <SiteHeader />
       <main>
-        <section className="border-b">
-          <div className="container flex flex-col items-center gap-6 py-24 text-center">
-            <h1 className="max-w-3xl text-balance text-4xl font-bold tracking-tight sm:text-6xl">
-              Learn anything, structured from first principles.
+        <section className="border-b bg-gradient-to-b from-primary/5 via-background to-background">
+          <div className="container flex flex-col items-center gap-6 pb-24 pt-20 text-center sm:pt-24">
+            <div className="inline-flex items-center gap-2 rounded-full border bg-background px-3 py-1.5 text-xs font-semibold uppercase tracking-widest text-primary shadow-sm">
+              <Compass className="size-4" aria-hidden="true" /> Guided learning from first principles
+            </div>
+            <h1 className="max-w-4xl text-balance text-4xl font-bold tracking-tight sm:text-6xl">
+              What would you like to learn today?
             </h1>
-            <p className="max-w-xl text-balance text-lg text-muted-foreground">
-              A subject-agnostic knowledge platform. Every formula, theorem and scientist is a
-              reusable object, connected in one graph — starting with Mathematics and Physics.
+            <p className="max-w-2xl text-balance text-lg leading-8 text-muted-foreground">
+              Build your Mathematics foundation, understand Physics, or explore the people,
+              inventions and phenomena behind scientific ideas.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <Button asChild size="lg">
-                <Link href="/subjects">Explore subjects</Link>
+                <Link href="/start">
+                  Build my learning path <ArrowRight aria-hidden="true" />
+                </Link>
               </Button>
               <Button asChild size="lg" variant="outline">
-                <Link href="/scientists">
-                  Meet the scientists <ArrowRight aria-hidden="true" />
-                </Link>
+                <Link href="/subjects">Browse all subjects</Link>
               </Button>
             </div>
             <p className="text-sm text-muted-foreground">
-              {totalLessons.toLocaleString()} lessons · ~{totalHours.toLocaleString()} hours of
-              structured learning
+              {totalLessons.toLocaleString()} lessons · ~{totalHours.toLocaleString()} hours · progress saved automatically
             </p>
           </div>
         </section>
+
+        <ContinueLearning />
 
         <section className="container py-16">
           <h2 className="mb-6 text-2xl font-semibold tracking-tight">Subjects</h2>
@@ -63,7 +77,7 @@ export default function HomePage() {
                   <Compass className="size-4" /> New learning platform
                 </div>
                 <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
-                  One hub. Twenty-five ways to discover.
+                  One hub. {HUB_FEATURES.length} ways to discover.
                 </h2>
                 <p className="mt-4 max-w-2xl leading-7 text-muted-foreground">
                   Move beyond reading with virtual experiments, formula tools, calculators, quizzes,
@@ -111,7 +125,7 @@ export default function HomePage() {
                 New science collection
               </div>
               <h2 className="mt-5 text-3xl font-bold sm:text-4xl">
-                25 Fascinating Physics Phenomena
+                {PHENOMENA.length} Fascinating Physics Phenomena
               </h2>
               <p className="mt-4 max-w-2xl leading-7 text-white/70">
                 Discover why skies change colour, stars twinkle, clouds float, tides rise, echoes
@@ -120,7 +134,7 @@ export default function HomePage() {
             </div>
             <Button asChild size="lg" variant="secondary">
               <Link href="/phenomena">
-                Explore all 25 <ArrowRight />
+                Explore all {PHENOMENA.length} <ArrowRight />
               </Link>
             </Button>
           </div>
@@ -193,7 +207,7 @@ export default function HomePage() {
                 The people behind the principles
               </h2>
               <p className="mt-4 max-w-xl leading-7 text-muted-foreground">
-                Read high-quality profiles of 25 influential scientists, including early life,
+                Read high-quality profiles of {SCIENTISTS.length} influential scientists, including early life,
                 inspiration, political challenges, backlash, key laws, defining work and
                 photographs of original documents, instruments or historical prototypes.
               </p>
