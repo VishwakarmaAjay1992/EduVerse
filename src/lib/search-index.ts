@@ -3,6 +3,7 @@ import { INVENTIONS } from "@/data/inventions";
 import { PHENOMENA } from "@/data/phenomena";
 import { SCIENCE_QA } from "@/data/science-qa";
 import { SCIENTISTS } from "@/data/scientists";
+import { PHYSICS_DICTIONARY } from "@/data/physics-dictionary";
 import { listAllLessons } from "@/lib/curriculum";
 import { slugify } from "@/lib/slug";
 
@@ -12,7 +13,8 @@ export type SearchKind =
   | "Phenomenon"
   | "Invention"
   | "Science Q&A"
-  | "Learning tool";
+  | "Learning tool"
+  | "Physics concept";
 
 export interface SearchIndexItem {
   id: string;
@@ -89,6 +91,18 @@ export function buildSearchIndex(): SearchIndexItem[] {
     ),
   }));
 
+  const physicsConcepts: SearchIndexItem[] = PHYSICS_DICTIONARY.map((entry) => ({
+    id: `physics-concept:${entry.slug}`,
+    kind: "Physics concept",
+    title: entry.title,
+    description: compact(entry.definition),
+    eyebrow: `${entry.category}${entry.formula ? ` · ${entry.formula}` : ""}`,
+    href: `/physics-dictionary/${entry.slug}`,
+    keywords: compact(
+      `${entry.title} ${entry.category} ${entry.definition} ${entry.explanation} ${entry.formula ?? ""} ${entry.unit ?? ""} ${entry.aliases.join(" ")}`
+    ),
+  }));
+
   const tools: SearchIndexItem[] = HUB_FEATURES.map((feature) => ({
     id: `hub:${feature.slug}`,
     kind: "Learning tool",
@@ -101,5 +115,13 @@ export function buildSearchIndex(): SearchIndexItem[] {
     ),
   }));
 
-  return [...lessons, ...scientists, ...phenomena, ...inventions, ...questions, ...tools];
+  return [
+    ...lessons,
+    ...physicsConcepts,
+    ...scientists,
+    ...phenomena,
+    ...inventions,
+    ...questions,
+    ...tools,
+  ];
 }

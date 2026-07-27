@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { Atom, ArrowRight } from "lucide-react";
 import { notFound } from "next/navigation";
 import { SiteHeader } from "@/components/site-header";
+import { Button } from "@/components/ui/button";
+import { PHYSICS_DICTIONARY } from "@/data/physics-dictionary";
 import {
   SubjectCurriculumBrowser,
   type CurriculumBrowserCategory,
@@ -104,6 +108,30 @@ export default async function SubjectPage({ params }: { params: Promise<{ slug: 
             {subject.stats.lessons} lessons · ~{subject.stats.hours} hours
           </p>
         </div>
+
+        {subject.slug === "physics" ? (
+          <div className="mb-10 overflow-hidden rounded-2xl border bg-gradient-to-r from-sky-500/10 via-card to-card shadow-sm">
+            <div className="flex flex-col gap-5 p-6 sm:flex-row sm:items-center sm:justify-between sm:p-8">
+              <div className="flex max-w-2xl items-start gap-4">
+                <span className="rounded-xl bg-sky-500/10 p-3 text-sky-600 dark:text-sky-400">
+                  <Atom className="size-6" aria-hidden="true" />
+                </span>
+                <div>
+                  <h2 className="text-xl font-bold">Physics Dictionary</h2>
+                  <p className="mt-2 leading-7 text-muted-foreground">
+                    Search {PHYSICS_DICTIONARY.length} concepts with definitions, formulas, units,
+                    aliases and links back to the lessons that teach them.
+                  </p>
+                </div>
+              </div>
+              <Button asChild className="shrink-0">
+                <Link href="/physics-dictionary">
+                  Search concepts <ArrowRight className="size-4" aria-hidden="true" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        ) : null}
 
         <SubjectCurriculumBrowser
           subjectSlug={subject.slug}

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
+  Atom,
   Beaker,
   BookOpen,
   ExternalLink,
@@ -24,11 +25,14 @@ const KINDS: Array<SearchKind | "All"> = [
   "All",
   "Lesson",
   "Science Q&A",
+  "Physics concept",
   "Scientist",
   "Phenomenon",
   "Invention",
   "Learning tool",
 ];
+
+const SEARCH_STOP_WORDS = new Set(["a", "an", "the", "is", "are", "what", "define", "explain", "meaning", "please"]);
 
 const SYNONYMS: Record<string, string[]> = {
   "speed change": ["acceleration"],
@@ -37,6 +41,8 @@ const SYNONYMS: Record<string, string[]> = {
   "line equation": ["linear equation", "slope", "intercept"],
   "falling object": ["gravity", "free fall"],
   "electric flow": ["current electricity"],
+  "angle of banking": ["banking angle"],
+  "turning force": ["torque"],
 };
 
 const ICONS = {
@@ -46,6 +52,7 @@ const ICONS = {
   Invention: Hammer,
   "Science Q&A": HelpCircle,
   "Learning tool": Wrench,
+  "Physics concept": Atom,
 } satisfies Record<SearchKind, typeof BookOpen>;
 
 function normalize(value: string): string {
@@ -54,7 +61,7 @@ function normalize(value: string): string {
 
 function expandedTerms(query: string): string[] {
   const normalized = normalize(query);
-  const words = normalized.split(" ").filter(Boolean);
+  const words = normalized.split(" ").filter((word) => word && !SEARCH_STOP_WORDS.has(word));
   const aliases = Object.entries(SYNONYMS)
     .filter(([phrase]) => normalized.includes(phrase))
     .flatMap(([, values]) => values.flatMap((value) => normalize(value).split(" ")));
@@ -147,7 +154,7 @@ export function SearchExperience({
           ref={inputRef}
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="Search lessons, questions, scientists, inventions and tools…"
+          placeholder="Search lessons, physics concepts, questions, scientists and tools…"
           aria-label="Search all EduVerse content"
           className="h-14 rounded-xl bg-background pl-12 pr-16 text-base shadow-sm"
         />
@@ -176,7 +183,7 @@ export function SearchExperience({
             {
               icon: BookOpen,
               title: "Find a lesson",
-              text: "Try “linear equations”, “refraction” or “calculus”.",
+              text: "Try “linear equations”, “angle of banking” or “refraction”.",
             },
             {
               icon: Beaker,

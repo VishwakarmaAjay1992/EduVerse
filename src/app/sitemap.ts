@@ -6,6 +6,7 @@ import { HUB_FEATURES } from "@/data/learning-hub";
 import { INVENTIONS } from "@/data/inventions";
 import { SCIENCE_QA } from "@/data/science-qa";
 import { slugify } from "@/lib/slug";
+import { PHYSICS_DICTIONARY } from "@/data/physics-dictionary";
 
 /**
  * The canonical site origin. Set NEXT_PUBLIC_SITE_URL in Vercel to your
@@ -32,6 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/inventions`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/learning-hub`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/science-qa`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${base}/physics-dictionary`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
   ];
 
   const subjectRoutes: MetadataRoute.Sitemap = listSubjects().map((subject) => ({
@@ -83,6 +85,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const physicsDictionaryRoutes: MetadataRoute.Sitemap = PHYSICS_DICTIONARY.map((entry) => ({
+    url: `${base}/physics-dictionary/${entry.slug}`,
+    lastModified: now,
+    changeFrequency: "yearly",
+    priority: entry.priority === "high-interest" ? 0.65 : 0.5,
+  }));
+
   const scienceQuestionRoutes: MetadataRoute.Sitemap = SCIENCE_QA.map((item) => ({
     url: `${base}/science-qa/${slugify(item.question)}`,
     lastModified: now,
@@ -100,5 +109,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...inventionRoutes,
     ...hubRoutes,
     ...scienceQuestionRoutes,
+    ...physicsDictionaryRoutes,
   ];
 }

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {
+  Atom,
   BookOpen,
   Compass,
   GraduationCap,
@@ -37,6 +38,14 @@ export function SiteHeader() {
             <Search className="size-4" aria-hidden="true" />
             <span className="hidden xl:inline">Search</span>
             <span className="sr-only xl:hidden">Search</span>
+          </Link>
+          <Link
+            href="/physics-dictionary"
+            className="inline-flex items-center gap-1.5 rounded-md px-2.5 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+          >
+            <Atom className="size-4" aria-hidden="true" />
+            <span className="hidden 2xl:inline">Physics Dictionary</span>
+            <span className="sr-only 2xl:hidden">Physics Dictionary</span>
           </Link>
           <Link
             href="/my-learning"

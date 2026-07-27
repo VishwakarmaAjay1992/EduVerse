@@ -5,7 +5,7 @@ import { buildSearchIndex } from "@/lib/search-index";
 
 export const metadata: Metadata = {
   title: "Search",
-  description: "Search every EduVerse lesson, scientist, phenomenon, invention, science answer and learning tool.",
+  description: "Search every EduVerse lesson, physics concept, scientist, phenomenon, invention, science answer and learning tool.",
   alternates: { canonical: "/search" },
   robots: { index: false, follow: true },
 };
@@ -31,7 +31,7 @@ export default async function SearchPage({
               Search the whole EduVerse
             </h1>
             <p className="mx-auto mt-4 max-w-2xl text-balance leading-7 text-muted-foreground">
-              Find a lesson, answer, scientist, invention, phenomenon or interactive learning tool from one place.
+              Find a lesson, physics concept, answer, scientist, invention, phenomenon or interactive learning tool from one place.
             </p>
           </div>
         </section>

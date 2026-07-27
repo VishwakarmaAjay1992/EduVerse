@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import {
   ArrowRight,
+  Atom,
   Brain,
   Compass,
   Hammer,
@@ -23,6 +24,7 @@ import { listSubjects } from "@/lib/curriculum";
 import { HUB_FEATURES, HUB_GROUPS, HUB_GROUP_COPY } from "@/data/learning-hub";
 import { INVENTIONS } from "@/data/inventions";
 import { PHENOMENA } from "@/data/phenomena";
+import { PHYSICS_DICTIONARY } from "@/data/physics-dictionary";
 
 export const metadata: Metadata = {
   title: "Learn Mathematics and Physics from First Principles",
@@ -102,6 +104,32 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+        </section>
+
+        <section className="container pt-8">
+          <Link
+            href="/physics-dictionary"
+            className="group block overflow-hidden rounded-2xl border bg-gradient-to-r from-sky-500/10 via-card to-card shadow-sm transition hover:-translate-y-0.5 hover:border-sky-500/40 hover:shadow-md"
+          >
+            <div className="grid gap-5 p-6 sm:p-8 lg:grid-cols-[auto_1fr_auto] lg:items-center">
+              <span className="flex size-14 items-center justify-center rounded-2xl bg-sky-500/10 text-sky-600 dark:text-sky-400">
+                <Atom className="size-7" aria-hidden="true" />
+              </span>
+              <div>
+                <p className="text-sm font-semibold text-primary">New physics reference</p>
+                <h2 className="mt-1 text-2xl font-bold tracking-tight">
+                  Search {PHYSICS_DICTIONARY.length} physics concepts
+                </h2>
+                <p className="mt-2 max-w-3xl leading-7 text-muted-foreground">
+                  Clear definitions, formulas, SI units, alternative names and direct links to the
+                  EduVerse lesson that explains each concept.
+                </p>
+              </div>
+              <span className="inline-flex items-center gap-2 font-semibold text-primary">
+                Open dictionary <ArrowRight className="size-4 transition group-hover:translate-x-1" />
+              </span>
+            </div>
+          </Link>
         </section>
 
         <section className="container py-16">
