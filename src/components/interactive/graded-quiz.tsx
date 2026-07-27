@@ -2,7 +2,12 @@
 
 import { useMemo, useState } from "react";
 import { trackEvent } from "@/lib/analytics";
-import { saveQuiz, useLessonProgress } from "@/lib/progress-store";
+import {
+  creditReviewFromAssessment,
+  recordReviewItem,
+  saveQuiz,
+  useLessonProgress,
+} from "@/lib/progress-store";
 import { cn } from "@/lib/utils";
 import { richText, plainMath } from "@/components/math";
 import type { GradedQuestion } from "@/lib/lesson-content-types";
@@ -15,7 +20,7 @@ type Answer =
 function markQuestion(q: GradedQuestion, a: Answer | undefined): number {
   if (!a) return 0;
   if (q.type === "mc") return a.type === "mc" && a.value === q.answer ? q.marks : 0;
-  if (q.type === "tf") return a.type === "tf" && a.value === (q.answer ? 1 : 0) ? q.marks : 0;
+  if (q.type === "tf") return a.type === "tf" && a.value === (q.answer ? 0 : 1) ? q.marks : 0;
   if (q.type === "matching" && a.type === "matching") {
     const per = q.marks / q.left.length;
     let correct = 0;
@@ -40,6 +45,32 @@ function status(earned: number, max: number, answered: boolean): string {
   if (earned === max) return "Correct";
   if (earned > 0) return "Partially correct";
   return "Incorrect";
+}
+
+function selectedAnswerText(q: GradedQuestion, a: Answer | undefined): string {
+  if (!a) return "No answer";
+  if (q.type === "mc" && a.type === "mc") return plainMath(q.options[a.value] ?? "No answer");
+  if (q.type === "tf" && a.type === "tf") return a.value === 0 ? "True" : "False";
+  if (q.type === "matching" && a.type === "matching") {
+    return q.left
+      .map((left, index) => `${plainMath(left)} → ${plainMath(q.options[a.value[index] ?? -1] ?? "No answer")}`)
+      .join("; ");
+  }
+  if (q.type === "multi" && a.type === "multi") {
+    return a.value.map((index) => plainMath(q.options[index] ?? "")).filter(Boolean).join(", ") || "No answer";
+  }
+  return "No answer";
+}
+
+function correctAnswerText(q: GradedQuestion): string {
+  if (q.type === "mc") return plainMath(q.options[q.answer] ?? "");
+  if (q.type === "tf") return q.answer ? "True" : "False";
+  if (q.type === "matching") {
+    return q.left
+      .map((left, index) => `${plainMath(left)} → ${plainMath(q.options[q.answer[index] ?? -1] ?? "")}`)
+      .join("; ");
+  }
+  return q.answers.map((index) => plainMath(q.options[index] ?? "")).filter(Boolean).join(", ");
 }
 
 export function GradedQuiz({
@@ -70,11 +101,36 @@ export function GradedQuiz({
     const roundedEarned = Math.round(earned * 100) / 100;
     const percent = Math.round((roundedEarned / totalMarks) * 100);
     saveQuiz(lessonId, roundedEarned, totalMarks, passMark);
+
+    let mistakesSaved = 0;
+    questions.forEach((question, index) => {
+      const reviewId = `${lessonId}:quiz:${index}`;
+      const earnedQuestion = markQuestion(question, answers[index]);
+      if (earnedQuestion < question.marks) {
+        recordReviewItem({
+          id: reviewId,
+          lessonId,
+          kind: "quiz",
+          prompt: plainMath(question.prompt),
+          selectedAnswer: selectedAnswerText(question, answers[index]),
+          correctAnswer: correctAnswerText(question),
+          explanation: plainMath(question.explanation),
+        });
+        mistakesSaved += 1;
+      } else {
+        creditReviewFromAssessment(reviewId);
+      }
+    });
+
+    if (mistakesSaved > 0) {
+      trackEvent("mistake_saved", { lesson_id: lessonId, source: "quiz", count: mistakesSaved });
+    }
     trackEvent("quiz_completed", {
       lesson_id: lessonId,
       score_percent: percent,
       passed: percent >= passMark,
       total_marks: totalMarks,
+      mistakes_saved: mistakesSaved,
     });
     setSubmitted(true);
     setConfirming(false);

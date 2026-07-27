@@ -326,3 +326,57 @@ export function searchCurriculumLessons(query: string, limit = 4): CurriculumSea
 
   return results.sort((a, b) => b.score - a.score || a.lessonTitle.localeCompare(b.lessonTitle)).slice(0, limit);
 }
+
+export interface LessonCatalogItem {
+  id: string;
+  href: string;
+  subjectSlug: string;
+  subjectName: string;
+  categoryTitle: string;
+  categoryLevel: string;
+  chapterTitle: string;
+  chapterSlug: string;
+  topicTitle: string;
+  lessonTitle: string;
+  lessonSlug: string;
+  minutes: number;
+  difficulty: number;
+  summary: string[];
+}
+
+/** Flatten the curriculum into stable IDs used by search and learner dashboards. */
+export function listAllLessons(): LessonCatalogItem[] {
+  const lessons: LessonCatalogItem[] = [];
+  for (const [subjectSlug, file] of Object.entries(FILES)) {
+    const subject = META[subjectSlug];
+    if (!subject) continue;
+    for (const category of file.categories) {
+      for (const chapter of category.chapters) {
+        const chapterSlug = slugify(chapter.title);
+        for (const topic of chapter.topics) {
+          for (const lesson of topic.lessons) {
+            const lessonSlug = slugify(lesson.title);
+            const id = `${subjectSlug}/${chapterSlug}/${lessonSlug}`;
+            lessons.push({
+              id,
+              href: `/subjects/${id}`,
+              subjectSlug,
+              subjectName: subject.name,
+              categoryTitle: category.title,
+              categoryLevel: category.level,
+              chapterTitle: chapter.title,
+              chapterSlug,
+              topicTitle: topic.title,
+              lessonTitle: lesson.title,
+              lessonSlug,
+              minutes: lesson.min,
+              difficulty: lesson.d,
+              summary: lesson.sub,
+            });
+          }
+        }
+      }
+    }
+  }
+  return lessons;
+}

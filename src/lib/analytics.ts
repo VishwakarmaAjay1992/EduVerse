@@ -5,7 +5,14 @@ export type AnalyticsEvent =
   | "practice_completed"
   | "quiz_completed"
   | "lesson_completed"
-  | "continue_learning_clicked";
+  | "continue_learning_clicked"
+  | "dashboard_opened"
+  | "search_performed"
+  | "search_result_clicked"
+  | "review_completed"
+  | "mistake_saved"
+  | "learning_data_exported"
+  | "learning_data_imported";
 
 declare global {
   interface Window {

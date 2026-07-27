@@ -1,6 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Compass, Hammer, Microscope, Sparkles, Telescope } from "lucide-react";
+import {
+  ArrowRight,
+  Brain,
+  Compass,
+  Hammer,
+  LayoutDashboard,
+  Microscope,
+  Search,
+  Sparkles,
+  Telescope,
+} from "lucide-react";
 import { ContinueLearning } from "@/components/continue-learning";
 import { HistoricalImage } from "@/components/inventions/historical-image";
 import { ScientistImage } from "@/components/scientists/scientist-image";
@@ -59,6 +69,40 @@ export default function HomePage() {
         </section>
 
         <ContinueLearning />
+
+        <section className="container pt-12">
+          <div className="overflow-hidden rounded-2xl border bg-card shadow-sm">
+            <div className="grid lg:grid-cols-[1fr_auto] lg:items-center">
+              <div className="p-6 sm:p-8">
+                <div className="inline-flex items-center gap-2 text-sm font-semibold text-primary">
+                  <LayoutDashboard className="size-4" aria-hidden="true" /> Personal learning system
+                </div>
+                <h2 className="mt-3 text-2xl font-bold tracking-tight sm:text-3xl">
+                  Learn, review mistakes and know what comes next
+                </h2>
+                <p className="mt-3 max-w-2xl leading-7 text-muted-foreground">
+                  My EduVerse turns your lesson activity into a daily plan, Smart Review queue,
+                  Mistake Notebook and subject progress dashboard.
+                </p>
+                <div className="mt-5 flex flex-wrap gap-2 text-sm text-muted-foreground">
+                  <span className="inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5">
+                    <Brain className="size-4 text-primary" aria-hidden="true" /> Spaced review
+                  </span>
+                  <span className="inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5">
+                    <Search className="size-4 text-primary" aria-hidden="true" /> Universal search
+                  </span>
+                </div>
+              </div>
+              <div className="border-t bg-muted/30 p-6 lg:border-l lg:border-t-0 lg:p-8">
+                <Button asChild size="lg">
+                  <Link href="/my-learning">
+                    Open My EduVerse <ArrowRight aria-hidden="true" />
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <section className="container py-16">
           <h2 className="mb-6 text-2xl font-semibold tracking-tight">Subjects</h2>

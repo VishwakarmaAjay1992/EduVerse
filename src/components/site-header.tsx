@@ -7,6 +7,8 @@ import {
   HelpCircle,
   Microscope,
   Route,
+  Search,
+  LayoutDashboard,
   Sparkles,
 } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -27,6 +29,22 @@ export function SiteHeader() {
             <Route className="size-4" aria-hidden="true" />
             <span className="hidden sm:inline">Start learning</span>
             <span className="sr-only sm:hidden">Start learning</span>
+          </Link>
+          <Link
+            href="/search"
+            className="inline-flex items-center gap-1.5 rounded-md px-2.5 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+          >
+            <Search className="size-4" aria-hidden="true" />
+            <span className="hidden xl:inline">Search</span>
+            <span className="sr-only xl:hidden">Search</span>
+          </Link>
+          <Link
+            href="/my-learning"
+            className="inline-flex items-center gap-1.5 rounded-md px-2.5 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+          >
+            <LayoutDashboard className="size-4" aria-hidden="true" />
+            <span className="hidden xl:inline">My learning</span>
+            <span className="sr-only xl:hidden">My learning</span>
           </Link>
           <Link
             href="/subjects"

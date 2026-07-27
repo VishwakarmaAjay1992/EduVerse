@@ -1,8 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import { trackEvent } from "@/lib/analytics";
+import { creditReviewFromAssessment, recordReviewItem } from "@/lib/progress-store";
 import { cn } from "@/lib/utils";
-import { richText } from "@/components/math";
+import { plainMath, richText } from "@/components/math";
 
 export interface QuizQuestion {
   prompt: string;
@@ -11,8 +13,29 @@ export interface QuizQuestion {
   explanation?: string;
 }
 
-export function Quiz({ questions }: { questions: QuizQuestion[] }) {
+export function Quiz({ questions, lessonId }: { questions: QuizQuestion[]; lessonId?: string }) {
   const [picked, setPicked] = useState<Record<number, number>>({});
+
+  function choose(questionIndex: number, optionIndex: number) {
+    setPicked((current) => ({ ...current, [questionIndex]: optionIndex }));
+    if (!lessonId) return;
+    const question = questions[questionIndex]!;
+    const reviewId = `${lessonId}:quick-quiz:${questionIndex}`;
+    if (optionIndex !== question.answer) {
+      recordReviewItem({
+        id: reviewId,
+        lessonId,
+        kind: "practice",
+        prompt: plainMath(question.prompt),
+        selectedAnswer: plainMath(question.options[optionIndex] ?? "No answer"),
+        correctAnswer: plainMath(question.options[question.answer] ?? ""),
+        explanation: plainMath(question.explanation ?? "Review the relevant lesson section and try again."),
+      });
+      trackEvent("mistake_saved", { lesson_id: lessonId, source: "quick_quiz", question_index: questionIndex });
+    } else {
+      creditReviewFromAssessment(reviewId);
+    }
+  }
 
   return (
     <div className="space-y-5">
@@ -30,7 +53,7 @@ export function Quiz({ questions }: { questions: QuizQuestion[] }) {
                   <button
                     key={oi}
                     disabled={answered}
-                    onClick={() => setPicked((p) => ({ ...p, [qi]: oi }))}
+                    onClick={() => choose(qi, oi)}
                     className={cn(
                       "rounded-md border px-3 py-2 text-left text-sm transition-colors",
                       !answered && "hover:border-primary/50",

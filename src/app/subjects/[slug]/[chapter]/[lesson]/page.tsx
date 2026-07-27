@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { LessonBody } from "@/components/lesson-body";
+import { LessonBookmarkButton } from "@/components/lesson-bookmark-button";
 import { LessonVisitTracker } from "@/components/lesson-visit-tracker";
 import { LessonSidebarNav } from "@/components/lesson-sidebar-nav";
 import { OnThisPage } from "@/components/on-this-page";
@@ -87,9 +88,12 @@ export default async function LessonPage({
             />
 
             <div className="mb-8">
-              <div className="mb-3 flex items-center gap-2">
-                <Badge variant="secondary">Level {location.lesson.d}</Badge>
-                <Badge variant="outline">{location.lesson.min} min</Badge>
+              <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
+                <div className="flex items-center gap-2">
+                  <Badge variant="secondary">Level {location.lesson.d}</Badge>
+                  <Badge variant="outline">{location.lesson.min} min</Badge>
+                </div>
+                <LessonBookmarkButton lessonId={`${slug}/${chapter}/${lesson}`} />
               </div>
               <h1 className="text-4xl font-bold tracking-tight">{location.lesson.title}</h1>
               <p className="mt-2 text-sm text-muted-foreground">{location.topic.title}</p>

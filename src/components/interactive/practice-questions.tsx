@@ -3,9 +3,9 @@
 import { useState } from "react";
 import { CheckCircle2, XCircle } from "lucide-react";
 import { trackEvent } from "@/lib/analytics";
-import { markStep } from "@/lib/progress-store";
+import { creditReviewFromAssessment, markStep, recordReviewItem } from "@/lib/progress-store";
 import { cn } from "@/lib/utils";
-import { richText } from "@/components/math";
+import { plainMath, richText } from "@/components/math";
 import type { PracticeQuestion } from "@/lib/lesson-content-types";
 
 export function PracticeQuestions({
@@ -23,6 +23,24 @@ export function PracticeQuestions({
     if (answers[qi] !== undefined) return;
     const next = { ...answers, [qi]: oi };
     setAnswers(next);
+
+    const question = questions[qi]!;
+    const reviewId = `${lessonId}:practice:${qi}`;
+    if (oi !== question.answer) {
+      recordReviewItem({
+        id: reviewId,
+        lessonId,
+        kind: "practice",
+        prompt: plainMath(question.prompt),
+        selectedAnswer: plainMath(question.options[oi] ?? "No answer"),
+        correctAnswer: plainMath(question.options[question.answer] ?? ""),
+        explanation: plainMath(question.explanation),
+      });
+      trackEvent("mistake_saved", { lesson_id: lessonId, source: "practice", question_index: qi });
+    } else {
+      creditReviewFromAssessment(reviewId);
+    }
+
     if (Object.keys(next).length === questions.length) {
       markStep(lessonId, stepKey);
       trackEvent("practice_completed", {

@@ -359,7 +359,7 @@ function SectionBlock({ section, lessonId }: { section: LessonSection; lessonId:
       return (
         <div className="space-y-3">
           <h3 className="text-lg font-semibold">Quick quiz</h3>
-          <Quiz questions={section.questions} />
+          <Quiz questions={section.questions} lessonId={lessonId} />
         </div>
       );
     case "cards": {
