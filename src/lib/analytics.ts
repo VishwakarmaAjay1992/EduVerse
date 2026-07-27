@@ -12,7 +12,9 @@ export type AnalyticsEvent =
   | "review_completed"
   | "mistake_saved"
   | "learning_data_exported"
-  | "learning_data_imported";
+  | "learning_data_imported"
+  | "physics_dictionary_search"
+  | "physics_dictionary_term_opened";
 
 declare global {
   interface Window {

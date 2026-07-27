@@ -19,7 +19,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { trackEvent } from "@/lib/analytics";
 import type { SearchIndexItem, SearchKind } from "@/lib/search-index";
-import { cn } from "@/lib/utils";
 
 const KINDS: Array<SearchKind | "All"> = [
   "All",
