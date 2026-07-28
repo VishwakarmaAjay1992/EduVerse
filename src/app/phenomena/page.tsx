@@ -19,10 +19,11 @@ export default function Page() {
       <main>
         <section className="relative overflow-hidden border-b bg-slate-950 text-white">
           <PhenomenonArt
-            category="Space and Earth"
-            index={1}
+            slug="aurora"
             title="Fascinating physics phenomena"
             className="absolute inset-0 h-full w-full opacity-45"
+            priority
+            sizes="100vw"
           />
           <div className="container relative py-24 sm:py-32">
             <div className="max-w-3xl">
