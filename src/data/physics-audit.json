@@ -1,0 +1,2517 @@
+[
+  {
+    "category": "Foundations of Physics",
+    "level": "beginner",
+    "chapter": "Measurement and Units",
+    "chapterSlug": "measurement-and-units",
+    "topic": "Physical Quantities and SI Units",
+    "title": "What Physics Measures",
+    "slug": "what-physics-measures",
+    "difficulty": 1,
+    "minutes": 35,
+    "sub": [
+      "Physical quantities",
+      "The SI base units",
+      "Derived units",
+      "Prefixes from nano to giga"
+    ],
+    "prereq": [],
+    "status": "reviewed"
+  },
+  {
+    "category": "Foundations of Physics",
+    "level": "beginner",
+    "chapter": "Measurement and Units",
+    "chapterSlug": "measurement-and-units",
+    "topic": "Physical Quantities and SI Units",
+    "title": "Dimensional Analysis",
+    "slug": "dimensional-analysis",
+    "difficulty": 2,
+    "minutes": 40,
+    "sub": [
+      "Dimensional formulas",
+      "Checking equations",
+      "Deriving relations",
+      "Limitations of dimensional analysis"
+    ],
+    "prereq": [],
+    "status": "reviewed"
+  },
+  {
+    "category": "Foundations of Physics",
+    "level": "beginner",
+    "chapter": "Measurement and Units",
+    "chapterSlug": "measurement-and-units",
+    "topic": "Measurement and Error",
+    "title": "Measurement, Uncertainty and Significant Figures",
+    "slug": "measurement-uncertainty-and-significant-figures",
+    "difficulty": 2,
+    "minutes": 40,
+    "sub": [
+      "Instruments: vernier, screw gauge",
+      "Least count",
+      "Random vs systematic errors",
+      "Significant figures and error propagation"
+    ],
+    "prereq": [],
+    "status": "reviewed"
+  },
+  {
+    "category": "Foundations of Physics",
+    "level": "beginner",
+    "chapter": "Motion Basics",
+    "chapterSlug": "motion-basics",
+    "topic": "Describing Motion",
+    "title": "Distance, Displacement, Speed and Velocity",
+    "slug": "distance-displacement-speed-and-velocity",
+    "difficulty": 1,
+    "minutes": 40,
+    "sub": [
+      "Scalars vs vectors",
+      "Average and instantaneous speed",
+      "Velocity",
+      "Position-time graphs"
+    ],
+    "prereq": [
+      "Measurement and Units"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Foundations of Physics",
+    "level": "beginner",
+    "chapter": "Motion Basics",
+    "chapterSlug": "motion-basics",
+    "topic": "Describing Motion",
+    "title": "Acceleration and Motion Graphs",
+    "slug": "acceleration-and-motion-graphs",
+    "difficulty": 2,
+    "minutes": 40,
+    "sub": [
+      "Acceleration",
+      "Velocity-time graphs",
+      "Area under graphs",
+      "Free fall introduction"
+    ],
+    "prereq": [
+      "Measurement and Units"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Foundations of Physics",
+    "level": "beginner",
+    "chapter": "Forces Basics",
+    "chapterSlug": "forces-basics",
+    "topic": "Forces Around Us",
+    "title": "Types of Forces",
+    "slug": "types-of-forces",
+    "difficulty": 1,
+    "minutes": 35,
+    "sub": [
+      "Contact and non-contact forces",
+      "Friction",
+      "Weight vs mass",
+      "Balanced and unbalanced forces"
+    ],
+    "prereq": [
+      "Motion Basics"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Foundations of Physics",
+    "level": "beginner",
+    "chapter": "Forces Basics",
+    "chapterSlug": "forces-basics",
+    "topic": "Forces Around Us",
+    "title": "Pressure",
+    "slug": "pressure",
+    "difficulty": 2,
+    "minutes": 35,
+    "sub": [
+      "Pressure and area",
+      "Pressure in liquids",
+      "Atmospheric pressure",
+      "Simple applications"
+    ],
+    "prereq": [
+      "Motion Basics"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Foundations of Physics",
+    "level": "beginner",
+    "chapter": "Energy Basics",
+    "chapterSlug": "energy-basics",
+    "topic": "Energy and Its Forms",
+    "title": "Forms of Energy and Conservation",
+    "slug": "forms-of-energy-and-conservation",
+    "difficulty": 1,
+    "minutes": 40,
+    "sub": [
+      "Kinetic and potential energy",
+      "Energy transfers",
+      "Conservation of energy",
+      "Energy resources"
+    ],
+    "prereq": [
+      "Forces Basics"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Foundations of Physics",
+    "level": "beginner",
+    "chapter": "Matter and Density",
+    "chapterSlug": "matter-and-density",
+    "topic": "States of Matter",
+    "title": "Solids, Liquids, Gases and Density",
+    "slug": "solids-liquids-gases-and-density",
+    "difficulty": 1,
+    "minutes": 35,
+    "sub": [
+      "Particle model",
+      "Density and measuring it",
+      "Floating and sinking",
+      "Changes of state"
+    ],
+    "prereq": [
+      "Measurement and Units"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Kinematics",
+    "chapterSlug": "kinematics",
+    "topic": "Motion in One Dimension",
+    "title": "Equations of Motion",
+    "slug": "equations-of-motion",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "The SUVAT equations",
+      "Graphical and calculus derivations",
+      "Free fall problems",
+      "Reaction time and stopping distance"
+    ],
+    "prereq": [
+      "Motion Basics",
+      "math:Straight Lines"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Kinematics",
+    "chapterSlug": "kinematics",
+    "topic": "Motion in Two Dimensions",
+    "title": "Vectors in Kinematics",
+    "slug": "vectors-in-kinematics",
+    "difficulty": 3,
+    "minutes": 45,
+    "sub": [
+      "Vector components",
+      "Resultants",
+      "Relative velocity",
+      "River-boat problems"
+    ],
+    "prereq": [
+      "Motion Basics",
+      "math:Straight Lines"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Kinematics",
+    "chapterSlug": "kinematics",
+    "topic": "Motion in Two Dimensions",
+    "title": "Projectile Motion",
+    "slug": "projectile-motion",
+    "difficulty": 3,
+    "minutes": 55,
+    "sub": [
+      "Independence of components",
+      "Range, height, time of flight",
+      "Projectiles at angles",
+      "Projectile on inclined plane"
+    ],
+    "prereq": [
+      "Motion Basics",
+      "math:Straight Lines"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Newton's Laws of Motion",
+    "chapterSlug": "newton-s-laws-of-motion",
+    "topic": "The Three Laws",
+    "title": "Newton's First and Second Laws",
+    "slug": "newton-s-first-and-second-laws",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Inertia",
+      "Force and acceleration",
+      "Free body diagrams",
+      "Weight, normal force, tension"
+    ],
+    "prereq": [
+      "Kinematics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Newton's Laws of Motion",
+    "chapterSlug": "newton-s-laws-of-motion",
+    "topic": "The Three Laws",
+    "title": "Newton's Third Law and Applications",
+    "slug": "newton-s-third-law-and-applications",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Action-reaction pairs",
+      "Connected bodies and pulleys",
+      "Apparent weight in lifts",
+      "Inclined planes"
+    ],
+    "prereq": [
+      "Kinematics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Newton's Laws of Motion",
+    "chapterSlug": "newton-s-laws-of-motion",
+    "topic": "Friction",
+    "title": "Static and Kinetic Friction",
+    "slug": "static-and-kinetic-friction",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Laws of friction",
+      "Coefficients",
+      "Angle of repose",
+      "Friction problems and banking preview"
+    ],
+    "prereq": [
+      "Kinematics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Work, Energy and Power",
+    "chapterSlug": "work-energy-and-power",
+    "topic": "Work and Energy",
+    "title": "Work and the Work-Energy Theorem",
+    "slug": "work-and-the-work-energy-theorem",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Work by constant and variable forces",
+      "Kinetic energy",
+      "Work-energy theorem derivation",
+      "Potential energy and conservative forces"
+    ],
+    "prereq": [
+      "Newton's Laws of Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Work, Energy and Power",
+    "chapterSlug": "work-energy-and-power",
+    "topic": "Work and Energy",
+    "title": "Conservation of Mechanical Energy and Power",
+    "slug": "conservation-of-mechanical-energy-and-power",
+    "difficulty": 3,
+    "minutes": 45,
+    "sub": [
+      "Energy conservation problems",
+      "Springs and elastic PE",
+      "Power",
+      "Efficiency"
+    ],
+    "prereq": [
+      "Newton's Laws of Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Momentum and Collisions",
+    "chapterSlug": "momentum-and-collisions",
+    "topic": "Linear Momentum",
+    "title": "Momentum, Impulse and Conservation",
+    "slug": "momentum-impulse-and-conservation",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Momentum and impulse",
+      "Impulse-momentum theorem",
+      "Conservation derivation from Newton's laws",
+      "Recoil and rockets"
+    ],
+    "prereq": [
+      "Work, Energy and Power"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Momentum and Collisions",
+    "chapterSlug": "momentum-and-collisions",
+    "topic": "Linear Momentum",
+    "title": "Collisions",
+    "slug": "collisions",
+    "difficulty": 4,
+    "minutes": 50,
+    "sub": [
+      "Elastic and inelastic collisions",
+      "1D collision analysis",
+      "2D collisions",
+      "Center of mass motion"
+    ],
+    "prereq": [
+      "Work, Energy and Power"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Circular Motion",
+    "chapterSlug": "circular-motion",
+    "topic": "Uniform Circular Motion",
+    "title": "Centripetal Acceleration and Force",
+    "slug": "centripetal-acceleration-and-force",
+    "difficulty": 4,
+    "minutes": 50,
+    "sub": [
+      "Angular quantities",
+      "Centripetal acceleration derivation",
+      "Banking of roads",
+      "Vertical circles"
+    ],
+    "prereq": [
+      "Newton's Laws of Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Gravitation",
+    "chapterSlug": "gravitation",
+    "topic": "Universal Gravitation",
+    "title": "Newton's Law of Gravitation",
+    "slug": "newton-s-law-of-gravitation",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Inverse square law",
+      "g and its variation",
+      "Gravitational field",
+      "Cavendish experiment (history)"
+    ],
+    "prereq": [
+      "Circular Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Gravitation",
+    "chapterSlug": "gravitation",
+    "topic": "Universal Gravitation",
+    "title": "Orbits, Satellites and Kepler's Laws",
+    "slug": "orbits-satellites-and-kepler-s-laws",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Orbital velocity",
+      "Escape velocity derivation",
+      "Kepler's three laws",
+      "Geostationary satellites",
+      "Weightlessness"
+    ],
+    "prereq": [
+      "Circular Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Rotational Motion",
+    "chapterSlug": "rotational-motion",
+    "topic": "Rigid Body Rotation",
+    "title": "Torque and Moment of Inertia",
+    "slug": "torque-and-moment-of-inertia",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Torque",
+      "Moment of inertia and standard bodies",
+      "Parallel and perpendicular axis theorems",
+      "Rotational kinetic energy"
+    ],
+    "prereq": [
+      "Momentum and Collisions",
+      "Circular Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Rotational Motion",
+    "chapterSlug": "rotational-motion",
+    "topic": "Rigid Body Rotation",
+    "title": "Angular Momentum and Rolling",
+    "slug": "angular-momentum-and-rolling",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Angular momentum conservation",
+      "Rolling without slipping",
+      "Rolling on inclines",
+      "Gyroscopic effects (qualitative)"
+    ],
+    "prereq": [
+      "Momentum and Collisions",
+      "Circular Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Mechanics",
+    "level": "intermediate",
+    "chapter": "Rotational Motion",
+    "chapterSlug": "rotational-motion",
+    "topic": "Statics",
+    "title": "Equilibrium of Rigid Bodies",
+    "slug": "equilibrium-of-rigid-bodies",
+    "difficulty": 3,
+    "minutes": 45,
+    "sub": [
+      "Conditions for equilibrium",
+      "Center of gravity",
+      "Levers and stability",
+      "Ladder and beam problems"
+    ],
+    "prereq": [
+      "Momentum and Collisions",
+      "Circular Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Properties of Matter",
+    "level": "intermediate",
+    "chapter": "Elasticity",
+    "chapterSlug": "elasticity",
+    "topic": "Stress and Strain",
+    "title": "Hooke's Law and Elastic Moduli",
+    "slug": "hooke-s-law-and-elastic-moduli",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Stress, strain, Hooke's law",
+      "Young's, bulk and shear moduli",
+      "Stress-strain curves",
+      "Elastic energy"
+    ],
+    "prereq": [
+      "Newton's Laws of Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Properties of Matter",
+    "level": "intermediate",
+    "chapter": "Fluids",
+    "chapterSlug": "fluids",
+    "topic": "Fluid Statics",
+    "title": "Pressure, Pascal and Archimedes",
+    "slug": "pressure-pascal-and-archimedes",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Pressure with depth derivation",
+      "Pascal's law and hydraulics",
+      "Archimedes' principle and buoyancy",
+      "Barometers and manometers"
+    ],
+    "prereq": [
+      "Forces Basics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Properties of Matter",
+    "level": "intermediate",
+    "chapter": "Fluids",
+    "chapterSlug": "fluids",
+    "topic": "Fluid Dynamics",
+    "title": "Continuity and Bernoulli",
+    "slug": "continuity-and-bernoulli",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Equation of continuity",
+      "Bernoulli's equation derivation",
+      "Venturi and airfoil applications",
+      "Torricelli's theorem"
+    ],
+    "prereq": [
+      "Forces Basics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Properties of Matter",
+    "level": "intermediate",
+    "chapter": "Fluids",
+    "chapterSlug": "fluids",
+    "topic": "Fluid Dynamics",
+    "title": "Viscosity and Surface Tension",
+    "slug": "viscosity-and-surface-tension",
+    "difficulty": 4,
+    "minutes": 50,
+    "sub": [
+      "Viscosity and Stokes' law",
+      "Terminal velocity",
+      "Surface tension and capillarity",
+      "Reynolds number and turbulence (qualitative)"
+    ],
+    "prereq": [
+      "Forces Basics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Heat and Thermodynamics",
+    "level": "intermediate",
+    "chapter": "Temperature and Heat",
+    "chapterSlug": "temperature-and-heat",
+    "topic": "Thermal Basics",
+    "title": "Temperature Scales and Thermal Expansion",
+    "slug": "temperature-scales-and-thermal-expansion",
+    "difficulty": 2,
+    "minutes": 45,
+    "sub": [
+      "Temperature vs heat",
+      "Scales and thermometry",
+      "Linear, area, volume expansion",
+      "Anomalous expansion of water"
+    ],
+    "prereq": [
+      "Energy Basics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Heat and Thermodynamics",
+    "level": "intermediate",
+    "chapter": "Temperature and Heat",
+    "chapterSlug": "temperature-and-heat",
+    "topic": "Thermal Basics",
+    "title": "Calorimetry and Change of State",
+    "slug": "calorimetry-and-change-of-state",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Specific heat capacity",
+      "Calorimetry problems",
+      "Latent heat",
+      "Heating and cooling curves"
+    ],
+    "prereq": [
+      "Energy Basics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Heat and Thermodynamics",
+    "level": "intermediate",
+    "chapter": "Temperature and Heat",
+    "chapterSlug": "temperature-and-heat",
+    "topic": "Heat Transfer",
+    "title": "Conduction, Convection and Radiation",
+    "slug": "conduction-convection-and-radiation",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Thermal conductivity",
+      "Convection currents",
+      "Blackbody radiation and Stefan's law",
+      "Newton's law of cooling"
+    ],
+    "prereq": [
+      "Energy Basics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Heat and Thermodynamics",
+    "level": "intermediate",
+    "chapter": "Kinetic Theory of Gases",
+    "chapterSlug": "kinetic-theory-of-gases",
+    "topic": "The Gas Laws and Kinetic Theory",
+    "title": "Brownian Motion and Molecular Randomness",
+    "slug": "brownian-motion-and-molecular-randomness",
+    "difficulty": 2,
+    "minutes": 45,
+    "sub": [
+      "Brownian motion and its history",
+      "Molecular bombardment",
+      "Temperature, size and viscosity effects",
+      "Diffusion and evidence for atoms"
+    ],
+    "prereq": [
+      "Temperature and Heat"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Heat and Thermodynamics",
+    "level": "intermediate",
+    "chapter": "Kinetic Theory of Gases",
+    "chapterSlug": "kinetic-theory-of-gases",
+    "topic": "The Gas Laws and Kinetic Theory",
+    "title": "Ideal Gas Laws and Kinetic-Theory Postulates",
+    "slug": "ideal-gas-laws-and-kinetic-theory-postulates",
+    "difficulty": 3,
+    "minutes": 45,
+    "sub": [
+      "Boyle, Charles, Gay-Lussac",
+      "Ideal gas equation",
+      "Real vs ideal gases"
+    ],
+    "prereq": [
+      "Temperature and Heat"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Heat and Thermodynamics",
+    "level": "intermediate",
+    "chapter": "Kinetic Theory of Gases",
+    "chapterSlug": "kinetic-theory-of-gases",
+    "topic": "The Gas Laws and Kinetic Theory",
+    "title": "Kinetic Theory and Pressure Derivation",
+    "slug": "kinetic-theory-and-pressure-derivation",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Postulates",
+      "Pressure from molecular motion (derivation)",
+      "Temperature and mean KE",
+      "RMS speed",
+      "Degrees of freedom and equipartition"
+    ],
+    "prereq": [
+      "Temperature and Heat"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Heat and Thermodynamics",
+    "level": "intermediate",
+    "chapter": "Kinetic Theory of Gases",
+    "chapterSlug": "kinetic-theory-of-gases",
+    "topic": "The Gas Laws and Kinetic Theory",
+    "title": "RMS Speed, Temperature and Translational Kinetic Energy",
+    "slug": "rms-speed-temperature-and-translational-kinetic-energy",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Root-mean-square speed",
+      "Mean translational kinetic energy",
+      "Boltzmann constant and electron-volt",
+      "Molecular speed comparisons"
+    ],
+    "prereq": [
+      "Temperature and Heat"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Heat and Thermodynamics",
+    "level": "intermediate",
+    "chapter": "Kinetic Theory of Gases",
+    "chapterSlug": "kinetic-theory-of-gases",
+    "topic": "The Gas Laws and Kinetic Theory",
+    "title": "Thermal Physics Comprehensive Review",
+    "slug": "thermal-physics-comprehensive-review",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "Mixed kinetic-theory problems",
+      "Statistical populations",
+      "Stellar thermal physics",
+      "Exam-style review"
+    ],
+    "prereq": [
+      "Temperature and Heat"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Heat and Thermodynamics",
+    "level": "intermediate",
+    "chapter": "Laws of Thermodynamics",
+    "chapterSlug": "laws-of-thermodynamics",
+    "topic": "First Law",
+    "title": "Internal Energy and the First Law",
+    "slug": "internal-energy-and-the-first-law",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Heat, work, internal energy",
+      "Thermodynamic processes: isothermal, adiabatic, isobaric, isochoric",
+      "Work done derivations",
+      "Specific heats of gases"
+    ],
+    "prereq": [
+      "Kinetic Theory of Gases"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Heat and Thermodynamics",
+    "level": "intermediate",
+    "chapter": "Laws of Thermodynamics",
+    "chapterSlug": "laws-of-thermodynamics",
+    "topic": "Second Law and Engines",
+    "title": "Entropy, Engines and the Second Law",
+    "slug": "entropy-engines-and-the-second-law",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Heat engines and efficiency",
+      "Carnot cycle derivation",
+      "Refrigerators and COP",
+      "Entropy and the arrow of time"
+    ],
+    "prereq": [
+      "Kinetic Theory of Gases"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Oscillations and Waves",
+    "level": "intermediate",
+    "chapter": "Simple Harmonic Motion",
+    "chapterSlug": "simple-harmonic-motion",
+    "topic": "SHM Fundamentals",
+    "title": "Simple Harmonic Motion",
+    "slug": "simple-harmonic-motion",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Defining equation and solution",
+      "Displacement, velocity, acceleration relations",
+      "Energy in SHM",
+      "Phase and circular motion connection"
+    ],
+    "prereq": [
+      "Work, Energy and Power",
+      "math:The Unit Circle and Identities"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Oscillations and Waves",
+    "level": "intermediate",
+    "chapter": "Simple Harmonic Motion",
+    "chapterSlug": "simple-harmonic-motion",
+    "topic": "SHM Fundamentals",
+    "title": "Pendulums and Springs",
+    "slug": "pendulums-and-springs",
+    "difficulty": 4,
+    "minutes": 50,
+    "sub": [
+      "Spring-mass period derivation",
+      "Simple pendulum derivation",
+      "Physical pendulum",
+      "Combinations of springs"
+    ],
+    "prereq": [
+      "Work, Energy and Power",
+      "math:The Unit Circle and Identities"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Oscillations and Waves",
+    "level": "intermediate",
+    "chapter": "Simple Harmonic Motion",
+    "chapterSlug": "simple-harmonic-motion",
+    "topic": "Damped and Forced Oscillations",
+    "title": "Damping and Resonance",
+    "slug": "damping-and-resonance",
+    "difficulty": 4,
+    "minutes": 45,
+    "sub": [
+      "Damped oscillations",
+      "Forced oscillations",
+      "Resonance and examples",
+      "Quality factor (qualitative)"
+    ],
+    "prereq": [
+      "Work, Energy and Power",
+      "math:The Unit Circle and Identities"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Oscillations and Waves",
+    "level": "intermediate",
+    "chapter": "Wave Motion",
+    "chapterSlug": "wave-motion",
+    "topic": "Wave Properties",
+    "title": "Describing Waves",
+    "slug": "describing-waves",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Transverse and longitudinal waves",
+      "Wavelength, frequency, wave speed",
+      "The wave equation y(x,t)",
+      "Speed on a string derivation"
+    ],
+    "prereq": [
+      "Simple Harmonic Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Oscillations and Waves",
+    "level": "intermediate",
+    "chapter": "Wave Motion",
+    "chapterSlug": "wave-motion",
+    "topic": "Wave Properties",
+    "title": "Superposition and Standing Waves",
+    "slug": "superposition-and-standing-waves",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Principle of superposition",
+      "Interference",
+      "Standing waves on strings",
+      "Harmonics and overtones"
+    ],
+    "prereq": [
+      "Simple Harmonic Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Oscillations and Waves",
+    "level": "intermediate",
+    "chapter": "Wave Motion",
+    "chapterSlug": "wave-motion",
+    "topic": "Sound",
+    "title": "Sound Waves",
+    "slug": "sound-waves",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Nature of sound",
+      "Speed in media",
+      "Intensity and the decibel scale",
+      "Organ pipes and resonance columns",
+      "Beats"
+    ],
+    "prereq": [
+      "Simple Harmonic Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Oscillations and Waves",
+    "level": "intermediate",
+    "chapter": "Wave Motion",
+    "chapterSlug": "wave-motion",
+    "topic": "Sound",
+    "title": "The Doppler Effect",
+    "slug": "the-doppler-effect",
+    "difficulty": 4,
+    "minutes": 45,
+    "sub": [
+      "Moving source and observer derivations",
+      "Applications: radar, medical, astronomy",
+      "Shock waves and sonic booms"
+    ],
+    "prereq": [
+      "Simple Harmonic Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Optics",
+    "level": "intermediate",
+    "chapter": "Geometrical Optics",
+    "chapterSlug": "geometrical-optics",
+    "topic": "Ray Optics and Optical Instruments",
+    "title": "Foundations, Sign Conventions and Plane Mirrors",
+    "slug": "foundations-sign-conventions-and-plane-mirrors",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Ray model and paraxial rays",
+      "Cartesian sign convention",
+      "Plane-mirror images",
+      "Multiple reflections and mirror rotation"
+    ],
+    "prereq": [
+      "Wave Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Optics",
+    "level": "intermediate",
+    "chapter": "Geometrical Optics",
+    "chapterSlug": "geometrical-optics",
+    "topic": "Ray Optics and Optical Instruments",
+    "title": "Spherical Mirrors, Ray Diagrams and Mirror Formula",
+    "slug": "spherical-mirrors-ray-diagrams-and-mirror-formula",
+    "difficulty": 4,
+    "minutes": 65,
+    "sub": [
+      "Concave and convex mirrors",
+      "Standard rays",
+      "Mirror formula and magnification",
+      "Applications"
+    ],
+    "prereq": [
+      "Wave Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Optics",
+    "level": "intermediate",
+    "chapter": "Geometrical Optics",
+    "chapterSlug": "geometrical-optics",
+    "topic": "Ray Optics and Optical Instruments",
+    "title": "Refraction, Plane Surfaces and Total Internal Reflection",
+    "slug": "refraction-plane-surfaces-and-total-internal-reflection",
+    "difficulty": 4,
+    "minutes": 70,
+    "sub": [
+      "Snell's law",
+      "Apparent depth and glass slabs",
+      "Critical angle",
+      "Optical fibres"
+    ],
+    "prereq": [
+      "Wave Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Optics",
+    "level": "intermediate",
+    "chapter": "Geometrical Optics",
+    "chapterSlug": "geometrical-optics",
+    "topic": "Ray Optics and Optical Instruments",
+    "title": "Thin Lenses, Lens Formula, Lens Maker and Power",
+    "slug": "thin-lenses-lens-formula-lens-maker-and-power",
+    "difficulty": 4,
+    "minutes": 75,
+    "sub": [
+      "Convex and concave lenses",
+      "Lens formula",
+      "Lens maker's formula",
+      "Power and combinations"
+    ],
+    "prereq": [
+      "Wave Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Optics",
+    "level": "intermediate",
+    "chapter": "Geometrical Optics",
+    "chapterSlug": "geometrical-optics",
+    "topic": "Ray Optics and Optical Instruments",
+    "title": "Prisms, Minimum Deviation and Dispersion",
+    "slug": "prisms-minimum-deviation-and-dispersion",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "Prism deviation",
+      "Minimum deviation",
+      "Dispersion",
+      "Dispersive power"
+    ],
+    "prereq": [
+      "Wave Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Optics",
+    "level": "intermediate",
+    "chapter": "Geometrical Optics",
+    "chapterSlug": "geometrical-optics",
+    "topic": "Ray Optics and Optical Instruments",
+    "title": "The Human Eye and Defects of Vision",
+    "slug": "the-human-eye-and-defects-of-vision",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Accommodation",
+      "Myopia and hypermetropia",
+      "Presbyopia and astigmatism",
+      "Corrective power"
+    ],
+    "prereq": [
+      "Wave Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Optics",
+    "level": "intermediate",
+    "chapter": "Geometrical Optics",
+    "chapterSlug": "geometrical-optics",
+    "topic": "Ray Optics and Optical Instruments",
+    "title": "Simple and Compound Microscopes",
+    "slug": "simple-and-compound-microscopes",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "Simple microscope",
+      "Compound microscope",
+      "Magnifying power",
+      "Ray diagrams"
+    ],
+    "prereq": [
+      "Wave Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Optics",
+    "level": "intermediate",
+    "chapter": "Geometrical Optics",
+    "chapterSlug": "geometrical-optics",
+    "topic": "Ray Optics and Optical Instruments",
+    "title": "Astronomical Telescopes and Ray Optics Review",
+    "slug": "astronomical-telescopes-and-ray-optics-review",
+    "difficulty": 4,
+    "minutes": 70,
+    "sub": [
+      "Refracting and reflecting telescopes",
+      "Normal adjustment",
+      "Angular magnification",
+      "Resolving power and review"
+    ],
+    "prereq": [
+      "Wave Motion"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Optics",
+    "level": "intermediate",
+    "chapter": "Wave Optics",
+    "chapterSlug": "wave-optics",
+    "topic": "Interference and Diffraction",
+    "title": "Young's Double Slit Experiment",
+    "slug": "young-s-double-slit-experiment",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Huygens' principle",
+      "Coherence",
+      "Fringe width derivation",
+      "Thin film interference"
+    ],
+    "prereq": [
+      "Geometrical Optics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Optics",
+    "level": "intermediate",
+    "chapter": "Wave Optics",
+    "chapterSlug": "wave-optics",
+    "topic": "Interference and Diffraction",
+    "title": "Diffraction and Polarization",
+    "slug": "diffraction-and-polarization",
+    "difficulty": 4,
+    "minutes": 50,
+    "sub": [
+      "Single slit diffraction",
+      "Diffraction gratings",
+      "Polarization and Malus's law",
+      "Brewster's angle"
+    ],
+    "prereq": [
+      "Geometrical Optics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Electrostatics",
+    "level": "intermediate",
+    "chapter": "Electric Charge and Field",
+    "chapterSlug": "electric-charge-and-field",
+    "topic": "Charge and Coulomb's Law",
+    "title": "Electric Charge and Coulomb's Law",
+    "slug": "electric-charge-and-coulomb-s-law",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Charge and quantization",
+      "Conductors and insulators",
+      "Charging methods",
+      "Coulomb's law and superposition"
+    ],
+    "prereq": [
+      "Forces Basics",
+      "math:Vectors"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Electrostatics",
+    "level": "intermediate",
+    "chapter": "Electric Charge and Field",
+    "chapterSlug": "electric-charge-and-field",
+    "topic": "The Electric Field",
+    "title": "Electric Field and Field Lines",
+    "slug": "electric-field-and-field-lines",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Field concept",
+      "Field of point charges",
+      "Field lines",
+      "Dipoles and dipole moment"
+    ],
+    "prereq": [
+      "Forces Basics",
+      "math:Vectors"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Electrostatics",
+    "level": "intermediate",
+    "chapter": "Electric Charge and Field",
+    "chapterSlug": "electric-charge-and-field",
+    "topic": "The Electric Field",
+    "title": "Gauss's Law",
+    "slug": "gauss-s-law",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Electric flux",
+      "Gauss's law statement",
+      "Sphere, line, plane derivations",
+      "Conductors and shielding"
+    ],
+    "prereq": [
+      "Forces Basics",
+      "math:Vectors"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Electrostatics",
+    "level": "intermediate",
+    "chapter": "Potential and Capacitance",
+    "chapterSlug": "potential-and-capacitance",
+    "topic": "Electric Potential",
+    "title": "Potential and Potential Energy",
+    "slug": "potential-and-potential-energy",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Work and potential difference",
+      "Potential of point charges",
+      "Equipotential surfaces",
+      "Relation between field and potential"
+    ],
+    "prereq": [
+      "Electric Charge and Field"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Electrostatics",
+    "level": "intermediate",
+    "chapter": "Potential and Capacitance",
+    "chapterSlug": "potential-and-capacitance",
+    "topic": "Capacitance",
+    "title": "Capacitors and Dielectrics",
+    "slug": "capacitors-and-dielectrics",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Capacitance and parallel plate derivation",
+      "Series and parallel combinations",
+      "Energy stored",
+      "Dielectrics"
+    ],
+    "prereq": [
+      "Electric Charge and Field"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Current Electricity",
+    "level": "intermediate",
+    "chapter": "Current and Resistance",
+    "chapterSlug": "current-and-resistance",
+    "topic": "Charge Transport and Material Resistance",
+    "title": "Electric Current, Charge Flow and Current Density",
+    "slug": "electric-current-charge-flow-and-current-density",
+    "difficulty": 3,
+    "minutes": 50,
+    "sub": [
+      "Average and instantaneous current",
+      "Conventional current and charge carriers",
+      "Current density and flux",
+      "Circular charge motion"
+    ],
+    "prereq": [
+      "Potential and Capacitance"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Current Electricity",
+    "level": "intermediate",
+    "chapter": "Current and Resistance",
+    "chapterSlug": "current-and-resistance",
+    "topic": "Charge Transport and Material Resistance",
+    "title": "Drift Velocity, Mobility and Microscopic Ohm's Law",
+    "slug": "drift-velocity-mobility-and-microscopic-ohm-s-law",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Thermal motion and collisions",
+      "Mean free path and relaxation time",
+      "Drift velocity derivation",
+      "Mobility, conductivity and resistivity"
+    ],
+    "prereq": [
+      "Potential and Capacitance"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Current Electricity",
+    "level": "intermediate",
+    "chapter": "Current and Resistance",
+    "chapterSlug": "current-and-resistance",
+    "topic": "Charge Transport and Material Resistance",
+    "title": "Ohm's Law, Resistance, Resistivity and Temperature",
+    "slug": "ohm-s-law-resistance-resistivity-and-temperature",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "Ohmic and non-ohmic behaviour",
+      "Resistance geometry",
+      "Temperature coefficients",
+      "Materials, stretching and superconductivity"
+    ],
+    "prereq": [
+      "Potential and Capacitance"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Current Electricity",
+    "level": "intermediate",
+    "chapter": "Current and Resistance",
+    "chapterSlug": "current-and-resistance",
+    "topic": "Charge Transport and Material Resistance",
+    "title": "Resistor Combinations, Colour Codes and Network Reduction",
+    "slug": "resistor-combinations-colour-codes-and-network-reduction",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "Series and parallel networks",
+      "Voltage and current division",
+      "Resistor colour code",
+      "Symmetry, bridges and infinite ladders"
+    ],
+    "prereq": [
+      "Potential and Capacitance"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Current Electricity",
+    "level": "intermediate",
+    "chapter": "Circuits",
+    "chapterSlug": "circuits",
+    "topic": "Sources and Circuit Laws",
+    "title": "EMF, Internal Resistance and Grouping of Cells",
+    "slug": "emf-internal-resistance-and-grouping-of-cells",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "EMF and terminal voltage",
+      "Charging and discharging",
+      "Series, parallel and mixed grouping",
+      "Maximum power transfer"
+    ],
+    "prereq": [
+      "Current and Resistance"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Current Electricity",
+    "level": "intermediate",
+    "chapter": "Circuits",
+    "chapterSlug": "circuits",
+    "topic": "Sources and Circuit Laws",
+    "title": "Kirchhoff's Laws and Multiloop Circuits",
+    "slug": "kirchhoff-s-laws-and-multiloop-circuits",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "Junction rule",
+      "Loop sign convention",
+      "Two-loop circuits",
+      "Simultaneous equation solutions"
+    ],
+    "prereq": [
+      "Current and Resistance"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Current Electricity",
+    "level": "intermediate",
+    "chapter": "Circuits",
+    "chapterSlug": "circuits",
+    "topic": "Null Methods and Measuring Instruments",
+    "title": "Wheatstone Bridge, Meter Bridge and Resistance Measurement",
+    "slug": "wheatstone-bridge-meter-bridge-and-resistance-measurement",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Wheatstone balance",
+      "Meter-bridge derivation",
+      "Sensitivity and end correction",
+      "Resistance measurement"
+    ],
+    "prereq": [
+      "Current and Resistance"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Current Electricity",
+    "level": "intermediate",
+    "chapter": "Circuits",
+    "chapterSlug": "circuits",
+    "topic": "Null Methods and Measuring Instruments",
+    "title": "Galvanometer, Ammeter and Voltmeter",
+    "slug": "galvanometer-ammeter-and-voltmeter",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Galvanometer response",
+      "Shunt and ammeter conversion",
+      "Multiplier and voltmeter conversion",
+      "Loading errors"
+    ],
+    "prereq": [
+      "Current and Resistance"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Current Electricity",
+    "level": "intermediate",
+    "chapter": "Circuits",
+    "chapterSlug": "circuits",
+    "topic": "Null Methods and Measuring Instruments",
+    "title": "Potentiometer Principle and Applications",
+    "slug": "potentiometer-principle-and-applications",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "Potential gradient",
+      "EMF comparison",
+      "Internal resistance measurement",
+      "Calibration and sensitivity"
+    ],
+    "prereq": [
+      "Current and Resistance"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Current Electricity",
+    "level": "intermediate",
+    "chapter": "Circuits",
+    "chapterSlug": "circuits",
+    "topic": "Null Methods and Measuring Instruments",
+    "title": "Electric Power, Heating Effect and Current Electricity Review",
+    "slug": "electric-power-heating-effect-and-current-electricity-review",
+    "difficulty": 4,
+    "minutes": 65,
+    "sub": [
+      "Power and Joule heating",
+      "Energy and kilowatt-hours",
+      "Fuse and circuit safety",
+      "Mixed current-electricity review"
+    ],
+    "prereq": [
+      "Current and Resistance"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Magnetism and Electromagnetic Induction",
+    "level": "intermediate",
+    "chapter": "Magnetic Fields and Forces",
+    "chapterSlug": "magnetic-fields-and-forces",
+    "topic": "Magnetic Fields",
+    "title": "Magnetic Force on Charges and Currents",
+    "slug": "magnetic-force-on-charges-and-currents",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Magnetic field and Lorentz force",
+      "Motion of charges in fields",
+      "Force on current-carrying wires",
+      "Torque on loops and motors"
+    ],
+    "prereq": [
+      "Circuits"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Magnetism and Electromagnetic Induction",
+    "level": "intermediate",
+    "chapter": "Magnetic Fields and Forces",
+    "chapterSlug": "magnetic-fields-and-forces",
+    "topic": "Magnetic Fields",
+    "title": "Sources of Magnetic Field",
+    "slug": "sources-of-magnetic-field",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Biot-Savart law",
+      "Field of wire, loop, solenoid derivations",
+      "Ampere's law",
+      "Force between parallel wires"
+    ],
+    "prereq": [
+      "Circuits"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Magnetism and Electromagnetic Induction",
+    "level": "intermediate",
+    "chapter": "Magnetic Fields and Forces",
+    "chapterSlug": "magnetic-fields-and-forces",
+    "topic": "Magnetic Materials",
+    "title": "Magnetism in Matter and Earth's Magnetism",
+    "slug": "magnetism-in-matter-and-earth-s-magnetism",
+    "difficulty": 3,
+    "minutes": 40,
+    "sub": [
+      "Dia-, para-, ferromagnetism",
+      "Hysteresis",
+      "Earth's magnetic field",
+      "Magnetic dipoles"
+    ],
+    "prereq": [
+      "Circuits"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Magnetism and Electromagnetic Induction",
+    "level": "intermediate",
+    "chapter": "Electromagnetic Induction",
+    "chapterSlug": "electromagnetic-induction",
+    "topic": "Induction Laws",
+    "title": "Faraday's and Lenz's Laws",
+    "slug": "faraday-s-and-lenz-s-laws",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Magnetic flux",
+      "Faraday's law",
+      "Lenz's law and conservation of energy",
+      "Motional EMF derivation",
+      "Eddy currents"
+    ],
+    "prereq": [
+      "Magnetic Fields and Forces"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Magnetism and Electromagnetic Induction",
+    "level": "intermediate",
+    "chapter": "Electromagnetic Induction",
+    "chapterSlug": "electromagnetic-induction",
+    "topic": "Induction Laws",
+    "title": "Inductance",
+    "slug": "inductance",
+    "difficulty": 4,
+    "minutes": 50,
+    "sub": [
+      "Self and mutual inductance",
+      "Solenoid inductance derivation",
+      "Energy in inductors",
+      "LR circuits"
+    ],
+    "prereq": [
+      "Magnetic Fields and Forces"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Magnetism and Electromagnetic Induction",
+    "level": "intermediate",
+    "chapter": "Electromagnetic Induction",
+    "chapterSlug": "electromagnetic-induction",
+    "topic": "Alternating Current",
+    "title": "AC Circuits and Transformers",
+    "slug": "ac-circuits-and-transformers",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "AC generation and RMS values",
+      "R, L, C in AC circuits and phasors",
+      "LCR resonance",
+      "Power factor",
+      "Transformers and power transmission"
+    ],
+    "prereq": [
+      "Magnetic Fields and Forces"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Magnetism and Electromagnetic Induction",
+    "level": "intermediate",
+    "chapter": "Electromagnetic Waves",
+    "chapterSlug": "electromagnetic-waves",
+    "topic": "Maxwell, Propagation and the Electromagnetic Spectrum",
+    "title": "Maxwell's Equations and Electromagnetic Waves",
+    "slug": "maxwell-s-equations-and-electromagnetic-waves",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "Displacement current",
+      "Maxwell equations",
+      "Charging capacitor derivation",
+      "Prediction of light speed"
+    ],
+    "prereq": [
+      "Electromagnetic Induction"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Magnetism and Electromagnetic Induction",
+    "level": "intermediate",
+    "chapter": "Electromagnetic Waves",
+    "chapterSlug": "electromagnetic-waves",
+    "topic": "Maxwell, Propagation and the Electromagnetic Spectrum",
+    "title": "Production and Propagation of Electromagnetic Waves",
+    "slug": "production-and-propagation-of-electromagnetic-waves",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "Accelerating charges",
+      "Oscillating dipoles and antennas",
+      "Perpendicular field geometry",
+      "Wave equations and field amplitudes"
+    ],
+    "prereq": [
+      "Electromagnetic Induction"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Magnetism and Electromagnetic Induction",
+    "level": "intermediate",
+    "chapter": "Electromagnetic Waves",
+    "chapterSlug": "electromagnetic-waves",
+    "topic": "Maxwell, Propagation and the Electromagnetic Spectrum",
+    "title": "Properties, Interactions and Energy of Electromagnetic Waves",
+    "slug": "properties-interactions-and-energy-of-electromagnetic-waves",
+    "difficulty": 4,
+    "minutes": 65,
+    "sub": [
+      "Reflection, refraction and diffraction",
+      "Interference and polarization",
+      "Energy density and intensity",
+      "Momentum and radiation pressure"
+    ],
+    "prereq": [
+      "Electromagnetic Induction"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Magnetism and Electromagnetic Induction",
+    "level": "intermediate",
+    "chapter": "Electromagnetic Waves",
+    "chapterSlug": "electromagnetic-waves",
+    "topic": "Maxwell, Propagation and the Electromagnetic Spectrum",
+    "title": "The Electromagnetic Spectrum",
+    "slug": "the-electromagnetic-spectrum",
+    "difficulty": 3,
+    "minutes": 65,
+    "sub": [
+      "Spectrum ordering and approximate ranges",
+      "Sources and detectors",
+      "Visible-light zoom",
+      "Uses and ionizing classification"
+    ],
+    "prereq": [
+      "Electromagnetic Induction"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Magnetism and Electromagnetic Induction",
+    "level": "intermediate",
+    "chapter": "Electromagnetic Waves",
+    "chapterSlug": "electromagnetic-waves",
+    "topic": "Maxwell, Propagation and the Electromagnetic Spectrum",
+    "title": "Applications, Communication and Radiation Safety",
+    "slug": "applications-communication-and-radiation-safety",
+    "difficulty": 4,
+    "minutes": 65,
+    "sub": [
+      "Broadcasting and mobile communication",
+      "Radar and satellite links",
+      "Microwave heating and thermal imaging",
+      "Medical uses and safety principles"
+    ],
+    "prereq": [
+      "Electromagnetic Induction"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Magnetism and Electromagnetic Induction",
+    "level": "intermediate",
+    "chapter": "Electromagnetic Waves",
+    "chapterSlug": "electromagnetic-waves",
+    "topic": "Maxwell, Propagation and the Electromagnetic Spectrum",
+    "title": "Electromagnetic-Wave Calculations and Chapter Review",
+    "slug": "electromagnetic-wave-calculations-and-chapter-review",
+    "difficulty": 4,
+    "minutes": 70,
+    "sub": [
+      "Frequency and wavelength calculations",
+      "Photon energy and field amplitudes",
+      "Case studies and mixed exercises",
+      "Chapter mastery assessment"
+    ],
+    "prereq": [
+      "Electromagnetic Induction"
+    ],
+    "status": "reviewed"
+  },
+  {
+    "category": "Modern Physics",
+    "level": "advanced",
+    "chapter": "Special Relativity",
+    "chapterSlug": "special-relativity",
+    "topic": "Einstein's Postulates and Consequences",
+    "title": "Time Dilation and Length Contraction",
+    "slug": "time-dilation-and-length-contraction",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "Michelson-Morley background",
+      "The two postulates",
+      "Time dilation derivation",
+      "Length contraction",
+      "Muon evidence"
+    ],
+    "prereq": [
+      "Kinematics",
+      "Electromagnetic Waves"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Modern Physics",
+    "level": "advanced",
+    "chapter": "Special Relativity",
+    "chapterSlug": "special-relativity",
+    "topic": "Einstein's Postulates and Consequences",
+    "title": "Relativistic Momentum and E = mc^2",
+    "slug": "relativistic-momentum-and-e-mc-2",
+    "difficulty": 5,
+    "minutes": 55,
+    "sub": [
+      "Relativistic momentum",
+      "Mass-energy equivalence derivation sketch",
+      "Lorentz transformations",
+      "Velocity addition"
+    ],
+    "prereq": [
+      "Kinematics",
+      "Electromagnetic Waves"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Modern Physics",
+    "level": "advanced",
+    "chapter": "Quantum Origins",
+    "chapterSlug": "quantum-origins",
+    "topic": "The Photon",
+    "title": "Blackbody Radiation and the Photoelectric Effect",
+    "slug": "blackbody-radiation-and-the-photoelectric-effect",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "Ultraviolet catastrophe",
+      "Planck's quantum",
+      "Photoelectric experiments and Einstein's equation",
+      "Compton scattering"
+    ],
+    "prereq": [
+      "Wave Optics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Modern Physics",
+    "level": "advanced",
+    "chapter": "Quantum Origins",
+    "chapterSlug": "quantum-origins",
+    "topic": "The Photon",
+    "title": "Matter Waves",
+    "slug": "matter-waves",
+    "difficulty": 4,
+    "minutes": 50,
+    "sub": [
+      "de Broglie hypothesis",
+      "Davisson-Germer experiment",
+      "Wave-particle duality",
+      "Heisenberg uncertainty principle"
+    ],
+    "prereq": [
+      "Wave Optics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Modern Physics",
+    "level": "advanced",
+    "chapter": "Atomic Physics",
+    "chapterSlug": "atomic-physics",
+    "topic": "Atomic Models",
+    "title": "From Thomson to Bohr",
+    "slug": "from-thomson-to-bohr",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Rutherford scattering",
+      "Bohr model derivations",
+      "Hydrogen spectral series",
+      "Limitations of Bohr",
+      "Franck-Hertz experiment"
+    ],
+    "prereq": [
+      "Quantum Origins"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Modern Physics",
+    "level": "advanced",
+    "chapter": "Atomic Physics",
+    "chapterSlug": "atomic-physics",
+    "topic": "Atomic Models",
+    "title": "X-rays and Lasers",
+    "slug": "x-rays-and-lasers",
+    "difficulty": 4,
+    "minutes": 45,
+    "sub": [
+      "X-ray production and Moseley's law",
+      "Spontaneous and stimulated emission",
+      "How lasers work",
+      "Applications"
+    ],
+    "prereq": [
+      "Quantum Origins"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Modern Physics",
+    "level": "advanced",
+    "chapter": "Nuclear Physics",
+    "chapterSlug": "nuclear-physics",
+    "topic": "The Nucleus",
+    "title": "Nuclear Structure and Binding Energy",
+    "slug": "nuclear-structure-and-binding-energy",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Nuclear composition and size",
+      "Mass defect and binding energy",
+      "Binding energy curve",
+      "Nuclear forces"
+    ],
+    "prereq": [
+      "Atomic Physics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Modern Physics",
+    "level": "advanced",
+    "chapter": "Nuclear Physics",
+    "chapterSlug": "nuclear-physics",
+    "topic": "The Nucleus",
+    "title": "Radioactivity",
+    "slug": "radioactivity",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Alpha, beta, gamma decay",
+      "Decay law derivation and half-life",
+      "Carbon dating",
+      "Radiation safety"
+    ],
+    "prereq": [
+      "Atomic Physics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Modern Physics",
+    "level": "advanced",
+    "chapter": "Nuclear Physics",
+    "chapterSlug": "nuclear-physics",
+    "topic": "The Nucleus",
+    "title": "Fission, Fusion and Nuclear Power",
+    "slug": "fission-fusion-and-nuclear-power",
+    "difficulty": 4,
+    "minutes": 50,
+    "sub": [
+      "Fission chain reactions",
+      "Reactors",
+      "Fusion and stars",
+      "Energy debates and applications"
+    ],
+    "prereq": [
+      "Atomic Physics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Modern Physics",
+    "level": "advanced",
+    "chapter": "Nuclear Physics",
+    "chapterSlug": "nuclear-physics",
+    "topic": "Particle Physics",
+    "title": "The Standard Model (Introduction)",
+    "slug": "the-standard-model-introduction",
+    "difficulty": 4,
+    "minutes": 50,
+    "sub": [
+      "Leptons, quarks, bosons",
+      "Fundamental interactions",
+      "Antimatter",
+      "Accelerators and detectors",
+      "Open questions"
+    ],
+    "prereq": [
+      "Atomic Physics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Modern Physics",
+    "level": "advanced",
+    "chapter": "Semiconductors and Electronics",
+    "chapterSlug": "semiconductors-and-electronics",
+    "topic": "Semiconductor Devices",
+    "title": "Semiconductors, Diodes and Transistors",
+    "slug": "semiconductors-diodes-and-transistors",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "Energy bands",
+      "Intrinsic and doped semiconductors",
+      "p-n junction and diode characteristics",
+      "Rectifiers, LEDs, solar cells",
+      "Transistor basics and logic gates"
+    ],
+    "prereq": [
+      "Atomic Physics",
+      "Circuits"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Classical Mechanics (University)",
+    "level": "university",
+    "chapter": "Lagrangian Mechanics",
+    "chapterSlug": "lagrangian-mechanics",
+    "topic": "The Lagrangian Formulation",
+    "title": "Generalized Coordinates and the Euler-Lagrange Equations",
+    "slug": "generalized-coordinates-and-the-euler-lagrange-equations",
+    "difficulty": 5,
+    "minutes": 65,
+    "sub": [
+      "Constraints and degrees of freedom",
+      "Principle of least action",
+      "Euler-Lagrange derivation",
+      "Worked systems: pendulum, Atwood machine"
+    ],
+    "prereq": [
+      "Rotational Motion",
+      "math:Functions of Several Variables"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Classical Mechanics (University)",
+    "level": "university",
+    "chapter": "Lagrangian Mechanics",
+    "chapterSlug": "lagrangian-mechanics",
+    "topic": "The Lagrangian Formulation",
+    "title": "Symmetries and Conservation Laws",
+    "slug": "symmetries-and-conservation-laws",
+    "difficulty": 5,
+    "minutes": 55,
+    "sub": [
+      "Cyclic coordinates",
+      "Noether's theorem (statement and meaning)",
+      "Energy, momentum, angular momentum conservation"
+    ],
+    "prereq": [
+      "Rotational Motion",
+      "math:Functions of Several Variables"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Classical Mechanics (University)",
+    "level": "university",
+    "chapter": "Hamiltonian Mechanics and Central Forces",
+    "chapterSlug": "hamiltonian-mechanics-and-central-forces",
+    "topic": "Hamiltonian Formulation",
+    "title": "Hamilton's Equations and Phase Space",
+    "slug": "hamilton-s-equations-and-phase-space",
+    "difficulty": 5,
+    "minutes": 60,
+    "sub": [
+      "Legendre transform",
+      "Hamilton's equations",
+      "Phase space portraits",
+      "Poisson brackets and the bridge to quantum mechanics"
+    ],
+    "prereq": [
+      "Lagrangian Mechanics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Classical Mechanics (University)",
+    "level": "university",
+    "chapter": "Hamiltonian Mechanics and Central Forces",
+    "chapterSlug": "hamiltonian-mechanics-and-central-forces",
+    "topic": "Central Force Motion",
+    "title": "The Kepler Problem",
+    "slug": "the-kepler-problem",
+    "difficulty": 5,
+    "minutes": 60,
+    "sub": [
+      "Effective potential",
+      "Orbit equation derivation",
+      "Kepler's laws derived",
+      "Scattering basics"
+    ],
+    "prereq": [
+      "Lagrangian Mechanics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Classical Mechanics (University)",
+    "level": "university",
+    "chapter": "Hamiltonian Mechanics and Central Forces",
+    "chapterSlug": "hamiltonian-mechanics-and-central-forces",
+    "topic": "Oscillating Systems",
+    "title": "Coupled Oscillators and Normal Modes",
+    "slug": "coupled-oscillators-and-normal-modes",
+    "difficulty": 5,
+    "minutes": 60,
+    "sub": [
+      "Coupled pendulums",
+      "Normal mode analysis with matrices",
+      "Beats revisited",
+      "Toward continuous systems and waves"
+    ],
+    "prereq": [
+      "Lagrangian Mechanics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Electrodynamics (University)",
+    "level": "university",
+    "chapter": "Electrostatics in Depth",
+    "chapterSlug": "electrostatics-in-depth",
+    "topic": "Boundary Value Problems",
+    "title": "Laplace's Equation and the Method of Images",
+    "slug": "laplace-s-equation-and-the-method-of-images",
+    "difficulty": 5,
+    "minutes": 65,
+    "sub": [
+      "Poisson and Laplace equations",
+      "Uniqueness theorems",
+      "Method of images",
+      "Multipole expansion introduction"
+    ],
+    "prereq": [
+      "Potential and Capacitance",
+      "math:Vector Calculus"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Electrodynamics (University)",
+    "level": "university",
+    "chapter": "Electrostatics in Depth",
+    "chapterSlug": "electrostatics-in-depth",
+    "topic": "Boundary Value Problems",
+    "title": "Electric Fields in Matter",
+    "slug": "electric-fields-in-matter",
+    "difficulty": 5,
+    "minutes": 55,
+    "sub": [
+      "Polarization",
+      "Bound charges",
+      "Displacement field D",
+      "Linear dielectrics"
+    ],
+    "prereq": [
+      "Potential and Capacitance",
+      "math:Vector Calculus"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Electrodynamics (University)",
+    "level": "university",
+    "chapter": "Magnetostatics and Maxwell",
+    "chapterSlug": "magnetostatics-and-maxwell",
+    "topic": "Magnetostatics in Depth",
+    "title": "Vector Potential and Magnetic Fields in Matter",
+    "slug": "vector-potential-and-magnetic-fields-in-matter",
+    "difficulty": 5,
+    "minutes": 60,
+    "sub": [
+      "The vector potential",
+      "Ampere's law applications",
+      "Magnetization and the H field",
+      "Boundary conditions"
+    ],
+    "prereq": [
+      "Electrostatics in Depth"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Electrodynamics (University)",
+    "level": "university",
+    "chapter": "Magnetostatics and Maxwell",
+    "chapterSlug": "magnetostatics-and-maxwell",
+    "topic": "Maxwell's Equations and Waves",
+    "title": "The Full Maxwell Equations and EM Waves",
+    "slug": "the-full-maxwell-equations-and-em-waves",
+    "difficulty": 5,
+    "minutes": 65,
+    "sub": [
+      "Differential form of Maxwell's equations",
+      "Wave equation derivation",
+      "Energy and the Poynting vector",
+      "Waves in media, reflection and transmission"
+    ],
+    "prereq": [
+      "Electrostatics in Depth"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Electrodynamics (University)",
+    "level": "university",
+    "chapter": "Magnetostatics and Maxwell",
+    "chapterSlug": "magnetostatics-and-maxwell",
+    "topic": "Maxwell's Equations and Waves",
+    "title": "Radiation (Introduction)",
+    "slug": "radiation-introduction",
+    "difficulty": 5,
+    "minutes": 55,
+    "sub": [
+      "Retarded potentials (idea)",
+      "Dipole radiation",
+      "Why the sky is blue",
+      "Antenna basics"
+    ],
+    "prereq": [
+      "Electrostatics in Depth"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Quantum Mechanics (University)",
+    "level": "university",
+    "chapter": "The Schrodinger Equation",
+    "chapterSlug": "the-schrodinger-equation",
+    "topic": "Wave Functions",
+    "title": "The Wave Function and the Schrodinger Equation",
+    "slug": "the-wave-function-and-the-schrodinger-equation",
+    "difficulty": 5,
+    "minutes": 65,
+    "sub": [
+      "Probability interpretation",
+      "Normalization",
+      "Time-dependent and time-independent equations",
+      "Expectation values and operators"
+    ],
+    "prereq": [
+      "Quantum Origins",
+      "math:Higher Order Linear Equations"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Quantum Mechanics (University)",
+    "level": "university",
+    "chapter": "The Schrodinger Equation",
+    "chapterSlug": "the-schrodinger-equation",
+    "topic": "One-Dimensional Problems",
+    "title": "Infinite and Finite Wells",
+    "slug": "infinite-and-finite-wells",
+    "difficulty": 5,
+    "minutes": 60,
+    "sub": [
+      "Particle in a box derivation",
+      "Energy quantization",
+      "Finite well",
+      "Correspondence principle"
+    ],
+    "prereq": [
+      "Quantum Origins",
+      "math:Higher Order Linear Equations"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Quantum Mechanics (University)",
+    "level": "university",
+    "chapter": "The Schrodinger Equation",
+    "chapterSlug": "the-schrodinger-equation",
+    "topic": "One-Dimensional Problems",
+    "title": "The Harmonic Oscillator and Tunneling",
+    "slug": "the-harmonic-oscillator-and-tunneling",
+    "difficulty": 5,
+    "minutes": 65,
+    "sub": [
+      "Quantum harmonic oscillator (ladder operator sketch)",
+      "Zero-point energy",
+      "Potential barriers and tunneling",
+      "Scanning tunneling microscope and alpha decay"
+    ],
+    "prereq": [
+      "Quantum Origins",
+      "math:Higher Order Linear Equations"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Quantum Mechanics (University)",
+    "level": "university",
+    "chapter": "Formalism and the Hydrogen Atom",
+    "chapterSlug": "formalism-and-the-hydrogen-atom",
+    "topic": "Quantum Formalism",
+    "title": "Hilbert Space, Operators and Measurement",
+    "slug": "hilbert-space-operators-and-measurement",
+    "difficulty": 5,
+    "minutes": 65,
+    "sub": [
+      "States as vectors, Dirac notation",
+      "Hermitian operators and observables",
+      "Commutators and uncertainty",
+      "Measurement postulates"
+    ],
+    "prereq": [
+      "The Schrodinger Equation",
+      "math:Eigenvalues and Eigenvectors"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Quantum Mechanics (University)",
+    "level": "university",
+    "chapter": "Formalism and the Hydrogen Atom",
+    "chapterSlug": "formalism-and-the-hydrogen-atom",
+    "topic": "Angular Momentum and Hydrogen",
+    "title": "The Hydrogen Atom Solved",
+    "slug": "the-hydrogen-atom-solved",
+    "difficulty": 5,
+    "minutes": 70,
+    "sub": [
+      "Separation in spherical coordinates",
+      "Quantum numbers n, l, m",
+      "Orbitals and degeneracy",
+      "Spin and the Stern-Gerlach experiment",
+      "Pauli exclusion and the periodic table"
+    ],
+    "prereq": [
+      "The Schrodinger Equation",
+      "math:Eigenvalues and Eigenvectors"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Thermal and Statistical Physics (University)",
+    "level": "university",
+    "chapter": "Statistical Foundations",
+    "chapterSlug": "statistical-foundations",
+    "topic": "Statistical Mechanics Basics",
+    "title": "Boltzmann Distribution and Statistical Physics",
+    "slug": "boltzmann-distribution-and-statistical-physics",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Macrostates and microstates",
+      "Boltzmann factor",
+      "Population ratios",
+      "Thermal energy scale kT"
+    ],
+    "prereq": [
+      "Laws of Thermodynamics",
+      "math:Random Variables and Distributions"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Thermal and Statistical Physics (University)",
+    "level": "university",
+    "chapter": "Statistical Foundations",
+    "chapterSlug": "statistical-foundations",
+    "topic": "Statistical Mechanics Basics",
+    "title": "Microstates, Entropy and the Boltzmann Distribution",
+    "slug": "microstates-entropy-and-the-boltzmann-distribution",
+    "difficulty": 5,
+    "minutes": 65,
+    "sub": [
+      "Microstates and macrostates",
+      "Statistical entropy S = k ln W",
+      "The Boltzmann factor derivation",
+      "Partition function introduction"
+    ],
+    "prereq": [
+      "Laws of Thermodynamics",
+      "math:Random Variables and Distributions"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Thermal and Statistical Physics (University)",
+    "level": "university",
+    "chapter": "Statistical Foundations",
+    "chapterSlug": "statistical-foundations",
+    "topic": "Statistical Mechanics Basics",
+    "title": "Applications of the Partition Function",
+    "slug": "applications-of-the-partition-function",
+    "difficulty": 5,
+    "minutes": 60,
+    "sub": [
+      "Ideal gas from statistics",
+      "Equipartition revisited",
+      "Heat capacities of solids (Einstein model)",
+      "Maxwell-Boltzmann speed distribution"
+    ],
+    "prereq": [
+      "Laws of Thermodynamics",
+      "math:Random Variables and Distributions"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Thermal and Statistical Physics (University)",
+    "level": "university",
+    "chapter": "Statistical Foundations",
+    "chapterSlug": "statistical-foundations",
+    "topic": "Quantum Statistics",
+    "title": "Fermi-Dirac and Bose-Einstein Statistics",
+    "slug": "fermi-dirac-and-bose-einstein-statistics",
+    "difficulty": 5,
+    "minutes": 60,
+    "sub": [
+      "Identical particles",
+      "Fermions vs bosons",
+      "Electron gas and Fermi energy",
+      "Blackbody radiation derived",
+      "Bose-Einstein condensation"
+    ],
+    "prereq": [
+      "Laws of Thermodynamics",
+      "math:Random Variables and Distributions"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Condensed Matter, Astrophysics and Frontiers",
+    "level": "university",
+    "chapter": "Solid State Physics",
+    "chapterSlug": "solid-state-physics",
+    "topic": "Crystals and Bands",
+    "title": "Crystal Structure and Band Theory",
+    "slug": "crystal-structure-and-band-theory",
+    "difficulty": 5,
+    "minutes": 60,
+    "sub": [
+      "Lattices and unit cells",
+      "X-ray diffraction and Bragg's law",
+      "Origin of energy bands",
+      "Metals, insulators, semiconductors explained",
+      "Superconductivity (qualitative)"
+    ],
+    "prereq": [
+      "Formalism and the Hydrogen Atom",
+      "Statistical Foundations"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Condensed Matter, Astrophysics and Frontiers",
+    "level": "university",
+    "chapter": "Astrophysics and Cosmology",
+    "chapterSlug": "astrophysics-and-cosmology",
+    "topic": "Stars",
+    "title": "Stellar Physics and Evolution",
+    "slug": "stellar-physics-and-evolution",
+    "difficulty": 4,
+    "minutes": 60,
+    "sub": [
+      "Stellar magnitudes and spectra",
+      "Hertzsprung-Russell diagram",
+      "Nuclear fusion in stars",
+      "White dwarfs, neutron stars, black holes"
+    ],
+    "prereq": [
+      "Gravitation",
+      "Nuclear Physics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Condensed Matter, Astrophysics and Frontiers",
+    "level": "university",
+    "chapter": "Astrophysics and Cosmology",
+    "chapterSlug": "astrophysics-and-cosmology",
+    "topic": "Stars",
+    "title": "Neutron Stars, Pulsars and the Life Cycle of the Sun",
+    "slug": "neutron-stars-pulsars-and-the-life-cycle-of-the-sun",
+    "difficulty": 4,
+    "minutes": 55,
+    "sub": [
+      "Neutron-star formation",
+      "Pulsar beams and rotation",
+      "Compact-remnant density",
+      "Solar life cycle"
+    ],
+    "prereq": [
+      "Gravitation",
+      "Nuclear Physics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Condensed Matter, Astrophysics and Frontiers",
+    "level": "university",
+    "chapter": "Astrophysics and Cosmology",
+    "chapterSlug": "astrophysics-and-cosmology",
+    "topic": "The Universe",
+    "title": "Cosmology: The Expanding Universe",
+    "slug": "cosmology-the-expanding-universe",
+    "difficulty": 5,
+    "minutes": 60,
+    "sub": [
+      "Hubble's law",
+      "The Big Bang and CMB",
+      "Dark matter and dark energy evidence",
+      "Fate of the universe"
+    ],
+    "prereq": [
+      "Gravitation",
+      "Nuclear Physics"
+    ],
+    "status": "baseline"
+  },
+  {
+    "category": "Condensed Matter, Astrophysics and Frontiers",
+    "level": "university",
+    "chapter": "Astrophysics and Cosmology",
+    "chapterSlug": "astrophysics-and-cosmology",
+    "topic": "The Universe",
+    "title": "General Relativity (Conceptual Introduction)",
+    "slug": "general-relativity-conceptual-introduction",
+    "difficulty": 5,
+    "minutes": 55,
+    "sub": [
+      "Equivalence principle",
+      "Curved spacetime",
+      "Gravitational lensing and time dilation",
+      "Gravitational waves and LIGO",
+      "GPS corrections"
+    ],
+    "prereq": [
+      "Gravitation",
+      "Nuclear Physics"
+    ],
+    "status": "baseline"
+  }
+]

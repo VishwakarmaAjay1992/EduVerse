@@ -78,6 +78,12 @@ export default async function ChapterPage({
           <p className="mt-2 text-sm text-muted-foreground">{detail.categoryTitle}</p>
         </div>
 
+        {slug === "physics" && (
+          <Link href={`/subjects/physics/${chapter}/assessment`} className="mb-8 flex items-center justify-between rounded-xl border bg-primary/5 p-5 font-semibold hover:bg-primary/10">
+            <span>Take the chapter mastery assessment</span><ArrowRight className="size-5"/>
+          </Link>
+        )}
+
         <div className="space-y-6">
           {detail.chapter.topics.map((topic) => (
             <Card key={topic.title}>

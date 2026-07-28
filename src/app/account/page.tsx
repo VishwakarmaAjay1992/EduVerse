@@ -1,0 +1,1 @@
+import { SiteHeader } from "@/components/site-header";import { AccountPanel } from "@/components/account-panel";export default function Page(){return <><SiteHeader/><main className="container max-w-2xl py-12"><AccountPanel/></main></>}

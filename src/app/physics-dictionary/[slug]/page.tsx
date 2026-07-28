@@ -113,6 +113,11 @@ export default async function PhysicsDictionaryTermPage({
                     <Search className="size-4" aria-hidden="true" /> Search all EduVerse
                   </Link>
                 </Button>
+                {relatedLessons[0] ? (
+                  <Button asChild variant="secondary">
+                    <Link href={relatedLessons[0].href}>Practice this concept <ArrowRight className="size-4" /></Link>
+                  </Button>
+                ) : null}
                 <Button asChild variant="outline">
                   <Link href="/physics-dictionary">
                     <ArrowLeft className="size-4" aria-hidden="true" /> Browse dictionary

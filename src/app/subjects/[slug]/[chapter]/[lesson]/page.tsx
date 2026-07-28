@@ -6,6 +6,7 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import { LessonBody } from "@/components/lesson-body";
 import { LessonBookmarkButton } from "@/components/lesson-bookmark-button";
 import { LessonVisitTracker } from "@/components/lesson-visit-tracker";
+import { PhysicsConceptDiagram } from "@/components/physics/physics-concept-diagram";
 import { LessonSidebarNav } from "@/components/lesson-sidebar-nav";
 import { OnThisPage } from "@/components/on-this-page";
 import { SiteHeader } from "@/components/site-header";
@@ -111,6 +112,7 @@ export default async function LessonPage({
                     ))}
                   </ul>
                 </div>
+                {slug === "physics" && <PhysicsConceptDiagram title={location.lesson.title} />}
                 <LessonBody sections={content.sections} lessonId={`${slug}/${chapter}/${lesson}`} />
               </>
             ) : (

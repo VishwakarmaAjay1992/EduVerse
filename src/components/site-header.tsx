@@ -11,6 +11,8 @@ import {
   Search,
   LayoutDashboard,
   Sparkles,
+  UserRound,
+  Users,
 } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 
@@ -103,6 +105,8 @@ export function SiteHeader() {
             <span className="hidden lg:inline">Learning Hub</span>
             <span className="sr-only lg:hidden">Learning Hub</span>
           </Link>
+          <Link href="/teacher" className="inline-flex items-center gap-1.5 rounded-md px-2.5 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"><Users className="size-4" aria-hidden="true"/><span className="sr-only">Teacher mode</span></Link>
+          <Link href="/account" className="inline-flex items-center gap-1.5 rounded-md px-2.5 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"><UserRound className="size-4" aria-hidden="true"/><span className="sr-only">Account</span></Link>
           <ThemeToggle />
         </nav>
       </div>

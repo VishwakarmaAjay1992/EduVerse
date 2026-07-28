@@ -98,6 +98,7 @@ import { missingMathematicsCourse } from "@/content/mathematics/missing-mathemat
 import { enrichModerateLesson } from "@/lib/moderate-enrichment";
 import { enrichWeakLesson } from "@/lib/weak-enrichment";
 import type { LessonContent } from "./lesson-content-types";
+import { generatePhysicsBaseline } from "@/lib/physics-baseline-content";
 
 const calculusLessons = calculusLessonsData as LessonContent[];
 
@@ -213,11 +214,13 @@ export function getLessonContent(
         c.lessonSlug === lessonSlug
     ) ?? null;
 
-  return content ? enrichWeakLesson(enrichModerateLesson(content)) : null;
+  if (content) return enrichWeakLesson(enrichModerateLesson(content));
+  return subjectSlug === "physics" ? generatePhysicsBaseline(chapterSlug, lessonSlug) : null;
 }
 
 export function hasLessonContent(subjectSlug: string, lessonSlug: string): boolean {
-  return REGISTRY.some((c) => c.subjectSlug === subjectSlug && c.lessonSlug === lessonSlug);
+  if (REGISTRY.some((c) => c.subjectSlug === subjectSlug && c.lessonSlug === lessonSlug)) return true;
+  return subjectSlug === "physics";
 }
 
 export type { LessonContent } from "./lesson-content-types";
