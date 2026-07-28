@@ -120,7 +120,7 @@ export function PhysicsDictionaryExperience({
 
   return (
     <div className="space-y-8">
-      <div className="grid gap-4 rounded-2xl border bg-card p-5 shadow-sm lg:grid-cols-[minmax(0,1fr)_280px]">
+      <div className="grid gap-4 rounded-2xl border bg-card p-4 shadow-sm sm:p-5 lg:grid-cols-[minmax(0,1fr)_280px]">
         <div className="relative">
           <Search
             className="pointer-events-none absolute left-4 top-1/2 size-5 -translate-y-1/2 text-muted-foreground"
@@ -141,7 +141,7 @@ export function PhysicsDictionaryExperience({
             setVisible(60);
           }}
           aria-label="Filter physics concepts by chapter"
-          className="h-14 rounded-xl border bg-background px-4 text-sm"
+          className="h-14 min-w-0 rounded-xl border bg-background px-4 text-sm"
         >
           <option value="all">All physics chapters ({items.length})</option>
           {categories.map((item) => (
@@ -152,7 +152,7 @@ export function PhysicsDictionaryExperience({
         </select>
       </div>
 
-      <div className="flex flex-wrap items-center justify-between gap-3">
+      <div className="flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h2 className="text-xl font-semibold">
             {results.length} concept{results.length === 1 ? "" : "s"}
@@ -168,6 +168,7 @@ export function PhysicsDictionaryExperience({
             setHighInterestOnly((value) => !value);
             setVisible(60);
           }}
+          className="w-full sm:w-auto"
         >
           <Atom className="size-4" aria-hidden="true" />
           High-interest concepts
@@ -186,7 +187,7 @@ export function PhysicsDictionaryExperience({
                   source: "dictionary_index",
                 })
               }
-              className="group flex h-full flex-col rounded-xl border bg-card p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-primary/50 hover:shadow-md"
+              className="group flex h-full flex-col rounded-xl border bg-card p-4 sm:p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-primary/50 hover:shadow-md"
             >
               <div className="flex flex-wrap items-center gap-2">
                 <Badge variant="secondary">{item.category}</Badge>

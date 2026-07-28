@@ -89,7 +89,7 @@ export default async function ScientistProfilePage({
                     </Badge>
                   ))}
                 </div>
-                <h1 className="scientist-signature text-balance text-5xl leading-[1.05] sm:text-7xl">
+                <h1 className="scientist-signature text-balance text-4xl leading-[1.05] sm:text-7xl">
                   {scientist.fullName}
                 </h1>
                 <p className="mt-5 max-w-2xl text-balance text-xl leading-8 text-muted-foreground">

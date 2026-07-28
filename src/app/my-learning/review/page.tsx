@@ -22,7 +22,7 @@ export default function ReviewPage() {
             <Link href="/my-learning" className="inline-flex items-center gap-1 text-sm font-medium text-muted-foreground hover:text-foreground">
               <ArrowLeft className="size-4" aria-hidden="true" /> My EduVerse
             </Link>
-            <h1 className="mt-5 text-4xl font-bold tracking-tight sm:text-5xl">Smart Review</h1>
+            <h1 className="mt-5 text-3xl font-bold tracking-tight sm:text-5xl">Smart Review</h1>
             <p className="mt-4 max-w-2xl text-lg leading-8 text-muted-foreground">
               Recall the answer before revealing it, then let EduVerse schedule the next review.
             </p>

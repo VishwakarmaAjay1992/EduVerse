@@ -55,14 +55,14 @@ export default function StartPage() {
       <SiteHeader />
       <main>
         <section className="border-b bg-gradient-to-b from-primary/5 to-background">
-          <div className="container py-14 text-center sm:py-20">
+          <div className="container py-10 text-center sm:py-20">
             <div className="inline-flex items-center gap-2 rounded-full border bg-background px-3 py-1.5 text-xs font-semibold uppercase tracking-widest text-primary shadow-sm">
               <Compass className="size-4" aria-hidden="true" /> Guided learning
             </div>
-            <h1 className="mx-auto mt-6 max-w-3xl text-balance text-4xl font-bold tracking-tight sm:text-6xl">
+            <h1 className="mx-auto mt-6 max-w-3xl text-balance text-3xl font-bold tracking-tight sm:text-6xl">
               Build a learning path that fits you.
             </h1>
-            <p className="mx-auto mt-5 max-w-2xl text-balance text-lg leading-8 text-muted-foreground">
+            <p className="mx-auto mt-5 max-w-2xl text-balance text-base leading-7 sm:text-lg sm:leading-8 text-muted-foreground">
               Choose what you want to study, where you are starting and how much time you have. EduVerse will take you directly to the right first lesson.
             </p>
           </div>

@@ -27,12 +27,12 @@ export default function LearningHubPage() {
                 "radial-gradient(circle at 15% 15%, #38bdf8 0, transparent 28%), radial-gradient(circle at 85% 30%, #8b5cf6 0, transparent 30%), radial-gradient(circle at 45% 100%, #10b981 0, transparent 32%)",
             }}
           />
-          <div className="container relative py-24 sm:py-32">
+          <div className="container relative py-16 sm:py-32">
             <div className="max-w-4xl">
               <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.18em]">
                 <Compass className="size-4" /> EduVerse Learning Hub
               </div>
-              <h1 className="mt-6 text-balance text-5xl font-bold tracking-tight sm:text-7xl">
+              <h1 className="mt-6 text-balance text-4xl font-bold tracking-tight sm:text-7xl">
                 Learn, explore, experiment and practise.
               </h1>
               <p className="mt-6 max-w-2xl text-balance text-lg leading-8 text-white/75">
@@ -40,7 +40,7 @@ export default function LearningHubPage() {
                 everyday physics and open mysteries to formula tools, quizzes and downloadable
                 resources.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3">
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <Button asChild size="lg" variant="secondary">
                   <a href="#experiences">
                     Explore all experiences <ArrowRight />
@@ -55,7 +55,7 @@ export default function LearningHubPage() {
                 </Button>
               </div>
             </div>
-            <div className="mt-12 grid max-w-2xl grid-cols-3 gap-3">
+            <div className="mt-10 grid max-w-2xl grid-cols-3 gap-2 sm:mt-12 sm:gap-3">
               <Stat value={HUB_FEATURES.length} label="experiences" />
               <Stat value={HUB_GROUPS.length} label="collections" />
               <Stat value={interactiveCount} label="interactive" />

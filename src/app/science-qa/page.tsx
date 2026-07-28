@@ -17,11 +17,11 @@ export default function Page() {
       <SiteHeader />
       <main>
         <section className="border-b bg-muted/30">
-          <div className="container py-16 sm:py-20">
+          <div className="container py-10 sm:py-20">
             <div className="inline-flex items-center gap-2 rounded-full border bg-background px-3 py-1.5 text-xs font-semibold uppercase tracking-widest text-primary">
               <HelpCircle className="size-4" /> Quick answers
             </div>
-            <h1 className="mt-6 text-balance text-4xl font-bold tracking-tight sm:text-5xl">
+            <h1 className="mt-6 text-balance text-3xl font-bold tracking-tight sm:text-5xl">
               {SCIENCE_QA.length} General Science Questions
             </h1>
             <p className="mt-4 max-w-2xl text-balance leading-7 text-muted-foreground">

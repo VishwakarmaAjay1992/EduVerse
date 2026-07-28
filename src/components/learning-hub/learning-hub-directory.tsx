@@ -35,10 +35,10 @@ export function LearningHubDirectory() {
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               placeholder="Search calculators, experiments, space, quizzes…"
-              className="h-10 w-full rounded-md border bg-background pl-9 pr-3 text-sm outline-none focus:ring-2 focus:ring-ring"
+              className="h-11 w-full rounded-md border bg-background pl-9 pr-3 text-sm outline-none focus:ring-2 focus:ring-ring"
             />
           </label>
-          <div className="flex flex-wrap gap-2" aria-label="Filter by collection">
+          <div className="touch-scroll -mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0" aria-label="Filter by collection">
             {(["All", ...HUB_GROUPS] as const).map((item) => (
               <Button
                 key={item}
@@ -46,6 +46,7 @@ export function LearningHubDirectory() {
                 size="sm"
                 variant={group === item ? "default" : "outline"}
                 onClick={() => setGroup(item)}
+                className="shrink-0"
               >
                 {item}
               </Button>
@@ -68,7 +69,7 @@ export function LearningHubDirectory() {
           {visible.map((feature) => (
             <article
               key={feature.slug}
-              className="group relative overflow-hidden rounded-2xl border bg-card p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+              className="group relative overflow-hidden rounded-2xl border bg-card p-5 sm:p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
             >
               <div
                 className="absolute inset-x-0 top-0 h-1"

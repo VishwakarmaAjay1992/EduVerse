@@ -68,7 +68,7 @@ export default async function LessonPage({
           minutes: location.lesson.min,
         }}
       />
-      <div className="container max-w-7xl py-8">
+      <div className="container max-w-7xl py-5 sm:py-8">
         <div className="lg:grid lg:grid-cols-[220px_minmax(0,1fr)_240px] lg:gap-10">
           {/* Left rail: chapter navigation */}
           <aside className="hidden lg:block">
@@ -89,20 +89,20 @@ export default async function LessonPage({
             />
 
             <div className="mb-8">
-              <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
+              <div className="mb-3 flex flex-col items-start gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
                 <div className="flex items-center gap-2">
                   <Badge variant="secondary">Level {location.lesson.d}</Badge>
                   <Badge variant="outline">{location.lesson.min} min</Badge>
                 </div>
                 <LessonBookmarkButton lessonId={`${slug}/${chapter}/${lesson}`} />
               </div>
-              <h1 className="text-4xl font-bold tracking-tight">{location.lesson.title}</h1>
+              <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{location.lesson.title}</h1>
               <p className="mt-2 text-sm text-muted-foreground">{location.topic.title}</p>
             </div>
 
             {content ? (
               <>
-                <div className="mb-8 rounded-lg border bg-muted/40 p-5">
+                <div className="mb-8 rounded-lg border bg-muted/40 p-4 sm:p-5">
                   <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
                     Learning objectives
                   </h2>
@@ -133,16 +133,16 @@ export default async function LessonPage({
             )}
 
             {/* Previous / next navigation */}
-            <div className="mt-12 flex items-center justify-between gap-4 border-t pt-6">
+            <div className="mt-12 grid gap-3 border-t pt-6 sm:grid-cols-2">
               {prev ? (
                 <Link
                   href={`/subjects/${slug}/${chapter}/${prev.slug}`}
-                  className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
+                  className="group flex min-w-0 items-center gap-2 rounded-lg border p-3 text-sm text-muted-foreground hover:border-primary/40 hover:text-foreground"
                 >
                   <ArrowLeft className="size-4" />
                   <span>
                     <span className="block text-xs">Previous</span>
-                    <span className="font-medium text-foreground">{prev.title}</span>
+                    <span className="line-clamp-2 font-medium text-foreground">{prev.title}</span>
                   </span>
                 </Link>
               ) : (
@@ -151,11 +151,11 @@ export default async function LessonPage({
               {next ? (
                 <Link
                   href={`/subjects/${slug}/${chapter}/${next.slug}`}
-                  className="group flex items-center gap-2 text-right text-sm text-muted-foreground hover:text-foreground"
+                  className="group flex min-w-0 items-center justify-end gap-2 rounded-lg border p-3 text-right text-sm text-muted-foreground hover:border-primary/40 hover:text-foreground"
                 >
                   <span>
                     <span className="block text-xs">Next</span>
-                    <span className="font-medium text-foreground">{next.title}</span>
+                    <span className="line-clamp-2 font-medium text-foreground">{next.title}</span>
                   </span>
                   <ArrowRight className="size-4" />
                 </Link>

@@ -55,7 +55,7 @@ export default function PhysicsDictionaryPage() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
         <section className="border-b bg-gradient-to-b from-sky-500/10 via-background to-background">
-          <div className="container py-14 sm:py-20">
+          <div className="container py-10 sm:py-20">
             <div className="mx-auto max-w-4xl text-center">
               <div className="mx-auto flex size-14 items-center justify-center rounded-2xl bg-sky-500/10 text-sky-600 dark:text-sky-400">
                 <Atom className="size-7" aria-hidden="true" />
@@ -63,10 +63,10 @@ export default function PhysicsDictionaryPage() {
               <p className="mt-6 text-sm font-semibold uppercase tracking-[0.2em] text-primary">
                 Physics reference library
               </p>
-              <h1 className="mt-3 text-balance text-4xl font-bold tracking-tight sm:text-6xl">
+              <h1 className="mt-3 text-balance text-3xl font-bold tracking-tight sm:text-6xl">
                 Understand any physics term
               </h1>
-              <p className="mx-auto mt-5 max-w-3xl text-balance text-lg leading-8 text-muted-foreground">
+              <p className="mx-auto mt-5 max-w-3xl text-balance text-base leading-7 sm:text-lg sm:leading-8 text-muted-foreground">
                 From angle of banking, center of mass and torque to entropy, electromagnetic
                 induction, quantum tunneling and black holes—search the concept and continue into
                 the lesson that teaches it.

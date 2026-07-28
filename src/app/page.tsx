@@ -43,24 +43,24 @@ export default function HomePage() {
       <SiteHeader />
       <main>
         <section className="border-b bg-gradient-to-b from-primary/5 via-background to-background">
-          <div className="container flex flex-col items-center gap-6 pb-24 pt-20 text-center sm:pt-24">
+          <div className="container flex flex-col items-center gap-5 pb-16 pt-12 text-center sm:gap-6 sm:pb-24 sm:pt-24">
             <div className="inline-flex items-center gap-2 rounded-full border bg-background px-3 py-1.5 text-xs font-semibold uppercase tracking-widest text-primary shadow-sm">
               <Compass className="size-4" aria-hidden="true" /> Guided learning from first principles
             </div>
-            <h1 className="max-w-4xl text-balance text-4xl font-bold tracking-tight sm:text-6xl">
+            <h1 className="max-w-4xl text-balance text-3xl font-bold tracking-tight sm:text-6xl">
               What would you like to learn today?
             </h1>
-            <p className="max-w-2xl text-balance text-lg leading-8 text-muted-foreground">
+            <p className="max-w-2xl text-balance text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
               Build your Mathematics foundation, understand Physics, or explore the people,
               inventions and phenomena behind scientific ideas.
             </p>
-            <div className="flex flex-wrap justify-center gap-3">
-              <Button asChild size="lg">
+            <div className="flex w-full max-w-sm flex-col justify-center gap-3 sm:w-auto sm:max-w-none sm:flex-row sm:flex-wrap">
+              <Button asChild size="lg" className="w-full sm:w-auto">
                 <Link href="/start">
                   Build my learning path <ArrowRight aria-hidden="true" />
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline">
+              <Button asChild size="lg" variant="outline" className="w-full sm:w-auto">
                 <Link href="/subjects">Browse all subjects</Link>
               </Button>
             </div>
@@ -96,7 +96,7 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="border-t bg-muted/30 p-6 lg:border-l lg:border-t-0 lg:p-8">
-                <Button asChild size="lg">
+                <Button asChild size="lg" className="w-full lg:w-auto">
                   <Link href="/my-learning">
                     Open My EduVerse <ArrowRight aria-hidden="true" />
                   </Link>
@@ -111,7 +111,7 @@ export default function HomePage() {
             href="/physics-dictionary"
             className="group block overflow-hidden rounded-2xl border bg-gradient-to-r from-sky-500/10 via-card to-card shadow-sm transition hover:-translate-y-0.5 hover:border-sky-500/40 hover:shadow-md"
           >
-            <div className="grid gap-5 p-6 sm:p-8 lg:grid-cols-[auto_1fr_auto] lg:items-center">
+            <div className="grid gap-5 p-5 sm:p-8 lg:grid-cols-[auto_1fr_auto] lg:items-center">
               <span className="flex size-14 items-center justify-center rounded-2xl bg-sky-500/10 text-sky-600 dark:text-sky-400">
                 <Atom className="size-7" aria-hidden="true" />
               </span>

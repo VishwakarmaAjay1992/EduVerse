@@ -147,7 +147,7 @@ export function LearningDashboard({ catalog }: { catalog: LessonCatalogItem[] })
   return (
     <div className="space-y-8">
       {message && (
-        <div className="flex items-center justify-between gap-3 rounded-lg border border-emerald-500/30 bg-emerald-500/5 px-4 py-3 text-sm">
+        <div className="flex flex-col items-start gap-3 rounded-lg border border-emerald-500/30 bg-emerald-500/5 px-4 py-3 text-sm sm:flex-row sm:items-center sm:justify-between">
           <span className="flex items-center gap-2">
             <ShieldCheck className="size-4 text-emerald-600" aria-hidden="true" /> {message}
           </span>
@@ -157,7 +157,7 @@ export function LearningDashboard({ catalog }: { catalog: LessonCatalogItem[] })
         </div>
       )}
 
-      <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+      <section className="grid gap-3 min-[420px]:grid-cols-2 sm:gap-4 xl:grid-cols-4">
         {[
           { icon: Trophy, label: "Lessons completed", value: completed, detail: `${opened} opened` },
           { icon: Target, label: "Average quiz score", value: `${averageQuiz}%`, detail: `${quizResults.length} attempts` },
@@ -165,11 +165,11 @@ export function LearningDashboard({ catalog }: { catalog: LessonCatalogItem[] })
           { icon: CalendarDays, label: "Active study days", value: activeDays, detail: "During the last 7 days" },
         ].map(({ icon: Icon, label, value, detail }) => (
           <Card key={label} className="shadow-sm">
-            <CardContent className="p-5">
+            <CardContent className="p-4 sm:p-5">
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  <p className="text-sm text-muted-foreground">{label}</p>
-                  <p className="mt-2 text-3xl font-bold">{value}</p>
+                  <p className="text-xs leading-5 text-muted-foreground sm:text-sm">{label}</p>
+                  <p className="mt-2 text-2xl font-bold sm:text-3xl">{value}</p>
                   <p className="mt-1 text-xs text-muted-foreground">{detail}</p>
                 </div>
                 <span className="rounded-xl bg-primary/10 p-2.5 text-primary">
@@ -284,7 +284,7 @@ export function LearningDashboard({ catalog }: { catalog: LessonCatalogItem[] })
                   <Link
                     key={activity.id}
                     href={lesson!.href}
-                    className="flex items-center justify-between gap-4 py-3 first:pt-0 last:pb-0 hover:text-primary"
+                    className="flex items-start justify-between gap-3 py-3 first:pt-0 last:pb-0 hover:text-primary"
                   >
                     <div className="min-w-0">
                       <p className="truncate text-sm font-medium">{lesson!.lessonTitle}</p>
@@ -377,11 +377,11 @@ export function LearningDashboard({ catalog }: { catalog: LessonCatalogItem[] })
               Progress currently stays in this browser. Download a backup before changing devices or clearing browser data.
             </p>
           </div>
-          <div className="flex flex-wrap gap-2">
-            <Button variant="outline" onClick={downloadBackup}>
+          <div className="flex w-full flex-col gap-2 sm:w-auto sm:flex-row sm:flex-wrap">
+            <Button variant="outline" onClick={downloadBackup} className="w-full sm:w-auto">
               <Download aria-hidden="true" /> Export progress
             </Button>
-            <Button variant="outline" onClick={() => importRef.current?.click()}>
+            <Button variant="outline" onClick={() => importRef.current?.click()} className="w-full sm:w-auto">
               <FileUp aria-hidden="true" /> Import backup
             </Button>
             <input
@@ -422,7 +422,7 @@ function PlanRow({
         <p className="font-semibold">{label}</p>
         <p className="mt-1 text-sm text-muted-foreground">{detail}</p>
       </div>
-      <Button asChild size="sm" variant={priority ? "default" : "outline"}>
+      <Button asChild size="sm" variant={priority ? "default" : "outline"} className="w-full sm:w-auto">
         <Link href={href}>
           {action} <ArrowRight aria-hidden="true" />
         </Link>
@@ -470,7 +470,7 @@ function QuickLink({
   badge?: string;
 }) {
   return (
-    <Link href={href} className="group rounded-xl border bg-card p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-primary/50 hover:shadow-md">
+    <Link href={href} className="group rounded-xl border bg-card p-4 shadow-sm sm:p-5 transition hover:-translate-y-0.5 hover:border-primary/50 hover:shadow-md">
       <div className="flex items-start justify-between gap-3">
         <span className="rounded-lg bg-primary/10 p-2.5 text-primary">
           <Icon className="size-5" aria-hidden="true" />

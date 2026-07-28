@@ -108,7 +108,7 @@ export default async function InventionPage({
                   <Badge variant="secondary">{invention.era}</Badge>
                   <Badge variant="outline">Evidence-led history</Badge>
                 </div>
-                <h1 className="mt-5 text-balance text-4xl font-bold tracking-tight sm:text-6xl">
+                <h1 className="mt-5 text-balance text-3xl font-bold tracking-tight sm:text-6xl">
                   {invention.title}
                 </h1>
                 <p className="mt-4 max-w-3xl text-xl font-medium leading-8 text-foreground/80">

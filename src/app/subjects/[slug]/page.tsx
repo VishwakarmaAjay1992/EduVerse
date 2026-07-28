@@ -89,7 +89,7 @@ export default async function SubjectPage({ params }: { params: Promise<{ slug: 
   return (
     <>
       <SiteHeader />
-      <main className="container py-12">
+      <main className="container py-8 sm:py-12">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
@@ -101,7 +101,7 @@ export default async function SubjectPage({ params }: { params: Promise<{ slug: 
           >
             Subject
           </div>
-          <h1 className="text-4xl font-bold tracking-tight">{subject.name}</h1>
+          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{subject.name}</h1>
           <p className="mt-2 max-w-2xl text-muted-foreground">{subject.tagline}</p>
           <p className="mt-4 text-sm text-muted-foreground">
             {subject.stats.categories} categories · {subject.stats.chapters} chapters ·{" "}
@@ -111,8 +111,8 @@ export default async function SubjectPage({ params }: { params: Promise<{ slug: 
 
         {subject.slug === "physics" ? (
           <div className="mb-10 overflow-hidden rounded-2xl border bg-gradient-to-r from-sky-500/10 via-card to-card shadow-sm">
-            <div className="flex flex-col gap-5 p-6 sm:flex-row sm:items-center sm:justify-between sm:p-8">
-              <div className="flex max-w-2xl items-start gap-4">
+            <div className="flex flex-col gap-5 p-5 sm:flex-row sm:items-center sm:justify-between sm:p-8">
+              <div className="flex max-w-2xl flex-col items-start gap-3 sm:flex-row sm:gap-4">
                 <span className="rounded-xl bg-sky-500/10 p-3 text-sky-600 dark:text-sky-400">
                   <Atom className="size-6" aria-hidden="true" />
                 </span>
@@ -124,7 +124,7 @@ export default async function SubjectPage({ params }: { params: Promise<{ slug: 
                   </p>
                 </div>
               </div>
-              <Button asChild className="shrink-0">
+              <Button asChild className="w-full shrink-0 sm:w-auto">
                 <Link href="/physics-dictionary">
                   Search concepts <ArrowRight className="size-4" aria-hidden="true" />
                 </Link>

@@ -47,10 +47,10 @@ export default function InventionsPage() {
                 <div className="inline-flex items-center gap-2 rounded-full border bg-background/80 px-3 py-1.5 text-xs font-bold uppercase tracking-[0.17em] shadow-sm">
                   <Hammer className="size-3.5" aria-hidden="true" /> Human history · technology · society
                 </div>
-                <h1 className="mt-6 max-w-4xl text-balance text-4xl font-bold tracking-tight sm:text-6xl">
+                <h1 className="mt-6 max-w-4xl text-balance text-3xl font-bold tracking-tight sm:text-6xl">
                   Inventions explained from necessity to legacy.
                 </h1>
-                <p className="mt-5 max-w-3xl text-balance text-lg leading-8 text-muted-foreground">
+                <p className="mt-5 max-w-3xl text-balance text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
                   Not a list of dates and famous names. Each deep dive reconstructs the problem that
                   created demand, earlier attempts, failed experiments, hidden collaborators,
                   manufacturing constraints, milestone improvements, real historical objects and

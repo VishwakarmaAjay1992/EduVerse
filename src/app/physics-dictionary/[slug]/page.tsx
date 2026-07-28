@@ -101,24 +101,24 @@ export default async function PhysicsDictionaryTermPage({
                 <Badge variant="secondary">{entry.category}</Badge>
                 {entry.priority === "high-interest" ? <Badge>High-interest concept</Badge> : null}
               </div>
-              <h1 className="mt-5 text-balance text-4xl font-bold tracking-tight sm:text-6xl">
+              <h1 className="mt-5 text-balance text-3xl font-bold tracking-tight sm:text-6xl">
                 {entry.title}
               </h1>
-              <p className="mt-5 text-balance text-xl leading-8 text-muted-foreground">
+              <p className="mt-5 text-balance text-lg leading-7 text-muted-foreground sm:text-xl sm:leading-8">
                 {entry.definition}
               </p>
-              <div className="mt-7 flex flex-wrap gap-3">
-                <Button asChild>
+              <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+                <Button asChild className="w-full sm:w-auto">
                   <Link href={`/search?q=${encodeURIComponent(entry.title)}`}>
                     <Search className="size-4" aria-hidden="true" /> Search all EduVerse
                   </Link>
                 </Button>
                 {relatedLessons[0] ? (
-                  <Button asChild variant="secondary">
+                  <Button asChild variant="secondary" className="w-full sm:w-auto">
                     <Link href={relatedLessons[0].href}>Practice this concept <ArrowRight className="size-4" /></Link>
                   </Button>
                 ) : null}
-                <Button asChild variant="outline">
+                <Button asChild variant="outline" className="w-full sm:w-auto">
                   <Link href="/physics-dictionary">
                     <ArrowLeft className="size-4" aria-hidden="true" /> Browse dictionary
                   </Link>
@@ -136,7 +136,7 @@ export default async function PhysicsDictionaryTermPage({
                   <span className="rounded-lg bg-primary/10 p-2.5 text-primary">
                     <Atom className="size-5" aria-hidden="true" />
                   </span>
-                  <h2 id="definition-heading" className="text-2xl font-bold">
+                  <h2 id="definition-heading" className="text-xl font-bold sm:text-2xl">
                     Definition and explanation
                   </h2>
                 </div>
@@ -182,7 +182,7 @@ export default async function PhysicsDictionaryTermPage({
                     <span className="rounded-lg bg-primary/10 p-2.5 text-primary">
                       <BookOpen className="size-5" aria-hidden="true" />
                     </span>
-                    <h2 id="lessons-heading" className="text-2xl font-bold">
+                    <h2 id="lessons-heading" className="text-xl font-bold sm:text-2xl">
                       Learn this concept in EduVerse
                     </h2>
                   </div>
@@ -229,7 +229,7 @@ export default async function PhysicsDictionaryTermPage({
                   <span className="rounded-lg bg-primary/10 p-2.5 text-primary">
                     <Network className="size-5" aria-hidden="true" />
                   </span>
-                  <h2 id="related-heading" className="text-2xl font-bold">
+                  <h2 id="related-heading" className="text-xl font-bold sm:text-2xl">
                     Related physics concepts
                   </h2>
                 </div>

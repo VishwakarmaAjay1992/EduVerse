@@ -16,10 +16,10 @@ export default function MyLearningPage() {
       <SiteHeader />
       <main>
         <section className="border-b bg-gradient-to-b from-primary/10 via-muted/40 to-background">
-          <div className="container py-12 sm:py-16">
+          <div className="container py-10 sm:py-16">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary">Personal learning system</p>
-            <h1 className="mt-3 text-4xl font-bold tracking-tight sm:text-5xl">My EduVerse</h1>
-            <p className="mt-4 max-w-2xl text-lg leading-8 text-muted-foreground">
+            <h1 className="mt-3 text-3xl font-bold tracking-tight sm:text-5xl">My EduVerse</h1>
+            <p className="mt-4 max-w-2xl text-base leading-7 sm:text-lg sm:leading-8 text-muted-foreground">
               Continue where you stopped, strengthen weak topics and see what to study next.
             </p>
           </div>

@@ -74,17 +74,17 @@ export function InventionDirectory({ inventions }: { inventions: readonly Invent
                 imageClassName="transition duration-700 group-hover:scale-[1.035]"
                 showCaption={false}
               />
-              <div className="p-6 sm:p-7">
+              <div className="p-4 sm:p-7">
                 <div className="flex flex-wrap items-center gap-2">
                   <Badge>{invention.category}</Badge>
                   <Badge variant="secondary">{invention.era}</Badge>
                 </div>
-                <h2 className="mt-4 text-3xl font-bold tracking-tight">{invention.title}</h2>
+                <h2 className="mt-4 text-2xl font-bold tracking-tight sm:text-3xl">{invention.title}</h2>
                 <p className="mt-2 text-base font-medium text-foreground/80">{invention.subtitle}</p>
                 <p className="mt-4 line-clamp-3 leading-7 text-muted-foreground">
                   {invention.summary[0]}
                 </p>
-                <div className="mt-6 flex items-center justify-between border-t pt-4 text-sm">
+                <div className="mt-6 flex flex-col items-start gap-2 border-t pt-4 text-sm sm:flex-row sm:items-center sm:justify-between">
                   <span className="text-muted-foreground">{invention.statusLine}</span>
                   <span className="inline-flex items-center gap-1.5 font-semibold text-primary">
                     Open deep dive

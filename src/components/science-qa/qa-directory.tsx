@@ -29,14 +29,14 @@ export function QaDirectory() {
             value={q}
             onChange={(e) => setQ(e.target.value)}
             placeholder="Search photosynthesis, gravity, vaccines…"
-            className="h-10 w-full rounded-md border bg-background pl-9 pr-3 text-sm outline-none focus:ring-2 focus:ring-ring"
+            className="h-11 w-full rounded-md border bg-background pl-9 pr-3 text-sm outline-none focus:ring-2 focus:ring-ring"
           />
         </label>
         <select
           aria-label="Filter by category"
           value={cat}
           onChange={(e) => setCat(e.target.value)}
-          className="h-10 rounded-md border bg-background px-3 text-sm"
+          className="h-11 rounded-md border bg-background px-3 text-sm"
         >
           <option>All</option>
           {SCIENCE_QA_CATEGORIES.map((c) => (

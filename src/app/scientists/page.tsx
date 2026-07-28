@@ -24,16 +24,16 @@ export default function ScientistsPage() {
       <main>
         <section className="relative overflow-hidden border-b bg-gradient-to-b from-muted/70 via-background to-background">
           <div className="pointer-events-none absolute inset-0 opacity-50 [background-image:radial-gradient(circle_at_20%_20%,hsl(var(--foreground)/0.08)_0,transparent_28%),radial-gradient(circle_at_80%_10%,hsl(var(--foreground)/0.06)_0,transparent_22%)]" />
-          <div className="container relative py-20 sm:py-28">
+          <div className="container relative py-14 sm:py-28">
             <div className="mx-auto max-w-4xl text-center">
               <div className="mb-5 inline-flex items-center gap-2 rounded-full border bg-background/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] shadow-sm backdrop-blur">
                 <Sparkles className="size-4" aria-hidden="true" />
                 Expanded collection
               </div>
-              <h1 className="text-balance text-4xl font-bold tracking-tight sm:text-6xl">
+              <h1 className="text-balance text-3xl font-bold tracking-tight sm:text-6xl">
                 {SCIENTISTS.length} Influential Scientists
               </h1>
-              <p className="mx-auto mt-6 max-w-3xl text-balance text-lg leading-8 text-muted-foreground">
+              <p className="mx-auto mt-5 max-w-3xl text-balance text-base leading-7 text-muted-foreground sm:mt-6 sm:text-lg sm:leading-8">
                 Explore the ideas, experiments, early-life struggles, inspirations, political pressures,
                 scientific backlashes and original records behind {SCIENTISTS.length} of history&apos;s most
                 influential scientific lives.
@@ -43,7 +43,7 @@ export default function ScientistsPage() {
                 progress is collaborative, crosses cultures and includes many more people than a
                 single collection can represent. This collection is designed to expand.
               </p>
-              <div className="mt-8 flex flex-wrap justify-center gap-3">
+              <div className="mx-auto mt-8 flex w-full max-w-sm flex-col justify-center gap-3 sm:max-w-none sm:flex-row sm:flex-wrap">
                 <Button asChild size="lg">
                   <a href="#directory">
                     Browse scientists <ArrowRight aria-hidden="true" />

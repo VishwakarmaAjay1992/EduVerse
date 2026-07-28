@@ -143,7 +143,7 @@ export function SearchExperience({
   }, [items]);
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-6 sm:space-y-8">
       <div className="relative mx-auto max-w-3xl">
         <Search
           className="pointer-events-none absolute left-4 top-1/2 size-5 -translate-y-1/2 text-muted-foreground"
@@ -162,7 +162,7 @@ export function SearchExperience({
         </kbd>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-2" aria-label="Search filters">
+      <div className="touch-scroll -mx-4 flex gap-2 overflow-x-auto px-4 pb-2 sm:mx-0 sm:flex-wrap sm:justify-center sm:overflow-visible sm:px-0" aria-label="Search filters">
         {KINDS.map((filter) => (
           <Button
             key={filter}
@@ -170,6 +170,7 @@ export function SearchExperience({
             variant={kind === filter ? "default" : "outline"}
             size="sm"
             onClick={() => setKind(filter)}
+            className="shrink-0"
           >
             {filter} <span className="opacity-70">{counts[filter]}</span>
           </Button>
@@ -204,7 +205,7 @@ export function SearchExperience({
         </div>
       ) : results.length > 0 ? (
         <section className="mx-auto max-w-5xl">
-          <div className="mb-4 flex items-center justify-between gap-4">
+          <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
             <h2 className="text-lg font-semibold">
               {results.length} result{results.length === 1 ? "" : "s"}
             </h2>
@@ -224,7 +225,7 @@ export function SearchExperience({
                       result_kind: item.kind,
                     })
                   }
-                  className="group rounded-xl border bg-card p-5 shadow-sm transition hover:-translate-y-0.5 hover:border-primary/50 hover:shadow-md"
+                  className="group rounded-xl border bg-card p-4 shadow-sm transition hover:-translate-y-0.5 hover:border-primary/50 hover:shadow-md sm:p-5"
                 >
                   <div className="flex items-start justify-between gap-4">
                     <div className="flex min-w-0 items-start gap-3">

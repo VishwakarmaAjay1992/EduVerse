@@ -82,7 +82,7 @@ export default async function ScienceQuestionPage({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
         <section className="border-b bg-gradient-to-b from-muted/50 to-background">
-          <div className="container max-w-4xl py-12 sm:py-16">
+          <div className="container max-w-4xl py-9 sm:py-16">
             <Breadcrumbs
               items={[
                 { label: "Science Q&A", href: "/science-qa" },
@@ -95,14 +95,14 @@ export default async function ScienceQuestionPage({
             <Badge variant="outline" className="ml-2">
               {item.category}
             </Badge>
-            <h1 className="mt-6 text-balance text-4xl font-bold tracking-tight sm:text-5xl">
+            <h1 className="mt-6 text-balance text-3xl font-bold tracking-tight sm:text-5xl">
               {item.question}
             </h1>
-            <p className="mt-5 text-xl font-semibold leading-8 text-primary">{item.shortAnswer}</p>
+            <p className="mt-5 text-lg font-semibold leading-7 text-primary sm:text-xl sm:leading-8">{item.shortAnswer}</p>
           </div>
         </section>
 
-        <article className="container max-w-4xl space-y-8 py-12">
+        <article className="container max-w-4xl space-y-8 py-9 sm:py-12">
           <div className="prose prose-slate max-w-none dark:prose-invert">
             <p className="text-lg leading-8 text-muted-foreground">{item.explanation}</p>
           </div>
@@ -182,7 +182,7 @@ export default async function ScienceQuestionPage({
 
           <div className="flex flex-col gap-4 border-t pt-8 sm:flex-row sm:items-center sm:justify-between">
             {previous ? (
-              <Button asChild variant="outline">
+              <Button asChild variant="outline" className="w-full sm:w-auto">
                 <Link href={`/science-qa/${slugify(previous.question)}`}>
                   <ArrowLeft aria-hidden="true" /> Previous question
                 </Link>
@@ -191,13 +191,13 @@ export default async function ScienceQuestionPage({
               <span />
             )}
             {next ? (
-              <Button asChild>
+              <Button asChild className="w-full sm:w-auto">
                 <Link href={`/science-qa/${slugify(next.question)}`}>
                   Next question <ArrowRight aria-hidden="true" />
                 </Link>
               </Button>
             ) : (
-              <Button asChild>
+              <Button asChild className="w-full sm:w-auto">
                 <Link href="/science-qa">Browse all questions</Link>
               </Button>
             )}

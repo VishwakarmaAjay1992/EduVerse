@@ -53,8 +53,23 @@
   * {
     @apply border-border;
   }
+  html {
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+  }
   body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
+  }
+  h1,
+  h2,
+  h3 {
+    overflow-wrap: anywhere;
+  }
+  img,
+  svg,
+  canvas {
+    max-width: 100%;
   }
   :focus-visible {
     outline: 2px solid hsl(var(--ring));
@@ -74,9 +89,32 @@
 }
 
 @layer utilities {
+  .touch-scroll {
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .touch-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  .safe-bottom {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
   .scientist-signature {
     font-family: "URW Chancery L", "Apple Chancery", "Segoe Script", "Brush Script MT", cursive;
     font-weight: 600;
     letter-spacing: 0.01em;
+  }
+}
+
+@media (max-width: 639px) {
+  input:not([type="range"]):not([type="checkbox"]):not([type="radio"]):not([type="file"]),
+  select,
+  textarea {
+    min-height: 2.75rem;
+    font-size: 1rem;
+  }
+
+  button:not(:disabled) {
+    touch-action: manipulation;
   }
 }

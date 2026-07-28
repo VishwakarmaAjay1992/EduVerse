@@ -25,22 +25,22 @@ export default function Page() {
             priority
             sizes="100vw"
           />
-          <div className="container relative py-24 sm:py-32">
+          <div className="container relative py-16 sm:py-32">
             <div className="max-w-3xl">
               <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-semibold uppercase tracking-widest">
                 <Sparkles className="size-4" aria-hidden="true" /> Discovery collection
               </div>
-              <h1 className="mt-6 text-balance text-5xl font-bold tracking-tight sm:text-7xl">
+              <h1 className="mt-6 text-balance text-4xl font-bold tracking-tight sm:text-7xl">
                 {PHENOMENA.length} Fascinating Physics Phenomena
               </h1>
-              <p className="mt-6 max-w-2xl text-balance text-lg leading-8 text-white/80">
+              <p className="mt-5 max-w-2xl text-balance text-base leading-7 text-white/80 sm:mt-6 sm:text-lg sm:leading-8">
                 Nature is not always what it appears to be. Follow light, sound, water, heat,
                 electricity and space physics from the first observation to the modern explanation.
               </p>
             </div>
           </div>
         </section>
-        <section className="container py-16">
+        <section className="container py-12 sm:py-16">
           <div className="mb-10 max-w-3xl">
             <h2 className="text-3xl font-bold">Choose a phenomenon</h2>
             <p className="mt-3 leading-7 text-muted-foreground">

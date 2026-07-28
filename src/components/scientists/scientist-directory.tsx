@@ -79,7 +79,7 @@ export function ScientistDirectory({ scientists }: { scientists: readonly Scient
                 id="scientist-field"
                 value={field}
                 onChange={(event) => setField(event.target.value)}
-                className="flex h-9 w-full appearance-none rounded-md border border-input bg-background pl-9 pr-8 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+                className="flex h-11 w-full sm:h-9 appearance-none rounded-md border border-input bg-background pl-9 pr-8 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
               >
                 {fields.map((item) => (
                   <option key={item} value={item}>

@@ -117,10 +117,10 @@ export function SubjectCurriculumBrowser({
               }}
               className="group overflow-hidden rounded-xl border bg-card shadow-sm"
             >
-              <summary className="flex cursor-pointer list-none items-start justify-between gap-4 p-5 marker:hidden sm:p-6">
+              <summary className="flex cursor-pointer list-none items-start justify-between gap-3 p-4 marker:hidden sm:gap-4 sm:p-6">
                 <div className="min-w-0 flex-1">
                   <div className="flex flex-wrap items-center gap-3">
-                    <h2 className="text-xl font-bold">{category.title}</h2>
+                    <h2 className="text-lg font-bold sm:text-xl">{category.title}</h2>
                     <LevelBadge level={category.level} />
                   </div>
                   <p className="mt-2 text-sm text-muted-foreground">
@@ -135,7 +135,7 @@ export function SubjectCurriculumBrowser({
                 <ChevronDown className="mt-1 size-5 shrink-0 text-muted-foreground transition-transform group-open:rotate-180" aria-hidden="true" />
               </summary>
 
-              <div className="border-t p-5 sm:p-6">
+              <div className="border-t p-4 sm:p-6">
                 <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
                   {category.chapters.map((chapter) =>
                     chapter.imagePath ? (

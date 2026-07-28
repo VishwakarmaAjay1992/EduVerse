@@ -50,7 +50,7 @@ export default async function ChapterPage({
   return (
     <>
       <SiteHeader />
-      <main className="container max-w-4xl py-12">
+      <main className="container max-w-4xl py-8 sm:py-12">
         <Breadcrumbs
           items={[
             { label: "Subjects", href: "/subjects" },
@@ -79,7 +79,7 @@ export default async function ChapterPage({
         </div>
 
         {slug === "physics" && (
-          <Link href={`/subjects/physics/${chapter}/assessment`} className="mb-8 flex items-center justify-between rounded-xl border bg-primary/5 p-5 font-semibold hover:bg-primary/10">
+          <Link href={`/subjects/physics/${chapter}/assessment`} className="mb-8 flex min-h-14 items-center justify-between gap-3 rounded-xl border bg-primary/5 p-4 font-semibold hover:bg-primary/10 sm:p-5">
             <span>Take the chapter mastery assessment</span><ArrowRight className="size-5"/>
           </Link>
         )}
@@ -97,13 +97,13 @@ export default async function ChapterPage({
                     <Link
                       key={lesson.title}
                       href={`/subjects/${slug}/${chapter}/${slugify(lesson.title)}`}
-                      className="group flex items-center justify-between rounded-md px-3 py-2 text-sm transition-colors hover:bg-muted"
+                      className="group flex min-h-14 flex-col items-start justify-between gap-2 rounded-lg px-3 py-3 text-sm transition-colors hover:bg-muted sm:flex-row sm:items-center sm:gap-4 sm:py-2"
                     >
-                      <span className="flex items-center gap-2">
+                      <span className="flex min-w-0 items-start gap-2 sm:items-center">
                         {ready && <Check className="size-4 text-primary" />}
                         {lesson.title}
                       </span>
-                      <span className="flex items-center gap-3 text-muted-foreground">
+                      <span className="flex w-full items-center justify-between gap-3 pl-6 text-muted-foreground sm:w-auto sm:justify-end sm:pl-0">
                         <span className="text-xs">
                           Level {lesson.d} · {lesson.min} min
                         </span>
