@@ -1,7 +1,8 @@
 import json, re
 from pathlib import Path
 
-OUT = Path('/mnt/data/eduverse_dictionary/src/data/physics-dictionary.json')
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / 'src/data/physics-dictionary.json'
 
 def rows(category, text):
     result=[]

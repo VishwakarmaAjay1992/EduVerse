@@ -8,9 +8,9 @@ import {
 } from "@/data/physics-dictionary";
 
 export const metadata: Metadata = {
-  title: "Physics Dictionary — 690+ Concepts, Definitions and Formulas",
+  title: `Physics Dictionary — ${PHYSICS_DICTIONARY.length.toLocaleString("en-US")} Concepts, Definitions and Formulas`,
   description:
-    "Search more than 690 physics concepts with clear definitions, explanations, formulas, SI units, aliases, related terms and matching EduVerse lessons.",
+    `Search ${PHYSICS_DICTIONARY.length.toLocaleString("en-US")} physics concepts with clear definitions, explanations, formulas, SI units, aliases, related terms and matching EduVerse lessons.`,
   alternates: { canonical: "/physics-dictionary" },
   openGraph: {
     title: "EduVerse Physics Dictionary",

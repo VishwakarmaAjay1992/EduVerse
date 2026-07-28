@@ -8,11 +8,11 @@ import { buildSearchIndex } from "@/lib/search-index";
 
 describe("physics dictionary", () => {
   it("contains broad unique concept coverage", () => {
-    expect(PHYSICS_DICTIONARY.length).toBeGreaterThanOrEqual(650);
+    expect(PHYSICS_DICTIONARY).toHaveLength(1000);
     expect(new Set(PHYSICS_DICTIONARY.map((entry) => entry.slug)).size).toBe(
       PHYSICS_DICTIONARY.length
     );
-    expect(PHYSICS_DICTIONARY_CATEGORIES.length).toBeGreaterThanOrEqual(15);
+    expect(PHYSICS_DICTIONARY_CATEGORIES.length).toBeGreaterThanOrEqual(26);
   });
 
   it("includes core requested and high-interest terms", () => {
