@@ -2686,12 +2686,2988 @@ const airplane: Invention = {
   ],
 };
 
+const telephone: Invention = {
+  "slug": "telephone",
+  "title": "Telephone",
+  "subtitle": "How experiments in sound and telegraphy became a worldwide speaking network",
+  "category": "Communication",
+  "era": "1850s–1910s",
+  "origin": "Europe and North America, through parallel work in acoustics, electromagnetism and telegraphy",
+  "statusLine": "A contested invention whose usefulness depended on transmitters, exchanges and networks",
+  "summary": [
+    "The telephone did not appear as a finished household appliance. It emerged from attempts to improve the telegraph, reproduce speech electrically and understand how complex sound waves could vary an electric current. Alexander Graham Bell received the foundational United States patent in March 1876 and demonstrated intelligible speech days later, but the wider history includes Antonio Meucci, Johann Philipp Reis, Elisha Gray, Thomas Watson, Thomas Edison and many others.",
+    "Bell's early instruments were weak and difficult to use over long distances. Edison's carbon transmitter, better receivers, induction coils, standardized wiring, batteries and loading coils made speech clearer. Manual switchboards then turned pairs of instruments into networks; automatic switching, numbering plans, long-distance amplifiers and undersea cables transformed the network into infrastructure.",
+    "The telephone is therefore both a transducer and a system. A microphone converts pressure variations in air into an electrical signal, a network routes and carries that signal, and a receiver converts it back into sound. Its social power came from combining all three reliably, cheaply and at enormous scale."
+  ],
+  "heroImage": {
+    "fileName": "Alexander Graham Bell Experimental Telephone.jpg",
+    "alt": "Alexander Graham Bell's experimental telephone associated with the 1876 patent",
+    "credit": "National Museum of American History",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell_Experimental_Telephone.jpg",
+    "caption": "An experimental 1876 telephone associated with U.S. Patent 174,465. The surviving object shows how compact and provisional the first successful speaking instruments were.",
+    "objectPosition": "50% 52%"
+  },
+  "quickFacts": [
+    {
+      "label": "Foundational U.S. patent",
+      "value": "Alexander Graham Bell, U.S. Patent 174,465, granted 7 March 1876"
+    },
+    {
+      "label": "First famous intelligible call",
+      "value": "Bell to Thomas Watson, 10 March 1876"
+    },
+    {
+      "label": "Critical practical improvement",
+      "value": "High-output carbon transmitters from the late 1870s"
+    },
+    {
+      "label": "Network breakthrough",
+      "value": "Commercial telephone exchanges beginning in 1878"
+    },
+    {
+      "label": "Energy conversion",
+      "value": "Sound pressure → electrical variation → routed signal → sound pressure"
+    },
+    {
+      "label": "Historical caution",
+      "value": "Priority claims differ because inventors pursued related devices, patents and demonstrations in parallel"
+    }
+  ],
+  "necessity": {
+    "headline": "Necessity: telegraphy carried codes, but people wanted conversation",
+    "introduction": "The nineteenth-century telegraph moved information rapidly, yet it required trained operators, coded messages and separate transcription. Businesses, governments and households wanted direct, immediate speech across distance without converting every sentence into dots, dashes or needle positions.",
+    "pressures": [
+      {
+        "title": "Telegraph lines were expensive",
+        "description": "Each dedicated circuit served limited traffic. Inventors sought harmonic and multiplex systems that could carry several messages—and eventually speech—over one wire."
+      },
+      {
+        "title": "Speech is far more complex than a tone",
+        "description": "A recognizable voice contains continuously changing frequencies and amplitudes. Simple make-and-break electrical pulses could not reproduce it faithfully."
+      },
+      {
+        "title": "Weak signals died over distance",
+        "description": "Early magnetic transmitters produced very small currents. Line resistance, capacitance and poor contacts reduced volume and clarity."
+      },
+      {
+        "title": "A useful device had to become a network",
+        "description": "A telephone between two rooms was a demonstration. A social technology required signaling, switching, numbering, operators, billing, maintenance and standards."
+      }
+    ],
+    "before": [
+      {
+        "method": "Messengers and postal services",
+        "strength": "Could carry detailed written information and physical documents.",
+        "limit": "Delivery took hours, days or weeks and required transport."
+      },
+      {
+        "method": "Optical and electrical telegraphy",
+        "strength": "Moved coded information rapidly over long distances.",
+        "limit": "Required operators, code and transcription; ordinary conversation was impossible."
+      },
+      {
+        "method": "Speaking tubes",
+        "strength": "Simple and effective inside ships, buildings and factories.",
+        "limit": "Worked only over short physical tubes and offered no scalable switching network."
+      },
+      {
+        "method": "Acoustic mechanical telephones",
+        "strength": "Demonstrated that vibrations could travel through strings or membranes.",
+        "limit": "Range, privacy and routing were severely limited."
+      }
+    ],
+    "decisiveConstraint": "The central engineering problem was not merely detecting sound but producing an electrical variation that followed the full waveform of speech strongly enough to survive a line and drive a receiver. Network engineering then became as important as the instrument itself."
+  },
+  "globalPrehistory": {
+    "introduction": "Ideas needed for telephony developed through speech science, acoustics, electromagnets, telegraph networks and experimental voice transmitters across several countries.",
+    "entries": [
+      {
+        "date": "1830s–1840s",
+        "place": "Europe and United States",
+        "title": "Electromagnetic telegraph systems mature",
+        "description": "Morse, Cooke, Wheatstone and others established practical wires, batteries, relays and signaling businesses—the infrastructure from which telephony grew."
+      },
+      {
+        "date": "1849–1860s",
+        "place": "Cuba, Italy and United States",
+        "title": "Antonio Meucci experiments with electrical voice communication",
+        "description": "Meucci described and demonstrated devices intended to carry speech, later filing a U.S. caveat. Surviving evidence is significant but incomplete, which is why historians separate pioneering work from the patent and commercial system."
+      },
+      {
+        "date": "1861",
+        "place": "Germany",
+        "title": "Johann Philipp Reis demonstrates a speaking telephone",
+        "description": "Reis instruments transmitted musical tones and sometimes recognizable words, but their make-and-break contact did not reliably reproduce continuous speech waveforms."
+      },
+      {
+        "date": "1874–1876",
+        "place": "United States and Canada",
+        "title": "Bell and Gray pursue harmonic telegraphy and variable-current speech",
+        "description": "Both investigated ways to vary current continuously. Their patent activity in February 1876 became central to later priority disputes."
+      }
+    ]
+  },
+  "people": [
+    {
+      "name": "Alexander Graham Bell",
+      "life": "1847–1922",
+      "role": "Speech researcher and patent holder",
+      "contribution": "Connected his knowledge of hearing and visible speech with harmonic telegraph experiments, obtained the fundamental 1876 U.S. patent and led early demonstrations and commercialization.",
+      "correction": "Bell did not create the entire telephone network or every practical component."
+    },
+    {
+      "name": "Thomas A. Watson",
+      "life": "1854–1934",
+      "role": "Experimental machinist and collaborator",
+      "contribution": "Built and modified Bell's experimental instruments, participated in the 1875 breakthrough and received the famous 1876 call."
+    },
+    {
+      "name": "Antonio Meucci",
+      "life": "1808–1889",
+      "role": "Earlier voice-communication experimenter",
+      "contribution": "Developed several electromagnetic speaking devices and filed a U.S. patent caveat in 1871.",
+      "correction": "Claims that one surviving Meucci device straightforwardly proves legal priority oversimplify a fragmentary record."
+    },
+    {
+      "name": "Elisha Gray",
+      "life": "1835–1901",
+      "role": "Telegraph inventor and rival claimant",
+      "contribution": "Developed harmonic telegraph systems and filed a caveat describing a liquid transmitter on the same day Bell's patent application was filed."
+    },
+    {
+      "name": "Thomas Edison",
+      "life": "1847–1931",
+      "role": "Transmitter improver",
+      "contribution": "Developed a carbon-resistance transmitter with much stronger output, helping make long-distance commercial service practical."
+    },
+    {
+      "name": "Almon B. Strowger",
+      "life": "1839–1902",
+      "role": "Automatic switching pioneer",
+      "contribution": "Patented an electromechanical automatic exchange in 1891, reducing dependence on manual operators."
+    }
+  ],
+  "experimentsAndFailures": [
+    {
+      "period": "1860s",
+      "title": "Reis make-and-break transmitters",
+      "attempt": "Use a membrane to interrupt current in response to sound.",
+      "failure": "Interruption represented pitch imperfectly and distorted complex speech.",
+      "lesson": "Speech required a continuously varying electrical analogue, not only pulses.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "June 1875",
+      "title": "The harmonic telegraph accident",
+      "attempt": "Tune reeds to send multiple telegraph tones.",
+      "failure": "A reed stuck and produced an unexpected continuous current effect; the device still could not transmit intelligible speech.",
+      "lesson": "A moving armature could induce currents shaped by vibration.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "1876",
+      "title": "Liquid transmitter demonstrations",
+      "attempt": "Let a vibrating needle vary resistance in conductive liquid.",
+      "failure": "The apparatus was messy, unstable and unsuitable as a durable commercial instrument.",
+      "lesson": "Variable resistance could produce intelligible speech, but a solid and reliable transmitter was needed.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "1876–1877",
+      "title": "Weak magneto telephones",
+      "attempt": "Use one electromagnetic instrument as both transmitter and receiver.",
+      "failure": "Output was faint and range limited.",
+      "lesson": "Separate optimized transmitters and receivers improved system performance.",
+      "evidence": "Strongly supported"
+    },
+    {
+      "period": "1878–1890s",
+      "title": "Manual-network congestion",
+      "attempt": "Route every call through human switchboard operators.",
+      "failure": "Large exchanges became labour-intensive, slow and vulnerable to errors.",
+      "lesson": "Automatic switching and hierarchical network design were needed for scale.",
+      "evidence": "Documented"
+    }
+  ],
+  "milestones": [
+    {
+      "year": "1876",
+      "title": "Bell patent and intelligible speech",
+      "description": "U.S. Patent 174,465 was granted on 7 March; Bell recorded an intelligible call to Watson on 10 March.",
+      "pivotal": true
+    },
+    {
+      "year": "1877",
+      "title": "Bell Telephone Company formed",
+      "description": "A business structure began licensing instruments and building local systems."
+    },
+    {
+      "year": "1877–1878",
+      "title": "Carbon transmitter emerges",
+      "description": "Edison and other inventors developed variable-resistance carbon transmitters that produced stronger signals."
+    },
+    {
+      "year": "1878",
+      "title": "Commercial exchanges begin",
+      "description": "Early exchanges connected subscribers through central manual switchboards rather than dedicated pairs."
+    },
+    {
+      "year": "1880s",
+      "title": "Metallic circuits and long-distance improvements",
+      "description": "Two-wire circuits, better insulation and induction techniques reduced noise and loss."
+    },
+    {
+      "year": "1891",
+      "title": "Strowger automatic exchange patent",
+      "description": "Electromechanical selectors allowed subscribers to route calls without an operator."
+    },
+    {
+      "year": "1915",
+      "title": "U.S. transcontinental service",
+      "description": "Amplification, loading and network engineering supported ceremonial coast-to-coast calling."
+    },
+    {
+      "year": "1947 onward",
+      "title": "Electronics transforms telephony",
+      "description": "Transistors, digital switching, optical fibre, satellites and cellular radio converted the telephone into a general digital communications terminal."
+    }
+  ],
+  "howItWorks": {
+    "introduction": "A traditional analogue telephone creates an electrical waveform that follows air-pressure changes, routes it through a circuit and reproduces it with a receiver. Modern phones digitize, compress and packetize the signal, but the transduction problem remains the same.",
+    "steps": [
+      {
+        "title": "Sound moves a diaphragm",
+        "explanation": "Speech creates changing air pressure that vibrates a thin membrane in the transmitter."
+      },
+      {
+        "title": "The transmitter varies an electrical quantity",
+        "explanation": "In a carbon microphone, pressure changes the resistance of carbon granules; modern microphones vary capacitance or generate an electronic signal."
+      },
+      {
+        "title": "The network carries and routes the signal",
+        "explanation": "Wires, amplifiers, exchanges, radio links or fibre systems deliver the signal to the intended destination."
+      },
+      {
+        "title": "A receiver converts current into motion",
+        "explanation": "A varying magnetic field moves a diaphragm, recreating pressure waves similar to the original speech."
+      },
+      {
+        "title": "Signaling controls the connection",
+        "explanation": "Ringing, dial pulses, tones or digital messages request and establish a path through the network."
+      },
+      {
+        "title": "Feedback is controlled",
+        "explanation": "Circuit design balances the user's own voice in the earpiece, limits echoes and keeps amplification stable."
+      }
+    ],
+    "expertNotes": [
+      {
+        "title": "Impedance matching",
+        "explanation": "Source, line and receiver impedances affect power transfer, reflections and frequency response."
+      },
+      {
+        "title": "Loading coils",
+        "explanation": "Inductors inserted along long lines countered cable capacitance over the voice band, extending usable distance before electronic repeaters."
+      },
+      {
+        "title": "Side tone",
+        "explanation": "A controlled portion of the user's speech is returned to the receiver so the handset feels natural without causing excessive feedback."
+      },
+      {
+        "title": "Hybrid circuits",
+        "explanation": "Transformers and electronic hybrids convert a two-wire subscriber loop into separate transmit and receive paths."
+      },
+      {
+        "title": "Digitization",
+        "explanation": "Sampling and quantization turn speech into numbers; codecs reduce bandwidth while attempting to preserve intelligibility and quality."
+      }
+    ]
+  },
+  "anatomy": [
+    {
+      "part": "Transmitter or microphone",
+      "purpose": "Convert speech pressure into an electrical signal.",
+      "designProblem": "Produce sufficient output with low distortion and low noise."
+    },
+    {
+      "part": "Receiver or earpiece",
+      "purpose": "Convert the electrical signal back into sound.",
+      "designProblem": "Deliver clear sound efficiently and comfortably."
+    },
+    {
+      "part": "Subscriber loop",
+      "purpose": "Connect a telephone to an exchange.",
+      "designProblem": "Carry voice, signaling and often operating power over economical wire."
+    },
+    {
+      "part": "Ringer and hook switch",
+      "purpose": "Alert the user and indicate on-hook or off-hook state.",
+      "designProblem": "Operate reliably without interfering with voice transmission."
+    },
+    {
+      "part": "Dial or keypad",
+      "purpose": "Specify the destination number.",
+      "designProblem": "Encode user input in a form the switching system recognizes."
+    },
+    {
+      "part": "Exchange",
+      "purpose": "Select and connect a route between subscribers.",
+      "designProblem": "Scale to many simultaneous calls with acceptable delay and reliability."
+    },
+    {
+      "part": "Long-distance transmission system",
+      "purpose": "Carry calls beyond a local network.",
+      "designProblem": "Control attenuation, noise, echo, timing and capacity."
+    }
+  ],
+  "improvements": [
+    {
+      "period": "1877–1880s",
+      "inventor": "Edison, Berliner, Blake and others",
+      "improvement": "Carbon-based transmitters",
+      "whyItMattered": "Raised signal strength and made commercial speech much clearer."
+    },
+    {
+      "period": "1880s–1900s",
+      "inventor": "Network engineers",
+      "improvement": "Metallic circuits, loading coils and standardized cables",
+      "whyItMattered": "Reduced interference and extended range."
+    },
+    {
+      "period": "1890s–1920s",
+      "inventor": "Strowger companies and rivals",
+      "improvement": "Automatic electromechanical switching",
+      "whyItMattered": "Allowed direct dialing and reduced manual connection labour."
+    },
+    {
+      "period": "1910s–1950s",
+      "inventor": "Bell System and international laboratories",
+      "improvement": "Vacuum-tube repeaters and carrier telephony",
+      "whyItMattered": "Amplified long-distance signals and carried multiple calls on one route."
+    },
+    {
+      "period": "1960s–1990s",
+      "inventor": "Global telecommunications industry",
+      "improvement": "Digital switching, fibre optics and satellites",
+      "whyItMattered": "Increased capacity, reliability and global reach."
+    },
+    {
+      "period": "1970s–present",
+      "inventor": "Cellular and internet engineering communities",
+      "improvement": "Mobile radio, packet voice and smartphones",
+      "whyItMattered": "Separated telephone service from a fixed location and merged communication with computing."
+    }
+  ],
+  "gallery": [
+    {
+      "fileName": "First Bell telephone 1875.png",
+      "alt": "Model of Bell's 1875 gallows telephone",
+      "credit": "Unknown, Western Electric Oscillator",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:First_Bell_telephone_1875.png",
+      "caption": "A model of the 1875 instrument through which sound vibrations were electrically transmitted before intelligible speech was achieved."
+    },
+    {
+      "fileName": "Carbon-resistance telephone transmitter, 1878.jpg",
+      "alt": "Thomas Edison's carbon-resistance telephone transmitter patent model",
+      "credit": "Daderot / National Museum of American History",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carbon-resistance_telephone_transmitter,_1878.jpg",
+      "caption": "Edison's carbon transmitter converted diaphragm pressure into a larger resistance change, greatly improving usable signal strength."
+    },
+    {
+      "fileName": "Telephone Exchange 1892.jpg",
+      "alt": "Historic manual telephone exchange with operators",
+      "credit": "P. van Capelle / scan by Kreuger",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Telephone_Exchange_1892.jpg",
+      "caption": "A manual exchange made a telephone network possible by letting operators connect subscriber lines with cords."
+    },
+    {
+      "fileName": "Pat no 447918 Strowger.jpg",
+      "alt": "Drawing from Almon Strowger's automatic telephone exchange patent",
+      "credit": "Almon B. Strowger",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pat_no_447918_Strowger.jpg",
+      "caption": "The 1891 patent describes electromechanical switching that removed the operator from routine local call setup."
+    },
+    {
+      "fileName": "Bells first wall telephone 1877.jpg",
+      "alt": "Bell's early wall telephone design",
+      "credit": "Unknown historical image",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bells_first_wall_telephone_1877.jpg",
+      "caption": "An early wall-mounted arrangement showing the transition from laboratory instrument to installed subscriber equipment."
+    }
+  ],
+  "consequences": {
+    "transformed": [
+      {
+        "title": "Business coordination",
+        "description": "Managers, suppliers and customers could negotiate immediately across cities instead of waiting for written replies."
+      },
+      {
+        "title": "Emergency response",
+        "description": "Telephones connected households to doctors, police, fire services and public utilities."
+      },
+      {
+        "title": "Social life",
+        "description": "Conversation became possible without travel, reshaping family relationships, courtship and community networks."
+      },
+      {
+        "title": "Network industries",
+        "description": "Telephone companies pioneered switching, reliability engineering, regulated utilities and large technical workforces."
+      },
+      {
+        "title": "Digital communications",
+        "description": "Telephone infrastructure became a foundation for modems, data networks, mobile systems and the internet."
+      }
+    ],
+    "tradeoffs": [
+      {
+        "title": "Surveillance and privacy",
+        "description": "Centralized networks enabled interception, metadata collection and new forms of monitoring."
+      },
+      {
+        "title": "Labour and gender hierarchy",
+        "description": "Switchboard work created large numbers of jobs, often for women, while imposing strict discipline, low pay and emotional labour."
+      },
+      {
+        "title": "Unequal access",
+        "description": "Rural, poor and colonized communities frequently received service later or at higher cost."
+      },
+      {
+        "title": "Infrastructure dependence",
+        "description": "Communication became vulnerable to network failures, monopoly control and power disruption."
+      },
+      {
+        "title": "Always-available culture",
+        "description": "Immediate contact increased convenience but also expectations of constant accessibility."
+      }
+    ]
+  },
+  "modernDescendants": [
+    {
+      "title": "Smartphones",
+      "connection": "Combine microphone, receiver, radio, computer, camera and internet terminal in one portable device."
+    },
+    {
+      "title": "Voice over IP",
+      "connection": "Encodes speech into packets routed over general data networks rather than dedicated voice circuits."
+    },
+    {
+      "title": "Video calling",
+      "connection": "Adds synchronized images and data to the real-time conversational model."
+    },
+    {
+      "title": "Call centres and unified communications",
+      "connection": "Extend switching, queuing and presence into software-managed business systems."
+    },
+    {
+      "title": "Assistive hearing technologies",
+      "connection": "Use digital signal processing and network links to improve communication for people with hearing or speech differences."
+    }
+  ],
+  "myths": [
+    {
+      "claim": "Bell single-handedly invented the telephone in one moment.",
+      "verdict": "False",
+      "explanation": "Bell secured a decisive patent and successful demonstration, but the technology grew from many experiments, components and network innovations."
+    },
+    {
+      "claim": "Meucci's work is irrelevant because he did not receive the main patent.",
+      "verdict": "Misleading",
+      "explanation": "Meucci was a significant pioneer. The evidence for his exact devices and claims must be assessed carefully rather than dismissed or converted into a simple legal victory story."
+    },
+    {
+      "claim": "The first telephone was already suitable for long-distance household use.",
+      "verdict": "False",
+      "explanation": "Early devices were faint, unstable and point-to-point. Practical service required improved transmitters, exchanges, wiring and amplification."
+    },
+    {
+      "claim": "Telephone operators only connected plugs and added no technical value.",
+      "verdict": "False",
+      "explanation": "Operators managed signaling, routing, records, troubleshooting and social conventions in an immature network."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Transducer",
+      "definition": "A device that converts energy or information from one physical form to another."
+    },
+    {
+      "term": "Diaphragm",
+      "definition": "A thin flexible membrane that vibrates in response to sound pressure."
+    },
+    {
+      "term": "Carbon transmitter",
+      "definition": "A microphone in which pressure changes electrical resistance through carbon contacts or granules."
+    },
+    {
+      "term": "Subscriber loop",
+      "definition": "The local circuit connecting a customer telephone to an exchange."
+    },
+    {
+      "term": "Exchange",
+      "definition": "A switching facility that connects calls between subscriber lines or other exchanges."
+    },
+    {
+      "term": "Attenuation",
+      "definition": "Reduction of signal strength as it travels through a transmission medium."
+    },
+    {
+      "term": "Loading coil",
+      "definition": "An inductor placed on a telephone line to improve voice-frequency transmission over distance."
+    },
+    {
+      "term": "Side tone",
+      "definition": "A controlled amount of the speaker's own voice heard in the receiver."
+    },
+    {
+      "term": "Multiplexing",
+      "definition": "Carrying multiple independent signals through one shared transmission system."
+    },
+    {
+      "term": "Codec",
+      "definition": "A system that encodes and decodes audio, often compressing it for digital transmission."
+    }
+  ],
+  "researchQuestions": [
+    "How should patent law, laboratory demonstrations and commercial deployment be weighted when assigning invention credit?",
+    "Which features of Meucci's surviving records can be reconstructed with confidence, and which remain uncertain?",
+    "How did switchboard labour shape both network growth and women's employment?",
+    "Why did carbon transmitters remain important for so long despite their noise and nonlinearity?",
+    "How did telephone-network engineering influence the later architecture of the internet?"
+  ],
+  "sources": [
+    {
+      "label": "Who is credited with inventing the telephone?",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/item/who-is-credited-with-inventing-the-telephone/",
+      "note": "Concise official account of Bell's patent and recorded March 1876 call, with caution about attribution."
+    },
+    {
+      "label": "Alexander Graham Bell Experimental Telephone",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://www.si.edu/object/alexander-graham-bell-experimental-telephone%3Anmah_689864",
+      "note": "Object record for the 1876 experimental telephone associated with U.S. Patent 174,465."
+    },
+    {
+      "label": "Telephones Through Time",
+      "publisher": "Smithsonian Institution",
+      "url": "https://www.si.edu/spotlight/phones",
+      "note": "Curated historical collection tracing instruments, transmitters and network development."
+    },
+    {
+      "label": "Alexander Graham Bell Family Papers",
+      "publisher": "Library of Congress",
+      "url": "https://www.loc.gov/collections/alexander-graham-bell-family-papers/",
+      "note": "Primary notebooks, correspondence, photographs and experimental records."
+    },
+    {
+      "label": "Studying Sound: Alexander Graham Bell",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://americanhistory.si.edu/documentsgallery/exhibitions/hear-my-voice/3.html",
+      "note": "Connects Bell's work in speech education and hearing to his telephone research."
+    },
+    {
+      "label": "U.S. Patent 174,465",
+      "publisher": "United States patent record",
+      "url": "https://patents.google.com/patent/US174465A/en",
+      "note": "Digitized text and drawings of Bell's 1876 Improvement in Telegraphy patent."
+    }
+  ]
+};
+
+const automobile: Invention = {
+  "slug": "automobile",
+  "title": "Automobile",
+  "subtitle": "How engines, bicycles, carriage craft and roads converged into personal motor transport",
+  "category": "Transportation",
+  "era": "1760s–1920s",
+  "origin": "Europe and North America, with decisive integrated vehicles developed in Germany",
+  "statusLine": "No single first car—Benz's 1886 patent marks a decisive integrated design",
+  "summary": [
+    "The automobile evolved from steam road vehicles, stationary gas engines, bicycles, carriage building and machine tools. Many inventors produced self-propelled vehicles, but Carl Benz's Patent-Motorwagen was designed as a complete lightweight vehicle around an internal-combustion engine rather than simply adding an engine to a conventional carriage. German patent DRP 37435, effective from January 1886, is widely treated as a birth certificate of the modern automobile.",
+    "Gottlieb Daimler and Wilhelm Maybach simultaneously developed high-speed engines and a four-wheeled motor carriage. Bertha Benz's long-distance journey in 1888 exposed weaknesses, demonstrated usefulness and generated publicity. Later innovations—pneumatic tyres, reliable ignition, carburetion, gearboxes, steering, brakes and mass production—turned experimental machines into a transport industry.",
+    "The automobile is best understood as a system of energy storage, power conversion, control, structure and public infrastructure. Roads, fuel distribution, repair trades, licensing, traffic law and manufacturing were as important to widespread adoption as the engine itself."
+  ],
+  "heroImage": {
+    "fileName": "1886 Benz Patent Motorwagen (29744182207).jpg",
+    "alt": "Benz Patent-Motorwagen displayed in a museum",
+    "credit": "Sicnag",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1886_Benz_Patent_Motorwagen_(29744182207).jpg",
+    "caption": "A museum-displayed Benz Patent-Motorwagen. Its three-wheel layout, horizontal flywheel and integrated engine reveal how different the first practical automobile was from a horse carriage.",
+    "objectPosition": "50% 52%"
+  },
+  "quickFacts": [
+    {
+      "label": "Decisive patent",
+      "value": "German patent DRP 37435, effective 29 January 1886"
+    },
+    {
+      "label": "Integrated pioneer",
+      "value": "Benz Patent-Motorwagen, completed in 1885 and publicly demonstrated in 1886"
+    },
+    {
+      "label": "Parallel pioneer",
+      "value": "Daimler-Maybach motor carriage, 1886"
+    },
+    {
+      "label": "Proof of practicality",
+      "value": "Bertha Benz long-distance journey, 1888"
+    },
+    {
+      "label": "Mass-market turning point",
+      "value": "Ford Model T and moving assembly methods, 1908–1910s"
+    },
+    {
+      "label": "Historical caution",
+      "value": "Steam, electric and internal-combustion vehicles developed in parallel"
+    }
+  ],
+  "necessity": {
+    "headline": "Necessity: flexible transport beyond rails and animal power",
+    "introduction": "Industrial societies had railways for fixed routes and horses for local travel, but both imposed limits. Engineers sought a self-propelled road vehicle that could depart on demand, carry people or goods and operate without tracks or animal care.",
+    "pressures": [
+      {
+        "title": "Horses were costly infrastructure",
+        "description": "Urban transport required feed, stables, handlers, veterinary care and waste removal. Performance declined with heat, illness and fatigue."
+      },
+      {
+        "title": "Railways could not reach every destination",
+        "description": "Trains moved large loads efficiently but required expensive fixed tracks, schedules and terminals."
+      },
+      {
+        "title": "Compact engines became possible",
+        "description": "Improvements in gas and petroleum engines offered higher power-to-weight ratios than early steam systems."
+      },
+      {
+        "title": "Industrial manufacturing improved precision",
+        "description": "Bearings, chains, gears, steel tubing, rubber tyres and machine tools made a lightweight controllable vehicle feasible."
+      }
+    ],
+    "before": [
+      {
+        "method": "Horse-drawn carriage",
+        "strength": "Flexible routes and mature craft traditions.",
+        "limit": "Required animals, feed, rest, waste management and continuous care."
+      },
+      {
+        "method": "Railway",
+        "strength": "Efficient high-capacity transport over long distances.",
+        "limit": "Restricted to fixed infrastructure and timetables."
+      },
+      {
+        "method": "Steam road vehicle",
+        "strength": "Demonstrated self-propelled road transport and substantial power.",
+        "limit": "Heavy boilers, long start-up, water demand and regulatory restrictions hindered personal use."
+      },
+      {
+        "method": "Bicycle and tricycle",
+        "strength": "Lightweight steering, wire wheels, chains and bearings.",
+        "limit": "Human power limited load, speed and range."
+      }
+    ],
+    "decisiveConstraint": "A useful automobile required an engine light enough for the chassis, a transmission that could start and climb, reliable ignition and fuel supply, stable steering, effective braking and a vehicle frame designed as one system. Solving only the engine was insufficient."
+  },
+  "globalPrehistory": {
+    "introduction": "Road vehicles drew on centuries of carriage craft and several power technologies. Steam, electricity and petroleum all had credible periods of development.",
+    "entries": [
+      {
+        "date": "1769",
+        "place": "France",
+        "title": "Cugnot steam road vehicle",
+        "description": "Nicolas-Joseph Cugnot built a heavy steam tractor for artillery, proving self-propelled road motion but not a practical personal vehicle."
+      },
+      {
+        "date": "1830s–1870s",
+        "place": "Europe and United States",
+        "title": "Steam carriages and road locomotives",
+        "description": "Builders demonstrated passenger and freight vehicles, while weight, boiler operation and restrictive laws limited adoption."
+      },
+      {
+        "date": "1860s–1870s",
+        "place": "France and Germany",
+        "title": "Internal-combustion engines mature",
+        "description": "Lenoir, Otto and others developed gas engines and four-stroke principles, creating a path toward compact vehicle power."
+      },
+      {
+        "date": "1880s",
+        "place": "Europe",
+        "title": "Bicycle technology supplies lightweight components",
+        "description": "Wire wheels, tubular frames, chains, ball bearings and steering practice influenced early motor vehicles."
+      }
+    ]
+  },
+  "people": [
+    {
+      "name": "Carl Benz",
+      "life": "1844–1929",
+      "role": "Integrated motor-vehicle designer",
+      "contribution": "Designed a purpose-built three-wheeled vehicle around a compact four-stroke engine, surface carburettor, ignition, cooling and drivetrain; obtained DRP 37435."
+    },
+    {
+      "name": "Bertha Benz",
+      "life": "1849–1944",
+      "role": "Investor, tester and promoter",
+      "contribution": "Provided financial support and undertook the 1888 long-distance journey with her sons, demonstrating utility and identifying practical improvements."
+    },
+    {
+      "name": "Gottlieb Daimler",
+      "life": "1834–1900",
+      "role": "High-speed engine and vehicle pioneer",
+      "contribution": "Developed compact high-speed petroleum engines and installed one in a four-wheeled carriage in 1886."
+    },
+    {
+      "name": "Wilhelm Maybach",
+      "life": "1846–1929",
+      "role": "Engine and vehicle engineer",
+      "contribution": "Designed key Daimler engines, carburetion and later automobile systems."
+    },
+    {
+      "name": "Nikolaus Otto",
+      "life": "1832–1891",
+      "role": "Four-stroke engine pioneer",
+      "contribution": "Commercialized an atmospheric gas engine and then a practical four-stroke engine, shaping later automotive powerplants."
+    },
+    {
+      "name": "Henry Ford and Ford production teams",
+      "life": "1863–1947 and collaborators",
+      "role": "Mass-production system builders",
+      "contribution": "Combined standardized design, interchangeable parts, workflow redesign and moving assembly methods to reduce price and expand ownership.",
+      "correction": "Ford did not invent the automobile or assembly line from nothing; he industrialized and integrated existing practices."
+    }
+  ],
+  "experimentsAndFailures": [
+    {
+      "period": "1760s–1830s",
+      "title": "Heavy steam road vehicles",
+      "attempt": "Carry boilers, fuel and water on road carriages.",
+      "failure": "Weight, slow start-up, road damage and operational complexity limited routine personal use.",
+      "lesson": "Road vehicles needed much higher power-to-weight ratio and simpler operation.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "1885–1886",
+      "title": "Benz Motorwagen early tests",
+      "attempt": "Use a compact single-cylinder engine with belt and chain drive.",
+      "failure": "Starting, fuel delivery, cooling, braking and hill climbing remained difficult.",
+      "lesson": "Every subsystem had to be refined together through road testing.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "1888",
+      "title": "Bertha Benz road failures",
+      "attempt": "Drive the Motorwagen over a long public route.",
+      "failure": "Fuel availability, clogged lines, insulation, brakes and steep grades created repeated problems.",
+      "lesson": "Serviceability, infrastructure and user improvisation were part of practical design.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "1890s",
+      "title": "Competing control layouts",
+      "attempt": "Adapt tillers, carriage steering and bicycle mechanisms.",
+      "failure": "Some arrangements were unstable or awkward at speed.",
+      "lesson": "Steering geometry and driver ergonomics required standardization.",
+      "evidence": "Strongly supported"
+    },
+    {
+      "period": "1900s–1910s",
+      "title": "Hand-built luxury production",
+      "attempt": "Build vehicles individually with skilled craft labour.",
+      "failure": "Cost, variation and slow output restricted ownership.",
+      "lesson": "Manufacturing systems became a decisive part of automobile design.",
+      "evidence": "Strongly supported"
+    }
+  ],
+  "milestones": [
+    {
+      "year": "1885–1886",
+      "title": "Benz Patent-Motorwagen completed and patented",
+      "description": "Benz integrated engine, chassis and controls into a purpose-built vehicle; DRP 37435 took effect in January 1886.",
+      "pivotal": true
+    },
+    {
+      "year": "1886",
+      "title": "Daimler-Maybach motor carriage",
+      "description": "A high-speed petroleum engine powered a four-wheel carriage, establishing a parallel development path."
+    },
+    {
+      "year": "1888",
+      "title": "Bertha Benz long-distance journey",
+      "description": "The Mannheim–Pforzheim trip demonstrated range, generated publicity and exposed practical design needs."
+    },
+    {
+      "year": "1888–1890s",
+      "title": "Pneumatic tyres and improved transmissions",
+      "description": "Tyres, gears and clutches made vehicles more comfortable and controllable."
+    },
+    {
+      "year": "1894",
+      "title": "Benz Velo standardized production",
+      "description": "The Velo became an early standardized production automobile."
+    },
+    {
+      "year": "1908",
+      "title": "Ford Model T introduced",
+      "description": "A durable standardized vehicle was designed for broad use and manufacture."
+    },
+    {
+      "year": "1913–1914",
+      "title": "Moving assembly methods mature",
+      "description": "Ford reorganized production flow, sharply reducing assembly time and price."
+    },
+    {
+      "year": "1920s onward",
+      "title": "Automobile infrastructure expands",
+      "description": "Roads, fuel stations, repair services, licensing, safety standards and traffic control became permanent public systems."
+    }
+  ],
+  "howItWorks": {
+    "introduction": "An internal-combustion automobile stores chemical energy in fuel, converts it into rotating mechanical work, multiplies and distributes torque through a transmission, and uses steering, brakes and suspension to control motion. Electric vehicles replace the combustion system with batteries, power electronics and motors but preserve the same system-level requirements.",
+    "steps": [
+      {
+        "title": "Fuel and air enter the engine",
+        "explanation": "A carburettor or injector meters fuel and mixes it with air."
+      },
+      {
+        "title": "Combustion raises pressure",
+        "explanation": "Ignition releases chemical energy, producing hot gas that pushes a piston."
+      },
+      {
+        "title": "The crankshaft creates rotation",
+        "explanation": "Connecting rods convert reciprocating piston motion into rotary motion."
+      },
+      {
+        "title": "Transmission adapts torque and speed",
+        "explanation": "Gears or variable drives let the engine operate while the vehicle starts, climbs and cruises."
+      },
+      {
+        "title": "Differential and axles drive the wheels",
+        "explanation": "Torque reaches the road while allowing driven wheels to rotate at different speeds in a turn."
+      },
+      {
+        "title": "Steering, tyres, suspension and brakes control the path",
+        "explanation": "The chassis manages forces between vehicle and road while protecting occupants and components."
+      }
+    ],
+    "expertNotes": [
+      {
+        "title": "Power-to-weight ratio",
+        "explanation": "A road vehicle must carry its own powerplant and fuel, making mass far more critical than in a stationary engine."
+      },
+      {
+        "title": "Combustion efficiency",
+        "explanation": "Compression ratio, mixture, ignition timing and heat losses determine how much fuel energy becomes shaft work."
+      },
+      {
+        "title": "Tyre-road friction",
+        "explanation": "Acceleration, braking and cornering all share a limited friction envelope."
+      },
+      {
+        "title": "Ackermann steering geometry",
+        "explanation": "Inner and outer front wheels require different turning angles to roll around a common centre without excessive scrub."
+      },
+      {
+        "title": "System safety",
+        "explanation": "Redundancy, crash energy management, visibility, human factors and maintenance are as important as performance."
+      }
+    ]
+  },
+  "anatomy": [
+    {
+      "part": "Engine or traction motor",
+      "purpose": "Produce mechanical torque.",
+      "designProblem": "Balance power, efficiency, mass, heat and reliability."
+    },
+    {
+      "part": "Fuel tank or battery",
+      "purpose": "Store energy onboard.",
+      "designProblem": "Maximize safe usable energy while limiting mass and volume."
+    },
+    {
+      "part": "Transmission",
+      "purpose": "Match power-source speed to wheel requirements.",
+      "designProblem": "Provide smooth starts, range of ratios and low losses."
+    },
+    {
+      "part": "Chassis and body",
+      "purpose": "Carry loads and protect occupants.",
+      "designProblem": "Combine stiffness, low mass, manufacturability and crashworthiness."
+    },
+    {
+      "part": "Steering system",
+      "purpose": "Control vehicle direction.",
+      "designProblem": "Provide stability, precision and manageable driver effort."
+    },
+    {
+      "part": "Suspension and tyres",
+      "purpose": "Maintain road contact and isolate shocks.",
+      "designProblem": "Balance comfort, grip, durability and handling."
+    },
+    {
+      "part": "Braking system",
+      "purpose": "Convert motion into heat or recovered electrical energy.",
+      "designProblem": "Stop repeatedly with controllability and fault tolerance."
+    }
+  ],
+  "improvements": [
+    {
+      "period": "1880s–1890s",
+      "inventor": "Benz, Daimler, Maybach and many firms",
+      "improvement": "Integrated chassis, engines, carburettors, ignition and gearing",
+      "whyItMattered": "Moved the automobile from experiment toward repeatable production."
+    },
+    {
+      "period": "1890s",
+      "inventor": "Dunlop, Michelin and tyre makers",
+      "improvement": "Pneumatic tyres",
+      "whyItMattered": "Reduced vibration and improved grip and speed."
+    },
+    {
+      "period": "1900s",
+      "inventor": "Multiple manufacturers",
+      "improvement": "Steering wheels, multi-speed gearboxes and standardized controls",
+      "whyItMattered": "Made vehicles easier and safer to operate."
+    },
+    {
+      "period": "1908–1910s",
+      "inventor": "Ford and industrial production teams",
+      "improvement": "Standardized mass production and moving assembly",
+      "whyItMattered": "Lowered cost and expanded ownership."
+    },
+    {
+      "period": "1930s–1970s",
+      "inventor": "Global automotive industry",
+      "improvement": "Hydraulic brakes, safety glass, independent suspension, seat belts and crash structures",
+      "whyItMattered": "Improved control and occupant survival."
+    },
+    {
+      "period": "1990s–present",
+      "inventor": "Automotive and electronics industries",
+      "improvement": "Electronic control, hybrid power, electric traction and driver assistance",
+      "whyItMattered": "Increased efficiency, emissions control, safety and automation."
+    }
+  ],
+  "gallery": [
+    {
+      "fileName": "Benz Patent-Motorwagen Nr 2.jpg",
+      "alt": "Historical engraving of the 1886 Benz Patent-Motorwagen No. 2",
+      "credit": "William Worby Beaumont",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Benz_Patent-Motorwagen_Nr_2.jpg",
+      "caption": "A contemporary technical engraving showing the engine, frame, steering and large wire wheels of the second Benz vehicle."
+    },
+    {
+      "fileName": "Benz-Patent-Motorwagen - Illustrirte Zeitung 1888.jpg",
+      "alt": "1888 illustrated report showing a Benz Patent-Motorwagen",
+      "credit": "Illustrirte Zeitung",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Benz-Patent-Motorwagen_-_Illustrirte_Zeitung_1888.jpg",
+      "caption": "A period illustration documenting public use of a production Motorwagen in 1888."
+    },
+    {
+      "fileName": "Patentmotorwagen mit Karl und Bertha Benz.jpg",
+      "alt": "Karl and Bertha Benz with a Patent-Motorwagen",
+      "credit": "Unknown historical photographer",
+      "license": "Public domain / CC BY-SA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patentmotorwagen_mit_Karl_und_Bertha_Benz.jpg",
+      "caption": "A later commemorative photograph linking the technical invention with the partnership that financed, tested and promoted it."
+    },
+    {
+      "fileName": "1908 Ford Model T.jpg",
+      "alt": "1908 advertisement for the Ford Model T",
+      "credit": "Historical advertisement",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1908_Ford_Model_T.jpg",
+      "caption": "The Model T represented a new phase: design for broad use combined with industrial production and a service network."
+    },
+    {
+      "fileName": "Assembly line Ford T, 1923.jpg",
+      "alt": "Ford Model T assembly line in 1923",
+      "credit": "Historical Ford photograph",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Assembly_line_Ford_T,_1923.jpg",
+      "caption": "Production engineering became part of the invention's legacy, reducing time and cost through organized flow."
+    }
+  ],
+  "consequences": {
+    "transformed": [
+      {
+        "title": "Personal mobility",
+        "description": "People could choose departure time and route rather than depend on rail timetables or animal transport."
+      },
+      {
+        "title": "Urban and regional form",
+        "description": "Road networks, suburbs, parking, service stations and logistics landscapes reshaped settlements."
+      },
+      {
+        "title": "Manufacturing",
+        "description": "Automobile production accelerated interchangeable parts, assembly systems, steel, rubber, glass and petroleum industries."
+      },
+      {
+        "title": "Emergency and commercial services",
+        "description": "Ambulances, fire vehicles, buses, trucks and delivery fleets transformed public service and trade."
+      },
+      {
+        "title": "Cultural independence",
+        "description": "Driving became associated with freedom, status, tourism and personal identity."
+      }
+    ],
+    "tradeoffs": [
+      {
+        "title": "Road deaths and injuries",
+        "description": "Speed and mass created a major public-health problem requiring regulation and safety engineering."
+      },
+      {
+        "title": "Air pollution and climate change",
+        "description": "Combustion emissions damaged urban air quality and became a major source of greenhouse gases."
+      },
+      {
+        "title": "Land consumption",
+        "description": "Roads and parking displaced communities, fragmented habitats and encouraged low-density development."
+      },
+      {
+        "title": "Resource dependence",
+        "description": "Vehicles required petroleum, metals, rubber and later battery minerals at vast scale."
+      },
+      {
+        "title": "Unequal access",
+        "description": "Car-oriented planning can disadvantage people unable to drive or afford a vehicle."
+      }
+    ]
+  },
+  "modernDescendants": [
+    {
+      "title": "Battery-electric vehicles",
+      "connection": "Replace fuel and combustion with batteries, inverters and electric motors while retaining vehicle dynamics and road infrastructure."
+    },
+    {
+      "title": "Hybrid vehicles",
+      "connection": "Combine engines and electric machines to recover energy and improve efficiency."
+    },
+    {
+      "title": "Autonomous vehicles",
+      "connection": "Add sensors, maps, computation and control algorithms to the automobile's steering, braking and propulsion systems."
+    },
+    {
+      "title": "Shared mobility platforms",
+      "connection": "Use networked software to alter access and ownership models."
+    },
+    {
+      "title": "Connected transport systems",
+      "connection": "Vehicles communicate with infrastructure and other vehicles for routing, safety and energy management."
+    }
+  ],
+  "myths": [
+    {
+      "claim": "Henry Ford invented the automobile.",
+      "verdict": "False",
+      "explanation": "Ford transformed manufacturing and affordability decades after Benz, Daimler and other pioneers built practical cars."
+    },
+    {
+      "claim": "The Benz Patent-Motorwagen was the first self-propelled road vehicle of any kind.",
+      "verdict": "False",
+      "explanation": "Steam road vehicles existed earlier. Benz's importance lies in an integrated practical petroleum automobile and its patent and production history."
+    },
+    {
+      "claim": "Bertha Benz was only a passenger in the invention story.",
+      "verdict": "False",
+      "explanation": "She financed the work, tested the vehicle under real conditions and demonstrated its usefulness publicly."
+    },
+    {
+      "claim": "The internal-combustion automobile immediately defeated electric vehicles.",
+      "verdict": "False",
+      "explanation": "Steam, electric and gasoline cars competed into the early twentieth century; infrastructure, range, starting and mass production shaped the outcome."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Internal-combustion engine",
+      "definition": "An engine in which fuel burns inside the working cylinder or chamber."
+    },
+    {
+      "term": "Four-stroke cycle",
+      "definition": "Intake, compression, power and exhaust processes completed over two crankshaft revolutions."
+    },
+    {
+      "term": "Carburettor",
+      "definition": "A device that meters and mixes fuel with intake air."
+    },
+    {
+      "term": "Ignition",
+      "definition": "The process that initiates combustion, commonly by an electric spark in gasoline engines."
+    },
+    {
+      "term": "Transmission",
+      "definition": "Mechanisms that adapt engine speed and torque to wheel requirements."
+    },
+    {
+      "term": "Differential",
+      "definition": "A gear system allowing driven wheels to turn at different speeds while receiving torque."
+    },
+    {
+      "term": "Chassis",
+      "definition": "The structural system supporting vehicle components and loads."
+    },
+    {
+      "term": "Wheelbase",
+      "definition": "Distance between front and rear axle centres."
+    },
+    {
+      "term": "Power-to-weight ratio",
+      "definition": "Power output divided by vehicle mass, a key influence on performance."
+    },
+    {
+      "term": "Regenerative braking",
+      "definition": "Using an electric motor as a generator to recover kinetic energy during deceleration."
+    }
+  ],
+  "researchQuestions": [
+    "How should historians compare steam, electric and petroleum vehicles when defining the first automobile?",
+    "Which design changes resulted directly from Bertha Benz's 1888 journey?",
+    "How did bicycle manufacturing influence early automobile engineering?",
+    "Which parts of Ford's production system were adapted from other industries?",
+    "How should automobile mobility benefits be weighed against climate, safety and land-use costs?"
+  ],
+  "sources": [
+    {
+      "label": "Patent specification DRP 37435",
+      "publisher": "German Patent and Trade Mark Office",
+      "url": "https://www.dpma.de/docs/dpma/veroeffentlichungen/de37435a_benzmotorwagen.pdf",
+      "note": "Primary German patent document for Benz's vehicle with gas-engine drive."
+    },
+    {
+      "label": "Benz Patent Motor Car: The first automobile",
+      "publisher": "Mercedes-Benz Group Archive",
+      "url": "https://group.mercedes-benz.com/company/tradition/company-history/1885-1886.html",
+      "note": "Corporate historical account with archival photographs and technical context."
+    },
+    {
+      "label": "Bertha Benz",
+      "publisher": "Mercedes-Benz Group Archive",
+      "url": "https://group.mercedes-benz.com/company/tradition/founders-pioneers/bertha-benz.html",
+      "note": "Account of the 1888 long-distance journey and Bertha Benz's role."
+    },
+    {
+      "label": "Working Model of First Automobile",
+      "publisher": "The Henry Ford",
+      "url": "https://www.thehenryford.org/collections/explore/artifact/131260",
+      "note": "Museum interpretation emphasizing the distributed development of the automobile and the status of the Benz vehicle."
+    },
+    {
+      "label": "Henry Ford: Case Study of an Innovator",
+      "publisher": "The Henry Ford",
+      "url": "https://www.thehenryford.org/collections/explore/articles/henry-ford-case-study-of-an-innovator",
+      "note": "Research article on mass production, assembly and Ford's wider innovation system."
+    },
+    {
+      "label": "Benz patent annual-report feature",
+      "publisher": "German Patent and Trade Mark Office",
+      "url": "https://www.dpma.de/docs/english/jahresberichte/annualreport2011.pdf",
+      "note": "Official discussion of the 1886 patent, vehicle construction and historical significance."
+    }
+  ]
+};
+
+const mechanicalRefrigeration: Invention = {
+  "slug": "mechanical-refrigeration",
+  "title": "Mechanical Refrigeration",
+  "subtitle": "How engineers learned to move heat and created the modern cold chain",
+  "category": "Food, Health & Climate Control",
+  "era": "1830s–1930s",
+  "origin": "Britain, United States, Australia, France and Germany through several refrigeration cycles",
+  "statusLine": "A thermodynamic system refined by many inventors, industries and refrigerants",
+  "summary": [
+    "Mechanical refrigeration does not create cold; it removes heat from one place and rejects it somewhere warmer. The modern vapor-compression cycle grew from Jacob Perkins's 1834 closed-cycle machine, John Gorrie's air-refrigeration work, James Harrison's commercial ice-making systems, Carl von Linde's thermodynamic improvements and large industrial installations.",
+    "Ice harvesting and insulated boxes preserved food before mechanical machines, but supply depended on weather, transport and storage. Refrigeration compressors, condensers, expansion devices and evaporators made low temperatures controllable year-round. Breweries, meat packers, ships, warehouses, hospitals and households adopted the technology in stages.",
+    "Its impact is difficult to overstate: cities gained safer food, vaccines could travel, tropical produce entered global trade and air conditioning altered architecture and settlement. The same systems also created energy demand and environmental hazards through toxic, flammable, ozone-depleting and high-global-warming refrigerants."
+  ],
+  "heroImage": {
+    "fileName": "Jacob Perkins' Ice Machine 1834 from Scientific American Article.jpg",
+    "alt": "Drawing of Jacob Perkins's 1834 vapor-compression ice machine",
+    "credit": "Frederick Bramwell / Scientific American",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacob_Perkins%27_Ice_Machine_1834_from_Scientific_American_Article.jpg",
+    "caption": "A drawing of the machine built for Jacob Perkins's 1834 patent. It used a closed vapor-compression cycle, the basic architecture behind most modern refrigerators.",
+    "objectPosition": "50% 50%"
+  },
+  "quickFacts": [
+    {
+      "label": "Foundational patent",
+      "value": "Jacob Perkins vapor-compression machine, 1834"
+    },
+    {
+      "label": "Commercial ice pioneer",
+      "value": "James Harrison, 1850s"
+    },
+    {
+      "label": "Industrial refinement",
+      "value": "Carl von Linde, 1870s"
+    },
+    {
+      "label": "Core process",
+      "value": "Evaporate at low pressure, compress, condense, expand and repeat"
+    },
+    {
+      "label": "Major systems",
+      "value": "Vapor compression, absorption, air cycle and thermoelectric cooling"
+    },
+    {
+      "label": "Historical caution",
+      "value": "Refrigeration is a chain of thermodynamics, machinery, insulation and distribution systems"
+    }
+  ],
+  "necessity": {
+    "headline": "Necessity: food, medicine and industry needed reliable low temperatures",
+    "introduction": "Natural ice, cool cellars, salting, drying and fermentation slowed spoilage but could not provide controlled temperature everywhere. Growing cities and long-distance trade required dependable preservation independent of season and geography.",
+    "pressures": [
+      {
+        "title": "Natural ice was seasonal",
+        "description": "Harvests failed during warm winters, and stored ice melted during transport and summer use."
+      },
+      {
+        "title": "Food spoiled before reaching markets",
+        "description": "Meat, milk, fish and produce supported microbial growth and chemical deterioration during transport."
+      },
+      {
+        "title": "Industry needed repeatable temperature control",
+        "description": "Brewing, chemical processing and ice production required stable thermal conditions rather than weather-dependent cooling."
+      },
+      {
+        "title": "Health care needed cooling",
+        "description": "Hospitals, laboratories and later vaccine programs required preservation and environmental control."
+      }
+    ],
+    "before": [
+      {
+        "method": "Natural ice harvesting",
+        "strength": "Effective where winters produced thick clean ice.",
+        "limit": "Seasonal, labour-intensive and geographically unequal."
+      },
+      {
+        "method": "Ice houses and iceboxes",
+        "strength": "Insulation extended the usefulness of harvested ice.",
+        "limit": "Required continuing ice supply and could not regulate temperature precisely."
+      },
+      {
+        "method": "Salting, drying and smoking",
+        "strength": "Preserved food without machinery.",
+        "limit": "Changed taste and texture and did not suit every product."
+      },
+      {
+        "method": "Evaporative cooling and cool cellars",
+        "strength": "Low-cost cooling in suitable climates.",
+        "limit": "Limited temperature reduction and dependent on humidity and local conditions."
+      }
+    ],
+    "decisiveConstraint": "A practical machine needed a working fluid that could repeatedly evaporate and condense, a compressor that sealed and survived, heat exchangers that transferred heat efficiently, an expansion control and insulation. Safety, lubrication and leakage were as decisive as the thermodynamic principle."
+  },
+  "globalPrehistory": {
+    "introduction": "Refrigeration combined older ice practices with new understandings of pressure, phase change, heat and mechanical work.",
+    "entries": [
+      {
+        "date": "Ancient–1800s",
+        "place": "Many regions",
+        "title": "Ice storage and evaporative cooling",
+        "description": "Communities stored winter ice, used porous vessels and designed underground spaces to preserve food and create cool environments."
+      },
+      {
+        "date": "1755",
+        "place": "Scotland",
+        "title": "William Cullen demonstrates artificial cooling",
+        "description": "Evaporating ether under reduced pressure produced cooling, demonstrating a physical principle without a commercial machine."
+      },
+      {
+        "date": "1805",
+        "place": "United States",
+        "title": "Oliver Evans describes a vapor-compression cycle",
+        "description": "Evans proposed a closed system using evaporation, compression and condensation but did not build it."
+      },
+      {
+        "date": "1834",
+        "place": "Britain",
+        "title": "Jacob Perkins patents a working closed cycle",
+        "description": "Perkins's apparatus, built by John Hague, used a volatile fluid in a continuous vapor-compression loop."
+      }
+    ]
+  },
+  "people": [
+    {
+      "name": "Jacob Perkins",
+      "life": "1766–1849",
+      "role": "Vapor-compression pioneer",
+      "contribution": "Patented a closed-cycle mechanical refrigeration machine in Britain in 1834."
+    },
+    {
+      "name": "John Hague",
+      "life": "active 1830s",
+      "role": "Machine builder",
+      "contribution": "Constructed Perkins's experimental apparatus, translating the patent concept into hardware."
+    },
+    {
+      "name": "John Gorrie",
+      "life": "1803–1855",
+      "role": "Medical cooling pioneer",
+      "contribution": "Built an air-cycle machine to make ice and cool hospital rooms, receiving U.S. Patent 8080 in 1851."
+    },
+    {
+      "name": "James Harrison",
+      "life": "1816–1893",
+      "role": "Commercial ice-machine engineer",
+      "contribution": "Developed practical vapor-compression machines in Australia for ice making, brewing and food preservation."
+    },
+    {
+      "name": "Ferdinand Carré",
+      "life": "1824–1900",
+      "role": "Absorption refrigeration pioneer",
+      "contribution": "Patented ammonia-water absorption systems that could operate using heat rather than a mechanical compressor."
+    },
+    {
+      "name": "Carl von Linde",
+      "life": "1842–1934",
+      "role": "Thermodynamic and industrial system builder",
+      "contribution": "Applied rigorous analysis and improved ammonia compression machinery, helping establish large-scale refrigeration industries."
+    }
+  ],
+  "experimentsAndFailures": [
+    {
+      "period": "1830s",
+      "title": "Perkins ether machine",
+      "attempt": "Circulate a volatile ether through a closed compressor cycle.",
+      "failure": "Sealing, materials, lubrication and flammable refrigerant risks limited adoption.",
+      "lesson": "The cycle was valid, but reliable machinery and safe operation were essential.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "1840s–1850s",
+      "title": "Gorrie air machine",
+      "attempt": "Compress, cool and expand air to make ice.",
+      "failure": "Low efficiency, funding problems and component limitations prevented commercial success.",
+      "lesson": "A socially valuable application still requires economic and manufacturing support.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "1850s–1860s",
+      "title": "Early commercial ice plants",
+      "attempt": "Scale vapor compression for breweries and ice production.",
+      "failure": "Compressors leaked, refrigerants attacked materials and operation required skilled attention.",
+      "lesson": "Industrial maintenance and standard components were part of the invention.",
+      "evidence": "Strongly supported"
+    },
+    {
+      "period": "1870s–1900s",
+      "title": "Dangerous refrigerants",
+      "attempt": "Use ammonia, sulfur dioxide, methyl chloride and hydrocarbons.",
+      "failure": "Leaks could be toxic, corrosive or flammable, especially in homes.",
+      "lesson": "Refrigerant choice involves safety, thermodynamics, materials and environmental tradeoffs.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "1920s–1930s",
+      "title": "Early household machines",
+      "attempt": "Bring compressors and refrigerant circuits into kitchens.",
+      "failure": "Cost, noise, reliability and leak hazards slowed adoption.",
+      "lesson": "Sealed systems, electric motors, mass production and safer controls were needed.",
+      "evidence": "Strongly supported"
+    }
+  ],
+  "milestones": [
+    {
+      "year": "1834",
+      "title": "Perkins vapor-compression patent",
+      "description": "A working continuous closed-cycle machine established the core modern architecture.",
+      "pivotal": true
+    },
+    {
+      "year": "1851",
+      "title": "Gorrie ice-machine patent",
+      "description": "Air compression and expansion were applied to medical cooling and ice making."
+    },
+    {
+      "year": "1850s",
+      "title": "Harrison commercial machines",
+      "description": "Vapor compression entered ice works, breweries and food applications."
+    },
+    {
+      "year": "1860",
+      "title": "Carré absorption machine",
+      "description": "Ammonia-water systems used heat as the main input instead of direct mechanical compression."
+    },
+    {
+      "year": "1870s",
+      "title": "Linde industrial refinement",
+      "description": "Thermodynamic analysis and improved ammonia machinery increased efficiency and reliability."
+    },
+    {
+      "year": "1870s–1890s",
+      "title": "Refrigerated shipping and cold storage",
+      "description": "Meat and produce could cross oceans and supply distant cities."
+    },
+    {
+      "year": "1910s–1930s",
+      "title": "Domestic refrigeration grows",
+      "description": "Electric motors, sealed compressors and factory production brought refrigerators into homes."
+    },
+    {
+      "year": "1987 onward",
+      "title": "Environmental refrigerant transitions",
+      "description": "Ozone protection and climate policy drove replacement of CFCs and continuing search for lower-impact fluids."
+    }
+  ],
+  "howItWorks": {
+    "introduction": "In a vapor-compression refrigerator, a refrigerant absorbs heat while boiling at low pressure inside the cooled space. A compressor raises the vapor pressure and temperature, a condenser rejects heat to the surroundings, and an expansion device reduces pressure so the cycle can repeat.",
+    "steps": [
+      {
+        "title": "Evaporation absorbs heat",
+        "explanation": "Low-pressure refrigerant boils in the evaporator, drawing latent heat from air, food or process fluid."
+      },
+      {
+        "title": "Compression raises pressure",
+        "explanation": "The compressor does work on the vapor, increasing its pressure and temperature."
+      },
+      {
+        "title": "Condensation rejects heat",
+        "explanation": "Hot high-pressure refrigerant releases heat to ambient air or water and becomes liquid."
+      },
+      {
+        "title": "Expansion lowers pressure",
+        "explanation": "A valve or capillary tube meters liquid into the low-pressure side, causing a temperature drop and partial flashing."
+      },
+      {
+        "title": "Insulation limits heat leakage",
+        "explanation": "Low-conductivity walls and door seals reduce the load the machine must remove."
+      },
+      {
+        "title": "Controls cycle the system",
+        "explanation": "Thermostats, pressure controls and electronics maintain temperature while protecting the compressor."
+      }
+    ],
+    "expertNotes": [
+      {
+        "title": "Coefficient of performance",
+        "explanation": "Refrigeration effectiveness is measured as heat removed divided by work input, not as conventional heat-engine efficiency."
+      },
+      {
+        "title": "Latent heat",
+        "explanation": "Phase change moves large amounts of energy with relatively small temperature change."
+      },
+      {
+        "title": "Superheat and subcooling",
+        "explanation": "Managing refrigerant state at compressor and expansion device improves protection and capacity."
+      },
+      {
+        "title": "Refrigerant selection",
+        "explanation": "Pressure range, toxicity, flammability, material compatibility, ozone impact and global warming potential must be balanced."
+      },
+      {
+        "title": "Cold-chain integrity",
+        "explanation": "A refrigerator cannot compensate for temperature abuse during loading, transport, storage or retail handling."
+      }
+    ]
+  },
+  "anatomy": [
+    {
+      "part": "Compressor",
+      "purpose": "Raise refrigerant pressure and circulate mass flow.",
+      "designProblem": "Seal reliably, manage lubrication and avoid liquid damage."
+    },
+    {
+      "part": "Condenser",
+      "purpose": "Reject absorbed heat plus compressor work.",
+      "designProblem": "Transfer heat efficiently with limited size, noise and fouling."
+    },
+    {
+      "part": "Expansion device",
+      "purpose": "Meter flow and create the pressure difference.",
+      "designProblem": "Match changing load without starving or flooding the evaporator."
+    },
+    {
+      "part": "Evaporator",
+      "purpose": "Absorb heat at low temperature.",
+      "designProblem": "Distribute refrigerant and prevent excessive frost or temperature variation."
+    },
+    {
+      "part": "Refrigerant",
+      "purpose": "Carry energy through phase changes.",
+      "designProblem": "Combine thermodynamic performance with safety and environmental acceptability."
+    },
+    {
+      "part": "Insulated enclosure",
+      "purpose": "Reduce heat entering the cooled space.",
+      "designProblem": "Limit conduction, air leakage, moisture and thermal bridges."
+    },
+    {
+      "part": "Controls and sensors",
+      "purpose": "Maintain setpoint and protect equipment.",
+      "designProblem": "Respond accurately while minimizing cycling and energy use."
+    }
+  ],
+  "improvements": [
+    {
+      "period": "1850s–1870s",
+      "inventor": "Harrison, Carré, Linde and others",
+      "improvement": "Commercial compression and absorption machinery",
+      "whyItMattered": "Moved artificial cooling into continuous industrial service."
+    },
+    {
+      "period": "1870s–1900s",
+      "inventor": "Cold-storage and shipping engineers",
+      "improvement": "Insulated warehouses, railcars and refrigerated ships",
+      "whyItMattered": "Created regional and global cold chains."
+    },
+    {
+      "period": "1910s–1930s",
+      "inventor": "Appliance manufacturers",
+      "improvement": "Electric motors, sealed units and thermostatic controls",
+      "whyItMattered": "Made household refrigeration safer and easier to operate."
+    },
+    {
+      "period": "1930s",
+      "inventor": "Chemical and appliance industries",
+      "improvement": "New refrigerant families",
+      "whyItMattered": "Reduced immediate toxicity and flammability but later created ozone and climate problems."
+    },
+    {
+      "period": "1970s–present",
+      "inventor": "Global refrigeration industry",
+      "improvement": "Efficient compressors, electronic controls, heat exchangers and variable speed",
+      "whyItMattered": "Reduced energy consumption and improved temperature stability."
+    },
+    {
+      "period": "1990s–present",
+      "inventor": "Policy and engineering communities",
+      "improvement": "Low-ozone and lower-global-warming refrigerants",
+      "whyItMattered": "Addressed environmental damage while requiring new safety and system designs."
+    }
+  ],
+  "gallery": [
+    {
+      "fileName": "Gorrie Ice Machine.png",
+      "alt": "Patent drawing of John Gorrie's ice machine",
+      "credit": "U.S. Patent Office",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gorrie_Ice_Machine.png",
+      "caption": "The 1851 patent drawing shows an air-cycle approach developed for ice production and medical cooling."
+    },
+    {
+      "fileName": "Gorriemuseumapalachicola ice mchn1.jpg",
+      "alt": "Scale model of John Gorrie's ice machine",
+      "credit": "Ebyabe",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gorriemuseumapalachicola_ice_mchn1.jpg",
+      "caption": "A museum model makes visible the compressor, cylinders and mechanical complexity of Gorrie's design."
+    },
+    {
+      "fileName": "BIB - Eismaschine 1.jpg",
+      "alt": "1899 Linde refrigeration compressor used in a brewery",
+      "credit": "Konrad Lackerbeck",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BIB_-_Eismaschine_1.jpg",
+      "caption": "Industrial compressors brought controlled cooling to breweries and food processing."
+    },
+    {
+      "fileName": "Early household refrigerator in Popular Science 1919.png",
+      "alt": "Early household mechanical refrigerator illustration from 1919",
+      "credit": "Popular Science",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Early_household_refrigerator_in_Popular_Science_1919.png",
+      "caption": "Early consumer systems reveal how machinery, cabinet design and domestic expectations had to converge."
+    },
+    {
+      "fileName": "1929 General Electric 'Monitor Top' Refrigerator, Tallahassee Automobile Museum.jpg",
+      "alt": "1929 General Electric Monitor Top refrigerator",
+      "credit": "Michael Rivera",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1929_General_Electric_%27Monitor_Top%27_Refrigerator,_Tallahassee_Automobile_Museum.jpg",
+      "caption": "The visible top-mounted sealed unit became an icon of early mass-market electric refrigeration."
+    }
+  ],
+  "consequences": {
+    "transformed": [
+      {
+        "title": "Food safety and diet",
+        "description": "Cold storage slowed microbial growth, reduced seasonal scarcity and expanded access to meat, dairy and produce."
+      },
+      {
+        "title": "Global trade",
+        "description": "Refrigerated ships, railcars, trucks and containers linked distant farms and fisheries to urban markets."
+      },
+      {
+        "title": "Medicine",
+        "description": "Temperature-controlled storage supports vaccines, blood products, laboratories and pharmaceuticals."
+      },
+      {
+        "title": "Industrial processes",
+        "description": "Brewing, chemicals, plastics, electronics and many manufacturing processes depend on controlled cooling."
+      },
+      {
+        "title": "Architecture and settlement",
+        "description": "Air conditioning changed building design, workplace conditions and population growth in hot climates."
+      }
+    ],
+    "tradeoffs": [
+      {
+        "title": "Energy demand",
+        "description": "Refrigeration and air conditioning consume substantial electricity worldwide."
+      },
+      {
+        "title": "Refrigerant hazards",
+        "description": "Leaks may be toxic, flammable, ozone-depleting or powerful greenhouse gases."
+      },
+      {
+        "title": "Cold-chain inequality",
+        "description": "Reliable cooling remains unavailable or expensive in many communities."
+      },
+      {
+        "title": "Food-system expansion",
+        "description": "Long cold chains can encourage resource-intensive diets and dependence on centralized logistics."
+      },
+      {
+        "title": "Waste and end-of-life management",
+        "description": "Foams, refrigerants and appliance materials require careful recovery and recycling."
+      }
+    ]
+  },
+  "modernDescendants": [
+    {
+      "title": "Domestic refrigerators and freezers",
+      "connection": "Use compact sealed vapor-compression systems with automatic controls and insulation."
+    },
+    {
+      "title": "Heat pumps",
+      "connection": "Use the same cycle but value heat delivered to a building rather than heat removed from a cold space."
+    },
+    {
+      "title": "Refrigerated logistics",
+      "connection": "Integrate mobile equipment, sensors and data monitoring across ships, trucks, containers and warehouses."
+    },
+    {
+      "title": "Cryogenic systems",
+      "connection": "Extend heat-removal methods to extremely low temperatures for gases, medicine, research and quantum technologies."
+    },
+    {
+      "title": "District cooling and data-centre cooling",
+      "connection": "Apply large-scale thermal management to cities and high-density computing."
+    }
+  ],
+  "myths": [
+    {
+      "claim": "A refrigerator produces cold.",
+      "verdict": "False",
+      "explanation": "It moves heat from the cooled space to warmer surroundings using work or heat input."
+    },
+    {
+      "claim": "One inventor created the modern refrigerator.",
+      "verdict": "False",
+      "explanation": "The modern system combines cycles, compressors, refrigerants, controls, insulation and manufacturing developed by many people."
+    },
+    {
+      "claim": "Freon solved refrigeration safety without new problems.",
+      "verdict": "False",
+      "explanation": "CFCs reduced immediate toxicity and flammability but caused severe stratospheric ozone damage and climate impacts."
+    },
+    {
+      "claim": "Food is safe indefinitely if it remains cold.",
+      "verdict": "False",
+      "explanation": "Cooling slows many processes but does not sterilize food or prevent all chemical and microbial change."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Refrigerant",
+      "definition": "The working fluid that absorbs and rejects heat, often through evaporation and condensation."
+    },
+    {
+      "term": "Evaporator",
+      "definition": "The low-temperature heat exchanger where refrigerant absorbs heat."
+    },
+    {
+      "term": "Condenser",
+      "definition": "The heat exchanger where high-pressure refrigerant rejects heat and condenses."
+    },
+    {
+      "term": "Compressor",
+      "definition": "A machine that raises vapor pressure and drives refrigerant circulation."
+    },
+    {
+      "term": "Expansion valve",
+      "definition": "A device that meters refrigerant and creates a pressure drop."
+    },
+    {
+      "term": "Latent heat",
+      "definition": "Energy absorbed or released during phase change without corresponding temperature change."
+    },
+    {
+      "term": "Coefficient of performance",
+      "definition": "Useful heating or cooling divided by required work input."
+    },
+    {
+      "term": "Cold chain",
+      "definition": "A temperature-controlled sequence of production, transport, storage and distribution."
+    },
+    {
+      "term": "Global warming potential",
+      "definition": "A measure comparing a gas's climate impact with carbon dioxide over a chosen period."
+    },
+    {
+      "term": "Heat pump",
+      "definition": "A refrigeration machine used primarily to deliver heat to a warmer space."
+    }
+  ],
+  "researchQuestions": [
+    "How did natural-ice businesses shape the adoption of mechanical refrigeration?",
+    "Why did particular refrigerants dominate in industry, transport and households at different times?",
+    "How did refrigeration change diet, agriculture and global inequality?",
+    "What design strategies best reduce leakage and total lifecycle climate impact?",
+    "How can cold-chain access expand without locking regions into high energy demand?"
+  ],
+  "sources": [
+    {
+      "label": "Air Conditioning and Refrigeration Timeline",
+      "publisher": "ASHRAE",
+      "url": "https://www.ashrae.org/about/mission-and-vision/ashrae-industry-history/air-conditioning-and-refrigeration-timeline",
+      "note": "Industry historical timeline covering Perkins, Gorrie, Harrison, Carré, Linde and major system milestones."
+    },
+    {
+      "label": "Gorrie Ice Machine patent model",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_846192",
+      "note": "Object record for Gorrie's patented air-refrigeration machine."
+    },
+    {
+      "label": "Carrier centrifugal refrigeration compressor",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://americanhistory.si.edu/collections/nmah_846092",
+      "note": "Object record documenting a major twentieth-century compressor improvement."
+    },
+    {
+      "label": "Refrigerator car patent model",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_843220",
+      "note": "Evidence for the growth of mechanically refrigerated transport."
+    },
+    {
+      "label": "Montreal Protocol science and implementation",
+      "publisher": "United Nations Environment Programme Ozone Secretariat",
+      "url": "https://ozone.unep.org/treaties/montreal-protocol",
+      "note": "Authoritative context for the phaseout of ozone-depleting refrigerants."
+    },
+    {
+      "label": "Refrigerants and environmental policy",
+      "publisher": "U.S. Environmental Protection Agency",
+      "url": "https://www.epa.gov/snap",
+      "note": "Technical and regulatory information on substitutes, safety and environmental impacts."
+    }
+  ]
+};
+
+const transistor: Invention = {
+  "slug": "transistor",
+  "title": "Transistor",
+  "subtitle": "How semiconductor surfaces became reliable amplifiers and the foundation of digital electronics",
+  "category": "Electronics & Computing",
+  "era": "1930s–1960s",
+  "origin": "Bell Telephone Laboratories, United States, built on international semiconductor research",
+  "statusLine": "A laboratory breakthrough transformed by materials science and mass manufacturing",
+  "summary": [
+    "The transistor was invented to replace bulky, fragile and power-hungry vacuum tubes in telephone amplifiers and electronic systems. At Bell Telephone Laboratories, John Bardeen and Walter Brattain demonstrated the point-contact transistor in December 1947 after Bardeen developed a theory explaining how surface states blocked electric fields in semiconductors. William Shockley then developed the junction-transistor concept and a broader theory of semiconductor devices.",
+    "The first device was delicate and difficult to manufacture. Purifying germanium and silicon, controlling dopants, growing crystals, creating junctions, passivating surfaces and packaging tiny devices were separate inventions. The planar process, MOS transistor and integrated circuit eventually allowed millions and then billions of transistors to be formed together.",
+    "A transistor is a controllable electronic valve with no moving mechanical parts. A small voltage or current controls a larger current, allowing amplification, switching, oscillation, sensing and computation. Its significance comes not only from one component but from its extraordinary scalability."
+  ],
+  "heroImage": {
+    "fileName": "The First Transistor ever made, built in 1947 - Bell Labs.jpg",
+    "alt": "The first point-contact transistor demonstrated at Bell Labs",
+    "credit": "Windell Oskay",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_First_Transistor_ever_made,_built_in_1947_-_Bell_Labs.jpg",
+    "caption": "A replica or preserved display of the first point-contact transistor arrangement: a germanium crystal contacted by closely spaced gold points.",
+    "objectPosition": "50% 50%"
+  },
+  "quickFacts": [
+    {
+      "label": "First working transistor effect",
+      "value": "Bardeen and Brattain, December 1947"
+    },
+    {
+      "label": "Initial type",
+      "value": "Germanium point-contact transistor"
+    },
+    {
+      "label": "Junction theory and device",
+      "value": "William Shockley, 1948–1951"
+    },
+    {
+      "label": "Nobel recognition",
+      "value": "Bardeen, Brattain and Shockley, Physics 1956"
+    },
+    {
+      "label": "Core functions",
+      "value": "Amplification and switching"
+    },
+    {
+      "label": "Scale legacy",
+      "value": "Integrated circuits now contain enormous numbers of microscopic transistors"
+    }
+  ],
+  "necessity": {
+    "headline": "Necessity: communication networks needed smaller, cooler and more reliable amplifiers",
+    "introduction": "Long telephone lines and radar, radio and computing systems depended on vacuum tubes. Tubes could amplify signals, but they consumed heater power, produced heat, failed, occupied space and complicated maintenance. Bell Labs wanted a solid-state amplifier suitable for a growing network.",
+    "pressures": [
+      {
+        "title": "Vacuum tubes wore out",
+        "description": "Cathodes and filaments degraded, creating frequent failures in large systems."
+      },
+      {
+        "title": "Power and heat limited scale",
+        "description": "Every tube required heater energy and cooling, making dense circuits impractical."
+      },
+      {
+        "title": "Mechanical relays were slow",
+        "description": "Relays provided switching but were noisy, large and limited in speed and lifetime."
+      },
+      {
+        "title": "Semiconductors already rectified signals",
+        "description": "Crystal detectors showed that solids could control current, but reliable amplification was not understood."
+      }
+    ],
+    "before": [
+      {
+        "method": "Vacuum-tube triode",
+        "strength": "Provided strong amplification and fast switching.",
+        "limit": "Bulky, hot, fragile and power hungry."
+      },
+      {
+        "method": "Electromechanical relay",
+        "strength": "Clear on/off switching and electrical isolation.",
+        "limit": "Slow, noisy and subject to contact wear."
+      },
+      {
+        "method": "Crystal detector",
+        "strength": "Small solid-state rectifier used in radio.",
+        "limit": "Could detect signals but not provide stable power gain."
+      },
+      {
+        "method": "Copper-oxide and selenium rectifiers",
+        "strength": "Useful power conversion without vacuum tubes.",
+        "limit": "Limited speed, gain and understanding of material behavior."
+      }
+    ],
+    "decisiveConstraint": "Researchers had to control charge carriers inside a semiconductor and overcome unpredictable surface states. The physics, crystal purity, contacts and manufacturing process all had to work at once."
+  },
+  "globalPrehistory": {
+    "introduction": "The transistor depended on decades of solid-state physics, quantum mechanics, rectifier development and wartime materials research.",
+    "entries": [
+      {
+        "date": "1870s–1900s",
+        "place": "Europe and United States",
+        "title": "Semiconductor rectification observed",
+        "description": "Researchers found asymmetric conduction in crystals, though mechanisms remained unclear."
+      },
+      {
+        "date": "1904–1920s",
+        "place": "International",
+        "title": "Crystal radio detectors spread",
+        "description": "Point contacts on minerals such as galena converted radio-frequency signals into audio-frequency currents."
+      },
+      {
+        "date": "1920s–1930s",
+        "place": "Europe and United States",
+        "title": "Quantum band theory develops",
+        "description": "New models explained metals, insulators and semiconductors in terms of allowed energy bands and charge carriers."
+      },
+      {
+        "date": "1930s–1940s",
+        "place": "Bell Labs and wartime laboratories",
+        "title": "Field-effect proposals and purified materials",
+        "description": "Patents anticipated field-effect control, while radar research improved germanium and silicon crystal preparation."
+      }
+    ]
+  },
+  "people": [
+    {
+      "name": "John Bardeen",
+      "life": "1908–1991",
+      "role": "Theoretical physicist",
+      "contribution": "Explained semiconductor surface states and proposed experiments that enabled the first successful transistor effect."
+    },
+    {
+      "name": "Walter H. Brattain",
+      "life": "1902–1987",
+      "role": "Experimental physicist",
+      "contribution": "Built and tested contacts, surfaces and electrolyte arrangements, co-demonstrating the point-contact transistor."
+    },
+    {
+      "name": "William Shockley",
+      "life": "1910–1989",
+      "role": "Research leader and junction-transistor theorist",
+      "contribution": "Led the Bell Labs group, developed junction-transistor theory and helped formalize semiconductor device physics.",
+      "correction": "Shockley was not present for the successful Bardeen-Brattain point-contact experiment, though his later work was central."
+    },
+    {
+      "name": "Mervin Kelly",
+      "life": "1894–1971",
+      "role": "Bell Labs research organizer",
+      "contribution": "Supported long-term solid-state research aimed at practical communications problems."
+    },
+    {
+      "name": "Gordon Teal",
+      "life": "1907–2003",
+      "role": "Crystal-growth and manufacturing pioneer",
+      "contribution": "Advanced high-purity single-crystal germanium and silicon, crucial for reliable junction devices."
+    },
+    {
+      "name": "Jean Hoerni and Mohamed Atalla",
+      "life": "1924–1997; 1924–2009",
+      "role": "Planar-process and silicon-surface pioneers",
+      "contribution": "Surface passivation and planar fabrication enabled reliable silicon devices and integrated circuits."
+    }
+  ],
+  "experimentsAndFailures": [
+    {
+      "period": "1930s",
+      "title": "Early field-effect devices",
+      "attempt": "Apply an electric field to control current in a semiconductor.",
+      "failure": "Surface states screened the field and materials were insufficiently controlled.",
+      "lesson": "Semiconductor surfaces required new physics and preparation methods.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "1945–1947",
+      "title": "Point contacts without gain",
+      "attempt": "Place metal contacts on germanium and search for amplification.",
+      "failure": "Most arrangements produced rectification but not stable power gain.",
+      "lesson": "Contact spacing, surface treatment and carrier injection were decisive.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "November 1947",
+      "title": "Electrolyte surface experiments",
+      "attempt": "Use an electrolyte to alter surface charge.",
+      "failure": "The arrangement demonstrated field effects but was too slow and impractical as a device.",
+      "lesson": "Neutralizing surface states opened the path to a solid contact configuration.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "December 1947",
+      "title": "Fragile point-contact success",
+      "attempt": "Press two closely spaced gold contacts onto germanium.",
+      "failure": "The device worked but was delicate, noisy and difficult to reproduce.",
+      "lesson": "The transistor effect was real; manufacturing needed a more robust structure.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "1948–1950s",
+      "title": "Early junction production",
+      "attempt": "Create controlled p–n junctions through alloying and grown crystals.",
+      "failure": "Yield and parameter consistency were poor.",
+      "lesson": "Purity, diffusion, oxide control and statistical process discipline were essential.",
+      "evidence": "Strongly supported"
+    }
+  ],
+  "milestones": [
+    {
+      "year": "16 December 1947",
+      "title": "Point-contact transistor effect demonstrated",
+      "description": "Bardeen and Brattain achieved power gain in germanium at Bell Labs.",
+      "pivotal": true
+    },
+    {
+      "year": "23 December 1947",
+      "title": "Formal demonstration to Bell Labs leadership",
+      "description": "The new solid-state amplifier was presented internally."
+    },
+    {
+      "year": "1948",
+      "title": "Public announcement and transistor name",
+      "description": "Bell Labs announced the invention and adopted the term transistor."
+    },
+    {
+      "year": "1948–1951",
+      "title": "Shockley junction transistor",
+      "description": "A layered semiconductor structure offered a more manufacturable principle."
+    },
+    {
+      "year": "1954",
+      "title": "Commercial transistor radio",
+      "description": "The Regency TR-1 demonstrated portability and mass consumer appeal."
+    },
+    {
+      "year": "1956",
+      "title": "Nobel Prize",
+      "description": "Bardeen, Brattain and Shockley were recognized for semiconductor research and discovery of the transistor effect."
+    },
+    {
+      "year": "1958–1959",
+      "title": "Integrated circuits",
+      "description": "Kilby and Noyce independently developed ways to combine multiple components on semiconductor material."
+    },
+    {
+      "year": "1959–1960s",
+      "title": "MOS transistor and planar silicon",
+      "description": "Surface passivation and planar processes enabled high-density scalable integrated electronics."
+    }
+  ],
+  "howItWorks": {
+    "introduction": "A transistor controls carrier flow through semiconductor material. In a bipolar transistor, a small base current controls a much larger collector-emitter current. In a field-effect transistor, an electric field from a gate controls a channel current with very little steady gate current.",
+    "steps": [
+      {
+        "title": "Doping creates charge-carrier regions",
+        "explanation": "Small controlled impurities make material rich in electrons or holes."
+      },
+      {
+        "title": "Junctions form internal electric fields",
+        "explanation": "Contacts between p-type and n-type regions create depletion zones and potential barriers."
+      },
+      {
+        "title": "An input alters carrier injection or channel charge",
+        "explanation": "Base current or gate voltage changes how many carriers can cross the device."
+      },
+      {
+        "title": "A larger output current responds",
+        "explanation": "The controlled path carries power supplied by the circuit, enabling gain."
+      },
+      {
+        "title": "Bias sets an operating point",
+        "explanation": "Circuit voltages place the device in cutoff, active operation or saturation."
+      },
+      {
+        "title": "Many devices form logic and memory",
+        "explanation": "Transistors connected as switches implement gates, storage cells, processors and signal systems."
+      }
+    ],
+    "expertNotes": [
+      {
+        "title": "Power gain",
+        "explanation": "A transistor does not create energy; a small input controls energy drawn from a power supply."
+      },
+      {
+        "title": "Carrier lifetime and mobility",
+        "explanation": "Material properties determine speed, gain and losses."
+      },
+      {
+        "title": "Surface passivation",
+        "explanation": "Stable silicon dioxide suppresses damaging surface states and enables reliable MOS devices."
+      },
+      {
+        "title": "Scaling",
+        "explanation": "Smaller transistors switch faster and can reduce energy per operation, but leakage, heat and quantum effects create limits."
+      },
+      {
+        "title": "Manufacturing yield",
+        "explanation": "Circuit economics depend on producing vast numbers of nearly identical devices with very low defect rates."
+      }
+    ]
+  },
+  "anatomy": [
+    {
+      "part": "Semiconductor crystal",
+      "purpose": "Provide a controllable carrier medium.",
+      "designProblem": "Achieve extreme purity and controlled defects."
+    },
+    {
+      "part": "Doped regions",
+      "purpose": "Create electron-rich and hole-rich areas.",
+      "designProblem": "Control concentration and geometry precisely."
+    },
+    {
+      "part": "Junction or channel",
+      "purpose": "Form the active current-control region.",
+      "designProblem": "Maintain stable electrical behavior at small dimensions."
+    },
+    {
+      "part": "Contacts",
+      "purpose": "Connect the semiconductor to the external circuit.",
+      "designProblem": "Minimize resistance without damaging the active region."
+    },
+    {
+      "part": "Gate, base, emitter, collector or source and drain",
+      "purpose": "Provide control and current terminals.",
+      "designProblem": "Balance gain, speed, breakdown and leakage."
+    },
+    {
+      "part": "Passivation layer",
+      "purpose": "Protect surfaces and control interface charge.",
+      "designProblem": "Prevent contamination and unstable electronic states."
+    },
+    {
+      "part": "Package",
+      "purpose": "Protect the die and provide robust leads and heat flow.",
+      "designProblem": "Limit parasitics, stress and thermal resistance."
+    }
+  ],
+  "improvements": [
+    {
+      "period": "1948–1950s",
+      "inventor": "Shockley, Teal and semiconductor teams",
+      "improvement": "Junction and grown-crystal transistors",
+      "whyItMattered": "Improved robustness and manufacturability over point contacts."
+    },
+    {
+      "period": "1950s",
+      "inventor": "Texas Instruments, Bell Labs and others",
+      "improvement": "Silicon transistors",
+      "whyItMattered": "Improved temperature performance and enabled a stable oxide surface."
+    },
+    {
+      "period": "1958–1959",
+      "inventor": "Jack Kilby and Robert Noyce",
+      "improvement": "Integrated circuits",
+      "whyItMattered": "Placed multiple components in one compact manufacturing process."
+    },
+    {
+      "period": "1957–1960",
+      "inventor": "Atalla, Hoerni and Kahng",
+      "improvement": "Surface passivation, planar process and MOSFET",
+      "whyItMattered": "Created the scalable manufacturing platform for modern chips."
+    },
+    {
+      "period": "1970s–present",
+      "inventor": "Semiconductor industry",
+      "improvement": "Lithography, ion implantation and multilayer interconnect",
+      "whyItMattered": "Enabled exponential increases in device count and function."
+    },
+    {
+      "period": "2000s–present",
+      "inventor": "Global device research",
+      "improvement": "Strained silicon, high-k gates, FinFETs and gate-all-around structures",
+      "whyItMattered": "Continued scaling while controlling leakage and electrostatics."
+    }
+  ],
+  "gallery": [
+    {
+      "fileName": "Bardeen Shockley Brattain 1948.JPG",
+      "alt": "John Bardeen, William Shockley and Walter Brattain at Bell Labs",
+      "credit": "Bell Laboratories",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bardeen_Shockley_Brattain_1948.JPG",
+      "caption": "A Bell Labs publicity photograph of the three researchers later awarded the 1956 Nobel Prize."
+    },
+    {
+      "fileName": "Replica-of-first-transistor.jpg",
+      "alt": "Replica of the first point-contact transistor",
+      "credit": "Lucent Technologies",
+      "license": "CC BY-SA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Replica-of-first-transistor.jpg",
+      "caption": "The replica shows the characteristic triangular contact assembly and germanium crystal."
+    },
+    {
+      "fileName": "Bipolar Junction Transistor NPN Structure.svg",
+      "alt": "Diagram of an NPN bipolar junction transistor structure",
+      "credit": "MovGP0 / Magasjukur2",
+      "license": "CC BY-SA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bipolar_Junction_Transistor_NPN_Structure.svg",
+      "caption": "A simplified cross-section showing emitter, base and collector regions."
+    },
+    {
+      "fileName": "Vintage Regency TR-1 Transistor Radio, The First Commercially Manufactured Transistor Radio In The World (22490767867).jpg",
+      "alt": "Regency TR-1 portable transistor radio",
+      "credit": "Joe Haupt",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vintage_Regency_TR-1_Transistor_Radio,_The_First_Commercially_Manufactured_Transistor_Radio_In_The_World_(22490767867).jpg",
+      "caption": "The 1954 Regency TR-1 made the small size and low power of transistors visible to consumers."
+    },
+    {
+      "fileName": "Kilby's Circuit.jpeg",
+      "alt": "Jack Kilby's early integrated circuit",
+      "credit": "Texas Instruments historical image",
+      "license": "Fair use status varies / historical reference",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kilby%27s_Circuit.jpeg",
+      "caption": "Kilby's hybrid-looking prototype demonstrated that multiple electronic functions could be formed on one semiconductor substrate."
+    }
+  ],
+  "consequences": {
+    "transformed": [
+      {
+        "title": "Portable electronics",
+        "description": "Radios, hearing aids and later phones became smaller, cooler and battery powered."
+      },
+      {
+        "title": "Digital computing",
+        "description": "Reliable fast switches enabled processors, memory and large-scale logic."
+      },
+      {
+        "title": "Communications",
+        "description": "Transistor amplifiers and integrated circuits expanded switching, radio, satellites and optical networks."
+      },
+      {
+        "title": "Control and sensing",
+        "description": "Vehicles, medical equipment, factories and appliances gained embedded electronic control."
+      },
+      {
+        "title": "Scientific instruments",
+        "description": "Low-noise amplifiers and digital processing increased measurement sensitivity and automation."
+      }
+    ],
+    "tradeoffs": [
+      {
+        "title": "Electronic waste",
+        "description": "Rapid replacement cycles create large waste streams containing valuable and hazardous materials."
+      },
+      {
+        "title": "Energy demand",
+        "description": "Individual devices are efficient, but global computing and data infrastructure consume substantial electricity."
+      },
+      {
+        "title": "Supply-chain concentration",
+        "description": "Advanced fabrication depends on specialized equipment, materials and a small number of manufacturers."
+      },
+      {
+        "title": "Surveillance and automation",
+        "description": "Cheap computation enables beneficial services as well as intrusive monitoring and displacement of labour."
+      },
+      {
+        "title": "Material and labour impacts",
+        "description": "Mining, chemical processing and semiconductor fabrication create environmental and workplace risks."
+      }
+    ]
+  },
+  "modernDescendants": [
+    {
+      "title": "Microprocessors",
+      "connection": "Integrate billions of transistor switches into programmable computing systems."
+    },
+    {
+      "title": "Memory chips",
+      "connection": "Use transistor-based cells and charge-storage structures to retain digital information."
+    },
+    {
+      "title": "Power electronics",
+      "connection": "Large transistors efficiently control motors, renewable energy, chargers and electric vehicles."
+    },
+    {
+      "title": "Image sensors",
+      "connection": "Transistor arrays read light-generated charge in cameras and scientific instruments."
+    },
+    {
+      "title": "Quantum and neuromorphic devices",
+      "connection": "Explore new switching and information principles while inheriting semiconductor fabrication methods."
+    }
+  ],
+  "myths": [
+    {
+      "claim": "Shockley alone invented the transistor.",
+      "verdict": "False",
+      "explanation": "Bardeen and Brattain demonstrated the first point-contact device; Shockley led the group and developed junction theory and devices."
+    },
+    {
+      "claim": "The first transistor immediately replaced vacuum tubes everywhere.",
+      "verdict": "False",
+      "explanation": "Early devices were expensive, inconsistent and limited. Tubes remained important while manufacturing improved."
+    },
+    {
+      "claim": "A transistor amplifies without an external power source.",
+      "verdict": "False",
+      "explanation": "The input controls energy supplied by the circuit; conservation of energy still applies."
+    },
+    {
+      "claim": "Modern chips are simply tiny copies of the 1947 point-contact device.",
+      "verdict": "False",
+      "explanation": "Most modern logic uses MOS field-effect transistors made with planar and three-dimensional structures."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Semiconductor",
+      "definition": "A material whose electrical conductivity can be controlled by composition, fields, light or temperature."
+    },
+    {
+      "term": "Doping",
+      "definition": "Adding controlled impurities to change carrier concentration."
+    },
+    {
+      "term": "Electron",
+      "definition": "A negatively charged carrier in a semiconductor conduction band."
+    },
+    {
+      "term": "Hole",
+      "definition": "A mobile absence of an electron that behaves as a positive charge carrier."
+    },
+    {
+      "term": "P–n junction",
+      "definition": "The boundary between p-type and n-type semiconductor regions."
+    },
+    {
+      "term": "Point-contact transistor",
+      "definition": "An early transistor using two closely spaced metal contacts on a semiconductor surface."
+    },
+    {
+      "term": "Bipolar junction transistor",
+      "definition": "A three-layer device in which a small base input controls collector-emitter current."
+    },
+    {
+      "term": "MOSFET",
+      "definition": "A field-effect transistor whose insulated gate controls a conducting channel."
+    },
+    {
+      "term": "Gain",
+      "definition": "Ratio of output signal magnitude or power to input signal magnitude or power."
+    },
+    {
+      "term": "Integrated circuit",
+      "definition": "Multiple electronic components fabricated and interconnected on one substrate."
+    }
+  ],
+  "researchQuestions": [
+    "How did Bell Labs organization and telephone-network needs shape the transistor project?",
+    "Why were surface states such a difficult obstacle to early field-effect devices?",
+    "Which manufacturing innovations mattered most in moving from germanium point contacts to silicon integrated circuits?",
+    "How should credit be divided among device inventors, materials scientists and process engineers?",
+    "What physical and economic limits will shape future transistor scaling?"
+  ],
+  "sources": [
+    {
+      "label": "The Nobel Prize in Physics 1956",
+      "publisher": "Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/physics/1956/summary/",
+      "note": "Official award summary for Bardeen, Brattain and Shockley."
+    },
+    {
+      "label": "John Bardeen Nobel Lecture",
+      "publisher": "Nobel Prize",
+      "url": "https://www.nobelprize.org/uploads/2018/06/bardeen-lecture.pdf",
+      "note": "First-person technical account of ideas and experiments leading to transistor action."
+    },
+    {
+      "label": "William Shockley Nobel Lecture",
+      "publisher": "Nobel Prize",
+      "url": "https://www.nobelprize.org/prizes/physics/1956/shockley/lecture/",
+      "note": "Historical and technical discussion of junction-transistor development."
+    },
+    {
+      "label": "Nokia Bell Labs Awards",
+      "publisher": "Nokia Bell Labs",
+      "url": "https://www.bell-labs.com/about/awards",
+      "note": "Institutional record connecting the 1947 transistor work with the 1956 Nobel Prize."
+    },
+    {
+      "label": "TI germanium point-contact transistor",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_689656",
+      "note": "Museum object record for early commercial transistor production."
+    },
+    {
+      "label": "Smart phones: collecting an electronic montage",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://americanhistory.si.edu/explore/stories/smart-phones-collecting-electronic-montage",
+      "note": "Connects transistor invention to later portable electronics and smartphones."
+    }
+  ]
+};
+
+const programmableComputer: Invention = {
+  "slug": "programmable-computer",
+  "title": "Programmable Computer",
+  "subtitle": "How instructions moved from human operators and punched cards into electronic memory",
+  "category": "Computing & Information",
+  "era": "1800s–1950s",
+  "origin": "Britain, Germany, United States and international wartime laboratories",
+  "statusLine": "There is no single first computer; definitions determine which milestone counts",
+  "summary": [
+    "The programmable computer is not one machine but a convergence of automatic calculation, symbolic instructions, memory, logic, electronic switching and human programming. Charles Babbage's unbuilt Analytical Engine described a general-purpose mechanical architecture with a store, mill, punched-card input, loops and conditional operations. Ada Lovelace recognized that such a machine could manipulate symbols according to rules, not merely calculate tables.",
+    "During the 1930s and 1940s, relay and electronic machines solved different parts of the problem. Zuse's Z3 was programmable and automatic; Colossus was electronic but specialized and secret; ENIAC was large-scale, electronic and general-purpose but initially programmed by wiring and switches. The Manchester Baby demonstrated a program stored in addressable electronic memory in June 1948, while EDSAC soon provided a practical computing service.",
+    "The decisive transformation was software: instructions represented as information that could be stored, copied, modified and executed. Hardware still mattered—memory reliability, vacuum tubes, input/output and fabrication—but the stored-program concept made one machine capable of many tasks."
+  ],
+  "heroImage": {
+    "fileName": "Two women operating ENIAC (full resolution).jpg",
+    "alt": "ENIAC programmers preparing the computer for a demonstration",
+    "credit": "U.S. Army",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Two_women_operating_ENIAC_(full_resolution).jpg",
+    "caption": "Two ENIAC programmers configure the machine. The photograph makes clear that programming originally required detailed physical setup and deep knowledge of the hardware.",
+    "objectPosition": "50% 50%"
+  },
+  "quickFacts": [
+    {
+      "label": "Mechanical general-purpose concept",
+      "value": "Babbage Analytical Engine, conceived from 1834"
+    },
+    {
+      "label": "Early automatic programmable machine",
+      "value": "Zuse Z3, 1941"
+    },
+    {
+      "label": "Large-scale electronic general-purpose machine",
+      "value": "ENIAC, completed 1945 and unveiled 1946"
+    },
+    {
+      "label": "Stored program in read-write electronic memory",
+      "value": "Manchester Baby, 21 June 1948"
+    },
+    {
+      "label": "Practical stored-program service",
+      "value": "EDSAC, 1949"
+    },
+    {
+      "label": "Historical caution",
+      "value": "'First computer' changes with the adjectives: electronic, digital, automatic, general-purpose or stored-program"
+    }
+  ],
+  "necessity": {
+    "headline": "Necessity: science, war and administration demanded calculations faster than people could perform them",
+    "introduction": "Navigation tables, astronomy, census work, engineering, cryptanalysis and artillery calculations generated enormous repetitive workloads. Human computers and desk calculators were skilled but slow, and errors propagated through printed tables and military decisions.",
+    "pressures": [
+      {
+        "title": "Tables contained costly errors",
+        "description": "Hand calculation and typesetting introduced mistakes into navigation, astronomy and engineering references."
+      },
+      {
+        "title": "Wartime calculations exploded",
+        "description": "Ballistics, codebreaking, radar and nuclear research required large volumes of numerical work under severe deadlines."
+      },
+      {
+        "title": "Special-purpose machines lacked flexibility",
+        "description": "A device optimized for one equation or code could not easily solve another problem."
+      },
+      {
+        "title": "Reprogramming hardware was too slow",
+        "description": "Plugboards and switches could configure electronic speed, but setup might take days."
+      }
+    ],
+    "before": [
+      {
+        "method": "Human computers",
+        "strength": "Flexible reasoning and adaptable procedures.",
+        "limit": "Slow, labour-intensive and vulnerable to transcription error."
+      },
+      {
+        "method": "Mechanical calculators",
+        "strength": "Reliable arithmetic for office and scientific work.",
+        "limit": "Required continuous human sequencing and data entry."
+      },
+      {
+        "method": "Punched-card tabulators",
+        "strength": "Processed large administrative datasets efficiently.",
+        "limit": "Primarily data-processing systems with limited general numerical programmability."
+      },
+      {
+        "method": "Analogue computers",
+        "strength": "Solved classes of differential equations and simulations in real time.",
+        "limit": "Accuracy, reconfiguration and representation differed from general digital computation."
+      }
+    ],
+    "decisiveConstraint": "The breakthrough required a machine that could automatically fetch an instruction, operate on data, store results and choose the next instruction. Memory had to be fast and reliable enough to hold both data and control information."
+  },
+  "globalPrehistory": {
+    "introduction": "Computing grew from mathematics, weaving, office machinery, telephony, logic and electrical engineering.",
+    "entries": [
+      {
+        "date": "1801",
+        "place": "France",
+        "title": "Jacquard punched-card control",
+        "description": "Pattern cards controlled loom operations, demonstrating how a physical sequence could encode instructions."
+      },
+      {
+        "date": "1820s–1840s",
+        "place": "Britain",
+        "title": "Babbage Difference and Analytical Engines",
+        "description": "Babbage designed automatic calculation and then a general-purpose programmable architecture using a mill, store and punched cards."
+      },
+      {
+        "date": "1843",
+        "place": "Britain",
+        "title": "Lovelace publishes notes and Bernoulli-number plan",
+        "description": "Ada Lovelace explained how operations could be arranged and anticipated symbolic uses beyond arithmetic."
+      },
+      {
+        "date": "1890",
+        "place": "United States",
+        "title": "Hollerith punched-card tabulation",
+        "description": "Electromechanical data processing accelerated the census and created an industrial path toward business computing."
+      }
+    ]
+  },
+  "people": [
+    {
+      "name": "Charles Babbage",
+      "life": "1791–1871",
+      "role": "Mechanical computer architect",
+      "contribution": "Designed Difference Engines and the general-purpose Analytical Engine with separated store and mill, punched-card control, looping and conditional behavior."
+    },
+    {
+      "name": "Ada Lovelace",
+      "life": "1815–1852",
+      "role": "Analyst and programming visionary",
+      "contribution": "Published detailed notes on the Analytical Engine, including an operation plan and broader interpretation of symbolic computation."
+    },
+    {
+      "name": "Konrad Zuse",
+      "life": "1910–1995",
+      "role": "Relay-computer pioneer",
+      "contribution": "Built programmable binary machines including the operational Z3 in 1941."
+    },
+    {
+      "name": "John Mauchly and J. Presper Eckert",
+      "life": "1907–1980; 1919–1995",
+      "role": "ENIAC designers",
+      "contribution": "Led development of a large-scale electronic general-purpose computer and later commercial systems."
+    },
+    {
+      "name": "ENIAC programming team",
+      "life": "1940s",
+      "role": "Programmers and mathematical operators",
+      "contribution": "Frances Bilas Spence, Jean Jennings Bartik, Ruth Lichterman Teitelbaum, Kathleen McNulty Mauchly Antonelli, Betty Snyder Holberton and Marlyn Wescoff Meltzer developed methods for configuring ENIAC.",
+      "correction": "Their work was long minimized even though programming required translating mathematics into detailed machine operations."
+    },
+    {
+      "name": "Tom Kilburn, Frederic Williams and Geoff Toothill",
+      "life": "1910s–2000s",
+      "role": "Stored-program demonstration team",
+      "contribution": "Built the Manchester Small-Scale Experimental Machine and ran a program from electronic memory in June 1948."
+    },
+    {
+      "name": "Maurice Wilkes",
+      "life": "1913–2010",
+      "role": "Practical stored-program builder",
+      "contribution": "Led EDSAC, which provided a regular computing service and developed useful programming practices including subroutine libraries."
+    }
+  ],
+  "experimentsAndFailures": [
+    {
+      "period": "1820s–1840s",
+      "title": "Babbage construction crisis",
+      "attempt": "Build a large precision mechanical engine with thousands of parts.",
+      "failure": "Cost, changing designs, manufacturing limits and conflict with engineer Joseph Clement stopped construction.",
+      "lesson": "Architecture can exceed contemporary manufacturing and project governance.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "1930s–1940s",
+      "title": "Relay speed limits",
+      "attempt": "Build digital machines from electromechanical telephone relays.",
+      "failure": "Contact movement limited speed and produced wear and noise.",
+      "lesson": "Electronic switching could accelerate calculation dramatically.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "1943–1945",
+      "title": "ENIAC reliability challenge",
+      "attempt": "Use roughly 18,000 vacuum tubes at unprecedented scale.",
+      "failure": "Heat, component failures and wiring complexity threatened operation.",
+      "lesson": "Conservative circuit design, maintenance and modularity could make large electronic systems practical.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "1945–1946",
+      "title": "Programming by cables and switches",
+      "attempt": "Configure ENIAC through panels, plugboards and function tables.",
+      "failure": "A new problem could require lengthy manual rewiring.",
+      "lesson": "Instructions should be encoded and stored rather than embodied in cable layout.",
+      "evidence": "Documented"
+    },
+    {
+      "period": "1946–1949",
+      "title": "Early memory technologies",
+      "attempt": "Use acoustic delay lines, electrostatic tubes or drums.",
+      "failure": "Each method imposed timing, capacity, reliability and access constraints.",
+      "lesson": "Memory architecture became the central determinant of computer design.",
+      "evidence": "Strongly supported"
+    }
+  ],
+  "milestones": [
+    {
+      "year": "1834 onward",
+      "title": "Babbage Analytical Engine",
+      "description": "A general-purpose programmable mechanical design separated memory and processing and used punched-card instruction control."
+    },
+    {
+      "year": "1843",
+      "title": "Lovelace's published notes",
+      "description": "An operation plan and explanation of symbolic potential made programming concepts explicit."
+    },
+    {
+      "year": "1941",
+      "title": "Zuse Z3 operational",
+      "description": "A relay-based automatic programmable binary computer operated in Berlin."
+    },
+    {
+      "year": "1943–1944",
+      "title": "Colossus enters service",
+      "description": "Electronic machines accelerated British cryptanalysis but were specialized and secret."
+    },
+    {
+      "year": "1945–1946",
+      "title": "ENIAC completed and unveiled",
+      "description": "Electronic speed was applied to large-scale general numerical computation.",
+      "pivotal": true
+    },
+    {
+      "year": "1945",
+      "title": "Stored-program architecture described",
+      "description": "The widely circulated EDVAC report articulated sequential instructions stored in memory, building on collaborative discussions."
+    },
+    {
+      "year": "21 June 1948",
+      "title": "Manchester Baby runs from electronic memory",
+      "description": "A 17-instruction program executed from addressable read-write storage."
+    },
+    {
+      "year": "1949",
+      "title": "EDSAC begins practical service",
+      "description": "Cambridge researchers used a stored-program computer for regular scientific work and reusable subroutines."
+    }
+  ],
+  "howItWorks": {
+    "introduction": "A stored-program digital computer represents instructions and data as encoded states in memory. A processor repeatedly fetches an instruction, decodes it, performs an operation and stores a result. Input and output connect the abstract operation sequence to people, instruments and other machines.",
+    "steps": [
+      {
+        "title": "Input encodes data and instructions",
+        "explanation": "Cards, switches, tape, keyboards, sensors or networks convert information into machine-readable form."
+      },
+      {
+        "title": "Memory stores numbered words",
+        "explanation": "Each address holds bits representing data or an instruction."
+      },
+      {
+        "title": "The control unit fetches an instruction",
+        "explanation": "A program counter identifies the next memory location to read."
+      },
+      {
+        "title": "The instruction is decoded",
+        "explanation": "Control circuits interpret the operation code and operand locations."
+      },
+      {
+        "title": "The arithmetic or logic unit acts",
+        "explanation": "Electronic circuits add, compare, shift or perform Boolean operations."
+      },
+      {
+        "title": "Results and next address are stored",
+        "explanation": "The machine writes data and may branch, loop or continue sequentially."
+      }
+    ],
+    "expertNotes": [
+      {
+        "title": "Architecture versus implementation",
+        "explanation": "The same logical model can be built from gears, relays, tubes, transistors or integrated circuits."
+      },
+      {
+        "title": "Stored-program ambiguity",
+        "explanation": "Historians distinguish programs in read-only settings, writable data memory and fully unified instruction/data memory."
+      },
+      {
+        "title": "Instruction set",
+        "explanation": "The operations a processor understands shape compiler design, performance and compatibility."
+      },
+      {
+        "title": "Memory hierarchy",
+        "explanation": "Fast small storage and slower large storage are combined to balance speed, capacity and cost."
+      },
+      {
+        "title": "Programming as engineering",
+        "explanation": "Algorithms, data structures, testing and human interfaces determine usefulness as much as hardware speed."
+      }
+    ]
+  },
+  "anatomy": [
+    {
+      "part": "Memory",
+      "purpose": "Store instructions, data and intermediate results.",
+      "designProblem": "Balance speed, capacity, reliability and cost."
+    },
+    {
+      "part": "Control unit",
+      "purpose": "Fetch and decode instructions and coordinate operations.",
+      "designProblem": "Handle sequencing, branching and timing correctly."
+    },
+    {
+      "part": "Arithmetic and logic unit",
+      "purpose": "Perform numerical and logical operations.",
+      "designProblem": "Achieve speed and precision with manageable hardware."
+    },
+    {
+      "part": "Registers",
+      "purpose": "Hold immediate operands, addresses and state.",
+      "designProblem": "Provide very fast access without excessive complexity."
+    },
+    {
+      "part": "Input system",
+      "purpose": "Enter programs and data.",
+      "designProblem": "Reduce error and support appropriate data rates."
+    },
+    {
+      "part": "Output system",
+      "purpose": "Present or transmit results.",
+      "designProblem": "Convert internal representation into useful human or machine form."
+    },
+    {
+      "part": "Clock and timing",
+      "purpose": "Coordinate state transitions.",
+      "designProblem": "Maintain reliable operation across many components."
+    }
+  ],
+  "improvements": [
+    {
+      "period": "1800s",
+      "inventor": "Babbage and Lovelace",
+      "improvement": "General-purpose architecture and symbolic instruction planning",
+      "whyItMattered": "Separated the idea of a programmable machine from any single calculation."
+    },
+    {
+      "period": "1930s–1940s",
+      "inventor": "Zuse, Aiken, Atanasoff, Berry and others",
+      "improvement": "Automatic binary and electromechanical computation",
+      "whyItMattered": "Demonstrated practical control, representation and sequencing approaches."
+    },
+    {
+      "period": "1940s",
+      "inventor": "Colossus and ENIAC teams",
+      "improvement": "Electronic switching",
+      "whyItMattered": "Increased calculation speed by orders of magnitude."
+    },
+    {
+      "period": "1945–1949",
+      "inventor": "EDVAC, Manchester and EDSAC teams",
+      "improvement": "Stored programs and electronic memory",
+      "whyItMattered": "Made reprogramming faster and established modern architecture."
+    },
+    {
+      "period": "1950s–1960s",
+      "inventor": "Computer industry",
+      "improvement": "Transistors, magnetic core memory and compilers",
+      "whyItMattered": "Improved reliability, reduced size and made programming more productive."
+    },
+    {
+      "period": "1970s–present",
+      "inventor": "Semiconductor and software industries",
+      "improvement": "Microprocessors, integrated memory, networks and graphical interfaces",
+      "whyItMattered": "Made computing personal, mobile, connected and ubiquitous."
+    }
+  ],
+  "gallery": [
+    {
+      "fileName": "Analytical engine trial model, Charles Babbage, 1834-1871 - Science Museum, London - DSC05565.jpg",
+      "alt": "Trial model for Babbage's Analytical Engine",
+      "credit": "Daderot / Science Museum London",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Analytical_engine_trial_model,_Charles_Babbage,_1834-1871_-_Science_Museum,_London_-_DSC05565.jpg",
+      "caption": "A surviving trial assembly demonstrates the precision mechanical logic envisioned for the Analytical Engine."
+    },
+    {
+      "fileName": "PunchedCardsAnalyticalEngine.jpg",
+      "alt": "Punched cards intended for the Analytical Engine",
+      "credit": "Science Museum London / Marcin Wichary",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PunchedCardsAnalyticalEngine.jpg",
+      "caption": "Operation and variable cards adapted ideas from automated weaving to encode instructions and data."
+    },
+    {
+      "fileName": "Reprogramming ENIAC.png",
+      "alt": "ENIAC programmers wiring a new program",
+      "credit": "U.S. Army",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reprogramming_ENIAC.png",
+      "caption": "Programming ENIAC originally meant translating a mathematical plan into switch settings and cable connections."
+    },
+    {
+      "fileName": "Manchester Baby (29060165103).jpg",
+      "alt": "Replica of the Manchester Baby stored-program computer",
+      "credit": "Tom Blackwell",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manchester_Baby_(29060165103).jpg",
+      "caption": "The Baby tested Williams-tube memory and ran a program from electronic storage on 21 June 1948."
+    },
+    {
+      "fileName": "EDSAC (2).jpg",
+      "alt": "EDSAC electronic computer at Cambridge",
+      "credit": "University of Cambridge Computer Laboratory",
+      "license": "Historical educational use",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:EDSAC_(2).jpg",
+      "caption": "EDSAC became one of the first practical stored-program computers to provide a regular service to researchers."
+    }
+  ],
+  "consequences": {
+    "transformed": [
+      {
+        "title": "Science and engineering",
+        "description": "Numerical simulation, data analysis and automated instruments changed what could be studied and designed."
+      },
+      {
+        "title": "Administration and business",
+        "description": "Computers processed payroll, inventory, banking, census and logistics at unprecedented scale."
+      },
+      {
+        "title": "Communication and media",
+        "description": "Digital networks, publishing, audio, video and social platforms became software systems."
+      },
+      {
+        "title": "Automation",
+        "description": "Machines gained programmable control in factories, vehicles, infrastructure and homes."
+      },
+      {
+        "title": "Knowledge access",
+        "description": "Search, digital libraries and online learning made information globally reachable."
+      }
+    ],
+    "tradeoffs": [
+      {
+        "title": "Surveillance and power concentration",
+        "description": "Large-scale data processing enables monitoring and gives platforms and governments substantial control."
+      },
+      {
+        "title": "Labour displacement",
+        "description": "Automation removes some tasks while creating others, often unevenly across workers and regions."
+      },
+      {
+        "title": "Cybersecurity risk",
+        "description": "Connected programmable systems can be attacked, manipulated or disabled remotely."
+      },
+      {
+        "title": "Environmental cost",
+        "description": "Hardware manufacturing, data centres and rapid replacement consume energy and materials."
+      },
+      {
+        "title": "Bias and opacity",
+        "description": "Software and data can encode unfair assumptions while complex systems obscure accountability."
+      }
+    ]
+  },
+  "modernDescendants": [
+    {
+      "title": "Personal computers",
+      "connection": "Package processor, memory, storage and interfaces for individual general-purpose use."
+    },
+    {
+      "title": "Smartphones",
+      "connection": "Combine programmable computing, sensing, communication and media in a pocket device."
+    },
+    {
+      "title": "Cloud computing",
+      "connection": "Pools large programmable systems and storage across data centres, accessed through networks."
+    },
+    {
+      "title": "Embedded systems",
+      "connection": "Place specialized computers inside vehicles, appliances, medical devices and infrastructure."
+    },
+    {
+      "title": "Artificial intelligence accelerators",
+      "connection": "Use programmable and specialized hardware to process statistical models at large scale."
+    }
+  ],
+  "myths": [
+    {
+      "claim": "There is one undisputed first computer.",
+      "verdict": "False",
+      "explanation": "Different machines qualify depending on whether the definition requires electronic, digital, automatic, general-purpose or stored-program operation."
+    },
+    {
+      "claim": "Ada Lovelace wrote software for a completed computer.",
+      "verdict": "False",
+      "explanation": "The Analytical Engine was not completed; her published operation plan was for a proposed machine and remains historically important."
+    },
+    {
+      "claim": "ENIAC was programmed by men while women only operated it.",
+      "verdict": "False",
+      "explanation": "The women programmers developed detailed machine programs and configuration methods for difficult mathematical tasks."
+    },
+    {
+      "claim": "The stored-program idea belongs unquestionably to one person.",
+      "verdict": "False",
+      "explanation": "The architecture emerged from collaborative discussions and earlier concepts; attribution remains historically contested."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Program",
+      "definition": "An ordered set of encoded instructions for a machine."
+    },
+    {
+      "term": "Stored program",
+      "definition": "Instructions held in machine memory rather than fixed only by wiring or mechanical arrangement."
+    },
+    {
+      "term": "Digital",
+      "definition": "Representing information using discrete states such as binary digits."
+    },
+    {
+      "term": "General-purpose",
+      "definition": "Capable of performing many tasks through changed programs rather than being built for only one function."
+    },
+    {
+      "term": "Instruction",
+      "definition": "An encoded command specifying an operation and often operands or addresses."
+    },
+    {
+      "term": "Memory address",
+      "definition": "A numerical identifier for a storage location."
+    },
+    {
+      "term": "Conditional branch",
+      "definition": "An instruction that changes program flow depending on a test result."
+    },
+    {
+      "term": "Subroutine",
+      "definition": "A reusable sequence of instructions called from other parts of a program."
+    },
+    {
+      "term": "Vacuum tube",
+      "definition": "An electronic component that controlled current and enabled high-speed switching before transistors."
+    },
+    {
+      "term": "Compiler",
+      "definition": "Software that translates a higher-level programming language into machine instructions."
+    }
+  ],
+  "researchQuestions": [
+    "Which definition of 'first computer' is most useful for different historical questions?",
+    "How much of the stored-program architecture emerged from collaborative ENIAC and EDVAC work?",
+    "How did wartime secrecy distort public recognition of Colossus and its engineers?",
+    "What did the ENIAC programmers contribute to programming practice beyond operating the hardware?",
+    "How did memory technology shape early programming languages and computer architecture?"
+  ],
+  "sources": [
+    {
+      "label": "The Engines: Babbage Engine",
+      "publisher": "Computer History Museum",
+      "url": "https://www.computerhistory.org/babbage/engines/",
+      "note": "Authoritative technical history of the Difference and Analytical Engines."
+    },
+    {
+      "label": "Timeline of Computer History",
+      "publisher": "Computer History Museum",
+      "url": "https://www.computerhistory.org/timeline/computers/",
+      "note": "Curated chronology covering ENIAC, Manchester Baby, EDSAC and later systems."
+    },
+    {
+      "label": "The Neverending Quest for Firsts",
+      "publisher": "Computer History Museum",
+      "url": "https://computerhistory.org/blog/the-neverending-quest-for-firsts/",
+      "note": "Explains why competing definitions produce different first-computer claims."
+    },
+    {
+      "label": "Programming the ENIAC",
+      "publisher": "Computer History Museum",
+      "url": "https://computerhistory.org/blog/programming-the-eniac-an-example-of-why-computer-history-is-hard/",
+      "note": "Research-based discussion of ENIAC programming and stored-program conversion."
+    },
+    {
+      "label": "ENIAC Accumulator",
+      "publisher": "Smithsonian National Museum of American History",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_334743",
+      "note": "Museum object evidence for ENIAC hardware and its scale."
+    },
+    {
+      "label": "Manchester Baby history",
+      "publisher": "University of Manchester",
+      "url": "https://www.computer50.org/mark1/new.baby.html",
+      "note": "Institutional history of the Small-Scale Experimental Machine and its first program."
+    }
+  ]
+};
+
 export const INVENTIONS: readonly Invention[] = [
   steamEngine,
   printingPress,
   electricalTelegraph,
   electricLight,
   airplane,
+  telephone,
+  automobile,
+  mechanicalRefrigeration,
+  transistor,
+  programmableComputer,
 ];
 
 export function getInvention(slug: string) {

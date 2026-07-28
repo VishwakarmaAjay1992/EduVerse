@@ -76,7 +76,7 @@ Open `/learning-hub` for the organized Learn, Explore, Tools, Practice and Resou
 
 ## Human History Inventions
 
-Open `/inventions` for full necessity-to-legacy histories of the Steam Engine and Printing Press. The collection is data-driven and ready for future additions. See `documentation/HUMAN-HISTORY-INVENTIONS.md` for the extension guide.
+Open `/inventions` for ten full necessity-to-legacy histories covering power, printing, communication, lighting, flight, road transport, refrigeration, semiconductors and computing. The collection is data-driven and ready for future additions. See `documentation/HUMAN-HISTORY-INVENTIONS.md` for the extension guide.
 
 ## Project structure
 

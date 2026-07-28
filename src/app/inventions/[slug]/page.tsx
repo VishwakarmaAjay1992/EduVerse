@@ -32,7 +32,7 @@ import { SiteHeader } from "@/components/site-header";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { INVENTIONS, getInvention } from "@/data/inventions";
+import { INVENTIONS, commonsImageUrl, getInvention } from "@/data/inventions";
 
 export function generateStaticParams() {
   return INVENTIONS.map((invention) => ({ slug: invention.slug }));
@@ -55,6 +55,20 @@ export async function generateMetadata({
       title: invention.title,
       description: invention.subtitle,
       type: "article",
+      images: [
+        {
+          url: commonsImageUrl(invention.heroImage.fileName, 1200),
+          width: 1200,
+          height: 864,
+          alt: invention.heroImage.alt,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: invention.title,
+      description: invention.subtitle,
+      images: [commonsImageUrl(invention.heroImage.fileName, 1200)],
     },
   };
 }

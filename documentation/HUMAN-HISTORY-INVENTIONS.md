@@ -7,6 +7,11 @@ The invention-history collection lives at `/inventions`. The collection includes
 - `/inventions/electrical-telegraph`
 - `/inventions/electric-light`
 - `/inventions/airplane`
+- `/inventions/telephone`
+- `/inventions/automobile`
+- `/inventions/mechanical-refrigeration`
+- `/inventions/transistor`
+- `/inventions/programmable-computer`
 
 Each dossier follows the same research structure: necessity, earlier methods, global prior art, contributors, experiments and failures, milestones, working principle, anatomy, later improvements, real historical objects, consequences, modern descendants, myths, glossary, research questions and selected sources.
 
