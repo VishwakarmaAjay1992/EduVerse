@@ -249,7 +249,7 @@ function AirplaneDiagram() {
 }
 
 function TelephoneDiagram() {
-  const stages = [
+  const stages: Array<[string, string]> = [
     ["Voice", "Air-pressure variations enter the transmitter"],
     ["Diaphragm", "A thin membrane vibrates with the sound"],
     ["Transducer", "Motion changes an electrical signal"],
@@ -275,7 +275,7 @@ function TelephoneDiagram() {
 }
 
 function AutomobileDiagram() {
-  const stages = [
+  const stages: Array<[string, string]> = [
     ["Fuel + air", "A combustible mixture enters the cylinder"],
     ["Combustion", "Ignition produces high-pressure gas"],
     ["Piston", "Gas pressure creates reciprocating motion"],
@@ -446,8 +446,8 @@ function ProcessDiagram({
   eyebrow: string;
   title: string;
   description: string;
-  stages: string[][];
-  insights: string[][];
+  stages: Array<[string, string]>;
+  insights: Array<[string, string]>;
   accent: "violet" | "rose";
 }) {
   const palette =
