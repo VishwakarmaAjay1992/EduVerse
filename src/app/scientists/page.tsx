@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, BookOpenCheck, LibraryBig, Microscope, Sparkles } from "lucide-react";
 import { ScientistDirectory } from "@/components/scientists/scientist-directory";
@@ -22,73 +23,93 @@ export default function ScientistsPage() {
     <>
       <SiteHeader />
       <main>
-        <section className="relative overflow-hidden border-b bg-gradient-to-b from-muted/70 via-background to-background">
-          <div className="pointer-events-none absolute inset-0 opacity-50 [background-image:radial-gradient(circle_at_20%_20%,hsl(var(--foreground)/0.08)_0,transparent_28%),radial-gradient(circle_at_80%_10%,hsl(var(--foreground)/0.06)_0,transparent_22%)]" />
-          <div className="container relative py-14 sm:py-28">
-            <div className="mx-auto max-w-4xl text-center">
-              <div className="mb-5 inline-flex items-center gap-2 rounded-full border bg-background/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] shadow-sm backdrop-blur">
+        <section className="relative min-h-[620px] overflow-hidden border-b bg-[#0b0908] text-white lg:min-h-[720px]">
+          <Image
+            src="/images/scientists/scientists-hero-collage.webp"
+            alt="Collage of influential scientists, vintage scientific portraits and historical diagrams"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover object-center"
+          />
+          <div
+            className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[#0b0908] via-[#0b0908]/92 to-[#0b0908]/40"
+            aria-hidden="true"
+          />
+          <div
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0b0908]/80 via-transparent to-[#0b0908]/40"
+            aria-hidden="true"
+          />
+          <div className="container relative flex min-h-[620px] items-center py-12 sm:py-16 lg:min-h-[720px]">
+            <div className="max-w-3xl">
+              <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-amber-200/30 bg-black/25 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-amber-100 shadow-sm backdrop-blur-sm">
                 <Sparkles className="size-4" aria-hidden="true" />
                 Expanded collection
               </div>
-              <h1 className="text-balance text-3xl font-bold tracking-tight sm:text-6xl">
+              <h1 className="max-w-3xl text-balance text-4xl font-bold tracking-tight text-white drop-shadow-2xl sm:text-6xl lg:text-7xl">
                 {SCIENTISTS.length} Influential Scientists
               </h1>
-              <p className="mx-auto mt-5 max-w-3xl text-balance text-base leading-7 text-muted-foreground sm:mt-6 sm:text-lg sm:leading-8">
+              <p className="mt-5 max-w-3xl text-balance text-base leading-7 text-white/85 drop-shadow-lg sm:mt-6 sm:text-lg sm:leading-8">
                 Explore the ideas, experiments, early-life struggles, inspirations, political pressures,
                 scientific backlashes and original records behind {SCIENTISTS.length} of history&apos;s most
                 influential scientific lives.
               </p>
-              <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-muted-foreground">
+              <p className="mt-4 max-w-2xl text-sm leading-6 text-white/72">
                 “Influential” is used as a curated introduction rather than an absolute ranking. Scientific
                 progress is collaborative, crosses cultures and includes many more people than a
                 single collection can represent. This collection is designed to expand.
               </p>
-              <div className="mx-auto mt-8 flex w-full max-w-sm flex-col justify-center gap-3 sm:max-w-none sm:flex-row sm:flex-wrap">
-                <Button asChild size="lg">
+              <div className="mt-8 flex w-full max-w-sm flex-col gap-3 sm:max-w-none sm:flex-row sm:flex-wrap">
+                <Button asChild size="lg" className="bg-amber-100 text-black hover:bg-amber-100/90">
                   <a href="#directory">
                     Browse scientists <ArrowRight aria-hidden="true" />
                   </a>
                 </Button>
-                <Button asChild size="lg" variant="outline">
+                <Button
+                  asChild
+                  size="lg"
+                  variant="outline"
+                  className="border-white/25 bg-black/20 text-white hover:bg-white/10 hover:text-white"
+                >
                   <Link href="/subjects">Explore subjects</Link>
                 </Button>
               </div>
-            </div>
 
-            <div className="mx-auto mt-14 grid max-w-4xl gap-4 sm:grid-cols-3">
-              <Card className="bg-background/80 shadow-sm backdrop-blur">
-                <CardContent className="flex items-center gap-4 p-5">
-                  <div className="rounded-lg bg-secondary p-3">
+              <div className="mt-10 grid max-w-4xl gap-4 sm:grid-cols-3">
+                <Card className="border-white/10 bg-black/35 text-white shadow-sm backdrop-blur-sm">
+                  <CardContent className="flex items-center gap-4 p-5">
+                    <div className="rounded-lg bg-white/10 p-3 text-amber-100">
                     <Microscope className="size-5" aria-hidden="true" />
                   </div>
                   <div>
                     <p className="text-2xl font-bold">{SCIENTISTS.length}</p>
-                    <p className="text-xs text-muted-foreground">Founding profiles</p>
+                    <p className="text-xs text-white/70">Founding profiles</p>
                   </div>
                 </CardContent>
               </Card>
-              <Card className="bg-background/80 shadow-sm backdrop-blur">
-                <CardContent className="flex items-center gap-4 p-5">
-                  <div className="rounded-lg bg-secondary p-3">
+                <Card className="border-white/10 bg-black/35 text-white shadow-sm backdrop-blur-sm">
+                  <CardContent className="flex items-center gap-4 p-5">
+                    <div className="rounded-lg bg-white/10 p-3 text-amber-100">
                     <LibraryBig className="size-5" aria-hidden="true" />
                   </div>
                   <div>
                     <p className="text-2xl font-bold">{fieldCount}</p>
-                    <p className="text-xs text-muted-foreground">Scientific fields</p>
+                    <p className="text-xs text-white/70">Scientific fields</p>
                   </div>
                 </CardContent>
               </Card>
-              <Card className="bg-background/80 shadow-sm backdrop-blur">
-                <CardContent className="flex items-center gap-4 p-5">
-                  <div className="rounded-lg bg-secondary p-3">
+                <Card className="border-white/10 bg-black/35 text-white shadow-sm backdrop-blur-sm">
+                  <CardContent className="flex items-center gap-4 p-5">
+                    <div className="rounded-lg bg-white/10 p-3 text-amber-100">
                     <BookOpenCheck className="size-5" aria-hidden="true" />
                   </div>
                   <div>
                     <p className="text-2xl font-bold">{sourceCount}</p>
-                    <p className="text-xs text-muted-foreground">Research references</p>
+                    <p className="text-xs text-white/70">Research references</p>
                   </div>
                 </CardContent>
               </Card>
+              </div>
             </div>
           </div>
         </section>
